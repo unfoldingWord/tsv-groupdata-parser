@@ -1,5 +1,9 @@
 # tsv-groupdata-parser
 
+[![Build Status](https://api.travis-ci.org/translationCoreApps/tsv-groupdata-parser.svg?branch=master)](https://travis-ci.org/translationCoreApps/tsv-groupdata-parser) 
+[![npm](https://img.shields.io/npm/dt/tsv-groupdata-parser.svg)](https://www.npmjs.com/package/tsv-groupdata-parser)
+[![npm](https://img.shields.io/npm/v/tsv-groupdata-parser.svg)](https://www.npmjs.com/package/tsv-groupdata-parser)
+
 ## Usage
 
 ```js
