@@ -1,0 +1,40 @@
+{
+  "name": "tsv-groupdata-parser",
+  "version": "0.2.5",
+  "description": "Parses the translationNotes TSVs files and generates the GroupIndex and GroupData used by translationCore Desktop app",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest",
+    "prebuild": "rm -rf ./lib",
+    "build": "babel src -d lib",
+    "prepublishOnly": "npm test && npm run build",
+    "postpublish": "git tag v$npm_package_version && git push origin v$npm_package_version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/translationCoreApps/tsv-groupdata-parser.git"
+  },
+  "keywords": [
+    "tsv",
+    "translationNotes",
+    "parser"
+  ],
+  "author": "@unfoldingword",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/translationCoreApps/tsv-groupdata-parser/issues"
+  },
+  "homepage": "https://github.com/translationCoreApps/tsv-groupdata-parser#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-transform-async-to-generator": "^7.2.0",
+    "@babel/preset-env": "^7.3.1",
+    "babel-jest": "^24.1.0",
+    "jest": "^24.1.0"
+  },
+  "dependencies": {
+    "fs-extra": "^7.0.1",
+    "tsvtojson": "^1.0.1"
+  }
+}
