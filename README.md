@@ -4,6 +4,8 @@
 [![npm](https://img.shields.io/npm/dt/tsv-groupdata-parser.svg)](https://www.npmjs.com/package/tsv-groupdata-parser)
 [![npm](https://img.shields.io/npm/v/tsv-groupdata-parser.svg)](https://www.npmjs.com/package/tsv-groupdata-parser)
 
+Parses the translationNotes TSVs files to generate the GroupIndex and GroupData to be used by the translationCore Desktop app.
+
 ## Usage
 
 ```js
