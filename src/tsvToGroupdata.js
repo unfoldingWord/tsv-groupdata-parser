@@ -28,23 +28,23 @@ import tsvtojson from 'tsvtojson'
     figs-explicit: [{...}],
  */
 export const tsvToGroupdata = async (filepath, toolName) => {
-  const groupIds = {}
+  const groupData = {}
   const tsvObjects = await tsvtojson(filepath)
 
   tsvObjects.map((tsvItem) => {
     if (tsvItem.SupportReference) {
-      if (groupIds[tsvItem.SupportReference]) {
-        groupIds[tsvItem.SupportReference].push(generateGroupdata(tsvItem, toolName))
+      if (groupData[tsvItem.SupportReference]) {
+        groupData[tsvItem.SupportReference].push(generateGroupdataItem(tsvItem, toolName))
       } else{
-        groupIds[tsvItem.SupportReference] = [generateGroupdata(tsvItem, toolName)]
+        groupData[tsvItem.SupportReference] = [generateGroupdataItem(tsvItem, toolName)]
       }
     }
   })
 
-  return groupIds;
+  return groupData;
 }
 
-export const generateGroupdata = (tsv, toolName) => {
+export const generateGroupdataItem = (tsv, toolName) => {
   return {
     contextId: {
       occurrenceNote: tsv.OccurrenceNote,
