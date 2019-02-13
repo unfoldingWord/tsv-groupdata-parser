@@ -27,16 +27,16 @@ import tsvtojson from 'tsvtojson'
     figs-ellipsis: [{...}, ...],
     figs-explicit: [{...}],
  */
-export const tsvToGroupdata = async (filepath, toolName) => {
+export const tsvToGroupData = async (filepath, toolName) => {
   const groupData = {}
   const tsvObjects = await tsvtojson(filepath)
 
   tsvObjects.map((tsvItem) => {
     if (tsvItem.SupportReference) {
       if (groupData[tsvItem.SupportReference]) {
-        groupData[tsvItem.SupportReference].push(generateGroupdataItem(tsvItem, toolName))
+        groupData[tsvItem.SupportReference].push(generateGroupDataItem(tsvItem, toolName))
       } else{
-        groupData[tsvItem.SupportReference] = [generateGroupdataItem(tsvItem, toolName)]
+        groupData[tsvItem.SupportReference] = [generateGroupDataItem(tsvItem, toolName)]
       }
     }
   })
@@ -44,7 +44,7 @@ export const tsvToGroupdata = async (filepath, toolName) => {
   return groupData;
 }
 
-export const generateGroupdataItem = (tsv, toolName) => {
+export const generateGroupDataItem = (tsv, toolName) => {
   return {
     contextId: {
       occurrenceNote: tsv.OccurrenceNote,

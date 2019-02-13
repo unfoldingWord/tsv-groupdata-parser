@@ -35,6 +35,7 @@
   },
   "dependencies": {
     "fs-extra": "^7.0.1",
+    "path-extra": "^4.2.1",
     "tsvtojson": "^1.0.1"
   }
 }
