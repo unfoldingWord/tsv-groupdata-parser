@@ -1,11 +1,19 @@
-export {
+import {
   tsvToGroupData
 } from './tsvToGroupData'
-export {
+import {
   getCategoryForGroupId,
   categorizeGroupData,
   tNotesCategories
 } from './tNoteGroupIdCategorization'
-export {
+import {
   formatAndSaveGroupData
 } from './filesystemHelpers'
+
+export {
+  tsvToGroupData,
+  getCategoryForGroupId,
+  categorizeGroupData,
+  tNotesCategories,
+  formatAndSaveGroupData
+}
