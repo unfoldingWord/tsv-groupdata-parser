@@ -1,9 +1,11 @@
 import tsvtojson from 'tsvtojson'
-
+import { categorizeGroupData } from './tNoteGroupIdCategorization'
 /**
  * Parses a book tN TSVs and returns an object holding the lists of group ids.
  * @param {string} filepath path to tsv file.
  * @param {string} toolName tC tool name.
+ * @param {object} params When includes { categorized: true } then it returns the
+ * object organized by tn article category.
  * @returns an object with the lists of group ids.
  * {
     figs-metaphor: [
@@ -11,7 +13,7 @@ import tsvtojson from 'tsvtojson'
         "contextId": {
           "occurrenceNote": "",
           "reference": {
-            
+
           },
           "tool": "",
           "groupId": "",
@@ -27,7 +29,7 @@ import tsvtojson from 'tsvtojson'
     figs-ellipsis: [{...}, ...],
     figs-explicit: [{...}],
  */
-export const tsvToGroupData = async (filepath, toolName) => {
+export const tsvToGroupData = async (filepath, toolName, params = {}) => {
   const groupData = {}
   const tsvObjects = await tsvtojson(filepath)
 
@@ -41,7 +43,7 @@ export const tsvToGroupData = async (filepath, toolName) => {
     }
   })
 
-  return groupData;
+  return params.categorized ? categorizeGroupData(groupData) : groupData;
 }
 
 export const generateGroupDataItem = (tsv, toolName) => {

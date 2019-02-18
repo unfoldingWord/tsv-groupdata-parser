@@ -69,7 +69,7 @@ export const getCategoryForGroupId = (groupId) => {
  * array of contextIds for each groupId.
  * @returns The group data categorized into five categories:
  * lexical, figures, cultural, morphological and other.
- * 
+ *
  * {
     lexical: {},
     figures: {
