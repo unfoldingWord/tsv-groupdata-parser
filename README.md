@@ -17,12 +17,16 @@ Parses the translationNotes TSVs files to generate the GroupIndex and GroupData 
 
   // tsvToGroupData() example
   const filepath = '__tests__/fixtures/tsv/en_tn_57-TIT.tsv';
-  const groupData = await tsvToGroupData(filepath, "translationNotes");
 
-  // or
   tsvToGroupData(filepath, "translationNotes").then((data) => {
     const groupData = data;
   });
+
+  // Or with async/await
+  const groupData = await tsvToGroupData(filepath, "translationNotes");
+
+  // tsvToGroupData() example with categorized group data.
+  const categorizedGroupData = await tsvToGroupData(filepath, "translationNotes", { categorized: true });
 
   // categorizeGroupData() example
   const categorizedGroupData = categorizeGroupData(groupData)
