@@ -10,6 +10,10 @@ import { categorizeGroupData } from './tNoteGroupIdCategorization'
  * {
     figs-metaphor: [
       {
+        "comments": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false,
         "contextId": {
           "occurrenceNote": "",
           "reference": {
@@ -48,6 +52,10 @@ export const tsvToGroupData = async (filepath, toolName, params = {}) => {
 
 export const generateGroupDataItem = (tsv, toolName) => {
   return {
+    comments: false,
+    reminders: false,
+    selections: false,
+    verseEdits: false,
     contextId: {
       occurrenceNote: tsv.OccurrenceNote,
       reference: {
