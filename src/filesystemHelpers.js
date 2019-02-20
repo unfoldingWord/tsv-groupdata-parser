@@ -20,7 +20,7 @@ export const formatAndSaveGroupData = (categorizedGroupData, rootDestinationPath
           const groupData = categoryData[groupId]
           const savePath = path.join(rootDestinationPath, categoryName, 'groups', bookId, filename)
 
-          fs.outputJsonSync(savePath, groupData)
+          fs.outputJsonSync(savePath, groupData, {spaces: 2})
         })
       })
       resolve()
