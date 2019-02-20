@@ -52,6 +52,11 @@ export const tsvToGroupData = async (filepath, toolName, params = {}) => {
   return params.categorized ? categorizeGroupData(groupData) : groupData;
 }
 
+/**
+ * Cleans an incorrectly formatted group id.
+ * @param {string} groupId group id string that was posibly incorrectly formatted.
+ * @returns correctly formatted group id.
+ */
 export const cleanGroupId = (groupId) => {
   const subStrings = groupId.replace(/translate:|translate\//gi, '').split(/[_\/:]/g)
 
@@ -64,6 +69,12 @@ export const cleanGroupId = (groupId) => {
   }
 }
 
+/**
+ * Returns the formatted groupData item for a given tsv item.
+ * @param {object} tsv tsv item.
+ * @param {string} toolName tool name.
+ * @returns {object} groupData item.
+ */
 const generateGroupDataItem = (tsv, toolName) => {
   return {
     comments: false,
