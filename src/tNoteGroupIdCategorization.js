@@ -87,18 +87,10 @@ export const getCategoryForGroupId = (groupId) => {
 export const categorizeGroupData = groupData => {
   const categorizedGroupData = {
     lexical: {},
-    figures: {
-      'figs-metaphor': []
-    },
-    cultural: {
-      'figs-explicit': []
-    },
-    morphological: {
-      'figs-activepassive': []
-    },
-    other: {
-      'figs-abstractnouns': [],
-    }
+    figures: {},
+    cultural: {},
+    morphological: {},
+    other: {}
   }
 
   Object.keys(groupData).forEach(groupId => {
