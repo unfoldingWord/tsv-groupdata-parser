@@ -40,6 +40,7 @@ export const tsvToGroupData = async (filepath, toolName, params = {}) => {
 
   tsvObjects.map((tsvItem) => {
     if (tsvItem.SupportReference) {
+      cleanGroupId(tsvItem.SupportReference)
       if (groupData[tsvItem.SupportReference]) {
         groupData[tsvItem.SupportReference].push(generateGroupDataItem(tsvItem, toolName))
       } else{
@@ -49,6 +50,18 @@ export const tsvToGroupData = async (filepath, toolName, params = {}) => {
   })
 
   return params.categorized ? categorizeGroupData(groupData) : groupData;
+}
+
+export const cleanGroupId = (groupId) => {
+  const subStrings = groupId.replace(/translate:|translate\//gi, '').split(/[_\/:]/g)
+
+  if (subStrings.length === 1) {
+    return subStrings[0];
+  } else if (subStrings.length === 2) {
+    return subStrings.join('-')
+  } else {
+    return groupId;
+  }
 }
 
 const generateGroupDataItem = (tsv, toolName) => {
