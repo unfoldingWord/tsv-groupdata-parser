@@ -1,13 +1,14 @@
 import tsvtojson from 'tsvtojson'
 import { categorizeGroupData } from './tNoteGroupIdCategorization'
-/**
- * Parses a book tN TSVs and returns an object holding the lists of group ids.
- * @param {string} filepath path to tsv file.
- * @param {string} toolName tC tool name.
- * @param {object} params When includes { categorized: true } then it returns the
- * object organized by tn article category.
- * @returns an object with the lists of group ids.
- * {
+
+ /**
+  * Parses a book tN TSVs and returns an object holding the lists of group ids.
+  * @param {string} filepath path to tsv file.
+  * @param {string} toolName tC tool name.
+  * @param {*} params When includes { categorized: true } then it returns the
+  * object organized by tn article category.
+  * @returns an object with the lists of group ids.
+  * {
     figs-metaphor: [
       {
         "comments": false,
