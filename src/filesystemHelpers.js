@@ -29,3 +29,16 @@ export const formatAndSaveGroupData = (categorizedGroupData, rootDestinationPath
     }
   })
 }
+
+/**
+ * Persists the groupsIndex for each of the tN group category.
+ * (lexical, figures, cultural, morphological and other).
+ * @param {object} categorizedGroupsIndex categorized groupsIndex.
+ * @param {string} outputPath path to the tN categories folders.
+ */
+export const saveGroupsIndex = (categorizedGroupsIndex, outputPath) => {
+  Object.keys(categorizedGroupsIndex).forEach(categoryName => {
+    const categoryGroupsIndex = categorizedGroupsIndex[categoryName];
+    fs.outputJsonSync(path.join(outputPath, 'index.json'), categoryGroupsIndex, {spaces:2})
+  })
+}

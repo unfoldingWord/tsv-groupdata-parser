@@ -7,5 +7,9 @@ export {
   tNotesCategories
 } from './tNoteGroupIdCategorization'
 export {
-  formatAndSaveGroupData
+  formatAndSaveGroupData,
+  saveGroupsIndex
 } from './filesystemHelpers'
+export {
+  generateGroupsIndex
+} from './groupsIndexHelpers'

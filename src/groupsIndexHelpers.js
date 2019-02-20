@@ -2,7 +2,7 @@ import fs from 'fs-extra'
 import path from 'path-extra'
 
 export const generateGroupsIndex = (tnCategoriesPath, taCategoriesPath) => {
-  const categoriesGroupsIndex = {
+  const categorizedGroupsIndex = {
     lexical: [],
     figures: [],
     cultural: [],
@@ -32,15 +32,15 @@ export const generateGroupsIndex = (tnCategoriesPath, taCategoriesPath) => {
           const groupIndexItem = getGroupIndex(groupId, groupName);
 
           // Only add the groupIndexItem if it isnt already in the category's groups index.
-          if (!categoriesGroupsIndex[categoryName].some(e => e.id === groupIndexItem.id)) {
-            categoriesGroupsIndex[categoryName].push(groupIndexItem)// adding group Index Item
+          if (!categorizedGroupsIndex[categoryName].some(e => e.id === groupIndexItem.id)) {
+            categorizedGroupsIndex[categoryName].push(groupIndexItem)// adding group Index Item
           }
         }
       })
     })
   })
 
-  return categoriesGroupsIndex;
+  return categorizedGroupsIndex;
 }
 
 const getArticleCategory = (occurrenceNote) => {
@@ -64,4 +64,3 @@ const getGroupIndex = (groupId, groupName) => {
     name: groupName
   }
 }
-

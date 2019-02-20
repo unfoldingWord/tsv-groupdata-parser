@@ -50,7 +50,7 @@ export const tsvToGroupData = async (filepath, toolName, params = {}) => {
   return params.categorized ? categorizeGroupData(groupData) : groupData;
 }
 
-export const generateGroupDataItem = (tsv, toolName) => {
+const generateGroupDataItem = (tsv, toolName) => {
   return {
     comments: false,
     reminders: false,
