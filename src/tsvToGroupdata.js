@@ -77,16 +77,40 @@ export const cleanGroupId = (groupId) => {
  * @returns {string} occurrenceNote with clean/fixed tA links.
  */
 export const cleanArticleLink = (occurrenceNote) => {
-  const cutEnd = occurrenceNote.search("rc://en/ta/man/")
+  let noteWithFixedLink = ''
+  const linkSubstring = "rc://en/ta/man/"
+  const cutEnd = occurrenceNote.search(linkSubstring)
   const groupId = (occurrenceNote.substr(0, 0) + occurrenceNote.substr(cutEnd + 1))
     .replace("c://en/ta/man/", "")
     .replace("]])", "")
-  const cleanedGropId = cleanGroupId(groupId)
   const stringFirstPart = occurrenceNote.slice(0, cutEnd)
-  const goodLink = `rc://en/ta/man/translate/${cleanedGropId}]])`
-  const noteWithFixedLink = stringFirstPart + goodLink
 
-  return noteWithFixedLink;
+  if (groupId.includes(linkSubstring)) { // handle multiple links in the same note.
+    const joint = " and "
+    const multipleLinksSubstrings = groupId.split(joint)
+    const lastItem = multipleLinksSubstrings.length - 1
+    let goodLinks = ""
+
+    multipleLinksSubstrings.forEach((substring, index) => {
+      const linkString = substring.replace("[[rc://en/ta/man/", "").replace("]]", "")
+      const cleanedGropId = cleanGroupId(linkString)
+
+      if (index === 0) {
+        goodLinks = goodLinks + `rc://en/ta/man/translate/${cleanedGropId}]]` + joint
+      } else if (index !== lastItem) {
+        goodLinks = goodLinks + `[[rc://en/ta/man/translate/${cleanedGropId}]]` + joint
+      } else if (index === lastItem) {
+        goodLinks = goodLinks + `[[rc://en/ta/man/translate/${cleanedGropId}]])`
+      }
+    })
+    noteWithFixedLink = stringFirstPart + goodLinks
+  } else {// only one link in the note
+    const cleanedGropId = cleanGroupId(groupId)
+    const goodLink = `rc://en/ta/man/translate/${cleanedGropId}]])`
+    noteWithFixedLink = stringFirstPart + goodLink
+  }
+
+  return noteWithFixedLink
 }
 
 /**

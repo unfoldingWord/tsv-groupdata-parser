@@ -47,7 +47,7 @@ describe('cleanGroupId()', () => {
 })
 
 describe('cleanArticleLink()', () => {
-  test('', () => {
+  test('fixes tA broken links', () => {
     const testItems = {
       "translate/writing-background": "translate/writing-background",
       "translate/writing_background": "translate/writing-background",
@@ -64,6 +64,18 @@ describe('cleanArticleLink()', () => {
       const cleanedLink = `This verse is background information for the description of the events that follow. (See: [[rc://en/ta/man/${goodLink}]])`
 
       expect(cleanArticleLink(withBrokenLink)).toBe(cleanedLink)
+    })
+  })
+
+  test('Handles multiple tA links in a note.', () => {
+    const notes = [
+      "A person who cannot control themselves and drinks too much wine is spoken of as if the person were a slave to the wine. This can be stated in active form. Alternate translation: \"and not drinking too much wine\" or \"and not addicted to wine\" (See: [[rc://en/ta/man/translate/figs-metaphor]] and [[rc://en/ta/man/translate/figs-activepassive]])",
+      "\"Word\" here is a metonym for \"message,\" which in turn is a metonym for God himself. This can be stated in active form. Alternate translation: \"so that no one insults God's word\" or \"so that no one insults God by saying bad things about his message\" (See: [[rc://en/ta/man/translate/figs-activepassive]] and [[rc://en/ta/man/translate/figs-metonymy]])",
+      "Passion and pleasure are spoken of as if they were masters over people and had made those people into slaves by lying to them. This can be translated in active form. Alternate translation: \"Various passions and pleasures had lied to us and so led us astray\" or \"We had allowed ourselves to believe the lie that various passions and pleasures could make us happy, and then we were unable to control our feelings or stop doing things we thought would give us pleasure\" (See: [[rc://en/ta/man/translate/figs-personification]] and [[rc://en/ta/man/translate/figs-activepassive]])",
+    ]
+
+    notes.forEach(note => {
+      expect(cleanArticleLink(note)).toBe(note)
     })
   })
 })
