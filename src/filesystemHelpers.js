@@ -39,6 +39,6 @@ export const formatAndSaveGroupData = (categorizedGroupData, rootDestinationPath
 export const saveGroupsIndex = (categorizedGroupsIndex, outputPath) => {
   Object.keys(categorizedGroupsIndex).forEach(categoryName => {
     const categoryGroupsIndex = categorizedGroupsIndex[categoryName];
-    fs.outputJsonSync(path.join(outputPath, 'index.json'), categoryGroupsIndex, {spaces:2})
+    fs.outputJsonSync(path.join(outputPath, categoryName, 'index.json'), categoryGroupsIndex, {spaces:2})
   })
 }
