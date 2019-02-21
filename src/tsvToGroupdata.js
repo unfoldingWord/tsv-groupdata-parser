@@ -40,7 +40,9 @@ export const tsvToGroupData = async (filepath, toolName, params = {}) => {
 
   tsvObjects.map((tsvItem) => {
     if (tsvItem.SupportReference) {
-      cleanGroupId(tsvItem.SupportReference)
+      tsvItem.SupportReference = cleanGroupId(tsvItem.SupportReference)
+      tsvItem.OccurrenceNote = cleanArticleLink(tsvItem.OccurrenceNote)
+
       if (groupData[tsvItem.SupportReference]) {
         groupData[tsvItem.SupportReference].push(generateGroupDataItem(tsvItem, toolName))
       } else{
@@ -67,6 +69,24 @@ export const cleanGroupId = (groupId) => {
   } else {
     return groupId;
   }
+}
+
+/**
+ * Finds incorrectly formatted tA links and fixes them.
+ * @param {string} occurrenceNote occurrence Note.
+ * @returns {string} occurrenceNote with clean/fixed tA links.
+ */
+export const cleanArticleLink = (occurrenceNote) => {
+  const cutEnd = occurrenceNote.search("rc://en/ta/man/")
+  const groupId = (occurrenceNote.substr(0, 0) + occurrenceNote.substr(cutEnd + 1))
+    .replace("c://en/ta/man/", "")
+    .replace("]])", "")
+  const cleanedGropId = cleanGroupId(groupId)
+  const stringFirstPart = occurrenceNote.slice(0, cutEnd)
+  const goodLink = `rc://en/ta/man/translate/${cleanedGropId}]])`
+  const noteWithFixedLink = stringFirstPart + goodLink
+
+  return noteWithFixedLink;
 }
 
 /**

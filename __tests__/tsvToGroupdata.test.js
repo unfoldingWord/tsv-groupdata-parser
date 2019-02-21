@@ -1,4 +1,4 @@
-import { tsvToGroupData, cleanGroupId } from '../src/tsvToGroupData'
+import { tsvToGroupData, cleanGroupId, cleanArticleLink } from '../src/tsvToGroupData'
 // fixture files
 import titGroupData from './fixtures/tit_groupData.json'
 import titCategorizedGroupData from './fixtures/tit_categorizedGroupData.json'
@@ -42,6 +42,28 @@ describe('cleanGroupId()', () => {
       const cleaned = cleanGroupId(badGroupId)
 
       expect(cleaned).toBe(testItems[badGroupId])
+    })
+  })
+})
+
+describe('cleanArticleLink()', () => {
+  test('', () => {
+    const testItems = {
+      "translate/writing-background": "translate/writing-background",
+      "translate/writing_background": "translate/writing-background",
+      "translate:writing_background": "translate/writing-background",
+      "translate/translate_textvariants": "translate/translate-textvariants",
+      "translate:translate_textvariants": "translate/translate-textvariants",
+      "translate:translate_versebridge": "translate/translate-versebridge",
+      "translate:translate-symaction": "translate/translate-symaction",
+    }
+
+    Object.keys(testItems).forEach((badLink) => {
+      const goodLink = testItems[badLink];
+      const withBrokenLink = `This verse is background information for the description of the events that follow. (See: [[rc://en/ta/man/${badLink}]])`
+      const cleanedLink = `This verse is background information for the description of the events that follow. (See: [[rc://en/ta/man/${goodLink}]])`
+
+      expect(cleanArticleLink(withBrokenLink)).toBe(cleanedLink)
     })
   })
 })
