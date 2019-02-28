@@ -136,7 +136,7 @@ const generateGroupDataItem = (tsv, toolName) => {
       groupId: tsv.SupportReference || "",
       quote: tsv.OrigQuote || "",
       glQuote: tsv.GLQuote || "",
-      occurrence: parseInt(tsv.Occurrence, 10) || 0
+      occurrence: parseInt(tsv.Occurrence, 10) || ""
     }
   }
 }
