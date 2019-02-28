@@ -126,17 +126,17 @@ const generateGroupDataItem = (tsv, toolName) => {
     selections: false,
     verseEdits: false,
     contextId: {
-      occurrenceNote: tsv.OccurrenceNote,
+      occurrenceNote: tsv.OccurrenceNote || "",
       reference: {
-        bookId: tsv.Book.toLowerCase(),
-        chapter: parseInt(tsv.Chapter, 10),
-        verse: parseInt(tsv.Verse, 10)
+        bookId: tsv.Book.toLowerCase() || "",
+        chapter: parseInt(tsv.Chapter, 10) || "",
+        verse: parseInt(tsv.Verse, 10) || ""
       },
-      tool: toolName,
-      groupId: tsv.SupportReference,
+      tool: toolName || "",
+      groupId: tsv.SupportReference || "",
       quote: tsv.OrigQuote || "",
       glQuote: tsv.GLQuote || "",
-      occurrence: parseInt(tsv.Occurrence, 10)
+      occurrence: parseInt(tsv.Occurrence, 10) || 0
     }
   }
 }
