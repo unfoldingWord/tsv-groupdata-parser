@@ -1,0 +1,3289 @@
+[
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a city in the southern part of Judah. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 1,
+        "verse": 1
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ziklag",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "The word \"Jashar\" means \"upright.\" Alternate translation: \"the Book of the Upright\" (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 1,
+        "verse": 18
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "the Book of Jashar",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a town in the region of Gilead. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 2,
+        "verse": 4
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Jabesh Gilead",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of men. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 2,
+        "verse": 8
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ner ... Ishbosheth",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a place. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 2,
+        "verse": 8
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Mahanaim",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 2,
+        "verse": 9
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Gilead ... Jezreel",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of men. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 2,
+        "verse": 12
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Abner ... Ner ... Ishbosheth ... Saul",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a man. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 2,
+        "verse": 13
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Zeruiah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a name given to remind people what happened there. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 2,
+        "verse": 16
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Helkath Hazzurim",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of men. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 2,
+        "verse": 18
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Zeruiah ... Joab ... Abishai ... Asahel",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a man. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 2,
+        "verse": 19
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Abner",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a man. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 2,
+        "verse": 20
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Asahel",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a man. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 2,
+        "verse": 24
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Abishai",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 2,
+        "verse": 24
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "hill of Ammah ... Giah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 2,
+        "verse": 29
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Arabah ... Mahanaim",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a man. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 2,
+        "verse": 30
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Asahel",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a woman, a wife of David. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 3,
+        "verse": 2
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ahinoam",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are women's names. They are the wives of David. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 3,
+        "verse": 3
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Abigail ... Maacah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are men's names. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 3,
+        "verse": 3
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Kileab ... Nabal ... Talmai",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of David's sons. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 3,
+        "verse": 4
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Adonijah ... Shephatiah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are names of David's wives. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 3,
+        "verse": 4
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Haggith ... Abital",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of one of David's sons. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 3,
+        "verse": 5
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ithream",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of one of David's wives. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 3,
+        "verse": 5
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Eglah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are names of women. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 3,
+        "verse": 7
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Rizpah ... Aiah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a male name, a son of Saul. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 3,
+        "verse": 7
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ishbosheth",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a daughter of Saul. She was David's first wife. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 3,
+        "verse": 13
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Michal",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of men. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 3,
+        "verse": 15
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Paltiel ... Laish",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a village. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 3,
+        "verse": 16
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Bahurim",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. He is the grandfather of Saul. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 3,
+        "verse": 23
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ner",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "\"Sirah\" is the name of a place where the well was located. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 3,
+        "verse": 26
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "well of Sirah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a male person. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 3,
+        "verse": 27
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Asahel",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a man. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 3,
+        "verse": 28
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ner",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of men. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 3,
+        "verse": 30
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Abishai ... Asahel",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a man. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 3,
+        "verse": 37
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ner",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a man. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 3,
+        "verse": 39
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Zeruiah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a man. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 4,
+        "verse": 1
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ishbosheth",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are names of men. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 4,
+        "verse": 2
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Baanah ... Recab ... Rimmon",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a place. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 4,
+        "verse": 2
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Beeroth",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a place. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 4,
+        "verse": 3
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Gittaim",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of Jonathan's young son, the grandson of Saul. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 4,
+        "verse": 4
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Mephibosheth",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a man. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 5,
+        "verse": 11
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Hiram",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of David's sons. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 5,
+        "verse": 14
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Shammua ... Shobab ... Nathan ... Solomon",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of David's sons. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 5,
+        "verse": 15
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ibhar ... Elishua ... Nepheg ... Japhia",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of David's sons. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 5,
+        "verse": 16
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Elishama ... Eliada ... Eliphelet",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a place. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 5,
+        "verse": 18
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Valley of Rephaim",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a place. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 5,
+        "verse": 20
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Baal Perazim",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a place. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 5,
+        "verse": 22
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Valley of Rephaim",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "\"Balsam\" here is a type of tree, and the \"woods\" describe many balsam trees growing together. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 5,
+        "verse": 23
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "balsam woods",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 5,
+        "verse": 25
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Geba ... Gezer",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a place. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 6,
+        "verse": 2
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Baalah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are names of men. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 6,
+        "verse": 3
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Abinadab ... Uzzah ... Ahio",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a man. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 6,
+        "verse": 6
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Nakon",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a place. Translator may add a footnote that says, \"The name 'Perez Uzzah' means 'the punishment of Uzzah.'\" (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 6,
+        "verse": 8
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Perez Uzzah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a man. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 6,
+        "verse": 10
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Obed Edom the Gittite",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of men. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 8,
+        "verse": 3
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Hadadezer ... Rehob",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a region in Aram. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 8,
+        "verse": 3
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Zobah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 8,
+        "verse": 8
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Tebah and Berothai",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of men. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 8,
+        "verse": 9
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Tou",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a place. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 8,
+        "verse": 9
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Hamath",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of men. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 8,
+        "verse": 10
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Tou ... Hadoram",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a place. Its exact location is unknown. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 8,
+        "verse": 13
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Valley of Salt",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a man. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 8,
+        "verse": 16
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ahilud",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are names of men. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 8,
+        "verse": 17
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ahitub ... Ahimelech ... Seraiah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are names of men. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 8,
+        "verse": 18
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Benaiah ... Jehoiada",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are names of people-groups. These people were David's bodyguards. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 8,
+        "verse": 18
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Kerethites ... Pelethites",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a man. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 9,
+        "verse": 2
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ziba",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are names of men. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 9,
+        "verse": 4
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Machir ... Ammiel",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a place. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 9,
+        "verse": 4
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Lo Debar",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of the son of Mephibosheth. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 9,
+        "verse": 12
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Mika",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a man. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 10,
+        "verse": 1
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Hanun",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of men. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 10,
+        "verse": 2
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Hanun ... Nahash",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 10,
+        "verse": 6
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Beth Rehob ... Zobah ... Maacah ... Tob",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of men. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 10,
+        "verse": 16
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Hadarezer ... Shobak",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a place. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 10,
+        "verse": 16
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Helam",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a city. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 11,
+        "verse": 1
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Rabbah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a man. His father is also know by the name Gideon. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 11,
+        "verse": 21
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Abimelech son of Jerub-Besheth",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a city. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 11,
+        "verse": 21
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Thebez",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is another name for David's son Solomon, which Yahweh chose for him. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 12,
+        "verse": 25
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Jedidiah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of men. Shimeah was David's brother. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 13,
+        "verse": 3
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Jonadab son of Shimeah, David's brother",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a place. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 13,
+        "verse": 23
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Baal Hazor",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of men. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 13,
+        "verse": 37
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Talmai ... Ammihud",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a place. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 14,
+        "verse": 2
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Tekoa",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a man. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 15,
+        "verse": 12
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ahithophel",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a place. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 15,
+        "verse": 12
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Giloh",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a man. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 15,
+        "verse": 19
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ittai",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a place near Jerusalem. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 15,
+        "verse": 23
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Kidron Valley",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a man. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 15,
+        "verse": 27
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ahimaaz",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a man. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 15,
+        "verse": 32
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Hushai",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a people group. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 15,
+        "verse": 32
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Arkite",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of men. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 15,
+        "verse": 36
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ahimaaz ... Jonathan",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 16,
+        "verse": 1
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ziba",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of men. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 16,
+        "verse": 5
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Shimei ... Gera",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "See how you translated this man's name in [2 Samuel 2:18](../02/18.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 16,
+        "verse": 9
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Abishai",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "See how you translated this man's name in [2 Samuel 2:13](../02/13.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 16,
+        "verse": 9
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Zeruiah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "See how you translated this man's name in [2 Samuel 15:12](../15/12.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 16,
+        "verse": 15
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ahithophel",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "See how you translated this man's name in [2 Samuel 15:32](../15/32.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 16,
+        "verse": 16
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Hushai",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "See how you translated the name of this people group in [2 Samuel 15:32](../15/32.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 16,
+        "verse": 16
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Arkite",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "See how you translated this man's name in [2 Samuel 15:12](../15/12.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 16,
+        "verse": 20
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ahithophel",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "See how you translated this man's name in [2 Samuel 15:12](../15/12.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 17,
+        "verse": 1
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ahithophel",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "See how you translated these men's names in [2 Samuel 15:24](../15/24.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 17,
+        "verse": 15
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Zadok ... Abiathar",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "See how you translated these men's names in [2 Samuel 15:27](../15/27.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 17,
+        "verse": 17
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Jonathan ... Ahimaaz",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a place. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 17,
+        "verse": 17
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "spring of Rogel",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a small town. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 17,
+        "verse": 18
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Bahurim",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "See how you translated these men's names in [2 Samuel 15:27](../15/27.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 17,
+        "verse": 19
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Jonathan ... Ahimaaz",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "See how you translated these men's names in [2 Samuel 15:27](../15/27.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 17,
+        "verse": 20
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ahimaaz ... Jonathan",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "Translate the name of this place the same as you did in [2 Samuel 2:8](../02/08.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 17,
+        "verse": 24
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Mahanaim",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of men. See how you translated Joab and Zeruiah (Joab's mother) in [2 Samuel 2:13](../02/13.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 17,
+        "verse": 25
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Amasa ... Joab ... Jether ... Nahash",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of women. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 17,
+        "verse": 25
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Abigail ... Zeruiah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "Translate the name of this place the same as you did in [2 Samuel 2:9](../02/09.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 17,
+        "verse": 26
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Gilead",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of cities or places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 17,
+        "verse": 27
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Mahanaim ... Rabbah ... Lo Debar ... Rogelim",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of men. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 17,
+        "verse": 27
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Shobi ... Nahash ... Machir ... Ammiel ... Barzillai",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of people groups. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 17,
+        "verse": 27
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ammonites ... Gileadite",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "See how you translated these men's names in [2 Samuel 2:18](../02/18.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 18,
+        "verse": 2
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Abishai ... Zeruiah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "See how you translated this man's name in [2 Samuel 15:19](../15/19.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 18,
+        "verse": 2
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ittai",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This refers to a person from Gath, which is a Philistine city. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 18,
+        "verse": 2
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Gittite",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "See how you translated this man's name in [2 Samuel 2:18](../02/18.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 18,
+        "verse": 5
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Abishai",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "See how you translated this man's name in [2 Samuel 15:19](../15/19.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 18,
+        "verse": 5
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ittai",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a place. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 18,
+        "verse": 18
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "the King's Valley",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "See how you translated this man's name in [2 Samuel 15:27](../15/27.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 18,
+        "verse": 19
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ahimaaz",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "See how you translated this man's name in [2 Samuel 17:25](../17/25.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 19,
+        "verse": 13
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Amasa",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a man. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 19,
+        "verse": 16
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Gera",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "Translate the name of this place the same as you did in [2 Samuel 3:16](../03/16.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 19,
+        "verse": 16
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Bahurim",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a man. Translate as you did in [2 Samuel 9:2](../09/02.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 19,
+        "verse": 17
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ziba",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "See how you translated this man's name in [2 Samuel 2:18](../02/18.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 19,
+        "verse": 21
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Abishai",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "See how you translated this man's name in [2 Samuel 2:13](../02/13.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 19,
+        "verse": 21
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Zeruiah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "See how you translated this man's name in [2 Samuel 4:4](../04/04.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 19,
+        "verse": 24
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Mephibosheth",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "See how you translated this man's name in [2 Samuel 9:2](../09/02.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 19,
+        "verse": 27
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ziba",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "See how you translated this man's name in [2 Samuel 17:27](../17/27.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 19,
+        "verse": 31
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Barzillai",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "See how you translated the name of this people group in [2 Samuel 17:27](../17/27.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 19,
+        "verse": 31
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Gileadite",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "See how you translated the name of this place in [2 Samuel 17:27](../17/27.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 19,
+        "verse": 31
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Rogelim",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "See how you translated the name of this place in [2 Samuel 17:27](../17/27.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 19,
+        "verse": 32
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Mahanaim",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a man. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 19,
+        "verse": 37
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Kimham",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are names of men. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 20,
+        "verse": 1
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Sheba ... Bikri",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the commander of David's army. See how you translated this man's name in [2 Samuel 17:25](../17/25.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 20,
+        "verse": 4
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Amasa",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is another commander of David's army. See how you translated his name in [2 Samuel 2:18](../02/18.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 20,
+        "verse": 6
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Abishai",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of people groups who helped to protect King David. See how you translated this man's name in [2 Samuel 8:18](../08/18.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 20,
+        "verse": 7
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Kerethites ... Pelethites",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "Both Abel and Beth Maacah names refer to the same place and may be combined. It is a city near the tribe of Dan. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 20,
+        "verse": 14
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Abel Beth Maacah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a people group. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 20,
+        "verse": 14
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "of the Bikrites",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "Translate the names of these men the same as you did in [2 Samuel 8:18](../08/18.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 20,
+        "verse": 23
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Benaiah ... Jehoiada",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "Translate the names of these people groups the same as you did in [2 Samuel 8:18](../08/18.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 20,
+        "verse": 23
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Kerethites ... Pelethites",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a man. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 20,
+        "verse": 24
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Adoniram",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "Translate the names of these men the same as you did in [2 Samuel 8:16](../08/16.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 20,
+        "verse": 24
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Jehoshaphat ... Ahilud",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a man. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 20,
+        "verse": 25
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Sheva",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a man. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 20,
+        "verse": 26
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ira",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a people group. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 20,
+        "verse": 26
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Jairite",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are names of men. This is not the same Mephibosheth as the son of Jonathan. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 21,
+        "verse": 8
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Armoni and Mephibosheth ... Adriel ... Barzillai",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a people group. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 21,
+        "verse": 8
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Meholathite",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a place. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 21,
+        "verse": 12
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Beth Shan",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a town in Benjamin. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 21,
+        "verse": 14
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Zela",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a man. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 21,
+        "verse": 14
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Kish",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a man. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 21,
+        "verse": 16
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ishbi-Benob",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a town. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 21,
+        "verse": 18
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Gob",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are names of men. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 21,
+        "verse": 18
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Sibbekai ... Saph",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are names of people groups. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 21,
+        "verse": 18
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Hushathite ... Rephaim",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This people group was known for its giant warriors. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 21,
+        "verse": 18
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Rephaim",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are names of men. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 21,
+        "verse": 19
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Elhanan son of Jair ... Goliath",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are names of people groups. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 21,
+        "verse": 19
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Bethlehemite ... Gittite",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This people group was known for its giant warriors. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 21,
+        "verse": 20
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Rephaim",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are names of men. Shimeah was David's brother. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 21,
+        "verse": 21
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Jonathan son of Shimeah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a man. Other versions read Josheb Basshebeth, Jashobeam, Ishbaal, or Ishbosheth because various ancient copies have these variations. Translators may choose to say this in a footnote to their translation (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 23,
+        "verse": 8
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Jeshbaal",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a people group. Alternate translation: \"son of Hachmon\" (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 23,
+        "verse": 8
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Hachmonite",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This continues the list of David's greatest soldiers. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 23,
+        "verse": 9
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "General Information:",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This continues the list of David's greatest soldiers. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 23,
+        "verse": 11
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "General Information:",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "\"cave near the town of Adullam.\" Adullam is near Bethlehem. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 23,
+        "verse": 13
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "cave of Adullam",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a city. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 23,
+        "verse": 20
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Kabzeel",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a list of David's greatest soldiers. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 23,
+        "verse": 24
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "General Information:",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This continues the list of David's greatest soldiers. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 23,
+        "verse": 29
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "General Information:",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This continues the list of David's greatest soldiers. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 23,
+        "verse": 33
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "General Information:",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This concludes the list of David's greatest soldiers. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 23,
+        "verse": 37
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "General Information:",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This was a city on the northern edge of the Arnon River. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 24,
+        "verse": 5
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Aroer",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a town in Gad. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 24,
+        "verse": 5
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Jazer",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This may refer to the town of Kadesh in the land of the Hittite people. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 24,
+        "verse": 6
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Tahtim Hodshi",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a man. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "2sa",
+        "chapter": 24,
+        "verse": 16
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Araunah",
+      "occurrence": ""
+    }
+  }
+]

@@ -1,0 +1,135 @@
+[
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "\"Half\" means one part out of two equal parts. (See: [[rc://en/ta/man/translate/translate-fraction]])",
+      "reference": {
+        "bookId": "neh",
+        "chapter": 3,
+        "verse": 9
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-fraction",
+      "quote": "",
+      "glQuote": "half the district",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "\"Half\" means one part out of two equal parts. (See: [[rc://en/ta/man/translate/translate-fraction]])",
+      "reference": {
+        "bookId": "neh",
+        "chapter": 3,
+        "verse": 12
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-fraction",
+      "quote": "",
+      "glQuote": "half the district",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "\"Half\" means one part out of two equal parts. (See: [[rc://en/ta/man/translate/translate-fraction]])",
+      "reference": {
+        "bookId": "neh",
+        "chapter": 3,
+        "verse": 16
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-fraction",
+      "quote": "",
+      "glQuote": "half the district",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "\"Half\" means one part out of two equal parts. (See: [[rc://en/ta/man/translate/translate-fraction]])",
+      "reference": {
+        "bookId": "neh",
+        "chapter": 4,
+        "verse": 6
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-fraction",
+      "quote": "",
+      "glQuote": "half its height",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "\"Half\" means one part out of two equal parts. (See: [[rc://en/ta/man/translate/translate-fraction]])",
+      "reference": {
+        "bookId": "neh",
+        "chapter": 4,
+        "verse": 16
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-fraction",
+      "quote": "",
+      "glQuote": "half of my servants ... half of them",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "Here \"Half\" means one part out of two equal parts. (See: [[rc://en/ta/man/translate/translate-fraction]])",
+      "reference": {
+        "bookId": "neh",
+        "chapter": 4,
+        "verse": 21
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-fraction",
+      "quote": "",
+      "glQuote": "Half of them",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This means one part out of ten equal parts. (See: [[rc://en/ta/man/translate/translate-fraction]])",
+      "reference": {
+        "bookId": "neh",
+        "chapter": 10,
+        "verse": 38
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-fraction",
+      "quote": "",
+      "glQuote": "a tenth",
+      "occurrence": ""
+    }
+  }
+]

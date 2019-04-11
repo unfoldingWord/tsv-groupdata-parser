@@ -1,0 +1,59 @@
+[
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "Here \"us\" refers to the people of Israel that were living in Egypt. The speaker includes himself as one of the people whether he lived in Egypt or not. (See: [[rc://en/ta/man/translate/figs-inclusive]])",
+      "reference": {
+        "bookId": "deu",
+        "chapter": 26,
+        "verse": 6
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-inclusive",
+      "quote": "",
+      "glQuote": "treated us",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "Here \"us\" refers to the people of Israel that were living in Egypt. The speaker includes himself as one of the people whether he lived in Egypt or not. (See: [[rc://en/ta/man/translate/figs-inclusive]])",
+      "reference": {
+        "bookId": "deu",
+        "chapter": 26,
+        "verse": 8
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-inclusive",
+      "quote": "",
+      "glQuote": "Yahweh brought us",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "Here \"us\" refers to Moses and the people of Israel. (See: [[rc://en/ta/man/translate/figs-inclusive]])",
+      "reference": {
+        "bookId": "deu",
+        "chapter": 29,
+        "verse": 7
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-inclusive",
+      "quote": "",
+      "glQuote": "came out against us",
+      "occurrence": ""
+    }
+  }
+]

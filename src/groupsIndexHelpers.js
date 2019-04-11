@@ -41,8 +41,6 @@ export const generateGroupsIndex = (tnCategoriesPath, taCategoriesPath) => {
     })
   })
 
-  fs.outputJsonSync('categorizedGroupsIndex.json', categorizedGroupsIndex, {spaces:2})
-
   return categorizedGroupsIndex;
 }
 

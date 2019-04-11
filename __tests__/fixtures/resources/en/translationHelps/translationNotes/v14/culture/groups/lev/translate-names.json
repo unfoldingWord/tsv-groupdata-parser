@@ -1,0 +1,97 @@
+[
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of Aaron's sons. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "lev",
+        "chapter": 10,
+        "verse": 1
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Nadab and Abihu",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are names of men. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "lev",
+        "chapter": 10,
+        "verse": 4
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Mishael ... Elzaphan ... Uzziel",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of Aaron's sons. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "lev",
+        "chapter": 10,
+        "verse": 6
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Eleazar ... Ithamar",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a woman. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "lev",
+        "chapter": 24,
+        "verse": 11
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Shelomith",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a man. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "lev",
+        "chapter": 24,
+        "verse": 11
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Dibri",
+      "occurrence": ""
+    }
+  }
+]

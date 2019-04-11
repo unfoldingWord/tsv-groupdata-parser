@@ -1,0 +1,97 @@
+[
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "the name of a mountain north of Israel (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "sng",
+        "chapter": 4,
+        "verse": 8
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Amana",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "the name of a mountain near Amana and Hermon. Some people think that this refers to the same mountain as Hermon. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "sng",
+        "chapter": 4,
+        "verse": 8
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Senir",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a city east of the Jordan River (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "sng",
+        "chapter": 7,
+        "verse": 4
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Heshbon",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a city. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "sng",
+        "chapter": 7,
+        "verse": 4
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Bath Rabbim",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a town in the northern part of Israel. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "sng",
+        "chapter": 8,
+        "verse": 11
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Baal Hamon",
+      "occurrence": ""
+    }
+  }
+]

@@ -1,0 +1,363 @@
+[
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "A cubit is 46 centimeters. Alternate translation: \"9.2 meters ... 4.6 meters\" (See: [[rc://en/ta/man/translate/translate-bdistance]])",
+      "reference": {
+        "bookId": "1ki",
+        "chapter": 6,
+        "verse": 3
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-bdistance",
+      "quote": "",
+      "glQuote": "twenty cubits ... ten cubits",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "A cubit is 46 centimeters. Alternate translation: \"about 2.3 meters ... about 2.8 meters ... about 3.2 meters\" (See: [[rc://en/ta/man/translate/translate-bdistance]])",
+      "reference": {
+        "bookId": "1ki",
+        "chapter": 6,
+        "verse": 6
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-bdistance",
+      "quote": "",
+      "glQuote": "five cubits ... six cubits ... seven cubits",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "A cubit is 46 centimeters. Alternate translation: \"2.3 meters\" (See: [[rc://en/ta/man/translate/translate-bdistance]])",
+      "reference": {
+        "bookId": "1ki",
+        "chapter": 6,
+        "verse": 10
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-bdistance",
+      "quote": "",
+      "glQuote": "five cubits",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "A cubit is 46 centimeters. Alternate translation: \"9.2 meters\" (See: [[rc://en/ta/man/translate/translate-bdistance]])",
+      "reference": {
+        "bookId": "1ki",
+        "chapter": 6,
+        "verse": 16
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-bdistance",
+      "quote": "",
+      "glQuote": "twenty cubits",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "A cubit is 46 centimeters. Alternate translation: \"18.4 meters\" (See: [[rc://en/ta/man/translate/translate-bdistance]])",
+      "reference": {
+        "bookId": "1ki",
+        "chapter": 6,
+        "verse": 17
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-bdistance",
+      "quote": "",
+      "glQuote": "forty cubits",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "A cubit is 46 centimeters. Alternate translation: \"4.6 meters\" (See: [[rc://en/ta/man/translate/translate-bdistance]])",
+      "reference": {
+        "bookId": "1ki",
+        "chapter": 6,
+        "verse": 23
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-bdistance",
+      "quote": "",
+      "glQuote": "ten cubits",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "A cubit is 46 centimeters. Alternate translation: \"2.3 meters\" (See: [[rc://en/ta/man/translate/translate-bdistance]])",
+      "reference": {
+        "bookId": "1ki",
+        "chapter": 6,
+        "verse": 24
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-bdistance",
+      "quote": "",
+      "glQuote": "five cubits",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "A cubit is 46 centimeters. Alternate translation: \"46 meters ... 23 meters ... 13.8 meters\" (See: [[rc://en/ta/man/translate/translate-bdistance]])",
+      "reference": {
+        "bookId": "1ki",
+        "chapter": 7,
+        "verse": 2
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-bdistance",
+      "quote": "",
+      "glQuote": "one hundred cubits ... fifty cubits ... thirty cubits",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "A cubit is 46 centimeters. Alternate translation: \"23 meters ... 13.8 meters\" (See: [[rc://en/ta/man/translate/translate-bdistance]])",
+      "reference": {
+        "bookId": "1ki",
+        "chapter": 7,
+        "verse": 6
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-bdistance",
+      "quote": "",
+      "glQuote": "fifty cubits ... thirty cubits",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "A cubit is 46 centimeters. Alternate translation: \"about 3.7 meters and 4.6 meters\" (See: [[rc://en/ta/man/translate/translate-bdistance]])",
+      "reference": {
+        "bookId": "1ki",
+        "chapter": 7,
+        "verse": 10
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-bdistance",
+      "quote": "",
+      "glQuote": "eight and ten cubits",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "A cubit is about 46 centimeters. Alternate translation: \"about 8.3 meters ... 5.5 meters\" (See: [[rc://en/ta/man/translate/translate-bdistance]])",
+      "reference": {
+        "bookId": "1ki",
+        "chapter": 7,
+        "verse": 15
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-bdistance",
+      "quote": "",
+      "glQuote": "eighteen cubits ... twelve cubits",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "A cubit is about 46 centimeters. Alternate translation: \"2.3 meters\" (See: [[rc://en/ta/man/translate/translate-bdistance]])",
+      "reference": {
+        "bookId": "1ki",
+        "chapter": 7,
+        "verse": 16
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-bdistance",
+      "quote": "",
+      "glQuote": "five cubits",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "A cubit is 46 centimeters. Alternate translation: \"about 1.8 meters\" (See: [[rc://en/ta/man/translate/translate-bdistance]])",
+      "reference": {
+        "bookId": "1ki",
+        "chapter": 7,
+        "verse": 19
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-bdistance",
+      "quote": "",
+      "glQuote": "four cubits",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "A cubit is 46 centimeters. Alternate translation: \"4.6 meters ... 2.3 meters ... 13.8 meters\" (See: [[rc://en/ta/man/translate/translate-bdistance]])",
+      "reference": {
+        "bookId": "1ki",
+        "chapter": 7,
+        "verse": 23
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-bdistance",
+      "quote": "",
+      "glQuote": "ten cubits ... five cubits ... thirty cubits",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "A cubit is 46 centimeters. Alternate translation: \"about 1.8 meters ... about 1.4 meters\" (See: [[rc://en/ta/man/translate/translate-bdistance]])",
+      "reference": {
+        "bookId": "1ki",
+        "chapter": 7,
+        "verse": 27
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-bdistance",
+      "quote": "",
+      "glQuote": "four cubits ... three cubits",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "A cubit is 46 centimeters. Alternate translation: \"about 70 centimeters ... about 50 centimeters\" (See: [[rc://en/ta/man/translate/translate-bdistance]])",
+      "reference": {
+        "bookId": "1ki",
+        "chapter": 7,
+        "verse": 31
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-bdistance",
+      "quote": "",
+      "glQuote": "a cubit and a half ... a cubit",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "A cubit was 46 centimeters. Alternate translation: \"about 70 centimeters\" (See: [[rc://en/ta/man/translate/translate-bdistance]])",
+      "reference": {
+        "bookId": "1ki",
+        "chapter": 7,
+        "verse": 32
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-bdistance",
+      "quote": "",
+      "glQuote": "a cubit and a half",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "A cubit was 46 centimeters. Alternate translation: \"twenty-three centimeters wide\" (See: [[rc://en/ta/man/translate/translate-bdistance]])",
+      "reference": {
+        "bookId": "1ki",
+        "chapter": 7,
+        "verse": 35
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-bdistance",
+      "quote": "",
+      "glQuote": "half a cubit deep",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "A cubit is 46 centimeters. Alternate translation: \"about 1.8 meters\" (See: [[rc://en/ta/man/translate/translate-bdistance]])",
+      "reference": {
+        "bookId": "1ki",
+        "chapter": 7,
+        "verse": 38
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-bdistance",
+      "quote": "",
+      "glQuote": "four cubits",
+      "occurrence": ""
+    }
+  }
+]

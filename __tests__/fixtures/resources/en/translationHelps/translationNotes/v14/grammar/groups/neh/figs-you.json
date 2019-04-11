@@ -1,0 +1,78 @@
+[
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "The pronouns \"you\" and \"your\" refer to God and so are singular. (See: [[rc://en/ta/man/translate/figs-you]])",
+      "reference": {
+        "bookId": "neh",
+        "chapter": 1,
+        "verse": 8
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-you",
+      "quote": "",
+      "glQuote": "the word you commanded your servant Moses",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "The pronouns \"you\" and \"your\" are plural and refer to the Israelite people. (See: [[rc://en/ta/man/translate/figs-you]])",
+      "reference": {
+        "bookId": "neh",
+        "chapter": 1,
+        "verse": 8
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-you",
+      "quote": "",
+      "glQuote": "If you act unfaithfully ... scatter you",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "The pronouns \"you\" and \"your\" are plural and refer to the Israelite people. (See: [[rc://en/ta/man/translate/figs-you]])",
+      "reference": {
+        "bookId": "neh",
+        "chapter": 1,
+        "verse": 9
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-you",
+      "quote": "",
+      "glQuote": "if you return ... your people",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "Here \"you\" is plural, referring to all the people mentioned in [Nehemiah 2:16](../02/16.md). (See: [[rc://en/ta/man/translate/figs-you]])",
+      "reference": {
+        "bookId": "neh",
+        "chapter": 2,
+        "verse": 17
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-you",
+      "quote": "",
+      "glQuote": "You see the trouble",
+      "occurrence": ""
+    }
+  }
+]

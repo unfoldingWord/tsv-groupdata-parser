@@ -1,0 +1,40 @@
+[
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "Here \"grandsons\" would include all grandchildren whether male or female. Alternate translation: \"to kiss my grandchildren\" (See: [[rc://en/ta/man/translate/figs-gendernotations]])",
+      "reference": {
+        "bookId": "gen",
+        "chapter": 31,
+        "verse": 28
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-gendernotations",
+      "quote": "",
+      "glQuote": "to kiss my grandsons",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "Here \"man\" refers to any person in general, whether male or female. (See: [[rc://en/ta/man/translate/figs-gendernotations]])",
+      "reference": {
+        "bookId": "gen",
+        "chapter": 41,
+        "verse": 44
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-gendernotations",
+      "quote": "",
+      "glQuote": "no man",
+      "occurrence": ""
+    }
+  }
+]

@@ -1,0 +1,2871 @@
+[
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are men's names. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 1,
+        "verse": 8
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Mithredath ... Sheshbazzar",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are men's names. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 2,
+        "verse": 2
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Seraiah, Reelaiah, Mordecai, Bilshan, Mispar, Bigvai, Rehum, and Baanah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "a man's name (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 2,
+        "verse": 3
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Parosh",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "a man's name (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 2,
+        "verse": 4
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Shephatiah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "a man's name (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 2,
+        "verse": 5
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Arah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "a man's name (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 2,
+        "verse": 6
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Pahath-Moab ... Jeshua",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "a man's name (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 2,
+        "verse": 8
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Zattu",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "a man's name (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 2,
+        "verse": 9
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Zakkai",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "a man's name (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 2,
+        "verse": 10
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Bani",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "a man's name (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 2,
+        "verse": 11
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Bebai",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are men's names. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 2,
+        "verse": 12
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Azgad",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "a man's name (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 2,
+        "verse": 13
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Adonikam",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "a man's name (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 2,
+        "verse": 15
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Adin",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "a man's name (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 2,
+        "verse": 16
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ater",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "a man's name (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 2,
+        "verse": 17
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Bezai",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "a man's name (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 2,
+        "verse": 19
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Hashum",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are men's names. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 2,
+        "verse": 20
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Gibbar",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a town in Judah. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 2,
+        "verse": 22
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Netophah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a place. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 2,
+        "verse": 23
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Anathoth",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a place. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 2,
+        "verse": 24
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Azmaveth",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 2,
+        "verse": 25
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Kiriath Arim ... Kephirah ... Beeroth",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a place. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 2,
+        "verse": 26
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Geba",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a place. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 2,
+        "verse": 27
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Michmas",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a place. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 2,
+        "verse": 29
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Nebo",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a place. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 2,
+        "verse": 30
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Magbish",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a place. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 2,
+        "verse": 32
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Harim",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 2,
+        "verse": 33
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Lod ... Hadid ... Ono",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a place. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 2,
+        "verse": 35
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Senaah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 2,
+        "verse": 36
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Jedaiah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This section lists the names of Levites whose descendants returned from the exile along with the number in each group. (See: [[rc://en/ta/man/translate/translate-names]] and [[rc://en/ta/man/translate/translate-numbers]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 2,
+        "verse": 40
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "General Information:",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are men's names. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 2,
+        "verse": 40
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Kadmiel ... Hodaviah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are men's names. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 2,
+        "verse": 42
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Shallum ... Talmon, Akkub, Hatita, and Shobai",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are men's names. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 2,
+        "verse": 43
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ziha, Hasupha, Tabbaoth",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are men's names. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 2,
+        "verse": 44
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Keros, Siaha, Padon",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are men's names. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 2,
+        "verse": 45
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Lebanah, Hagabah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are men's names. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 2,
+        "verse": 46
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Hagab, Shalmai, and Hanan",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This section continues listing the names of Levites whose descendants returned from the exile. These are all names of men. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 2,
+        "verse": 47
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "General Information:",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This section continues listing the names of Levites whose descendants returned from the exile. These are all names of men. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 2,
+        "verse": 51
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "General Information:",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This section continues listing the names of Levites whose descendants returned from the exile. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 2,
+        "verse": 55
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "General Information:",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are men's names. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 2,
+        "verse": 60
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Delaiah, Tobiah, and Nekoda",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are men's names. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 2,
+        "verse": 61
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Habaiah ... Hakkoz ... Barzillai",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a man. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 3,
+        "verse": 2
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Shealtiel",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of men. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 3,
+        "verse": 8
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Jeshua ... Jozadak",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of men. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 3,
+        "verse": 9
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Jeshua ... Henadad",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. See how you translated this in [Ezra 2:2](../02/02.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 4,
+        "verse": 2
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Zerubbabel",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "He ruled in Assyria before Cyrus ruled in Persia. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 4,
+        "verse": 2
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Esarhaddon, king of Assyria",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "names of men (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 4,
+        "verse": 7
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Bishlam ... Mithredath ... Tabeel",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 4,
+        "verse": 8
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Shimshai",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "names of cities (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 4,
+        "verse": 9
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Erech ... Susa",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a name of a man. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 4,
+        "verse": 10
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ashurbanipal",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of the province that was west of the Euphrates River. It was across the river from the city of Susa. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 4,
+        "verse": 10
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "the Province Beyond the River",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of the province that was west of the Euphrates River. It was across the river from the city of Susa. See how you translated this in [Ezra 4:10](../04/10.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 4,
+        "verse": 11
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "the Province Beyond the River",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of the province that was west of the Euphrates River. It was across the river from the city of Susa. See how you translated this in [Ezra 4:10](../04/10.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 4,
+        "verse": 16
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "the Province Beyond the River",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of the province that was west of the Euphrates River. It was across the river from the city of Susa. See how you translated this in [Ezra 4:10](../04/10.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 4,
+        "verse": 17
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "the Province Beyond the River",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of the province that was west of the Euphrates River. It was across the river from the city of Susa. See how you translated this in [Ezra 4:10](../04/10.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 4,
+        "verse": 20
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "the Province Beyond the River",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 5,
+        "verse": 1
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Iddo",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of men. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 5,
+        "verse": 2
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Jeshua ... Jozadak",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "men's names (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 5,
+        "verse": 3
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Tattenai ... Shethar-Bozenai",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of the province that was west of the Euphrates River. It was across the river from the city of Susa. See how you translated it in [Ezra 4:10](../04/10.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 5,
+        "verse": 3
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "the Province Beyond the River",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of the province that was west of the Euphrates River. It was across the river from the city of Susa. See how you translated this in [Ezra 4:10](../04/10.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 5,
+        "verse": 6
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "the Province Beyond the River",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a city. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 6,
+        "verse": 2
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ecbatana",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "Darius writes directly to these men. Translate their names as in [Ezra 5:3](../05/03.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 6,
+        "verse": 6
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Tattenai ... Shethar-Bozenai",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of the province that was west of the Euphrates River. It was across the river from the city of Susa. See how you translated it in [Ezra 4:10](../04/10.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 6,
+        "verse": 6
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "the Province Beyond the River",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "Translate the names of these men as you did in [Ezra 5:3](../05/03.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 6,
+        "verse": 13
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Tattenai ... Shethar-Bozenai",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "See how you translated this man's name in [Ezra 2:2](../02/02.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 7,
+        "verse": 1
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Seraiah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "men's names (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 7,
+        "verse": 1
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Azariah, Hilkiah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "See how you translated this man's name in [Ezra 2:42](../02/42.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 7,
+        "verse": 2
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Shallum",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "men's names (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 7,
+        "verse": 2
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Zadok, Ahitub",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This list is all men's names. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 7,
+        "verse": 3
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Amariah, Azariah, Meraioth",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "men's names (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 7,
+        "verse": 4
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Zerahiah, Uzzi, Bukki",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "men's names (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 7,
+        "verse": 5
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Abishua, Phinehas, Eleazar",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of the province that was west of the Euphrates River. It was across the river from the city of Susa. See how you translated it in [Ezra 4:10](../04/10.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 7,
+        "verse": 21
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "the Province Beyond the River",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "There is an apparent shift in authorship beginning here. Chapters 1-7 were written as if the author were writing about Ezra. Chapter 8 was written as if the author were Ezra. Verses 2-14 are a list of leaders and their ancestors. All of them are men. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 8,
+        "verse": 1
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "General Information:",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "The list of men's names continues. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 8,
+        "verse": 4
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "General Information:",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "The list of men's names continues. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 8,
+        "verse": 8
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "General Information:",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 8,
+        "verse": 8
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Michael",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the end of the list of men's names. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 8,
+        "verse": 12
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "General Information:",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "The word \"I\" in chapter 8 refers to Ezra. He is the author. Verse 16 contains a list of men's names. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 8,
+        "verse": 15
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "General Information:",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a place (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 8,
+        "verse": 15
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ahava",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 8,
+        "verse": 17
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Iddo",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a place. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 8,
+        "verse": 17
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Kasiphia",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are men's names. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 8,
+        "verse": 18
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Sherebiah ... Mahli",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are men's names. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 8,
+        "verse": 19
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Hashabiah ... Merari",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "See how you translated this man's name in [Ezra 8:7](../08/07.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 8,
+        "verse": 19
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Jeshaiah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of the canal that flows to the place called Ahava. See how you translated Ahava and canal in [Ezra 8:15](../08/15.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 8,
+        "verse": 21
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "the Ahava Canal",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "See how you translated these men's names in [Ezra 8:19](../08/19.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 8,
+        "verse": 24
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Sherebiah, Hashabiah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of the canal that flows to the place called Ahava. See how you translated this in [Ezra 8:21](../08/21.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 8,
+        "verse": 31
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ahava Canal",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of men. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 8,
+        "verse": 33
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Meremoth ... Uriah ... Eleazar ... Phinehas ... Jozabad ... Jeshua ... Noadiah ... Binnui",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of the province that was west of the Euphrates River. It was across the river from the city of Susa. It included Judea. See how you translated it in [Ezra 4:10](../04/10.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 8,
+        "verse": 36
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "the Province Beyond the River",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of men. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 6
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Jehohanan ... Eliashib",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "men's names (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 15
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Jonathan ... Asahel ... Jahzeiah ... Tikvah ... Meshullam ... Shabbethai",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "names of men (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 18
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Maaseiah ... Gedaliah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "a man's name (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 20
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Hanani",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "a man's name. See how you translated this in [Ezra 8:8](../08/08.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 20
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Zebadiah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. See how you translated this in [Ezra 2:32](../02/32.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 21
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Harim",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. See how you translated this in [Ezra 10:18](../10/18.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 21
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Maaseiah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of men. See how you translated this in [Ezra 8:13](../08/13.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 21
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Shemaiah ... Jehiel",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of men. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 22
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Elioenai ... Nethanel ... Elasah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. See how you translated this in [Ezra 8:33](../08/33.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 22
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Jozabad",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "Ezra continues to list the men who married non-Jewish women. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 23
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "General Information:",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. See how you translated this in [Ezra 8:33](../08/33.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 23
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Jozabad",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. See how you translated this in [Ezra 10:6](../10/06.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 24
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Eliashib",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. See how you translated this in [Ezra 2:42](../02/42.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 24
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Shallum",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. See how you translated this in [Ezra 2:3](../02/03.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 25
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Parosh",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. See how you translated this in [Ezra 7:5](../07/05.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 25
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Eleazar",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "Ezra continues to list the men who married non-Jewish women. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 26
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "General Information:",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "See how you translated this man's name in [Ezra 2:7](../02/07.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 26
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Elam",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "See how you translated this man's name in [Ezra 8:9](../08/09.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 26
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Jehiel",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "See how you translated this man's name in [Ezra 2:8](../02/08.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 27
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Zattu",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "See how you translated this man's name in [Ezra 10:22](../10/22.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 27
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Elioenai",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "See how you translated this man's name in [Ezra 10:6](../10/06.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 27
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Eliashib",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. See how you translated this in [Ezra 2:11](../02/11.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 28
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Bebai",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. See how you translated this in [Ezra 10:6](../10/06.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 28
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Jehohanan",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "See how you translated this man's name in [Ezra 2:10](../02/10.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 29
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Bani",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "See how you translated this man's name in [Ezra 8:16](../08/16.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 29
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Meshullam",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "Ezra continues to list the men who married non-Jewish women. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 30
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "General Information:",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. See how you translated this in [Ezra 8:4](../08/04.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 30
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Pahath-Moab",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. See how you translated this in [Ezra 10:25](../10/25.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 30
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Benaiah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. See how you translated this in [Ezra 10:18](../10/18.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 30
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Maaseiah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. See how you translated this in [Ezra 10:26](../10/26.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 30
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Mattaniah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. See how you translated this in [Ezra 8:33](../08/33.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 30
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Binnui",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. See how you translated this in [Ezra 10:25](../10/25.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 31
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Malkijah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. See how you translated this in [Ezra 2:32](../02/32.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 31
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Harim",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. See how you translated this in [Ezra 8:16](../08/16.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 31
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Eliezer",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. See how you translated this in [Ezra 10:29](../10/29.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 32
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Malluk",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "Ezra continues to list the men who married non-Jewish women. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 33
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "General Information:",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. See how you translated this in [Ezra 2:19](../02/19.md) (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 33
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Hashum",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. See how you translated this in [Ezra 10:27](../10/27.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 33
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Zabad",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. See how you translated this in [Ezra 8:13](../08/13.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 33
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Eliphelet",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. See how you translated this in [Ezra 10:30](../10/30.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 33
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Manasseh",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. See how you translated this in [Ezra 10:23](../10/23.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 33
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Shimei",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. See how you translated this in [Ezra 2:10](../02/10.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 34
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Bani",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. See how you translated this in [Ezra 10:23](../10/23.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 35
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Benaiah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. See how you translated this in [Ezra 8:33](../08/33.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 36
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Meremoth",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. See how you translated this in [Ezra 10:6](../10/06.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 36
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Eliashib",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "Ezra continues to list the men who married non-Jewish women. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 37
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "General Information:",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. See how you translated this in [Ezra 10:26](../10/26.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 37
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Mattaniah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. See how you translated this in [Ezra 10:33](../10/33.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 37
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Mattenai",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. See how you translated this in [Ezra 8:33](../08/33.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 38
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Binnui",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. See how you translated this in [Ezra 10:23](../10/23.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 38
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Shimei",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. See how you translated this in [Ezra 10:26](../10/26.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 39
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Adaiah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "Ezra finishes to list the men who married non-Jewish women. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 41
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "General Information:",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. See how you translated this in [Ezra 10:39](../10/39.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 41
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Shelemiah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. See how you translated this in [Ezra 10:32](../10/32.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 41
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Shemariah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. See how you translated this in [Ezra 2:42](../02/42.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 42
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Shallum",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. See how you translated this in [Ezra 7:3](../07/03.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 42
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Amariah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. See how you translated this in [Ezra 2:29](../02/29.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 43
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Nebo",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. See how you translated this in [Ezra 8:13](../08/13.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 43
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Jeiel",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. See how you translated this in [Ezra 10:27](../10/27.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 43
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Zabad",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of men. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 43
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Zebina ... Jaddai ... Joel",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. See how you translated this in [Ezra 10:25](../10/25.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "ezr",
+        "chapter": 10,
+        "verse": 43
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Benaiah",
+      "occurrence": ""
+    }
+  }
+]

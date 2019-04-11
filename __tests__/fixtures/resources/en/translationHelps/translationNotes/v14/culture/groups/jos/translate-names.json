@@ -1,0 +1,4752 @@
+[
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "Joshua's father (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 1,
+        "verse": 1
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Nun",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These were the descendants of Reuben. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 1,
+        "verse": 12
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Reubenites",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These were the decendants of Gad. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 1,
+        "verse": 12
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Gadites",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is Joshua's father. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 2,
+        "verse": 1
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Nun",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a place on the east side of the Jordan River. It means \"Acacia Trees.\" (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 2,
+        "verse": 1
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Shittim",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of the Amorite kings. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 2,
+        "verse": 10
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Sihon ... Og",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a male name; the father of Joshua. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 2,
+        "verse": 23
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Nun",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a place name which commemorates Israel rededicating themselves to Yahweh. It means \"the hill of the foreskins.\" (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 5,
+        "verse": 3
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Gibeath Haaraloth",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is Joshua's father. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 6,
+        "verse": 6
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Nun",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are names of men. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 7,
+        "verse": 1
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Achan ... Karmi ... Zabdi ... Zerah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. Translate as you did in [Joshua 7:1](../07/01.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 7,
+        "verse": 17
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Zabdi",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are men's names. Translate them as you did in [Joshua 7:1](../07/01.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 7,
+        "verse": 18
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Zabdi ... Achan ... Karmi ... Zerah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "The name means \"Valley of Trouble,\" but it is best to translate Achor the way it sounds. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 7,
+        "verse": 24
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "the Valley of Achor",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "a mountain in Canaan (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 8,
+        "verse": 30
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Mount Ebal",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "a shortened name for the Jordan River (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 9,
+        "verse": 1
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "the Jordan",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is another name for the Gibeonites. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 9,
+        "verse": 7
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "the Hivites",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of the defeated Amorite king. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 9,
+        "verse": 10
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Sihon",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of the royal city of the nation of Moab. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 9,
+        "verse": 10
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Heshbon",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of the defeated king of Bashan. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 9,
+        "verse": 10
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Og",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a city known for worshiping the goddess of the same name. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 9,
+        "verse": 10
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ashtaroth",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is one of the cities of the Gibeonites. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 9,
+        "verse": 17
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Kephirah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a place. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 9,
+        "verse": 17
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Beeroth",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a place. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 9,
+        "verse": 17
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Kiriath Jearim",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a man who is an important king. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 10,
+        "verse": 1
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Adoni-Zedek",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 10,
+        "verse": 3
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Jarmuth ... Lachish ... Eglon",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of kings. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 10,
+        "verse": 3
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Hoham ... Piram ... Japhia ... Debir",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 10,
+        "verse": 5
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Jarmuth ... Lachish ... Eglon",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 10,
+        "verse": 10
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Beth Horon ... Azekah ... Makkedah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 10,
+        "verse": 11
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Beth Horon ... Azekah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a place. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 10,
+        "verse": 12
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Valley of Aijalon",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a city. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 10,
+        "verse": 16
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Makkedah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "Translate the same way as you did in [Joshua 10:10](../10/10.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 10,
+        "verse": 21
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Makkedah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 10,
+        "verse": 23
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Jarmuth ... Lachish ... Eglon",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a city. See how you translated it in [Joshua 10:10](../10/10.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 10,
+        "verse": 28
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Makkedah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a city. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 10,
+        "verse": 29
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Libnah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 10,
+        "verse": 31
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Libnah ... Lachish",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a man who is an important king. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 10,
+        "verse": 33
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Horam",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 10,
+        "verse": 33
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Gezer ... Lachish",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 10,
+        "verse": 34
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Lachish ... Eglon",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a city. See how you translated this in [Joshua 10:3](../10/03.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 10,
+        "verse": 36
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Eglon",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a city. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 10,
+        "verse": 38
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Debir",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 10,
+        "verse": 39
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Debir ... Libnah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are names of kings. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 11,
+        "verse": 1
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Jabin ... Jobab",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 11,
+        "verse": 1
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Hazor ... Madon ... Shimron ... Akshaph",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 11,
+        "verse": 2
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Kinnereth ... Naphoth Dor",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a mountain. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 11,
+        "verse": 3
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Mount Hermon",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a place. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 11,
+        "verse": 5
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Merom",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a place. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 11,
+        "verse": 7
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Merom",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a place. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 11,
+        "verse": 8
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Misrephoth Maim",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 11,
+        "verse": 17
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Mount Halak ... Baal Gad",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the descendants of Anak. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 11,
+        "verse": 21
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Anakim",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 11,
+        "verse": 21
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Debir ... Anab",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of a region of land. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 12,
+        "verse": 1
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "the Arabah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a city. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 12,
+        "verse": 2
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Aroer",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 12,
+        "verse": 3
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Beth Jeshimoth ... Mount Pisgah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of people groups. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 12,
+        "verse": 4
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "the Rephaim",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 12,
+        "verse": 4
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ashtaroth ... Edrei",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a place. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 12,
+        "verse": 5
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Salekah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a people group. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 12,
+        "verse": 5
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Maacathites",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 12,
+        "verse": 7
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Baal Gad ... Mount Halak",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a region of land. Translate as in [Joshua 12:1](./01.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 12,
+        "verse": 8
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "the Arabah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a city. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 12,
+        "verse": 10
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Enaim",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of cities. Translate in the same way you did in [Joshua 10:3](../10/03.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 12,
+        "verse": 11
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Jarmuth ... Lachish",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of cities. Translate \"Eglon\" in the same way you did in [Joshua 10:3](../10/03.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 12,
+        "verse": 12
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Eglon ... Gezer",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 12,
+        "verse": 13
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Debir ... Geder",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 12,
+        "verse": 14
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Hormah ... Arad",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 12,
+        "verse": 15
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Libnah ... Adullam",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a city. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 12,
+        "verse": 16
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Makkedah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 12,
+        "verse": 17
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Tappuah ... Hepher",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 12,
+        "verse": 18
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Aphek ... Lasharon",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 12,
+        "verse": 19
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Madon ... Hazor",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 12,
+        "verse": 20
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Shimron Meron ... Akshaph",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 12,
+        "verse": 21
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Taanach ... Megiddo",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 12,
+        "verse": 22
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Kedesh ... Jokneam",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 12,
+        "verse": 23
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Dor ... Naphoth Dor ... Goyim",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a city. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 12,
+        "verse": 24
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Tirzah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a place. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 13,
+        "verse": 3
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Shihor",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a people group. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 13,
+        "verse": 3
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Avvites",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 13,
+        "verse": 4
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Arah ... Aphek",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 13,
+        "verse": 5
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Baal Gad ... Mount Hermon",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a people group who lived in Geba. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 13,
+        "verse": 5
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Gebalites",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "this is the name of a place (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 13,
+        "verse": 6
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Misrephoth Maim",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 13,
+        "verse": 9
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Aroer ... Medeba ... Dibon",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a city. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 13,
+        "verse": 10
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Heshbon",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 13,
+        "verse": 11
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Salekah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of people groups. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 13,
+        "verse": 11
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Maacathites",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 13,
+        "verse": 12
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ashtaroth ... Edrei",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a people group. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 13,
+        "verse": 12
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Rephaim",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of people groups. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 13,
+        "verse": 13
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "the Geshurites or the Maacathites",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 13,
+        "verse": 16
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Aroer ... Medeba",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 13,
+        "verse": 17
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Heshbon ... Dibon ... Bamoth Baal ... Beth Baal Meon",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 13,
+        "verse": 18
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Jahaz ... Kedemoth ... Mephaath",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 13,
+        "verse": 19
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Kiriathaim ... Sibmah ... Zereth Shahar",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 13,
+        "verse": 20
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Beth Peor ... Pisgah ... Beth Jeshimoth",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a city. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 13,
+        "verse": 21
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Heshbon",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of people. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 13,
+        "verse": 21
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Sihon ... Evi ... Rekem ... Zur ... Hur ... Reba",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 13,
+        "verse": 25
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Jazer ... Aroer ... Rabbah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 13,
+        "verse": 26
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Heshbon ... Ramath Mizpah ... Betonim ... Mahanaim ... Debir",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 13,
+        "verse": 27
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Beth Haram ... Beth Nimrah ... Zaphon ... Heshbon",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 13,
+        "verse": 30
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Mahanaim ... Jair",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 13,
+        "verse": 31
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ashtaroth ... Edrei",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 13,
+        "verse": 31
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Machir",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 14,
+        "verse": 6
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Jephunneh",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a people group. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 14,
+        "verse": 6
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Kenizzite",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a people group. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 14,
+        "verse": 12
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Anakim",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a place. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 14,
+        "verse": 15
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Kiriath Arba",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of the wilderness area. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 15,
+        "verse": 1
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Zin",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 15,
+        "verse": 3
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Akrabbim ... Zin ... Hezron ... Addar ... Karka",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a city. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 15,
+        "verse": 4
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Azmon",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "a small river of water at the southwestern edge of the land, near Egypt (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 15,
+        "verse": 4
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "brook of Egypt",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 15,
+        "verse": 6
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Beth Hoglah ... Beth Arabah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This was likely a large stone that someone set up as a landmark and named after the man, Bohan. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 15,
+        "verse": 6
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "the Stone of Bohan",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 15,
+        "verse": 7
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Debir ... the Valley of Achor ... the hill of Adummim ... En Shemesh ... En Rogel",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 15,
+        "verse": 8
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "the Valley of Ben Hinnom ... the Valley of Rephaim",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 15,
+        "verse": 9
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Nephtoah ... Mount Ephron ... Baalah ... Kiriath Jearim",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 15,
+        "verse": 10
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Baalah ... Mount Seir ... Mount Jearim ... Kesalon ... Beth Shemesh ... Timnah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 15,
+        "verse": 11
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Shikkeron ... Mount Baalah ... Jabneel",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 15,
+        "verse": 13
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Kiriath Arba",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of men. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 15,
+        "verse": 13
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Arba ... Anak",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of men. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 15,
+        "verse": 14
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Anak ... Sheshai ... Ahiman ... Talmai",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 15,
+        "verse": 15
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Debir ... Kiriath Sepher",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a place. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 15,
+        "verse": 16
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Kiriath Sepher",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a woman's name. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 15,
+        "verse": 16
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Aksah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are men's names. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 15,
+        "verse": 17
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Othniel ... Kenaz",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "The writer lists the southern cities of which Judah took possession. The list continues through [Joshua 15:32](../15/32.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 15,
+        "verse": 21
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "The list of cities continues. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 15,
+        "verse": 25
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "The list of cities continues. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 15,
+        "verse": 29
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "The writer lists the northern cities of which Judah took possession. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 15,
+        "verse": 33
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "General Information:",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "The writer lists cities of which Judah took possession. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 15,
+        "verse": 37
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "The writer lists cities of which Judah took possession. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 15,
+        "verse": 40
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "The writer lists cities of which Judah took possession. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 15,
+        "verse": 42
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "The writer lists cities of which Judah took possession. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 15,
+        "verse": 45
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "a small river of water at the southwestern edge of the land near Egypt (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 15,
+        "verse": 47
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "brook of Egypt",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "The writer lists cities of which Judah took possession. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 15,
+        "verse": 48
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "The writer lists cities of which Judah took possession. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 15,
+        "verse": 52
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "The writer lists cities of which Judah took possession. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 15,
+        "verse": 55
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "The writer lists cities of which Judah took possession. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 15,
+        "verse": 58
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "The writer lists cities of which Judah took possession. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 15,
+        "verse": 60
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 16,
+        "verse": 2
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Luz ... Ataroth",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a people group. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 16,
+        "verse": 2
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Arkites",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a people group. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 16,
+        "verse": 3
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Japhletites",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 16,
+        "verse": 3
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Lower Beth Horon ... Gezer",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 16,
+        "verse": 5
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ataroth Addar ... Upper Beth Horon",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 16,
+        "verse": 6
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Mikmethath ... Taanath Shiloh ... Janoah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 16,
+        "verse": 7
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Janoah ... Naarah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 16,
+        "verse": 8
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Tappuah ... Kanah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are men's names. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 17,
+        "verse": 1
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Makir",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are men's names. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 17,
+        "verse": 2
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Abiezer, Helek, Asriel, Shechem, Hepher, and Shemida",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are men's names. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 17,
+        "verse": 3
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Zelophehad ... Hepher",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are women's names. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 17,
+        "verse": 3
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Mahlah, Noah, Hoglah, Milkah, and Tirzah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a man. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 17,
+        "verse": 4
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Eleazar",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 17,
+        "verse": 7
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Mikmethath ... Tappuah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "name of a brook (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 17,
+        "verse": 9
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Kanah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 17,
+        "verse": 11
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Beth Shan ... Ibleam ... Dor ... Endor ... Taanach ... Megiddo ... Napheth",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a people group. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 17,
+        "verse": 15
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Rephaim",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 17,
+        "verse": 16
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Beth Shan ... Jezreel",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a place. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 18,
+        "verse": 12
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Beth Aven",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 18,
+        "verse": 13
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Luz ... Ataroth Addar ... Beth Horon",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 18,
+        "verse": 14
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Kiriath Baal ... Kiriath Jearim",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 18,
+        "verse": 15
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Kiriath Jearim ... Ephron ... Nephtoah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 18,
+        "verse": 16
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ben Hinnom ... Rephaim ... Hinnom ... En Rogel",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 18,
+        "verse": 17
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "En Shemesh ... Geliloth ... Adummim",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This was likely a large stone that someone set up as a landmark and named after the man, Bohan. See how you translated this in [Joshua 15:6](../15/06.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 18,
+        "verse": 17
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "the Stone of Bohan",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a city. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 18,
+        "verse": 18
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Beth Arabah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a place. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 18,
+        "verse": 19
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Beth Hoglah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "The writer lists the cities that were in the land that the tribe of Benjamin received as an inheritance. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 18,
+        "verse": 21
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "General Information:",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "The writer continues to list the cities that were in the land that the tribe of Benjamin received as an inheritance. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 18,
+        "verse": 25
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "General Information:",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "The writer lists cities that were in the land that the tribe of Simeon received as an inheritance. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 19,
+        "verse": 2
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "General Information:",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "The writer continues to list the cities that were in the land that the tribe of Simeon received as an inheritance. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 19,
+        "verse": 5
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "General Information:",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a city. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 19,
+        "verse": 10
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Sarid",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 19,
+        "verse": 11
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Maralah ... Dabbesheth ... Jokneam",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 19,
+        "verse": 12
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Sarid ... Kisloth Tabor ... Daberath ... Japhia",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 19,
+        "verse": 13
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Gath Hepher ... Eth Kazin ... Rimmon ... Neah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 19,
+        "verse": 14
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Hannathon ... Iphtah El",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 19,
+        "verse": 15
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Kattath ... Nahalal ... Shimron ... Idalah ... Bethlehem",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is not the same \"Bethlehem\" that is south of Jerusalem in Judah. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 19,
+        "verse": 15
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Bethlehem",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 19,
+        "verse": 18
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Chesulloth ... Shunem",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 19,
+        "verse": 19
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Hapharaim ... Shion ... Anaharath",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 19,
+        "verse": 20
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Rabbith ... Kishion ... Ebez",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 19,
+        "verse": 21
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Remeth ... En Gannim ... En Haddah ... Beth Pazzez",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a mountain. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 19,
+        "verse": 22
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Tabor",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a city. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 19,
+        "verse": 22
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Shahazumah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 19,
+        "verse": 25
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Helkath, Hali, Beten, Akshaph",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 19,
+        "verse": 26
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Allammelek, Amad, and Mishall ... Shihor Libnath",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 19,
+        "verse": 27
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Beth Dagon ... Valley of Iphtah El ... Beth Emek ... Neiel ... Kabul",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 19,
+        "verse": 28
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Abdon ... Rehob ... Hammon ... Kanah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 19,
+        "verse": 29
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Hosah ... Akzib",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 19,
+        "verse": 30
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ummah ... Aphek ... Rehob",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 19,
+        "verse": 33
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Heleph ... Zaanannim ... Adami Nekeb ... Jabneel ... Lakkum",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 19,
+        "verse": 34
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Aznoth Tabor ... Hukkok",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 19,
+        "verse": 35
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ziddim ... Zer ... Hammath ... Rakkath ... Kinnereth",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 19,
+        "verse": 36
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Adamah ... Ramah ... Hazor",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 19,
+        "verse": 37
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Kedesh ... Edrei ... En Hazor",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 19,
+        "verse": 38
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Yiron ... Migdal El ... Horem ... Beth Anath",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 19,
+        "verse": 41
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Zorah, Eshtaol, Ir Shemesh",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of places. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 19,
+        "verse": 42
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Shaalabbin, Aijalon, and Ithlah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 19,
+        "verse": 43
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Elon, Timnah, Ekron",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 19,
+        "verse": 44
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Eltekeh, Gibbethon, Baalath",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 19,
+        "verse": 45
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Jehud, Bene Berak, Gath Rimmon",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 19,
+        "verse": 46
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Me Jarkon ... Rakkon",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a city. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 19,
+        "verse": 47
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Leshem",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a city. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 19,
+        "verse": 50
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Timnath Serah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "There are a lot of names in this section. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 20,
+        "verse": 7
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "General Information:",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are names of men. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 21,
+        "verse": 1
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Eleazar ... Nun",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This priests in this group were descendants of Levi's son Kohath. A portion of them were also descendants of Aaron, Kohath's grandson. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 21,
+        "verse": 4
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Kohathites",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "Gershon was one of the sons of Levi. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 21,
+        "verse": 6
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Gershon",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "Merari was one of the sons of Levi. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 21,
+        "verse": 7
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Merari",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "The priests in this group were descendants of Levi's son Kohath. A portion of them were also descendants of Aaron, Kohath's grandson. See how you translated this in [Joshua 21:2](../21/02.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 21,
+        "verse": 10
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "clans of the Kohathites",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a man. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 21,
+        "verse": 11
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Anak",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a city. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 21,
+        "verse": 13
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Libnah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are all names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 21,
+        "verse": 14
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Jattir ... Eshtemoa",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are all names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 21,
+        "verse": 15
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Holon ... Debir",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are all names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 21,
+        "verse": 16
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ain ... Juttah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a city. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 21,
+        "verse": 17
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Geba",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 21,
+        "verse": 18
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Anathoth ... Almon",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "The priests in this group were descendants of Levi's son Kohath. A portion of them were also descendants of Aaron, Kohath's grandson. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 21,
+        "verse": 20
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "the Kohathite clans",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a city. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 21,
+        "verse": 21
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Gezer",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "names of cities (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 21,
+        "verse": 22
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Kibzaim ... Beth Horon",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "The priests in this group were descendants of Levi's son Kohath. A portion of them were also descendants of Aaron, Kohath's grandson. See how you translated a similar phrase in [Joshua 21:20](../21/20.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 21,
+        "verse": 23
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "the clan of Kohath",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 21,
+        "verse": 23
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Eltekeh ... Gibbethon",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 21,
+        "verse": 24
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Aijalon ... Gath Rimmon",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 21,
+        "verse": 25
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Taanach ... Gath Rimmon",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "The priests in this group were descendants of Levi's son Kohath. A portion of them were also descendants of Aaron, Kohath's grandson. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 21,
+        "verse": 25
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "clan of Kohath",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "The priests in this group were descendants of Levi's son Kohath. A portion of them were also descendants of Aaron, Kohath's grandson. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 21,
+        "verse": 26
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "clans of the Kohathites",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "names of cities (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 21,
+        "verse": 27
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Golan ... Be Eshterah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "names of cities (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 21,
+        "verse": 28
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Kishion ... Daberath",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "names of cities (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 21,
+        "verse": 29
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Jarmuth ... En Gannim",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "names of cities (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 21,
+        "verse": 30
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Mishal ... Abdon",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "names of cities (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 21,
+        "verse": 31
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Helkath ... Rehob",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a person. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 21,
+        "verse": 32
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Gershon",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 21,
+        "verse": 32
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Hammoth Dor ... Kartan",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 21,
+        "verse": 34
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Merari",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 21,
+        "verse": 34
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Jokneam ... Kartah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "names of cities (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 21,
+        "verse": 35
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Dimnah ... Nahalal",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "names of cities (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 21,
+        "verse": 36
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Bezer ... Jahaz",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "names of cities (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 21,
+        "verse": 37
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Kedemoth ... Mephaath",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 21,
+        "verse": 38
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Ramoth ... Mahanaim",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are names of cities. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 21,
+        "verse": 39
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Heshbon ... Jazer",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "people of the tribe of Reuben (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 22,
+        "verse": 1
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Reubenites",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "people of the tribe of Gad (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 22,
+        "verse": 1
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Gadites",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a city. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 22,
+        "verse": 11
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Geliloth",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "name of man (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 22,
+        "verse": 13
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Eleazar",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is name of a place. Translate the same way as in [Joshua 13:20](../13/20.md). (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 22,
+        "verse": 17
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Peor",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "names of men (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 22,
+        "verse": 20
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Achan ... Zerah",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are the names of men. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 24,
+        "verse": 2
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Terah ... Nahor",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a place. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 24,
+        "verse": 4
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Seir",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "men's names (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 24,
+        "verse": 9
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Balak ... Zippor",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "names of places (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 24,
+        "verse": 30
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Timnath Serah ... Mount Gaash",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a man's name. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 24,
+        "verse": 33
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Eleazar",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is the name of a place. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 24,
+        "verse": 33
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-names",
+      "quote": "",
+      "glQuote": "Gibeah",
+      "occurrence": ""
+    }
+  }
+]

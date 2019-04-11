@@ -1,0 +1,1009 @@
+[
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Alternate translation: \"whatever has happened before is what will happen again\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 1,
+        "verse": 9
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "whatever has been done is what will be done",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Alternate translation: \"about which someone may say\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 1,
+        "verse": 10
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "about which it may be said",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Alternate translation: \"people will not likely remember them either\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 1,
+        "verse": 11
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "will not likely be remembered either",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Alternate translation: \"everything that people do\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 1,
+        "verse": 14
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "all the deeds that are done",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Alternate translation: \"People cannot straighten things that are twisted! They cannot count what is not there\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 1,
+        "verse": 15
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "The twisted cannot be straightened! The missing cannot be counted",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Alternate translation: \"forest where trees grew\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 2,
+        "verse": 6
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "forest where trees were grown",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Alternate translation: \"People do not remember the wise man for very long, just as they do not remember the fool for very long\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 2,
+        "verse": 16
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "For the wise man, like the fool, is not remembered for very long",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Alternate translation: \"people will have long forgotten everything\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 2,
+        "verse": 16
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "everything will have been long forgotten",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Alternate translation: \"all the work that people do\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 2,
+        "verse": 17
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "all the work done",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Alternate translation: \"No one can add anything to or take anything away from it\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 3,
+        "verse": 14
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "Nothing can be added to it or taken away",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be written in active form. Alternate translation: \"Someone can overpower a person who is alone\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 4,
+        "verse": 12
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "One man alone can be overpowered",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Alternate translation: \"people cannot easily break a rope made with three strands\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 4,
+        "verse": 12
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "a three-strand rope is not quickly broken",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Alternate translation: \"people oppressing the poor and robbing them\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 5,
+        "verse": 8
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "the poor being oppressed and robbed",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Alternate translation: \"an owner hoards riches\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 5,
+        "verse": 13
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "riches hoarded by the owner",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Possible meanings are 1) \"no one buries him at all\" or 2) he receives no honor, \"no one buries him properly.\" (See: [[rc://en/ta/man/translate/figs-activepassive or figs-explicit]] and ",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 6,
+        "verse": 3
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "he is not buried",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Alternate translation: \"he does not satisfy his appetite\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 6,
+        "verse": 7
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "his appetite is not satisfied",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Alternate translation: \"People have already named everything that exists\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 6,
+        "verse": 10
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "Whatever has existed has already been given its name",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Alternate translation: \"people already know what mankind is like\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 6,
+        "verse": 10
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "what mankind is like has already been known",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Alternate translation: \"The more words that people speak\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 6,
+        "verse": 11
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "The more words that are spoken",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be written in active form. Alternate translation: \"everything that people say\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 7,
+        "verse": 21
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "every word that is spoken",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Alternate translation: \"she will capture the sinner\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 7,
+        "verse": 26
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "the sinner will be taken by her",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Alternate translation: \"changes\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 8,
+        "verse": 1
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "is changed",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be translated in active form. Alternate translation: \"No army discharges anyone\" or \"No army allows soldiers to leave\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 8,
+        "verse": 8
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "No one is discharged from the army",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Alternate translation: \"every kind of work that people do\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 8,
+        "verse": 9
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "every kind of work that is done",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Evil people that died were given honorable burials. Alternate translation: \"people bury the wicked publicly\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 8,
+        "verse": 10
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "the wicked buried publicly",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Alternate translation: \"People took them from the holy area and buried them and praised them\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 8,
+        "verse": 10
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "They were taken from the holy area and buried and were praised by people",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Alternate translation: \"When people in authority do not quickly execute a sentence against an evil crime\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 8,
+        "verse": 11
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "When a sentence against an evil crime is not executed quickly",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Alternate translation: \"God will not prolong his life\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 8,
+        "verse": 13
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "his life will not be prolonged",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Alternate translation: \"something else that people do on the earth\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 8,
+        "verse": 14
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "something else that is done on the earth",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Alternate translation: \"the work that people do on the earth\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 8,
+        "verse": 16
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "the work that is done on the earth",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "Possible meanings are 1) \"the work that God does under the sun\" or 2) \"the work that God allows people to do under the sun.\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 8,
+        "verse": 17
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "the work that is done under the sun",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Alternate translation: \"everything that happens\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 9,
+        "verse": 3
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "everything that is done",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Alternate translation: \"people will forget them\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 9,
+        "verse": 5
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "their memory is forgotten",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Alternate translation: \"anything that people do\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 9,
+        "verse": 6
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "anything done",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Alternate translation: \"anoint your head with oil\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 9,
+        "verse": 8
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "your head anointed with oil",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Also, this speaks of people experiencing disaster and unfortunate times as if they were being imprisoned or trapped. Alternate translation: \"evil times are coming upon the children of human beings\" (See: [[rc://en/ta/man/translate/figs-activepassive]] and [[rc://en/ta/man/translate/figs-metaphor]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 9,
+        "verse": 12
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "the children of human beings are ensnared by evil times",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Alternate translation: \"in the city, people found a poor, wise man\" or \"a poor, wise man lived in the city\" (See: [[rc://en/ta/man/translate/figs-activepassive]] and [[rc://en/ta/man/translate/figs-idiom]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 9,
+        "verse": 15
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "in the city was found a poor, wise man",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Alternate translation: \"people despise the poor man's wisdom\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 9,
+        "verse": 16
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "the poor man's wisdom is despised",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "this can be stated in active form. Alternate translation: \"they do not listen to what he says\" or \"they do not take his advice\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 9,
+        "verse": 16
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "his words are not heard",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "Here \"heard\" represents understanding. This can be stated in active form. Alternate translation: \"It is easier to understands the words that wise people speak quietly\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 9,
+        "verse": 17
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "The words of wise people spoken quietly are heard better",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Alternate translation: \"Rulers give positions of leadership to fools\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 10,
+        "verse": 6
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "Fools are given leadership positions",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Alternate translation: \"they give low positions to successful men\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 10,
+        "verse": 6
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "successful men are given low positions",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Alternate translation: \"those stones can hurt him\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 10,
+        "verse": 9
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "can be hurt by them",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Alternate translation: \"the wood may injure him\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 10,
+        "verse": 9
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "is endangered by it",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Alternate translation: \"before the snake charmer charms it\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 10,
+        "verse": 11
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "before it is charmed",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Alternate translation: \"Fools become weary by their toil\" or \"Fools feel tired by the work that they do\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 10,
+        "verse": 15
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "wearies them",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Alternate translation: \"people shut the doors that lead to the street\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 12,
+        "verse": 4
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "the doors are shut in the street",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Alternate translation: \"someone cuts the silver cord\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 12,
+        "verse": 6
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "the silver cord is cut",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Alternate translation: \"someone crushes the golden bowl\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 12,
+        "verse": 6
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "the golden bowl is crushed",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Alternate translation: \"someone shatters the pitcher\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 12,
+        "verse": 6
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "the pitcher is shattered",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Alternate translation: \"someone breaks the water wheel\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 12,
+        "verse": 6
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "the water wheel is broken",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Alternate translation: \"which one shepherd teaches\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 12,
+        "verse": 11
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "which are taught by one shepherd",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This can be stated in active form. Alternate translation: \"after you have heard everything\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 12,
+        "verse": 13
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-activepassive",
+      "quote": "",
+      "glQuote": "after everything has been heard",
+      "occurrence": ""
+    }
+  }
+]
