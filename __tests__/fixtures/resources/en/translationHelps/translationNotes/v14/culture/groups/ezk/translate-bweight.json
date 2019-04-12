@@ -1,0 +1,59 @@
+[
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "about 11 grams (See: [[rc://en/ta/man/translate/translate-bweight]])",
+      "reference": {
+        "bookId": "ezk",
+        "chapter": 45,
+        "verse": 12
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-bweight",
+      "quote": "",
+      "glQuote": "shekel",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "about 0.55 grams (See: [[rc://en/ta/man/translate/translate-bweight]])",
+      "reference": {
+        "bookId": "ezk",
+        "chapter": 45,
+        "verse": 12
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-bweight",
+      "quote": "",
+      "glQuote": "gerahs",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "about 660 grams (See: [[rc://en/ta/man/translate/translate-bweight]])",
+      "reference": {
+        "bookId": "ezk",
+        "chapter": 45,
+        "verse": 12
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-bweight",
+      "quote": "",
+      "glQuote": "mina",
+      "occurrence": ""
+    }
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "\"20 measures.\" A \"measure\" is an unknown amount. (See: [[rc://en/ta/man/translate/translate-numbers]] and [[rc://en/ta/man/translate/translate-bvolume]])",
+      "reference": {
+        "bookId": "hag",
+        "chapter": 2,
+        "verse": 16
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-numbers",
+      "quote": "",
+      "glQuote": "twenty measures",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "\"50 measures.\" A \"measure\" is an unknown amount. (See: [[rc://en/ta/man/translate/translate-numbers]] and [[rc://en/ta/man/translate/translate-bvolume]])",
+      "reference": {
+        "bookId": "hag",
+        "chapter": 2,
+        "verse": 16
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-numbers",
+      "quote": "",
+      "glQuote": "fifty measures",
+      "occurrence": ""
+    }
+  }
+]

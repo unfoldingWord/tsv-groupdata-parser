@@ -11,6 +11,8 @@ describe('formatAndSaveGroupData()', () => {
 
   test('', () => {
     // Expected files.
+    const discourseFiles = []
+    const numbersFiles = []
     const figuresFiles = [
       'figs-metaphor.json',
       'figs-ellipsis.json',
@@ -20,23 +22,27 @@ describe('formatAndSaveGroupData()', () => {
       'figs-hendiadys.json',
       'figs-doublenegatives.json'
     ]
-    const culturalFiles = ['figs-explicit.json']
-    const morphologicalFiles = ['figs-activepassive.json']
-    const otherFiles = ['figs-abstractnouns.json', 'figs-hypo.json', 'translate-names.json']
+    const cultureFiles = ['figs-explicit.json', 'translate-names.json']
+    const grammarFiles = ['figs-abstractnouns.json', 'figs-activepassive.json', 'figs-hypo.json']
+    const otherFiles = []
 
     // formatAndSaveGroupData creates files and persist them in the filesystem (Mock fs in this case).
     formatAndSaveGroupData(categorizedGroupData, 'root', 'tit')
 
     // Read the directories to get the resulting files,
+    const discourseResultFiles = fs.readdirSync(path.join('root', 'discourse', 'groups', 'tit'))
+    const numbersResultFiles = fs.readdirSync(path.join('root', 'numbers', 'groups', 'tit'))
     const figuresResultFiles = fs.readdirSync(path.join('root', 'figures', 'groups', 'tit'))
-    const culturalResultFiles = fs.readdirSync(path.join('root', 'cultural', 'groups', 'tit'))
-    const morphologicalResultFiles = fs.readdirSync(path.join('root', 'morphological', 'groups', 'tit'))
+    const cultureResultFiles = fs.readdirSync(path.join('root', 'culture', 'groups', 'tit'))
+    const grammarResultFiles = fs.readdirSync(path.join('root', 'grammar', 'groups', 'tit'))
     const otherResultFiles = fs.readdirSync(path.join('root', 'other', 'groups', 'tit'))
 
     // Verify the correct files are being generated in the filesystem.
+    expect(discourseFiles).toEqual(discourseResultFiles)
+    expect(numbersFiles).toEqual(numbersResultFiles)
     expect(figuresFiles).toEqual(figuresResultFiles)
-    expect(culturalFiles).toEqual(culturalResultFiles)
-    expect(morphologicalFiles).toEqual(morphologicalResultFiles)
+    expect(cultureFiles).toEqual(cultureResultFiles)
+    expect(grammarFiles).toEqual(grammarResultFiles)
     expect(otherFiles).toEqual(otherResultFiles)
   })
 })

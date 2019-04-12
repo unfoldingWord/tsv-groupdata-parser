@@ -1,0 +1,82 @@
+[
+  {
+    "id": "figs-exclamations",
+    "name": "Exclamations"
+  },
+  {
+    "id": "figs-quotesinquotes",
+    "name": "Quotes Within Quotes"
+  },
+  {
+    "id": "translate-versebridge",
+    "name": "Verse Bridges"
+  },
+  {
+    "id": "writing-background",
+    "name": "Background Information"
+  },
+  {
+    "id": "writing-newevent",
+    "name": "Introduction of a New Event"
+  },
+  {
+    "id": "writing-poetry",
+    "name": "Poetry"
+  },
+  {
+    "id": "figs-quotations",
+    "name": "Direct and Indirect Quotations"
+  },
+  {
+    "id": "writing-proverbs",
+    "name": "Proverbs"
+  },
+  {
+    "id": "figs-events",
+    "name": "Order of Events"
+  },
+  {
+    "id": "writing-connectingwords",
+    "name": "Connecting Words"
+  },
+  {
+    "id": "figs-parables",
+    "name": "Parables"
+  },
+  {
+    "id": "writing-endofstory",
+    "name": "End of Story"
+  },
+  {
+    "id": "writing-participants",
+    "name": "Introduction of New and Old Participants"
+  },
+  {
+    "id": "figs-pastforfuture",
+    "name": "Predictive Past"
+  },
+  {
+    "id": "writing-quotations",
+    "name": "Quotations and Quote Margins"
+  },
+  {
+    "id": "figs-imperative",
+    "name": "Imperatives - Other Uses"
+  },
+  {
+    "id": "figs-sentences",
+    "name": "Sentence Structure"
+  },
+  {
+    "id": "figs-declarative",
+    "name": "Statements - Other Uses"
+  },
+  {
+    "id": "writing-intro",
+    "name": "Types of Writing"
+  },
+  {
+    "id": "figs-exmetaphor",
+    "name": "Extended Metaphor"
+  }
+]

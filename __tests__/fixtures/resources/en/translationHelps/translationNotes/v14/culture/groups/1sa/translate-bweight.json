@@ -1,0 +1,40 @@
+[
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "A shekel is a unit of weight equal to about 11 grams. Alternate translation: \"about 55 kilograms\" (See: [[rc://en/ta/man/translate/translate-bweight]])",
+      "reference": {
+        "bookId": "1sa",
+        "chapter": 17,
+        "verse": 5
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-bweight",
+      "quote": "",
+      "glQuote": "five thousand shekels",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "A shekel is a unit of weight equal to about 11 grams. Alternate translation: \"about 7 kilograms\" (See: [[rc://en/ta/man/translate/translate-bweight]])",
+      "reference": {
+        "bookId": "1sa",
+        "chapter": 17,
+        "verse": 7
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-bweight",
+      "quote": "",
+      "glQuote": "six hundred shekels of iron",
+      "occurrence": ""
+    }
+  }
+]

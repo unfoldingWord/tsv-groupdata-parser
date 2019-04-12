@@ -3,10 +3,11 @@ import path from 'path-extra'
 
 export const generateGroupsIndex = (tnCategoriesPath, taCategoriesPath) => {
   const categorizedGroupsIndex = {
-    lexical: [],
+    discourse: [],
+    numbers: [],
     figures: [],
-    cultural: [],
-    morphological: [],
+    culture: [],
+    grammar: [],
     other: []
   }
 

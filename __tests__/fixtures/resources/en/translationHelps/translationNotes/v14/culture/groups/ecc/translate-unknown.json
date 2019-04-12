@@ -1,0 +1,40 @@
+[
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "The \"almond tree\" is a tree that blossoms in the winter with white flowers. (See: [[rc://en/ta/man/translate/translate-unknown]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 12,
+        "verse": 5
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-unknown",
+      "quote": "",
+      "glQuote": "when the almond tree blossoms",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "A grasshopper is a large, straight-winged insect with long, jointed back legs that give it the ability to jump a long way. Here it can only drag itself because it has gotten old and weak. (See: [[rc://en/ta/man/translate/translate-unknown]])",
+      "reference": {
+        "bookId": "ecc",
+        "chapter": 12,
+        "verse": 5
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-unknown",
+      "quote": "",
+      "glQuote": "when grasshoppers drag themselves along",
+      "occurrence": ""
+    }
+  }
+]

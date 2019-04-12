@@ -1,0 +1,97 @@
+[
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "When Solomon was speaking, these hypothetical situations had not happened, but Solomon knew that they might happen in the future. Use the form in your language for talking about events that have not happened but might happen in the future. (See: [[rc://en/ta/man/translate/figs-hypo]])",
+      "reference": {
+        "bookId": "1ki",
+        "chapter": 8,
+        "verse": 44
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-hypo",
+      "quote": "",
+      "glQuote": "Suppose that your people go out ... suppose that they pray",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "When Solomon was speaking, these hypothetical situations had not happened, but Solomon knew that they might happen in the future. Use the form in your language for talking about events that have not happened but might happen in the future. (See: [[rc://en/ta/man/translate/figs-hypo]])",
+      "reference": {
+        "bookId": "1ki",
+        "chapter": 8,
+        "verse": 46
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-hypo",
+      "quote": "",
+      "glQuote": "Suppose that they sin ... suppose that you are",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "When Solomon was speaking, these hypothetical situations had not happened, but Solomon knew that they might happen in the future. Use the form in your language for talking about events that have not happened but might happen in the future. (See: [[rc://en/ta/man/translate/figs-hypo]])",
+      "reference": {
+        "bookId": "1ki",
+        "chapter": 8,
+        "verse": 47
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-hypo",
+      "quote": "",
+      "glQuote": "suppose that they realize ... suppose that they repent ... Suppose that they say",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "When Solomon was speaking, these hypothetical situations had not happened, but Solomon knew that they might happen in the future. Use the form in your language for talking about events that have not happened but might happen in the future. (See: [[rc://en/ta/man/translate/figs-hypo]])",
+      "reference": {
+        "bookId": "1ki",
+        "chapter": 8,
+        "verse": 48
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-hypo",
+      "quote": "",
+      "glQuote": "Suppose that they return ... suppose that they pray",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This describes something that would not happen. Yahweh had already told Micaiah that the king would not return safely. (See: [[rc://en/ta/man/translate/figs-hypo]])",
+      "reference": {
+        "bookId": "1ki",
+        "chapter": 22,
+        "verse": 28
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-hypo",
+      "quote": "",
+      "glQuote": "If you return safely",
+      "occurrence": ""
+    }
+  }
+]

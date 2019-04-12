@@ -1,7 +1,7 @@
 jest.unmock('fs-extra')
 import { generateGroupsIndex } from '../src/groupsIndexHelpers'
 // fixture files
-import categoriesGroupsIndex from './fixtures/categoriesGroupsIndex.json'
+import categorizedGroupsIndex from './fixtures/categorizedGroupsIndex.json'
 
 describe('generateGroupsIndex():', () => {
   test('returns an object with all the tn categories, each one with their groupsIndex', async () => {
@@ -10,6 +10,6 @@ describe('generateGroupsIndex():', () => {
 
     const result = generateGroupsIndex(tnCategoriesPath, taCategoriesPath)
 
-    expect(result).toEqual(categoriesGroupsIndex)
+    expect(result).toEqual(categorizedGroupsIndex)
   })
 })

@@ -1,0 +1,78 @@
+[
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "The word \"yourself\" is a reflexive pronoun. Alternate translation: \"Come home with me and eat some food\" (See: [[rc://en/ta/man/translate/figs-rpronouns]])",
+      "reference": {
+        "bookId": "1ki",
+        "chapter": 13,
+        "verse": 7
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-rpronouns",
+      "quote": "",
+      "glQuote": "Come home with me and refresh yourself",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "The word \"himself\" is used to emphasize that he was alone. Alternate translation: \"he walked by himself for a day\" (See: [[rc://en/ta/man/translate/figs-rpronouns]])",
+      "reference": {
+        "bookId": "1ki",
+        "chapter": 19,
+        "verse": 4
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-rpronouns",
+      "quote": "",
+      "glQuote": "he himself went a day's journey",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "Here the words \"I\" and \"myself\" refer to Yahweh. Alternate translation: \"I will save from death\" (See: [[rc://en/ta/man/translate/figs-rpronouns]])",
+      "reference": {
+        "bookId": "1ki",
+        "chapter": 19,
+        "verse": 18
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-rpronouns",
+      "quote": "",
+      "glQuote": "I will leave for myself",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "The word \"himself\" indicates that Elisha was plowing with the last yoke, while other men were plowing with the other eleven yokes. (See: [[rc://en/ta/man/translate/figs-rpronouns]] and [[rc://en/ta/man/translate/figs-explicit]])",
+      "reference": {
+        "bookId": "1ki",
+        "chapter": 19,
+        "verse": 19
+      },
+      "tool": "translationNotes",
+      "groupId": "figs-rpronouns",
+      "quote": "",
+      "glQuote": "he himself was plowing with the twelfth yoke",
+      "occurrence": ""
+    }
+  }
+]

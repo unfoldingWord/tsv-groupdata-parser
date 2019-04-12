@@ -1,0 +1,78 @@
+[
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is background information and explains how she had hidden the men in [Joshua 2:4](../02/04.md). (See: [[rc://en/ta/man/translate/writing-background]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 2,
+        "verse": 6
+      },
+      "tool": "translationNotes",
+      "groupId": "writing-background",
+      "quote": "",
+      "glQuote": "But she had taken them ... on the roof",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is background information and it emphasizes the scale of what Yahweh is doing. (See: [[rc://en/ta/man/translate/writing-background]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 3,
+        "verse": 15
+      },
+      "tool": "translationNotes",
+      "groupId": "writing-background",
+      "quote": "",
+      "glQuote": "now the Jordan overflows all its banks throughout the time of the harvest",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This word is used here to mark a break in the main story line. Here the writer begins to provide background information. (See: [[rc://en/ta/man/translate/writing-background]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 12,
+        "verse": 1
+      },
+      "tool": "translationNotes",
+      "groupId": "writing-background",
+      "quote": "",
+      "glQuote": "Now",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is background information about the name of the man who founded the city of Kiriath Arba. (See: [[rc://en/ta/man/translate/writing-background]])",
+      "reference": {
+        "bookId": "jos",
+        "chapter": 21,
+        "verse": 11
+      },
+      "tool": "translationNotes",
+      "groupId": "writing-background",
+      "quote": "",
+      "glQuote": "Arba had been the father of Anak",
+      "occurrence": ""
+    }
+  }
+]

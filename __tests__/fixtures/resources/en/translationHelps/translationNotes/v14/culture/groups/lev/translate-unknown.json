@@ -1,0 +1,477 @@
+[
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This was probably a hollow object made of clay. A fire was lit under the oven, and the heat would bake the dough inside of the oven. (See: [[rc://en/ta/man/translate/translate-unknown]])",
+      "reference": {
+        "bookId": "lev",
+        "chapter": 2,
+        "verse": 4
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-unknown",
+      "quote": "",
+      "glQuote": "oven",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a thick plate made of either clay or metal. The plate was placed over a fire, and the dough cooked on top of the plate. (See: [[rc://en/ta/man/translate/translate-unknown]])",
+      "reference": {
+        "bookId": "lev",
+        "chapter": 2,
+        "verse": 5
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-unknown",
+      "quote": "",
+      "glQuote": "a flat iron pan",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "A pan is a metal plate with rounded edges. The dough was placed in the pan and cooked over a fire. (See: [[rc://en/ta/man/translate/translate-unknown]])",
+      "reference": {
+        "bookId": "lev",
+        "chapter": 2,
+        "verse": 7
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-unknown",
+      "quote": "",
+      "glQuote": "in a pan",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "Linen is a white cloth. Alternate translation: \"his white clothes\" (See: [[rc://en/ta/man/translate/translate-unknown]])",
+      "reference": {
+        "bookId": "lev",
+        "chapter": 6,
+        "verse": 10
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-unknown",
+      "quote": "",
+      "glQuote": "his linen clothes",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a thick plate made of either clay or metal. The plate was placed over a fire, and the dough cooked on top of the plate. See how you translated \"flat iron pan\" in [Leviticus 2:5](../02/05.md). (See: [[rc://en/ta/man/translate/translate-unknown]])",
+      "reference": {
+        "bookId": "lev",
+        "chapter": 6,
+        "verse": 21
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-unknown",
+      "quote": "",
+      "glQuote": "in a baking pan",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This was probably a hollow object made of clay. A fire was lit under the oven, and the heat would bake the dough inside of the oven. See how you translated this in [Leviticus 2:4](../02/04.md). (See: [[rc://en/ta/man/translate/translate-unknown]])",
+      "reference": {
+        "bookId": "lev",
+        "chapter": 7,
+        "verse": 9
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-unknown",
+      "quote": "",
+      "glQuote": "oven",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a metal plate with rounded edges. The dough was placed in the pan and cooked over a fire. See how you translated \"pan\" in [Leviticus 2:7](../02/07.md). (See: [[rc://en/ta/man/translate/translate-unknown]])",
+      "reference": {
+        "bookId": "lev",
+        "chapter": 7,
+        "verse": 9
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-unknown",
+      "quote": "",
+      "glQuote": "a frying pan",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a thick plate made of either clay or metal. The plate was placed over a fire, and the dough cooked on top of the plate. See how you translated \"flat iron pan\" in [Leviticus 2:5](../02/05.md). (See: [[rc://en/ta/man/translate/translate-unknown]])",
+      "reference": {
+        "bookId": "lev",
+        "chapter": 7,
+        "verse": 9
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-unknown",
+      "quote": "",
+      "glQuote": "a baking pan",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "It is not clear what these are. They were objects that the priest somehow used to determine the will of God. (See: [[rc://en/ta/man/translate/translate-unknown]])",
+      "reference": {
+        "bookId": "lev",
+        "chapter": 8,
+        "verse": 8
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-unknown",
+      "quote": "",
+      "glQuote": "the Urim and the Thummim",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "a small animal that lives in rocky places (See: [[rc://en/ta/man/translate/translate-unknown]])",
+      "reference": {
+        "bookId": "lev",
+        "chapter": 11,
+        "verse": 5
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-unknown",
+      "quote": "",
+      "glQuote": "rock badger",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are birds that are either awake at night or feed on rodents and dead animals. (See: [[rc://en/ta/man/translate/translate-unknown]])",
+      "reference": {
+        "bookId": "lev",
+        "chapter": 11,
+        "verse": 13
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-unknown",
+      "quote": "",
+      "glQuote": "vulture",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are birds that are either awake at night or feed on rodents and dead animals. (See: [[rc://en/ta/man/translate/translate-unknown]])",
+      "reference": {
+        "bookId": "lev",
+        "chapter": 11,
+        "verse": 14
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-unknown",
+      "quote": "",
+      "glQuote": "kite ... falcon",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are birds that are either awake at night or feed on rodents and dead animals. (See: [[rc://en/ta/man/translate/translate-unknown]])",
+      "reference": {
+        "bookId": "lev",
+        "chapter": 11,
+        "verse": 15
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-unknown",
+      "quote": "",
+      "glQuote": "raven",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are birds that are either awake at night or feed on rodents and dead animals. (See: [[rc://en/ta/man/translate/translate-unknown]])",
+      "reference": {
+        "bookId": "lev",
+        "chapter": 11,
+        "verse": 16
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-unknown",
+      "quote": "",
+      "glQuote": "horned owl ... screech owl ... seagull ... hawk",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are birds that eat rodents and insects and are awake mainly at night. (See: [[rc://en/ta/man/translate/translate-unknown]])",
+      "reference": {
+        "bookId": "lev",
+        "chapter": 11,
+        "verse": 17
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-unknown",
+      "quote": "",
+      "glQuote": "little owl ... great owl ... the cormorant",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are birds that eat rodents and insects and are awake mainly at night. (See: [[rc://en/ta/man/translate/translate-unknown]])",
+      "reference": {
+        "bookId": "lev",
+        "chapter": 11,
+        "verse": 18
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-unknown",
+      "quote": "",
+      "glQuote": "white owl ... barn owl ... osprey",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are birds that eat rodents and insects and are awake mainly at night. (See: [[rc://en/ta/man/translate/translate-unknown]])",
+      "reference": {
+        "bookId": "lev",
+        "chapter": 11,
+        "verse": 19
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-unknown",
+      "quote": "",
+      "glQuote": "hoopoe",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are small insects that eat plants and can jump. (See: [[rc://en/ta/man/translate/translate-unknown]])",
+      "reference": {
+        "bookId": "lev",
+        "chapter": 11,
+        "verse": 22
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-unknown",
+      "quote": "",
+      "glQuote": "locust, katydid, cricket, or grasshopper",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "a small animal with brown fur that eats birds and small animals (See: [[rc://en/ta/man/translate/translate-unknown]])",
+      "reference": {
+        "bookId": "lev",
+        "chapter": 11,
+        "verse": 29
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-unknown",
+      "quote": "",
+      "glQuote": "weasel",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are different kinds of reptiles with four legs. (See: [[rc://en/ta/man/translate/translate-unknown]])",
+      "reference": {
+        "bookId": "lev",
+        "chapter": 11,
+        "verse": 29
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-unknown",
+      "quote": "",
+      "glQuote": "large lizard",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "These are different kinds of reptiles with four legs. (See: [[rc://en/ta/man/translate/translate-unknown]])",
+      "reference": {
+        "bookId": "lev",
+        "chapter": 11,
+        "verse": 30
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-unknown",
+      "quote": "",
+      "glQuote": "the gecko, the monitor lizard, the lizard, the skink, and the chameleon",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "an herb with a pleasant smell that was used for medicine (See: [[rc://en/ta/man/translate/translate-unknown]])",
+      "reference": {
+        "bookId": "lev",
+        "chapter": 14,
+        "verse": 4
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-unknown",
+      "quote": "",
+      "glQuote": "hyssop",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "On this day each year the high priest made a sacrifice to Yahweh so that Yahweh would forgive all the sins of the people of Israel. Alternate translation: \"the Day of Sacrifice for Forgiveness\" (See: [[rc://en/ta/man/translate/translate-unknown]])",
+      "reference": {
+        "bookId": "lev",
+        "chapter": 23,
+        "verse": 27
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-unknown",
+      "quote": "",
+      "glQuote": "the Day of Atonement",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "This is a celebration during which the people of Israel lived in temporary shelters for seven days as a way to remember the time they spent living in the wilderness after they left Egypt. (See: [[rc://en/ta/man/translate/translate-unknown]])",
+      "reference": {
+        "bookId": "lev",
+        "chapter": 23,
+        "verse": 34
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-unknown",
+      "quote": "",
+      "glQuote": "Festival of Shelters",
+      "occurrence": ""
+    }
+  },
+  {
+    "comments": false,
+    "reminders": false,
+    "selections": false,
+    "verseEdits": false,
+    "contextId": {
+      "occurrenceNote": "trees with long, narrow leaves, which grow near water (See: [[rc://en/ta/man/translate/translate-unknown]])",
+      "reference": {
+        "bookId": "lev",
+        "chapter": 23,
+        "verse": 40
+      },
+      "tool": "translationNotes",
+      "groupId": "translate-unknown",
+      "quote": "",
+      "glQuote": "willows",
+      "occurrence": ""
+    }
+  }
+]
