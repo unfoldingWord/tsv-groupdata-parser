@@ -37,6 +37,7 @@
   "dependencies": {
     "fs-extra": "^7.0.1",
     "path-extra": "^4.2.1",
+    "string-punctuation-tokenizer": "^0.9.4",
     "tsvtojson": "^1.0.1"
   }
 }

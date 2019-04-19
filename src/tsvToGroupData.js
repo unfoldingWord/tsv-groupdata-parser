@@ -34,7 +34,7 @@ import { categorizeGroupData } from './tNoteGroupIdCategorization'
     figs-ellipsis: [{...}, ...],
     figs-explicit: [{...}],
  */
-export const tsvToGroupData = async (filepath, toolName, params = {}) => {
+export const tsvToGroupData = async (filepath, toolName, params = {}, originalBiblePath) => {
   const groupData = {}
   const tsvObjects = await tsvtojson(filepath)
 
@@ -44,9 +44,9 @@ export const tsvToGroupData = async (filepath, toolName, params = {}) => {
       tsvItem.OccurrenceNote = cleanArticleLink(tsvItem.OccurrenceNote)
 
       if (groupData[tsvItem.SupportReference]) {
-        groupData[tsvItem.SupportReference].push(generateGroupDataItem(tsvItem, toolName))
+        groupData[tsvItem.SupportReference].push(generateGroupDataItem(tsvItem, toolName, originalBiblePath))
       } else{
-        groupData[tsvItem.SupportReference] = [generateGroupDataItem(tsvItem, toolName)]
+        groupData[tsvItem.SupportReference] = [generateGroupDataItem(tsvItem, toolName, originalBiblePath)]
       }
     }
   })
@@ -119,7 +119,7 @@ export const cleanArticleLink = (occurrenceNote) => {
  * @param {string} toolName tool name.
  * @returns {object} groupData item.
  */
-const generateGroupDataItem = (tsv, toolName) => {
+const generateGroupDataItem = (tsv, toolName, originalBiblePath) => {
   return {
     comments: false,
     reminders: false,
