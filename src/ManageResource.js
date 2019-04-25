@@ -1,24 +1,37 @@
 import fs from 'fs-extra'
 import path from 'path-extra'
+import { verseObjectsToString } from './verseObjecsHelper'
 
 class ManageResource {
-  constructor(sourcePath) {
+  constructor(originalBiblePath, bookId) {
     this.resource = {}
-    this.sourcePath = sourcePath
+    this.sourcePath = originalBiblePath
+    this.bookId = bookId
+    this.loadBook()
   }
 
-  loadChapter(bookId, chapter) {
-    const bookDir = path.join(this.sourcePath, bookId);
-    if (fs.existsSync(bookDir)) {
-      const chapterFile = path.join(bookDir, chapter + '.json');
-      if (fs.existsSync(chapterFile) && !this.resource[chapter]) {
-        const chapterObject = fs.readFileSync(chapterFile)
-        this.resource[chapter] = chapterObject;
+  loadBook() {
+    if (this.sourcePath, this.bookId) {
+      const bookDir = path.join(this.sourcePath, this.bookId);
+      if (fs.existsSync(bookDir)) {
+        const chapters = fs.readdirSync(bookDir).filter((filename) => path.extname(filename) === '.json')
+
+        for (let index = 0; index < chapters.length; index++) {
+          const chapterFilename = chapters[index];
+          const chapterFilePath = path.join(bookDir, chapterFilename);
+          if (fs.existsSync(chapterFilePath)) {
+            const chapter = chapterFilename.replace('.json', '')
+            const chapterObject = fs.readJsonSync(chapterFilePath)
+            this.resource[chapter] = chapterObject;
+          } else {
+            console.error(`${chapterFilePath}, path does not exist`)
+          }
+        }
       } else {
-        console.error(`${chapterFile}, path does not exist`)
+        console.error(`${bookDir}, path does not exist`)
       }
     } else {
-      console.error(`${bookDir}, path does not exist`)
+      console.error(`bookId or originalBiblePath is undefined`)
     }
   }
 
@@ -26,8 +39,13 @@ class ManageResource {
     return this.resource;
   }
 
-  getVerse(chapter, verse) {
+  getVerseObjects(chapter, verse) {
     return this.resource[chapter][verse];
+  }
+
+  getVerseString(chapter, verse) {
+    const { verseObjects } = this.resource[chapter][verse];
+    return verseObjectsToString(verseObjects)
   }
 }
 

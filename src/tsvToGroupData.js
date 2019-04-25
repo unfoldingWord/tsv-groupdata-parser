@@ -1,52 +1,36 @@
 import tsvtojson from 'tsvtojson'
 import { categorizeGroupData } from './tNoteGroupIdCategorization'
+import ManageResource from './ManageResource'
+import { getWordOccurrencesForQuote } from './wordOccurrenceHelpers'
 
- /**
-  * Parses a book tN TSVs and returns an object holding the lists of group ids.
-  * @param {string} filepath path to tsv file.
-  * @param {string} toolName tC tool name.
-  * @param {object} params When includes { categorized: true } then it returns the
-  * object organized by tn article category.
-  * @returns an object with the lists of group ids.
-  * {
-    figs-metaphor: [
-      {
-        "comments": false,
-        "reminders": false,
-        "selections": false,
-        "verseEdits": false,
-        "contextId": {
-          "occurrenceNote": "",
-          "reference": {
-
-          },
-          "tool": "",
-          "groupId": "",
-          "quote": "",
-          "glQuote": """,
-          "occurrence": ""
-        }
-      },
-      {
-        ...
-      }
-    ],
-    figs-ellipsis: [{...}, ...],
-    figs-explicit: [{...}],
+/**
+ * Parses a book tN TSVs and returns an object holding the lists of group ids.
+ * @param {string} filepath path to tsv file.
+ * @param {string} toolName tC tool name.
+ * @param {object} params When it includes { categorized: true }
+ * then it returns the object organized by tn article category.
+ * @param {string} originalBiblePath path to original bible
+ * @returns an object with the lists of group ids which each
+ * includes an array of groupsdata.
  */
 export const tsvToGroupData = async (filepath, toolName, params = {}, originalBiblePath) => {
   const groupData = {}
   const tsvObjects = await tsvtojson(filepath)
+  const { Book: bookId } = tsvObjects[0] || {}
+  const resourceApi = new ManageResource(originalBiblePath, bookId)
 
   tsvObjects.map((tsvItem) => {
     if (tsvItem.SupportReference) {
       tsvItem.SupportReference = cleanGroupId(tsvItem.SupportReference)
       tsvItem.OccurrenceNote = cleanArticleLink(tsvItem.OccurrenceNote)
+      const chapter = parseInt(tsvItem.Chapter, 10)
+      const verse = parseInt(tsvItem.Verse, 10)
+      const verseString = resourceApi.getVerseString(chapter, verse)
 
       if (groupData[tsvItem.SupportReference]) {
-        groupData[tsvItem.SupportReference].push(generateGroupDataItem(tsvItem, toolName, originalBiblePath))
+        groupData[tsvItem.SupportReference].push(generateGroupDataItem(tsvItem, toolName, verseString))
       } else{
-        groupData[tsvItem.SupportReference] = [generateGroupDataItem(tsvItem, toolName, originalBiblePath)]
+        groupData[tsvItem.SupportReference] = [generateGroupDataItem(tsvItem, toolName, verseString)]
       }
     }
   })
@@ -115,28 +99,32 @@ export const cleanArticleLink = (occurrenceNote) => {
 
 /**
  * Returns the formatted groupData item for a given tsv item.
- * @param {object} tsv tsv item.
+ * @param {object} tsvItem tsv item.
  * @param {string} toolName tool name.
  * @returns {object} groupData item.
  */
-const generateGroupDataItem = (tsv, toolName, originalBiblePath) => {
+const generateGroupDataItem = (tsvItem, toolName, verseString) => {
+  const { OrigQuote = "" } = tsvItem
+  const quote = OrigQuote.trim().split(" ").length > 1 ?
+    getWordOccurrencesForQuote(OrigQuote, verseString) : OrigQuote
+
   return {
     comments: false,
     reminders: false,
     selections: false,
     verseEdits: false,
     contextId: {
-      occurrenceNote: tsv.OccurrenceNote || "",
+      occurrenceNote: tsvItem.OccurrenceNote || "",
       reference: {
-        bookId: tsv.Book.toLowerCase() || "",
-        chapter: parseInt(tsv.Chapter, 10) || "",
-        verse: parseInt(tsv.Verse, 10) || ""
+        bookId: tsvItem.Book.toLowerCase() || "",
+        chapter: parseInt(tsvItem.Chapter, 10) || "",
+        verse: parseInt(tsvItem.Verse, 10) || ""
       },
       tool: toolName || "",
-      groupId: tsv.SupportReference || "",
-      quote: tsv.OrigQuote || "",
-      glQuote: tsv.GLQuote || "",
-      occurrence: parseInt(tsv.Occurrence, 10) || ""
+      groupId: tsvItem.SupportReference || "",
+      quote,
+      glQuote: tsvItem.GLQuote || "",
+      occurrence: parseInt(tsvItem.Occurrence, 10) || ""
     }
   }
 }
