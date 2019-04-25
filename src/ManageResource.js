@@ -44,6 +44,8 @@ class ManageResource {
   }
 
   getVerseString(chapter, verse) {
+    this.resource[chapter] && this.resource[chapter][verse] ?
+      console.log('defined getVerseString()') : console.log('undefined getVerseString()')
     const { verseObjects } = this.resource[chapter][verse];
     return verseObjectsToString(verseObjects)
   }

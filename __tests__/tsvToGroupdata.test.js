@@ -1,26 +1,31 @@
+jest.unmock('fs-extra')
+import path from 'path-extra'
+// helpers
 import { tsvToGroupData, cleanGroupId, cleanArticleLink } from '../src/tsvToGroupData'
 // fixture files
 import titGroupData from './fixtures/tit_groupData.json'
 import titCategorizedGroupData from './fixtures/tit_categorizedGroupData.json'
+// constants
+const ORIGINAL_BIBLE_PATH = path.join('__tests__', 'fixtures', 'resources', 'el-x-koine', 'bibles', 'ugnt', 'v0.5')
 
 describe('tsvToGroupData():', () => {
   test('Parses a book tN TSVs to an object with a lists of group ids', async () => {
     const filepath = '__tests__/fixtures/tsv/en_tn_57-TIT.tsv'
-    const result = await tsvToGroupData(filepath, "translationNotes");
+    const result = await tsvToGroupData(filepath, "translationNotes", null, ORIGINAL_BIBLE_PATH);
 
     expect(result).toEqual(titGroupData)
   })
 
   test('It returns the categorized group data if the param categorized is true { categorized: true }', async () => {
     const filepath = '__tests__/fixtures/tsv/en_tn_57-TIT.tsv'
-    const categorizedGroupData = await tsvToGroupData(filepath, "translationNotes", { categorized: true });
+    const categorizedGroupData = await tsvToGroupData(filepath, "translationNotes", { categorized: true }, ORIGINAL_BIBLE_PATH);
 
     expect(categorizedGroupData).toEqual(titCategorizedGroupData)
   })
 
   test('It returns the uncategorized group data if the param categorized is false { categorized: false }', async () => {
     const filepath = '__tests__/fixtures/tsv/en_tn_57-TIT.tsv'
-    const categorizedGroupData = await tsvToGroupData(filepath, "translationNotes", { categorized: false });
+    const categorizedGroupData = await tsvToGroupData(filepath, "translationNotes", { categorized: false }, ORIGINAL_BIBLE_PATH);
 
     expect(categorizedGroupData).toEqual(titGroupData)
   })

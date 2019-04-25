@@ -17,7 +17,7 @@ export const tsvToGroupData = async (filepath, toolName, params = {}, originalBi
   const groupData = {}
   const tsvObjects = await tsvtojson(filepath)
   const { Book: bookId } = tsvObjects[0] || {}
-  const resourceApi = new ManageResource(originalBiblePath, bookId)
+  const resourceApi = new ManageResource(originalBiblePath, bookId.toLowerCase())
 
   tsvObjects.map((tsvItem) => {
     if (tsvItem.SupportReference) {
