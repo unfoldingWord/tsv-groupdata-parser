@@ -79,13 +79,13 @@ export const tNotesCategories = {
     "figs-rpronouns": "Reflexive Pronouns",
     "figs-we": "Forms of We",
     "figs-they": "Forms of They"
+  },
+  "other": {
+    "translate-manuscripts": "Original Manuscripts",
+    "guidelines-sonofgodprinciples": "Translating Son and Father",
+    "translate-textvariants": "Textual Variants",
+    "translate-transliterate": "Copy or Borrow Words",
   }
-  // "other": {
-  //   "translate-manuscripts": "Original Manuscripts",
-  //   "guidelines-sonofgodprinciples": "Translating Son and Father",
-  //   "translate-textvariants": "Textual Variants",
-  //   "translate-transliterate": "Copy or Borrow Words",
-  // }
 }
 
 /**
