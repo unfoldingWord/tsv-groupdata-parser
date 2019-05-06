@@ -35,11 +35,11 @@ export const tNotesCategories = {
     "figs-metaphor": "Metaphor",
     "figs-rquestion": "Rhetorical Question",
     "figs-simile": "Simile",
-    "figs-apostrophe": "apostrophe",
+    "figs-apostrophe": "Apostrophe",
     "figs-euphemism": "Euphemism",
     "figs-hendiadys": "Hendiadys",
     "figs-hyperbole": "Hyperbole",
-    "figs-litotes": "litotes",
+    "figs-litotes": "Litotes",
     "figs-merism": "Merism",
     "figs-metonymy": "Metonymy",
     "figs-parallelism": "Parallelism",
@@ -79,13 +79,13 @@ export const tNotesCategories = {
     "figs-rpronouns": "Reflexive Pronouns",
     "figs-we": "Forms of We",
     "figs-they": "Forms of They"
+  },
+  "other": {
+    "translate-manuscripts": "Original Manuscripts",
+    "guidelines-sonofgodprinciples": "Translating Son and Father",
+    "translate-textvariants": "Textual Variants",
+    "translate-transliterate": "Copy or Borrow Words",
   }
-  // "other": {
-  //   "translate-manuscripts": "Original Manuscripts",
-  //   "guidelines-sonofgodprinciples": "Translating Son and Father",
-  //   "translate-textvariants": "Textual Variants",
-  //   "translate-transliterate": "Copy or Borrow Words",
-  // }
 }
 
 /**
