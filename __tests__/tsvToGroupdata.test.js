@@ -1,7 +1,10 @@
+jest.unmock('fs-extra');
+import fs from 'fs-extra'
 import { tsvToGroupData, cleanGroupId, cleanArticleLink } from '../src/tsvToGroupData'
 // fixture files
 import titGroupData from './fixtures/tit_groupData.json'
 import titCategorizedGroupData from './fixtures/tit_categorizedGroupData.json'
+import mrkCategorizedGroupData from './fixtures/mrk_categorizedGroupData.json'
 
 describe('tsvToGroupData():', () => {
   test('Parses a book tN TSVs to an object with a lists of group ids', async () => {
@@ -23,6 +26,14 @@ describe('tsvToGroupData():', () => {
     const categorizedGroupData = await tsvToGroupData(filepath, "translationNotes", { categorized: false });
 
     expect(categorizedGroupData).toEqual(titGroupData)
+  })
+
+  test('It returns the categorized group data for MRK.tsv', async () => {
+    const filepath = '__tests__/fixtures/tsv/en_tn_42-MRK.tsv'
+    const result = await tsvToGroupData(filepath, "translationNotes", { categorized: true });
+
+    fs.outputJsonSync('mrk_categorizedGroupData.json', result, {spaces: 2})
+    expect(result).toEqual(mrkCategorizedGroupData)
   })
 })
 
