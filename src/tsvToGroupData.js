@@ -8,44 +8,24 @@ import { categorizeGroupData } from './tNoteGroupIdCategorization'
   * @param {object} params When includes { categorized: true } then it returns the
   * object organized by tn article category.
   * @returns an object with the lists of group ids.
-  * {
-    figs-metaphor: [
-      {
-        "comments": false,
-        "reminders": false,
-        "selections": false,
-        "verseEdits": false,
-        "contextId": {
-          "occurrenceNote": "",
-          "reference": {
-
-          },
-          "tool": "",
-          "groupId": "",
-          "quote": "",
-          "glQuote": """,
-          "occurrence": ""
-        }
-      },
-      {
-        ...
-      }
-    ],
-    figs-ellipsis: [{...}, ...],
-    figs-explicit: [{...}],
  */
 export const tsvToGroupData = async (filepath, toolName, params = {}) => {
   const groupData = {}
   const tsvObjects = await tsvtojson(filepath)
+  console.log('====================================');
+  console.log('tsvObjects', tsvObjects);
+  console.log('====================================');
 
   tsvObjects.map((tsvItem) => {
-    if (tsvItem.SupportReference) {
+    if (tsvItem.SupportReference && tsvItem.OrigQuote) {
+      if (tsvItem.Book === 'MRK' && tsvItem.SupportReference === 'figs-abstractnouns') console.log(tsvItem.Chapter, tsvItem.SupportReference, tsvItem.OrigQuote)
+
       tsvItem.SupportReference = cleanGroupId(tsvItem.SupportReference)
       tsvItem.OccurrenceNote = cleanArticleLink(tsvItem.OccurrenceNote)
 
       if (groupData[tsvItem.SupportReference]) {
         groupData[tsvItem.SupportReference].push(generateGroupDataItem(tsvItem, toolName))
-      } else{
+      } else {
         groupData[tsvItem.SupportReference] = [generateGroupDataItem(tsvItem, toolName)]
       }
     }
