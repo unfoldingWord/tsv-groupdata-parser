@@ -11,7 +11,7 @@ import { categorizeGroupData } from './tNoteGroupIdCategorization'
  */
 export const tsvToGroupData = async (filepath, toolName, params = {}) => {
   const groupData = {}
-  const tsvObjects = await tsvtojson(filepath, ['Book', 'Chapter', 'Verse', 'ID', 'SupportReference', 'OrigQuote', 'Occurrence', 'GLQuote', 'OccurrenceNote'])
+  const tsvObjects = await tsvtojson(filepath)
     .catch(err => {
       console.error(err);
     })
