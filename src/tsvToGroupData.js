@@ -1,12 +1,6 @@
 import tsvtojson from 'tsvtojson'
 import { categorizeGroupData } from './tNoteGroupIdCategorization'
 
-export function delay(ms) {
-  return new Promise((resolve) =>
-    setTimeout(resolve, ms)
-  );
-}
-
  /**
   * Parses a book tN TSVs and returns an object holding the lists of group ids.
   * @param {string} filepath path to tsv file.
@@ -17,22 +11,10 @@ export function delay(ms) {
  */
 export const tsvToGroupData = async (filepath, toolName, params = {}) => {
   const groupData = {}
-  delay(200)
   const tsvObjects = await tsvtojson(filepath)
-    .catch(err => {
-      console.error(err);
-    })
-
-    if (tsvObjects[0].Book === 'MRK') {
-      console.log('====================================');
-      console.log('tsvObjects', tsvObjects);
-      console.log('====================================');
-    }
 
   tsvObjects.map((tsvItem) => {
-    if (tsvItem.Book === 'MRK' && tsvItem.SupportReference === 'figs-abstractnouns') console.log(tsvItem.Chapter, tsvItem.SupportReference, tsvItem.OrigQuote)
     if (tsvItem.SupportReference && tsvItem.OrigQuote) {
-
       tsvItem.SupportReference = cleanGroupId(tsvItem.SupportReference)
       tsvItem.OccurrenceNote = cleanArticleLink(tsvItem.OccurrenceNote)
 
