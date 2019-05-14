@@ -11,7 +11,7 @@ import { categorizeGroupData } from './tNoteGroupIdCategorization'
  */
 export const tsvToGroupData = async (filepath, toolName, params = {}) => {
   const groupData = {}
-  const tsvObjects = await tsvtojson(filepath)
+  const tsvObjects = await tsvtojson(filepath, ['Book', 'Chapter', 'Verse', 'ID', 'SupportReference', 'OrigQuote', 'Occurrence', 'GLQuote', 'OccurrenceNote'])
     .catch(err => {
       console.error(err);
     })
@@ -20,7 +20,7 @@ export const tsvToGroupData = async (filepath, toolName, params = {}) => {
   console.log('====================================');
 
   tsvObjects.map((tsvItem) => {
-    if (tsvItem.Book === 'MRK' && tsvItem.SupportReference === 'figs-abstractnouns') console.log(tsvItem.Chapter, tsvItem.SupportReference, tsvItem.OrigQuote); debugger;
+    if (tsvItem.Book === 'MRK' && tsvItem.SupportReference === 'figs-abstractnouns') console.log(tsvItem.Chapter, tsvItem.SupportReference, tsvItem.OrigQuote)
     if (tsvItem.SupportReference && tsvItem.OrigQuote) {
 
       tsvItem.SupportReference = cleanGroupId(tsvItem.SupportReference)
