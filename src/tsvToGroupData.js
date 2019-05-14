@@ -12,13 +12,16 @@ import { categorizeGroupData } from './tNoteGroupIdCategorization'
 export const tsvToGroupData = async (filepath, toolName, params = {}) => {
   const groupData = {}
   const tsvObjects = await tsvtojson(filepath)
+    .catch(err => {
+      console.error(err);
+    })
   console.log('====================================');
   console.log('tsvObjects', tsvObjects);
   console.log('====================================');
 
   tsvObjects.map((tsvItem) => {
+    if (tsvItem.Book === 'MRK' && tsvItem.SupportReference === 'figs-abstractnouns') console.log(tsvItem.Chapter, tsvItem.SupportReference, tsvItem.OrigQuote)
     if (tsvItem.SupportReference && tsvItem.OrigQuote) {
-      if (tsvItem.Book === 'MRK' && tsvItem.SupportReference === 'figs-abstractnouns') console.log(tsvItem.Chapter, tsvItem.SupportReference, tsvItem.OrigQuote)
 
       tsvItem.SupportReference = cleanGroupId(tsvItem.SupportReference)
       tsvItem.OccurrenceNote = cleanArticleLink(tsvItem.OccurrenceNote)
