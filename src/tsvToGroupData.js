@@ -20,7 +20,7 @@ export const tsvToGroupData = async (filepath, toolName, params = {}) => {
   console.log('====================================');
 
   tsvObjects.map((tsvItem) => {
-    if (tsvItem.Book === 'MRK' && tsvItem.SupportReference === 'figs-abstractnouns') console.log(tsvItem.Chapter, tsvItem.SupportReference, tsvItem.OrigQuote)
+    if (tsvItem.Book === 'MRK' && tsvItem.SupportReference === 'figs-abstractnouns') console.log(tsvItem.Chapter, tsvItem.SupportReference, tsvItem.OrigQuote); debugger;
     if (tsvItem.SupportReference && tsvItem.OrigQuote) {
 
       tsvItem.SupportReference = cleanGroupId(tsvItem.SupportReference)
