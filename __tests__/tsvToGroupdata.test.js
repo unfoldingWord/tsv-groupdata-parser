@@ -1,5 +1,4 @@
 jest.unmock('fs-extra');
-import fs from 'fs-extra'
 import { tsvToGroupData, cleanGroupId, cleanArticleLink } from '../src/tsvToGroupData'
 // fixture files
 import titGroupData from './fixtures/tit_groupData.json'
@@ -32,7 +31,6 @@ describe('tsvToGroupData():', () => {
     const filepath = '__tests__/fixtures/tsv/en_tn_42-MRK.tsv'
     const result = await tsvToGroupData(filepath, "translationNotes", { categorized: true });
 
-    fs.outputJsonSync('mrk_categorizedGroupData.json', result, {spaces: 2})
     expect(result).toEqual(mrkCategorizedGroupData)
   })
 })
