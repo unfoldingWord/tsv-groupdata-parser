@@ -1,6 +1,7 @@
 import stringTokenizer from 'string-punctuation-tokenizer'
 // constants
-const ELLIPSES = '...'
+const ELLIPSES = '\u2026'
+const THREE_DOTS = '...'
 
 function countStringInArray(array, string) {
   return array.filter(item => item == string).length;
@@ -13,7 +14,7 @@ function substrOccurrencesInQuote(quote, substr, substrIndex) {
 }
 
 function getQuoteOmittedString(quote, verseString) {
-  const quoteChunks = quote.split(ELLIPSES)
+  const quoteChunks = quote.split(THREE_DOTS)
   let missingWordsIndices = [];
 
   quoteChunks.forEach((quoteChunk, index) => {
@@ -84,8 +85,8 @@ export function getWordOccurrencesForQuote(quote, verseString) {
       quoteOmittedString = '',
       cleanedQuote = quote
 
-  if (quote.includes(ELLIPSES)) {
-    cleanedQuote = quote.replace(/\.../g, '')
+  if (quote.includes(THREE_DOTS)) {
+    cleanedQuote = quote.replace(/\.../g, '\u2026')
     quoteOmittedString = getQuoteOmittedString(quote, verseString)
   }
 
@@ -94,7 +95,7 @@ export function getWordOccurrencesForQuote(quote, verseString) {
   substrings.forEach((substring, index) => {
     const word = {
       word: substring,
-      occurrence: getWordOccurrence(verseString, substring, quote, index, quoteOmittedString),
+      occurrence: getWordOccurrence(verseString, substring, cleanedQuote, index, quoteOmittedString),
     }
 
     words.push(word)
