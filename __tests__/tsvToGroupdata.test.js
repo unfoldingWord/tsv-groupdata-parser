@@ -5,6 +5,7 @@ import { tsvToGroupData, cleanGroupId, cleanArticleLink } from '../src/tsvToGrou
 // fixture files
 import titGroupData from './fixtures/tit_groupData.json'
 import titCategorizedGroupData from './fixtures/tit_categorizedGroupData.json'
+import mrkCategorizedGroupData from './fixtures/mrk_categorizedGroupData.json'
 // constants
 const ORIGINAL_BIBLE_PATH = path.join('__tests__', 'fixtures', 'resources', 'el-x-koine', 'bibles', 'ugnt', 'v0.5')
 
@@ -28,6 +29,13 @@ describe('tsvToGroupData():', () => {
     const categorizedGroupData = await tsvToGroupData(filepath, "translationNotes", { categorized: false }, ORIGINAL_BIBLE_PATH);
 
     expect(categorizedGroupData).toEqual(titGroupData)
+  })
+
+  test('It returns the categorized group data for MRK.tsv', async () => {
+    const filepath = '__tests__/fixtures/tsv/en_tn_42-MRK.tsv'
+    const result = await tsvToGroupData(filepath, "translationNotes", { categorized: true });
+
+    expect(result).toEqual(mrkCategorizedGroupData)
   })
 })
 

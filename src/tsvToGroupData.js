@@ -20,7 +20,7 @@ export const tsvToGroupData = async (filepath, toolName, params = {}, originalBi
   const resourceApi = new ManageResource(originalBiblePath, bookId.toLowerCase())
 
   tsvObjects.map((tsvItem) => {
-    if (tsvItem.SupportReference) {
+    if (tsvItem.SupportReference && tsvItem.OrigQuote) {
       tsvItem.SupportReference = cleanGroupId(tsvItem.SupportReference)
       tsvItem.OccurrenceNote = cleanArticleLink(tsvItem.OccurrenceNote)
       const chapter = parseInt(tsvItem.Chapter, 10)
@@ -29,7 +29,7 @@ export const tsvToGroupData = async (filepath, toolName, params = {}, originalBi
 
       if (groupData[tsvItem.SupportReference]) {
         groupData[tsvItem.SupportReference].push(generateGroupDataItem(tsvItem, toolName, verseString))
-      } else{
+      } else {
         groupData[tsvItem.SupportReference] = [generateGroupDataItem(tsvItem, toolName, verseString)]
       }
     }
@@ -105,6 +105,7 @@ export const cleanArticleLink = (occurrenceNote) => {
  */
 const generateGroupDataItem = (tsvItem, toolName, verseString) => {
   const { OrigQuote = "" } = tsvItem
+  // if quote has more than one word get word occurrences
   const quote = OrigQuote.trim().split(" ").length > 1 ?
     getWordOccurrencesForQuote(OrigQuote, verseString) : OrigQuote
 
@@ -124,7 +125,7 @@ const generateGroupDataItem = (tsvItem, toolName, verseString) => {
       groupId: tsvItem.SupportReference || "",
       quote,
       glQuote: tsvItem.GLQuote || "",
-      occurrence: parseInt(tsvItem.Occurrence, 10) || ""
+      occurrence: parseInt(tsvItem.Occurrence, 10) || 1
     }
   }
 }

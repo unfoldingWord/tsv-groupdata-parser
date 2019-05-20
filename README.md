@@ -36,6 +36,13 @@ Parses the translationNotes TSVs files to generate the GroupIndex and GroupData 
   formatAndSaveGroupData(categorizedGroupData, rootOutputPath, 'tit')
 ```
 
+## Testing your changes without publishing new version
+
+- Create your feature/bugfix/enhancement (my-feature-branch)branch off of master.
+- Make your changes in the new branch (my-feature-branch).
+- Push your changes.
+- Run `npm i translationCoreApps/tsv-groupdata-parser#my-feature-branch` in your translationCore root directory.
+
 ## Builds
 
 Builds are made using babel 7 (babel-cli) for more infor see: [Babel CLI docs](https://babeljs.io/docs/en/babel-cli)
