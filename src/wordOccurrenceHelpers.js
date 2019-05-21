@@ -13,8 +13,9 @@ function substrOccurrencesInQuote(quote, substr, substrIndex) {
   return countStringInArray(leftSubstrs, substr)
 }
 
-function getQuoteOmittedString(quote, verseString) {
-  const quoteChunks = quote.split(THREE_DOTS)
+export function getQuoteOmittedString(quote, verseString) {
+  quote = quote.replace(/\.../g, '\u2026')
+  const quoteChunks = quote.split(ELLIPSES)
   let missingWordsIndices = [];
 
   quoteChunks.forEach((quoteChunk, index) => {
@@ -22,23 +23,59 @@ function getQuoteOmittedString(quote, verseString) {
 
     // Get quote chunk closer to next quote chunk
     if (index < (quoteChunks.length - 1)) {
+      console.log('1- index < (quoteChunks.length - 1)')
       const nextQuoteChunk = quoteChunks[index + 1]
       const nextChunkIndex = verseString.indexOf(nextQuoteChunk)
+      console.log('nextQuoteChunk', nextQuoteChunk, 'nextChunkIndex', nextChunkIndex)
       if (nextChunkIndex) {
         const strBeforeNextQuote = verseString.substring(0, nextChunkIndex)
         quoteChunkSubStrIndex = strBeforeNextQuote.lastIndexOf(quoteChunk)
       }
-    } else {
-      quoteChunkSubStrIndex = verseString.indexOf(quoteChunk);
-    }
+      console.log('quoteChunkSubStrIndex', quoteChunkSubStrIndex)
+      missingWordsIndices.push(quoteChunkSubStrIndex + (index === 0 ? quoteChunk.length : 0))
+    } else if (index === (quoteChunks.length - 1) && quoteChunks.length >= 3) {// if is last quote chunk
+      console.log('2- last chunk')
+      const lastMissingWordEndingIndex = verseString.indexOf(quoteChunk);
+      const sliced = verseString.slice(lastMissingWordEndingIndex)
+      const stringPrecedingLastChunk = verseString.replace(sliced, '')
+      const previousQuoteChunk = quoteChunks[index - 1]
+      const startIndex = stringPrecedingLastChunk.lastIndexOf(previousQuoteChunk) + previousQuoteChunk.length
 
-    missingWordsIndices.push(quoteChunkSubStrIndex + (index === 0 ? quoteChunk.length : 0))
+      missingWordsIndices.push(startIndex + (index === 0 ? quoteChunk.length : 0))
+      const endIndex = verseString.indexOf(quoteChunk);
+      missingWordsIndices.push(endIndex + (index === 0 ? quoteChunk.length : 0))
+    } else {
+      console.log('3- else')
+      quoteChunkSubStrIndex = verseString.indexOf(quoteChunk);
+      missingWordsIndices.push(quoteChunkSubStrIndex + (index === 0 ? quoteChunk.length : 0))
+    }
   })
 
-  const [beginIndex, endIndex] = missingWordsIndices;
-  const missingStringChunk = verseString.slice(beginIndex, endIndex)
+  console.log('missingWordsIndices', missingWordsIndices)
 
-  return missingStringChunk;
+  const missingStrings = []
+  missingWordsIndices.forEach((startIndex, i) => {
+    if (!((i + 1) % 2 == 0)) { // if index is odd number
+      const endIndex = missingWordsIndices[i + 1]
+      const missingString = verseString.slice(startIndex, endIndex)
+      missingStrings.push(missingString)
+    }
+  });
+
+  // console.log('missingStrings', missingStrings)
+
+  let wholeQuote = '';
+
+  quoteChunks.forEach((chunk, index) => {
+    const missingWord = missingStrings[index] || ''
+    wholeQuote = wholeQuote + chunk + missingWord
+  });
+
+  console.log('====================================');
+  console.log('wholeQuote', wholeQuote);
+  console.log('====================================');
+
+  return wholeQuote;
 }
 
 /**
