@@ -1,6 +1,6 @@
 import fs from 'fs-extra'
 import path from 'path-extra'
-import { verseObjectsToString } from './verseObjecsHelper'
+import { verseObjectsToString } from './helpers/verseObjecsHelper'
 
 class ManageResource {
   constructor(originalBiblePath, bookId) {

@@ -1,6 +1,6 @@
 jest.unmock('fs-extra')
 import path from 'path-extra'
-import ManageResource from '../src/ManageResource'
+import ManageResource from '../src/helpers/ManageResourceAPI'
 import { getWordOccurrencesForQuote } from '../src/helpers/wordOccurrenceHelpers'
 
 function getTestResult(bookId, chapter, verse, quote) {

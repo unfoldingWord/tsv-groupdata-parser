@@ -113,20 +113,6 @@ export const getCategoryForGroupId = (groupId) => {
  * array of contextIds for each groupId.
  * @returns The group data categorized into five categories:
  * discourse, numbers, figures, culture, grammar or other.
- *
- * {
-    discourse: {},
-    numbers: {},
-    figures: {
-      'figs-metaphor': [] // array of groupId objects
-    },
-    culture: {},
-    grammar: {
-      'figs-abstractnouns': [], // array of groupId objects
-      'figs-activepassive': [] // array of groupId objects
-    },
-    other: {}
-  }
  */
 export const categorizeGroupData = groupData => {
   const categorizedGroupData = {

@@ -1,6 +1,5 @@
-export {
-  tsvToGroupData
-} from './tsvToGroupData'
+export { tsvToGroupData } from './tsvToGroupData'
+export { generateGroupsIndex } from './groupsIndexParser'
 export {
   getCategoryForGroupId,
   categorizeGroupData,
@@ -9,7 +8,4 @@ export {
 export {
   formatAndSaveGroupData,
   saveGroupsIndex
-} from './filesystemHelpers'
-export {
-  generateGroupsIndex
-} from './groupsIndexHelpers'
+} from './helpers/filesystemHelpers'

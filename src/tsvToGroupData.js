@@ -1,6 +1,6 @@
 import tsvtojson from 'tsvtojson'
 import { categorizeGroupData } from './tNoteGroupIdCategorization'
-import ManageResource from './ManageResource'
+import ManageResource from './helpers/ManageResourceAPI'
 import { getWordOccurrencesForQuote } from './helpers/wordOccurrenceHelpers'
 
 /**
