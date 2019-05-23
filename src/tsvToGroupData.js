@@ -19,7 +19,7 @@ export const tsvToGroupData = async (filepath, toolName, params = {}, originalBi
   const { Book: bookId } = tsvObjects[0] || {}
   const resourceApi = new ManageResource(originalBiblePath, bookId.toLowerCase())
 
-  tsvObjects.map((tsvItem) => {
+  tsvObjects.map(tsvItem => {
     if (tsvItem.SupportReference && tsvItem.OrigQuote) {
       tsvItem.SupportReference = cleanGroupId(tsvItem.SupportReference)
       tsvItem.OccurrenceNote = cleanArticleLink(tsvItem.OccurrenceNote)
@@ -35,7 +35,7 @@ export const tsvToGroupData = async (filepath, toolName, params = {}, originalBi
     }
   })
 
-  return params.categorized ? categorizeGroupData(groupData) : groupData;
+  return params.categorized ? categorizeGroupData(groupData) : groupData
 }
 
 /**
@@ -43,15 +43,15 @@ export const tsvToGroupData = async (filepath, toolName, params = {}, originalBi
  * @param {string} groupId group id string that was posibly incorrectly formatted.
  * @returns correctly formatted group id.
  */
-export const cleanGroupId = (groupId) => {
+export const cleanGroupId = groupId => {
   const subStrings = groupId.replace(/translate:|translate\//gi, '').split(/[_\/:]/g)
 
   if (subStrings.length === 1) {
-    return subStrings[0];
+    return subStrings[0]
   } else if (subStrings.length === 2) {
     return subStrings.join('-')
   } else {
-    return groupId;
+    return groupId
   }
 }
 
@@ -60,23 +60,24 @@ export const cleanGroupId = (groupId) => {
  * @param {string} occurrenceNote occurrence Note.
  * @returns {string} occurrenceNote with clean/fixed tA links.
  */
-export const cleanArticleLink = (occurrenceNote) => {
+export const cleanArticleLink = occurrenceNote => {
   let noteWithFixedLink = ''
-  const linkSubstring = "rc://en/ta/man/"
+  const linkSubstring = 'rc://en/ta/man/'
   const cutEnd = occurrenceNote.search(linkSubstring)
   const groupId = (occurrenceNote.substr(0, 0) + occurrenceNote.substr(cutEnd + 1))
-    .replace("c://en/ta/man/", "")
-    .replace("]])", "")
+    .replace('c://en/ta/man/', '')
+    .replace(']])', '')
   const stringFirstPart = occurrenceNote.slice(0, cutEnd)
 
-  if (groupId.includes(linkSubstring)) { // handle multiple links in the same note.
-    const joint = " and "
+  if (groupId.includes(linkSubstring)) {
+    // handle multiple links in the same note.
+    const joint = ' and '
     const multipleLinksSubstrings = groupId.split(joint)
     const lastItem = multipleLinksSubstrings.length - 1
-    let goodLinks = ""
+    let goodLinks = ''
 
     multipleLinksSubstrings.forEach((substring, index) => {
-      const linkString = substring.replace("[[rc://en/ta/man/", "").replace("]]", "")
+      const linkString = substring.replace('[[rc://en/ta/man/', '').replace(']]', '')
       const cleanedGropId = cleanGroupId(linkString)
 
       if (index === 0) {
@@ -88,7 +89,8 @@ export const cleanArticleLink = (occurrenceNote) => {
       }
     })
     noteWithFixedLink = stringFirstPart + goodLinks
-  } else {// only one link in the note
+  } else {
+    // only one link in the note
     const cleanedGropId = cleanGroupId(groupId)
     const goodLink = `rc://en/ta/man/translate/${cleanedGropId}]])`
     noteWithFixedLink = stringFirstPart + goodLink
@@ -104,10 +106,10 @@ export const cleanArticleLink = (occurrenceNote) => {
  * @returns {object} groupData item.
  */
 const generateGroupDataItem = (tsvItem, toolName, verseString) => {
-  const { OrigQuote = "" } = tsvItem
+  const { OrigQuote = '' } = tsvItem
   // if quote has more than one word get word occurrences
-  const quote = OrigQuote.trim().split(" ").length > 1 ?
-    getWordOccurrencesForQuote(OrigQuote, verseString) : OrigQuote
+  const quote =
+    OrigQuote.trim().split(' ').length > 1 ? getWordOccurrencesForQuote(OrigQuote, verseString) : OrigQuote
 
   return {
     comments: false,
@@ -115,17 +117,17 @@ const generateGroupDataItem = (tsvItem, toolName, verseString) => {
     selections: false,
     verseEdits: false,
     contextId: {
-      occurrenceNote: tsvItem.OccurrenceNote || "",
+      occurrenceNote: tsvItem.OccurrenceNote || '',
       reference: {
-        bookId: tsvItem.Book.toLowerCase() || "",
-        chapter: parseInt(tsvItem.Chapter, 10) || "",
-        verse: parseInt(tsvItem.Verse, 10) || ""
+        bookId: tsvItem.Book.toLowerCase() || '',
+        chapter: parseInt(tsvItem.Chapter, 10) || '',
+        verse: parseInt(tsvItem.Verse, 10) || '',
       },
-      tool: toolName || "",
-      groupId: tsvItem.SupportReference || "",
+      tool: toolName || '',
+      groupId: tsvItem.SupportReference || '',
       quote,
-      glQuote: tsvItem.GLQuote || "",
-      occurrence: parseInt(tsvItem.Occurrence, 10) || 1
-    }
+      glQuote: tsvItem.GLQuote || '',
+      occurrence: parseInt(tsvItem.Occurrence, 10) || 1,
+    },
   }
 }

@@ -1,9 +1,10 @@
+/* eslint-disable no-param-reassign */
 import stringTokenizer from 'string-punctuation-tokenizer'
 import { ELLIPSES, THREE_DOTS } from '../utils/constants'
 import { getQuoteOmittedString } from './ellipsisHelpers'
 
 function countStringInArray(array, string) {
-  return array.filter(item => item == string).length;
+  return array.filter(item => item == string).length
 }
 
 function substrOccurrencesInQuote(quote, substr, substrIndex) {
@@ -22,24 +23,23 @@ function substrOccurrencesInQuote(quote, substr, substrIndex) {
  * @param {string} quoteOmittedString - string omitted by ellipses
  */
 function getWordOccurrence(verseString, substr, quote, substrIndex, quoteOmittedString) {
-  const quoteWithOmittedString = quote.includes(ELLIPSES) ?
-    quote.replace(ELLIPSES, quoteOmittedString) : quote
-  const quoteSubStrIndex = verseString.indexOf(quoteWithOmittedString);
-  const previousStr = verseString.substring(0, quoteSubStrIndex);
+  const quoteWithOmittedString = quote.includes(ELLIPSES) ? quote.replace(ELLIPSES, quoteOmittedString) : quote
+  const quoteSubStrIndex = verseString.indexOf(quoteWithOmittedString)
+  const previousStr = verseString.substring(0, quoteSubStrIndex)
   const previousStrs = stringTokenizer.tokenizeWithPunctuation(previousStr)
-  let previousOccurrences = 0;
+  let previousOccurrences = 0
 
   for (let i = 0; i <= quoteSubStrIndex; i++) {
-    const stringItem = previousStrs[i];
+    const stringItem = previousStrs[i]
     if (stringItem === substr) {
-      previousOccurrences++;
+      previousOccurrences++
     }
   }
 
   let occurrence = ++previousOccurrences
 
   // if substr is found in quote more than once
-  if ((quoteWithOmittedString.split(new RegExp(substr, 'gi')).length - 1) > 1) {
+  if (quoteWithOmittedString.split(new RegExp(substr, 'gi')).length - 1 > 1) {
     if (quote.includes(ELLIPSES)) {
       quote = quote.replace(/\.../g, '')
     }
@@ -51,9 +51,9 @@ function getWordOccurrence(verseString, substr, quote, substrIndex, quoteOmitted
 }
 
 export function getWordOccurrencesForQuote(quote, verseString) {
-  let words = [],
-      quoteOmittedString = '',
-      cleanedQuote = quote
+  const words = [],
+    quoteOmittedString = '',
+    cleanedQuote = quote
 
   if (quote.includes(THREE_DOTS)) {
     cleanedQuote = quote.replace(/\.../g, ELLIPSES)
@@ -69,7 +69,7 @@ export function getWordOccurrencesForQuote(quote, verseString) {
     }
 
     words.push(word)
-  });
+  })
 
   return words
 }

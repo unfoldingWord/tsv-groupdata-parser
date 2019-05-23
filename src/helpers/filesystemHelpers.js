@@ -10,21 +10,22 @@ import path from 'path-extra'
  * @param {string} rootDestinationPath root directory where the files will be saved.
  * @param {string} bookId book id.
  */
-export const formatAndSaveGroupData = (categorizedGroupData, rootDestinationPath, bookId) => {
-  return new Promise((resolve, reject) => {
+export const formatAndSaveGroupData = (categorizedGroupData, rootDestinationPath, bookId) =>
+  new Promise((resolve, reject) => {
     try {
       const categories = Object.keys(categorizedGroupData)
       categories.forEach(categoryName => {
-        const categoryData = categorizedGroupData[categoryName];
-        const groupIds = Object.keys(categoryData);
-        if (groupIds.length === 0) fs.ensureDirSync(path.join(rootDestinationPath, categoryName, 'groups', bookId))
+        const categoryData = categorizedGroupData[categoryName]
+        const groupIds = Object.keys(categoryData)
+        if (groupIds.length === 0)
+          fs.ensureDirSync(path.join(rootDestinationPath, categoryName, 'groups', bookId))
 
         groupIds.forEach(groupId => {
           const filename = groupId + '.json'
           const groupData = categoryData[groupId]
           const savePath = path.join(rootDestinationPath, categoryName, 'groups', bookId, filename)
 
-          fs.outputJsonSync(savePath, groupData, {spaces: 2})
+          fs.outputJsonSync(savePath, groupData, { spaces: 2 })
         })
       })
       resolve()
@@ -32,7 +33,6 @@ export const formatAndSaveGroupData = (categorizedGroupData, rootDestinationPath
       reject(error)
     }
   })
-}
 
 /**
  * Persists the groupsIndex for each of the tN group category.
@@ -42,7 +42,7 @@ export const formatAndSaveGroupData = (categorizedGroupData, rootDestinationPath
  */
 export const saveGroupsIndex = (categorizedGroupsIndex, outputPath) => {
   Object.keys(categorizedGroupsIndex).forEach(categoryName => {
-    const categoryGroupsIndex = categorizedGroupsIndex[categoryName];
-    fs.outputJsonSync(path.join(outputPath, categoryName, 'index.json'), categoryGroupsIndex, {spaces:2})
+    const categoryGroupsIndex = categorizedGroupsIndex[categoryName]
+    fs.outputJsonSync(path.join(outputPath, categoryName, 'index.json'), categoryGroupsIndex, { spaces: 2 })
   })
 }

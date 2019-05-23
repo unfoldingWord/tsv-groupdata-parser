@@ -11,18 +11,18 @@ class ManageResource {
   }
 
   loadBook() {
-    if (this.sourcePath, this.bookId) {
-      const bookDir = path.join(this.sourcePath, this.bookId);
+    if (this.sourcePath && this.bookId) {
+      const bookDir = path.join(this.sourcePath, this.bookId)
       if (fs.existsSync(bookDir)) {
-        const chapters = fs.readdirSync(bookDir).filter((filename) => path.extname(filename) === '.json')
+        const chapters = fs.readdirSync(bookDir).filter(filename => path.extname(filename) === '.json')
 
         for (let index = 0; index < chapters.length; index++) {
-          const chapterFilename = chapters[index];
-          const chapterFilePath = path.join(bookDir, chapterFilename);
+          const chapterFilename = chapters[index]
+          const chapterFilePath = path.join(bookDir, chapterFilename)
           if (fs.existsSync(chapterFilePath)) {
             const chapter = chapterFilename.replace('.json', '')
             const chapterObject = fs.readJsonSync(chapterFilePath)
-            this.resource[chapter] = chapterObject;
+            this.resource[chapter] = chapterObject
           } else {
             console.error(`${chapterFilePath}, path does not exist`)
           }
@@ -36,17 +36,17 @@ class ManageResource {
   }
 
   getResource() {
-    return this.resource;
+    return this.resource
   }
 
   getVerseObjects(chapter, verse) {
-    return this.resource[chapter][verse];
+    return this.resource[chapter][verse]
   }
 
   getVerseString(chapter, verse) {
-    const { verseObjects } = this.resource[chapter][verse];
+    const { verseObjects } = this.resource[chapter][verse]
     return verseObjectsToString(verseObjects)
   }
 }
 
-export default ManageResource;
+export default ManageResource

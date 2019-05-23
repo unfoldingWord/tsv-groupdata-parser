@@ -8,18 +8,18 @@ export const generateGroupsIndex = (tnCategoriesPath, taCategoriesPath) => {
     figures: [],
     culture: [],
     grammar: [],
-    other: []
+    other: [],
   }
 
-  const isDirectory = (item) => fs.lstatSync(path.join(tnCategoriesPath, item)).isDirectory()
+  const isDirectory = item => fs.lstatSync(path.join(tnCategoriesPath, item)).isDirectory()
   const categories = fs.readdirSync(tnCategoriesPath).filter(isDirectory)
 
   categories.forEach(categoryName => {
     const booksPath = path.join(tnCategoriesPath, categoryName, 'groups')
-    const books = fs.readdirSync(booksPath).filter(item => item !== '.DS_Store');
+    const books = fs.readdirSync(booksPath).filter(item => item !== '.DS_Store')
     books.forEach(bookid => {
       const groupDataPath = path.join(booksPath, bookid)
-      const groupDataFiles = fs.readdirSync(groupDataPath).filter((filename) => path.extname(filename) === '.json');
+      const groupDataFiles = fs.readdirSync(groupDataPath).filter(filename => path.extname(filename) === '.json')
       groupDataFiles.forEach(groupDataFile => {
         const filePath = path.join(groupDataPath, groupDataFile)
         const groupId = groupDataFile.replace('.json', '')
@@ -30,38 +30,36 @@ export const generateGroupsIndex = (tnCategoriesPath, taCategoriesPath) => {
           const fileName = groupId + '.md'
           const articlePath = path.join(taCategoriesPath, taArticleCategory, fileName)
           const groupName = getGroupName(articlePath)
-          const groupIndexItem = getGroupIndex(groupId, groupName);
+          const groupIndexItem = getGroupIndex(groupId, groupName)
 
           // Only add the groupIndexItem if it isnt already in the category's groups index.
           if (!categorizedGroupsIndex[categoryName].some(e => e.id === groupIndexItem.id)) {
-            categorizedGroupsIndex[categoryName].push(groupIndexItem)// adding group Index Item
+            categorizedGroupsIndex[categoryName].push(groupIndexItem) // adding group Index Item
           }
         }
       })
     })
   })
 
-  return categorizedGroupsIndex;
+  return categorizedGroupsIndex
 }
 
-const getArticleCategory = (occurrenceNote) => {
-  const cutEnd = occurrenceNote.search("rc://en/ta/man/");
+const getArticleCategory = occurrenceNote => {
+  const cutEnd = occurrenceNote.search('rc://en/ta/man/')
   const taArticleCategory = (occurrenceNote.substr(0, 0) + occurrenceNote.substr(cutEnd + 1))
-    .replace("c://en/ta/man/", "")
-    .split("/")[0]
+    .replace('c://en/ta/man/', '')
+    .split('/')[0]
 
-  return taArticleCategory;
+  return taArticleCategory
 }
 
-const getGroupName = (articlePath) => {
-  const articleFile = fs.readFileSync(articlePath, 'utf8');
+const getGroupName = articlePath => {
+  const articleFile = fs.readFileSync(articlePath, 'utf8')
   // get the article's first line and remove #'s and spaces from beginning/end
-  return articleFile.split('\n')[0].replace(/(^\s*#\s*|\s*#\s*$)/gi, '');
+  return articleFile.split('\n')[0].replace(/(^\s*#\s*|\s*#\s*$)/gi, '')
 }
 
-const getGroupIndex = (groupId, groupName) => {
-  return {
-    id: groupId,
-    name: groupName
-  }
-}
+const getGroupIndex = (groupId, groupName) => ({
+  id: groupId,
+  name: groupName,
+})
