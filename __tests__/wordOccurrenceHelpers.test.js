@@ -1,5 +1,6 @@
 jest.unmock('fs-extra')
 import path from 'path-extra'
+// helpers
 import ManageResource from '../src/helpers/ManageResourceAPI'
 import { getWordOccurrencesForQuote } from '../src/helpers/wordOccurrenceHelpers'
 
@@ -44,126 +45,126 @@ describe('getWordOccurrencesForQuote():', () => {
 
   // test('should generate an array of objects for an original language quote with ellipses', () => {
   //   const checks = [
-      // {
-      //   bookId: 'tit',
-      //   chapter: 1,
-      //   verse: 15,
-      //   quote: "τοῖς ... μεμιαμμένοις καὶ ἀπίστοις, οὐδὲν καθαρόν",// omitted δὲ
-      //   expected: [
-      //     {
-      //       word: "τοῖς",
-      //       occurrence: 2,
-      //     },
-      //     {
-      //       word: "μεμιαμμένοις",
-      //       occurrence: 1,
-      //     },
-      //     {
-      //       word: "καὶ",
-      //       occurrence: 1,
-      //     },
-      //     {
-      //       word: "ἀπίστοις",
-      //       occurrence: 1,
-      //     },
-      //     {
-      //       word: ",",
-      //       occurrence: 1,
-      //     },
-      //     {
-      //       word: "οὐδὲν",
-      //       occurrence: 1,
-      //     },
-      //     {
-      //       word: "καθαρόν",
-      //       occurrence: 1,
-      //     },
-      //   ]
-      // },
-      // {
-      //   bookId: 'act',
-      //   chapter: 1,
-      //   verse: 2,
-      //   quote: "ἄχρι ἧς ἡμέρας ... ἀνελήμφθη",// omitted: ἐντειλάμενος τοῖς ἀποστόλοις διὰ Πνεύματος Ἁγίου , οὓς ἐξελέξατο,
-      //   expected: []
-      // },
-      // {
-      //   bookId: 'act',
-      //   chapter: 1,
-      //   verse: 2,
-      //   quote: "ἐντειλάμενος ... διὰ Πνεύματος Ἁγίου",// omitted "τοῖς ἀποστόλοις"
-      //   expected: []
-      // },
-      // {
-      //   bookId: 'act',
-      //   chapter: 15,
-      //   verse: 2,
-      //   quote: "στάσεως καὶ ζητήσεως οὐκ ὀλίγης ... πρὸς αὐτοὺς",// omitted τῷ Παύλῳ καὶ τῷ Βαρναβᾷ
-      //   expected: []
-      // },
-      // {
-      //   bookId: 'act',
-      //   chapter: 1,
-      //   verse: 10,
-      //   quote: "ἀτενίζοντες ... εἰς τὸν οὐρανὸν", // omitted ἦσαν
-      //   expected: []
-      // },
-      // {
-      //   bookId: 'act',
-      //   chapter: 3,
-      //   verse: 21,
-      //   quote: "στόματος τῶν ἁγίων ... αὐτοῦ προφητῶν", // omitted: ἀπ’ αἰῶνος
-      //   expected: []
-      // },
-      // {
-      //   bookId: 'mat',
-      //   chapter: 1,
-      //   verse: 5,
-      //   quote: "Σαλμὼν ... ἐγέννησεν τὸν Βόες ἐκ τῆς Ῥαχάβ", // omitted: δὲ
-      //   expected: []
-      // },
-      // {
-      //   bookId: 'mat',
-      //   chapter: 1,
-      //   verse: 12,
-      //   quote: "τὸν Σαλαθιήλ, Σαλαθιὴλ ... ἐγέννησεν τὸν Ζοροβαβέλ", // omitted: δὲ
-      //   expected: []
-      // },
-      // {
-      //   bookId: 'mat',
-      //   chapter: 1,
-      //   verse: 18,
-      //   quote: "πρὶν ... συνελθεῖν αὐτοὺς", // omitted: ἢ
-      //   expected: []
-      // },
-      // {
-      //   bookId: 'mat',
-      //   chapter: 1,
-      //   verse: 24,
-      //   quote: "ὡς προσέταξεν ... ὁ ἄγγελος Κυρίου", // omitted: αὐτῷ
-      //   expected: []
-      // },
-      // {
-      //   bookId: 'mat',
-      //   chapter: 2,
-      //   verse: 13,
-      //   quote: "ἕως ... εἴπω σοι", // omitted:ἂν
-      //   expected: []
-      // },
-      // {
-      //   bookId: 'rom',
-      //   chapter: 1,
-      //   verse: 18,
-      //   quote: "τὴν ἀλήθειαν ... κατεχόντων", // omitted: ἐν ἀδικίᾳ
-      //   expected: []
-      // },
-      // {
-      //   bookId: 'rom',
-      //   chapter: 1,
-      //   verse: 27,
-      //   quote: "καὶ ... ἄρσενες ἀφέντες τὴν φυσικὴν χρῆσιν τῆς θηλείας", // omitted: οἱ
-      //   expected: []
-      // },
+  //     {
+  //       bookId: 'tit',
+  //       chapter: 1,
+  //       verse: 15,
+  //       quote: "τοῖς ... μεμιαμμένοις καὶ ἀπίστοις, οὐδὲν καθαρόν",// omitted δὲ
+  //       expected: [
+  //         {
+  //           word: "τοῖς",
+  //           occurrence: 2,
+  //         },
+  //         {
+  //           word: "μεμιαμμένοις",
+  //           occurrence: 1,
+  //         },
+  //         {
+  //           word: "καὶ",
+  //           occurrence: 1,
+  //         },
+  //         {
+  //           word: "ἀπίστοις",
+  //           occurrence: 1,
+  //         },
+  //         {
+  //           word: ",",
+  //           occurrence: 1,
+  //         },
+  //         {
+  //           word: "οὐδὲν",
+  //           occurrence: 1,
+  //         },
+  //         {
+  //           word: "καθαρόν",
+  //           occurrence: 1,
+  //         },
+  //       ]
+  //     },
+  //     {
+  //       bookId: 'act',
+  //       chapter: 1,
+  //       verse: 2,
+  //       quote: "ἄχρι ἧς ἡμέρας ... ἀνελήμφθη",// omitted: ἐντειλάμενος τοῖς ἀποστόλοις διὰ Πνεύματος Ἁγίου , οὓς ἐξελέξατο,
+  //       expected: []
+  //     },
+  //     {
+  //       bookId: 'act',
+  //       chapter: 1,
+  //       verse: 2,
+  //       quote: "ἐντειλάμενος ... διὰ Πνεύματος Ἁγίου",// omitted "τοῖς ἀποστόλοις"
+  //       expected: []
+  //     },
+  //     {
+  //       bookId: 'act',
+  //       chapter: 15,
+  //       verse: 2,
+  //       quote: "στάσεως καὶ ζητήσεως οὐκ ὀλίγης ... πρὸς αὐτοὺς",// omitted τῷ Παύλῳ καὶ τῷ Βαρναβᾷ
+  //       expected: []
+  //     },
+  //     {
+  //       bookId: 'act',
+  //       chapter: 1,
+  //       verse: 10,
+  //       quote: "ἀτενίζοντες ... εἰς τὸν οὐρανὸν", // omitted ἦσαν
+  //       expected: []
+  //     },
+  //     {
+  //       bookId: 'act',
+  //       chapter: 3,
+  //       verse: 21,
+  //       quote: "στόματος τῶν ἁγίων ... αὐτοῦ προφητῶν", // omitted: ἀπ’ αἰῶνος
+  //       expected: []
+  //     },
+  //     {
+  //       bookId: 'mat',
+  //       chapter: 1,
+  //       verse: 5,
+  //       quote: "Σαλμὼν ... ἐγέννησεν τὸν Βόες ἐκ τῆς Ῥαχάβ", // omitted: δὲ
+  //       expected: []
+  //     },
+  //     {
+  //       bookId: 'mat',
+  //       chapter: 1,
+  //       verse: 12,
+  //       quote: "τὸν Σαλαθιήλ, Σαλαθιὴλ ... ἐγέννησεν τὸν Ζοροβαβέλ", // omitted: δὲ
+  //       expected: []
+  //     },
+  //     {
+  //       bookId: 'mat',
+  //       chapter: 1,
+  //       verse: 18,
+  //       quote: "πρὶν ... συνελθεῖν αὐτοὺς", // omitted: ἢ
+  //       expected: []
+  //     },
+  //     {
+  //       bookId: 'mat',
+  //       chapter: 1,
+  //       verse: 24,
+  //       quote: "ὡς προσέταξεν ... ὁ ἄγγελος Κυρίου", // omitted: αὐτῷ
+  //       expected: []
+  //     },
+  //     {
+  //       bookId: 'mat',
+  //       chapter: 2,
+  //       verse: 13,
+  //       quote: "ἕως ... εἴπω σοι", // omitted:ἂν
+  //       expected: []
+  //     },
+  //     {
+  //       bookId: 'rom',
+  //       chapter: 1,
+  //       verse: 18,
+  //       quote: "τὴν ἀλήθειαν ... κατεχόντων", // omitted: ἐν ἀδικίᾳ
+  //       expected: []
+  //     },
+  //     {
+  //       bookId: 'rom',
+  //       chapter: 1,
+  //       verse: 27,
+  //       quote: "καὶ ... ἄρσενες ἀφέντες τὴν φυσικὴν χρῆσιν τῆς θηλείας", // omitted: οἱ
+  //       expected: []
+  //     },
   //   ]
 
   //   checks.forEach(({ bookId, chapter, verse, quote, expected}) => {

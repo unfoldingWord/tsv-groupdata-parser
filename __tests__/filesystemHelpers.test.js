@@ -1,7 +1,7 @@
 jest.mock('fs-extra');
 import fs from 'fs-extra';
 import path from 'path-extra'
-import { formatAndSaveGroupData } from '../src/filesystemHelpers'
+import { formatAndSaveGroupData } from '../src/helpers/filesystemHelpers'
 import categorizedGroupData from './fixtures/tit_categorizedGroupData.json'
 
 describe('formatAndSaveGroupData()', () => {

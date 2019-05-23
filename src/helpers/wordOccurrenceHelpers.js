@@ -1,5 +1,6 @@
 import stringTokenizer from 'string-punctuation-tokenizer'
 import { ELLIPSES, THREE_DOTS } from '../utils/constants'
+import { getQuoteOmittedString } from './ellipsisHelpers'
 
 function countStringInArray(array, string) {
   return array.filter(item => item == string).length;
@@ -48,7 +49,6 @@ function getWordOccurrence(verseString, substr, quote, substrIndex, quoteOmitted
 
   return occurrence
 }
-
 
 export function getWordOccurrencesForQuote(quote, verseString) {
   let words = [],
