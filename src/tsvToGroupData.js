@@ -1,7 +1,7 @@
 import tsvtojson from 'tsvtojson'
 import { categorizeGroupData } from './tNoteGroupIdCategorization'
 import ManageResource from './ManageResource'
-import { getWordOccurrencesForQuote } from './wordOccurrenceHelpers'
+import { getWordOccurrencesForQuote } from './helpers/wordOccurrenceHelpers'
 
 /**
  * Parses a book tN TSVs and returns an object holding the lists of group ids.
