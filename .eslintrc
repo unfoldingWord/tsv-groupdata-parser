@@ -100,7 +100,7 @@
         "semi": false,
         "trailingComma": "es5",
         "singleQuote": true,
-        "printWidth": 113
+        "printWidth": 300
       }
     ]
   },

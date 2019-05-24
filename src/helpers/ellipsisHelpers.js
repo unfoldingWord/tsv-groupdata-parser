@@ -1,13 +1,13 @@
 /* eslint-disable no-param-reassign */
-import { ELLIPSES } from '../utils/constants'
+import { ELLIPSIS } from '../utils/constants'
 
 function indexPlusOneIsOdd(n) {
   return !((n + 1) % 2 == 0)
 }
 
-export function getQuoteOmittedString(quote, verseString) {
-  quote = quote.replace(/\.../g, ELLIPSES)
-  const quoteChunks = quote.split(ELLIPSES)
+export function getWholeQuote(quote, verseString) {
+  quote = quote.replace(/\.../g, ELLIPSIS)
+  const quoteChunks = quote.split(ELLIPSIS)
   const missingWordsIndices = []
 
   quoteChunks.forEach((quoteChunk, index) => {
