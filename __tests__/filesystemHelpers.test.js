@@ -1,7 +1,7 @@
-jest.mock('fs-extra');
-import fs from 'fs-extra';
+jest.mock('fs-extra')
+import fs from 'fs-extra'
 import path from 'path-extra'
-import { formatAndSaveGroupData } from '../src/filesystemHelpers'
+import { formatAndSaveGroupData } from '../src/helpers/filesystemHelpers'
 import categorizedGroupData from './fixtures/tit_categorizedGroupData.json'
 
 describe('formatAndSaveGroupData()', () => {
@@ -13,15 +13,7 @@ describe('formatAndSaveGroupData()', () => {
     // Expected files.
     const discourseFiles = []
     const numbersFiles = []
-    const figuresFiles = [
-      'figs-metaphor.json',
-      'figs-ellipsis.json',
-      'figs-metonymy.json',
-      'figs-hyperbole.json',
-      'figs-personification.json',
-      'figs-hendiadys.json',
-      'figs-doublenegatives.json'
-    ]
+    const figuresFiles = ['figs-metaphor.json', 'figs-ellipsis.json', 'figs-metonymy.json', 'figs-hyperbole.json', 'figs-personification.json', 'figs-hendiadys.json', 'figs-doublenegatives.json']
     const cultureFiles = ['figs-explicit.json', 'translate-names.json']
     const grammarFiles = ['figs-abstractnouns.json', 'figs-activepassive.json', 'figs-hypo.json']
     const otherFiles = []

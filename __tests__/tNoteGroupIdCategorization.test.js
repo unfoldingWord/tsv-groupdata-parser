@@ -4,9 +4,9 @@ import titCategorizedGroupData from './fixtures/tit_categorizedGroupData.json'
 
 describe('categorizeGroupData():', () => {
   test('Should categorized the group data into five groups: discourse, numbers, figures, culture, grammar or other.', async () => {
-    const result = categorizeGroupData(titGroupData);
+    const result = categorizeGroupData(titGroupData)
 
-    expect(Object.keys(result)).toEqual(['discourse', 'numbers', 'figures', 'culture', 'grammar','other'])
+    expect(Object.keys(result)).toEqual(['discourse', 'numbers', 'figures', 'culture', 'grammar', 'other'])
     expect(result).toEqual(titCategorizedGroupData)
   })
 })

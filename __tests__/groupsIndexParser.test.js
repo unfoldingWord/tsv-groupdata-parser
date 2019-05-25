@@ -1,5 +1,5 @@
 jest.unmock('fs-extra')
-import { generateGroupsIndex } from '../src/groupsIndexHelpers'
+import { generateGroupsIndex } from '../src/groupsIndexParser'
 // fixture files
 import categorizedGroupsIndex from './fixtures/categorizedGroupsIndex.json'
 

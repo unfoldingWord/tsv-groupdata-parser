@@ -1,15 +1,4 @@
-export {
-  tsvToGroupData
-} from './tsvToGroupData'
-export {
-  getCategoryForGroupId,
-  categorizeGroupData,
-  tNotesCategories
-} from './tNoteGroupIdCategorization'
-export {
-  formatAndSaveGroupData,
-  saveGroupsIndex
-} from './filesystemHelpers'
-export {
-  generateGroupsIndex
-} from './groupsIndexHelpers'
+export { tsvToGroupData } from './tsvToGroupData'
+export { generateGroupsIndex } from './groupsIndexParser'
+export { getCategoryForGroupId, categorizeGroupData, tNotesCategories } from './tNoteGroupIdCategorization'
+export { formatAndSaveGroupData, saveGroupsIndex } from './helpers/filesystemHelpers'

@@ -17,7 +17,27 @@
           },
           "tool": "translationNotes",
           "groupId": "figs-metaphor",
-          "quote": "ἐφανέρωσεν ... τὸν λόγον αὐτοῦ",
+          "quote": [
+            {
+              "word": "ἐφανέρωσεν",
+              "occurrence": 1
+            },
+            {
+              "word": "…"
+            },
+            {
+              "word": "τὸν",
+              "occurrence": 1
+            },
+            {
+              "word": "λόγον",
+              "occurrence": 1
+            },
+            {
+              "word": "αὐτοῦ",
+              "occurrence": 1
+            }
+          ],
           "glQuote": "he revealed his word",
           "occurrence": 1
         }
@@ -36,7 +56,16 @@
           },
           "tool": "translationNotes",
           "groupId": "figs-metaphor",
-          "quote": "γνησίῳ τέκνῳ",
+          "quote": [
+            {
+              "word": "γνησίῳ",
+              "occurrence": 1
+            },
+            {
+              "word": "τέκνῳ",
+              "occurrence": 1
+            }
+          ],
           "glQuote": "a true son",
           "occurrence": 1
         }
@@ -55,7 +84,16 @@
           },
           "tool": "translationNotes",
           "groupId": "figs-metaphor",
-          "quote": "Θεοῦ οἰκονόμον",
+          "quote": [
+            {
+              "word": "Θεοῦ",
+              "occurrence": 1
+            },
+            {
+              "word": "οἰκονόμον",
+              "occurrence": 1
+            }
+          ],
           "glQuote": "God's household manager",
           "occurrence": 1
         }
@@ -93,7 +131,20 @@
           },
           "tool": "translationNotes",
           "groupId": "figs-metaphor",
-          "quote": "ματαιολόγοι καὶ φρεναπάται",
+          "quote": [
+            {
+              "word": "ματαιολόγοι",
+              "occurrence": 1
+            },
+            {
+              "word": "καὶ",
+              "occurrence": 1
+            },
+            {
+              "word": "φρεναπάται",
+              "occurrence": 1
+            }
+          ],
           "glQuote": "empty talkers and deceivers",
           "occurrence": 1
         }
@@ -112,7 +163,16 @@
           },
           "tool": "translationNotes",
           "groupId": "figs-metaphor",
-          "quote": "κακὰ θηρία",
+          "quote": [
+            {
+              "word": "κακὰ",
+              "occurrence": 1
+            },
+            {
+              "word": "θηρία",
+              "occurrence": 1
+            }
+          ],
           "glQuote": "evil beasts",
           "occurrence": 1
         }
@@ -131,7 +191,20 @@
           },
           "tool": "translationNotes",
           "groupId": "figs-metaphor",
-          "quote": "ἀποστρεφομένων τὴν ἀλήθειαν",
+          "quote": [
+            {
+              "word": "ἀποστρεφομένων",
+              "occurrence": 1
+            },
+            {
+              "word": "τὴν",
+              "occurrence": 1
+            },
+            {
+              "word": "ἀλήθειαν",
+              "occurrence": 1
+            }
+          ],
           "glQuote": "turn away from the truth",
           "occurrence": 1
         }
@@ -150,7 +223,36 @@
           },
           "tool": "translationNotes",
           "groupId": "figs-metaphor",
-          "quote": "τοῖς μεμιαμμένοις καὶ ἀπίστοις, οὐδὲν καθαρόν",
+          "quote": [
+            {
+              "word": "τοῖς",
+              "occurrence": 1
+            },
+            {
+              "word": "μεμιαμμένοις",
+              "occurrence": 1
+            },
+            {
+              "word": "καὶ",
+              "occurrence": 1
+            },
+            {
+              "word": "ἀπίστοις",
+              "occurrence": 1
+            },
+            {
+              "word": ",",
+              "occurrence": 1
+            },
+            {
+              "word": "οὐδὲν",
+              "occurrence": 1
+            },
+            {
+              "word": "καθαρόν",
+              "occurrence": 1
+            }
+          ],
           "glQuote": "to those who are corrupt and unbelieving, nothing is pure",
           "occurrence": 1
         }
@@ -169,7 +271,20 @@
           },
           "tool": "translationNotes",
           "groupId": "figs-metaphor",
-          "quote": "οἴνῳ πολλῷ δεδουλωμένας",
+          "quote": [
+            {
+              "word": "οἴνῳ",
+              "occurrence": 1
+            },
+            {
+              "word": "πολλῷ",
+              "occurrence": 1
+            },
+            {
+              "word": "δεδουλωμένας",
+              "occurrence": 1
+            }
+          ],
           "glQuote": "or being slaves to much wine",
           "occurrence": 1
         }
@@ -188,7 +303,28 @@
           },
           "tool": "translationNotes",
           "groupId": "figs-metaphor",
-          "quote": "λυτρώσηται ἡμᾶς ἀπὸ πάσης ἀνομίας",
+          "quote": [
+            {
+              "word": "λυτρώσηται",
+              "occurrence": 1
+            },
+            {
+              "word": "ἡμᾶς",
+              "occurrence": 1
+            },
+            {
+              "word": "ἀπὸ",
+              "occurrence": 1
+            },
+            {
+              "word": "πάσης",
+              "occurrence": 1
+            },
+            {
+              "word": "ἀνομίας",
+              "occurrence": 1
+            }
+          ],
           "glQuote": "to redeem us from all lawlessness",
           "occurrence": 1
         }
@@ -207,7 +343,16 @@
           },
           "tool": "translationNotes",
           "groupId": "figs-metaphor",
-          "quote": "λουτροῦ παλινγενεσίας",
+          "quote": [
+            {
+              "word": "λουτροῦ",
+              "occurrence": 1
+            },
+            {
+              "word": "παλινγενεσίας",
+              "occurrence": 1
+            }
+          ],
           "glQuote": "washing of new birth",
           "occurrence": 1
         }
@@ -226,7 +371,36 @@
           },
           "tool": "translationNotes",
           "groupId": "figs-metaphor",
-          "quote": "οὗ ἐξέχεεν ἐξέχεεν ἐφ’ ἡμᾶς πλουσίως",
+          "quote": [
+            {
+              "word": "οὗ",
+              "occurrence": 1
+            },
+            {
+              "word": "ἐξέχεεν",
+              "occurrence": 1
+            },
+            {
+              "word": "ἐξέχεεν",
+              "occurrence": 2
+            },
+            {
+              "word": "ἐφ",
+              "occurrence": 1
+            },
+            {
+              "word": "’",
+              "occurrence": 1
+            },
+            {
+              "word": "ἡμᾶς",
+              "occurrence": 1
+            },
+            {
+              "word": "πλουσίως",
+              "occurrence": 1
+            }
+          ],
           "glQuote": "whom God richly poured on us",
           "occurrence": 1
         }
@@ -245,7 +419,40 @@
           },
           "tool": "translationNotes",
           "groupId": "figs-metaphor",
-          "quote": "κληρονόμοι γενηθῶμεν κατ’ ἐλπίδα ζωῆς ζωῆς αἰωνίου",
+          "quote": [
+            {
+              "word": "κληρονόμοι",
+              "occurrence": 1
+            },
+            {
+              "word": "γενηθῶμεν",
+              "occurrence": 1
+            },
+            {
+              "word": "κατ",
+              "occurrence": 1
+            },
+            {
+              "word": "’",
+              "occurrence": 1
+            },
+            {
+              "word": "ἐλπίδα",
+              "occurrence": 1
+            },
+            {
+              "word": "ζωῆς",
+              "occurrence": 1
+            },
+            {
+              "word": "ζωῆς",
+              "occurrence": 2
+            },
+            {
+              "word": "αἰωνίου",
+              "occurrence": 1
+            }
+          ],
           "glQuote": "we might become heirs with the certain hope of eternal life",
           "occurrence": 1
         }
@@ -285,7 +492,20 @@
           },
           "tool": "translationNotes",
           "groupId": "figs-ellipsis",
-          "quote": "χάρις καὶ εἰρήνη",
+          "quote": [
+            {
+              "word": "χάρις",
+              "occurrence": 1
+            },
+            {
+              "word": "καὶ",
+              "occurrence": 1
+            },
+            {
+              "word": "εἰρήνη",
+              "occurrence": 1
+            }
+          ],
           "glQuote": "Grace and peace",
           "occurrence": 1
         }
@@ -306,7 +526,24 @@
           },
           "tool": "translationNotes",
           "groupId": "figs-metonymy",
-          "quote": "οἱ ἐκ τῆς περιτομῆς",
+          "quote": [
+            {
+              "word": "οἱ",
+              "occurrence": 1
+            },
+            {
+              "word": "ἐκ",
+              "occurrence": 1
+            },
+            {
+              "word": "τῆς",
+              "occurrence": 1
+            },
+            {
+              "word": "περιτομῆς",
+              "occurrence": 1
+            }
+          ],
           "glQuote": "those of the circumcision",
           "occurrence": 1
         }
@@ -325,7 +562,76 @@
           },
           "tool": "translationNotes",
           "groupId": "figs-metonymy",
-          "quote": "τὴν μακαρίαν ἐλπίδα, καὶ ἐπιφάνειαν τῆς δόξης τοῦ μεγάλου Θεοῦ καὶ Σωτῆρος ἡμῶν, Ἰησοῦ Χριστοῦ",
+          "quote": [
+            {
+              "word": "τὴν",
+              "occurrence": 1
+            },
+            {
+              "word": "μακαρίαν",
+              "occurrence": 1
+            },
+            {
+              "word": "ἐλπίδα",
+              "occurrence": 1
+            },
+            {
+              "word": ",",
+              "occurrence": 1
+            },
+            {
+              "word": "καὶ",
+              "occurrence": 1
+            },
+            {
+              "word": "ἐπιφάνειαν",
+              "occurrence": 1
+            },
+            {
+              "word": "τῆς",
+              "occurrence": 1
+            },
+            {
+              "word": "δόξης",
+              "occurrence": 1
+            },
+            {
+              "word": "τοῦ",
+              "occurrence": 1
+            },
+            {
+              "word": "μεγάλου",
+              "occurrence": 1
+            },
+            {
+              "word": "Θεοῦ",
+              "occurrence": 1
+            },
+            {
+              "word": "καὶ",
+              "occurrence": 2
+            },
+            {
+              "word": "Σωτῆρος",
+              "occurrence": 1
+            },
+            {
+              "word": "ἡμῶν",
+              "occurrence": 1
+            },
+            {
+              "word": ",",
+              "occurrence": 2
+            },
+            {
+              "word": "Ἰησοῦ",
+              "occurrence": 1
+            },
+            {
+              "word": "Χριστοῦ",
+              "occurrence": 1
+            }
+          ],
           "glQuote": "our blessed hope, the appearance of the glory of our great God and Savior Jesus Christ",
           "occurrence": 1
         }
@@ -346,7 +652,20 @@
           },
           "tool": "translationNotes",
           "groupId": "figs-hyperbole",
-          "quote": "Κρῆτες ἀεὶ ψεῦσται",
+          "quote": [
+            {
+              "word": "Κρῆτες",
+              "occurrence": 1
+            },
+            {
+              "word": "ἀεὶ",
+              "occurrence": 1
+            },
+            {
+              "word": "ψεῦσται",
+              "occurrence": 1
+            }
+          ],
           "glQuote": "Cretans are always liars",
           "occurrence": 1
         }
@@ -367,7 +686,31 @@
           },
           "tool": "translationNotes",
           "groupId": "figs-personification",
-          "quote": "ἐπεφάνη ... ἡ χάρις τοῦ Θεοῦ",
+          "quote": [
+            {
+              "word": "ἐπεφάνη",
+              "occurrence": 1
+            },
+            {
+              "word": "…"
+            },
+            {
+              "word": "ἡ",
+              "occurrence": 1
+            },
+            {
+              "word": "χάρις",
+              "occurrence": 1
+            },
+            {
+              "word": "τοῦ",
+              "occurrence": 1
+            },
+            {
+              "word": "Θεοῦ",
+              "occurrence": 1
+            }
+          ],
           "glQuote": "the grace of God has appeared",
           "occurrence": 1
         }
@@ -386,7 +729,16 @@
           },
           "tool": "translationNotes",
           "groupId": "figs-personification",
-          "quote": "παιδεύουσα ἡμᾶς",
+          "quote": [
+            {
+              "word": "παιδεύουσα",
+              "occurrence": 1
+            },
+            {
+              "word": "ἡμᾶς",
+              "occurrence": 1
+            }
+          ],
           "glQuote": "trains us",
           "occurrence": 1
         }
@@ -405,7 +757,36 @@
           },
           "tool": "translationNotes",
           "groupId": "figs-personification",
-          "quote": "πλανώμενοι, δουλεύοντες ἐπιθυμίαις καὶ ἡδοναῖς ποικίλαις",
+          "quote": [
+            {
+              "word": "πλανώμενοι",
+              "occurrence": 1
+            },
+            {
+              "word": ",",
+              "occurrence": 3
+            },
+            {
+              "word": "δουλεύοντες",
+              "occurrence": 1
+            },
+            {
+              "word": "ἐπιθυμίαις",
+              "occurrence": 1
+            },
+            {
+              "word": "καὶ",
+              "occurrence": 2
+            },
+            {
+              "word": "ἡδοναῖς",
+              "occurrence": 1
+            },
+            {
+              "word": "ποικίλαις",
+              "occurrence": 1
+            }
+          ],
           "glQuote": "We were led astray and enslaved by various passions and pleasures",
           "occurrence": 1
         }
@@ -424,7 +805,59 @@
           },
           "tool": "translationNotes",
           "groupId": "figs-personification",
-          "quote": "ὅτε ... ἡ χρηστότης καὶ ἡ φιλανθρωπία ἐπεφάνη τοῦ Σωτῆρος ἡμῶν, Θεοῦ",
+          "quote": [
+            {
+              "word": "ὅτε",
+              "occurrence": 1
+            },
+            {
+              "word": "…"
+            },
+            {
+              "word": "ἡ",
+              "occurrence": 1
+            },
+            {
+              "word": "χρηστότης",
+              "occurrence": 1
+            },
+            {
+              "word": "καὶ",
+              "occurrence": 1
+            },
+            {
+              "word": "ἡ",
+              "occurrence": 2
+            },
+            {
+              "word": "φιλανθρωπία",
+              "occurrence": 1
+            },
+            {
+              "word": "ἐπεφάνη",
+              "occurrence": 1
+            },
+            {
+              "word": "τοῦ",
+              "occurrence": 1
+            },
+            {
+              "word": "Σωτῆρος",
+              "occurrence": 1
+            },
+            {
+              "word": "ἡμῶν",
+              "occurrence": 1
+            },
+            {
+              "word": ",",
+              "occurrence": 1
+            },
+            {
+              "word": "Θεοῦ",
+              "occurrence": 1
+            }
+          ],
           "glQuote": "when the kindness of God our Savior and his love for mankind appeared",
           "occurrence": 1
         }
@@ -445,7 +878,28 @@
           },
           "tool": "translationNotes",
           "groupId": "figs-hendiadys",
-          "quote": "ἐν κακίᾳ καὶ φθόνῳ διάγοντες",
+          "quote": [
+            {
+              "word": "ἐν",
+              "occurrence": 1
+            },
+            {
+              "word": "κακίᾳ",
+              "occurrence": 1
+            },
+            {
+              "word": "καὶ",
+              "occurrence": 3
+            },
+            {
+              "word": "φθόνῳ",
+              "occurrence": 1
+            },
+            {
+              "word": "διάγοντες",
+              "occurrence": 1
+            }
+          ],
           "glQuote": "We lived in evil and envy",
           "occurrence": 1
         }
@@ -466,7 +920,44 @@
           },
           "tool": "translationNotes",
           "groupId": "figs-doublenegatives",
-          "quote": "εἰς τὰς ἀναγκαίας χρείας, ἵνα μὴ ὦσιν ἄκαρποι",
+          "quote": [
+            {
+              "word": "εἰς",
+              "occurrence": 1
+            },
+            {
+              "word": "τὰς",
+              "occurrence": 1
+            },
+            {
+              "word": "ἀναγκαίας",
+              "occurrence": 1
+            },
+            {
+              "word": "χρείας",
+              "occurrence": 1
+            },
+            {
+              "word": ",",
+              "occurrence": 1
+            },
+            {
+              "word": "ἵνα",
+              "occurrence": 1
+            },
+            {
+              "word": "μὴ",
+              "occurrence": 1
+            },
+            {
+              "word": "ὦσιν",
+              "occurrence": 1
+            },
+            {
+              "word": "ἄκαρποι",
+              "occurrence": 1
+            }
+          ],
           "glQuote": "needs, and so not be unfruitful",
           "occurrence": 1
         }
@@ -489,7 +980,20 @@
           },
           "tool": "translationNotes",
           "groupId": "figs-explicit",
-          "quote": "μιᾶς γυναικὸς ἀνήρ",
+          "quote": [
+            {
+              "word": "μιᾶς",
+              "occurrence": 1
+            },
+            {
+              "word": "γυναικὸς",
+              "occurrence": 1
+            },
+            {
+              "word": "ἀνήρ",
+              "occurrence": 1
+            }
+          ],
           "glQuote": "the husband of one wife",
           "occurrence": 1
         }
@@ -508,7 +1012,28 @@
           },
           "tool": "translationNotes",
           "groupId": "figs-explicit",
-          "quote": "σὺ δὲ λάλει ἃ πρέπει",
+          "quote": [
+            {
+              "word": "σὺ",
+              "occurrence": 1
+            },
+            {
+              "word": "δὲ",
+              "occurrence": 1
+            },
+            {
+              "word": "λάλει",
+              "occurrence": 1
+            },
+            {
+              "word": "ἃ",
+              "occurrence": 1
+            },
+            {
+              "word": "πρέπει",
+              "occurrence": 1
+            }
+          ],
           "glQuote": "But you, speak what fits",
           "occurrence": 1
         }
@@ -527,7 +1052,24 @@
           },
           "tool": "translationNotes",
           "groupId": "figs-explicit",
-          "quote": "ἔδωκεν ἑαυτὸν ὑπὲρ ἡμῶν",
+          "quote": [
+            {
+              "word": "ἔδωκεν",
+              "occurrence": 1
+            },
+            {
+              "word": "ἑαυτὸν",
+              "occurrence": 1
+            },
+            {
+              "word": "ὑπὲρ",
+              "occurrence": 1
+            },
+            {
+              "word": "ἡμῶν",
+              "occurrence": 1
+            }
+          ],
           "glQuote": "gave himself for us",
           "occurrence": 1
         }
@@ -546,7 +1088,24 @@
           },
           "tool": "translationNotes",
           "groupId": "figs-explicit",
-          "quote": "ἔλεγχε μετὰ πάσης ἐπιταγῆς",
+          "quote": [
+            {
+              "word": "ἔλεγχε",
+              "occurrence": 1
+            },
+            {
+              "word": "μετὰ",
+              "occurrence": 1
+            },
+            {
+              "word": "πάσης",
+              "occurrence": 1
+            },
+            {
+              "word": "ἐπιταγῆς",
+              "occurrence": 1
+            }
+          ],
           "glQuote": "give correction with all authority",
           "occurrence": 1
         }
@@ -565,7 +1124,16 @@
           },
           "tool": "translationNotes",
           "groupId": "figs-explicit",
-          "quote": "σου περιφρονείτω",
+          "quote": [
+            {
+              "word": "σου",
+              "occurrence": 1
+            },
+            {
+              "word": "περιφρονείτω",
+              "occurrence": 1
+            }
+          ],
           "glQuote": "disregard you",
           "occurrence": 1
         }
@@ -586,7 +1154,19 @@
           },
           "tool": "translationNotes",
           "groupId": "translate-names",
-          "quote": "Ἀρτεμᾶν ... Τυχικόν",
+          "quote": [
+            {
+              "word": "Ἀρτεμᾶν",
+              "occurrence": 1
+            },
+            {
+              "word": "…"
+            },
+            {
+              "word": "Τυχικόν",
+              "occurrence": 1
+            }
+          ],
           "glQuote": "Artemas ... Tychicus",
           "occurrence": 1
         }
@@ -628,7 +1208,44 @@
           },
           "tool": "translationNotes",
           "groupId": "figs-abstractnouns",
-          "quote": "ὑγιαίνοντας τῇ πίστει, τῇ ἀγάπῃ, τῇ ὑπομονῇ",
+          "quote": [
+            {
+              "word": "ὑγιαίνοντας",
+              "occurrence": 1
+            },
+            {
+              "word": "τῇ",
+              "occurrence": 1
+            },
+            {
+              "word": "πίστει",
+              "occurrence": 1
+            },
+            {
+              "word": ",",
+              "occurrence": 4
+            },
+            {
+              "word": "τῇ",
+              "occurrence": 2
+            },
+            {
+              "word": "ἀγάπῃ",
+              "occurrence": 1
+            },
+            {
+              "word": ",",
+              "occurrence": 5
+            },
+            {
+              "word": "τῇ",
+              "occurrence": 3
+            },
+            {
+              "word": "ὑπομονῇ",
+              "occurrence": 1
+            }
+          ],
           "glQuote": "sound in faith, in love, and in perseverance",
           "occurrence": 1
         }
@@ -649,7 +1266,36 @@
           },
           "tool": "translationNotes",
           "groupId": "figs-activepassive",
-          "quote": "ἵνα μὴ ὁ λόγος τοῦ Θεοῦ βλασφημῆται",
+          "quote": [
+            {
+              "word": "ἵνα",
+              "occurrence": 1
+            },
+            {
+              "word": "μὴ",
+              "occurrence": 1
+            },
+            {
+              "word": "ὁ",
+              "occurrence": 1
+            },
+            {
+              "word": "λόγος",
+              "occurrence": 1
+            },
+            {
+              "word": "τοῦ",
+              "occurrence": 1
+            },
+            {
+              "word": "Θεοῦ",
+              "occurrence": 1
+            },
+            {
+              "word": "βλασφημῆται",
+              "occurrence": 1
+            }
+          ],
           "glQuote": "so that God's word may not be insulted",
           "occurrence": 1
         }
@@ -689,7 +1335,28 @@
           },
           "tool": "translationNotes",
           "groupId": "figs-hypo",
-          "quote": "ἵνα ὁ ἐξ ἐναντίας ἐντραπῇ",
+          "quote": [
+            {
+              "word": "ἵνα",
+              "occurrence": 1
+            },
+            {
+              "word": "ὁ",
+              "occurrence": 1
+            },
+            {
+              "word": "ἐξ",
+              "occurrence": 1
+            },
+            {
+              "word": "ἐναντίας",
+              "occurrence": 1
+            },
+            {
+              "word": "ἐντραπῇ",
+              "occurrence": 1
+            }
+          ],
           "glQuote": "so that anyone who opposes you may be ashamed",
           "occurrence": 1
         }
