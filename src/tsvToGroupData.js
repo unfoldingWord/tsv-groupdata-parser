@@ -9,7 +9,8 @@ import { getWordOccurrencesForQuote } from './helpers/wordOccurrenceHelpers'
  * @param {string} toolName tC tool name.
  * @param {object} params When it includes { categorized: true }
  * then it returns the object organized by tn article category.
- * @param {string} originalBiblePath path to original bible
+ * @param {string} originalBiblePath path to original bible.
+ * e.g. /resources/el-x-koine/bibles/ugnt/v0.5
  * @returns an object with the lists of group ids which each
  * includes an array of groupsdata.
  */

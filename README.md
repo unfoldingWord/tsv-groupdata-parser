@@ -42,6 +42,7 @@ Parses the translationNotes TSVs files to generate the GroupIndex and GroupData 
 - Make your changes in the new branch (my-feature-branch).
 - Push your changes.
 - Run `npm i translationCoreApps/tsv-groupdata-parser#my-feature-branch` in your translationCore root directory.
+- For subsequent changes run `rm -rf node_modules/tsv-groupdata-parser; npm i tsv-groupdata-parser;`
 
 ## Builds
 
