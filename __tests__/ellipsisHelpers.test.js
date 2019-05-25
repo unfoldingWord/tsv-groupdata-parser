@@ -1,7 +1,7 @@
 /* eslint-disable no-unexpected-multiline */
-import { getWholeQuote } from '../src/helpers/ellipsisHelpers'
+import { getOmittedWordsInQuote } from '../src/helpers/ellipsisHelpers'
 
-describe('getWholeQuote():', () => {
+describe('getOmittedWordsInQuote():', () => {
   test('it gets all the omitted words in a quote with one or more ellipsis', () => {
     const checks = [
       {
@@ -175,7 +175,7 @@ describe('getWholeQuote():', () => {
     ]
 
     checks.forEach(({ quote, verseString, wholeQuote }) => {
-      expect(getWholeQuote(quote, verseString)).toEqual(wholeQuote)
+      expect(getOmittedWordsInQuote(quote, verseString)).toEqual(wholeQuote)
     })
   })
 })

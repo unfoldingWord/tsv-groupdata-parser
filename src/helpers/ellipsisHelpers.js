@@ -5,7 +5,7 @@ function indexPlusOneIsOdd(n) {
   return !((n + 1) % 2 == 0)
 }
 
-export function getWholeQuote(quote, verseString) {
+export function getOmittedWordsInQuote(quote, verseString) {
   quote = quote.replace(/\.../g, ELLIPSIS)
   const quoteChunks = quote.split(ELLIPSIS)
   const missingWordsIndices = []
@@ -65,21 +65,24 @@ export function getWholeQuote(quote, verseString) {
     }
   })
 
-  const missingStrings = []
+  const omittedStrings = []
   missingWordsIndices.forEach((startIndex, i) => {
     if (!((i + 1) % 2 == 0)) {
       // if index is odd number
       const endIndex = missingWordsIndices[i + 1]
       const missingString = verseString.slice(startIndex, endIndex)
-      missingStrings.push(missingString)
+      omittedStrings.push(missingString)
     }
   })
 
   let wholeQuote = ''
   quoteChunks.forEach((chunk, index) => {
-    const missingWord = missingStrings[index] || ''
+    const missingWord = omittedStrings[index] || ''
     wholeQuote = wholeQuote + chunk + missingWord
   })
 
-  return wholeQuote
+  return {
+    wholeQuote,
+    omittedStrings,
+  }
 }
