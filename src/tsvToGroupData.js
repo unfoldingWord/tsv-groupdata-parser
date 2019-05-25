@@ -35,7 +35,7 @@ export const tsvToGroupData = async (filepath, toolName, params = {}, originalBi
     }
   })
 
-  return params.categorized ? categorizeGroupData(groupData) : groupData
+  return params && params.categorized ? categorizeGroupData(groupData) : groupData
 }
 
 /**
@@ -64,9 +64,7 @@ export const cleanArticleLink = occurrenceNote => {
   let noteWithFixedLink = ''
   const linkSubstring = 'rc://en/ta/man/'
   const cutEnd = occurrenceNote.search(linkSubstring)
-  const groupId = (occurrenceNote.substr(0, 0) + occurrenceNote.substr(cutEnd + 1))
-    .replace('c://en/ta/man/', '')
-    .replace(']])', '')
+  const groupId = (occurrenceNote.substr(0, 0) + occurrenceNote.substr(cutEnd + 1)).replace('c://en/ta/man/', '').replace(']])', '')
   const stringFirstPart = occurrenceNote.slice(0, cutEnd)
 
   if (groupId.includes(linkSubstring)) {
@@ -108,8 +106,7 @@ export const cleanArticleLink = occurrenceNote => {
 const generateGroupDataItem = (tsvItem, toolName, verseString) => {
   const { OrigQuote = '' } = tsvItem
   // if quote has more than one word get word occurrences
-  const quote =
-    OrigQuote.trim().split(' ').length > 1 ? getWordOccurrencesForQuote(OrigQuote, verseString) : OrigQuote
+  const quote = OrigQuote.trim().split(' ').length > 1 ? getWordOccurrencesForQuote(OrigQuote, verseString) : OrigQuote
 
   return {
     comments: false,

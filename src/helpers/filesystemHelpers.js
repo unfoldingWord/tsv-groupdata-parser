@@ -17,8 +17,7 @@ export const formatAndSaveGroupData = (categorizedGroupData, rootDestinationPath
       categories.forEach(categoryName => {
         const categoryData = categorizedGroupData[categoryName]
         const groupIds = Object.keys(categoryData)
-        if (groupIds.length === 0)
-          fs.ensureDirSync(path.join(rootDestinationPath, categoryName, 'groups', bookId))
+        if (groupIds.length === 0) fs.ensureDirSync(path.join(rootDestinationPath, categoryName, 'groups', bookId))
 
         groupIds.forEach(groupId => {
           const filename = groupId + '.json'

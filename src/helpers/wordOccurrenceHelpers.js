@@ -7,6 +7,10 @@ function countStringInArray(array, string) {
   return array.filter(item => item == string).length
 }
 
+function cleanRegex(str) {
+  return str.replace(/([.?*+^$[\]\\(){}|-])/g, '\\$1')
+}
+
 function substrOccurrencesInQuote(quote, substr, substrIndex, ellipsisCount, quoteOmittedStrings) {
   const quoteSubstrings = stringTokenizer.tokenizeWithPunctuation(quote)
   let precedingSubstrs = quoteSubstrings.slice(0, substrIndex)
@@ -59,7 +63,7 @@ function getWordOccurrence(verseString, substr, quote, substrIndex, wholeQuote, 
   let occurrence = ++precedingOccurrences
 
   // if substr is found in quote more than once
-  if (goodQuote.split(new RegExp(substr, 'gi')).length - 1 > 1) {
+  if (goodQuote.split(new RegExp(cleanRegex(substr), 'gi')).length - 1 > 1) {
     const precedingSubstrOccurrences = substrOccurrencesInQuote(quote, substr, substrIndex, ellipsisCount, quoteOmittedStrings)
     occurrence += precedingSubstrOccurrences
   }

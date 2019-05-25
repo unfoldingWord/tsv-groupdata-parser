@@ -175,7 +175,8 @@ describe('getOmittedWordsInQuote():', () => {
     ]
 
     checks.forEach(({ quote, verseString, wholeQuote }) => {
-      expect(getOmittedWordsInQuote(quote, verseString)).toEqual(wholeQuote)
+      const { wholeQuote: result } = getOmittedWordsInQuote(quote, verseString)
+      expect(result).toEqual(wholeQuote)
     })
   })
 })

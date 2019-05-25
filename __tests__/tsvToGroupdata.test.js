@@ -33,7 +33,7 @@ describe('tsvToGroupData():', () => {
 
   test('It returns the categorized group data for MRK.tsv', async () => {
     const filepath = '__tests__/fixtures/tsv/en_tn_42-MRK.tsv'
-    const result = await tsvToGroupData(filepath, 'translationNotes', { categorized: true })
+    const result = await tsvToGroupData(filepath, 'translationNotes', { categorized: true }, ORIGINAL_BIBLE_PATH)
 
     expect(result).toEqual(mrkCategorizedGroupData)
   })
