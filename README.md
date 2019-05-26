@@ -17,8 +17,9 @@ Parses the translationNotes TSVs files to generate the GroupIndex and GroupData 
 
   // tsvToGroupData() example
   const filepath = '__tests__/fixtures/tsv/en_tn_57-TIT.tsv';
+  const originalBiblePath = '__tests__/fixtures/resources/el-x-koine/bibles/ugnt/v0.5';
 
-  tsvToGroupData(filepath, "translationNotes").then((data) => {
+  tsvToGroupData(filepath, "translationNotes", null, originalBiblePath).then((data) => {
     const groupData = data;
   });
 
