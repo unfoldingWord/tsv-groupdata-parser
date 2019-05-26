@@ -24,10 +24,10 @@ Parses the translationNotes TSVs files to generate the GroupIndex and GroupData 
   });
 
   // Or with async/await
-  const groupData = await tsvToGroupData(filepath, "translationNotes");
+  const groupData = await tsvToGroupData(filepath, "translationNotes", null, originalBiblePath);
 
   // tsvToGroupData() example with categorized group data.
-  const categorizedGroupData = await tsvToGroupData(filepath, "translationNotes", { categorized: true });
+  const categorizedGroupData = await tsvToGroupData(filepath, "translationNotes", { categorized: true }, originalBiblePath);
 
   // categorizeGroupData() example
   const categorizedGroupData = categorizeGroupData(groupData)
