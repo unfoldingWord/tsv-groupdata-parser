@@ -17,7 +17,16 @@ export function getOmittedWordsInQuote(quote, verseString) {
     if (indexPlusOneIsOdd(index) && index < quoteChunks.length - 1 && index !== 2) {
       let nextQuoteChunk = quoteChunks[index + 1]
       if (!verseString.includes(nextQuoteChunk)) nextQuoteChunk = nextQuoteChunk.trim()
-      const nextChunkIndex = verseString.indexOf(nextQuoteChunk)
+      let nextChunkIndex
+      const splittedVerse = verseString.split(quoteChunk)
+      const useLastIndexOf = splittedVerse.length === 2 ? splittedVerse[0].includes(nextQuoteChunk) : false
+
+      if (useLastIndexOf) {
+        nextChunkIndex = verseString.lastIndexOf(nextQuoteChunk)
+      } else {
+        nextChunkIndex = verseString.indexOf(nextQuoteChunk)
+      }
+
       if (nextChunkIndex) {
         const strBeforeNextQuote = verseString.substring(0, nextChunkIndex)
         // TRICKY: in some cases the chunck isnt found in the preceding string because of extra space in the string.
@@ -38,6 +47,7 @@ export function getOmittedWordsInQuote(quote, verseString) {
           quoteChunkSubStrIndex = strBeforeNextQuote.lastIndexOf(quoteChunk)
         }
       }
+
       missingWordsIndices.push(quoteChunkSubStrIndex + (index === 0 ? quoteChunk.length : 0))
     } else if ((index === quoteChunks.length - 1 || index >= 2) && quoteChunks.length >= 3) {
       // if is last quote chunk
@@ -46,21 +56,32 @@ export function getOmittedWordsInQuote(quote, verseString) {
       const stringPrecedingLastChunk = verseString.replace(sliced, '')
       const previousQuoteChunk = quoteChunks[index - 1]
       const startIndex = stringPrecedingLastChunk.lastIndexOf(previousQuoteChunk) + previousQuoteChunk.length
-
       missingWordsIndices.push(startIndex + (index === 0 ? quoteChunk.length : 0))
 
       if (!verseString.includes(quoteChunk)) {
         quoteChunk = quoteChunk.trim()
         quoteChunks[index] = quoteChunk
       }
+
       const endIndex = verseString.indexOf(quoteChunk)
+
       missingWordsIndices.push(endIndex + (index === 0 ? quoteChunk.length : 0))
     } else {
       if (!verseString.includes(quoteChunk)) {
         quoteChunk = quoteChunk.trim()
         quoteChunks[index] = quoteChunk
       }
-      quoteChunkSubStrIndex = verseString.indexOf(quoteChunk)
+
+      const previousQuoteChunk = quoteChunks[index - 1]
+      const splittedVerse = verseString.split(previousQuoteChunk)
+      const useLastIndexOf = splittedVerse.length === 2 ? splittedVerse[0].includes(quoteChunk) : false
+
+      if (useLastIndexOf) {
+        quoteChunkSubStrIndex = verseString.lastIndexOf(quoteChunk)
+      } else {
+        quoteChunkSubStrIndex = verseString.indexOf(quoteChunk)
+      }
+
       missingWordsIndices.push(quoteChunkSubStrIndex + (index === 0 ? quoteChunk.length : 0))
     }
   })

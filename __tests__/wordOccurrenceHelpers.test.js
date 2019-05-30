@@ -801,30 +801,30 @@ describe('getWordOccurrencesForQuote():', () => {
           },
         ],
       },
-      // {
-      //   // figs-activepassive	εἰ δοθήσεται ... σημεῖον
-      //   bookId: 'mrk',
-      //   chapter: 8,
-      //   verse: 12,
-      //   quote: 'εἰ δοθήσεται ... σημεῖον',
-      //   expected: [
-      //     {
-      //       word: 'εἰ',
-      //       occurrence: 1,
-      //     },
-      //     {
-      //       word: 'δοθήσεται',
-      //       occurrence: 1,
-      //     },
-      //     {
-      //       word: '\u2026',
-      //     },
-      //     {
-      //       word: 'σημεῖον',
-      //       occurrence: 2,
-      //     },
-      //   ],
-      // },
+      {
+        // figs-activepassive	εἰ δοθήσεται ... σημεῖον
+        bookId: 'mrk',
+        chapter: 8,
+        verse: 12,
+        quote: 'εἰ δοθήσεται ... σημεῖον',
+        expected: [
+          {
+            word: 'εἰ',
+            occurrence: 1,
+          },
+          {
+            word: 'δοθήσεται',
+            occurrence: 1,
+          },
+          {
+            word: '\u2026',
+          },
+          {
+            word: 'σημεῖον',
+            occurrence: 2,
+          },
+        ],
+      },
     ]
     checks.forEach(({ bookId, chapter, verse, quote, expected }) => {
       const result = getTestResult(bookId, chapter, verse, quote)
