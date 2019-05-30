@@ -111,8 +111,6 @@ export function getWordOccurrencesForQuote(quote, verseString) {
 
   const substrings = tokenizeQuote(quote)
 
-  // console.log('substrings', substrings)
-
   let ellipsisCount = 0
   substrings.forEach((substring, index) => {
     let word = {}
