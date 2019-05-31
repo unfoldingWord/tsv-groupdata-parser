@@ -765,7 +765,6 @@ describe('getWordOccurrencesForQuote():', () => {
       },
       {
         // figs-explicit	δι’ οὗ ὁ Υἱὸς τοῦ Ἀνθρώπου παραδίδοται
-        // ὅτι ὁ μὲν Υἱὸς τοῦ Ἀνθρώπου ὑπάγει, καθὼς γέγραπται περὶ αὐτοῦ; οὐαὶ δὲ τῷ ἀνθρώπῳ ἐκείνῳ δι’ οὗ ὁ Υἱὸς τοῦ Ἀνθρώπου παραδίδοται; καλὸν ἦν αὐτῷ εἰ οὐκ ἐγεννήθη ὁ ἄνθρωπος ἐκεῖνος."
         bookId: 'mrk',
         chapter: 14,
         verse: 21,
@@ -825,7 +824,106 @@ describe('getWordOccurrencesForQuote():', () => {
           },
         ],
       },
+      {
+        // figs-simile	τὸ ἀγαπᾶν τὸν πλησίον ὡς ἑαυτὸν
+        bookId: 'mrk',
+        chapter: 12,
+        verse: 33,
+        quote: 'τὸ ἀγαπᾶν‘ τὸν πλησίον ὡς ἑαυτὸν',
+        expected: [
+          {
+            word: 'τὸ',
+            occurrence: 2,
+          },
+          {
+            word: 'ἀγαπᾶν',
+            occurrence: 2,
+          },
+          {
+            word: '‘',
+            occurrence: 2,
+          },
+          {
+            word: 'τὸν',
+            occurrence: 1,
+          },
+          {
+            word: 'πλησίον',
+            occurrence: 1,
+          },
+          {
+            word: 'ὡς',
+            occurrence: 1,
+          },
+          {
+            word: 'ἑαυτὸν',
+            occurrence: 1,
+          },
+        ],
+      },
+      {
+        // figs-metaphor λέγει αὐτῷ, "Λεγιὼν ὄνομά μοι, ὅτι πολλοί ἐσμεν."
+        bookId: 'mrk',
+        chapter: 5,
+        verse: 9,
+        quote: 'λέγει αὐτῷ, "Λεγιὼν ὄνομά μοι, ὅτι πολλοί ἐσμεν."',
+        expected: [
+          {
+            word: 'λέγει',
+            occurrence: 1,
+          },
+          {
+            word: 'αὐτῷ',
+            occurrence: 1,
+          },
+          {
+            word: ',',
+            occurrence: 2,
+          },
+          {
+            word: '"',
+            occurrence: 3,
+          },
+          {
+            word: 'Λεγιὼν',
+            occurrence: 1,
+          },
+          {
+            word: 'ὄνομά',
+            occurrence: 2,
+          },
+          {
+            word: 'μοι',
+            occurrence: 1,
+          },
+          {
+            word: ',',
+            occurrence: 3,
+          },
+          {
+            word: 'ὅτι',
+            occurrence: 1,
+          },
+          {
+            word: 'πολλοί',
+            occurrence: 1,
+          },
+          {
+            word: 'ἐσμεν',
+            occurrence: 1,
+          },
+          {
+            word: '.',
+            occurrence: 1,
+          },
+          {
+            word: '"',
+            occurrence: 4,
+          },
+        ],
+      },
     ]
+
     checks.forEach(({ bookId, chapter, verse, quote, expected }) => {
       const result = getTestResult(bookId, chapter, verse, quote)
       expect(result).toEqual(expected)

@@ -10,10 +10,14 @@ export function verseObjectsToString(verseObjects) {
       if (previousVerseObject && previousVerseObject.text === ' ' && verseObject.text === ' ') {
         return ''
       }
-      if (verseObject.text) return verseObject.text
-      else if (verseObject.children) {
+      if (verseObject.text) {
+        let text = verseObject.text
+        if (text.includes('\n')) text = text.replace('\n', '\u0020')
+        return text
+      } else if (verseObject.children) {
         return verseObjectsToString(verseObject.children)
       }
     })
     .join('')
+    .replace('  ', '')
 }

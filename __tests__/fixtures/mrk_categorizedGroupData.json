@@ -712,7 +712,7 @@
             },
             {
               "word": ",",
-              "occurrence": 1
+              "occurrence": 3
             },
             {
               "word": "\"",
@@ -755,7 +755,7 @@
             },
             {
               "word": "μου",
-              "occurrence": 3
+              "occurrence": 2
             },
             {
               "word": "φάγω",
@@ -767,7 +767,7 @@
             },
             {
               "word": "\"",
-              "occurrence": 3
+              "occurrence": 2
             }
           ],
           "glQuote": "The Teacher says, \"Where is my guest room ... with my disciples?\"",
@@ -3396,11 +3396,11 @@
             },
             {
               "word": ",",
-              "occurrence": 1
+              "occurrence": 2
             },
             {
               "word": "\"",
-              "occurrence": 1
+              "occurrence": 3
             },
             {
               "word": "Λεγιὼν",
@@ -3408,7 +3408,7 @@
             },
             {
               "word": "ὄνομά",
-              "occurrence": 1
+              "occurrence": 2
             },
             {
               "word": "μοι",
@@ -3416,7 +3416,7 @@
             },
             {
               "word": ",",
-              "occurrence": 2
+              "occurrence": 3
             },
             {
               "word": "ὅτι",
@@ -3436,7 +3436,7 @@
             },
             {
               "word": "\"",
-              "occurrence": 2
+              "occurrence": 4
             }
           ],
           "glQuote": "He answered him, \"My name is Legion, for we are many.\"",
@@ -9559,38 +9559,38 @@
           "quote": [
             {
               "word": "οἱ",
-              "occurrence": 1
+              "occurrence": 2
             },
             {
               "word": "…"
             },
             {
               "word": "εἶπαν",
-              "occurrence": 2
+              "occurrence": 1
             },
             {
               "word": "αὐτῷ",
-              "occurrence": 2
+              "occurrence": 1
             },
             {
               "word": ",",
-              "occurrence": 3
-            },
-            {
-              "word": "\"",
-              "occurrence": 5
-            },
-            {
-              "word": "Καίσαρος",
               "occurrence": 2
             },
             {
-              "word": ".",
+              "word": "\"",
               "occurrence": 3
             },
             {
+              "word": "Καίσαρος",
+              "occurrence": 1
+            },
+            {
+              "word": ".",
+              "occurrence": 2
+            },
+            {
               "word": "\"",
-              "occurrence": 6
+              "occurrence": 4
             }
           ],
           "glQuote": "They said to him, \"Caesar's.\"",

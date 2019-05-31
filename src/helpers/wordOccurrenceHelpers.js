@@ -79,7 +79,7 @@ function getWordOccurrence(verseString, substr, quote, substrIndex, wholeQuote, 
   const precedingStrs = tokenizeQuote(precedingStr)
   let precedingOccurrences = 0
 
-  for (let i = 0; i <= quoteSubStrIndex; i++) {
+  for (let i = 0; i <= precedingStrs.length; i++) {
     const stringItem = precedingStrs[i]
     if (stringItem === substr) {
       precedingOccurrences++
