@@ -19,5 +19,5 @@ export function verseObjectsToString(verseObjects) {
       }
     })
     .join('')
-    .replace('  ', '')
+    .replace(/  /gi, '')
 }
