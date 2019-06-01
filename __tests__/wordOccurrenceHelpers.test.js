@@ -771,8 +771,12 @@ describe('getWordOccurrencesForQuote():', () => {
         quote: 'δι’ οὗ ὁ Υἱὸς τοῦ Ἀνθρώπου παραδίδοται',
         expected: [
           {
-            word: 'δι’',
+            word: 'δι',
             occurrence: 1,
+          },
+          {
+            occurrence: 1,
+            word: '’',
           },
           {
             word: 'οὗ',

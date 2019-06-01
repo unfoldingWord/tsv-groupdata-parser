@@ -277,7 +277,11 @@
               "occurrence": 3
             },
             {
-              "word": "ἀλλ’",
+              "word": "ἀλλ",
+              "occurrence": 1
+            },
+            {
+              "word": "’",
               "occurrence": 1
             },
             {
@@ -2251,7 +2255,11 @@
               "word": "…"
             },
             {
-              "word": "ἐπ’",
+              "word": "ἐπ",
+              "occurrence": 1
+            },
+            {
+              "word": "’",
               "occurrence": 1
             }
           ],
@@ -4485,8 +4493,12 @@
               "occurrence": 2
             },
             {
-              "word": "λῃστῶν’",
+              "word": "λῃστῶν",
               "occurrence": 1
+            },
+            {
+              "word": "’",
+              "occurrence": 2
             }
           ],
           "glQuote": "But you have made it a den of robbers",
@@ -4994,7 +5006,11 @@
               "occurrence": 1
             },
             {
-              "word": "κατ’",
+              "word": "κατ",
+              "occurrence": 1
+            },
+            {
+              "word": "’",
               "occurrence": 1
             },
             {
@@ -5026,7 +5042,11 @@
               "occurrence": 1
             },
             {
-              "word": "κατ’",
+              "word": "κατ",
+              "occurrence": 1
+            },
+            {
+              "word": "’",
               "occurrence": 1
             },
             {
@@ -5174,7 +5194,11 @@
               "occurrence": 1
             },
             {
-              "word": "ἐφ’",
+              "word": "ἐφ",
+              "occurrence": 1
+            },
+            {
+              "word": "’",
               "occurrence": 1
             },
             {
@@ -5723,7 +5747,11 @@
               "occurrence": 1
             },
             {
-              "word": "ἐπ’",
+              "word": "ἐπ",
+              "occurrence": 1
+            },
+            {
+              "word": "’",
               "occurrence": 1
             },
             {
@@ -6250,7 +6278,11 @@
               "occurrence": 1
             },
             {
-              "word": "ἐφ’",
+              "word": "ἐφ",
+              "occurrence": 1
+            },
+            {
+              "word": "’",
               "occurrence": 1
             },
             {
@@ -6661,7 +6693,11 @@
               "occurrence": 1
             },
             {
-              "word": "ἀπ’",
+              "word": "ἀπ",
+              "occurrence": 1
+            },
+            {
+              "word": "’",
               "occurrence": 1
             },
             {
@@ -7877,7 +7913,11 @@
               "occurrence": 3
             },
             {
-              "word": "ἰσχύος’",
+              "word": "ἰσχύος",
+              "occurrence": 1
+            },
+            {
+              "word": "’",
               "occurrence": 1
             }
           ],
@@ -8040,7 +8080,11 @@
               "occurrence": 1
             },
             {
-              "word": "ἀπ’",
+              "word": "ἀπ",
+              "occurrence": 1
+            },
+            {
+              "word": "’",
               "occurrence": 1
             },
             {
@@ -8161,7 +8205,11 @@
               "occurrence": 1
             },
             {
-              "word": "καθήμενον’",
+              "word": "καθήμενον",
+              "occurrence": 1
+            },
+            {
+              "word": "’",
               "occurrence": 1
             },
             {
@@ -9313,7 +9361,11 @@
               "occurrence": 3
             },
             {
-              "word": "ἀλλ’",
+              "word": "ἀλλ",
+              "occurrence": 1
+            },
+            {
+              "word": "’",
               "occurrence": 1
             },
             {
@@ -10147,7 +10199,11 @@
               "occurrence": 1
             },
             {
-              "word": "ἀλλ’",
+              "word": "ἀλλ",
+              "occurrence": 1
+            },
+            {
+              "word": "’",
               "occurrence": 1
             },
             {
@@ -10183,8 +10239,12 @@
           "groupId": "figs-ellipsis",
           "quote": [
             {
-              "word": "ἀλλ’",
+              "word": "ἀλλ",
               "occurrence": 1
+            },
+            {
+              "word": "’",
+              "occurrence": 2
             },
             {
               "word": "οὐ",
@@ -10435,7 +10495,11 @@
               "occurrence": 1
             },
             {
-              "word": "κατ’",
+              "word": "κατ",
+              "occurrence": 1
+            },
+            {
+              "word": "’",
               "occurrence": 1
             },
             {
@@ -10685,8 +10749,12 @@
               "occurrence": 2
             },
             {
-              "word": "περιπάτει’",
+              "word": "περιπάτει",
               "occurrence": 1
+            },
+            {
+              "word": "’",
+              "occurrence": 2
             },
             {
               "word": "?",
@@ -10801,7 +10869,11 @@
               "occurrence": 1
             },
             {
-              "word": "μετ’",
+              "word": "μετ",
+              "occurrence": 1
+            },
+            {
+              "word": "’",
               "occurrence": 1
             },
             {
@@ -10928,7 +11000,11 @@
               "occurrence": 1
             },
             {
-              "word": "μετ’",
+              "word": "μετ",
+              "occurrence": 1
+            },
+            {
+              "word": "’",
               "occurrence": 1
             },
             {
@@ -12232,7 +12308,11 @@
               "occurrence": 1
             },
             {
-              "word": "ἐπ’",
+              "word": "ἐπ",
+              "occurrence": 1
+            },
+            {
+              "word": "’",
               "occurrence": 1
             },
             {
@@ -12412,7 +12492,11 @@
               "occurrence": 1
             },
             {
-              "word": "?’",
+              "word": "?",
+              "occurrence": 2
+            },
+            {
+              "word": "’",
               "occurrence": 1
             },
             {
@@ -12429,7 +12513,7 @@
             },
             {
               "word": "?",
-              "occurrence": 2
+              "occurrence": 3
             }
           ],
           "glQuote": "You have eyes, do you not see? You have ears, do you not hear? Do you not remember?",
@@ -12930,7 +13014,11 @@
               "occurrence": 1
             },
             {
-              "word": "ἔθνεσιν’",
+              "word": "ἔθνεσιν",
+              "occurrence": 1
+            },
+            {
+              "word": "’",
               "occurrence": 1
             },
             {
@@ -15622,7 +15710,11 @@
           "groupId": "figs-merism",
           "quote": [
             {
-              "word": "ἀπ’",
+              "word": "ἀπ",
+              "occurrence": 1
+            },
+            {
+              "word": "’",
               "occurrence": 1
             },
             {
@@ -16547,7 +16639,11 @@
               "occurrence": 1
             },
             {
-              "word": "μετ’",
+              "word": "μετ",
+              "occurrence": 1
+            },
+            {
+              "word": "’",
               "occurrence": 1
             },
             {
@@ -16611,7 +16707,11 @@
           "groupId": "figs-explicit",
           "quote": [
             {
-              "word": "μετ’",
+              "word": "μετ",
+              "occurrence": 1
+            },
+            {
+              "word": "’",
               "occurrence": 1
             },
             {
@@ -19617,7 +19717,11 @@
               "occurrence": 1
             },
             {
-              "word": "ἐπ’",
+              "word": "ἐπ",
+              "occurrence": 1
+            },
+            {
+              "word": "’",
               "occurrence": 1
             },
             {
@@ -20531,7 +20635,11 @@
               "occurrence": 1
             },
             {
-              "word": "πίπτοντες’",
+              "word": "πίπτοντες",
+              "occurrence": 1
+            },
+            {
+              "word": "’",
               "occurrence": 1
             }
           ],
@@ -20826,7 +20934,11 @@
           "groupId": "figs-explicit",
           "quote": [
             {
-              "word": "δι’",
+              "word": "δι",
+              "occurrence": 1
+            },
+            {
+              "word": "’",
               "occurrence": 1
             },
             {
@@ -22930,7 +23042,11 @@
               "occurrence": 1
             },
             {
-              "word": "ὑπ’",
+              "word": "ὑπ",
+              "occurrence": 1
+            },
+            {
+              "word": "’",
               "occurrence": 1
             },
             {
@@ -23348,7 +23464,11 @@
               "occurrence": 1
             },
             {
-              "word": "ἀπ’",
+              "word": "ἀπ",
+              "occurrence": 1
+            },
+            {
+              "word": "’",
               "occurrence": 1
             },
             {
@@ -23661,7 +23781,11 @@
           "groupId": "figs-activepassive",
           "quote": [
             {
-              "word": "τοῦτ’",
+              "word": "τοῦτ",
+              "occurrence": 1
+            },
+            {
+              "word": "’",
               "occurrence": 1
             },
             {
@@ -24402,7 +24526,11 @@
           "groupId": "figs-activepassive",
           "quote": [
             {
-              "word": "ἐφ’",
+              "word": "ἐφ",
+              "occurrence": 1
+            },
+            {
+              "word": "’",
               "occurrence": 1
             },
             {
@@ -25316,7 +25444,11 @@
               "occurrence": 1
             },
             {
-              "word": "ἐφ’",
+              "word": "ἐφ",
+              "occurrence": 1
+            },
+            {
+              "word": "’",
               "occurrence": 1
             },
             {
@@ -25380,8 +25512,12 @@
           "groupId": "figs-rpronouns",
           "quote": [
             {
-              "word": "κατ’",
+              "word": "κατ",
               "occurrence": 1
+            },
+            {
+              "occurrence": 1,
+              "word": "’"
             },
             {
               "word": "ἰδίαν",
