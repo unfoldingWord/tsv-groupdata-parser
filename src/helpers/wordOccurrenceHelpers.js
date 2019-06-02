@@ -12,29 +12,7 @@ function cleanRegex(str) {
 }
 
 function tokenizeQuote(quote) {
-  /* eslint-disable prettier/prettier */
-  const tokens = stringTokenizer.tokenizeWithPunctuation(quote)
-
-  // if (tokens.includes('’')) {
-  //   // closing apostrophes should not be tokenized therefore adding it at the end of the preceding token.
-  //   tokens = tokens.map((token, index) => {
-  //       let nextToken;
-
-  //       if (index < (tokens.length - 1)) { // if next token exists
-  //         nextToken = tokens[index + 1]
-  //       }
-
-  //       // if next token is a closing apostrophe then add it to the end of the current token
-  //       if (nextToken === '’') {
-  //         return `${token}${nextToken}`
-  //       } else {
-  //         return token
-  //       }
-  //     })
-  //     .filter(token => token !== '’')
-  // }
-
-  return tokens
+  return stringTokenizer.tokenizeWithPunctuation(quote)
 }
 
 function substrOccurrencesInQuote(quote, substr, substrIndex, ellipsisCount, quoteOmittedStrings) {

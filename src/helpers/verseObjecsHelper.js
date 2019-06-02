@@ -1,28 +1,33 @@
 export function verseObjectsToString(verseObjects) {
-  return verseObjects
-    .map((verseObject, index) => {
-      let previousVerseObject = verseObjects[index - 1]
-      if (previousVerseObject && previousVerseObject.children) {
-        const { children } = previousVerseObject
-        previousVerseObject = children[children.length - 1]
-        if (previousVerseObject.children) {
-          const grandChildren = previousVerseObject.children
-          previousVerseObject = grandChildren[grandChildren.length - 1]
+  return (
+    // eslint-disable-next-line prettier/prettier
+    verseObjects.map((verseObject, index) => {
+        let previousVerseObject = verseObjects[index - 1]
+        if (previousVerseObject && previousVerseObject.children) {
+          const { children } = previousVerseObject
+          previousVerseObject = children[children.length - 1]
+          if (previousVerseObject.children) {
+            const grandChildren = previousVerseObject.children
+            previousVerseObject = grandChildren[grandChildren.length - 1]
+          }
         }
-      }
 
-      if (previousVerseObject && previousVerseObject.text === ' ' && verseObject.text === ' ') {
-        return ''
-      }
-      if (verseObject.text) {
-        let text = verseObject.text
-        if (text.includes('\n')) text = text.replace('\n', '\u0020')
-        return text
-      } else if (verseObject.children) {
-        return verseObjectsToString(verseObject.children)
-      }
-    })
-    .join('')
-    .replace(/  /gi, '')
-    .replace(/ , /gi, ', ')
+        if (previousVerseObject && previousVerseObject.text === ' ' && verseObject.text === ' ') {
+          return ''
+        }
+        if (verseObject.text) {
+          let text = verseObject.text
+          if (text.includes('\n')) text = text.replace('\n', '\u0020')
+          return text
+        } else if (verseObject.children) {
+          return verseObjectsToString(verseObject.children)
+        }
+      })
+      // join strings
+      .join('')
+      // remove double spaces
+      .replace(/  /gi, '')
+      // remove spaces before commas
+      .replace(/ , /gi, ', ')
+  )
 }
