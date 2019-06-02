@@ -926,6 +926,51 @@ describe('getWordOccurrencesForQuote():', () => {
           },
         ],
       },
+      {
+        // figs-explicit
+        bookId: '1ti',
+        chapter: 6,
+        verse: 13,
+        quote: 'καὶ Χριστοῦ Ἰησοῦ, τοῦ μαρτυρήσαντος ἐπὶ Ποντίου Πειλάτου',
+        expected: [
+          {
+            word: 'καὶ',
+            occurrence: 1,
+          },
+          {
+            word: 'Χριστοῦ',
+            occurrence: 1,
+          },
+          {
+            word: 'Ἰησοῦ',
+            occurrence: 1,
+          },
+          {
+            word: ',',
+            occurrence: 3,
+          },
+          {
+            word: 'τοῦ',
+            occurrence: 3,
+          },
+          {
+            word: 'μαρτυρήσαντος',
+            occurrence: 1,
+          },
+          {
+            word: 'ἐπὶ',
+            occurrence: 1,
+          },
+          {
+            word: 'Ποντίου',
+            occurrence: 1,
+          },
+          {
+            word: 'Πειλάτου',
+            occurrence: 1,
+          },
+        ],
+      },
     ]
 
     checks.forEach(({ bookId, chapter, verse, quote, expected }) => {

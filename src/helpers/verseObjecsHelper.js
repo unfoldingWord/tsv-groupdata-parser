@@ -5,6 +5,10 @@ export function verseObjectsToString(verseObjects) {
       if (previousVerseObject && previousVerseObject.children) {
         const { children } = previousVerseObject
         previousVerseObject = children[children.length - 1]
+        if (previousVerseObject.children) {
+          const grandChildren = previousVerseObject.children
+          previousVerseObject = grandChildren[grandChildren.length - 1]
+        }
       }
 
       if (previousVerseObject && previousVerseObject.text === ' ' && verseObject.text === ' ') {
@@ -20,4 +24,5 @@ export function verseObjectsToString(verseObjects) {
     })
     .join('')
     .replace(/  /gi, '')
+    .replace(/ , /gi, ', ')
 }
