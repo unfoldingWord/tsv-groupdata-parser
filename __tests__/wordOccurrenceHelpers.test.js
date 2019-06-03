@@ -14,33 +14,6 @@ function getTestResult(bookId, chapter, verse, quote) {
 }
 
 describe('getWordOccurrencesForQuote():', () => {
-  test('', () => {
-    const quote = 'οὔτε‘ ἐνκατελείφθη εἰς ᾍδην'
-    const words = getTestResult('act', 2, 31, quote)
-    const expected = [
-      {
-        word: 'οὔτε',
-        occurrence: 1,
-      },
-      {
-        word: '‘',
-        occurrence: 1,
-      },
-      {
-        word: 'ἐνκατελείφθη',
-        occurrence: 1,
-      },
-      {
-        word: 'εἰς',
-        occurrence: 1,
-      },
-      {
-        word: 'ᾍδην',
-        occurrence: 1,
-      },
-    ]
-    expect(words).toEqual(expected)
-  })
   test('should generate an array of objects for an original language quote with ellipsis', () => {
     const checks = [
       {
@@ -681,12 +654,390 @@ describe('getWordOccurrencesForQuote():', () => {
           },
         ],
       },
+      {
+        // figs-explicit
+        bookId: 'mrk',
+        chapter: 6,
+        verse: 14,
+        quote: 'ἔλεγον, ὅτι "Ἰωάννης ὁ βαπτίζων ἐγήγερται',
+        expected: [
+          {
+            word: 'ἔλεγον',
+            occurrence: 1,
+          },
+          {
+            word: ',',
+            occurrence: 3,
+          },
+          {
+            word: 'ὅτι',
+            occurrence: 1,
+          },
+          {
+            word: '"',
+            occurrence: 1,
+          },
+          {
+            word: 'Ἰωάννης',
+            occurrence: 1,
+          },
+          {
+            word: 'ὁ',
+            occurrence: 2,
+          },
+          {
+            word: 'βαπτίζων',
+            occurrence: 1,
+          },
+          {
+            word: 'ἐγήγερται',
+            occurrence: 1,
+          },
+        ],
+      },
+      {
+        // figs-explicit
+        bookId: 'mrk',
+        chapter: 9,
+        verse: 9,
+        quote: 'διεστείλατο αὐτοῖς ἵνα μηδενὶ ... εἰ μὴ ὅταν ὁ Υἱὸς τοῦ Ἀνθρώπου ἐκ νεκρῶν ἀναστῇ',
+        expected: [
+          {
+            word: 'διεστείλατο',
+            occurrence: 1,
+          },
+          {
+            word: 'αὐτοῖς',
+            occurrence: 1,
+          },
+          {
+            word: 'ἵνα',
+            occurrence: 1,
+          },
+          {
+            word: 'μηδενὶ',
+            occurrence: 1,
+          },
+          {
+            word: '\u2026',
+          },
+          {
+            word: 'εἰ',
+            occurrence: 1,
+          },
+          {
+            word: 'μὴ',
+            occurrence: 1,
+          },
+          {
+            word: 'ὅταν',
+            occurrence: 1,
+          },
+          {
+            word: 'ὁ',
+            occurrence: 1,
+          },
+          {
+            word: 'Υἱὸς',
+            occurrence: 1,
+          },
+          {
+            word: 'τοῦ',
+            occurrence: 2,
+          },
+          {
+            word: 'Ἀνθρώπου',
+            occurrence: 1,
+          },
+          {
+            word: 'ἐκ',
+            occurrence: 2,
+          },
+          {
+            word: 'νεκρῶν',
+            occurrence: 1,
+          },
+          {
+            word: 'ἀναστῇ',
+            occurrence: 1,
+          },
+        ],
+      },
+      {
+        // figs-explicit	δι’ οὗ ὁ Υἱὸς τοῦ Ἀνθρώπου παραδίδοται
+        bookId: 'mrk',
+        chapter: 14,
+        verse: 21,
+        quote: 'δι’ οὗ ὁ Υἱὸς τοῦ Ἀνθρώπου παραδίδοται',
+        expected: [
+          {
+            word: 'δι',
+            occurrence: 1,
+          },
+          {
+            occurrence: 1,
+            word: '’',
+          },
+          {
+            word: 'οὗ',
+            occurrence: 1,
+          },
+          {
+            word: 'ὁ',
+            occurrence: 2,
+          },
+          {
+            word: 'Υἱὸς',
+            occurrence: 2,
+          },
+          {
+            word: 'τοῦ',
+            occurrence: 2,
+          },
+          {
+            word: 'Ἀνθρώπου',
+            occurrence: 2,
+          },
+          {
+            word: 'παραδίδοται',
+            occurrence: 1,
+          },
+        ],
+      },
+      {
+        // figs-activepassive	εἰ δοθήσεται ... σημεῖον
+        bookId: 'mrk',
+        chapter: 8,
+        verse: 12,
+        quote: 'εἰ δοθήσεται ... σημεῖον',
+        expected: [
+          {
+            word: 'εἰ',
+            occurrence: 1,
+          },
+          {
+            word: 'δοθήσεται',
+            occurrence: 1,
+          },
+          {
+            word: '\u2026',
+          },
+          {
+            word: 'σημεῖον',
+            occurrence: 2,
+          },
+        ],
+      },
+      {
+        // figs-simile	τὸ ἀγαπᾶν τὸν πλησίον ὡς ἑαυτὸν
+        bookId: 'mrk',
+        chapter: 12,
+        verse: 33,
+        quote: 'τὸ ἀγαπᾶν‘ τὸν πλησίον ὡς ἑαυτὸν',
+        expected: [
+          {
+            word: 'τὸ',
+            occurrence: 2,
+          },
+          {
+            word: 'ἀγαπᾶν',
+            occurrence: 2,
+          },
+          {
+            word: '‘',
+            occurrence: 2,
+          },
+          {
+            word: 'τὸν',
+            occurrence: 1,
+          },
+          {
+            word: 'πλησίον',
+            occurrence: 1,
+          },
+          {
+            word: 'ὡς',
+            occurrence: 1,
+          },
+          {
+            word: 'ἑαυτὸν',
+            occurrence: 1,
+          },
+        ],
+      },
+      {
+        // figs-metaphor λέγει αὐτῷ, "Λεγιὼν ὄνομά μοι, ὅτι πολλοί ἐσμεν."
+        bookId: 'mrk',
+        chapter: 5,
+        verse: 9,
+        quote: 'λέγει αὐτῷ, "Λεγιὼν ὄνομά μοι, ὅτι πολλοί ἐσμεν."',
+        expected: [
+          {
+            word: 'λέγει',
+            occurrence: 1,
+          },
+          {
+            word: 'αὐτῷ',
+            occurrence: 1,
+          },
+          {
+            word: ',',
+            occurrence: 2,
+          },
+          {
+            word: '"',
+            occurrence: 3,
+          },
+          {
+            word: 'Λεγιὼν',
+            occurrence: 1,
+          },
+          {
+            word: 'ὄνομά',
+            occurrence: 2,
+          },
+          {
+            word: 'μοι',
+            occurrence: 1,
+          },
+          {
+            word: ',',
+            occurrence: 3,
+          },
+          {
+            word: 'ὅτι',
+            occurrence: 1,
+          },
+          {
+            word: 'πολλοί',
+            occurrence: 1,
+          },
+          {
+            word: 'ἐσμεν',
+            occurrence: 1,
+          },
+          {
+            word: '.',
+            occurrence: 1,
+          },
+          {
+            word: '"',
+            occurrence: 4,
+          },
+        ],
+      },
+      {
+        // figs-explicit
+        bookId: '1ti',
+        chapter: 6,
+        verse: 13,
+        quote: 'καὶ Χριστοῦ Ἰησοῦ, τοῦ μαρτυρήσαντος ἐπὶ Ποντίου Πειλάτου',
+        expected: [
+          {
+            word: 'καὶ',
+            occurrence: 1,
+          },
+          {
+            word: 'Χριστοῦ',
+            occurrence: 1,
+          },
+          {
+            word: 'Ἰησοῦ',
+            occurrence: 1,
+          },
+          {
+            word: ',',
+            occurrence: 3,
+          },
+          {
+            word: 'τοῦ',
+            occurrence: 3,
+          },
+          {
+            word: 'μαρτυρήσαντος',
+            occurrence: 1,
+          },
+          {
+            word: 'ἐπὶ',
+            occurrence: 1,
+          },
+          {
+            word: 'Ποντίου',
+            occurrence: 1,
+          },
+          {
+            word: 'Πειλάτου',
+            occurrence: 1,
+          },
+        ],
+      },
+      {
+        // figs-explicit	εὐαγγελισαμένου ... τὴν πίστιν ... ὑμῶν
+        bookId: '1th',
+        chapter: 3,
+        verse: 6,
+        quote: 'εὐαγγελισαμένου ... τὴν πίστιν ... ὑμῶν',
+        expected: [
+          {
+            word: 'εὐαγγελισαμένου',
+            occurrence: 1,
+          },
+          {
+            word: '…',
+          },
+          {
+            word: 'τὴν',
+            occurrence: 1,
+          },
+          {
+            word: 'πίστιν',
+            occurrence: 1,
+          },
+          {
+            word: '…',
+          },
+          {
+            word: 'ὑμῶν',
+            occurrence: 2,
+          },
+        ],
+      },
     ]
+
     checks.forEach(({ bookId, chapter, verse, quote, expected }) => {
       const result = getTestResult(bookId, chapter, verse, quote)
       expect(result).toEqual(expected)
     })
   })
+
+  test('should tokenize opening single quotation', () => {
+    const quote = 'οὔτε‘ ἐνκατελείφθη εἰς ᾍδην'
+    const words = getTestResult('act', 2, 31, quote)
+    const expected = [
+      {
+        word: 'οὔτε',
+        occurrence: 1,
+      },
+      {
+        word: '‘',
+        occurrence: 1,
+      },
+      {
+        word: 'ἐνκατελείφθη',
+        occurrence: 1,
+      },
+      {
+        word: 'εἰς',
+        occurrence: 1,
+      },
+      {
+        word: 'ᾍδην',
+        occurrence: 1,
+      },
+    ]
+    expect(words).toEqual(expected)
+  })
+
   test('should generate an array of objects for an original language quote', () => {
     const quote = 'Κρῆτες ἀεὶ ψεῦσται'
     const result = getTestResult('tit', 1, 12, quote)
@@ -706,6 +1057,7 @@ describe('getWordOccurrencesForQuote():', () => {
     ]
     expect(result).toEqual(expected)
   })
+
   test('', () => {
     const quote = 'ἐν κακίᾳ καὶ φθόνῳ διάγοντες'
     const result = getTestResult('tit', 3, 3, quote)

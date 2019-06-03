@@ -11,8 +11,12 @@ function cleanRegex(str) {
   return str.replace(/([.?*+^$[\]\\(){}|-])/g, '\\$1')
 }
 
+function tokenizeQuote(quote) {
+  return stringTokenizer.tokenizeWithPunctuation(quote)
+}
+
 function substrOccurrencesInQuote(quote, substr, substrIndex, ellipsisCount, quoteOmittedStrings) {
-  const quoteSubstrings = stringTokenizer.tokenizeWithPunctuation(quote)
+  const quoteSubstrings = tokenizeQuote(quote)
   let precedingSubstrs = quoteSubstrings.slice(0, substrIndex)
   let localEllipsisCount = 0
 
@@ -20,7 +24,7 @@ function substrOccurrencesInQuote(quote, substr, substrIndex, ellipsisCount, quo
     if (precedingSubstr === ELLIPSIS) {
       ++localEllipsisCount
       const untokenizedString = quoteOmittedStrings[localEllipsisCount - 1]
-      const missingPrecedingSubstrs = stringTokenizer.tokenizeWithPunctuation(untokenizedString).reverse()
+      const missingPrecedingSubstrs = tokenizeQuote(untokenizedString).reverse()
       // Add tokenized missing strings to precedingSubstrs for accurate occurrence number search
       missingPrecedingSubstrs.forEach(missingPrecedingSubstr => {
         precedingSubstrs.splice(index, 0, missingPrecedingSubstr)
@@ -50,10 +54,10 @@ function getWordOccurrence(verseString, substr, quote, substrIndex, wholeQuote, 
   const goodQuote = quote.includes(ELLIPSIS) ? wholeQuote : quote
   const quoteSubStrIndex = verseString.indexOf(goodQuote)
   const precedingStr = verseString.substring(0, quoteSubStrIndex)
-  const precedingStrs = stringTokenizer.tokenizeWithPunctuation(precedingStr)
+  const precedingStrs = tokenizeQuote(precedingStr)
   let precedingOccurrences = 0
 
-  for (let i = 0; i <= quoteSubStrIndex; i++) {
+  for (let i = 0; i <= precedingStrs.length; i++) {
     const stringItem = precedingStrs[i]
     if (stringItem === substr) {
       precedingOccurrences++
@@ -83,7 +87,7 @@ export function getWordOccurrencesForQuote(quote, verseString) {
     quoteOmittedStrings = quoteOmittedWords.omittedStrings
   }
 
-  const substrings = stringTokenizer.tokenizeWithPunctuation(quote)
+  const substrings = tokenizeQuote(quote)
 
   let ellipsisCount = 0
   substrings.forEach((substring, index) => {

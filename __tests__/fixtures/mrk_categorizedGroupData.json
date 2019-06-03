@@ -716,7 +716,7 @@
             },
             {
               "word": ",",
-              "occurrence": 1
+              "occurrence": 3
             },
             {
               "word": "\"",
@@ -759,7 +759,7 @@
             },
             {
               "word": "μου",
-              "occurrence": 3
+              "occurrence": 2
             },
             {
               "word": "φάγω",
@@ -771,7 +771,7 @@
             },
             {
               "word": "\"",
-              "occurrence": 3
+              "occurrence": 2
             }
           ],
           "glQuote": "The Teacher says, \"Where is my guest room ... with my disciples?\"",
@@ -3404,11 +3404,11 @@
             },
             {
               "word": ",",
-              "occurrence": 1
+              "occurrence": 2
             },
             {
               "word": "\"",
-              "occurrence": 1
+              "occurrence": 3
             },
             {
               "word": "Λεγιὼν",
@@ -3416,7 +3416,7 @@
             },
             {
               "word": "ὄνομά",
-              "occurrence": 1
+              "occurrence": 2
             },
             {
               "word": "μοι",
@@ -3424,7 +3424,7 @@
             },
             {
               "word": ",",
-              "occurrence": 2
+              "occurrence": 3
             },
             {
               "word": "ὅτι",
@@ -3444,7 +3444,7 @@
             },
             {
               "word": "\"",
-              "occurrence": 2
+              "occurrence": 4
             }
           ],
           "glQuote": "He answered him, \"My name is Legion, for we are many.\"",
@@ -4828,23 +4828,23 @@
             },
             {
               "word": "λόγοι",
-              "occurrence": 2
+              "occurrence": 1
             },
             {
               "word": "μου",
-              "occurrence": 2
+              "occurrence": 1
             },
             {
               "word": "οὐ",
-              "occurrence": 2
+              "occurrence": 1
             },
             {
               "word": "μὴ",
-              "occurrence": 2
+              "occurrence": 1
             },
             {
               "word": "παρελεύσονται",
-              "occurrence": 3
+              "occurrence": 2
             }
           ],
           "glQuote": "my words will never pass away",
@@ -9611,38 +9611,38 @@
           "quote": [
             {
               "word": "οἱ",
-              "occurrence": 1
+              "occurrence": 2
             },
             {
               "word": "…"
             },
             {
               "word": "εἶπαν",
-              "occurrence": 2
+              "occurrence": 1
             },
             {
               "word": "αὐτῷ",
-              "occurrence": 2
+              "occurrence": 1
             },
             {
               "word": ",",
-              "occurrence": 3
-            },
-            {
-              "word": "\"",
-              "occurrence": 5
-            },
-            {
-              "word": "Καίσαρος",
               "occurrence": 2
             },
             {
-              "word": ".",
+              "word": "\"",
               "occurrence": 3
             },
             {
+              "word": "Καίσαρος",
+              "occurrence": 1
+            },
+            {
+              "word": ".",
+              "occurrence": 2
+            },
+            {
               "word": "\"",
-              "occurrence": 6
+              "occurrence": 4
             }
           ],
           "glQuote": "They said to him, \"Caesar's.\"",
@@ -11490,7 +11490,7 @@
             },
             {
               "word": ",",
-              "occurrence": 1
+              "occurrence": 2
             },
             {
               "word": "ἢ",
@@ -11722,7 +11722,7 @@
             },
             {
               "word": "καὶ",
-              "occurrence": 1
+              "occurrence": 2
             },
             {
               "word": "σοί",
@@ -11734,7 +11734,7 @@
             },
             {
               "word": ",",
-              "occurrence": 1
+              "occurrence": 2
             },
             {
               "word": "Υἱὲ",
@@ -14114,27 +14114,27 @@
             },
             {
               "word": "εἰς",
-              "occurrence": 2
+              "occurrence": 1
             },
             {
               "word": "τὴν",
-              "occurrence": 2
+              "occurrence": 1
             },
             {
               "word": "Βασιλείαν",
-              "occurrence": 2
+              "occurrence": 1
             },
             {
               "word": "τοῦ",
-              "occurrence": 2
+              "occurrence": 1
             },
             {
               "word": "Θεοῦ",
-              "occurrence": 2
+              "occurrence": 1
             },
             {
               "word": "εἰσελθεῖν",
-              "occurrence": 2
+              "occurrence": 1
             }
           ],
           "glQuote": "It is easier ... to enter into the kingdom of God",
@@ -18015,31 +18015,31 @@
             },
             {
               "word": "εἰ",
-              "occurrence": 2
+              "occurrence": 1
             },
             {
               "word": "μὴ",
-              "occurrence": 2
+              "occurrence": 1
             },
             {
               "word": "ὅταν",
-              "occurrence": 2
+              "occurrence": 1
             },
             {
               "word": "ὁ",
-              "occurrence": 2
+              "occurrence": 1
             },
             {
               "word": "Υἱὸς",
-              "occurrence": 2
+              "occurrence": 1
             },
             {
               "word": "τοῦ",
-              "occurrence": 3
+              "occurrence": 2
             },
             {
               "word": "Ἀνθρώπου",
-              "occurrence": 2
+              "occurrence": 1
             },
             {
               "word": "ἐκ",
@@ -18047,11 +18047,11 @@
             },
             {
               "word": "νεκρῶν",
-              "occurrence": 2
+              "occurrence": 1
             },
             {
               "word": "ἀναστῇ",
-              "occurrence": 2
+              "occurrence": 1
             }
           ],
           "glQuote": "he commanded them to tell no one ... until the Son of Man had risen",
@@ -18427,7 +18427,7 @@
             },
             {
               "word": ",",
-              "occurrence": 1
+              "occurrence": 2
             },
             {
               "word": "ἢ",
@@ -20947,19 +20947,19 @@
             },
             {
               "word": "ὁ",
-              "occurrence": 1
+              "occurrence": 2
             },
             {
               "word": "Υἱὸς",
-              "occurrence": 1
+              "occurrence": 2
             },
             {
               "word": "τοῦ",
-              "occurrence": 1
+              "occurrence": 2
             },
             {
               "word": "Ἀνθρώπου",
-              "occurrence": 1
+              "occurrence": 2
             },
             {
               "word": "παραδίδοται",
@@ -23659,7 +23659,7 @@
             },
             {
               "word": "ὁ",
-              "occurrence": 1
+              "occurrence": 2
             },
             {
               "word": "βαπτίζων",
@@ -23984,7 +23984,7 @@
             },
             {
               "word": "σημεῖον",
-              "occurrence": 1
+              "occurrence": 2
             }
           ],
           "glQuote": "no sign will be given",
@@ -25516,8 +25516,8 @@
               "occurrence": 1
             },
             {
-              "word": "’",
-              "occurrence": 1
+              "occurrence": 1,
+              "word": "’"
             },
             {
               "word": "ἰδίαν",
