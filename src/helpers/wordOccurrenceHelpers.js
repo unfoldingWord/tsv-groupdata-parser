@@ -81,7 +81,7 @@ export function getWordOccurrencesForQuote(quote, verseString) {
   let wholeQuote = ''
   let quoteOmittedStrings
   // replace weird quotation marks with correct ones
-  quote = quote.replace(/\”/g, '"').replace(/\“/gi, '"')
+  quote = quote.replace(/\”/gi, '"').replace(/\“/gi, '"')
 
   if (quote.includes(THREE_DOTS)) {
     quote = quote.replace(/\.../g, ELLIPSIS)
