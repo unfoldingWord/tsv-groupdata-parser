@@ -452,44 +452,11 @@
   },
   {
     "bookId": "JHN",
-    "chapter": 10,
-    "verse": 34,
-    "SupportReference": "figs-rquestion",
-    "OrigQuote": "οὐκ ἔστιν γεγραμμένον ἐν τῷ νόμῳ ὑμῶν, ὅτι ἐγὼ‘ εἶπα, “ θεοί ἐστε",
-    "wholeQuote": "οὐκ ἔστιν γεγραμμένον ἐν τῷ νόμῳ ὑμῶν, ὅτι ἐγὼ‘ εἶπα, \" θεοί ἐστε",
-    "verseString": " ἀπεκρίθη αὐτοῖς ὁ Ἰησοῦς, \"οὐκ ἔστιν γεγραμμένον ἐν τῷ νόμῳ ὑμῶν, ὅτι ἐγὼ‘ εἶπα, \"θεοί ἐστε\"’? \n",
-    "occurrence": "1",
-    "GLQuote": "Is it not written ... gods\"'? "
-  },
-  {
-    "bookId": "JHN",
-    "chapter": 12,
-    "verse": 35,
-    "SupportReference": "figs-metaphor",
-    "OrigQuote": "εἶπεν οὖν αὐτοῖς ὁ Ἰησοῦς, “ ἔτι μικρὸν χρόνον, τὸ φῶς ἐν ὑμῖν ἐστιν. περιπατεῖτε ὡς τὸ φῶς ἔχετε, ἵνα μὴ σκοτία ὑμᾶς καταλάβῃ; καὶ ὁ περιπατῶν ἐν τῇ σκοτίᾳ, οὐκ οἶδεν ποῦ ὑπάγει",
-    "wholeQuote": "εἶπεν οὖν αὐτοῖς ὁ Ἰησοῦς, \" ἔτι μικρὸν χρόνον, τὸ φῶς ἐν ὑμῖν ἐστιν. περιπατεῖτε ὡς τὸ φῶς ἔχετε, ἵνα μὴ σκοτία ὑμᾶς καταλάβῃ; καὶ ὁ περιπατῶν ἐν τῇ σκοτίᾳ, οὐκ οἶδεν ποῦ ὑπάγει",
-    "verseString": " εἶπεν οὖν αὐτοῖς ὁ Ἰησοῦς, \"ἔτι μικρὸν χρόνον, τὸ φῶς ἐν ὑμῖν ἐστιν. περιπατεῖτε ὡς τὸ φῶς ἔχετε, ἵνα μὴ σκοτία ὑμᾶς καταλάβῃ; καὶ ὁ περιπατῶν ἐν τῇ σκοτίᾳ, οὐκ οἶδεν ποῦ ὑπάγει. \n",
-    "occurrence": "1",
-    "GLQuote": "The light will still be with you for a short amount of time. Walk while you have the light, so that darkness does not overtake you. He who walks in the darkness does not know where he is going "
-  },
-  {
-    "bookId": "JHN",
-    "chapter": 19,
-    "verse": 17,
-    "SupportReference": "figs-activepassive",
-    "OrigQuote": "εἰς τὸν λεγόμενον, “ Κρανίου Τόπον”",
-    "wholeQuote": "εἰς τὸν λεγόμενον, \" Κρανίου Τόπον\"",
-    "verseString": " καὶ βαστάζων ἑαυτῷ τὸν σταυρὸν, ἐξῆλθεν εἰς τὸν λεγόμενον, \"Κρανίου Τόπον\", ὃ λέγεται Ἑβραϊστὶ, Γολγοθᾶ; \n",
-    "occurrence": "1",
-    "GLQuote": "to the place called \"The Place of a Skull,\" "
-  },
-  {
-    "bookId": "JHN",
     "chapter": 19,
     "verse": 19,
     "SupportReference": "figs-activepassive",
     "OrigQuote": "ἦν ... γεγραμμένον,“ Ἰησοῦς ὁ Ναζωραῖος, ὁ Βασιλεὺς τῶν Ἰουδαίων.”",
-    "wholeQuote": "ἦν δὲ γεγραμμένον, \"Ἰησοῦς ὁ Ναζωραῖος, ὁ Βασιλεὺς τῶν Ἰουδαίων.\" γεγραμμένον,\" Ἰησοῦς ὁ Ναζωραῖος, ὁ Βασιλεὺς τῶν Ἰουδαίων. ἦν δὲ γεγραμμένον, \"Ἰησοῦς ὁ Ναζωραῖος, ὁ Βασιλεὺς τῶν Ἰουδαίων.\"",
+    "wholeQuote": "ἦν δὲ γεγραμμένον, \"Ἰησοῦς ὁ Ναζωραῖος, ὁ Βασιλεὺς τῶν Ἰουδαίων.\" γεγραμμένον,\"Ἰησοῦς ὁ Ναζωραῖος, ὁ Βασιλεὺς τῶν Ἰουδαίωνῦ. ἦν δὲ γεγραμμένον, \"Ἰησοῦς ὁ Ναζωραῖος, ὁ Βασιλεὺς τῶν Ἰουδαίων.\"",
     "verseString": " ἔγραψεν δὲ καὶ τίτλον ὁ Πειλᾶτος, καὶ ἔθηκεν ἐπὶ τοῦ σταυροῦ. ἦν δὲ γεγραμμένον, \"Ἰησοῦς ὁ Ναζωραῖος, ὁ Βασιλεὺς τῶν Ἰουδαίων.\" \n",
     "occurrence": "1",
     "GLQuote": "There it was written: JESUS OF NAZARETH, THE KING OF THE JEWS "
@@ -661,17 +628,6 @@
   },
   {
     "bookId": "ROM",
-    "chapter": 3,
-    "verse": 8,
-    "SupportReference": "figs-rquestion",
-    "OrigQuote": "καὶ μὴ καθὼς βλασφημούμεθα, καὶ καθώς φασίν τινες ἡμᾶς λέγειν, ὅτι “ ποιήσωμεν τὰ κακὰ, ἵνα ἔλθῃ τὰ ἀγαθά",
-    "wholeQuote": "καὶ μὴ καθὼς βλασφημούμεθα, καὶ καθώς φασίν τινες ἡμᾶς λέγειν, ὅτι \" ποιήσωμεν τὰ κακὰ, ἵνα ἔλθῃ τὰ ἀγαθά",
-    "verseString": " καὶ μὴ καθὼς βλασφημούμεθα, καὶ καθώς φασίν τινες ἡμᾶς λέγειν, ὅτι \"ποιήσωμεν τὰ κακὰ, ἵνα ἔλθῃ τὰ ἀγαθά?\" ὧν τὸ κρίμα ἔνδικόν ἐστιν. \n",
-    "occurrence": "1",
-    "GLQuote": "Why not say ... come\"? "
-  },
-  {
-    "bookId": "ROM",
     "chapter": 4,
     "verse": 22,
     "SupportReference": "figs-activepassive",
@@ -749,17 +705,6 @@
   },
   {
     "bookId": "ROM",
-    "chapter": 9,
-    "verse": 20,
-    "SupportReference": "figs-metaphor",
-    "OrigQuote": "μὴ ἐρεῖ τὸ πλάσμα, τῷ πλάσαντι, “ τί με ἐποίησας οὕτως",
-    "wholeQuote": "μὴ ἐρεῖ τὸ πλάσμα, τῷ πλάσαντι, \" τί με ἐποίησας οὕτως",
-    "verseString": " ὦ ἄνθρωπε, μενοῦνγε σὺ τίς εἶ, ὁ ἀνταποκρινόμενος τῷ Θεῷ? μὴ ἐρεῖ τὸ πλάσμα, τῷ πλάσαντι, \"τί με ἐποίησας οὕτως?\" \n",
-    "occurrence": "1",
-    "GLQuote": "Will what has been molded say to the one who molds it, \"Why ... way?\" "
-  },
-  {
-    "bookId": "ROM",
     "chapter": 10,
     "verse": 5,
     "SupportReference": "figs-explicit",
@@ -779,17 +724,6 @@
     "verseString": " \"πᾶς\" γὰρ \"ὃς ἂν ἐπικαλέσηται τὸ ὄνομα Κυρίου, σωθήσεται.\" \n",
     "occurrence": "1",
     "GLQuote": "For everyone who calls on the name of the Lord will be saved "
-  },
-  {
-    "bookId": "ROM",
-    "chapter": 10,
-    "verse": 19,
-    "SupportReference": "figs-you",
-    "OrigQuote": "πρῶτος Μωϋσῆς λέγει, “ ἐγὼ παραζηλώσω ὑμᾶς, ... παροργιῶ ὑμᾶς.”",
-    "wholeQuote": "πρῶτος Μωϋσῆς λέγει, \" ἐγὼ παραζηλώσω ὑμᾶς,σῆς λέγει, \"ἐγὼ παραζηλώσω ὑμᾶς, ἐπ’ οὐκ ἔθνει, ἐπ’ ἔθνει ἀσυνέτῳ, παροργιῶ ὑμᾶς.\"",
-    "verseString": " ἀλλὰ λέγω, μὴ Ἰσραὴλ οὐκ ἔγνω? πρῶτος Μωϋσῆς λέγει, \"ἐγὼ παραζηλώσω ὑμᾶς, ἐπ’ οὐκ ἔθνει, ἐπ’ ἔθνει ἀσυνέτῳ, παροργιῶ ὑμᾶς.\" \n",
-    "occurrence": "1",
-    "GLQuote": "First Moses says, \"I will provoke you ... I will stir you up "
   },
   {
     "bookId": "ROM",
@@ -889,17 +823,6 @@
     "verseString": " ἑτέρῳ πίστις ἐν τῷ αὐτῷ Πνεύματι, ἄλλῳ δὲ χαρίσματα ἰαμάτων ἐν τῷ ἑνὶ Πνεύματι, \n",
     "occurrence": "1",
     "GLQuote": "is given"
-  },
-  {
-    "bookId": "1CO",
-    "chapter": 14,
-    "verse": 16,
-    "SupportReference": "figs-synecdoche",
-    "OrigQuote": "ἐρεῖ, τὸ “ ἀμήν”",
-    "wholeQuote": "ἐρεῖ, τὸ \" ἀμήν\"",
-    "verseString": " ἐπεὶ ἐὰν εὐλογῇς πνεύματι, ὁ ἀναπληρῶν τὸν τόπον τοῦ ἰδιώτου, πῶς ἐρεῖ, τὸ \"ἀμήν\", ἐπὶ τῇ σῇ εὐχαριστίᾳ, ἐπειδὴ τί λέγεις, οὐκ οἶδεν? \n",
-    "occurrence": "1",
-    "GLQuote": "say \"Amen”"
   },
   {
     "bookId": "1CO",
