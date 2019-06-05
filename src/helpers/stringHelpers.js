@@ -15,7 +15,6 @@ export function cleanQuoteString(quote) {
       .replace(/\s+([?])/gi, '$1')
       // remove double spaces
       .replace(/  /gi, ' ')
-      // TODO: ,\" ,\"
       .trim()
   )
 }
