@@ -29,5 +29,9 @@ export function verseObjectsToString(verseObjects) {
       .replace(/  /gi, '')
       // remove spaces before commas
       .replace(/ , /gi, ', ')
+      // remove spaces before periods
+      .replace(/ ."/gi, '."')
+      // remove space before apostrophe
+      .replace(/ ’./gi, '’.')
   )
 }

@@ -7,8 +7,9 @@ function countStringInArray(array, string) {
   return array.filter(item => item == string).length
 }
 
-function cleanRegex(str) {
-  return str.replace(/([.?*+^$[\]\\(){}|-])/g, '\\$1')
+export function cleanRegex(str) {
+  if (str) return str.replace(/([.?*+^$[\]\\(){}|-])/g, '\\$1')
+  return str
 }
 
 function tokenizeQuote(quote) {
@@ -79,6 +80,8 @@ export function getWordOccurrencesForQuote(quote, verseString) {
   const words = []
   let wholeQuote = ''
   let quoteOmittedStrings
+  // replace weird quotation marks with correct ones
+  quote = quote.replace(/\”/g, '"').replace(/\“/gi, '"')
 
   if (quote.includes(THREE_DOTS)) {
     quote = quote.replace(/\.../g, ELLIPSIS)
