@@ -100,17 +100,6 @@
   },
   {
     "bookId": "MAT",
-    "chapter": 9,
-    "verse": 21,
-    "SupportReference": "figs-events",
-    "OrigQuote": "ἔλεγεν γὰρ ἐν ἑαυτῇ,\" ἐὰν μόνον ἅψωμαι τοῦ ἱματίου αὐτοῦ, σωθήσομαι.\"",
-    "wholeQuote": "ἔλεγεν γὰρ ἐν ἑαυτῇ,\" ἐὰν μόνον ἅψωμαι τοῦ ἱματίου αὐτοῦ, σωθήσομαι.\"",
-    "verseString": " ἔλεγεν γὰρ ἐν ἑαυτῇ, \"ἐὰν μόνον ἅψωμαι τοῦ ἱματίου αὐτοῦ, σωθήσομαι.\" \n",
-    "occurrence": "1",
-    "GLQuote": "For she had said to herself, \"If only I touch his clothes, I will be made well.\""
-  },
-  {
-    "bookId": "MAT",
     "chapter": 10,
     "verse": 8,
     "SupportReference": "figs-you",
@@ -130,17 +119,6 @@
     "verseString": " καὶ ἐὰν μὲν ᾖ ἡ οἰκία ἀξία, ἐλθάτω ἡ εἰρήνη ὑμῶν ἐπ’ αὐτήν; ἐὰν δὲ μὴ ᾖ ἀξία, ἡ εἰρήνη ὑμῶν πρὸς ὑμᾶς ἐπιστραφήτω. \n",
     "occurrence": "1",
     "GLQuote": "your ... your"
-  },
-  {
-    "bookId": "MAT",
-    "chapter": 12,
-    "verse": 47,
-    "SupportReference": "figs-quotations",
-    "OrigQuote": "εἶπεν δέ τις αὐτῷ,\" ἰδοὺ, ἡ μήτηρ σου καὶ οἱ ἀδελφοί σου ἔξω ἑστήκασιν ζητοῦντές σοι λαλῆσαι.\"",
-    "wholeQuote": "εἶπεν δέ τις αὐτῷ,\" ἰδοὺ, ἡ μήτηρ σου καὶ οἱ ἀδελφοί σου ἔξω ἑστήκασιν ζητοῦντές σοι λαλῆσαι.\"",
-    "verseString": " εἶπεν δέ τις αὐτῷ, \"ἰδοὺ, ἡ μήτηρ σου καὶ οἱ ἀδελφοί σου ἔξω ἑστήκασιν ζητοῦντές σοι λαλῆσαι.\" \n",
-    "occurrence": "1",
-    "GLQuote": "Someone said to him, \"Look, your mother and your brothers stand outside, seeking to speak to you.\""
   },
   {
     "bookId": "MAT",
@@ -229,17 +207,6 @@
     "verseString": " οἱ δὲ εἶπαν αὐτῷ λέγοντες, ὅτι \"Ἰωάννην τὸν Βαπτιστήν, καὶ ἄλλοι Ἠλείαν, ἄλλοι δὲ ὅτι εἷς τῶν προφητῶν.\" \n",
     "occurrence": "1",
     "GLQuote": "Others say ... others"
-  },
-  {
-    "bookId": "MRK",
-    "chapter": 10,
-    "verse": 49,
-    "SupportReference": "figs-activepassive",
-    "OrigQuote": "εἶπεν,\" φωνήσατε αὐτόν",
-    "wholeQuote": "εἶπεν,\" φωνήσατε αὐτόν",
-    "verseString": " καὶ στὰς, ὁ Ἰησοῦς εἶπεν, \"φωνήσατε αὐτόν.\" καὶ φωνοῦσι τὸν τυφλὸν, λέγοντες αὐτῷ, \"θάρσει, ἔγειρε, φωνεῖ σε.\" \n",
-    "occurrence": "1",
-    "GLQuote": "commanded him to be called"
   },
   {
     "bookId": "MRK",
@@ -441,28 +408,6 @@
   },
   {
     "bookId": "JHN",
-    "chapter": 10,
-    "verse": 32,
-    "SupportReference": "guidelines-sonofgodprinciples",
-    "OrigQuote": "ἀπεκρίθη αὐτοῖς ὁ Ἰησοῦς,\" πολλὰ ἔργα καλὰ ἔδειξα ὑμῖν ἐκ τοῦ Πατρός",
-    "wholeQuote": "ἀπεκρίθη αὐτοῖς ὁ Ἰησοῦς,\" πολλὰ ἔργα καλὰ ἔδειξα ὑμῖν ἐκ τοῦ Πατρός",
-    "verseString": " ἀπεκρίθη αὐτοῖς ὁ Ἰησοῦς, \"πολλὰ ἔργα καλὰ ἔδειξα ὑμῖν ἐκ τοῦ Πατρός; διὰ ποῖον αὐτῶν ἔργον, ἐμὲ λιθάζετε?\" \n",
-    "occurrence": "1",
-    "GLQuote": "Jesus answered them, \"I have shown you many good works from the Father "
-  },
-  {
-    "bookId": "JHN",
-    "chapter": 19,
-    "verse": 19,
-    "SupportReference": "figs-activepassive",
-    "OrigQuote": "ἦν ... γεγραμμένον,“ Ἰησοῦς ὁ Ναζωραῖος, ὁ Βασιλεὺς τῶν Ἰουδαίων.”",
-    "wholeQuote": "ἦν δὲ γεγραμμένον, \"Ἰησοῦς ὁ Ναζωραῖος, ὁ Βασιλεὺς τῶν Ἰουδαίων.\" γεγραμμένον,\"Ἰησοῦς ὁ Ναζωραῖος, ὁ Βασιλεὺς τῶν Ἰουδαίωνῦ. ἦν δὲ γεγραμμένον, \"Ἰησοῦς ὁ Ναζωραῖος, ὁ Βασιλεὺς τῶν Ἰουδαίων.\"",
-    "verseString": " ἔγραψεν δὲ καὶ τίτλον ὁ Πειλᾶτος, καὶ ἔθηκεν ἐπὶ τοῦ σταυροῦ. ἦν δὲ γεγραμμένον, \"Ἰησοῦς ὁ Ναζωραῖος, ὁ Βασιλεὺς τῶν Ἰουδαίων.\" \n",
-    "occurrence": "1",
-    "GLQuote": "There it was written: JESUS OF NAZARETH, THE KING OF THE JEWS "
-  },
-  {
-    "bookId": "JHN",
     "chapter": 21,
     "verse": 11,
     "SupportReference": "translate-numbers",
@@ -493,17 +438,6 @@
     "verseString": " ἐν ᾧ καιρῷ ἐγεννήθη Μωϋσῆς, καὶ ἦν ἀστεῖος τῷ Θεῷ; ὃς ἀνετράφη μῆνας τρεῖς ἐν τῷ οἴκῳ τοῦ πατρός. \n",
     "occurrence": "1",
     "GLQuote": "very beautiful before God "
-  },
-  {
-    "bookId": "ACT",
-    "chapter": 9,
-    "verse": 36,
-    "SupportReference": "translate-names",
-    "OrigQuote": "Ταβειθά, ἣ διερμηνευομένη λέγεται,\" Δορκάς",
-    "wholeQuote": "Ταβειθά, ἣ διερμηνευομένη λέγεται,\" Δορκάς",
-    "verseString": " ἐν Ἰόππῃ δέ τις ἦν μαθήτρια ὀνόματι Ταβειθά, ἣ διερμηνευομένη λέγεται, \"Δορκάς\". αὕτη ἦν πλήρης ἔργων ἀγαθῶν, καὶ ἐλεημοσυνῶν ὧν ἐποίει. \n",
-    "occurrence": "1",
-    "GLQuote": "Tabitha, which is translated as \"Dorcas.\" "
   },
   {
     "bookId": "ACT",
@@ -573,17 +507,6 @@
   },
   {
     "bookId": "ACT",
-    "chapter": 25,
-    "verse": 22,
-    "SupportReference": "writing-quotations",
-    "OrigQuote": "αὔριον”, φησίν,\" ἀκούσῃ αὐτοῦ",
-    "wholeQuote": "αὔριον\", φησίν,\" ἀκούσῃ αὐτοῦ",
-    "verseString": " Ἀγρίππας δὲ πρὸς τὸν Φῆστον, \"ἐβουλόμην καὶ αὐτὸς τοῦ ἀνθρώπου ἀκοῦσαι.\" \"αὔριον\", φησίν, \"ἀκούσῃ αὐτοῦ.\" \n",
-    "occurrence": "1",
-    "GLQuote": "\"Tomorrow,\" Festus said, \"you will hear him.\" "
-  },
-  {
-    "bookId": "ACT",
     "chapter": 26,
     "verse": 10,
     "SupportReference": "figs-activepassive",
@@ -603,17 +526,6 @@
     "verseString": " ὡς δὲ ἐκρίθη τοῦ ἀποπλεῖν ἡμᾶς εἰς τὴν Ἰταλίαν, παρεδίδουν τόν τε Παῦλον καί τινας ἑτέρους δεσμώτας, ἑκατοντάρχῃ ὀνόματι Ἰουλίῳ, σπείρης Σεβαστῆς. \n",
     "occurrence": "1",
     "GLQuote": "When it was decided "
-  },
-  {
-    "bookId": "ACT",
-    "chapter": 28,
-    "verse": 26,
-    "SupportReference": "figs-quotesinquotes",
-    "OrigQuote": "λέγων, πορεύθητι‘ πρὸς τὸν λαὸν τοῦτον ... εἰπόν,\" ἀκοῇ ἀκούσετε, καὶ οὐ μὴ συνῆτε; καὶ βλέποντες βλέψετε, καὶ οὐ μὴ ἴδητε",
-    "wholeQuote": "λέγων, πορεύθητι‘ πρὸς τὸν λαὸν τοῦτον, καὶ εἰπόν, \"ἀκοῇ ἀκούσετε, καὶ οὐ μὴ συνῆτε; καὶ βλέποντες βλέψετε, καὶ οὐ μὴ ἴδητε. εἰπόν,\" ἀκοῇ ἀκούσετε, καὶ οὐ μὴ συνῆτε; καὶ βλέποντες βλέψετε, καὶ οὐ μὴ ἴδητε",
-    "verseString": " λέγων, πορεύθητι‘ πρὸς τὸν λαὸν τοῦτον, καὶ εἰπόν, \"ἀκοῇ ἀκούσετε, καὶ οὐ μὴ συνῆτε; καὶ βλέποντες βλέψετε, καὶ οὐ μὴ ἴδητε. \n",
-    "occurrence": "1",
-    "GLQuote": "He said, 'Go to this people and say, \"By hearing you will hear, but not understand; and seeing you will see, but will not perceive "
   },
   {
     "bookId": "ROM",
@@ -724,17 +636,6 @@
     "verseString": " \"πᾶς\" γὰρ \"ὃς ἂν ἐπικαλέσηται τὸ ὄνομα Κυρίου, σωθήσεται.\" \n",
     "occurrence": "1",
     "GLQuote": "For everyone who calls on the name of the Lord will be saved "
-  },
-  {
-    "bookId": "ROM",
-    "chapter": 11,
-    "verse": 8,
-    "SupportReference": "figs-metaphor",
-    "OrigQuote": "ἔδωκεν αὐτοῖς ὁ Θεὸς πνεῦμα κατανύξεως”,\" ὀφθαλμοὺς τοῦ μὴ βλέπειν, καὶ ὦτα τοῦ μὴ ἀκούειν",
-    "wholeQuote": "ἔδωκεν αὐτοῖς ὁ Θεὸς πνεῦμα κατανύξεως\",\" ὀφθαλμοὺς τοῦ μὴ βλέπειν, καὶ ὦτα τοῦ μὴ ἀκούειν",
-    "verseString": " καθὼς γέγραπται, \"ἔδωκεν αὐτοῖς ὁ Θεὸς πνεῦμα κατανύξεως\", \"ὀφθαλμοὺς τοῦ μὴ βλέπειν, καὶ ὦτα τοῦ μὴ ἀκούειν, ἕως τῆς σήμερον ἡμέρας.\" \n",
-    "occurrence": "1",
-    "GLQuote": "God has given them a spirit of dullness, eyes so that they should not see, and ears so that they should not hear "
   },
   {
     "bookId": "ROM",
@@ -1890,17 +1791,6 @@
     "verseString": " διότι περιέχει ἐν Γραφῇ: \"ἰδοὺ, τίθημι ἐν Σιὼν λίθον, ἀκρογωνιαῖον ἐκλεκτὸν ἔντιμον; καὶ ὁ πιστεύων ἐπ’ αὐτῷ, οὐ μὴ καταισχυνθῇ.\" \n",
     "occurrence": "1",
     "GLQuote": "Scripture contains this"
-  },
-  {
-    "bookId": "2PE",
-    "chapter": 2,
-    "verse": 22,
-    "SupportReference": "writing-proverbs",
-    "OrigQuote": "κύων ἐπιστρέψας ἐπὶ τὸ ἴδιον ἐξέραμα”, καί,\" ὗς λουσαμένη, εἰς κυλισμὸν βορβόρου",
-    "wholeQuote": "κύων ἐπιστρέψας ἐπὶ τὸ ἴδιον ἐξέραμα\", καί,\" ὗς λουσαμένη, εἰς κυλισμὸν βορβόρου",
-    "verseString": " συμβέβηκεν αὐτοῖς τὸ τῆς ἀληθοῦς παροιμίας, \"κύων ἐπιστρέψας ἐπὶ τὸ ἴδιον ἐξέραμα\", καί, \"ὗς λουσαμένη, εἰς κυλισμὸν βορβόρου.\" \n",
-    "occurrence": "1",
-    "GLQuote": "A dog returns to its own vomit, and a washed pig returns to the mud"
   },
   {
     "bookId": "2PE",
