@@ -2,6 +2,7 @@
 import { ELLIPSIS } from '../utils/constants'
 // helpers
 import { cleanRegex } from './wordOccurrenceHelpers'
+import { cleanQuoteString } from './stringHelpers'
 
 function indexPlusOneIsOdd(n) {
   return !((n + 1) % 2 == 0)
@@ -90,7 +91,7 @@ function getQuoteChunkSubStrIndex(verseString, previousQuoteChunk, quoteChunk, n
 
 export function getOmittedWordsInQuote(quote, verseString) {
   // replace weird quotation marks with correct ones
-  quote = quote.replace(/\”/gi, '"').replace(/\“/gi, '"')
+  quote = cleanQuoteString(quote)
   quote = quote.replace(/\.../gi, ELLIPSIS)
   const quoteChunks = quote.split(ELLIPSIS)
   const missingWordsIndices = []

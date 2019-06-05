@@ -2,6 +2,7 @@
 import stringTokenizer from 'string-punctuation-tokenizer'
 import { ELLIPSIS, THREE_DOTS } from '../utils/constants'
 import { getOmittedWordsInQuote } from './ellipsisHelpers'
+import { cleanQuoteString } from './stringHelpers'
 
 function countStringInArray(array, string) {
   return array.filter(item => item == string).length
@@ -80,8 +81,8 @@ export function getWordOccurrencesForQuote(quote, verseString) {
   const words = []
   let wholeQuote = ''
   let quoteOmittedStrings
-  // replace weird quotation marks with correct ones
-  quote = quote.replace(/\”/gi, '"').replace(/\“/gi, '"')
+  // clean quote string
+  quote = cleanQuoteString(quote)
 
   if (quote.includes(THREE_DOTS)) {
     quote = quote.replace(/\.../g, ELLIPSIS)

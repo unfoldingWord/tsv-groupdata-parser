@@ -5,6 +5,7 @@ import tsvtojson from 'tsvtojson'
 import ManageResource from './ManageResourceAPI'
 import { BIBLE_LIST_NT } from '../utils/bible'
 import { getOmittedWordsInQuote } from './ellipsisHelpers'
+import { cleanQuoteString } from './stringHelpers'
 // const
 import { ELLIPSIS, THREE_DOTS } from '../utils/constants'
 
@@ -54,7 +55,7 @@ export async function validateTsvQuotes(originalResources, tsvFilesPath) {
             const verseString = resourceApi.getVerseString(chapter, verse)
             // if quote has more than one word get word occurrences
             // eslint-disable-next-line prettier/prettier
-            let wholeQuote = quote
+            let wholeQuote = cleanQuoteString(quote)
             // if quote includes ellipsis get the whole quote
             if (quote.includes(THREE_DOTS) || quote.includes(ELLIPSIS)) {
               quote = quote.replace(/\.../g, ELLIPSIS)
@@ -70,7 +71,7 @@ export async function validateTsvQuotes(originalResources, tsvFilesPath) {
                 verse,
                 id,
                 SupportReference,
-                OrigQuote,
+                OrigQuote: OrigQuote.trim(),
                 wholeQuote,
                 verseString,
                 occurrence: Occurrence,
