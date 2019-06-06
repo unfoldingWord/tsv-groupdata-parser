@@ -9,5 +9,5 @@ module.exports = {
       },
     ],
   ],
-  plugins: ["@babel/plugin-transform-async-to-generator"]
-};
+  plugins: ['@babel/plugin-transform-async-to-generator'],
+}

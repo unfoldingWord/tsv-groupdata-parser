@@ -10464,10 +10464,10 @@
             },
             {
               "word": ",",
-              "occurrence": 1
+              "occurrence": 2
             },
             {
-              "word": "“",
+              "word": "\"",
               "occurrence": 1
             },
             {
@@ -10515,19 +10515,19 @@
             },
             {
               "word": "ὑπακούουσιν",
-              "occurrence": 2
+              "occurrence": 1
             },
             {
               "word": "αὐτῷ",
-              "occurrence": 2
+              "occurrence": 1
             },
             {
               "word": "!",
-              "occurrence": 4
+              "occurrence": 2
             },
             {
-              "word": "”",
-              "occurrence": 1
+              "word": "\"",
+              "occurrence": 2
             }
           ],
           "glQuote": "they asked each other, \"What is this? A new teaching with authority! ... and they obey him!\"",
@@ -22517,7 +22517,7 @@
             },
             {
               "word": ",",
-              "occurrence": 5
+              "occurrence": 4
             },
             {
               "word": "Ἀλεξάνδρου",
@@ -24491,7 +24491,7 @@
             },
             {
               "word": ",",
-              "occurrence": 1
+              "occurrence": 2
             },
             {
               "word": "\"",

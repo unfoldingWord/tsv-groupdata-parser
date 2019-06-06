@@ -20,7 +20,7 @@ export const tsvToGroupData = async (filepath, toolName, params = {}, originalBi
   const { Book: bookId } = tsvObjects[0] || {}
   const resourceApi = new ManageResource(originalBiblePath, bookId.toLowerCase())
 
-  tsvObjects.map(tsvItem => {
+  tsvObjects.forEach(tsvItem => {
     if (tsvItem.SupportReference && tsvItem.OrigQuote) {
       tsvItem.SupportReference = cleanGroupId(tsvItem.SupportReference)
       tsvItem.OccurrenceNote = cleanArticleLink(tsvItem.OccurrenceNote)

@@ -1,0 +1,1442 @@
+[
+  {
+    "bookId": "MAT",
+    "chapter": 3,
+    "verse": 4,
+    "ID": "x7f3",
+    "OrigQuote": "εἶχεν τὸ ἔνδυμα ἀπὸ τριχῶν καμήλου καὶ ζώνην δερματίνην περὶ τὴν ὀσφὺν αὐτοῦ",
+    "verseString": " αὐτὸς δὲ ὁ Ἰωάννης εἶχεν τὸ ἔνδυμα αὐτοῦ ἀπὸ τριχῶν καμήλου καὶ ζώνην δερματίνην περὶ τὴν ὀσφὺν αὐτοῦ, ἡ δὲ τροφὴ ἦν αὐτοῦ ἀκρίδες καὶ μέλι ἄγριον. \n",
+    "GLQuote": "wore clothing from camel's hair and a leather belt around his waist"
+  },
+  {
+    "bookId": "MAT",
+    "chapter": 3,
+    "verse": 5,
+    "ID": "j8ke",
+    "OrigQuote": "τότε ... Ἱεροσόλυμα καὶ πᾶσα ἡ Ἰουδαία, καὶ πᾶσα ἡ περίχωρος",
+    "verseString": " τότε ἐξεπορεύετο πρὸς αὐτὸν Ἱεροσόλυμα, καὶ πᾶσα ἡ Ἰουδαία, καὶ πᾶσα ἡ περίχωρος τοῦ Ἰορδάνου, \n",
+    "GLQuote": "Then Jerusalem, all Judea, and all the region"
+  },
+  {
+    "bookId": "MAT",
+    "chapter": 3,
+    "verse": 13,
+    "ID": "zbj9",
+    "OrigQuote": "βαπτισθῆναι ὑπ’ αὐτοῦ’",
+    "verseString": " τότε παραγίνεται ὁ Ἰησοῦς ἀπὸ τῆς Γαλιλαίας ἐπὶ τὸν Ἰορδάνην πρὸς τὸν Ἰωάννην, τοῦ βαπτισθῆναι ὑπ’ αὐτοῦ. \n",
+    "GLQuote": "to be baptized by him"
+  },
+  {
+    "bookId": "MAT",
+    "chapter": 4,
+    "verse": 6,
+    "ID": "ebc9",
+    "OrigQuote": "τοῖς ‘ἀγγέλοις αὐτοῦ ἐντελεῖται περὶ σοῦ’, καὶ",
+    "verseString": " καὶ λέγει αὐτῷ, \"εἰ Υἱὸς εἶ τοῦ Θεοῦ, βάλε σεαυτὸν κάτω; γέγραπται γὰρ, ὅτι τοῖς‘ ἀγγέλοις αὐτοῦ ἐντελεῖται περὶ σοῦ’, καὶ, ἐπὶ‘ χειρῶν ἀροῦσίν σε, μήποτε προσκόψῃς πρὸς λίθον τὸν πόδα σου.’\" \n",
+    "GLQuote": "'He will command his angels to take care of you,' and"
+  },
+  {
+    "bookId": "MAT",
+    "chapter": 5,
+    "verse": 13,
+    "ID": "jv56",
+    "OrigQuote": "Ἐὰν … τὸ ἅλας μωρανθῇ",
+    "verseString": " ὑμεῖς ἐστε τὸ ἅλας τῆς γῆς; ἐὰν δὲ τὸ ἅλας μωρανθῇ, ἐν τίνι ἁλισθήσεται? εἰς οὐδὲν ἰσχύει ἔτι, εἰ μὴ βληθὲν ἔξω, καταπατεῖσθαι ὑπὸ τῶν ἀνθρώπων. \n",
+    "GLQuote": "if the salt has lost its taste"
+  },
+  {
+    "bookId": "MAT",
+    "chapter": 6,
+    "verse": 29,
+    "ID": "n75l",
+    "OrigQuote": "οὐδὲ Σολομὼν οὐδὲ περιεβάλετο ὡς ἓν τούτων",
+    "verseString": " λέγω δὲ ὑμῖν, ὅτι οὐδὲ Σολομὼν ἐν πάσῃ τῇ δόξῃ αὐτοῦ περιεβάλετο ὡς ἓν τούτων. \n",
+    "GLQuote": "not even Solomon ... was clothed like one of these"
+  },
+  {
+    "bookId": "MAT",
+    "chapter": 6,
+    "verse": 31,
+    "ID": "pd6x",
+    "OrigQuote": "τί περιβαλώμεθα",
+    "verseString": " μὴ οὖν μεριμνήσητε λέγοντες, τί‘ φάγωμεν’, ἤ, τί‘ πίωμεν’, ἤ, τί‘ περιβαλώμεθα?’ \n",
+    "GLQuote": "What will we wear"
+  },
+  {
+    "bookId": "MAT",
+    "chapter": 9,
+    "verse": 5,
+    "ID": "j716",
+    "OrigQuote": "τί γάρ ἐστιν εὐκοπώτερον εἰπεῖν, ἀφέωνται‘ σου αἱ ἁμαρτίαι’, ἢ εἰπεῖν, ἔγειρε‘ καὶ περιπάτει?",
+    "verseString": " τί γάρ ἐστιν εὐκοπώτερον εἰπεῖν, ἀφέωνται‘ σου αἱ ἁμαρτίαι’, ἢ εἰπεῖν, ἔγειρε‘ καὶ περιπάτει’? \n",
+    "GLQuote": "For which is easier, to say, 'Your sins are forgiven,' or to say, 'Get up and walk'?"
+  },
+  {
+    "bookId": "MAT",
+    "chapter": 9,
+    "verse": 5,
+    "ID": "mk14",
+    "OrigQuote": "τί ... ἐστιν εὐκοπώτερον εἰπεῖν, ἀφέωνται‘ σου αἱ ἁμαρτίαι’, ἢ εἰπεῖν, ἔγειρε‘ καὶ περιπάτει?",
+    "verseString": " τί γάρ ἐστιν εὐκοπώτερον εἰπεῖν, ἀφέωνται‘ σου αἱ ἁμαρτίαι’, ἢ εἰπεῖν, ἔγειρε‘ καὶ περιπάτει’? \n",
+    "GLQuote": "which is easier, to say, 'Your sins are forgiven,' or to say, 'Get up and walk'?"
+  },
+  {
+    "bookId": "MAT",
+    "chapter": 18,
+    "verse": 13,
+    "ID": "at4s",
+    "OrigQuote": "αὐτό λέγω ὑμῖν",
+    "verseString": " καὶ ἐὰν γένηται εὑρεῖν αὐτό, ἀμὴν, λέγω ὑμῖν, ὅτι χαίρει ἐπ’ αὐτῷ μᾶλλον ἢ ἐπὶ τοῖς ἐνενήκοντα ἐννέα τοῖς μὴ πεπλανημένοις. \n",
+    "GLQuote": "truly I say to you"
+  },
+  {
+    "bookId": "MAT",
+    "chapter": 20,
+    "verse": 19,
+    "ID": "pn84",
+    "OrigQuote": "τρτῇ τρίτῃίτῃ ἡμέρᾳ",
+    "verseString": " καὶ παραδώσουσιν αὐτὸν τοῖς ἔθνεσιν, εἰς τὸ ἐμπαῖξαι, καὶ μαστιγῶσαι, καὶ σταυρῶσαι; καὶ τῇ τρίτῃ ἡμέρᾳ ἀναστήσεται.\" \n",
+    "GLQuote": "the third day"
+  },
+  {
+    "bookId": "MAT",
+    "chapter": 26,
+    "verse": 32,
+    "ID": "pj2u",
+    "OrigQuote": "μετὰ ... τὸ ἐγερθῆναί, με",
+    "verseString": " μετὰ δὲ τὸ ἐγερθῆναί με, προάξω ὑμᾶς εἰς τὴν Γαλιλαίαν.\" \n",
+    "GLQuote": "after I am raised up"
+  },
+  {
+    "bookId": "MAT",
+    "chapter": 27,
+    "verse": 63,
+    "ID": "ri5s",
+    "OrigQuote": "εἶπεν ... μετὰ‘ τρεῖς ἡμέρας ἐγείρομαι.’",
+    "verseString": " λέγοντες, \"κύριε, ἐμνήσθημεν ὅτι ἐκεῖνος ὁ πλάνος εἶπεν ἔτι ζῶν, ‘μετὰ τρεῖς ἡμέρας ἐγείρομαι.’ \n",
+    "GLQuote": "he said, 'After three days will I rise again.'"
+  },
+  {
+    "bookId": "MRK",
+    "chapter": 3,
+    "verse": 17,
+    "ID": "n4gy",
+    "OrigQuote": "ὀνόματα Βοανηργές, ὅ ἐστιν\" υἱοὶ βροντῆς",
+    "verseString": " καὶ Ἰάκωβον τὸν τοῦ Ζεβεδαίου, καὶ Ἰωάννην τὸν ἀδελφὸν τοῦ Ἰακώβου, καὶ ἐπέθηκεν αὐτοῖς ὀνόματα Βοανηργές, ὅ ἐστιν \"υἱοὶ βροντῆς\", \n",
+    "GLQuote": "the name Boanerges, that is, sons of thunder"
+  },
+  {
+    "bookId": "MRK",
+    "chapter": 6,
+    "verse": 14,
+    "ID": "sc6s",
+    "OrigQuote": "ἔλεγον, ὅτι\"Ἰωάννης ὁ βαπτίζων ἐγήγερται",
+    "verseString": " καὶ ἤκουσεν ὁ βασιλεὺς Ἡρῴδης, φανερὸν γὰρ ἐγένετο τὸ ὄνομα αὐτοῦ, καὶ ἔλεγον, ὅτι \"Ἰωάννης ὁ βαπτίζων ἐγήγερται ἐκ νεκρῶν, καὶ διὰ τοῦτο ἐνεργοῦσιν αἱ δυνάμεις ἐν αὐτῷ.\" \n",
+    "GLQuote": "Some were saying, \"John the Baptist has been raised"
+  },
+  {
+    "bookId": "MRK",
+    "chapter": 12,
+    "verse": 10,
+    "ID": "xj9j",
+    "OrigQuote": "οὐδὲ τὴν Γραφὴν ταύτην ἀνέγνωτε?",
+    "verseString": " οὐδὲ τὴν Γραφὴν ταύτην ἀνέγνωτε: λίθον‘ ὃν ἀπεδοκίμασαν οἱ οἰκοδομοῦντες, οὗτος ἐγενήθη εἰς κεφαλὴν γωνίας ; \n",
+    "GLQuote": "Have you not read this scripture?"
+  },
+  {
+    "bookId": "MRK",
+    "chapter": 12,
+    "verse": 33,
+    "ID": "tw15",
+    "OrigQuote": "τὸ ἀγαπᾶν τὸν πλησίον ὡς ἑαυτὸν",
+    "verseString": " καὶ, τὸ ἀγαπᾶν‘ αὐτὸν ἐξ ὅλης τῆς καρδίας, καὶ ἐξ ὅλης τῆς συνέσεως, καὶ ἐξ ὅλης τῆς ἰσχύος’, καὶ, τὸ ἀγαπᾶν‘ τὸν πλησίον ὡς ἑαυτὸν’, περισσότερόν ἐστιν πάντων τῶν ὁλοκαυτωμάτων καὶ θυσιῶν.\" \n",
+    "GLQuote": "to love one's neighbor as oneself"
+  },
+  {
+    "bookId": "MRK",
+    "chapter": 13,
+    "verse": 12,
+    "ID": "g3jv",
+    "OrigQuote": "ἀδελφὸς ἀδελφὸν\\",
+    "verseString": " καὶ παραδώσει ἀδελφὸς ἀδελφὸν εἰς θάνατον, καὶ πατὴρ τέκνον; καὶ ἐπαναστήσονται τέκνα ἐπὶ γονεῖς καὶ θανατώσουσιν αὐτούς. \n",
+    "GLQuote": "Brother ... brother"
+  },
+  {
+    "bookId": "MRK",
+    "chapter": 14,
+    "verse": 29,
+    "ID": "div5",
+    "OrigQuote": "εἰ καὶ πάντες σκανδαλισθήσονται, ἀλλ’ οὐκ ἐγώ\\",
+    "verseString": " ὁ δὲ Πέτρος ἔφη αὐτῷ, \"εἰ καὶ πάντες σκανδαλισθήσονται, ἀλλ’ οὐκ ἐγώ.\" \n",
+    "GLQuote": "Even if all fall away, yet I will not"
+  },
+  {
+    "bookId": "MRK",
+    "chapter": 15,
+    "verse": 12,
+    "ID": "vlm3",
+    "OrigQuote": "τί οὖν ποιήσω λέγετε τὸν Βασιλέα τῶν Ἰουδαίων?",
+    "verseString": " ὁ δὲ Πειλᾶτος πάλιν ἀποκριθεὶς ἔλεγεν αὐτοῖς, \"τί οὖν ποιήσω λέγετε τὸν Βασιλέα τῶν Ἰουδαίων.\" \n",
+    "GLQuote": "What then should I do with the King of the Jews?"
+  },
+  {
+    "bookId": "MRK",
+    "chapter": 15,
+    "verse": 21,
+    "ID": "rtz2",
+    "OrigQuote": "Σίμωνα ...,Ἀλεξάνδρου ... Ῥούφου",
+    "verseString": " καὶ ἀγγαρεύουσιν, παράγοντά τινα Σίμωνα Κυρηναῖον, ἐρχόμενον ἀπ’ ἀγροῦ, τὸν πατέρα Ἀλεξάνδρου καὶ Ῥούφου, ἵνα ἄρῃ τὸν σταυρὸν αὐτοῦ. \n",
+    "GLQuote": "Simon ... Alexander ... Rufus"
+  },
+  {
+    "bookId": "LUK",
+    "chapter": 10,
+    "verse": 21,
+    "ID": "mf9d",
+    "OrigQuote": "ὁ Πάτερ",
+    "verseString": " ἐν αὐτῇ τῇ ὥρᾳ, ἠγαλλιάσατο τῷ Πνεύματι τῷ Ἁγίῳ καὶ εἶπεν, \"ἐξομολογοῦμαί σοι, Πάτερ, Κύριε τοῦ οὐρανοῦ καὶ τῆς γῆς, ὅτι ἀπέκρυψας ταῦτα ἀπὸ σοφῶν καὶ συνετῶν, καὶ ἀπεκάλυψας αὐτὰ νηπίοις; ναί, ὁ Πατήρ, ὅτι οὕτως εὐδοκία ἐγένετο ἔμπροσθέν σου. \n",
+    "GLQuote": "Father"
+  },
+  {
+    "bookId": "LUK",
+    "chapter": 10,
+    "verse": 27,
+    "ID": "k1el",
+    "OrigQuote": "τὸν πλησίον σου ὡς σεαυτόν",
+    "verseString": " ὁ δὲ ἀποκριθεὶς εἶπεν, \"ἀγαπήσεις‘ Κύριον τὸν Θεόν σου, ἐξ ὅλης καρδίας σου, καὶ ἐν ὅλῃ τῇ ψυχῇ σου, καὶ ἐν ὅλῃ τῇ ἰσχύϊ σου, καὶ ἐν ὅλῃ τῇ διανοίᾳ σου’; καὶ, τὸν‘ πλησίον σου ὡς σεαυτόν.’\" \n",
+    "GLQuote": "your neighbor as yourself"
+  },
+  {
+    "bookId": "LUK",
+    "chapter": 11,
+    "verse": 38,
+    "ID": "bm8j",
+    "OrigQuote": "οὐ ἐβαπτίσθη",
+    "verseString": " ὁ δὲ Φαρισαῖος ἰδὼν, ἐθαύμασεν ὅτι οὐ πρῶτον ἐβαπτίσθη πρὸ τοῦ ἀρίστου. \n",
+    "GLQuote": "he did not wash"
+  },
+  {
+    "bookId": "LUK",
+    "chapter": 12,
+    "verse": 48,
+    "ID": "ir7m",
+    "OrigQuote": "ᾧ παρέθεντο πολύ\\",
+    "verseString": " ὁ δὲ μὴ γνοὺς, ποιήσας δὲ ἄξια πληγῶν, δαρήσεται ὀλίγας. παντὶ δὲ ᾧ ἐδόθη πολύ, πολὺ ζητηθήσεται παρ’ αὐτοῦ; καὶ ᾧ παρέθεντο πολύ, περισσότερον αἰτήσουσιν αὐτόν. \n",
+    "GLQuote": "to whom much has been entrusted"
+  },
+  {
+    "bookId": "LUK",
+    "chapter": 12,
+    "verse": 58,
+    "ID": "f1ea",
+    "OrigQuote": "ὡς .. ὑπάγεις",
+    "verseString": " ὡς γὰρ ὑπάγεις μετὰ τοῦ ἀντιδίκου σου ἐπ’ ἄρχοντα ἐν τῇ ὁδῷ, δὸς ἐργασίαν ἀπηλλάχθαι ἀπ’ αὐτοῦ, μήποτε κατασύρῃ σε πρὸς τὸν κριτήν, καὶ ὁ κριτής σε παραδώσει τῷ πράκτορι, καὶ ὁ πράκτωρ σε βαλεῖ εἰς φυλακήν. \n",
+    "GLQuote": "when you are going"
+  },
+  {
+    "bookId": "LUK",
+    "chapter": 16,
+    "verse": 10,
+    "ID": "sk2f",
+    "OrigQuote": "ὁ πιστὸς ... καὶ ... πιστός ἐστιν ... ὁ ... ἄδικος ... καὶ ... ἄδικός ἐστιν",
+    "verseString": " ὁ πιστὸς ἐν ἐλαχίστῳ, καὶ ἐν πολλῷ πιστός ἐστιν; καὶ ὁ ἐν ἐλαχίστῳ ἄδικος, καὶ ἐν πολλῷ ἄδικός ἐστιν. \n",
+    "GLQuote": "He who is faithful ... is also faithful ... he who is unrighteous ... is also unrighteous"
+  },
+  {
+    "bookId": "LUK",
+    "chapter": 22,
+    "verse": 70,
+    "ID": "udh2",
+    "OrigQuote": "σὺ οὖν εἶ ὁ Υἱὸς τοῦ Θεοῦ?",
+    "verseString": " εἶπαν δὲ πάντες, \"σὺ οὖν εἶ ὁ Υἱὸς τοῦ Θεοῦ.\" ὁ δὲ πρὸς αὐτοὺς ἔφη, \"ὑμεῖς λέγετε ὅτι ἐγώ εἰμι.\" \n",
+    "GLQuote": "Then you are the Son of God?"
+  },
+  {
+    "bookId": "LUK",
+    "chapter": 24,
+    "verse": 49,
+    "ID": "m2lm",
+    "OrigQuote": "ἐγὼ ἀποστέλλω τὴν ἐπαγγελίαν τοῦ Πατρός μου ἐφ ὑμᾶς",
+    "verseString": " καὶ ἐγὼ ἀποστέλλω τὴν ἐπαγγελίαν τοῦ Πατρός μου ἐφ’ ὑμᾶς; ὑμεῖς δὲ καθίσατε ἐν τῇ πόλει, ἕως οὗ ἐνδύσησθε ἐξ ὕψους δύναμιν.\" \n",
+    "GLQuote": "I am sending upon you the promise of my Father"
+  },
+  {
+    "bookId": "JHN",
+    "chapter": 1,
+    "verse": 44,
+    "ID": "i5bm",
+    "OrigQuote": "ἦν δὲ ὁ Φίλιππος ἀπὸ Βηθσαϊδά ἐκ τῆς πόλεως Ἀνδρέου καὶ Πέτρου",
+    "verseString": " ἦν δὲ ὁ Φίλιππος ἀπὸ Βηθσαϊδά, ἐκ τῆς πόλεως Ἀνδρέου καὶ Πέτρου. \n",
+    "GLQuote": "Now Philip was from Bethsaida, the city of Andrew and Peter "
+  },
+  {
+    "bookId": "JHN",
+    "chapter": 5,
+    "verse": 21,
+    "ID": "s6te",
+    "OrigQuote": "Πατὴρ … Υἱὸν",
+    "verseString": " ὥσπερ γὰρ ὁ Πατὴρ ἐγείρει τοὺς νεκροὺς καὶ ζῳοποιεῖ, οὕτως καὶ ὁ Υἱὸς, οὓς θέλει ζῳοποιεῖ. \n",
+    "GLQuote": "Father ... Son "
+  },
+  {
+    "bookId": "JHN",
+    "chapter": 6,
+    "verse": 39,
+    "ID": "j7q6",
+    "OrigQuote": "ἀναστήσω αὐτὸν",
+    "verseString": " τοῦτο δέ ἐστιν τὸ θέλημα τοῦ πέμψαντός με, ἵνα πᾶν ὃ δέδωκέν μοι, μὴ ἀπολέσω ἐξ αὐτοῦ, ἀλλὰ ἀναστήσω αὐτὸ τῇ ἐσχάτῃ ἡμέρᾳ . \n",
+    "GLQuote": "will raise them up "
+  },
+  {
+    "bookId": "JHN",
+    "chapter": 9,
+    "verse": 7,
+    "ID": "ri9h",
+    "OrigQuote": "ὃ ἑρμηνεύεται ἀπεσταλμένος",
+    "verseString": " καὶ εἶπεν αὐτῷ, \"ὕπαγε, νίψαι εἰς τὴν κολυμβήθραν τοῦ Σιλωάμ\" (ὃ ἑρμηνεύεται, \"ἀπεσταλμένος\"). ἀπῆλθεν οὖν καὶ ἐνίψατο, καὶ ἦλθεν βλέπων. \n",
+    "GLQuote": "which is translated \"Sent\" "
+  },
+  {
+    "bookId": "JHN",
+    "chapter": 21,
+    "verse": 11,
+    "ID": "m8i7",
+    "OrigQuote": "μεστὸν ἰχθύων ἰχθύων μεγάλων",
+    "verseString": " ἀνέβη οὖν Σίμων Πέτρος, καὶ εἵλκυσεν τὸ δίκτυον εἰς τὴν γῆν μεστὸν ἰχθύων μεγάλων ἑκατὸν πεντήκοντα τριῶν; καὶ τοσούτων ὄντων, οὐκ ἐσχίσθη τὸ δίκτυον. \n",
+    "GLQuote": "full of large fish"
+  },
+  {
+    "bookId": "ACT",
+    "chapter": 3,
+    "verse": 19,
+    "ID": "f2wm",
+    "OrigQuote": "ἀπὸ προσώπου τοῦ Κυρίου",
+    "verseString": " μετανοήσατε οὖν καὶ ἐπιστρέψατε, πρὸς τὸ ἐξαλειφθῆναι ὑμῶν τὰς ἁμαρτίας, \n",
+    "GLQuote": "from the presence of the Lord "
+  },
+  {
+    "bookId": "ACT",
+    "chapter": 7,
+    "verse": 20,
+    "ID": "cd5z",
+    "OrigQuote": "ὃς οὐκ ᾔδει τὸν Ἰωσήφ’",
+    "verseString": " ἐν ᾧ καιρῷ ἐγεννήθη Μωϋσῆς, καὶ ἦν ἀστεῖος τῷ Θεῷ; ὃς ἀνετράφη μῆνας τρεῖς ἐν τῷ οἴκῳ τοῦ πατρός. \n",
+    "GLQuote": "very beautiful before God "
+  },
+  {
+    "bookId": "ACT",
+    "chapter": 10,
+    "verse": 19,
+    "ID": "va39",
+    "OrigQuote": "ἄνδρες ζητοῦσιν σε",
+    "verseString": " τοῦ δὲ Πέτρου διενθυμουμένου περὶ τοῦ ὁράματος, εἶπεν αὐτῷ τὸ Πνεῦμα, \"ἰδοὺ, ἄνδρες τρεῖς ζητοῦσιν σε; \n",
+    "GLQuote": "men are looking for you "
+  },
+  {
+    "bookId": "ACT",
+    "chapter": 18,
+    "verse": 18,
+    "ID": "kq6f",
+    "OrigQuote": "Κειράμενος ... τὴν κεφαλήν, εἶχεν γὰρ εὐχήν",
+    "verseString": " ὁ δὲ Παῦλος ἔτι προσμείνας ἡμέρας ἱκανὰς, τοῖς ἀδελφοῖς ἀποταξάμενος, ἐξέπλει εἰς τὴν Συρίαν, καὶ σὺν αὐτῷ Πρίσκιλλα καὶ Ἀκύλας, κειράμενος ἐν Κενχρεαῖς τὴν κεφαλήν, εἶχεν γὰρ εὐχήν. \n",
+    "GLQuote": "he had his hair cut off because of a vow he had taken "
+  },
+  {
+    "bookId": "ACT",
+    "chapter": 19,
+    "verse": 3,
+    "ID": "jzp7",
+    "OrigQuote": "οὐδ’ εἰ Πνεῦμα Ἅγιον ἔστιν ἠκούσαμεν",
+    "verseString": " εἶπέν τε, \"εἰς τί οὖν ἐβαπτίσθητε?\" οἱ δὲ εἶπαν, \"εἰς τὸ Ἰωάννου βάπτισμα.\" \n",
+    "GLQuote": "Into John's baptism "
+  },
+  {
+    "bookId": "ACT",
+    "chapter": 23,
+    "verse": 29,
+    "ID": "zt4f",
+    "OrigQuote": "ὃν ἐνκαλούμενον περὶ ζητημάτων τοῦ",
+    "verseString": " ὃν εὗρον ἐνκαλούμενον περὶ ζητημάτων τοῦ νόμου αὐτῶν; μηδὲν δὲ ἄξιον θανάτου ἢ δεσμῶν ἔχοντα ἔγκλημα. \n",
+    "GLQuote": "that he was being accused about questions concerning "
+  },
+  {
+    "bookId": "ACT",
+    "chapter": 24,
+    "verse": 27,
+    "ID": "ur2y",
+    "OrigQuote": "ὁ Πόρκιον Φῆστον",
+    "verseString": " διετίας δὲ πληρωθείσης, ἔλαβεν διάδοχον ὁ Φῆλιξ Πόρκιον Φῆστον; θέλων τε χάριτα καταθέσθαι τοῖς Ἰουδαίοις, ὁ Φῆλιξ κατέλιπε τὸν Παῦλον δεδεμένον. \n",
+    "GLQuote": "Porcius Festus "
+  },
+  {
+    "bookId": "ACT",
+    "chapter": 25,
+    "verse": 5,
+    "ID": "a54h",
+    "OrigQuote": "οἱ οὖν ... φησίν, δυνατοὶ συνκαταβάντες",
+    "verseString": " \"οἱ οὖν ἐν ὑμῖν\", φησίν, \"δυνατοὶ συνκαταβάντες, εἴ τί ἐστιν ἐν τῷ ἀνδρὶ ἄτοπον, κατηγορείτωσαν αὐτοῦ.\" \n",
+    "GLQuote": "\"Therefore, those who can,\" he said, \"should go there with us "
+  },
+  {
+    "bookId": "ACT",
+    "chapter": 26,
+    "verse": 10,
+    "ID": "nys7",
+    "OrigQuote": "ἀναιρουμένων ... αὐτῶν κατήνεγκα ψῆφον",
+    "verseString": " ὃ καὶ ἐποίησα ἐν Ἱεροσολύμοις; καὶ πολλούς τε τῶν ἁγίων ἐγὼ ἐν φυλακαῖς κατέκλεισα, τὴν παρὰ τῶν ἀρχιερέων ἐξουσίαν λαβών, ἀναιρουμένων τε αὐτῶν, κατήνεγκα ψῆφον. \n",
+    "GLQuote": "when they were killed, I cast my vote against them "
+  },
+  {
+    "bookId": "ACT",
+    "chapter": 27,
+    "verse": 1,
+    "ID": "b2yz",
+    "OrigQuote": "ὡς .. ἐκρίθη",
+    "verseString": " ὡς δὲ ἐκρίθη τοῦ ἀποπλεῖν ἡμᾶς εἰς τὴν Ἰταλίαν, παρεδίδουν τόν τε Παῦλον καί τινας ἑτέρους δεσμώτας, ἑκατοντάρχῃ ὀνόματι Ἰουλίῳ, σπείρης Σεβαστῆς. \n",
+    "GLQuote": "When it was decided "
+  },
+  {
+    "bookId": "ROM",
+    "chapter": 2,
+    "verse": 1,
+    "ID": "jt4b",
+    "OrigQuote": "ὦ ἄνθρωπε πᾶς ὁ κρίνων",
+    "verseString": " διὸ ἀναπολόγητος εἶ, ὦ ἄνθρωπε, πᾶς ὁ κρίνων, ἐν ᾧ γὰρ κρίνεις τὸν ἕτερον, σεαυτὸν κατακρίνεις; τὰ γὰρ αὐτὰ πράσσεις, ὁ κρίνων. \n",
+    "GLQuote": "you person, you who judge "
+  },
+  {
+    "bookId": "ROM",
+    "chapter": 4,
+    "verse": 22,
+    "ID": "i56a",
+    "OrigQuote": "διὸ καὶ\" ἐλογίσθη αὐτῷ εἰς δικαιοσύνην",
+    "verseString": " διὸ καὶ \"ἐλογίσθη αὐτῷ εἰς δικαιοσύνην\". \n",
+    "GLQuote": "Therefore this was also counted to him as righteousness "
+  },
+  {
+    "bookId": "ROM",
+    "chapter": 7,
+    "verse": 1,
+    "ID": "mk7w",
+    "OrigQuote": "ἢ ἀγνοεῖτε, ἀδελφοί γινώσκουσιν( γὰρ νόμον λαλῶ), ὅτι ὁ νόμος κυριεύει τοῦ ἀνθρώπου ἐφ’ ὅσον χρόνον ζῇ",
+    "verseString": " ἢ ἀγνοεῖτε, ἀδελφοί (γινώσκουσιν γὰρ νόμον λαλῶ), ὅτι ὁ νόμος κυριεύει τοῦ ἀνθρώπου ἐφ’ ὅσον χρόνον ζῇ? \n",
+    "GLQuote": "do you not know, brothers ... that the law controls a person for as long as he lives? "
+  },
+  {
+    "bookId": "ROM",
+    "chapter": 7,
+    "verse": 25,
+    "ID": "adx1",
+    "OrigQuote": "ἄρα οὖν αὐτὸς ἐγὼ, τῷ μὲν νοῒ δουλεύω νόμῳ Θεοῦ; τῇ δὲ σαρκὶ, νόμῳ ἁμαρτίας",
+    "verseString": " χάρις τῷ Θεῷ διὰ Ἰησοῦ Χριστοῦ τοῦ Κυρίου ἡμῶν! ἄρα οὖν αὐτὸς ἐγὼ, τῷ μὲν νοῒ δουλεύω νόμῳ Θεοῦ ; τῇ δὲ σαρκὶ, νόμῳ ἁμαρτίας. \n",
+    "GLQuote": "So then, I myself serve the law of God with my mind. However, with the flesh I serve the principle of sin "
+  },
+  {
+    "bookId": "ROM",
+    "chapter": 8,
+    "verse": 18,
+    "ID": "b3b1",
+    "OrigQuote": "Λογίζομαι ... ὅτι οὐκ ἄξια τὰ παθήματα τοῦ νῦν καιροῦ, πρὸς",
+    "verseString": " λογίζομαι γὰρ ὅτι οὐκ ἄξια τὰ παθήματα τοῦ νῦν καιροῦ, πρὸς τὴν μέλλουσαν δόξαν ἀποκαλυφθῆναι εἰς ἡμᾶς. \n",
+    "GLQuote": "I consider that ... are not worthy to be compared with "
+  },
+  {
+    "bookId": "ROM",
+    "chapter": 8,
+    "verse": 36,
+    "ID": "t67y",
+    "OrigQuote": "ὅτι\" ἕνεκεν σοῦ",
+    "verseString": " καθὼς γέγραπται, ὅτι \"ἕνεκεν σοῦ, θανατούμεθα ὅλην τὴν ἡμέραν; ἐλογίσθημεν ὡς πρόβατα σφαγῆς.\" \n",
+    "GLQuote": "For your benefit "
+  },
+  {
+    "bookId": "ROM",
+    "chapter": 10,
+    "verse": 5,
+    "ID": "wjn6",
+    "OrigQuote": "ὅτι\" ὁ ποιήσας αὐτὰ ἄνθρωπος, ζήσεται ἐν αὐτῇ",
+    "verseString": " Μωϋσῆς γὰρ γράφει τὴν δικαιοσύνην τὴν ἐκ νόμου, ὅτι \"ὁ ποιήσας αὐτὰ ἄνθρωπος, ζήσεται ἐν αὐτῇ.\" \n",
+    "GLQuote": "The man who does the righteousness of the law will live by this righteousness "
+  },
+  {
+    "bookId": "ROM",
+    "chapter": 10,
+    "verse": 13,
+    "ID": "pe96",
+    "OrigQuote": "πᾶς” γὰρ\" ὃς ἂν ἐπικαλέσηται τὸ ὄνομα Κυρίου, σωθήσεται",
+    "verseString": " \"πᾶς\" γὰρ \"ὃς ἂν ἐπικαλέσηται τὸ ὄνομα Κυρίου, σωθήσεται.\" \n",
+    "GLQuote": "For everyone who calls on the name of the Lord will be saved "
+  },
+  {
+    "bookId": "ROM",
+    "chapter": 11,
+    "verse": 16,
+    "ID": "d1zi",
+    "OrigQuote": "ἁγίαν",
+    "verseString": " εἰ δὲ ἡ ἀπαρχὴ ἁγία, καὶ τὸ φύραμα; καὶ εἰ ἡ ῥίζα ἁγία, καὶ οἱ κλάδοι. \n",
+    "GLQuote": "reserved"
+  },
+  {
+    "bookId": "ROM",
+    "chapter": 11,
+    "verse": 34,
+    "ID": "r2wj",
+    "OrigQuote": "τίς” γὰρ\" ἔγνω νοῦν Κυρίου, ἢ τίς σύμβουλος αὐτοῦ ἐγένετο",
+    "verseString": " \"τίς\" γὰρ \"ἔγνω νοῦν Κυρίου, ἢ τίς σύμβουλος αὐτοῦ ἐγένετο?\" \n",
+    "GLQuote": "For who has known the mind of the Lord or who has become his advisor? "
+  },
+  {
+    "bookId": "1CO",
+    "chapter": 3,
+    "verse": 9,
+    "ID": "lqg1",
+    "OrigQuote": "Θεοῦ γεώργιον ἐστε",
+    "verseString": " Θεοῦ γάρ ἐσμεν συνεργοί; Θεοῦ γεώργιον, Θεοῦ οἰκοδομή ἐστε. \n",
+    "GLQuote": "You are God's garden"
+  },
+  {
+    "bookId": "1CO",
+    "chapter": 6,
+    "verse": 9,
+    "ID": "h17l",
+    "OrigQuote": "ἢ οὐκ οἴδατε ὅτι οἱ ἅγιοι τὸν κόσμον κρινοῦσιν?",
+    "verseString": " ἢ οὐκ οἴδατε ὅτι ἄδικοι Θεοῦ Βασιλείαν οὐ κληρονομήσουσιν? μὴ πλανᾶσθε; οὔτε πόρνοι, οὔτε εἰδωλολάτραι, οὔτε μοιχοὶ, οὔτε μαλακοὶ, οὔτε ἀρσενοκοῖται, \n",
+    "GLQuote": "Or do you not know that"
+  },
+  {
+    "bookId": "1CO",
+    "chapter": 7,
+    "verse": 16,
+    "ID": "dbz6",
+    "OrigQuote": "τί οἶδας ἄνερ, εἰ τὴν γυναῖκα σώσεις",
+    "verseString": " τί γὰρ οἶδας, γύναι, εἰ τὸν ἄνδρα σώσεις? ἢ τί οἶδας, ἄνερ, εἰ τὴν γυναῖκα σώσεις? \n",
+    "GLQuote": "how do you know, man, whether you will save your wife?"
+  },
+  {
+    "bookId": "1CO",
+    "chapter": 12,
+    "verse": 9,
+    "ID": "pe8s",
+    "OrigQuote": "δίδοται",
+    "verseString": " ἑτέρῳ πίστις ἐν τῷ αὐτῷ Πνεύματι, ἄλλῳ δὲ χαρίσματα ἰαμάτων ἐν τῷ ἑνὶ Πνεύματι, \n",
+    "GLQuote": "is given"
+  },
+  {
+    "bookId": "2CO",
+    "chapter": 1,
+    "verse": 19,
+    "ID": "z4he",
+    "OrigQuote": "ὁ τοῦ Θεοῦ γὰρ Υἱὸς Ἰησοῦς Χριστός ... οὐκ ἐγένετο “ναὶ” καὶ “οὒ”, ἀλλὰ “ναὶ” ἐν αὐτῷ γέγονεν.",
+    "verseString": " ὁ τοῦ Θεοῦ γὰρ Υἱὸς, Ἰησοῦς Χριστός, ὁ ἐν ὑμῖν δι’ ἡμῶν κηρυχθείς, δι’ ἐμοῦ, καὶ Σιλουανοῦ, καὶ Τιμοθέου, οὐκ ἐγένετο \"ναὶ\" καὶ \"οὒ\", ἀλλὰ \"ναὶ\" ἐν αὐτῷ γέγονεν. \n",
+    "GLQuote": "For the Son of God ... is not \"Yes\" and \"No.\" Instead, he is always \"Yes.\""
+  },
+  {
+    "bookId": "2CO",
+    "chapter": 1,
+    "verse": 19,
+    "ID": "hd2t",
+    "OrigQuote": "τοῦ Θεοῦ Υἱὸς",
+    "verseString": " ὁ τοῦ Θεοῦ γὰρ Υἱὸς, Ἰησοῦς Χριστός, ὁ ἐν ὑμῖν δι’ ἡμῶν κηρυχθείς, δι’ ἐμοῦ, καὶ Σιλουανοῦ, καὶ Τιμοθέου, οὐκ ἐγένετο \"ναὶ\" καὶ \"οὒ\", ἀλλὰ \"ναὶ\" ἐν αὐτῷ γέγονεν. \n",
+    "GLQuote": "the Son of God"
+  },
+  {
+    "bookId": "2CO",
+    "chapter": 2,
+    "verse": 3,
+    "ID": "v87i",
+    "OrigQuote": "μὴ ...,λύπην σχῶ ἀφ’ ὧν ἔδει με χαίρειν",
+    "verseString": " καὶ ἔγραψα τοῦτο αὐτὸ, ἵνα μὴ ἐλθὼν, λύπην σχῶ ἀφ’ ὧν ἔδει με χαίρειν; πεποιθὼς ἐπὶ πάντας ὑμᾶς, ὅτι ἡ ἐμὴ χαρὰ πάντων ὑμῶν ἐστιν. \n",
+    "GLQuote": "I might not be hurt by those who should have made me rejoice"
+  },
+  {
+    "bookId": "2CO",
+    "chapter": 2,
+    "verse": 7,
+    "ID": "vpx1",
+    "OrigQuote": "μή ... τῇ περισσοτέρᾳ λύπῃ καταποθῇ",
+    "verseString": " ὥστε τοὐναντίον μᾶλλον ὑμᾶς χαρίσασθαι καὶ παρακαλέσαι, μή πως τῇ περισσοτέρᾳ λύπῃ, καταποθῇ ὁ τοιοῦτος. \n",
+    "GLQuote": "he is not overwhelmed by too much sorrow"
+  },
+  {
+    "bookId": "2CO",
+    "chapter": 3,
+    "verse": 9,
+    "ID": "if33",
+    "OrigQuote": "πολλῷ μᾶλλον περισσεύει ἡ διακονία τῆς δικαιοσύνης δόξῃ!",
+    "verseString": " εἰ γὰρ τῇ διακονίᾳ τῆς κατακρίσεως, δόξα πολλῷ μᾶλλον περισσεύει ἡ διακονία τῆς δικαιοσύνης δόξῃ. \n",
+    "GLQuote": "how much more does the ministry of righteousness abound in glory!"
+  },
+  {
+    "bookId": "2CO",
+    "chapter": 4,
+    "verse": 3,
+    "ID": "hz2f",
+    "OrigQuote": "εἰ ἔστιν κεκαλυμμένον τὸ εὐαγγέλιον ἡμῶν ... ἐστὶν κεκαλυμμένον",
+    "verseString": " εἰ δὲ καὶ ἔστιν κεκαλυμμένον τὸ εὐαγγέλιον ἡμῶν, ἐν τοῖς ἀπολλυμένοις ἐστὶν κεκαλυμμένον; \n",
+    "GLQuote": "if our gospel is veiled, it is veiled"
+  },
+  {
+    "bookId": "2CO",
+    "chapter": 4,
+    "verse": 7,
+    "ID": "xx2c",
+    "OrigQuote": "ἔχομεν τὸν θησαυρὸν τοῦτον ἐν ὀστρακίνοις σκεύεσιν",
+    "verseString": " ἔχομεν δὲ τὸν θησαυρὸν τοῦτον ἐν ὀστρακίνοις σκεύεσιν, ἵνα ἡ ὑπερβολὴ τῆς δυνάμεως ᾖ τοῦ Θεοῦ, καὶ μὴ ἐξ ἡμῶν; \n",
+    "GLQuote": "we have this treasure in jars of clay"
+  },
+  {
+    "bookId": "2CO",
+    "chapter": 4,
+    "verse": 11,
+    "ID": "ww5r",
+    "OrigQuote": "ἵνα ἡ ζωὴ τοῦ Ἰησοῦ φανερωθῇ ἐν σαρκὶ ἡμῶν",
+    "verseString": " ἀεὶ γὰρ ἡμεῖς, οἱ ζῶντες, εἰς θάνατον παραδιδόμεθα διὰ Ἰησοῦν, ἵνα καὶ ἡ ζωὴ τοῦ Ἰησοῦ φανερωθῇ ἐν τῇ θνητῇ σαρκὶ ἡμῶν. \n",
+    "GLQuote": "so that the life of Jesus may be shown in our mortal flesh"
+  },
+  {
+    "bookId": "2CO",
+    "chapter": 6,
+    "verse": 1,
+    "ID": "s8db",
+    "OrigQuote": "καὶ παρακαλοῦμεν μὴ εἰς κενὸν τὴν χάριν τοῦ Θεοῦ δέξασθαι ὑμᾶς",
+    "verseString": " συνεργοῦντες δὲ καὶ, παρακαλοῦμεν μὴ εἰς κενὸν τὴν χάριν τοῦ Θεοῦ δέξασθαι ὑμᾶς. \n",
+    "GLQuote": "we also urge you not to receive the grace of God in vain"
+  },
+  {
+    "bookId": "2CO",
+    "chapter": 7,
+    "verse": 3,
+    "ID": "fay3",
+    "OrigQuote": "ἐν καρδίαις ἡμῶν ἐστε",
+    "verseString": " πρὸς κατάκρισιν οὐ λέγω; προείρηκα γὰρ, ὅτι ἐν ταῖς καρδίαις ἡμῶν ἐστε, εἰς τὸ συναποθανεῖν καὶ συνζῆν. \n",
+    "GLQuote": "you are in our hearts"
+  },
+  {
+    "bookId": "2CO",
+    "chapter": 8,
+    "verse": 1,
+    "ID": "d1mj",
+    "OrigQuote": "τὴν χάριν τοῦ Θεοῦ τὴν δεδομένην ταῖς ἐκκλησίαις τῆς Μακεδονίας",
+    "verseString": " γνωρίζομεν δὲ ὑμῖν, ἀδελφοί, τὴν χάριν τοῦ Θεοῦ τὴν δεδομένην ἐν ταῖς ἐκκλησίαις τῆς Μακεδονίας, \n",
+    "GLQuote": "the grace of God that has been given to the churches of Macedonia"
+  },
+  {
+    "bookId": "2CO",
+    "chapter": 9,
+    "verse": 1,
+    "ID": "fxs3",
+    "OrigQuote": "τῆς διακονίας εἰς τοὺς ἁγίους",
+    "verseString": " περὶ μὲν γὰρ τῆς διακονίας τῆς εἰς τοὺς ἁγίους, περισσόν μοί ἐστιν τὸ γράφειν ὑμῖν. \n",
+    "GLQuote": "the ministry that is for the saints"
+  },
+  {
+    "bookId": "2CO",
+    "chapter": 10,
+    "verse": 3,
+    "ID": "cvd6",
+    "OrigQuote": "ὡς κατὰ σάρκα περιπατοῦντας",
+    "verseString": " ἐν σαρκὶ γὰρ περιπατοῦντες, οὐ κατὰ σάρκα στρατευόμεθα. \n",
+    "GLQuote": "as walking according to the flesh"
+  },
+  {
+    "bookId": "2CO",
+    "chapter": 11,
+    "verse": 18,
+    "ID": "t4ic",
+    "OrigQuote": "κατὰ σάρκα στρατευόμεθα",
+    "verseString": " ἐπεὶ πολλοὶ καυχῶνται κατὰ σάρκα, κἀγὼ καυχήσομαι. \n",
+    "GLQuote": "according to the flesh"
+  },
+  {
+    "bookId": "2CO",
+    "chapter": 11,
+    "verse": 33,
+    "ID": "i8xa",
+    "OrigQuote": "ἐν σαργάνῃ ἐχαλάσθην",
+    "verseString": " καὶ διὰ θυρίδος ἐν σαργάνῃ, ἐχαλάσθην διὰ τοῦ τείχους καὶ ἐξέφυγον τὰς χεῖρας αὐτοῦ. \n",
+    "GLQuote": "I was lowered in a basket"
+  },
+  {
+    "bookId": "2CO",
+    "chapter": 12,
+    "verse": 19,
+    "ID": "vg3u",
+    "OrigQuote": "ὑπὲρ ὑμῶν οἰκοδομῆς",
+    "verseString": " πάλαι δοκεῖτε ὅτι ὑμῖν ἀπολογούμεθα? κατέναντι Θεοῦ ἐν Χριστῷ λαλοῦμεν. τὰ δὲ πάντα, ἀγαπητοί, ὑπὲρ τῆς ὑμῶν οἰκοδομῆς. \n",
+    "GLQuote": "for your strengthening"
+  },
+  {
+    "bookId": "2CO",
+    "chapter": 12,
+    "verse": 21,
+    "ID": "hq1e",
+    "OrigQuote": "μὴ μετανοησάντων ἐπὶ τῇ ἀκαθαρσίᾳ, καὶ πορνείᾳ, καὶ ἀσελγείᾳ\\",
+    "verseString": " μὴ πάλιν ἐλθόντος μου, ταπεινώσῃ με ὁ Θεός μου πρὸς ὑμᾶς, καὶ πενθήσω πολλοὺς τῶν προημαρτηκότων, καὶ μὴ μετανοησάντων ἐπὶ τῇ ἀκαθαρσίᾳ, καὶ πορνείᾳ, καὶ ἀσελγείᾳ, ᾗ ἔπραξαν. \n",
+    "GLQuote": "did not repent of the impurity and sexual immorality and lustful indulgence"
+  },
+  {
+    "bookId": "GAL",
+    "chapter": 3,
+    "verse": 10,
+    "ID": "jhr2",
+    "OrigQuote": "ὅσοι γὰρ ἐξ ἔργων νόμουεἰσὶν ὑπὸ κατάραν εἰσίν",
+    "verseString": " ὅσοι γὰρ ἐξ ἔργων νόμου εἰσὶν ὑπὸ κατάραν εἰσίν; γέγραπται γὰρ, ὅτι \"ἐπικατάρατος πᾶς ὃς οὐκ ἐμμένει πᾶσιν τοῖς γεγραμμένοις ἐν τῷ βιβλίῳ τοῦ νόμου, τοῦ ποιῆσαι αὐτά.\" \n",
+    "GLQuote": "All who rely on ... the law are under a curse"
+  },
+  {
+    "bookId": "EPH",
+    "chapter": 1,
+    "verse": 1,
+    "ID": "u73p",
+    "OrigQuote": "τοῖς οὖσιν καὶ πιστοῖς ἐν Χριστῷ Ἰησοῦ",
+    "verseString": " Παῦλος, ἀπόστολος Χριστοῦ Ἰησοῦ διὰ θελήματος Θεοῦ ; τοῖς ἁγίοις τοῖς οὖσιν ἐν Ἐφέσῳ καὶ πιστοῖς ἐν Χριστῷ Ἰησοῦ : \n",
+    "GLQuote": "who are faithful in Christ Jesus"
+  },
+  {
+    "bookId": "EPH",
+    "chapter": 1,
+    "verse": 11,
+    "ID": "ww9s",
+    "OrigQuote": "ἐκληρώθημεν προορισθέντες",
+    "verseString": " ἐν ᾧ καὶ ἐκληρώθημεν, προορισθέντες κατὰ πρόθεσιν τοῦ τὰ πάντα ἐνεργοῦντος, κατὰ τὴν βουλὴν τοῦ θελήματος αὐτοῦ ; \n",
+    "GLQuote": "we were appointed as heirs ... We were decided on beforehand"
+  },
+  {
+    "bookId": "EPH",
+    "chapter": 4,
+    "verse": 14,
+    "ID": "ndj2",
+    "OrigQuote": "περιφερόμενοι καὶ περιφερόμενοι παντὶ ἀνέμῳ τῆς διδασκαλίας",
+    "verseString": " ἵνα μηκέτι ὦμεν νήπιοι, κλυδωνιζόμενοι καὶ περιφερόμενοι παντὶ ἀνέμῳ τῆς διδασκαλίας ἐν τῇ κυβίᾳ τῶν ἀνθρώπων, ἐν πανουργίᾳ πρὸς τὴν μεθοδίαν τῆς πλάνης; \n",
+    "GLQuote": "tossed back and forth ... carried away by every wind of teaching"
+  },
+  {
+    "bookId": "EPH",
+    "chapter": 5,
+    "verse": 14,
+    "ID": "vqi7",
+    "OrigQuote": "πᾶν ... τὸ φανερούμενον φῶς ἐστιν",
+    "verseString": " διὸ λέγει, \"ἔγειρε, ὁ καθεύδων, καὶ ἀνάστα ἐκ τῶν νεκρῶν, καὶ ἐπιφαύσει σοι ὁ Χριστός.\" \n",
+    "GLQuote": "anything that becomes visible is light"
+  },
+  {
+    "bookId": "EPH",
+    "chapter": 6,
+    "verse": 15,
+    "ID": "f6w1",
+    "OrigQuote": "καὶ ὑποδησάμενοι τοὺς πόδας ἐν ἑτοιμασίᾳ τοῦ εὐαγγελίου τῆς εἰρήνης",
+    "verseString": " καὶ ὑποδησάμενοι τοὺς \"πόδας ἐν ἑτοιμασίᾳ τοῦ εὐαγγελίου τῆς εἰρήνης\". \n",
+    "GLQuote": "Then as shoes for your feet, put on the readiness to proclaim the gospel of peace"
+  },
+  {
+    "bookId": "EPH",
+    "chapter": 6,
+    "verse": 17,
+    "ID": "g2kw",
+    "OrigQuote": "τὴν περικεφαλαίαν τοῦ σωτηρίου δέξασθε",
+    "verseString": " καὶ \"τὴν περικεφαλαίαν τοῦ σωτηρίου\" δέξασθε, καὶ τὴν μάχαιραν τοῦ Πνεύματος, ὅ ἐστιν ῥῆμα Θεοῦ ; \n",
+    "GLQuote": "take the helmet of salvation"
+  },
+  {
+    "bookId": "COL",
+    "chapter": 1,
+    "verse": 13,
+    "ID": "zav6",
+    "OrigQuote": "τοῦ υἱοῦ τῆς ἀγάπης αὐτοῦ",
+    "verseString": " ὃς ἐρρύσατο ἡμᾶς ἐκ τῆς ἐξουσίας τοῦ σκότους, καὶ μετέστησεν εἰς τὴν βασιλείαν τοῦ Υἱοῦ τῆς ἀγάπης αὐτοῦ, \n",
+    "GLQuote": "his beloved Son"
+  },
+  {
+    "bookId": "COL",
+    "chapter": 2,
+    "verse": 2,
+    "ID": "ge1w",
+    "OrigQuote": "Ἵνα ... αἱ καρδίαι αὐτῶν",
+    "verseString": " ἵνα παρακληθῶσιν αἱ καρδίαι αὐτῶν, συμβιβασθέντες ἐν ἀγάπῃ, καὶ εἰς πᾶν πλοῦτος τῆς πληροφορίας τῆς συνέσεως; εἰς ἐπίγνωσιν τοῦ μυστηρίου τοῦ Θεοῦ, Χριστοῦ, \n",
+    "GLQuote": "so that their hearts"
+  },
+  {
+    "bookId": "COL",
+    "chapter": 2,
+    "verse": 19,
+    "ID": "r4ca",
+    "OrigQuote": "ἐξ οὗ πᾶν τὸ σῶμα διὰ τῶν ἁφῶν καὶ συνδέσμων ἐπιχορηγούμενον καὶ συνβιβαζόμενον",
+    "verseString": " καὶ οὐ κρατῶν τὴν κεφαλήν, ἐξ οὗ πᾶν τὸ σῶμα διὰ τῶν ἁφῶν καὶ συνδέσμων ἐπιχορηγούμενον καὶ συμβιβαζόμενον, αὔξει τὴν αὔξησιν τοῦ Θεοῦ. \n",
+    "GLQuote": "It is from the head that the whole body throughout its joints and ligaments is supplied and held together"
+  },
+  {
+    "bookId": "COL",
+    "chapter": 4,
+    "verse": 17,
+    "ID": "d39x",
+    "OrigQuote": "\" βλέπε τὴν διακονίαν ἣν παρέλαβες ἐν Κυρίῳ, ἵνα αὐτὴν πληροῖς",
+    "verseString": " καὶ εἴπατε Ἀρχίππῳ, \"βλέπε τὴν διακονίαν ἣν παρέλαβες ἐν Κυρίῳ, ἵνα αὐτὴν πληροῖς.\" \n",
+    "GLQuote": "Say to Archippus, \"Look to the ministry that you have received in the Lord, that you should fulfill it"
+  },
+  {
+    "bookId": "1TH",
+    "chapter": 5,
+    "verse": 3,
+    "ID": "f1xr",
+    "OrigQuote": "ὥσπερ ἡ ὠδὶν ἐν γαστρὶ ἐχούσῃ",
+    "verseString": " ὅταν λέγωσιν, \"εἰρήνη καὶ ἀσφάλεια\", τότε αἰφνίδιος αὐτοῖς ἐφίσταται ὄλεθρος, ὥσπερ ἡ ὠδὶν τῇ ἐν γαστρὶ ἐχούσῃ; καὶ οὐ μὴ ἐκφύγωσιν. \n",
+    "GLQuote": "like birth pains in a pregnant woman"
+  },
+  {
+    "bookId": "1TI",
+    "chapter": 2,
+    "verse": 7,
+    "ID": "iz4y",
+    "OrigQuote": "ἐτέθην ἐγὼ κῆρυξ καὶ ἀπόστολος.",
+    "verseString": " εἰς ὃ ἐτέθην ἐγὼ κῆρυξ καὶ ἀπόστολος (ἀλήθειαν λέγω ἐν Χριστῷ, οὐ ψεύδομαι), διδάσκαλος ἐθνῶν ἐν πίστει καὶ ἀληθείᾳ. \n",
+    "GLQuote": "I myself, was made a herald and an apostle"
+  },
+  {
+    "bookId": "1TI",
+    "chapter": 2,
+    "verse": 9,
+    "ID": "au5c",
+    "OrigQuote": "μετὰ αἰδοῦς καὶ σωφροσύνης-",
+    "verseString": " ὡσαύτως γυναῖκας ἐν καταστολῇ κοσμίῳ μετὰ αἰδοῦς καὶ σωφροσύνης κοσμεῖν ἑαυτάς, μὴ ἐν πλέγμασιν, καὶ χρυσῷ, ἢ μαργαρίταις, ἢ ἱματισμῷ πολυτελεῖ, \n",
+    "GLQuote": "with modesty and self-control"
+  },
+  {
+    "bookId": "1TI",
+    "chapter": 3,
+    "verse": 7,
+    "ID": "qsa6",
+    "OrigQuote": "μὴ εἰς ὀνειδισμὸν ἐμπέσῃ καὶ παγίδα τοῦ διαβόλου",
+    "verseString": " δεῖ δὲ καὶ, μαρτυρίαν καλὴν ἔχειν ἀπὸ τῶν ἔξωθεν, ἵνα μὴ εἰς ὀνειδισμὸν ἐμπέσῃ, καὶ παγίδα τοῦ διαβόλου. \n",
+    "GLQuote": "he does not fall into disgrace and the trap of the devil"
+  },
+  {
+    "bookId": "1TI",
+    "chapter": 3,
+    "verse": 15,
+    "ID": "cd5r",
+    "OrigQuote": "ἥτις ἐστὶν ἐκκλησία Θεοῦ ζῶντος στῦλος καὶ ἑδραίωμα τῆς ἀληθείας",
+    "verseString": " ἐὰν δὲ βραδύνω, ἵνα εἰδῇς πῶς δεῖ ἐν οἴκῳ Θεοῦ ἀναστρέφεσθαι, ἥτις ἐστὶν ἐκκλησία Θεοῦ ζῶντος, στῦλος καὶ ἑδραίωμα τῆς ἀληθείας. \n",
+    "GLQuote": "which is the church of the living God, the pillar and support of the truth"
+  },
+  {
+    "bookId": "TIT",
+    "chapter": 2,
+    "verse": 15,
+    "ID": "b94z",
+    "OrigQuote": "ἔλεγχε μετὰ πάσης ἐπιταγῆς",
+    "verseString": " ταῦτα λάλει, καὶ παρακάλει, καὶ ἔλεγχε, μετὰ πάσης ἐπιταγῆς. μηδείς σου περιφρονείτω. \n",
+    "GLQuote": "give correction with all authority"
+  },
+  {
+    "bookId": "TIT",
+    "chapter": 3,
+    "verse": 7,
+    "ID": "q1cm",
+    "OrigQuote": "κληρονόμοι γενηθῶμεν κατ’ ἐλπίδα ζωῆς αἰωνίου",
+    "verseString": " ἵνα δικαιωθέντες τῇ ἐκείνου χάριτι, κληρονόμοι γενηθῶμεν, κατ’ ἐλπίδα ζωῆς αἰωνίου. \n",
+    "GLQuote": "we might become heirs with the certain hope of eternal life"
+  },
+  {
+    "bookId": "HEB",
+    "chapter": 1,
+    "verse": 3,
+    "ID": "l1pg",
+    "OrigQuote": "καθαρισμὸν τῶν ἁμαρτιῶν ποιησάμενος",
+    "verseString": " ὃς ὢν ἀπαύγασμα τῆς δόξης καὶ χαρακτὴρ τῆς ὑποστάσεως αὐτοῦ, φέρων τε τὰ πάντα τῷ ῥήματι τῆς δυνάμεως αὐτοῦ, καθαρισμὸν τῶν ἁμαρτιῶν \"ποιησάμενος, ἐκάθισεν ἐν δεξιᾷ\" τῆς Μεγαλωσύνης ἐν ὑψηλοῖς . \n",
+    "GLQuote": "After he had made cleansing for sins"
+  },
+  {
+    "bookId": "HEB",
+    "chapter": 1,
+    "verse": 3,
+    "ID": "f729",
+    "OrigQuote": "καθαρισμὸν τῶν ἁμαρτιῶν ποιησάμενος",
+    "verseString": " ὃς ὢν ἀπαύγασμα τῆς δόξης καὶ χαρακτὴρ τῆς ὑποστάσεως αὐτοῦ, φέρων τε τὰ πάντα τῷ ῥήματι τῆς δυνάμεως αὐτοῦ, καθαρισμὸν τῶν ἁμαρτιῶν \"ποιησάμενος, ἐκάθισεν ἐν δεξιᾷ\" τῆς Μεγαλωσύνης ἐν ὑψηλοῖς . \n",
+    "GLQuote": "he had made cleansing for sins"
+  },
+  {
+    "bookId": "HEB",
+    "chapter": 1,
+    "verse": 3,
+    "ID": "xij7",
+    "OrigQuote": "ἐκάθισεν ἐν δεξιᾷ τῆς Μεγαλωσύνης ἐν ὑψηλοῖς",
+    "verseString": " ὃς ὢν ἀπαύγασμα τῆς δόξης καὶ χαρακτὴρ τῆς ὑποστάσεως αὐτοῦ, φέρων τε τὰ πάντα τῷ ῥήματι τῆς δυνάμεως αὐτοῦ, καθαρισμὸν τῶν ἁμαρτιῶν \"ποιησάμενος, ἐκάθισεν ἐν δεξιᾷ\" τῆς Μεγαλωσύνης ἐν ὑψηλοῖς . \n",
+    "GLQuote": "he sat down at the right hand of the Majesty on high"
+  },
+  {
+    "bookId": "HEB",
+    "chapter": 1,
+    "verse": 3,
+    "ID": "ir7x",
+    "OrigQuote": "δεξιᾷ τῆς Μεγαλωσύνης ἐν ὑψηλοῖς",
+    "verseString": " ὃς ὢν ἀπαύγασμα τῆς δόξης καὶ χαρακτὴρ τῆς ὑποστάσεως αὐτοῦ, φέρων τε τὰ πάντα τῷ ῥήματι τῆς δυνάμεως αὐτοῦ, καθαρισμὸν τῶν ἁμαρτιῶν \"ποιησάμενος, ἐκάθισεν ἐν δεξιᾷ\" τῆς Μεγαλωσύνης ἐν ὑψηλοῖς . \n",
+    "GLQuote": "the Majesty on high"
+  },
+  {
+    "bookId": "HEB",
+    "chapter": 1,
+    "verse": 7,
+    "ID": "isd8",
+    "OrigQuote": "ὁ ποιῶν τοὺς ἀγγέλους αὐτοῦ πνεύματα καὶ τοὺς λειτουργοὺς αὐτοῦ πυρὸς φλόγα",
+    "verseString": " καὶ πρὸς μὲν τοὺς ἀγγέλους λέγει, \"ὁ ποιῶν τοὺς ἀγγέλους αὐτοῦ πνεύματα, καὶ τοὺς λειτουργοὺς αὐτοῦ πυρὸς φλόγα\"; \n",
+    "GLQuote": "He is the one who makes his angels spirits, and his servants flames of fire"
+  },
+  {
+    "bookId": "HEB",
+    "chapter": 1,
+    "verse": 10,
+    "ID": "j64k",
+    "OrigQuote": "σὺ τὴν γῆν ἐθεμελίωσας' γῆν ἐθεμελίωσας",
+    "verseString": " καί, \"σὺ κατ’ ἀρχάς, Κύριε, τὴν γῆν ἐθεμελίωσας, καὶ ἔργα τῶν χειρῶν σού εἰσιν οἱ οὐρανοί. \n",
+    "GLQuote": "you laid the earth's foundation"
+  },
+  {
+    "bookId": "HEB",
+    "chapter": 1,
+    "verse": 12,
+    "ID": "iv4r",
+    "OrigQuote": "ὡς ἱμάτιον ἀλλαγήσονται",
+    "verseString": " καὶ ὡσεὶ περιβόλαιον ἑλίξεις αὐτούς, ὡς ἱμάτιον καὶ ἀλλαγήσονται; σὺ δὲ ὁ αὐτὸς εἶ, καὶ τὰ ἔτη σου οὐκ ἐκλείψουσιν.\" \n",
+    "GLQuote": "they will be changed like a piece of clothing"
+  },
+  {
+    "bookId": "HEB",
+    "chapter": 1,
+    "verse": 13,
+    "ID": "ulp5",
+    "OrigQuote": "ἕως θῶ τοὺς ἐχθρούς σου ὑποπόδιον τῶν ποδῶν σου",
+    "verseString": " πρὸς τίνα δὲ τῶν ἀγγέλων εἴρηκέν ποτε, \"κάθου ἐκ δεξιῶν μου, ἕως ἂν θῶ τοὺς ἐχθρούς σου, ὑποπόδιον τῶν ποδῶν σου?\" \n",
+    "GLQuote": "until I make your enemies a stool for your feet"
+  },
+  {
+    "bookId": "HEB",
+    "chapter": 2,
+    "verse": 7,
+    "ID": "ka5a",
+    "OrigQuote": "ἠλάττωσας βραχύ παρ’ ἀγγέλους",
+    "verseString": " ἠλάττωσας αὐτὸν, βραχύ τι παρ’ ἀγγέλους; δόξῃ καὶ τιμῇ ἐστεφάνωσας αὐτόν, \n",
+    "GLQuote": "a little lower than the angels"
+  },
+  {
+    "bookId": "HEB",
+    "chapter": 3,
+    "verse": 1,
+    "ID": "af15",
+    "OrigQuote": "κλήσεως ἐπουρανίου μέτοχοι",
+    "verseString": " ὅθεν, ἀδελφοὶ ἅγιοι κλήσεως ἐπουρανίου, μέτοχοι, κατανοήσατε τὸν ἀπόστολον καὶ ἀρχιερέα τῆς ὁμολογίας ἡμῶν, Ἰησοῦν, \n",
+    "GLQuote": "you share in a heavenly calling"
+  },
+  {
+    "bookId": "HEB",
+    "chapter": 3,
+    "verse": 10,
+    "ID": "kh4v",
+    "OrigQuote": "ἀεὶ πλανῶνται τῇ καρδίᾳ αὐτοὶ",
+    "verseString": " τεσσεράκοντα ἔτη. διὸ προσώχθισα τῇ γενεᾷ ταύτῃ, καὶ εἶπον, ἀεὶ‘ πλανῶνται τῇ καρδίᾳ; αὐτοὶ δὲ οὐκ ἔγνωσαν τὰς ὁδούς μου’; \n",
+    "GLQuote": "They have always gone astray in their hearts"
+  },
+  {
+    "bookId": "HEB",
+    "chapter": 3,
+    "verse": 11,
+    "ID": "tz3l",
+    "OrigQuote": "εἰ ‘εἰσελεύσονται εἰς τὴν κατάπαυσίν μου",
+    "verseString": " ὡς ὤμοσα ἐν τῇ ὀργῇ μου, εἰ‘ εἰσελεύσονται εἰς τὴν κατάπαυσίν μου.’\" \n",
+    "GLQuote": "They will never enter my rest"
+  },
+  {
+    "bookId": "HEB",
+    "chapter": 3,
+    "verse": 18,
+    "ID": "q16u",
+    "OrigQuote": "μὴ εἰσελεύσεσθαι τὴν κατάπαυσιν αὐτοῦ",
+    "verseString": " τίσιν δὲ ὤμοσεν μὴ εἰσελεύσεσθαι εἰς τὴν κατάπαυσιν αὐτοῦ, εἰ μὴ τοῖς ἀπειθήσασιν? \n",
+    "GLQuote": "they would not enter his rest"
+  },
+  {
+    "bookId": "HEB",
+    "chapter": 4,
+    "verse": 3,
+    "ID": "w6t4",
+    "OrigQuote": "εἰσερχόμεθα ... εἰς κατάπαυσιν οἱ πιστεύσαντες",
+    "verseString": " εἰσερχόμεθα γὰρ εἰς κατάπαυσιν, οἱ πιστεύσαντες, καθὼς εἴρηκεν, \"ὡς ὤμοσα ἐν τῇ ὀργῇ μου, εἰ‘ εἰσελεύσονται εἰς τὴν κατάπαυσίν μου’\"; καίτοι τῶν ἔργων ἀπὸ καταβολῆς κόσμου γενηθέντων. \n",
+    "GLQuote": "we who have believed enter that rest"
+  },
+  {
+    "bookId": "HEB",
+    "chapter": 4,
+    "verse": 3,
+    "ID": "k1ld",
+    "OrigQuote": "εἰ εἰσελεύσονται τὴν κατάπαυσίν μου",
+    "verseString": " εἰσερχόμεθα γὰρ εἰς κατάπαυσιν, οἱ πιστεύσαντες, καθὼς εἴρηκεν, \"ὡς ὤμοσα ἐν τῇ ὀργῇ μου, εἰ‘ εἰσελεύσονται εἰς τὴν κατάπαυσίν μου’\"; καίτοι τῶν ἔργων ἀπὸ καταβολῆς κόσμου γενηθέντων. \n",
+    "GLQuote": "They will never enter my rest"
+  },
+  {
+    "bookId": "HEB",
+    "chapter": 4,
+    "verse": 9,
+    "ID": "vhx9",
+    "OrigQuote": "ἀπολείπεται σαββατισμὸς τῷ λαῷ' τοῦ Θεοῦ",
+    "verseString": " ἄρα ἀπολείπεται σαββατισμὸς τῷ λαῷ τοῦ Θεοῦ . \n",
+    "GLQuote": "there is still a Sabbath rest reserved for God's people"
+  },
+  {
+    "bookId": "HEB",
+    "chapter": 4,
+    "verse": 11,
+    "ID": "bmg5",
+    "OrigQuote": "σπουδάσωμεν ... εἰσελθεῖν ἐκείνην τὴν κατάπαυσιν",
+    "verseString": " σπουδάσωμεν οὖν εἰσελθεῖν εἰς ἐκείνην τὴν κατάπαυσιν, ἵνα μὴ ἐν τῷ αὐτῷ τις ὑποδείγματι πέσῃ τῆς ἀπειθείας. \n",
+    "GLQuote": "let us be eager to enter that rest"
+  },
+  {
+    "bookId": "HEB",
+    "chapter": 4,
+    "verse": 13,
+    "ID": "i9hh",
+    "OrigQuote": "τοῖς ὀφθαλμοῖς αὐτοῦ πρὸς ὃν ἡμῖν ὁ λόγος",
+    "verseString": " καὶ οὐκ ἔστιν κτίσις ἀφανὴς ἐνώπιον αὐτοῦ; πάντα δὲ γυμνὰ καὶ τετραχηλισμένα τοῖς ὀφθαλμοῖς αὐτοῦ, πρὸς ὃν ἡμῖν ὁ λόγος. \n",
+    "GLQuote": "to the eyes of the one to whom we must give account"
+  },
+  {
+    "bookId": "HEB",
+    "chapter": 4,
+    "verse": 16,
+    "ID": "py6d",
+    "OrigQuote": "λάβωμεν ἔλεος καὶ χάριν εὕρωμεν εἰς εὔκαιρον βοήθειαν",
+    "verseString": " προσερχώμεθα οὖν μετὰ παρρησίας τῷ θρόνῳ τῆς χάριτος, ἵνα λάβωμεν ἔλεος, καὶ χάριν εὕρωμεν, εἰς εὔκαιρον βοήθειαν. \n",
+    "GLQuote": "we may receive mercy and find grace to help in time of need"
+  },
+  {
+    "bookId": "HEB",
+    "chapter": 6,
+    "verse": 10,
+    "ID": "t2hb",
+    "OrigQuote": "οὐ γὰρ ἄδικος ὁ Θεὸς ἐπιλαθέσθαι",
+    "verseString": " οὐ γὰρ ἄδικος ὁ Θεὸς, ἐπιλαθέσθαι τοῦ ἔργου ὑμῶν, καὶ τῆς ἀγάπης ἧς ἐνεδείξασθε εἰς τὸ ὄνομα αὐτοῦ, διακονήσαντες τοῖς ἁγίοις καὶ διακονοῦντες. \n",
+    "GLQuote": "For God is not so unjust that he would forget"
+  },
+  {
+    "bookId": "HEB",
+    "chapter": 6,
+    "verse": 19,
+    "ID": "ng9i",
+    "OrigQuote": "ὡς ἄγκυραν ... τῆς ψυχῆς ἀσφαλῆ καὶ βεβαίαν",
+    "verseString": " ἣν ὡς ἄγκυραν ἔχομεν τῆς ψυχῆς, ἀσφαλῆ τε καὶ βεβαίαν, καὶ εἰσερχομένην εἰς τὸ ἐσώτερον τοῦ καταπετάσματος, \n",
+    "GLQuote": "as a secure and reliable anchor for the soul"
+  },
+  {
+    "bookId": "HEB",
+    "chapter": 8,
+    "verse": 5,
+    "ID": "k5r1",
+    "OrigQuote": "καθὼς κεχρημάτισται Μωϋσῆς μέλλων",
+    "verseString": " οἵτινες ὑποδείγματι καὶ σκιᾷ λατρεύουσιν τῶν ἐπουρανίων, καθὼς κεχρημάτισται Μωϋσῆς, μέλλων ἐπιτελεῖν τὴν σκηνήν; \"ὅρα\", γάρ φησίν, \"ποιήσεις πάντα κατὰ τὸν τύπον τὸν δειχθέντα σοι ἐν τῷ ὄρει\"; \n",
+    "GLQuote": "It is just as Moses was warned by God when he was"
+  },
+  {
+    "bookId": "HEB",
+    "chapter": 8,
+    "verse": 8,
+    "ID": "c6zm",
+    "OrigQuote": "τὸν οἶκον Ἰσραὴλ καὶ ἐπὶ τὸν οἶκον Ἰούδα",
+    "verseString": " μεμφόμενος γὰρ αὐτοῖς λέγει, \"ἰδοὺ, ἡμέραι ἔρχονται, λέγει Κύριος, καὶ συντελέσω, ἐπὶ τὸν οἶκον Ἰσραὴλ, καὶ ἐπὶ τὸν οἶκον Ἰούδα, διαθήκην καινήν; \n",
+    "GLQuote": "the house of Israel and with the house of Judah"
+  },
+  {
+    "bookId": "HEB",
+    "chapter": 8,
+    "verse": 9,
+    "ID": "dde5",
+    "OrigQuote": "ἐπιλαβομένου μου τῆς χειρὸς αὐτῶν ἐξαγαγεῖν αὐτοὺς ἐκ γῆς Αἰγύπτου",
+    "verseString": " οὐ κατὰ τὴν διαθήκην ἣν ἐποίησα τοῖς πατράσιν αὐτῶν, ἐν ἡμέρᾳ ἐπιλαβομένου μου τῆς χειρὸς αὐτῶν, ἐξαγαγεῖν αὐτοὺς ἐκ γῆς Αἰγύπτου; ὅτι αὐτοὶ οὐκ ἐνέμειναν ἐν τῇ διαθήκῃ μου, κἀγὼ ἠμέλησα αὐτῶν, λέγει Κύριος. \n",
+    "GLQuote": "I took them by their hand to lead them out of the land of Egypt"
+  },
+  {
+    "bookId": "HEB",
+    "chapter": 8,
+    "verse": 11,
+    "ID": "jl1h",
+    "OrigQuote": "οὐ μὴ διδάξωσιν ἕκαστος τὸν πολίτην αὐτοῦ, καὶ ἕκαστος τὸν ἀδελφὸν αὐτοῦ λέγων, γνῶθι ‘τὸν Κύριον’",
+    "verseString": " καὶ οὐ μὴ διδάξωσιν ἕκαστος τὸν πολίτην αὐτοῦ, καὶ ἕκαστος τὸν ἀδελφὸν αὐτοῦ λέγων, γνῶθι‘ τὸν Κύριον’, ὅτι πάντες εἰδήσουσίν με, ἀπὸ μικροῦ ἕως μεγάλου αὐτῶν. \n",
+    "GLQuote": "They will not teach each one his neighbor and each one his brother, saying, 'Know the Lord.'"
+  },
+  {
+    "bookId": "HEB",
+    "chapter": 8,
+    "verse": 11,
+    "ID": "q5ki",
+    "OrigQuote": "γνῶθι ‘τὸν Κύριον’ ... πάντες εἰδήσουσίν με",
+    "verseString": " καὶ οὐ μὴ διδάξωσιν ἕκαστος τὸν πολίτην αὐτοῦ, καὶ ἕκαστος τὸν ἀδελφὸν αὐτοῦ λέγων, γνῶθι‘ τὸν Κύριον’, ὅτι πάντες εἰδήσουσίν με, ἀπὸ μικροῦ ἕως μεγάλου αὐτῶν. \n",
+    "GLQuote": "Know the Lord ... will all know me"
+  },
+  {
+    "bookId": "HEB",
+    "chapter": 9,
+    "verse": 15,
+    "ID": "z29a",
+    "OrigQuote": "εἰς ἀπολύτρωσιν τῶν ἐπὶ πρώτῃ διαθήκῃ παραβάσεων",
+    "verseString": " καὶ διὰ τοῦτο, διαθήκης καινῆς μεσίτης ἐστίν, ὅπως θανάτου γενομένου εἰς ἀπολύτρωσιν τῶν ἐπὶ τῇ πρώτῃ διαθήκῃ παραβάσεων, τὴν ἐπαγγελίαν λάβωσιν οἱ κεκλημένοι τῆς αἰωνίου κληρονομίας. \n",
+    "GLQuote": "to free those under the first covenant from their sins"
+  },
+  {
+    "bookId": "HEB",
+    "chapter": 9,
+    "verse": 22,
+    "ID": "v8bj",
+    "OrigQuote": "χωρὶς αἱματεκχυσίας οὐ γίνεται ἄφεσις",
+    "verseString": " καὶ σχεδὸν ἐν αἵματι πάντα καθαρίζεται κατὰ τὸν νόμον, καὶ χωρὶς αἱματεκχυσίας, οὐ γίνεται ἄφεσις. \n",
+    "GLQuote": "Without the shedding of blood there is no forgiveness"
+  },
+  {
+    "bookId": "HEB",
+    "chapter": 9,
+    "verse": 28,
+    "ID": "p6th",
+    "OrigQuote": "τὸ ἁμαρτίας",
+    "verseString": " οὕτως καὶ ὁ Χριστός ἅπαξ προσενεχθεὶς εἰς τὸ πολλῶν ἀνενεγκεῖν ἁμαρτίας, ἐκ δευτέρου χωρὶς ἁμαρτίας ὀφθήσεται τοῖς αὐτὸν ἀπεκδεχομένοις εἰς σωτηρίαν. \n",
+    "GLQuote": "the sins"
+  },
+  {
+    "bookId": "HEB",
+    "chapter": 10,
+    "verse": 20,
+    "ID": "ega9",
+    "OrigQuote": "τοῦτ’ σαρκὸς αὐτοῦ",
+    "verseString": " ἣν ἐνεκαίνισεν ἡμῖν ὁδὸν πρόσφατον καὶ ζῶσαν διὰ τοῦ καταπετάσματος, τοῦτ’ ἔστιν τῆς σαρκὸς αὐτοῦ, \n",
+    "GLQuote": "his flesh"
+  },
+  {
+    "bookId": "HEB",
+    "chapter": 11,
+    "verse": 6,
+    "ID": "r9nb",
+    "OrigQuote": "χωρὶς ... πίστεως ἀδύνατον εὐαρεστῆσαι",
+    "verseString": " χωρὶς δὲ πίστεως, ἀδύνατον εὐαρεστῆσαι; πιστεῦσαι γὰρ δεῖ τὸν προσερχόμενον τῷ Θεῷ, ὅτι ἔστιν, καὶ τοῖς ἐκζητοῦσιν αὐτὸν, μισθαποδότης γίνεται. \n",
+    "GLQuote": "without faith it is impossible to please him"
+  },
+  {
+    "bookId": "HEB",
+    "chapter": 12,
+    "verse": 3,
+    "ID": "i1xl",
+    "OrigQuote": "κάμητε ταῖς ψυχαῖς ὑμῶν",
+    "verseString": " ἀναλογίσασθε γὰρ τὸν τοιαύτην ὑπομεμενηκότα ὑπὸ τῶν ἁμαρτωλῶν εἰς ἑαυτοὺς ἀντιλογίαν, ἵνα μὴ κάμητε, ταῖς ψυχαῖς ὑμῶν ἐκλυόμενοι. \n",
+    "GLQuote": "weary in your hearts"
+  },
+  {
+    "bookId": "HEB",
+    "chapter": 12,
+    "verse": 5,
+    "ID": "y6cv",
+    "OrigQuote": "τῆς παρακλήσεως ἥτις ὑμῖν ... διαλέγεται",
+    "verseString": " καὶ ἐκλέλησθε τῆς παρακλήσεως, ἥτις ὑμῖν ὡς υἱοῖς διαλέγεται, \"υἱέ μου, μὴ ὀλιγώρει παιδείας Κυρίου, μηδὲ ἐκλύου ὑπ’ αὐτοῦ ἐλεγχόμενος; \n",
+    "GLQuote": "the encouragement that instructs you"
+  },
+  {
+    "bookId": "HEB",
+    "chapter": 12,
+    "verse": 12,
+    "ID": "cvp9",
+    "OrigQuote": "τὰς παρειμένας χεῖρας καὶ τὰ παραλελυμένα γόνατα ἀνορθώσατε",
+    "verseString": " διὸ τὰς παρειμένας χεῖρας, καὶ τὰ παραλελυμένα γόνατα, ἀνορθώσατε; \n",
+    "GLQuote": "strengthen your hands that hang down and your weak knees."
+  },
+  {
+    "bookId": "HEB",
+    "chapter": 13,
+    "verse": 15,
+    "ID": "zr2d",
+    "OrigQuote": "χειλέων ὁμολογούντων τῷ ὀνόματι αὐτοῦ ὁμολογούντων τῷ ὀνόματι αὐτοῦ",
+    "verseString": " δι’ αὐτοῦ ἀναφέρωμεν θυσίαν αἰνέσεως διὰ παντὸς τῷ Θεῷ, τοῦτ’ ἔστιν καρπὸν χειλέων ὁμολογούντων τῷ ὀνόματι αὐτοῦ. \n",
+    "GLQuote": "lips that acknowledge his name"
+  },
+  {
+    "bookId": "JAS",
+    "chapter": 1,
+    "verse": 1,
+    "ID": "pkt2",
+    "OrigQuote": "Ἰάκωβος, Θεοῦ καὶ Κυρίου Ἰησοῦ Χριστοῦ δοῦλος",
+    "verseString": " Ἰάκωβος, Θεοῦ καὶ Κυρίου Ἰησοῦ Χριστοῦ, δοῦλος; ταῖς δώδεκα φυλαῖς ταῖς ἐν τῇ διασπορᾷ: χαίρειν. \n",
+    "GLQuote": "James, a servant of God and of the Lord Jesus Christ "
+  },
+  {
+    "bookId": "JAS",
+    "chapter": 1,
+    "verse": 10,
+    "ID": "uzk7",
+    "OrigQuote": "ὁ δὲ πλούσιος ἐν τῇ ταπεινώσει αὐτοῦ",
+    "verseString": " ὁ δὲ πλούσιος, ἐν τῇ ταπεινώσει αὐτοῦ, ὅτι ὡς ἄνθος χόρτου παρελεύσεται. \n",
+    "GLQuote": "but the rich man of his low position "
+  },
+  {
+    "bookId": "JAS",
+    "chapter": 1,
+    "verse": 14,
+    "ID": "nj9m",
+    "OrigQuote": "ἕκαστος πειράζεται ὑπὸ τῆς ἰδίας ἐπιθυμίας",
+    "verseString": " ἕκαστος δὲ πειράζεται ὑπὸ τῆς ἰδίας ἐπιθυμίας, ἐξελκόμενος καὶ δελεαζόμενος; \n",
+    "GLQuote": "each person is tempted by his own desire "
+  },
+  {
+    "bookId": "JAS",
+    "chapter": 1,
+    "verse": 17,
+    "ID": "t2nn",
+    "OrigQuote": "πᾶσα δόσις ἀγαθὴ καὶ πᾶν δώρημα τέλειον",
+    "verseString": " πᾶσα δόσις ἀγαθὴ, καὶ πᾶν δώρημα τέλειον, ἄνωθέν ἐστιν, καταβαῖνον ἀπὸ τοῦ Πατρὸς τῶν φώτων, παρ’ ᾧ οὐκ ἔνι παραλλαγὴ ἢ τροπῆς ἀποσκίασμα. \n",
+    "GLQuote": "Every good gift and every perfect gift "
+  },
+  {
+    "bookId": "JAS",
+    "chapter": 1,
+    "verse": 19,
+    "ID": "p728",
+    "OrigQuote": "ἔστω ... πᾶς ἄνθρωπος ταχὺς εἰς τὸ ἀκοῦσαι, βραδὺς εἰς τὸ λαλῆσαι.",
+    "verseString": " ἴστε, ἀδελφοί μου ἀγαπητοί. ἔστω δὲ πᾶς ἄνθρωπος ταχὺς εἰς τὸ ἀκοῦσαι, βραδὺς εἰς τὸ λαλῆσαι, βραδὺς εἰς ὀργήν; \n",
+    "GLQuote": "Let every man be quick to hear, slow to speak "
+  },
+  {
+    "bookId": "JAS",
+    "chapter": 1,
+    "verse": 25,
+    "ID": "sf8k",
+    "OrigQuote": "νόμον τέλειον τὸν τῆς ἐλευθερίας",
+    "verseString": " ὁ δὲ παρακύψας εἰς νόμον τέλειον, τὸν τῆς ἐλευθερίας, καὶ παραμείνας, οὐκ ἀκροατὴς ἐπιλησμονῆς γενόμενος, ἀλλὰ ποιητὴς ἔργου, οὗτος μακάριος ἐν τῇ ποιήσει αὐτοῦ ἔσται. \n",
+    "GLQuote": "the perfect law of freedom "
+  },
+  {
+    "bookId": "JAS",
+    "chapter": 2,
+    "verse": 1,
+    "ID": "qs2x",
+    "OrigQuote": "ἔχετε τὴν πίστιν τοῦ Κυρίου ἡμῶν Ἰησοῦ Χριστοῦ",
+    "verseString": " ἀδελφοί μου, μὴ ἐν προσωπολημψίαις ἔχετε τὴν πίστιν τοῦ Κυρίου ἡμῶν, Ἰησοῦ Χριστοῦ, τῆς δόξης. \n",
+    "GLQuote": "hold to faith in our Lord Jesus Christ "
+  },
+  {
+    "bookId": "JAS",
+    "chapter": 2,
+    "verse": 1,
+    "ID": "x32n",
+    "OrigQuote": "τοῦ Κυρίου ἡμῶν Ἰησοῦ Χριστοῦ",
+    "verseString": " ἀδελφοί μου, μὴ ἐν προσωπολημψίαις ἔχετε τὴν πίστιν τοῦ Κυρίου ἡμῶν, Ἰησοῦ Χριστοῦ, τῆς δόξης. \n",
+    "GLQuote": "our Lord Jesus Christ "
+  },
+  {
+    "bookId": "JAS",
+    "chapter": 2,
+    "verse": 6,
+    "ID": "l2lu",
+    "OrigQuote": "οὐχ οἱ πλούσιοι καταδυναστεύουσιν ὑμῶν?",
+    "verseString": " ὑμεῖς δὲ ἠτιμάσατε τὸν πτωχόν. οὐχ οἱ πλούσιοι καταδυναστεύουσιν ὑμῶν, καὶ αὐτοὶ ἕλκουσιν ὑμᾶς εἰς κριτήρια? \n",
+    "GLQuote": "Is it not the rich who oppress you? "
+  },
+  {
+    "bookId": "JAS",
+    "chapter": 2,
+    "verse": 14,
+    "ID": "c234",
+    "OrigQuote": "ἐὰν πίστιν λέγῃ τις ἔχειν, ἔργα δὲ μὴ ἔχῃ",
+    "verseString": " τί τὸ ὄφελος, ἀδελφοί μου, ἐὰν πίστιν λέγῃ τις, ἔχειν ἔργα, δὲ μὴ ἔχῃ? μὴ δύναται ἡ πίστις σῶσαι αὐτόν? \n",
+    "GLQuote": "if someone says he has faith, but he has no works "
+  },
+  {
+    "bookId": "JAS",
+    "chapter": 2,
+    "verse": 17,
+    "ID": "me1d",
+    "OrigQuote": "ἡ πίστις ἐὰν μὴ, ἔχῃ, ἔχῃ ἔργα νεκρά ἐστιν καθ’ ἑαυτήν",
+    "verseString": " οὕτως καὶ ἡ πίστις, ἐὰν μὴ ἔχῃ ἔργα, νεκρά ἐστιν καθ’ ἑαυτήν. \n",
+    "GLQuote": "faith by itself, if it does not have works, is dead "
+  },
+  {
+    "bookId": "JAS",
+    "chapter": 2,
+    "verse": 26,
+    "ID": "uum8",
+    "OrigQuote": "ὥσπερ γὰρ τὸ σῶμα χωρὶς πνεύματος νεκρόν ἐστιν οὕτως καὶ ἡ πίστις χωρὶς ἔργων νεκρά ἐστιν",
+    "verseString": " ὥσπερ γὰρ τὸ σῶμα χωρὶς πνεύματος νεκρόν ἐστιν, οὕτως καὶ ἡ πίστις χωρὶς ἔργων νεκρά ἐστιν. \n",
+    "GLQuote": "For as the body apart from the spirit is dead, even so faith apart from works is dead "
+  },
+  {
+    "bookId": "JAS",
+    "chapter": 3,
+    "verse": 6,
+    "ID": "i61e",
+    "OrigQuote": "ὁ κόσμος τῆς ἀδικίας καθίσταται ἐν τοῖς μέλεσιν ἡμῶν",
+    "verseString": " καὶ ἡ γλῶσσα πῦρ, ὁ κόσμος τῆς ἀδικίας; ἡ γλῶσσα καθίσταται ἐν τοῖς μέλεσιν ἡμῶν, ἡ σπιλοῦσα ὅλον τὸ σῶμα, καὶ φλογίζουσα τὸν τροχὸν τῆς γενέσεως, καὶ φλογιζομένη ὑπὸ τῆς Γεέννης. \n",
+    "GLQuote": "a world of sinfulness set among our body parts "
+  },
+  {
+    "bookId": "JAS",
+    "chapter": 3,
+    "verse": 12,
+    "ID": "bu4l",
+    "OrigQuote": "ἢ ἄμπελος, σῦκα?",
+    "verseString": " μὴ δύναται, ἀδελφοί μου, συκῆ ἐλαίας ποιῆσαι ἢ ἄμπελος σῦκα? οὔτε ἁλυκὸν γλυκὺ ποιῆσαι ὕδωρ. \n",
+    "GLQuote": "Or a grapevine, figs? "
+  },
+  {
+    "bookId": "JAS",
+    "chapter": 3,
+    "verse": 14,
+    "ID": "js7b",
+    "OrigQuote": "εἰ ... ζῆλον πικρὸν ἔχετε καὶ ἐριθείαν ἐν τῇ καρδίᾳ ὑμῶν",
+    "verseString": " εἰ δὲ ζῆλον πικρὸν ἔχετε, καὶ ἐριθείαν ἐν τῇ καρδίᾳ ὑμῶν, μὴ κατακαυχᾶσθε καὶ ψεύδεσθε κατὰ τῆς ἀληθείας. \n",
+    "GLQuote": "if you have bitter jealousy and ambition in your heart "
+  },
+  {
+    "bookId": "JAS",
+    "chapter": 3,
+    "verse": 17,
+    "ID": "s8w4",
+    "OrigQuote": "ἡ δὲ ἄνωθεν σοφία πρῶτον ἁγνή ἐστιν",
+    "verseString": " ἡ δὲ ἄνωθεν σοφία, πρῶτον μὲν ἁγνή ἐστιν, ἔπειτα εἰρηνική, ἐπιεικής, εὐπειθής, μεστὴ ἐλέους καὶ καρπῶν ἀγαθῶν, ἀδιάκριτος, ἀνυπόκριτος. \n",
+    "GLQuote": "But the wisdom from above is first pure "
+  },
+  {
+    "bookId": "JAS",
+    "chapter": 4,
+    "verse": 4,
+    "ID": "jf1g",
+    "OrigQuote": "ἡ φιλία τοῦ κόσμου ἔχθρα τοῦ Θεοῦ ἐστιν",
+    "verseString": " μοιχαλίδες! οὐκ οἴδατε ὅτι ἡ φιλία τοῦ κόσμου, ἔχθρα τοῦ Θεοῦ ἐστιν? ὃς ἐὰν οὖν βουληθῇ φίλος εἶναι τοῦ κόσμου, ἐχθρὸς τοῦ Θεοῦ καθίσταται. \n",
+    "GLQuote": "friendship with the world is hostility against God "
+  },
+  {
+    "bookId": "JAS",
+    "chapter": 4,
+    "verse": 9,
+    "ID": "kdn8",
+    "OrigQuote": "ταλαιπωρήσατε, πενθήσατε, καὶ κλαύσατε.",
+    "verseString": " ταλαιπωρήσατε, καὶ πενθήσατε, καὶ κλαύσατε. ὁ γέλως ὑμῶν εἰς πένθος μετατραπήτω, καὶ ἡ χαρὰ εἰς κατήφειαν. \n",
+    "GLQuote": "Grieve, mourn, and cry "
+  },
+  {
+    "bookId": "JAS",
+    "chapter": 4,
+    "verse": 12,
+    "ID": "m49q",
+    "OrigQuote": "σὺ δὲ τίς εἶ ὁ κρίνων τὸν πλησίον?",
+    "verseString": " εἷς ἐστιν νομοθέτης καὶ κριτής, ὁ δυνάμενος σῶσαι καὶ ἀπολέσαι. σὺ δὲ τίς εἶ, ὁ κρίνων τὸν πλησίον? \n",
+    "GLQuote": "Who are you, you who judge your neighbor? "
+  },
+  {
+    "bookId": "JAS",
+    "chapter": 5,
+    "verse": 3,
+    "ID": "e55t",
+    "OrigQuote": "ὁ ἰὸς αὐτῶν εἰς μαρτύριον ὑμῖν ἔσται.",
+    "verseString": " ὁ χρυσὸς ὑμῶν καὶ ὁ ἄργυρος κατίωται, καὶ ὁ ἰὸς αὐτῶν εἰς μαρτύριον ὑμῖν ἔσται, καὶ φάγεται τὰς σάρκας ὑμῶν ὡς πῦρ. ἐθησαυρίσατε ἐν ἐσχάταις ἡμέραις . \n",
+    "GLQuote": "their rust will be a witness against you. It "
+  },
+  {
+    "bookId": "JAS",
+    "chapter": 5,
+    "verse": 6,
+    "ID": "lq6p",
+    "OrigQuote": "τὸν δίκαιον. οὐκ ἀντιτάσσεται",
+    "verseString": " κατεδικάσατε, ἐφονεύσατε τὸν δίκαιον, οὐκ ἀντιτάσσεται ὑμῖν. \n",
+    "GLQuote": "the righteous person. He does not "
+  },
+  {
+    "bookId": "JAS",
+    "chapter": 5,
+    "verse": 13,
+    "ID": "m3e6",
+    "OrigQuote": "κακοπαθεῖ τις ἐν ὑμῖν? Προσευχέσθω.",
+    "verseString": " κακοπαθεῖ τις ἐν ὑμῖν? προσευχέσθω. εὐθυμεῖ τις? ψαλλέτω. \n",
+    "GLQuote": "Is anyone among you suffering hardship? Let him pray "
+  },
+  {
+    "bookId": "JAS",
+    "chapter": 5,
+    "verse": 13,
+    "ID": "wdf7",
+    "OrigQuote": "εὐθυμεῖ τις? Ψαλλέτω.",
+    "verseString": " κακοπαθεῖ τις ἐν ὑμῖν? προσευχέσθω. εὐθυμεῖ τις? ψαλλέτω. \n",
+    "GLQuote": "Is anyone cheerful? Let him sing praise "
+  },
+  {
+    "bookId": "1PE",
+    "chapter": 1,
+    "verse": 4,
+    "ID": "vr9s",
+    "OrigQuote": "ἄφθαρτον καὶ ἀμίαντον, καὶ ἀμάραντον",
+    "verseString": " εἰς κληρονομίαν ἄφθαρτον, καὶ ἀμίαντον, καὶ ἀμάραντον, τετηρημένην ἐν οὐρανοῖς εἰς ὑμᾶς, \n",
+    "GLQuote": "will not perish, will not become stained, and will not fade away"
+  },
+  {
+    "bookId": "1PE",
+    "chapter": 2,
+    "verse": 6,
+    "ID": "ibi1",
+    "OrigQuote": "διότι περιέχει ἐν γραφῇ",
+    "verseString": " διότι περιέχει ἐν Γραφῇ: \"ἰδοὺ, τίθημι ἐν Σιὼν λίθον, ἀκρογωνιαῖον ἐκλεκτὸν ἔντιμον; καὶ ὁ πιστεύων ἐπ’ αὐτῷ, οὐ μὴ καταισχυνθῇ.\" \n",
+    "GLQuote": "Scripture contains this"
+  },
+  {
+    "bookId": "2PE",
+    "chapter": 3,
+    "verse": 11,
+    "ID": "t8wx",
+    "OrigQuote": "ποταποὺς δεῖ ὑπάρχειν ὑμᾶς",
+    "verseString": " τούτων οὕτως πάντων λυομένων, ποταποὺς δεῖ ὑπάρχειν? ὑμᾶς ἐν ἁγίαις ἀναστροφαῖς καὶ εὐσεβείαις, \n",
+    "GLQuote": "what kind of people should you be?"
+  },
+  {
+    "bookId": "1JN",
+    "chapter": 2,
+    "verse": 5,
+    "ID": "b688",
+    "OrigQuote": "ἐν τούτῳ ώσκομεν ὅτι ἐν αὐτῷ ἐσμεν",
+    "verseString": " ὃς δ’ ἂν τηρῇ αὐτοῦ τὸν λόγον, ἀληθῶς ἐν τούτῳ ἡ ἀγάπη τοῦ Θεοῦ τετελείωται. ἐν τούτῳ γινώσκομεν ὅτι ἐν αὐτῷ ἐσμεν: \n",
+    "GLQuote": "By this we know that we are in him"
+  },
+  {
+    "bookId": "1JN",
+    "chapter": 2,
+    "verse": 21,
+    "ID": "r8yr",
+    "OrigQuote": "τῆς ἀληθείας ... πᾶν ψεῦδος ἐκ τῆς ἀληθείας οὐκ ἔστιν",
+    "verseString": " οὐκ ἔγραψα ὑμῖν ὅτι οὐκ οἴδατε τὴν ἀλήθειαν, ἀλλ’ ὅτι οἴδατε αὐτήν, καὶ ὅτι πᾶν ψεῦδος ἐκ τῆς ἀληθείας οὐκ ἔστιν. \n",
+    "GLQuote": "the truth ... no lie is from the truth"
+  },
+  {
+    "bookId": "REV",
+    "chapter": 16,
+    "verse": 15,
+    "ID": "l16g",
+    "OrigQuote": "ἰδοὺ(, ἔρχομαι ... τὴν ἀσχημοσύνην αὐτοῦ",
+    "verseString": " \"(ἰδοὺ, ἔρχομαι ὡς κλέπτης; μακάριος ὁ γρηγορῶν καὶ τηρῶν τὰ ἱμάτια αὐτοῦ, ἵνα μὴ γυμνὸς περιπατῇ, καὶ βλέπωσιν τὴν ἀσχημοσύνην αὐτοῦ\".) \n",
+    "GLQuote": "Look! I am coming ... his shameful condition"
+  },
+  {
+    "bookId": "REV",
+    "chapter": 19,
+    "verse": 6,
+    "ID": "kq7n",
+    "OrigQuote": "καὶ ἤκουσα ὡς φωνὴν ὄχλου πολλοῦ καὶ ὡς φωνὴν ὑδάτων πολλῶν, καὶ ὡς φωνὴν βροντῶν ἰσχυρῶν",
+    "verseString": " καὶ ἤκουσα ὡς φωνὴν ὄχλου πολλοῦ, καὶ ὡς φωνὴν ὑδάτων πολλῶν, καὶ ὡς φωνὴν βροντῶν ἰσχυρῶν λεγόντων, \"ἁλληλουϊά, ὅτι ἐβασίλευσεν Κύριος, ὁ Θεός ἡμῶν ὁ Παντοκράτωρ. \n",
+    "GLQuote": "Then I heard what sounded like the voice of a great number of people, like the roar of many waters, and like loud crashes of thunder"
+  },
+  {
+    "bookId": "REV",
+    "chapter": 19,
+    "verse": 15,
+    "ID": "nb4y",
+    "OrigQuote": "αὐτὸς πατεῖ τὴν ληνὸν τοῦ θυμοῦ τῆς ὀργῆς τοῦ Θεοῦ τοῦ Παντοκράτορος",
+    "verseString": " καὶ ἐκ τοῦ στόματος αὐτοῦ ἐκπορεύεται ῥομφαία ὀξεῖα, ἵνα ἐν αὐτῇ πατάξῃ τὰ ἔθνη; \"καὶ αὐτὸς ποιμανεῖ αὐτοὺς ἐν ῥάβδῳ σιδηρᾷ\"; καὶ αὐτὸς πατεῖ τὴν ληνὸν τοῦ οἴνου τοῦ θυμοῦ τῆς ὀργῆς τοῦ Θεοῦ τοῦ Παντοκράτορος. \n",
+    "GLQuote": "He tramples in the winepress of the fury of the wrath of God Almighty"
+  },
+  {
+    "bookId": "REV",
+    "chapter": 22,
+    "verse": 6,
+    "ID": "xaw8",
+    "OrigQuote": "οὗτοι οἱ λόγοι πιστοὶ καὶ ἀληθινοί εἰσιν",
+    "verseString": " καὶ εἶπέν μοι, \"οὗτοι οἱ λόγοι πιστοὶ καὶ ἀληθινοί, καὶ ὁ Κύριος, ὁ Θεὸς τῶν πνευμάτων τῶν προφητῶν, ἀπέστειλεν τὸν ἄγγελον αὐτοῦ, δεῖξαι τοῖς δούλοις αὐτοῦ ἃ δεῖ γενέσθαι ἐν τάχει.\" \n",
+    "GLQuote": "These words are trustworthy and true"
+  }
+]

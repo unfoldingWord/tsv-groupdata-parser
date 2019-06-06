@@ -2,13 +2,15 @@
 import stringTokenizer from 'string-punctuation-tokenizer'
 import { ELLIPSIS, THREE_DOTS } from '../utils/constants'
 import { getOmittedWordsInQuote } from './ellipsisHelpers'
+import { cleanQuoteString } from './stringHelpers'
 
 function countStringInArray(array, string) {
   return array.filter(item => item == string).length
 }
 
-function cleanRegex(str) {
-  return str.replace(/([.?*+^$[\]\\(){}|-])/g, '\\$1')
+export function cleanRegex(str) {
+  if (str) return str.replace(/([.?*+^$[\]\\(){}|-])/g, '\\$1')
+  return str
 }
 
 function tokenizeQuote(quote) {
@@ -79,6 +81,8 @@ export function getWordOccurrencesForQuote(quote, verseString) {
   const words = []
   let wholeQuote = ''
   let quoteOmittedStrings
+  // clean quote string
+  quote = cleanQuoteString(quote)
 
   if (quote.includes(THREE_DOTS)) {
     quote = quote.replace(/\.../g, ELLIPSIS)
