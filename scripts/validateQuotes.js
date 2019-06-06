@@ -65,17 +65,15 @@ export async function validateTsvQuotes(originalResources, tsvFilesPath) {
             }
 
             if (isQuoteNotFoundInVerse(wholeQuote, verseString)) {
-              const { id, SupportReference, OrigQuote, Occurrence, GLQuote } = tsvItem
+              const { ID, OrigQuote, GLQuote } = tsvItem
               result.push({
                 bookId,
                 chapter,
                 verse,
-                id,
-                SupportReference,
+                ID,
                 OrigQuote: OrigQuote.trim(),
-                wholeQuote,
+                // wholeQuote,
                 verseString,
-                occurrence: Occurrence,
                 GLQuote,
               })
             }
