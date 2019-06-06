@@ -1,13 +1,14 @@
 import fs from 'fs-extra'
 import path from 'path-extra'
+import ospath from 'ospath'
 import tsvtojson from 'tsvtojson'
 // helpers
-import ManageResource from './ManageResourceAPI'
-import { BIBLE_LIST_NT } from '../utils/bible'
-import { getOmittedWordsInQuote } from './ellipsisHelpers'
-import { cleanQuoteString } from './stringHelpers'
+import ManageResource from '../src/helpers/ManageResourceAPI'
+import { BIBLE_LIST_NT } from '../src/utils/bible'
+import { getOmittedWordsInQuote } from '../src/helpers/ellipsisHelpers'
+import { cleanQuoteString } from '../src/helpers/stringHelpers'
 // const
-import { ELLIPSIS, THREE_DOTS } from '../utils/constants'
+import { ELLIPSIS, THREE_DOTS } from '../src/utils/constants'
 
 async function asyncForEach(array, callback) {
   for (let index = 0; index < array.length; index++) {
@@ -88,3 +89,47 @@ export async function validateTsvQuotes(originalResources, tsvFilesPath) {
     console.error(error)
   }
 }
+
+function listVersions(dir) {
+  if (fs.pathExistsSync(dir)) {
+    const versionedDirs = fs.readdirSync(dir).filter(file => fs.lstatSync(path.join(dir, file)).isDirectory() && file.match(/^v\d/i))
+    return versionedDirs.sort((a, b) => {
+      const cleanA = semver.coerce(a)
+      const cleanB = semver.coerce(b)
+
+      if (semver.gt(cleanA, cleanB)) {
+        return -1
+      } else if (semver.lt(cleanA, cleanB)) {
+        return 1
+      } else {
+        return 0
+      }
+    })
+  }
+  return []
+}
+
+function getLatestVersion(dir) {
+  const versions = listVersions(dir)
+  if (versions.length > 0) {
+    return path.join(dir, versions[0])
+  } else {
+    return null
+  }
+}
+
+function runOriginalQuoteValidator() {
+  const RESOURCE_PATH = path.join(ospath.home(), 'translationCore', 'resources')
+  const UGNT_PATH = getLatestVersion(path.join(RESOURCE_PATH, 'el-x-koine', 'bibles', 'ugnt'))
+  const UHB_PATH = getLatestVersion(path.join(RESOURCE_PATH, 'hbo', 'bibles', 'uhb'))
+  const tsvFilesPath = path.join(ospath.home(), 'Downloads', 'en_tn')
+
+  validateTsvQuotes({ UGNT_PATH, UHB_PATH }, tsvFilesPath).then(corruptedQuotes => {
+    console.info('Number of corrupted quotes:', corruptedQuotes.length)
+    const outputPath = path.join(__dirname, 'results', 'corruptedQuotes.json')
+    fs.outputJsonSync(outputPath, corruptedQuotes, { spaces: 2 })
+  })
+}
+
+// npm script to be run
+runOriginalQuoteValidator()
