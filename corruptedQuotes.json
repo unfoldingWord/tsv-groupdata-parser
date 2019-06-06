@@ -93,43 +93,10 @@
     "verse": 5,
     "SupportReference": "figs-quotations",
     "OrigQuote": "τί ... ἐστιν εὐκοπώτερον εἰπεῖν, ἀφέωνται‘ σου αἱ ἁμαρτίαι’, ἢ εἰπεῖν, ἔγειρε‘ καὶ περιπάτει?",
-    "wholeQuote": "τί γάρ ἐστιν εὐκοπώτερον εἰπεῖν, ἀφέωνται‘ σου αἱ ἁμαρτίαι’, ἢ εἰπεῖν, ἔγειρε‘ καὶ περιπάτει’? ἐστιν εὐκοπώτερον εἰπεῖν, ἀφέωνται‘ σου αἱ ἁμαρτίαι’, ἢ εἰπεῖν, ἔγειρε‘ καὶ περιπάτει?",
+    "wholeQuote": "τίτί γάρ ἐστιν εὐκοπώτερον εἰπεῖν, ἀφέωνται‘ σου αἱ ἁμαρτίαι’, ἢ εἰπεῖν, ἔγειρε‘ καὶ περιπάτει’? ἐστιν εὐκοπώτερον εἰπεῖν, ἀφέωνται‘ σου αἱ ἁμαρτίαι’, ἢ εἰπεῖν, ἔγειρε‘ καὶ περιπάτει?",
     "verseString": " τί γάρ ἐστιν εὐκοπώτερον εἰπεῖν, ἀφέωνται‘ σου αἱ ἁμαρτίαι’, ἢ εἰπεῖν, ἔγειρε‘ καὶ περιπάτει’? \n",
     "occurrence": "1",
     "GLQuote": "which is easier, to say, 'Your sins are forgiven,' or to say, 'Get up and walk'?"
-  },
-  {
-    "bookId": "MAT",
-    "chapter": 10,
-    "verse": 8,
-    "SupportReference": "figs-you",
-    "OrigQuote": "θεραπεύετε ... ἐγείρετε ... καθαρίζετε ... ἐκβάλλετε ... ἐλάβετε ... δότε",
-    "wholeQuote": "θεραπεύετε, νεκροὺς ἐγείρετε, λεπροὺς καθαρίζετε, δαιμόνια ἐκβάλλετεἐλάβετε δότε. \n δότε",
-    "verseString": " ἀσθενοῦντας θεραπεύετε, νεκροὺς ἐγείρετε, λεπροὺς καθαρίζετε, δαιμόνια ἐκβάλλετε; δωρεὰν ἐλάβετε, δωρεὰν δότε. \n",
-    "occurrence": "1",
-    "GLQuote": "Heal ... raise ... cleanse ... cast out ... you have received ... give"
-  },
-  {
-    "bookId": "MAT",
-    "chapter": 10,
-    "verse": 13,
-    "SupportReference": "figs-you",
-    "OrigQuote": "ὑμῶν ... ὑμῶν",
-    "wholeQuote": "ὑμῶνὶ ἐὰν μὲν ᾖ ἡ οἰκία ἀξία, ἐλθάτω ἡ εἰρήνη ὑμῶν",
-    "verseString": " καὶ ἐὰν μὲν ᾖ ἡ οἰκία ἀξία, ἐλθάτω ἡ εἰρήνη ὑμῶν ἐπ’ αὐτήν; ἐὰν δὲ μὴ ᾖ ἀξία, ἡ εἰρήνη ὑμῶν πρὸς ὑμᾶς ἐπιστραφήτω. \n",
-    "occurrence": "1",
-    "GLQuote": "your ... your"
-  },
-  {
-    "bookId": "MAT",
-    "chapter": 13,
-    "verse": 16,
-    "SupportReference": "figs-you",
-    "OrigQuote": "ὑμῶν ... ὑμῶν",
-    "wholeQuote": "ὑμῶν ὑμῶν",
-    "verseString": " ὑμῶν δὲ μακάριοι οἱ ὀφθαλμοὶ ὅτι βλέπουσιν, καὶ τὰ ὦτα ὑμῶν ὅτι ἀκούουσιν. \n",
-    "occurrence": "1",
-    "GLQuote": "your ... your"
   },
   {
     "bookId": "MAT",
@@ -196,17 +163,6 @@
     "verseString": " καὶ ἤκουσεν ὁ βασιλεὺς Ἡρῴδης, φανερὸν γὰρ ἐγένετο τὸ ὄνομα αὐτοῦ, καὶ ἔλεγον, ὅτι \"Ἰωάννης ὁ βαπτίζων ἐγήγερται ἐκ νεκρῶν, καὶ διὰ τοῦτο ἐνεργοῦσιν αἱ δυνάμεις ἐν αὐτῷ.\" \n",
     "occurrence": "1",
     "GLQuote": "Some were saying, \"John the Baptist has been raised"
-  },
-  {
-    "bookId": "MRK",
-    "chapter": 8,
-    "verse": 28,
-    "SupportReference": "figs-ellipsis",
-    "OrigQuote": "ἄλλοι ... ἄλλοι",
-    "wholeQuote": "ἄλλοιδὲ εἶπαν αὐτῷ λέγοντες, ὅτι \"Ἰωάννην τὸν Βαπτιστήν, καὶ ἄλλοι",
-    "verseString": " οἱ δὲ εἶπαν αὐτῷ λέγοντες, ὅτι \"Ἰωάννην τὸν Βαπτιστήν, καὶ ἄλλοι Ἠλείαν, ἄλλοι δὲ ὅτι εἷς τῶν προφητῶν.\" \n",
-    "occurrence": "1",
-    "GLQuote": "Others say ... others"
   },
   {
     "bookId": "MRK",
@@ -335,7 +291,7 @@
     "verse": 10,
     "SupportReference": "figs-gendernotations",
     "OrigQuote": "ὁ πιστὸς ... καὶ ... πιστός ἐστιν ... ὁ ... ἄδικος ... καὶ ... ἄδικός ἐστιν",
-    "wholeQuote": "ὁ πιστὸς ἐν ἐλαχίστῳ, καὶ πιστός ἐστιν ὁ ἄδικος καὶ ἐν πολλῷ πιστός ἐστιν; καὶ ὁ ἐν ἐλαχίστῳ ἄδικος, καὶ καὶ ἄδικός ἐστιν. \n ἄδικός ἐστιν",
+    "wholeQuote": "ὁ πιστὸς ἐν ἐλαχίστῳ, καὶ ἐν πολλῷ πιστός ἐστινν ἐλαχίστῳ, καὶ ἐν πολλῷ πιστός ἐστιν; καὶ ὁ ἐν ἐλαχίστῳ ἄδικος, καὶ ἐν πολλῷ ἄδικός ἐστιν",
     "verseString": " ὁ πιστὸς ἐν ἐλαχίστῳ, καὶ ἐν πολλῷ πιστός ἐστιν; καὶ ὁ ἐν ἐλαχίστῳ ἄδικος, καὶ ἐν πολλῷ ἄδικός ἐστιν. \n",
     "occurrence": "1",
     "GLQuote": "He who is faithful ... is also faithful ... he who is unrighteous ... is also unrighteous"
@@ -551,17 +507,6 @@
   },
   {
     "bookId": "ROM",
-    "chapter": 5,
-    "verse": 8,
-    "SupportReference": "figs-inclusive",
-    "OrigQuote": "ἡμῶν ... ἡμῶν",
-    "wholeQuote": "ἡμῶν ἡμῶν",
-    "verseString": " συνίστησιν δὲ τὴν ἑαυτοῦ ἀγάπην εἰς ἡμᾶς ὁ Θεὸς, ὅτι ἔτι ἁμαρτωλῶν ὄντων ἡμῶν, Χριστὸς ὑπὲρ ἡμῶν ἀπέθανεν. \n",
-    "occurrence": "1",
-    "GLQuote": "us ... we "
-  },
-  {
-    "bookId": "ROM",
     "chapter": 7,
     "verse": 1,
     "SupportReference": "figs-rquestion",
@@ -570,17 +515,6 @@
     "verseString": " ἢ ἀγνοεῖτε, ἀδελφοί (γινώσκουσιν γὰρ νόμον λαλῶ), ὅτι ὁ νόμος κυριεύει τοῦ ἀνθρώπου ἐφ’ ὅσον χρόνον ζῇ? \n",
     "occurrence": "1",
     "GLQuote": "do you not know, brothers ... that the law controls a person for as long as he lives? "
-  },
-  {
-    "bookId": "ROM",
-    "chapter": 7,
-    "verse": 13,
-    "SupportReference": "figs-personification",
-    "OrigQuote": "ἡ ἁμαρτία ... μοι κατεργαζομένη θάνατον;",
-    "wholeQuote": "ἡ ἁμαρτία μοι κατεργαζομένη θάνατον;",
-    "verseString": " τὸ οὖν ἀγαθὸν ἐμοὶ ἐγένετο θάνατος? μὴ γένοιτο! ἀλλὰ ἡ ἁμαρτία, ἵνα φανῇ ἁμαρτία διὰ τοῦ ἀγαθοῦ μοι κατεργαζομένη θάνατον; ἵνα γένηται καθ’ ὑπερβολὴν ἁμαρτωλὸς ἡ ἁμαρτία διὰ τῆς ἐντολῆς. \n",
-    "occurrence": "1",
-    "GLQuote": "sin ... brought about death in me "
   },
   {
     "bookId": "ROM",
@@ -661,17 +595,6 @@
   },
   {
     "bookId": "1CO",
-    "chapter": 1,
-    "verse": 27,
-    "SupportReference": "figs-parallelism",
-    "OrigQuote": "ἐξελέξατο ὁ Θεός ... τοὺς σοφούς ... ἐξελέξατο ὁ Θεός ... τὰ ἰσχυρά",
-    "wholeQuote": "ἐξελέξατο ὁ Θεός, ἵνα καταισχύνῃ τοὺς σοφούςἐξελέξατο ὁ Θεός, ἵνα καταισχύνῃ τὰ ἰσχυρά",
-    "verseString": " ἀλλὰ τὰ μωρὰ τοῦ κόσμου ἐξελέξατο ὁ Θεός, ἵνα καταισχύνῃ τοὺς σοφούς; καὶ τὰ ἀσθενῆ τοῦ κόσμου ἐξελέξατο ὁ Θεός, ἵνα καταισχύνῃ τὰ ἰσχυρά; \n",
-    "occurrence": "1",
-    "GLQuote": "God chose ... wise. God chose ... strong"
-  },
-  {
-    "bookId": "1CO",
     "chapter": 3,
     "verse": 9,
     "SupportReference": "figs-metaphor",
@@ -680,17 +603,6 @@
     "verseString": " Θεοῦ γάρ ἐσμεν συνεργοί; Θεοῦ γεώργιον, Θεοῦ οἰκοδομή ἐστε. \n",
     "occurrence": "1",
     "GLQuote": "You are God's garden"
-  },
-  {
-    "bookId": "1CO",
-    "chapter": 4,
-    "verse": 7,
-    "SupportReference": "figs-you",
-    "OrigQuote": "σε ... ἔχεις ... ἔλαβες ... ἔλαβες ... καυχᾶσαι ... λαβών",
-    "wholeQuote": "σε διακρίνει? τί δὲ ἔχεις ὃ οὐκ ἔλαβεςἔλαβεςκαυχᾶσαι λαβών? \n λαβών",
-    "verseString": " τίς γάρ σε διακρίνει? τί δὲ ἔχεις ὃ οὐκ ἔλαβες? εἰ δὲ καὶ ἔλαβες, τί καυχᾶσαι ὡς μὴ λαβών? \n",
-    "occurrence": "1",
-    "GLQuote": "between you ... do you have that you did not ... you have freely ... do you boast ... you had not"
   },
   {
     "bookId": "1CO",
@@ -724,17 +636,6 @@
     "verseString": " ἑτέρῳ πίστις ἐν τῷ αὐτῷ Πνεύματι, ἄλλῳ δὲ χαρίσματα ἰαμάτων ἐν τῷ ἑνὶ Πνεύματι, \n",
     "occurrence": "1",
     "GLQuote": "is given"
-  },
-  {
-    "bookId": "1CO",
-    "chapter": 15,
-    "verse": 55,
-    "SupportReference": "figs-you",
-    "OrigQuote": "σου ... σου",
-    "wholeQuote": "σουποῦ σου",
-    "verseString": " \"ποῦ σου, θάνατε, τὸ νῖκος? ποῦ σου, θάνατε, τὸ κέντρον?\" \n",
-    "occurrence": "1",
-    "GLQuote": "your ... your"
   },
   {
     "bookId": "2CO",
@@ -999,17 +900,6 @@
     "verseString": " καὶ \"τὴν περικεφαλαίαν τοῦ σωτηρίου\" δέξασθε, καὶ τὴν μάχαιραν τοῦ Πνεύματος, ὅ ἐστιν ῥῆμα Θεοῦ ; \n",
     "occurrence": "1",
     "GLQuote": "take the helmet of salvation"
-  },
-  {
-    "bookId": "COL",
-    "chapter": 1,
-    "verse": 7,
-    "SupportReference": "figs-exclusive",
-    "OrigQuote": "ἡμῶν ... ἡμῶν",
-    "wholeQuote": "ἡμῶν ἡμῶν",
-    "verseString": " καθὼς ἐμάθετε ἀπὸ Ἐπαφρᾶ, τοῦ ἀγαπητοῦ συνδούλου ἡμῶν, ὅς ἐστιν πιστὸς ὑπὲρ ἡμῶν διάκονος τοῦ Χριστοῦ, \n",
-    "occurrence": "1",
-    "GLQuote": "our beloved ... our behalf"
   },
   {
     "bookId": "COL",
@@ -1827,39 +1717,6 @@
   },
   {
     "bookId": "REV",
-    "chapter": 1,
-    "verse": 8,
-    "SupportReference": "figs-metaphor",
-    "OrigQuote": "τὸ Ἄλφα καὶ τὸ Ὦ”",
-    "wholeQuote": "τὸ Ἄλφα καὶ τὸ Ὦ\"",
-    "verseString": " \"ἐγώ εἰμι τὸ Ἄλφα καὶ τὸ.\", λέγει Κύριος, ὁ Θεός, \"ὁ ὢν, καὶ ὁ ἦν, καὶ ὁ ἐρχόμενος, ὁ Παντοκράτωρ.\" \n",
-    "occurrence": "1",
-    "GLQuote": "the alpha and the omega"
-  },
-  {
-    "bookId": "REV",
-    "chapter": 1,
-    "verse": 11,
-    "SupportReference": "translate-names",
-    "OrigQuote": "Σμύρναν ... Πέργαμον ... Θυάτειρα ... Σάρδεις ... Φιλαδέλφιαν ... Λαοδίκιαν",
-    "wholeQuote": "Σμύρναν, καὶ εἰς Πέργαμον, καὶ εἰς Θυάτειρα, καὶ εἰς ΣάρδειςΦιλαδέλφιαν Λαοδίκιαν.\" \n Λαοδίκιαν",
-    "verseString": " λεγούσης, \"ὃ βλέπεις γράψον εἰς βιβλίον, καὶ πέμψον ταῖς ἑπτὰ ἐκκλησίαις: εἰς Ἔφεσον, καὶ εἰς Σμύρναν, καὶ εἰς Πέργαμον, καὶ εἰς Θυάτειρα, καὶ εἰς Σάρδεις, καὶ εἰς Φιλαδέλφιαν, καὶ εἰς Λαοδίκιαν.\" \n",
-    "occurrence": "1",
-    "GLQuote": "Smyrna ... Pergamum ... Thyatira ... Sardis ... Philadelphia ... Laodicea"
-  },
-  {
-    "bookId": "REV",
-    "chapter": 13,
-    "verse": 5,
-    "SupportReference": "figs-activepassive",
-    "OrigQuote": "ἐδόθη αὐτῷ ... ἐδόθη αὐτῷ",
-    "wholeQuote": "ἐδόθη αὐτῷ ἐδόθη αὐτῷ",
-    "verseString": " καὶ ἐδόθη αὐτῷ στόμα λαλοῦν μεγάλα καὶ βλασφημίας, καὶ ἐδόθη αὐτῷ ἐξουσία ποιῆσαι μῆνας τεσσεράκοντα δύο. \n",
-    "occurrence": "1",
-    "GLQuote": "The beast was given ... It was permitted"
-  },
-  {
-    "bookId": "REV",
     "chapter": 16,
     "verse": 15,
     "SupportReference": "figs-explicit",
@@ -1890,17 +1747,6 @@
     "verseString": " καὶ ἐκ τοῦ στόματος αὐτοῦ ἐκπορεύεται ῥομφαία ὀξεῖα, ἵνα ἐν αὐτῇ πατάξῃ τὰ ἔθνη; \"καὶ αὐτὸς ποιμανεῖ αὐτοὺς ἐν ῥάβδῳ σιδηρᾷ\"; καὶ αὐτὸς πατεῖ τὴν ληνὸν τοῦ οἴνου τοῦ θυμοῦ τῆς ὀργῆς τοῦ Θεοῦ τοῦ Παντοκράτορος. \n",
     "occurrence": "1",
     "GLQuote": "He tramples in the winepress of the fury of the wrath of God Almighty"
-  },
-  {
-    "bookId": "REV",
-    "chapter": 21,
-    "verse": 20,
-    "SupportReference": "translate-unknown",
-    "OrigQuote": "σαρδόνυξ ... σάρδιον ... χρυσόλιθος ... βήρυλλος ... τοπάζιον ... χρυσόπρασος ... ὑάκινθος ... ἀμέθυστος",
-    "wholeQuote": "σαρδόνυξ, ὁ ἕκτος σάρδιον, ὁ ἕβδομος χρυσόλιθος, ὁ ὄγδοος βήρυλλοςτοπάζιονχρυσόπρασος, ὁ ἑνδέκατος ὑάκινθος, ὁ δωδέκατος ἀμέθυστος. χρυσόπρασος, ὁ δωδέκατοςὑάκινθος ἀμέθυστος",
-    "verseString": " ὁ πέμπτος σαρδόνυξ, ὁ ἕκτος σάρδιον, ὁ ἕβδομος χρυσόλιθος, ὁ ὄγδοος βήρυλλος, ὁ ἔνατος τοπάζιον, ὁ δέκατος χρυσόπρασος, ὁ ἑνδέκατος ὑάκινθος, ὁ δωδέκατος ἀμέθυστος. \n",
-    "occurrence": "1",
-    "GLQuote": "onyx ... chrysolite ... beryl ... topaz ... chrysoprase ... jacinth ... amethyst"
   },
   {
     "bookId": "REV",

@@ -26,7 +26,7 @@ export function verseObjectsToString(verseObjects) {
       // join strings
       .join('')
       // remove double spaces
-      .replace(/  /gi, '')
+      .replace(/  /gi, ' ')
       // remove spaces before commas
       .replace(/ , /gi, ', ')
       // remove spaces before periods
