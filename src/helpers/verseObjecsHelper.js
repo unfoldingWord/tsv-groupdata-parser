@@ -38,6 +38,6 @@ export function verseObjectsToString(verseObjects) {
       // remove spaces before question marks
       .replace(/\s+([?])/gi, '$1')
       // remove whitespace from the beginning
-      .trimStart()
+      .trimLeft()
   )
 }
