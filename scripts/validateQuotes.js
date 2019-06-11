@@ -120,7 +120,7 @@ function runOriginalQuoteValidator() {
   const RESOURCE_PATH = path.join(ospath.home(), 'translationCore', 'resources')
   const UGNT_PATH = getLatestVersion(path.join(RESOURCE_PATH, 'el-x-koine', 'bibles', 'ugnt'))
   const UHB_PATH = getLatestVersion(path.join(RESOURCE_PATH, 'hbo', 'bibles', 'uhb'))
-  const tsvFilesPath = path.join(ospath.home(), 'Downloads', 'en_tn2')
+  const tsvFilesPath = path.join(ospath.home(), 'Downloads', 'en_tn')
 
   validateTsvQuotes({ UGNT_PATH, UHB_PATH }, tsvFilesPath).then(corruptedQuotes => {
     console.info('Number of corrupted quotes:', corruptedQuotes.length)
