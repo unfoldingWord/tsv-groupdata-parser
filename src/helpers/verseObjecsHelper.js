@@ -33,7 +33,11 @@ export function verseObjectsToString(verseObjects) {
       .replace(/ ."/gi, '."')
       // remove space before apostrophes
       .replace(/ ’./gi, '’.')
+      // replace space before semicolon
+      .replace(/ ; /gi, '; ')
       // remove spaces before question marks
       .replace(/\s+([?])/gi, '$1')
+      // remove whitespace from the beginning
+      .trimLeft()
   )
 }
