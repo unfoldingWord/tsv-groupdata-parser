@@ -1,11 +1,11 @@
 export function cleanQuoteString(quote) {
   return (
     quote
-      // replace weird closing quotation mark with correct one
+      // replace smart closing quotation mark with correct one
       .replace(/\”/gi, '"')
-      // remove space before opening quotation mark
+      // remove space before smart opening quotation mark
       .replace(/\“ /gi, '"')
-      // replace weird opening quotation mark with correct one
+      // replace smart opening quotation mark with correct one
       .replace(/\“/gi, '"')
       // add space after
       .replace(/,\"/gi, ', "')
