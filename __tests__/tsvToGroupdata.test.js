@@ -6,8 +6,10 @@ import { tsvToGroupData, cleanGroupId, cleanArticleLink } from '../src/tsvToGrou
 import titGroupData from './fixtures/tit_groupData.json'
 import titCategorizedGroupData from './fixtures/tit_categorizedGroupData.json'
 import mrkCategorizedGroupData from './fixtures/mrk_categorizedGroupData.json'
+import rutCategorizedGroupData from './fixtures/rut_categorizedGroupData.json'
 // constants
 const ORIGINAL_BIBLE_PATH = path.join('__tests__', 'fixtures', 'resources', 'el-x-koine', 'bibles', 'ugnt', 'v0.5')
+const OLD_TESTAMENT_BIBLE_PATH = path.join('__tests__', 'fixtures', 'resources', 'hbo', 'bibles', 'uhb', 'v2.1.7')
 
 describe('tsvToGroupData():', () => {
   test('Parses a book tN TSVs to an object with a lists of group ids', async () => {
@@ -36,6 +38,13 @@ describe('tsvToGroupData():', () => {
     const result = await tsvToGroupData(filepath, 'translationNotes', { categorized: true }, ORIGINAL_BIBLE_PATH)
 
     expect(result).toEqual(mrkCategorizedGroupData)
+  })
+
+  test('It returns the categorized group data for RUT.tsv', async () => {
+    const filepath = '__tests__/fixtures/tsv/en_tn_08-RUT.tsv'
+    const result = await tsvToGroupData(filepath, 'translationNotes', { categorized: true }, OLD_TESTAMENT_BIBLE_PATH)
+
+    expect(result).toEqual(rutCategorizedGroupData)
   })
 })
 

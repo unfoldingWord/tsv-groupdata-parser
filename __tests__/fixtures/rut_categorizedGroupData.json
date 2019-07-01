@@ -1,0 +1,2334 @@
+{
+  "culture": {
+    "figs-explicit": [
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "in the land",
+          "groupId": "figs-explicit",
+          "occurrence": 1,
+          "occurrenceNote": "This refers to the land of Israel. Alternate translation: \"in the land of Israel\" (See: [[rc://en/ta/man/translate/figs-explicit]])",
+          "quote": "בָּ​אָ֑רֶץ",
+          "reference": {
+            "bookId": "rut",
+            "chapter": 1,
+            "verse": 1
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "she had heard in the country of Moab",
+          "groupId": "figs-explicit",
+          "occurrence": 1,
+          "occurrenceNote": "\"while Naomi was living in Moab she heard.\" It is implied that the news came from Israel. Alternate translation: \"she heard from Israel while in the region of Moab\" (See: [[rc://en/ta/man/translate/figs-explicit]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "שָֽׁמְעָה֙"
+            },
+            {
+              "occurrence": 1,
+              "word": "בִּ⁠שְׂדֵ֣ה"
+            },
+            {
+              "occurrence": 1,
+              "word": "מוֹאָ֔ב"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 1,
+            "verse": 6
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "I am too old to have a husband",
+          "groupId": "figs-explicit",
+          "occurrence": 1,
+          "occurrenceNote": "The reason a husband would be important can be stated clearly. Alternate translation: \"too old to marry again and bear more children\" (See: [[rc://en/ta/man/translate/figs-explicit]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "זָקַ֖נְתִּי"
+            },
+            {
+              "occurrence": 1,
+              "word": "מִ⁠הְי֣וֹת"
+            },
+            {
+              "occurrence": 1,
+              "word": "לְ⁠אִ֑ישׁ"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 1,
+            "verse": 12
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "but Ruth held on to her",
+          "groupId": "figs-explicit",
+          "occurrence": 1,
+          "occurrenceNote": "\"Ruth clung to her.\" Alternate translation: \"Ruth refused to leave her\" or \"Ruth would not leave her\" (See: [[rc://en/ta/man/translate/figs-explicit]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "וְ⁠ר֖וּת"
+            },
+            {
+              "occurrence": 1,
+              "word": "דָּ֥בְקָה"
+            },
+            {
+              "occurrence": 1,
+              "word": "בָּֽ⁠הּ"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 1,
+            "verse": 14
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "your people will be my people",
+          "groupId": "figs-explicit",
+          "occurrence": 1,
+          "occurrenceNote": "Ruth is referring to Naomi's people, the Israelites. Alternate translation: \"I will consider the people of your country as being my own people\" or \"I will consider your relatives as my own relatives\" (See: [[rc://en/ta/man/translate/figs-explicit]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "עַמֵּ֣⁠ךְ"
+            },
+            {
+              "occurrence": 1,
+              "word": "עַמִּ֔⁠י"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 1,
+            "verse": 16
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "She lifted it up and went into the city",
+          "groupId": "figs-explicit",
+          "occurrence": 1,
+          "occurrenceNote": "It is implied that Ruth carried the grain home. (See: [[rc://en/ta/man/translate/figs-explicit]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "וַ⁠תִּשָּׂא֙"
+            },
+            {
+              "occurrence": 1,
+              "word": "וַ⁠תָּב֣וֹא"
+            },
+            {
+              "occurrence": 1,
+              "word": "הָ⁠עִ֔יר"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 2,
+            "verse": 18
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "young female workers you were with",
+          "groupId": "figs-explicit",
+          "occurrence": 1,
+          "occurrenceNote": "The translation can make explicit that she was working in the fields with these female workers. Alternate translation: \"female workers you have been with in the fields\" (See: [[rc://en/ta/man/translate/figs-explicit]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "הָיִ֖ית"
+            },
+            {
+              "occurrence": 1,
+              "word": "אֶת"
+            },
+            {
+              "occurrence": 1,
+              "word": "־"
+            },
+            {
+              "occurrence": 1,
+              "word": "נַעֲרוֹתָ֑י⁠ו"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 3,
+            "verse": 2
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "if he will redeem you",
+          "groupId": "figs-explicit",
+          "occurrence": 1,
+          "occurrenceNote": "Boaz is referring to the expectation that the closest male relative of Ruth's dead husband would marry her and help carry on his family name. (See: [[rc://en/ta/man/translate/figs-explicit]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "אִם"
+            },
+            {
+              "occurrence": 1,
+              "word": "־"
+            },
+            {
+              "occurrence": 1,
+              "word": "יִגְאָלֵ֥⁠ךְ"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 3,
+            "verse": 13
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "How did it go, my daughter?",
+          "groupId": "figs-explicit",
+          "occurrence": 1,
+          "occurrenceNote": "What Ruth meant by this question can be made more clear. Alternate translation: \"What happened, my daughter?\" or \"How did Boaz act toward you?\" (See: [[rc://en/ta/man/translate/figs-explicit]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "מִי"
+            },
+            {
+              "occurrence": 1,
+              "word": "־"
+            },
+            {
+              "occurrence": 1,
+              "word": "אַ֣תְּ"
+            },
+            {
+              "occurrence": 1,
+              "word": "בִּתִּ֑⁠י"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 3,
+            "verse": 16
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "the father of David",
+          "groupId": "figs-explicit",
+          "occurrence": 1,
+          "occurrenceNote": "\"father of King David.\" Though \"king\" is not stated, it was clear to the original audience that David was King David. (See: [[rc://en/ta/man/translate/figs-explicit]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "אֲבִ֥י"
+            },
+            {
+              "occurrence": 1,
+              "word": "דָוִֽד"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 4,
+            "verse": 17
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      }
+    ],
+    "translate-bvolume": [
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "about an ephah of barley",
+          "groupId": "translate-bvolume",
+          "occurrence": 1,
+          "occurrenceNote": "An ephah is a unit of measurement equal to about 22 liters. Alternate translation: \"about 22 liters of barley\" (See: [[rc://en/ta/man/translate/translate-bvolume]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "כְּ⁠אֵיפָ֥ה"
+            },
+            {
+              "occurrence": 1,
+              "word": "שְׂעֹרִֽים"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 2,
+            "verse": 17
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      }
+    ],
+    "translate-names": [
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "Bitter",
+          "groupId": "translate-names",
+          "occurrence": 1,
+          "occurrenceNote": "This is a translation of the meaning of the name. It is also often translated according to its sound as \"Mara.\" (See: [[rc://en/ta/man/translate/translate-names]])",
+          "quote": "מָרָ֔א",
+          "reference": {
+            "bookId": "rut",
+            "chapter": 1,
+            "verse": 20
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "Hezron ... Ram",
+          "groupId": "translate-names",
+          "occurrence": 1,
+          "occurrenceNote": "(See: [[rc://en/ta/man/translate/translate-names]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "וְ⁠חֶצְרוֹן֙"
+            },
+            {
+              "word": "…"
+            },
+            {
+              "occurrence": 1,
+              "word": "רָ֔ם"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 4,
+            "verse": 19
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      }
+    ],
+    "translate-symaction": [
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "uncover his feet",
+          "groupId": "translate-symaction",
+          "occurrence": 1,
+          "occurrenceNote": "This means to remove the cloak or blanket covering his feet so that they would be exposed to the cold. (See: [[rc://en/ta/man/translate/translate-symaction]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "וְ⁠גִלִּ֥ית"
+            },
+            {
+              "occurrence": 1,
+              "word": "מַרְגְּלֹתָ֖י⁠ו"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 3,
+            "verse": 4
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      }
+    ]
+  },
+  "discourse": {
+    "writing-background": [
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "Now Naomi had a relative of her husband",
+          "groupId": "writing-background",
+          "occurrence": 1,
+          "occurrenceNote": "This phrase introduces new information before the story continues. Your language may have a way to introduce new information. (See: [[rc://en/ta/man/translate/writing-background]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "וּֽ⁠לְ⁠נָעֳמִ֞י"
+            },
+            {
+              "occurrence": 1,
+              "word": "מידע"
+            },
+            {
+              "occurrence": 1,
+              "word": "לְ⁠אִישָׁ֗⁠הּ"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 2,
+            "verse": 1
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "Now this was the custom",
+          "groupId": "writing-background",
+          "occurrence": 1,
+          "occurrenceNote": "The writer of the book explains of the custom of exchange during the time of Ruth. (See: [[rc://en/ta/man/translate/writing-background]])",
+          "quote": "וְ⁠זֹאת֩",
+          "reference": {
+            "bookId": "rut",
+            "chapter": 4,
+            "verse": 7
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "in former times",
+          "groupId": "writing-background",
+          "occurrence": 1,
+          "occurrenceNote": "\"in earlier times.\" This implies that the customs had changed from when the story took place until the book was written. (See: [[rc://en/ta/man/translate/writing-background]])",
+          "quote": "לְ⁠פָנִ֨ים",
+          "reference": {
+            "bookId": "rut",
+            "chapter": 4,
+            "verse": 7
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      }
+    ],
+    "writing-endofstory": [
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "So Naomi returned, with Ruth",
+          "groupId": "writing-endofstory",
+          "occurrence": 1,
+          "occurrenceNote": "This begins a summary statement. English marks this by the word \"so.\" Determine how your language marks concluding or summary statements and do the same. (See: [[rc://en/ta/man/translate/writing-endofstory]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "וַ⁠תָּ֣שָׁב"
+            },
+            {
+              "occurrence": 1,
+              "word": "נָעֳמִ֗י"
+            },
+            {
+              "occurrence": 1,
+              "word": "וְ⁠ר֨וּת"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 1,
+            "verse": 22
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      }
+    ],
+    "writing-newevent": [
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "It happened that",
+          "groupId": "writing-newevent",
+          "occurrence": 1,
+          "occurrenceNote": "\"It came about.\" This is marking a new story line. (See: [[rc://en/ta/man/translate/writing-newevent]])",
+          "quote": "וַ⁠יְהִ֗י",
+          "reference": {
+            "bookId": "rut",
+            "chapter": 1,
+            "verse": 19
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      }
+    ]
+  },
+  "figures": {
+    "figs-doublenegatives": [
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "who has not forsaken his loving kindness",
+          "groupId": "figs-doublenegatives",
+          "occurrence": 1,
+          "occurrenceNote": "\"who has continued to be loyal.\" Possible meanings are 1) Boaz remembered his obligations to Naomi as a family member or 2) Naomi is referring to Yahweh, who was acting through Boaz or 3) Yahweh has continued to be faithful to the living and the dead. (See: [[rc://en/ta/man/translate/figs-doublenegatives]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "אֲשֶׁר֙"
+            },
+            {
+              "occurrence": 1,
+              "word": "לֹא"
+            },
+            {
+              "occurrence": 1,
+              "word": "־"
+            },
+            {
+              "occurrence": 1,
+              "word": "עָזַ֣ב"
+            },
+            {
+              "occurrence": 1,
+              "word": "חַסְדּ֔⁠וֹ"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 2,
+            "verse": 20
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "who has not left you today without a kinsman=redeemer",
+          "groupId": "figs-doublenegatives",
+          "occurrence": 1,
+          "occurrenceNote": "This phrase can be expressed positively. Alternate translation: \"who has provided you today with a near kinsman\" (See: [[rc://en/ta/man/translate/figs-doublenegatives]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "לֹ֣א"
+            },
+            {
+              "occurrence": 1,
+              "word": "הִשְׁבִּ֥ית"
+            },
+            {
+              "occurrence": 1,
+              "word": "לָ֛⁠ךְ"
+            },
+            {
+              "occurrence": 1,
+              "word": "גֹּאֵ֖ל"
+            },
+            {
+              "occurrence": 1,
+              "word": "הַ⁠יּ֑וֹם"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 4,
+            "verse": 14
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      }
+    ],
+    "figs-euphemism": [
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "He went in to her",
+          "groupId": "figs-euphemism",
+          "occurrence": 1,
+          "occurrenceNote": "This is a euphemism that refers to having sexual intercourse. Alternate translation: \"He had sexual relations with her\" (See: [[rc://en/ta/man/translate/figs-euphemism]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "וַ⁠יָּבֹ֖א"
+            },
+            {
+              "occurrence": 1,
+              "word": "אֵלֶ֑י⁠הָ"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 4,
+            "verse": 13
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      }
+    ],
+    "figs-idiom": [
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "took wives",
+          "groupId": "figs-idiom",
+          "occurrence": 1,
+          "occurrenceNote": "\"married women.\" This is an idiom for marrying women. They did not take women who were already married. (See: [[rc://en/ta/man/translate/figs-idiom]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "וַ"
+            },
+            {
+              "occurrence": 1,
+              "word": "יִּשְׂ"
+            },
+            {
+              "word": "…"
+            },
+            {
+              "occurrence": 1,
+              "word": "נָשִׁים֙"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 1,
+            "verse": 4
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "they walked down the road",
+          "groupId": "figs-idiom",
+          "occurrence": 1,
+          "occurrenceNote": "\"they walked along the road.\" To walk down a road is an expression for walking away. (See: [[rc://en/ta/man/translate/figs-idiom]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "וַ⁠תֵּלַ֣כְנָה"
+            },
+            {
+              "occurrence": 1,
+              "word": "בַ⁠דֶּ֔רֶךְ"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 1,
+            "verse": 7
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "with the dead",
+          "groupId": "figs-idiom",
+          "occurrence": 1,
+          "occurrenceNote": "\"to your husbands, who died.\" Naomi was referring to her two sons that died. (See: [[rc://en/ta/man/translate/figs-idiom]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "עִם"
+            },
+            {
+              "occurrence": 1,
+              "word": "־"
+            },
+            {
+              "occurrence": 1,
+              "word": "הַ⁠מֵּתִ֖ים"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 1,
+            "verse": 8
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "and they lifted up their voices and cried",
+          "groupId": "figs-idiom",
+          "occurrence": 1,
+          "occurrenceNote": "To raise the voice is an idiom for speaking loudly. The daughters cried out loud or wept bitterly. (See: [[rc://en/ta/man/translate/figs-idiom]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "וַ⁠תִּשֶּׂ֥אנָה"
+            },
+            {
+              "occurrence": 1,
+              "word": "קוֹלָ֖⁠ן"
+            },
+            {
+              "occurrence": 1,
+              "word": "וַ⁠תִּבְכֶּֽינָה"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 1,
+            "verse": 9
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "Then they lifted up their voices and cried",
+          "groupId": "figs-idiom",
+          "occurrence": 1,
+          "occurrenceNote": "This means that they cried out loud or wept bitterly. (See: [[rc://en/ta/man/translate/figs-idiom]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "וַ⁠תִּשֶּׂ֣נָה"
+            },
+            {
+              "occurrence": 1,
+              "word": "קוֹלָ֔⁠ן"
+            },
+            {
+              "occurrence": 1,
+              "word": "וַ⁠תִּבְכֶּ֖ינָה"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 1,
+            "verse": 14
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "Where you die, I will die",
+          "groupId": "figs-idiom",
+          "occurrence": 1,
+          "occurrenceNote": "This refers to Ruth's desire to spend the rest of her life living in the same place and town as Naomi. (See: [[rc://en/ta/man/translate/figs-idiom]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "בַּ⁠אֲשֶׁ֤ר"
+            },
+            {
+              "occurrence": 1,
+              "word": "תָּמ֨וּתִי֙"
+            },
+            {
+              "occurrence": 1,
+              "word": "אָמ֔וּת"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 1,
+            "verse": 17
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "May Yahweh do to me, and even more, if",
+          "groupId": "figs-idiom",
+          "occurrence": 1,
+          "occurrenceNote": "This refers to Ruth asking God to punish her if she does not do what she said like the english idiom \"God forbid, if.\" (See: [[rc://en/ta/man/translate/figs-idiom]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "יַעֲשֶׂ֨ה"
+            },
+            {
+              "occurrence": 1,
+              "word": "יְהוָ֥ה"
+            },
+            {
+              "occurrence": 1,
+              "word": "לִ⁠י֙"
+            },
+            {
+              "occurrence": 1,
+              "word": "וְ⁠כֹ֣ה"
+            },
+            {
+              "occurrence": 1,
+              "word": "יֹסִ֔יף"
+            },
+            {
+              "occurrence": 1,
+              "word": "כִּ֣י"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 1,
+            "verse": 17
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "in whose eyes I will find favor",
+          "groupId": "figs-idiom",
+          "occurrence": 1,
+          "occurrenceNote": "The phrase \"found favor\" is an idiom which means to be approved of by someone. Ruth speaks of gaining someone's favor as gaining permission or approval. Also, the eyes represent seeing, and seeing represents thoughts and judgement. Alternate translation: \"who will grant me permission to glean\" (See: [[rc://en/ta/man/translate/figs-idiom]] and [[rc://en/ta/man/translate/figs-metaphor]] and [[rc://en/ta/man/translate/figs-metonymy]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "אֲשֶׁ֥ר"
+            },
+            {
+              "occurrence": 1,
+              "word": "אֶמְצָא"
+            },
+            {
+              "occurrence": 1,
+              "word": "־"
+            },
+            {
+              "occurrence": 1,
+              "word": "חֵ֖ן"
+            },
+            {
+              "occurrence": 1,
+              "word": "בְּ⁠עֵינָ֑י⁠ו"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 2,
+            "verse": 2
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "my daughter",
+          "groupId": "figs-idiom",
+          "occurrence": 1,
+          "occurrenceNote": "This was a kind way of addressing a younger woman. Ruth was not the actual daughter of Boaz, so make sure the translation of this does not make it sound like she was. (See: [[rc://en/ta/man/translate/figs-idiom]])",
+          "quote": "בִּתִּ֗⁠י",
+          "reference": {
+            "bookId": "rut",
+            "chapter": 2,
+            "verse": 8
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "Let me find favor in your eyes",
+          "groupId": "figs-idiom",
+          "occurrence": 1,
+          "occurrenceNote": "Here \"find favor\" is an idiom that means be approved of or that he is pleased with her. Here \"eyes\" are a metonym for sight, and  sight is a metaphor representing his evaluation. Alternate translation: \"Please accept me\" (See: [[rc://en/ta/man/translate/figs-idiom]] and [[rc://en/ta/man/translate/figs-metonymy]] and [[rc://en/ta/man/translate/figs-metaphor]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "אֶמְצָא"
+            },
+            {
+              "occurrence": 1,
+              "word": "־"
+            },
+            {
+              "occurrence": 1,
+              "word": "חֵ֨ן"
+            },
+            {
+              "occurrence": 1,
+              "word": "בְּ⁠עֵינֶ֤י⁠ךָ"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 2,
+            "verse": 13
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "go down to the threshing floor",
+          "groupId": "figs-idiom",
+          "occurrence": 1,
+          "occurrenceNote": "This refers to leaving the city and heading to the threshing area. (See: [[rc://en/ta/man/translate/figs-idiom]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "ו⁠ירדתי"
+            },
+            {
+              "occurrence": 1,
+              "word": "הַ⁠גֹּ֑רֶן"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 3,
+            "verse": 3
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "He turned over",
+          "groupId": "figs-idiom",
+          "occurrence": 1,
+          "occurrenceNote": "He looked to see what startled him. (See: [[rc://en/ta/man/translate/figs-idiom]])",
+          "quote": "וַ⁠יִּלָּפֵ֑ת",
+          "reference": {
+            "bookId": "rut",
+            "chapter": 3,
+            "verse": 8
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "Spread your cloak over your female servant",
+          "groupId": "figs-idiom",
+          "occurrence": 1,
+          "occurrenceNote": "This was a cultural idiom for marriage. Alternate translation: \"Marry me\" (See: [[rc://en/ta/man/translate/figs-idiom]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "וּ⁠פָרַשְׂתָּ֤"
+            },
+            {
+              "occurrence": 1,
+              "word": "כְנָפֶ֨⁠ךָ֙"
+            },
+            {
+              "occurrence": 1,
+              "word": "עַל"
+            },
+            {
+              "occurrence": 1,
+              "word": "־"
+            },
+            {
+              "occurrence": 1,
+              "word": "אֲמָ֣תְ⁠ךָ֔"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 3,
+            "verse": 9
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "because you have not gone after",
+          "groupId": "figs-idiom",
+          "occurrence": 1,
+          "occurrenceNote": "\"you have not pursued marriage with.\" Ruth could have ignored Naomi's need and looked for a husband for herself outside of Naomi's relatives. (See: [[rc://en/ta/man/translate/figs-idiom]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "לְ⁠בִלְתִּי"
+            },
+            {
+              "occurrence": 1,
+              "word": "־"
+            },
+            {
+              "occurrence": 1,
+              "word": "לֶ֗כֶת"
+            },
+            {
+              "occurrence": 1,
+              "word": "אַחֲרֵי֙"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 3,
+            "verse": 10
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "you must also acquire Ruth",
+          "groupId": "figs-idiom",
+          "occurrence": 1,
+          "occurrenceNote": "\"you must also marry Ruth\" (See: [[rc://en/ta/man/translate/figs-idiom]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "וּ֠⁠מֵ⁠אֵת"
+            },
+            {
+              "occurrence": 1,
+              "word": "ר֣וּת"
+            },
+            {
+              "word": "…"
+            },
+            {
+              "occurrence": 1,
+              "word": "קניתי"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 4,
+            "verse": 5
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "better to you than seven sons",
+          "groupId": "figs-idiom",
+          "occurrence": 1,
+          "occurrenceNote": "\"Seven\" was the Hebrew number of completeness. Naomi's sons both died before they produced any offspring, but Ruth bore a grandson to Naomi by Boaz. Alternate translation: \"better to you than any son\" (See: [[rc://en/ta/man/translate/figs-idiom]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "ט֣וֹבָה"
+            },
+            {
+              "occurrence": 1,
+              "word": "לָ֔⁠ךְ"
+            },
+            {
+              "occurrence": 1,
+              "word": "מִ⁠שִּׁבְעָ֖ה"
+            },
+            {
+              "occurrence": 1,
+              "word": "בָּנִֽים"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 4,
+            "verse": 15
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      }
+    ],
+    "figs-metaphor": [
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "It is exceedingly bitter to me",
+          "groupId": "figs-metaphor",
+          "occurrence": 1,
+          "occurrenceNote": "Bitterness is a metaphor for grief, and what grieves her can be stated clearly. Alternate translation: \"It greatly grieves me that you have no husbands\" (See: [[rc://en/ta/man/translate/figs-metaphor or figs-explicit]] and ",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "מַר"
+            },
+            {
+              "occurrence": 1,
+              "word": "־"
+            },
+            {
+              "occurrence": 1,
+              "word": "לִ֤⁠י"
+            },
+            {
+              "occurrence": 1,
+              "word": "מְאֹד֙"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 1,
+            "verse": 13
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "under whose wings you have come for refuge",
+          "groupId": "figs-metaphor",
+          "occurrence": 1,
+          "occurrenceNote": "Boaz uses the picture of a mother bird gathering her chicks under her wings to protect them, in order to describe God's protection for those who trust in him. Alternate translation: \"in whose safe care you have placed yourself\" (See: [[rc://en/ta/man/translate/figs-metaphor]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "אֲשֶׁר"
+            },
+            {
+              "occurrence": 1,
+              "word": "־"
+            },
+            {
+              "occurrence": 1,
+              "word": "בָּ֖את"
+            },
+            {
+              "occurrence": 1,
+              "word": "לַ⁠חֲס֥וֹת"
+            },
+            {
+              "occurrence": 1,
+              "word": "תַּֽחַת"
+            },
+            {
+              "occurrence": 2,
+              "word": "־"
+            },
+            {
+              "occurrence": 1,
+              "word": "כְּנָפָֽי⁠ו"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 2,
+            "verse": 12
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "rest for you",
+          "groupId": "figs-metaphor",
+          "occurrence": 1,
+          "occurrenceNote": "Possible meanings are 1) literally in finding a house for her to live in or 2) figuratively in finding a husband to care for her. Naomi probably had both senses in mind. (See: [[rc://en/ta/man/translate/figs-metaphor]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "לָ֛⁠ךְ"
+            },
+            {
+              "occurrence": 1,
+              "word": "מָנ֖וֹחַ"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 3,
+            "verse": 1
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "so that his name will not be cut off from among his brothers and from the gate of his place",
+          "groupId": "figs-metaphor",
+          "occurrence": 1,
+          "occurrenceNote": "Being forgotten is spoken of as if one's name were being cut off from a list of people who had lived earlier. Alternate translation: \"so that he will not be forgotten by his brothers' descendants and the people of this town\" (See: [[rc://en/ta/man/translate/figs-metaphor]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "וְ⁠לֹא"
+            },
+            {
+              "occurrence": 1,
+              "word": "־"
+            },
+            {
+              "occurrence": 1,
+              "word": "יִכָּרֵ֧ת"
+            },
+            {
+              "occurrence": 1,
+              "word": "שֵׁם"
+            },
+            {
+              "occurrence": 2,
+              "word": "־"
+            },
+            {
+              "occurrence": 1,
+              "word": "הַ⁠מֵּ֛ת"
+            },
+            {
+              "occurrence": 1,
+              "word": "מֵ⁠עִ֥ם"
+            },
+            {
+              "occurrence": 1,
+              "word": "אֶחָ֖י⁠ו"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 4,
+            "verse": 10
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "is coming into your house",
+          "groupId": "figs-metaphor",
+          "occurrence": 1,
+          "occurrenceNote": "This has literal and figurative meaning. As Ruth marries Boaz, she will move into his house. House can also refer to becoming part of Boaz's family by being his wife. (See: [[rc://en/ta/man/translate/figs-metaphor]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "הַ⁠בָּאָ֣ה"
+            },
+            {
+              "occurrence": 1,
+              "word": "אֶל"
+            },
+            {
+              "occurrence": 1,
+              "word": "־"
+            },
+            {
+              "occurrence": 1,
+              "word": "בֵּיתֶ֗⁠ךָ"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 4,
+            "verse": 11
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "May your house be like the house",
+          "groupId": "figs-metaphor",
+          "occurrence": 1,
+          "occurrenceNote": "God abundantly blessed Judah through his son Perez. The people were asking God to bless Boaz in a similar way through Ruth's children. (See: [[rc://en/ta/man/translate/figs-metaphor]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "וִ⁠יהִ֤י"
+            },
+            {
+              "occurrence": 1,
+              "word": "בֵֽיתְ⁠ךָ֙"
+            },
+            {
+              "occurrence": 1,
+              "word": "כְּ⁠בֵ֣ית"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 4,
+            "verse": 12
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      }
+    ],
+    "figs-metonymy": [
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "in the house of her husband",
+          "groupId": "figs-metonymy",
+          "occurrence": 1,
+          "occurrenceNote": "with their new husbands, not someone else's husband. This refers to both a physical house that belongs to the husband, and to the protection from shame by being married. (See: [[rc://en/ta/man/translate/figs-metonymy]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "בֵּ֣ית"
+            },
+            {
+              "occurrence": 1,
+              "word": "אִישָׁ֑⁠הּ"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 1,
+            "verse": 9
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "the hand of Yahweh has gone out against me",
+          "groupId": "figs-metonymy",
+          "occurrence": 1,
+          "occurrenceNote": "The word \"hand\" refers to Yahweh's power or influence. Alternate translation: \"Yahweh has caused terrible things to happen to me\" (See: [[rc://en/ta/man/translate/figs-metonymy]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "יָצְאָ֥ה"
+            },
+            {
+              "occurrence": 1,
+              "word": "בִ֖⁠י"
+            },
+            {
+              "occurrence": 1,
+              "word": "יַד"
+            },
+            {
+              "occurrence": 1,
+              "word": "־"
+            },
+            {
+              "occurrence": 1,
+              "word": "יְהוָֽה"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 1,
+            "verse": 13
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "the entire town",
+          "groupId": "figs-metonymy",
+          "occurrence": 1,
+          "occurrenceNote": "The \"town\" refer to the people who live there. Alternate translation: \"everyone in the town\" (See: [[rc://en/ta/man/translate/figs-metonymy]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "כָּל"
+            },
+            {
+              "occurrence": 1,
+              "word": "־"
+            },
+            {
+              "occurrence": 1,
+              "word": "הָ⁠עִיר֙"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 1,
+            "verse": 19
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "Keep your eyes on the field",
+          "groupId": "figs-metonymy",
+          "occurrence": 1,
+          "occurrenceNote": "The eyes represent watching something or paying attention to something. Alternate translation: \"Watch only the field\" or \"Pay attention only to the field\" (See: [[rc://en/ta/man/translate/figs-metonymy]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "עֵינַ֜יִ⁠ךְ"
+            },
+            {
+              "occurrence": 1,
+              "word": "בַּ⁠שָּׂדֶ֤ה"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 2,
+            "verse": 9
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "have come to a people",
+          "groupId": "figs-metonymy",
+          "occurrence": 1,
+          "occurrenceNote": "Boaz is referring to Ruth coming to dwell with Naomi in a village and community, a country, and religion she did not know. (See: [[rc://en/ta/man/translate/figs-metonymy]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "וַ⁠תֵּ֣לְכִ֔י"
+            },
+            {
+              "occurrence": 1,
+              "word": "אֶל"
+            },
+            {
+              "occurrence": 1,
+              "word": "־"
+            },
+            {
+              "occurrence": 1,
+              "word": "עַ֕ם"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 2,
+            "verse": 11
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      }
+    ],
+    "figs-parallelism": [
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "may full payment be given to you by Yahweh",
+          "groupId": "figs-parallelism",
+          "occurrence": 1,
+          "occurrenceNote": "This is a poetic expression that is very similar to the previous sentence. Alternate translation: \"May Yahweh give back to you even more than you have given\" (See: [[rc://en/ta/man/translate/figs-parallelism]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "וּ⁠תְהִ֨י"
+            },
+            {
+              "occurrence": 1,
+              "word": "מַשְׂכֻּרְתֵּ֜⁠ךְ"
+            },
+            {
+              "occurrence": 1,
+              "word": "שְׁלֵמָ֗ה"
+            },
+            {
+              "occurrence": 1,
+              "word": "מֵ⁠עִ֤ם"
+            },
+            {
+              "occurrence": 1,
+              "word": "יְהוָה֙"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 2,
+            "verse": 12
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "Where have you gleaned today, and where did you work?",
+          "groupId": "figs-parallelism",
+          "occurrence": 1,
+          "occurrenceNote": "Naomi said almost the same thing in two different ways to show that she was very interested in knowing what had happened to Ruth that day. (See: [[rc://en/ta/man/translate/figs-parallelism]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "אֵיפֹ֨ה"
+            },
+            {
+              "occurrence": 1,
+              "word": "לִקַּ֤טְתְּ"
+            },
+            {
+              "occurrence": 1,
+              "word": "הַ⁠יּוֹם֙"
+            },
+            {
+              "occurrence": 1,
+              "word": "וְ⁠אָ֣נָה"
+            },
+            {
+              "occurrence": 1,
+              "word": "עָשִׂ֔ית"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 2,
+            "verse": 19
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "That man is our relative, one of our kinsman-redeemers",
+          "groupId": "figs-parallelism",
+          "occurrence": 1,
+          "occurrenceNote": "The second phrase repeats and expands the first. This is a Hebrew style of emphasis. (See: [[rc://en/ta/man/translate/figs-parallelism]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "קָר֥וֹב"
+            },
+            {
+              "occurrence": 1,
+              "word": "לָ֨⁠נוּ֙"
+            },
+            {
+              "occurrence": 1,
+              "word": "הָ⁠אִ֔ישׁ"
+            },
+            {
+              "occurrence": 1,
+              "word": "מִֽ⁠גֹּאֲלֵ֖⁠נוּ"
+            },
+            {
+              "occurrence": 1,
+              "word": "הֽוּא"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 2,
+            "verse": 20
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      }
+    ],
+    "figs-rquestion": [
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "Why will you go with me?",
+          "groupId": "figs-rquestion",
+          "occurrence": 1,
+          "occurrenceNote": "This is a rhetorical question. Alternate translation: \"It does not make sense for you to go with me.\" or \"You should not go with me.\" (See: [[rc://en/ta/man/translate/figs-rquestion]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "לָ֥⁠מָּה"
+            },
+            {
+              "occurrence": 1,
+              "word": "תֵלַ֖כְנָה"
+            },
+            {
+              "occurrence": 1,
+              "word": "עִמִּ֑⁠י"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 1,
+            "verse": 11
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "Are there still sons in my womb, that they may become your husbands?",
+          "groupId": "figs-rquestion",
+          "occurrence": 1,
+          "occurrenceNote": "Naomi uses this question to say she cannot have other sons for them to marry. Alternate translation: \"Obviously it is not possible for me to have any more sons who could become your husbands.\" (See: [[rc://en/ta/man/translate/figs-rquestion]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "הַֽ⁠עֽוֹד"
+            },
+            {
+              "occurrence": 1,
+              "word": "־"
+            },
+            {
+              "occurrence": 1,
+              "word": "לִ֤⁠י"
+            },
+            {
+              "occurrence": 1,
+              "word": "בָנִים֙"
+            },
+            {
+              "occurrence": 1,
+              "word": "בְּֽ⁠מֵעַ֔⁠י"
+            },
+            {
+              "occurrence": 1,
+              "word": "וְ⁠הָי֥וּ"
+            },
+            {
+              "occurrence": 1,
+              "word": "לָ⁠כֶ֖ם"
+            },
+            {
+              "occurrence": 1,
+              "word": "לַ⁠אֲנָשִֽׁים"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 1,
+            "verse": 11
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "would you therefore wait until they were grown? Would you keep yourselves from having a husband?",
+          "groupId": "figs-rquestion",
+          "occurrence": 1,
+          "occurrenceNote": "These are rhetorical questions, which do not expect an answer. Alternate translation: \"you would not wait until they were grown up so that you could marry them. You would choose to marry a husband now.\" (See: [[rc://en/ta/man/translate/figs-rquestion]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "אֲשֶׁ֣ר"
+            },
+            {
+              "occurrence": 1,
+              "word": "יִגְדָּ֔לוּ"
+            },
+            {
+              "occurrence": 1,
+              "word": "הֲ⁠לָהֵן֙"
+            },
+            {
+              "occurrence": 1,
+              "word": "תֵּֽעָגֵ֔נָה"
+            },
+            {
+              "occurrence": 1,
+              "word": "לְ⁠בִלְתִּ֖י"
+            },
+            {
+              "occurrence": 1,
+              "word": "הֱי֣וֹת"
+            },
+            {
+              "occurrence": 1,
+              "word": "לְ⁠אִ֑ישׁ"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 1,
+            "verse": 13
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "Will you not listen to me, my daughter?",
+          "groupId": "figs-rquestion",
+          "occurrence": 1,
+          "occurrenceNote": "This can be reworded as a command. Alternate translation: \"Listen to me, my daughter\" or \"Note well what I am telling you, my daughter\" (See: [[rc://en/ta/man/translate/figs-rquestion]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "הֲ⁠ל֧וֹא"
+            },
+            {
+              "occurrence": 1,
+              "word": "שָׁמַ֣עַתְּ"
+            },
+            {
+              "occurrence": 1,
+              "word": "בִּתִּ֗⁠י"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 2,
+            "verse": 8
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "Have I not instructed the young men not to touch you?",
+          "groupId": "figs-rquestion",
+          "occurrence": 1,
+          "occurrenceNote": "Boaz used this question to emphasize what he had already done to help Ruth. Alternate translation: \"I have given the men strict instructions ... you.\" (See: [[rc://en/ta/man/translate/figs-rquestion]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "הֲ⁠ל֥וֹא"
+            },
+            {
+              "occurrence": 1,
+              "word": "צִוִּ֛יתִי"
+            },
+            {
+              "occurrence": 1,
+              "word": "אֶת"
+            },
+            {
+              "occurrence": 1,
+              "word": "־"
+            },
+            {
+              "occurrence": 1,
+              "word": "הַ⁠נְּעָרִ֖ים"
+            },
+            {
+              "occurrence": 1,
+              "word": "לְ⁠בִלְתִּ֣י"
+            },
+            {
+              "occurrence": 1,
+              "word": "נָגְעֵ֑⁠ךְ"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 2,
+            "verse": 9
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "should I not seek rest for you ... with you?",
+          "groupId": "figs-rquestion",
+          "occurrence": 1,
+          "occurrenceNote": "Naomi uses this question to tell Ruth what she planned to do. Alternate translation: \"I must look for a place for you to rest ... for you.\" or \"I must find a husband to care for you ... for you.\" (See: [[rc://en/ta/man/translate/figs-rquestion]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "הֲ⁠לֹ֧א"
+            },
+            {
+              "occurrence": 1,
+              "word": "אֲבַקֶּשׁ"
+            },
+            {
+              "occurrence": 1,
+              "word": "־"
+            },
+            {
+              "occurrence": 1,
+              "word": "לָ֛⁠ךְ"
+            },
+            {
+              "occurrence": 1,
+              "word": "מָנ֖וֹחַ"
+            },
+            {
+              "word": "…"
+            },
+            {
+              "occurrence": 4,
+              "word": "־"
+            },
+            {
+              "occurrence": 1,
+              "word": "לָֽ⁠ךְ"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 3,
+            "verse": 1
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "is he not our kinsman?",
+          "groupId": "figs-rquestion",
+          "occurrence": 1,
+          "occurrenceNote": "Naomi probably used this question to remind Ruth of something she had already told her. Alternate translation: \"he is our relative.\" (See: [[rc://en/ta/man/translate/figs-rquestion]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "הֲ⁠לֹ֥א"
+            },
+            {
+              "occurrence": 1,
+              "word": "בֹ֨עַז֙"
+            },
+            {
+              "occurrence": 1,
+              "word": "מֹֽדַעְתָּ֔⁠נוּ"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 3,
+            "verse": 2
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      }
+    ],
+    "figs-synecdoche": [
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "his heart was merry",
+          "groupId": "figs-synecdoche",
+          "occurrence": 1,
+          "occurrenceNote": "Here Boaz is referred to by his heart. It does not imply Boaz was overly drunk. Alternate translation: \"he was satisfied\" or \"he was in a good mood\" (See: [[rc://en/ta/man/translate/figs-synecdoche]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "וַ⁠יִּיטַ֣ב"
+            },
+            {
+              "occurrence": 1,
+              "word": "לִבּ֔⁠וֹ"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 3,
+            "verse": 7
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "from the hand of Naomi",
+          "groupId": "figs-synecdoche",
+          "occurrence": 1,
+          "occurrenceNote": "Here the word \"hand\" represents Naomi, who owns the field. Alternate translation: \"from Naomi\" (See: [[rc://en/ta/man/translate/figs-synecdoche]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "מִ⁠יַּ֣ד"
+            },
+            {
+              "occurrence": 1,
+              "word": "נָעֳמִ֑י"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 4,
+            "verse": 5
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "from the hand of Naomi",
+          "groupId": "figs-synecdoche",
+          "occurrence": 1,
+          "occurrenceNote": "The hand of Naomi represents Naomi. She was responsible for the money exchange. Alternate translation: \"from Naomi\" (See: [[rc://en/ta/man/translate/figs-synecdoche]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "מִ⁠יַּ֖ד"
+            },
+            {
+              "occurrence": 1,
+              "word": "נָעֳמִֽי"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 4,
+            "verse": 9
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      }
+    ]
+  },
+  "grammar": {
+    "figs-abstractnouns": [
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "at the beginning of the barley harvest",
+          "groupId": "figs-abstractnouns",
+          "occurrence": 1,
+          "occurrenceNote": "The phrase \"the barley harvest\" can be translated with a verbal phrase. Alternate translation: \"when the farmers were just beginning to harvest barley\" (See: [[rc://en/ta/man/translate/figs-abstractnouns]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "בִּ⁠תְחִלַּ֖ת"
+            },
+            {
+              "occurrence": 1,
+              "word": "קְצִ֥יר"
+            },
+            {
+              "occurrence": 1,
+              "word": "שְׂעֹרִֽים"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 1,
+            "verse": 22
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      }
+    ],
+    "figs-activepassive": [
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "It has surely been reported to me",
+          "groupId": "figs-activepassive",
+          "occurrence": 1,
+          "occurrenceNote": "This can be stated in active form. Alternate translation: \"People have reported to me\" or \"People have told me\" (See: [[rc://en/ta/man/translate/figs-activepassive]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "הֻגֵּ֨ד"
+            },
+            {
+              "occurrence": 1,
+              "word": "הֻגַּ֜ד"
+            },
+            {
+              "occurrence": 1,
+              "word": "לִ֗⁠י"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 2,
+            "verse": 11
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      }
+    ],
+    "figs-exclusive": [
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "we will return",
+          "groupId": "figs-exclusive",
+          "occurrence": 1,
+          "occurrenceNote": "When Orpah and Ruth said \"we,\" they were referring to themselves and not Naomi. So languages that have inclusive and exclusive \"we\" would use the exclusive form here. (See: [[rc://en/ta/man/translate/figs-exclusive]])",
+          "quote": "נָשׁ֖וּב",
+          "reference": {
+            "bookId": "rut",
+            "chapter": 1,
+            "verse": 10
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      }
+    ],
+    "figs-nominaladj": [
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "and to the dead",
+          "groupId": "figs-nominaladj",
+          "occurrence": 1,
+          "occurrenceNote": "Naomi's husband and sons were the \"dead.\" This can be stated differently to remove the nominal adjective \"the dead.\" Alternate translation: \"the people who have already died\" (See: [[rc://en/ta/man/translate/figs-nominaladj]])",
+          "quote": [
+            {
+              "occurrence": 1,
+              "word": "וְ⁠אֶת"
+            },
+            {
+              "occurrence": 1,
+              "word": "־"
+            },
+            {
+              "occurrence": 1,
+              "word": "הַ⁠מֵּתִ֑ים"
+            }
+          ],
+          "reference": {
+            "bookId": "rut",
+            "chapter": 2,
+            "verse": 20
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      }
+    ],
+    "figs-you": [
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "each of you",
+          "groupId": "figs-you",
+          "occurrence": 1,
+          "occurrenceNote": "Naomi was talking to two people, so languages that have a dual form of \"you\" would use that throughout her talk. (See: [[rc://en/ta/man/translate/figs-you]])",
+          "quote": "אִשָּׁ֖ה",
+          "reference": {
+            "bookId": "rut",
+            "chapter": 1,
+            "verse": 8
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      },
+      {
+        "comments": false,
+        "contextId": {
+          "glQuote": "with you",
+          "groupId": "figs-you",
+          "occurrence": 1,
+          "occurrenceNote": "Here \"you\" is the singular form referring to Naomi. (See: [[rc://en/ta/man/translate/figs-you]])",
+          "quote": "אִתָּ֥⁠ךְ",
+          "reference": {
+            "bookId": "rut",
+            "chapter": 1,
+            "verse": 10
+          },
+          "tool": "translationNotes"
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false
+      }
+    ]
+  },
+  "numbers": {},
+  "other": {}
+}

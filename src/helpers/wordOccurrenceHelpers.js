@@ -4,8 +4,13 @@ import { ELLIPSIS, THREE_DOTS } from '../utils/constants'
 import { getOmittedWordsInQuote } from './ellipsisHelpers'
 import { cleanQuoteString } from './stringHelpers'
 
+const ZERO_SPACE_SUB_CHAR = 'IIXXIIazɑωυzaIIXXII'
+const ZERO_SPACE_CHAR = "\u2060"
+const ZERO_SPACE_SUB_CHAR_REGEX = new RegExp(ZERO_SPACE_SUB_CHAR, 'g')
+const ZERO_SPACE_CHAR_REGEX = new RegExp(ZERO_SPACE_CHAR, 'g')
+
 function countStringInArray(array, string) {
-  return array.filter(item => item == string).length
+  return array.filter(item => item === string).length
 }
 
 export function cleanRegex(str) {
@@ -91,11 +96,19 @@ export function getWordOccurrencesForQuote(quote, verseString) {
     quoteOmittedStrings = quoteOmittedWords.omittedStrings
   }
 
+  const zeroSpaceMarkerFound = quote.indexOf(ZERO_SPACE_CHAR) >= 0
+  if (zeroSpaceMarkerFound) { // check for compound words with zero-space joiner
+    // substitute characters before tokenizing
+    quote = quote.replace(ZERO_SPACE_CHAR_REGEX, ZERO_SPACE_SUB_CHAR)
+  }
   const substrings = tokenizeQuote(quote)
 
   let ellipsisCount = 0
   substrings.forEach((substring, index) => {
     let word = {}
+    if (zeroSpaceMarkerFound) {
+      substring = substring.replace(ZERO_SPACE_SUB_CHAR_REGEX, ZERO_SPACE_CHAR)
+    }
 
     if (substring === ELLIPSIS) {
       ++ellipsisCount
