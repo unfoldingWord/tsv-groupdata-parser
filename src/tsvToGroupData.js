@@ -114,6 +114,7 @@ const generateGroupDataItem = (tsvItem, toolName, verseString) => {
     reminders: false,
     selections: false,
     verseEdits: false,
+    nothingToSelect: false,
     contextId: {
       occurrenceNote: tsvItem.OccurrenceNote || '',
       reference: {
