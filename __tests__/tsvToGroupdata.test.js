@@ -8,34 +8,34 @@ import titCategorizedGroupData from './fixtures/tit_categorizedGroupData.json'
 import mrkCategorizedGroupData from './fixtures/mrk_categorizedGroupData.json'
 import rutCategorizedGroupData from './fixtures/rut_categorizedGroupData.json'
 // constants
-const ORIGINAL_BIBLE_PATH = path.join('__tests__', 'fixtures', 'resources', 'el-x-koine', 'bibles', 'ugnt', 'v0.5')
+const NEW_TESTAMENT_BIBLE_PATH = path.join('__tests__', 'fixtures', 'resources', 'el-x-koine', 'bibles', 'ugnt', 'v0.5')
 const OLD_TESTAMENT_BIBLE_PATH = path.join('__tests__', 'fixtures', 'resources', 'hbo', 'bibles', 'uhb', 'v2.1.7')
 
 describe('tsvToGroupData():', () => {
   test('Parses a book tN TSVs to an object with a lists of group ids', async () => {
     const filepath = '__tests__/fixtures/tsv/en_tn_57-TIT.tsv'
-    const result = await tsvToGroupData(filepath, 'translationNotes', null, ORIGINAL_BIBLE_PATH)
+    const result = await tsvToGroupData(filepath, 'translationNotes', null, NEW_TESTAMENT_BIBLE_PATH)
 
     expect(result).toEqual(titGroupData)
   })
 
   test('It returns the categorized group data if the param categorized is true { categorized: true }', async () => {
     const filepath = '__tests__/fixtures/tsv/en_tn_57-TIT.tsv'
-    const categorizedGroupData = await tsvToGroupData(filepath, 'translationNotes', { categorized: true }, ORIGINAL_BIBLE_PATH)
+    const categorizedGroupData = await tsvToGroupData(filepath, 'translationNotes', { categorized: true }, NEW_TESTAMENT_BIBLE_PATH)
 
     expect(categorizedGroupData).toEqual(titCategorizedGroupData)
   })
 
   test('It returns the uncategorized group data if the param categorized is false { categorized: false }', async () => {
     const filepath = '__tests__/fixtures/tsv/en_tn_57-TIT.tsv'
-    const categorizedGroupData = await tsvToGroupData(filepath, 'translationNotes', { categorized: false }, ORIGINAL_BIBLE_PATH)
+    const categorizedGroupData = await tsvToGroupData(filepath, 'translationNotes', { categorized: false }, NEW_TESTAMENT_BIBLE_PATH)
 
     expect(categorizedGroupData).toEqual(titGroupData)
   })
 
   test('It returns the categorized group data for MRK.tsv', async () => {
     const filepath = '__tests__/fixtures/tsv/en_tn_42-MRK.tsv'
-    const result = await tsvToGroupData(filepath, 'translationNotes', { categorized: true }, ORIGINAL_BIBLE_PATH)
+    const result = await tsvToGroupData(filepath, 'translationNotes', { categorized: true }, NEW_TESTAMENT_BIBLE_PATH)
 
     expect(result).toEqual(mrkCategorizedGroupData)
   })
