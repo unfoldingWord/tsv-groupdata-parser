@@ -2,6 +2,7 @@ import tsvtojson from 'tsvtojson'
 import { categorizeGroupData } from './tNoteGroupIdCategorization'
 import ManageResource from './helpers/ManageResourceAPI'
 import { getWordOccurrencesForQuote } from './helpers/wordOccurrenceHelpers'
+import { ELLIPSIS } from './utils/constants'
 
 /**
  * Parses a book tN TSVs and returns an object holding the lists of group ids.
@@ -108,6 +109,7 @@ const generateGroupDataItem = (tsvItem, toolName, verseString) => {
   const { OrigQuote = '' } = tsvItem
   // if quote has more than one word get word occurrences
   const quote = OrigQuote.trim().split(' ').length > 1 ? getWordOccurrencesForQuote(OrigQuote, verseString) : OrigQuote
+  const quoteString = OrigQuote.trim().replace(/\.../gi, ELLIPSIS)
 
   return {
     comments: false,
@@ -125,6 +127,7 @@ const generateGroupDataItem = (tsvItem, toolName, verseString) => {
       tool: toolName || '',
       groupId: tsvItem.SupportReference || '',
       quote,
+      quoteString,
       glQuote: tsvItem.GLQuote || '',
       occurrence: parseInt(tsvItem.Occurrence, 10) || 1,
     },
