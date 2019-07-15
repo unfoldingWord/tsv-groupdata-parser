@@ -1,4 +1,5 @@
 jest.unmock('fs-extra')
+import fs from 'fs-extra'
 import path from 'path-extra'
 // helpers
 import { tsvToGroupData, cleanGroupId, cleanArticleLink } from '../src/tsvToGroupData'
@@ -13,6 +14,7 @@ describe('tsvToGroupData():', () => {
   test('Parses a book tN TSVs to an object with a lists of group ids', async () => {
     const filepath = '__tests__/fixtures/tsv/en_tn_57-TIT.tsv'
     const result = await tsvToGroupData(filepath, 'translationNotes', null, ORIGINAL_BIBLE_PATH)
+    // fs.outputJsonSync('tit_groupData.json', result, { spaces: 2 })
 
     expect(result).toEqual(titGroupData)
   })

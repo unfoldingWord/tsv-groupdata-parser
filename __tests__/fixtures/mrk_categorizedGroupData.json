@@ -38,6 +38,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐγένετο ἐν ἐκείναις ταῖς ἡμέραις",
           "glQuote": "It happened in those days",
           "occurrence": 1
         }
@@ -75,6 +76,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐν ἐκείναις ταῖς ἡμέραις",
           "glQuote": "In those days",
           "occurrence": 1
         }
@@ -104,6 +106,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "καὶ προσέφερον",
           "glQuote": "Then they brought",
           "occurrence": 1
         }
@@ -151,6 +154,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἡ δὲ πενθερὰ Σίμωνος κατέκειτο πυρέσσουσα",
           "glQuote": "Now Simon's mother-in-law was lying sick with a fever",
           "occurrence": 1
         }
@@ -184,6 +188,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "καὶ γυνὴ οὖσα",
           "glQuote": "Now a woman was there",
           "occurrence": 1
         }
@@ -233,6 +238,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐλθὼν Ἰωσὴφ ὁ ἀπὸ Ἁριμαθαίας, εὐσχήμων",
           "glQuote": " Joseph of Arimathea, a respected ... came",
           "occurrence": 1
         }
@@ -304,6 +310,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οὐ χρείαν ἔχουσιν οἱ ἰσχύοντες ἰατροῦ, ἀλλ’ οἱ κακῶς ἔχοντες",
           "glQuote": "People who are strong in body do not need a physician; only people who are sick need one",
           "occurrence": 1
         }
@@ -374,6 +381,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "πολλοὺς γὰρ ἐθεράπευσεν, ὥστε … ἵνα αὐτοῦ ἅψωνται ὅσοι εἶχον μάστιγας",
           "glQuote": "For he healed many, so that everyone ... to touch him",
           "occurrence": 1
         }
@@ -427,6 +435,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὁ γὰρ Ἡρῴδης ἐφοβεῖτο τὸν Ἰωάννην, εἰδὼς",
           "glQuote": "for Herod feared John; he knew",
           "occurrence": 1
         }
@@ -464,6 +473,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "διὰ τοῦτο λέγω ὑμῖν",
           "glQuote": "Therefore I say to you",
           "occurrence": 1
         }
@@ -484,6 +494,7 @@
           "tool": "translationNotes",
           "groupId": "writing-connectingwords",
           "quote": "οὖν",
+          "quoteString": "οὖν",
           "glQuote": "Therefore",
           "occurrence": 1
         }
@@ -543,6 +554,7 @@
               "occurrence": 2
             }
           ],
+          "quoteString": "διεστείλατο αὐτοῖς πολλὰ ἵνα μηδεὶς γνοῖ τοῦτο, καὶ",
           "glQuote": "He strictly ordered them that no one should know about this. He also",
           "occurrence": 1
         }
@@ -584,6 +596,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "καὶ εἶπεν δοθῆναι αὐτῇ φαγεῖν",
           "glQuote": "He also told them to give her something to eat",
           "occurrence": 1
         }
@@ -633,6 +646,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "παραγγέλλει τῷ ὄχλῳ ἀναπεσεῖν ἐπὶ τῆς γῆς",
           "glQuote": "he commanded the crowd to recline on the ground",
           "occurrence": 1
         }
@@ -694,6 +708,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "Μωϋσῆς ἔγραψεν ἡμῖν, ὅτι ἐάν τινος‘ ἀδελφὸς ἀποθάνῃ",
           "glQuote": "Moses wrote for us, 'If a man's brother dies",
           "occurrence": 1
         }
@@ -790,6 +805,7 @@
               "occurrence": 2
             }
           ],
+          "quoteString": "ὁ‘ διδάσκαλος λέγει, \"ποῦ ἐστιν τὸ κατάλυμά μου … μετὰ τῶν μαθητῶν μου φάγω?\"",
           "glQuote": "The Teacher says, \"Where is my guest room ... with my disciples?\"",
           "occurrence": 1
         }
@@ -849,6 +865,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἡ δὲ γυνὴ ἦν Ἑλληνίς, Συροφοινίκισσα τῷ γένει",
           "glQuote": "Now the woman was a Greek, a Syrophoenician by descent",
           "occurrence": 1
         }
@@ -869,6 +886,7 @@
           "tool": "translationNotes",
           "groupId": "writing-background",
           "quote": "καὶ",
+          "quoteString": "καὶ",
           "glQuote": "Now",
           "occurrence": 1
         }
@@ -926,6 +944,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οὐ γὰρ ᾔδει τί ἀποκριθῇ; ἔκφοβοι γὰρ ἐγένοντο",
           "glQuote": "For he did not know what to say, for they were terrified",
           "occurrence": 1
         }
@@ -946,6 +965,7 @@
           "tool": "translationNotes",
           "groupId": "writing-background",
           "quote": "δὲ",
+          "quoteString": "δὲ",
           "glQuote": "Now",
           "occurrence": 1
         }
@@ -1003,6 +1023,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐγίνωσκεν γὰρ ὅτι διὰ φθόνον παραδεδώκεισαν αὐτὸν οἱ ἀρχιερεῖς",
           "glQuote": "For he knew that the chief priests had handed Jesus over to him because of envy",
           "occurrence": 1
         }
@@ -1063,6 +1084,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "καὶ ἀγγαρεύουσιν, παράγοντά … τὸν πατέρα Ἀλεξάνδρου καὶ Ῥούφου",
           "glQuote": "A certain man, ... Rufus), and",
           "occurrence": 1
         }
@@ -1131,6 +1153,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "αἳ ὅτε ἦν ἐν τῇ Γαλιλαίᾳ ἠκολούθουν αὐτῷ … αὐτῷ εἰς Ἱεροσόλυμα",
           "glQuote": "When he was in Galilee they followed him ... with him to Jerusalem",
           "occurrence": 1
         }
@@ -1179,6 +1202,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "εὐσχήμων βουλευτής … τὴν Βασιλείαν τοῦ Θεοῦ",
           "glQuote": "a respected member of the council ... for the kingdom of God",
           "occurrence": 1
         }
@@ -1245,6 +1269,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὁ δὲ Ἰησοῦς εἶπεν αὐτοῖς … ἔγραψεν ὑμῖν τὴν ἐντολὴν ταύτην",
           "glQuote": "But Jesus said to them ... this commandment ... your hardness of heart",
           "occurrence": 1
         }
@@ -1267,6 +1292,7 @@
           "tool": "translationNotes",
           "groupId": "figs-exclamations",
           "quote": "οὐὰ",
+          "quoteString": "οὐὰ",
           "glQuote": "Aha!",
           "occurrence": 1
         }
@@ -1300,6 +1326,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τεσσεράκοντα ἡμέρας",
           "glQuote": "forty days",
           "occurrence": 1
         }
@@ -1339,6 +1366,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τριάκοντα … ἑξήκοντα … ἑκατόν",
           "glQuote": "thirty ... sixty ... a hundred",
           "occurrence": 1
         }
@@ -1368,6 +1396,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὡς δισχίλιοι",
           "glQuote": "about two thousand pigs",
           "occurrence": 1
         }
@@ -1397,6 +1426,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "δώδεκα ἔτη",
           "glQuote": "for twelve years",
           "occurrence": 1
         }
@@ -1433,6 +1463,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἦν … ἐτῶν δώδεκα",
           "glQuote": "she was twelve years of age",
           "occurrence": 1
         }
@@ -1462,6 +1493,7 @@
               "occurrence": 2
             }
           ],
+          "quoteString": "δύο δύο",
           "glQuote": "two by two",
           "occurrence": 1
         }
@@ -1511,6 +1543,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "πρασιαὶ, κατὰ ἑκατὸν καὶ κατὰ πεντήκοντα",
           "glQuote": "groups of hundreds and fifties",
           "occurrence": 1
         }
@@ -1540,6 +1573,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "δώδεκα κοφίνων",
           "glQuote": "twelve baskets",
           "occurrence": 1
         }
@@ -1569,6 +1603,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "πεντακισχίλιοι ἄνδρες",
           "glQuote": "five thousand men",
           "occurrence": 1
         }
@@ -1600,6 +1635,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τετάρτην φυλακὴν",
           "glQuote": "fourth watch",
           "occurrence": 1
         }
@@ -1629,6 +1665,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐκ δευτέρου",
           "glQuote": "a second time",
           "occurrence": 1
         }
@@ -1658,6 +1695,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὥρα τρίτη",
           "glQuote": "the third hour",
           "occurrence": 1
         }
@@ -1695,6 +1733,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "πρὸ προσώπου σου",
           "glQuote": "before your face",
           "occurrence": 1
         }
@@ -1715,6 +1754,7 @@
           "tool": "translationNotes",
           "groupId": "figs-idiom",
           "quote": "σπλαγχνισθεὶς",
+          "quoteString": "σπλαγχνισθεὶς",
           "glQuote": "Moved with compassion",
           "occurrence": 1
         }
@@ -1735,6 +1775,7 @@
           "tool": "translationNotes",
           "groupId": "figs-idiom",
           "quote": "ἐξέστη",
+          "quoteString": "ἐξέστη",
           "glQuote": "out of his mind",
           "occurrence": 1
         }
@@ -1768,6 +1809,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "πνεῦμα ἀκάθαρτον ἔχει",
           "glQuote": "He has an unclean spirit",
           "occurrence": 1
         }
@@ -1805,6 +1847,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὅτι παρέστηκεν ὁ θερισμός",
           "glQuote": "because the harvest has come",
           "occurrence": 1
         }
@@ -1842,6 +1885,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "γίνεται λαῖλαψ μεγάλη ἀνέμου",
           "glQuote": "a violent windstorm arose",
           "occurrence": 1
         }
@@ -1875,6 +1919,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐν πνεύματι ἀκαθάρτῳ",
           "glQuote": "with an unclean spirit",
           "occurrence": 1
         }
@@ -1895,6 +1940,7 @@
           "tool": "translationNotes",
           "groupId": "figs-idiom",
           "quote": "σωφρονοῦντα",
+          "quoteString": "σωφρονοῦντα",
           "glQuote": "in his right mind",
           "occurrence": 1
         }
@@ -1936,6 +1982,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "καὶ ἤδη ὥρας πολλῆς γενομένης",
           "glQuote": "When the hour was already late",
           "occurrence": 1
         }
@@ -1972,6 +2019,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "εἶχεν … πνεῦμα ἀκάθαρτον",
           "glQuote": "had an unclean spirit",
           "occurrence": 1
         }
@@ -2017,6 +2065,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "καὶ τὸν λόγον ἐκράτησαν πρὸς ἑαυτοὺς",
           "glQuote": "So they kept the matter to themselves",
           "occurrence": 1
         }
@@ -2046,6 +2095,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἔχοντα πνεῦμα",
           "glQuote": "He has a spirit",
           "occurrence": 1
         }
@@ -2083,6 +2133,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "κρατήσας τῆς χειρὸς αὐτοῦ",
           "glQuote": "took him by his hand",
           "occurrence": 1
         }
@@ -2120,6 +2171,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐπὶ τῷ ὀνόματί μου",
           "glQuote": "in my name",
           "occurrence": 1
         }
@@ -2153,6 +2205,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οὐκ ἠκολούθει ἡμῖν",
           "glQuote": "he does not follow us",
           "occurrence": 1
         }
@@ -2182,6 +2235,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἀφῆκαν αὐτούς",
           "glQuote": "they gave them permission",
           "occurrence": 1
         }
@@ -2215,6 +2269,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "εἷς‘ ἐστιν",
           "glQuote": "God is one",
           "occurrence": 1
         }
@@ -2244,6 +2299,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "περισσότερόν ἐστιν",
           "glQuote": "is even more than",
           "occurrence": 1
         }
@@ -2285,6 +2341,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐν τῷ Πνεύματι τῷ ἁγίῳ",
           "glQuote": "in the Holy Spirit",
           "occurrence": 1
         }
@@ -2321,6 +2378,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐγερθήσεται … ἐπ’",
           "glQuote": "will rise against",
           "occurrence": 1
         }
@@ -2353,6 +2411,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐπὶ … σταθήσεσθε",
           "glQuote": "You will stand before",
           "occurrence": 1
         }
@@ -2373,6 +2432,7 @@
           "tool": "translationNotes",
           "groupId": "figs-idiom",
           "quote": "παραδιδόντες",
+          "quoteString": "παραδιδόντες",
           "glQuote": "hand you over",
           "occurrence": 1
         }
@@ -2410,6 +2470,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐπαναστήσονται τέκνα ἐπὶ γονεῖς",
           "glQuote": "Children will rise up against their parents",
           "occurrence": 1
         }
@@ -2439,6 +2500,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐπὶ θύραις",
           "glQuote": "right at the doors",
           "occurrence": 1
         }
@@ -2459,6 +2521,7 @@
           "tool": "translationNotes",
           "groupId": "figs-idiom",
           "quote": "σκανδαλισθήσεσθε",
+          "quoteString": "σκανδαλισθήσεσθε",
           "glQuote": "will fall away",
           "occurrence": 1
         }
@@ -2488,6 +2551,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐγερθῆναί με",
           "glQuote": "I am raised up",
           "occurrence": 1
         }
@@ -2508,6 +2572,7 @@
           "tool": "translationNotes",
           "groupId": "figs-idiom",
           "quote": "ἀναθεματίζειν",
+          "quoteString": "ἀναθεματίζειν",
           "glQuote": "to curse",
           "occurrence": 1
         }
@@ -2528,6 +2593,7 @@
           "tool": "translationNotes",
           "groupId": "figs-idiom",
           "quote": "ἐπιβαλὼν",
+          "quoteString": "ἐπιβαλὼν",
           "glQuote": "he broke down",
           "occurrence": 1
         }
@@ -2569,6 +2635,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὁ παρεστηκὼς ἐξ ἐναντίας αὐτοῦ",
           "glQuote": "who stood in front of Jesus",
           "occurrence": 1
         }
@@ -2608,6 +2675,7 @@
               "occurrence": 2
             }
           ],
+          "quoteString": "κατασκευάσει τὴν ὁδόν σου",
           "glQuote": "will prepare your way",
           "occurrence": 1
         }
@@ -2649,6 +2717,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἑτοιμάσατε‘ τὴν ὁδὸν Κυρίου",
           "glQuote": "Make ready the way of the Lord",
           "occurrence": 1
         }
@@ -2702,6 +2771,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "πᾶσα ἡ Ἰουδαία χώρα καὶ οἱ Ἱεροσολυμεῖται πάντες",
           "glQuote": "The whole country of Judea and all the people of Jerusalem",
           "occurrence": 1
         }
@@ -2771,6 +2841,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οὗ οὐκ εἰμὶ ἱκανὸς, κύψας λῦσαι τὸν ἱμάντα τῶν ὑποδημάτων αὐτοῦ",
           "glQuote": "the strap of his sandals I am not worthy to stoop down and untie",
           "occurrence": 1
         }
@@ -2820,6 +2891,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "αὐτὸς δὲ βαπτίσει ὑμᾶς ἐν Πνεύματι Ἁγίῳ",
           "glQuote": "but he will baptize you with the Holy Spirit",
           "occurrence": 1
         }
@@ -2861,6 +2933,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ποιήσω ὑμᾶς γενέσθαι ἁλιεῖς ἀνθρώπων",
           "glQuote": "I will make you to become fishers of men",
           "occurrence": 1
         }
@@ -2894,6 +2967,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "δύνασαί με καθαρίσαι",
           "glQuote": "you can make me clean",
           "occurrence": 1
         }
@@ -2934,6 +3008,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἤρξατο … διαφημίζειν τὸν λόγον",
           "glQuote": "began to spread the news widely",
           "occurrence": 1
         }
@@ -2954,6 +3029,7 @@
           "tool": "translationNotes",
           "groupId": "figs-metaphor",
           "quote": "τέκνον",
+          "quoteString": "τέκνον",
           "glQuote": "Child",
           "occurrence": 1
         }
@@ -2999,6 +3075,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐπὶ τῇ πωρώσει τῆς καρδίας αὐτῶν",
           "glQuote": "by the hardness of their heart",
           "occurrence": 1
         }
@@ -3032,6 +3109,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οὐ δύναται σταθῆναι",
           "glQuote": "cannot stand",
           "occurrence": 1
         }
@@ -3073,6 +3151,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐμερίσθη, οὐ δύναται στῆναι",
           "glQuote": "he is not able to stand",
           "occurrence": 1
         }
@@ -3126,6 +3205,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οὗτος ἀδελφός μου καὶ ἀδελφὴ καὶ μήτηρ ἐστίν",
           "glQuote": "that person is my brother, and sister, and mother",
           "occurrence": 1
         }
@@ -3163,6 +3243,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "βλέπωσι καὶ μὴ ἴδωσιν",
           "glQuote": "they look, but do not see",
           "occurrence": 1
         }
@@ -3183,6 +3264,7 @@
           "tool": "translationNotes",
           "groupId": "figs-metaphor",
           "quote": "ἐπιστρέψωσιν",
+          "quoteString": "ἐπιστρέψωσιν",
           "glQuote": "they would turn",
           "occurrence": 1
         }
@@ -3219,6 +3301,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οὗτοί εἰσιν … οἱ",
           "glQuote": "These are the ones",
           "occurrence": 1
         }
@@ -3260,6 +3343,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οὐκ ἔχουσιν ῥίζαν ἐν ἑαυτοῖς",
           "glQuote": "They have no root in themselves",
           "occurrence": 1
         }
@@ -3280,6 +3364,7 @@
           "tool": "translationNotes",
           "groupId": "figs-metaphor",
           "quote": "σκανδαλίζονται",
+          "quoteString": "σκανδαλίζονται",
           "glQuote": "they stumble",
           "occurrence": 1
         }
@@ -3329,6 +3414,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἄλλοι εἰσὶν οἱ εἰς τὰς ἀκάνθας σπειρόμενοι",
           "glQuote": "Others are the ones that were sown among the thorns",
           "occurrence": 1
         }
@@ -3370,6 +3456,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "εἰσπορευόμεναι, συνπνίγουσιν τὸν λόγον",
           "glQuote": "enter in and choke the word",
           "occurrence": 1
         }
@@ -3427,6 +3514,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐκεῖνοί εἰσιν οἱ ἐπὶ τὴν γῆν τὴν καλὴν σπαρέντες",
           "glQuote": "these are the ones that were sown in the good soil",
           "occurrence": 1
         }
@@ -3464,6 +3552,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐν ᾧ μέτρῳ μετρεῖτε",
           "glQuote": "for with that measure you use",
           "occurrence": 1
         }
@@ -3537,6 +3626,7 @@
               "occurrence": 4
             }
           ],
+          "quoteString": "λέγει αὐτῷ, \"Λεγιὼν ὄνομά μοι, ὅτι πολλοί ἐσμεν.\"",
           "glQuote": "He answered him, \"My name is Legion, for we are many.\"",
           "occurrence": 1
         }
@@ -3557,6 +3647,7 @@
           "tool": "translationNotes",
           "groupId": "figs-metaphor",
           "quote": "μετανοῶσιν",
+          "quoteString": "μετανοῶσιν",
           "glQuote": "people should repent",
           "occurrence": 1
         }
@@ -3598,6 +3689,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἦν αὐτῶν ἡ καρδία πεπωρωμένη",
           "glQuote": "their hearts were hardened",
           "occurrence": 1
         }
@@ -3674,6 +3766,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἄφες πρῶτον χορτασθῆναι τὰ τέκνα; οὐ γάρ ἐστιν καλόν … τοῖς κυναρίοις βαλεῖν",
           "glQuote": "Let the children first be fed. For it is not right ... throw it to the dogs",
           "occurrence": 1
         }
@@ -3727,6 +3820,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τῆς ζύμης τῶν Φαρισαίων καὶ τῆς ζύμης Ἡρῴδου",
           "glQuote": "the yeast of the Pharisees and the yeast of Herod",
           "occurrence": 1
         }
@@ -3784,6 +3878,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὕπαγε ὀπίσω μου, Σατανᾶ, ὅτι οὐ φρονεῖς",
           "glQuote": "Get behind me, Satan! For you are not setting your mind",
           "occurrence": 1
         }
@@ -3817,6 +3912,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὀπίσω μου ἀκολουθεῖν",
           "glQuote": "to follow after me",
           "occurrence": 1
         }
@@ -3846,6 +3942,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἀκολουθείτω μοι",
           "glQuote": "follow me",
           "occurrence": 1
         }
@@ -3903,6 +4000,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐν τῇ γενεᾷ ταύτῃ, τῇ μοιχαλίδι καὶ ἁμαρτωλῷ",
           "glQuote": "in this adulterous and sinful generation",
           "occurrence": 1
         }
@@ -3960,6 +4058,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "εἴ τις θέλει πρῶτος εἶναι, ἔσται πάντων ἔσχατος",
           "glQuote": "If anyone wants to be first, he must be last of all",
           "occurrence": 1
         }
@@ -4021,6 +4120,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ποτίσῃ ὑμᾶς ποτήριον ὕδατος ἐν ὀνόματι, ὅτι Χριστοῦ ἐστε",
           "glQuote": "gives you a cup of water to drink because you are in the name of Christ",
           "occurrence": 1
         }
@@ -4058,6 +4158,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "εἰσελθεῖν εἰς τὴν ζωὴν",
           "glQuote": "to enter into life",
           "occurrence": 1
         }
@@ -4095,6 +4196,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "εἰσελθεῖν εἰς τὴν ζωὴν",
           "glQuote": "to enter into life",
           "occurrence": 1
         }
@@ -4124,6 +4226,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "πυρὶ ἁλισθήσεται",
           "glQuote": "will be salted with fire",
           "occurrence": 1
         }
@@ -4161,6 +4264,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἔχετε ἐν ἑαυτοῖς ἅλα",
           "glQuote": "Have salt in yourselves",
           "occurrence": 1
         }
@@ -4210,6 +4314,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οὐκέτι εἰσὶν δύο, ἀλλὰ μία σάρξ",
           "glQuote": "they are no longer two, but one flesh",
           "occurrence": 1
         }
@@ -4263,6 +4368,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τῶν γὰρ τοιούτων ἐστὶν ἡ Βασιλεία τοῦ Θεοῦ",
           "glQuote": "for the kingdom of God belongs to those who are like them",
           "occurrence": 1
         }
@@ -4300,6 +4406,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἵνα ζωὴν αἰώνιον κληρονομήσω",
           "glQuote": "to inherit eternal life",
           "occurrence": 1
         }
@@ -4333,6 +4440,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἕν σε ὑστερεῖ",
           "glQuote": "One thing you lack",
           "occurrence": 1
         }
@@ -4366,6 +4474,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τέκνα, πῶς",
           "glQuote": "Children, how",
           "occurrence": 1
         }
@@ -4415,6 +4524,7 @@
               "occurrence": 2
             }
           ],
+          "quoteString": "ἔσονται πρῶτοι ἔσχατοι, καὶ ἔσχατοι πρῶτοι",
           "glQuote": "who are first will be last, and the last first",
           "occurrence": 1
         }
@@ -4460,6 +4570,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "πιεῖν τὸ ποτήριον ὃ ἐγὼ πίνω",
           "glQuote": "drink the cup which I will drink",
           "occurrence": 1
         }
@@ -4505,6 +4616,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τὸ βάπτισμα ὃ ἐγὼ βαπτίζομαι βαπτισθῆναι",
           "glQuote": "to be baptized with the baptism with which I will be baptized",
           "occurrence": 1
         }
@@ -4534,6 +4646,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "εἶναι πρῶτος",
           "glQuote": "to be first",
           "occurrence": 1
         }
@@ -4563,6 +4676,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τοῖς ὑψίστοις",
           "glQuote": "the highest",
           "occurrence": 1
         }
@@ -4616,6 +4730,7 @@
               "occurrence": 2
             }
           ],
+          "quoteString": "ὑμεῖς δὲ ἐποιήσατε αὐτὸν σπήλαιον‘ λῃστῶν’",
           "glQuote": "But you have made it a den of robbers",
           "occurrence": 1
         }
@@ -4657,6 +4772,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἔστιν θαυμαστὴ ἐν ὀφθαλμοῖς ἡμῶν",
           "glQuote": "it is marvelous in our eyes",
           "occurrence": 1
         }
@@ -4690,6 +4806,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἵνα αὐτὸν ἀγρεύσωσιν",
           "glQuote": "in order to trap him",
           "occurrence": 1
         }
@@ -4710,6 +4827,7 @@
           "tool": "translationNotes",
           "groupId": "figs-metaphor",
           "quote": "ἀναστῶσιν",
+          "quoteString": "ἀναστῶσιν",
           "glQuote": "they rise",
           "occurrence": 1
         }
@@ -4771,6 +4889,7 @@
               "occurrence": 2
             }
           ],
+          "quoteString": "ἕως ἂν θῶ τοὺς ἐχθρούς σου ὑποκάτω τῶν ποδῶν σου",
           "glQuote": "until I make your enemies your footstool",
           "occurrence": 1
         }
@@ -4816,6 +4935,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οἱ κατεσθίοντες τὰς οἰκίας τῶν χηρῶν",
           "glQuote": "They devour widows' houses",
           "occurrence": 1
         }
@@ -4849,6 +4969,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἀρχὴ ὠδίνων ταῦτα",
           "glQuote": "These are the beginnings of birth pains",
           "occurrence": 1
         }
@@ -4890,6 +5011,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τὸ‘ βδέλυγμα τῆς ἐρημώσεως",
           "glQuote": "the abomination of desolation",
           "occurrence": 1
         }
@@ -4923,6 +5045,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τῶν τεσσάρων ἀνέμων",
           "glQuote": "the four winds",
           "occurrence": 1
         }
@@ -4971,6 +5094,7 @@
               "occurrence": 2
             }
           ],
+          "quoteString": "οἱ … λόγοι μου οὐ μὴ παρελεύσονται",
           "glQuote": "my words will never pass away",
           "occurrence": 1
         }
@@ -5004,6 +5128,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "εὕρῃ ὑμᾶς καθεύδοντας",
           "glQuote": "he might find you sleeping",
           "occurrence": 1
         }
@@ -5024,6 +5149,7 @@
           "tool": "translationNotes",
           "groupId": "figs-metaphor",
           "quote": "ἀδημονεῖν",
+          "quoteString": "ἀδημονεῖν",
           "glQuote": "deeply troubled",
           "occurrence": 1
         }
@@ -5065,6 +5191,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἵνα μὴ ἔλθητε εἰς πειρασμόν",
           "glQuote": "so that you do not enter into temptation",
           "occurrence": 1
         }
@@ -5110,6 +5237,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἦσαν γὰρ αὐτῶν οἱ ὀφθαλμοὶ καταβαρυνόμενοι",
           "glQuote": "for their eyes were heavy",
           "occurrence": 1
         }
@@ -5147,6 +5275,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐψευδομαρτύρουν κατ’ αὐτοῦ",
           "glQuote": "brought false testimony against him",
           "occurrence": 1
         }
@@ -5184,6 +5313,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐψευδομαρτύρουν κατ’ αὐτοῦ",
           "glQuote": "brought false testimony against him",
           "occurrence": 1
         }
@@ -5233,6 +5363,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐρχόμενον‘ μετὰ τῶν νεφελῶν τοῦ οὐρανοῦ",
           "glQuote": "comes with the clouds of heaven",
           "occurrence": 1
         }
@@ -5266,6 +5397,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἀνέσεισαν τὸν ὄχλον",
           "glQuote": "stirred up the crowd",
           "occurrence": 1
         }
@@ -5299,6 +5431,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τιθέντες τὰ γόνατα",
           "glQuote": "They knelt down",
           "occurrence": 1
         }
@@ -5348,6 +5481,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "σκότος ἐγένετο ἐφ’ ὅλην τὴν γῆν",
           "glQuote": "darkness came over the whole land",
           "occurrence": 1
         }
@@ -5377,6 +5511,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὀψίας γενομένης",
           "glQuote": "evening had come",
           "occurrence": 1
         }
@@ -5444,6 +5579,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἑτοιμάσατε‘ τὴν ὁδὸν Κυρίου, εὐθείας ποιεῖτε τὰς τρίβους αὐτοῦ",
           "glQuote": "Make ready the way of the Lord ... make his paths straight",
           "occurrence": 1
         }
@@ -5505,6 +5641,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τοῖς Σάββασιν ἀγαθοποιῆσαι ἢ κακοποιῆσαι, ψυχὴν σῶσαι ἢ ἀποκτεῖναι",
           "glQuote": "to do good on the Sabbath day or to do harm ... to save a life or to kill",
           "occurrence": 1
         }
@@ -5556,6 +5693,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οὐ … ἐστιν κρυπτὸν … οὐδὲ ἐγένετο ἀπόκρυφον",
           "glQuote": "nothing is hidden ... nothing has happened in secret",
           "occurrence": 1
         }
@@ -5592,6 +5730,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "θαρσεῖτε … μὴ φοβεῖσθε",
           "glQuote": "Take courage! ... Do not fear!",
           "occurrence": 1
         }
@@ -5637,6 +5776,7 @@
               "occurrence": 2
             }
           ],
+          "quoteString": "οὔπω νοεῖτε, οὐδὲ συνίετε?",
           "glQuote": "Do you not yet perceive, nor understand?",
           "occurrence": 1
         }
@@ -5702,6 +5842,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἄφετε τὰ παιδία ἔρχεσθαι πρός με, καὶ μὴ κωλύετε αὐτά",
           "glQuote": "Permit the little children to come to me, and do not forbid them",
           "occurrence": 1
         }
@@ -5799,6 +5940,7 @@
               "occurrence": 2
             }
           ],
+          "quoteString": "ἐν ποίᾳ ἐξουσίᾳ ταῦτα ποιεῖς? ἢ, τίς σοι ἔδωκεν τὴν ἐξουσίαν ταύτην, ἵνα ταῦτα ποιῇς?",
           "glQuote": "By what authority do you do these things, and who gave you the authority to do them?",
           "occurrence": 1
         }
@@ -5848,6 +5990,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐπέβαλαν τὰς χεῖρας αὐτῶν καὶ ἐκράτησαν αὐτόν",
           "glQuote": "laid hands on him and seized him",
           "occurrence": 1
         }
@@ -5903,6 +6046,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τὸ Πνεῦμα ὡς περιστερὰν καταβαῖνον ἐπ’ αὐτόν",
           "glQuote": "the Spirit coming down on him like a dove",
           "occurrence": 1
         }
@@ -5947,6 +6091,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οὕτως … ἄνθρωπος βάλῃ τὸν σπόρον",
           "glQuote": "like a man who sows his seed",
           "occurrence": 1
         }
@@ -5992,6 +6137,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἦσαν ὡς πρόβατα μὴ ἔχοντα ποιμένα",
           "glQuote": "they were like sheep without a shepherd",
           "occurrence": 1
         }
@@ -6049,6 +6195,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "βλέπω τοὺς ἀνθρώπους, ὅτι ὡς δένδρα ὁρῶ περιπατοῦντας",
           "glQuote": "I see men who look like walking trees",
           "occurrence": 1
         }
@@ -6082,6 +6229,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐγένετο ὡσεὶ νεκρὸς",
           "glQuote": "The boy became like a dead person",
           "occurrence": 1
         }
@@ -6111,6 +6259,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὡς παιδίον",
           "glQuote": "as a little child",
           "occurrence": 1
         }
@@ -6160,6 +6309,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἀγαπήσεις‘ τὸν πλησίον σου ὡς σεαυτόν",
           "glQuote": "You must love your neighbor as yourself",
           "occurrence": 1
         }
@@ -6205,6 +6355,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τὸ ἀγαπᾶν τὸν πλησίον ὡς ἑαυτὸν",
           "glQuote": "to love one's neighbor as oneself",
           "occurrence": 1
         }
@@ -6248,6 +6399,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "φωνὴ ἐγένετο ἐκ τῶν οὐρανῶν",
           "glQuote": "A voice came out of the heavens",
           "occurrence": 1
         }
@@ -6301,6 +6453,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἦν ὅλη ἡ πόλις ἐπισυνηγμένη πρὸς τὴν θύραν",
           "glQuote": "The whole city gathered together at the door",
           "occurrence": 1
         }
@@ -6342,6 +6495,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "διαλογιζόμενοι ἐν ταῖς καρδίαις αὐτῶν",
           "glQuote": "reasoned in their hearts",
           "occurrence": 1
         }
@@ -6386,6 +6540,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ταῦτα … ἐν ταῖς καρδίαις ὑμῶν",
           "glQuote": "these things in your hearts",
           "occurrence": 1
         }
@@ -6406,6 +6561,7 @@
           "tool": "translationNotes",
           "groupId": "figs-metonymy",
           "quote": "ψυχὴν",
+          "quoteString": "ψυχὴν",
           "glQuote": "a life",
           "occurrence": 1
         }
@@ -6451,6 +6607,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐὰν βασιλεία ἐφ’ ἑαυτὴν μερισθῇ",
           "glQuote": "If a kingdom is divided against itself",
           "occurrence": 1
         }
@@ -6471,6 +6628,7 @@
           "tool": "translationNotes",
           "groupId": "figs-metonymy",
           "quote": "οἰκία",
+          "quoteString": "οἰκία",
           "glQuote": "house",
           "occurrence": 1
         }
@@ -6516,6 +6674,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὃς ἔχει ὦτα ἀκούειν, ἀκουέτω",
           "glQuote": "Whoever has ears to hear, let him hear",
           "occurrence": 1
         }
@@ -6545,6 +6704,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τὸν λόγον",
           "glQuote": "the word",
           "occurrence": 1
         }
@@ -6594,6 +6754,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "εἴ τις ἔχει ὦτα ἀκούειν, ἀκουέτω",
           "glQuote": "If anyone has ears to hear, let him hear",
           "occurrence": 1
         }
@@ -6631,6 +6792,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "εὐθὺς ἀποστέλλει τὸ δρέπανον",
           "glQuote": "he immediately sends in the sickle",
           "occurrence": 1
         }
@@ -6672,6 +6834,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "μένετε ἕως ἂν ἐξέλθητε ἐκεῖθεν",
           "glQuote": "remain until you go away from there",
           "occurrence": 1
         }
@@ -6705,6 +6868,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὃν ἐγὼ ἀπεκεφάλισα",
           "glQuote": "whom I beheaded",
           "occurrence": 1
         }
@@ -6754,6 +6918,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἤθελεν αὐτὸν ἀποκτεῖναι, καὶ οὐκ ἠδύνατο",
           "glQuote": "wanted to kill him, but she could not",
           "occurrence": 1
         }
@@ -6787,6 +6952,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐπὶ τοῖς ἄρτοις",
           "glQuote": "about the loaves",
           "occurrence": 1
         }
@@ -6816,6 +6982,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τοῖς χείλεσίν",
           "glQuote": "with their lips",
           "occurrence": 1
         }
@@ -6873,6 +7040,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἡ δὲ καρδία αὐτῶν πόρρω ἀπέχει ἀπ’ ἐμοῦ",
           "glQuote": "but their heart is far from me",
           "occurrence": 1
         }
@@ -6918,6 +7086,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οὐκ εἰσπορεύεται αὐτοῦ εἰς τὴν καρδίαν",
           "glQuote": "it does not go into his heart",
           "occurrence": 1
         }
@@ -6974,6 +7143,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐκ τῆς καρδίας … οἱ διαλογισμοὶ οἱ κακοὶ ἐκπορεύονται",
           "glQuote": "out of the heart, proceed evil thoughts",
           "occurrence": 1
         }
@@ -7010,6 +7180,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τοὺς κωφοὺς … ἀλάλους",
           "glQuote": "the deaf ... the mute",
           "occurrence": 1
         }
@@ -7047,6 +7218,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "σημεῖον ἀπὸ τοῦ οὐρανοῦ",
           "glQuote": "a sign from heaven",
           "occurrence": 1
         }
@@ -7092,6 +7264,7 @@
               "occurrence": 3
             }
           ],
+          "quoteString": "πεπωρωμένην ἔχετε τὴν καρδίαν ὑμῶν?",
           "glQuote": "Have your hearts become hardened?",
           "occurrence": 1
         }
@@ -7121,6 +7294,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τοὺς πεντακισχιλίους",
           "glQuote": "the five thousand",
           "occurrence": 1
         }
@@ -7150,6 +7324,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τοὺς τετρακισχιλίους",
           "glQuote": "the four thousand",
           "occurrence": 1
         }
@@ -7203,6 +7378,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἀράτω τὸν σταυρὸν αὐτοῦ, καὶ ἀκολουθείτω μοι",
           "glQuote": "take up his cross, and follow me",
           "occurrence": 1
         }
@@ -7252,6 +7428,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τὴν Βασιλείαν τοῦ Θεοῦ ἐληλυθυῖαν ἐν δυνάμει",
           "glQuote": "the kingdom of God come with power",
           "occurrence": 1
         }
@@ -7297,6 +7474,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "καὶ ἐγένετο φωνὴ ἐκ τῆς νεφέλης",
           "glQuote": "and a voice came out of the cloud",
           "occurrence": 1
         }
@@ -7330,6 +7508,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐκ νεκρῶν ἀναστῇ",
           "glQuote": "had risen from the dead",
           "occurrence": 1
         }
@@ -7363,6 +7542,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐκ νεκρῶν ἀναστῆναι",
           "glQuote": "had risen from the dead",
           "occurrence": 1
         }
@@ -7396,6 +7576,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "εἰς χεῖρας ἀνθρώπων",
           "glQuote": "into the hands of men",
           "occurrence": 1
         }
@@ -7433,6 +7614,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐν τῷ ὀνόματί σου",
           "glQuote": "in your name",
           "occurrence": 1
         }
@@ -7478,6 +7660,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐὰν σκανδαλίσῃ σε ἡ χείρ σου",
           "glQuote": "If your hand causes you to stumble",
           "occurrence": 1
         }
@@ -7523,6 +7706,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐὰν ὁ πούς σου σκανδαλίζῃ σε",
           "glQuote": "If your foot causes you to stumble",
           "occurrence": 1
         }
@@ -7580,6 +7764,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐὰν ὁ ὀφθαλμός σου σκανδαλίζῃ σε, ἔκβαλε αὐτόν",
           "glQuote": "If your eye causes you to stumble, tear it out",
           "occurrence": 1
         }
@@ -7613,6 +7798,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τὴν σκληροκαρδίαν ὑμῶν",
           "glQuote": "your hardness of heart",
           "occurrence": 1
         }
@@ -7646,6 +7832,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὸς τοῖς πτωχοῖς",
           "glQuote": "give it to the poor",
           "occurrence": 1
         }
@@ -7683,6 +7870,7 @@
               "occurrence": 3
             }
           ],
+          "quoteString": "ἐν τῇ δόξῃ σου",
           "glQuote": "in your glory",
           "occurrence": 1
         }
@@ -7716,6 +7904,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐν ὀνόματι Κυρίου",
           "glQuote": "in the name of the Lord",
           "occurrence": 1
         }
@@ -7757,6 +7946,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τοῦ πατρὸς ἡμῶν, Δαυείδ",
           "glQuote": "of our father David",
           "occurrence": 1
         }
@@ -7814,6 +8004,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "μὴ διακριθῇ ἐν τῇ καρδίᾳ αὐτοῦ, ἀλλὰ πιστεύῃ",
           "glQuote": "does not doubt in his heart but believes",
           "occurrence": 1
         }
@@ -7843,6 +8034,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐξ οὐρανοῦ",
           "glQuote": "from heaven",
           "occurrence": 1
         }
@@ -7876,6 +8068,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐξ‘ οὐρανοῦ",
           "glQuote": "From heaven",
           "occurrence": 1
         }
@@ -7913,6 +8106,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τὰ Καίσαρος ἀπόδοτε Καίσαρι",
           "glQuote": "Give to Caesar the things that are Caesar's",
           "occurrence": 1
         }
@@ -8038,6 +8232,7 @@
               "occurrence": 5
             }
           ],
+          "quoteString": "ἐξ ὅλης τῆς καρδίας σου, καὶ ἐξ ὅλης τῆς ψυχῆς σου, καὶ ἐξ ὅλης τῆς διανοίας σου, καὶ ἐξ ὅλης τῆς ἰσχύος σου",
           "glQuote": "with all your heart, with all your soul, with all your mind, and with all your strength",
           "occurrence": 1
         }
@@ -8117,6 +8312,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐξ ὅλης τῆς καρδίας … ἐξ ὅλης τῆς συνέσεως … ἐξ ὅλης τῆς ἰσχύος’",
           "glQuote": "with all the heart ... all the understanding ... all the strength",
           "occurrence": 1
         }
@@ -8154,6 +8350,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐπὶ τῷ ὀνόματί μου",
           "glQuote": "in my name",
           "occurrence": 1
         }
@@ -8191,6 +8388,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "διὰ τὸ ὄνομά μου",
           "glQuote": "because of my name",
           "occurrence": 1
         }
@@ -8211,6 +8409,7 @@
           "tool": "translationNotes",
           "groupId": "figs-metonymy",
           "quote": "ἐπισυνάξει",
+          "quoteString": "ἐπισυνάξει",
           "glQuote": "he will gather together",
           "occurrence": 1
         }
@@ -8244,6 +8443,7 @@
               "occurrence": 2
             }
           ],
+          "quoteString": "φάγῃς τὸ Πάσχα",
           "glQuote": "eat the Passover",
           "occurrence": 1
         }
@@ -8293,6 +8493,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "παρένεγκε τὸ ποτήριον τοῦτο ἀπ’ ἐμοῦ",
           "glQuote": "Remove this cup from me",
           "occurrence": 1
         }
@@ -8339,6 +8540,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τὸ … πνεῦμα … ἡ … σὰρξ",
           "glQuote": "The spirit ... the flesh",
           "occurrence": 1
         }
@@ -8376,6 +8578,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "εἰς τὸ θανατῶσαι αὐτόν",
           "glQuote": "to put him to death",
           "occurrence": 1
         }
@@ -8425,6 +8628,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐκ‘ δεξιῶν καθήμενον’ τῆς δυνάμεως",
           "glQuote": "he sits at the right hand of power",
           "occurrence": 1
         }
@@ -8466,6 +8670,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "δήσαντες τὸν Ἰησοῦν, ἀπήνεγκαν",
           "glQuote": "bound Jesus and led him away",
           "occurrence": 1
         }
@@ -8510,6 +8715,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "καθελὼν αὐτὸν … καὶ προσεκύλισεν λίθον",
           "glQuote": "took him down from the cross ... Then he rolled a stone",
           "occurrence": 1
         }
@@ -8585,6 +8791,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἦν γὰρ διδάσκων αὐτοὺς ὡς ἐξουσίαν ἔχων, καὶ οὐχ ὡς οἱ γραμματεῖς",
           "glQuote": "for he was teaching them as someone who has authority and not as the scribes",
           "occurrence": 1
         }
@@ -8630,6 +8837,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐὰν θέλῃς, δύνασαί με καθαρίσαι",
           "glQuote": "If you are willing, you can make me clean",
           "occurrence": 1
         }
@@ -8650,6 +8858,7 @@
           "tool": "translationNotes",
           "groupId": "figs-ellipsis",
           "quote": "θέλω",
+          "quoteString": "θέλω",
           "glQuote": "I am willing",
           "occurrence": 1
         }
@@ -8679,6 +8888,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἀλλὰ ἁμαρτωλούς",
           "glQuote": "but sinners",
           "occurrence": 1
         }
@@ -8724,6 +8934,7 @@
               "occurrence": 2
             }
           ],
+          "quoteString": "οὐχ ὁ ἄνθρωπος διὰ τὸ Σάββατον",
           "glQuote": "not mankind for the Sabbath",
           "occurrence": 1
         }
@@ -8769,6 +8980,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "κακοποιῆσαι, ψυχὴν σῶσαι ἢ ἀποκτεῖναι",
           "glQuote": "to save a life or to kill",
           "occurrence": 1
         }
@@ -8802,6 +9014,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "πολλοὺς γὰρ ἐθεράπευσεν",
           "glQuote": "For he healed many",
           "occurrence": 1
         }
@@ -8879,6 +9092,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "αὐξανόμενα, καὶ ἔφερεν εἰς τριάκοντα, καὶ ἓν ἑξήκοντα, καὶ ἓν ἑκατόν",
           "glQuote": "increasing thirty, sixty, and even a hundred times",
           "occurrence": 1
         }
@@ -8920,6 +9134,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐν παραβολαῖς τὰ πάντα γίνεται",
           "glQuote": "everything is in parables",
           "occurrence": 1
         }
@@ -8977,6 +9192,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τριάκοντα, καὶ ἓν ἑξήκοντα, καὶ ἓν ἑκατόν",
           "glQuote": "yields sixty, and another yields a hundred times",
           "occurrence": 1
         }
@@ -9014,6 +9230,7 @@
               "occurrence": 2
             }
           ],
+          "quoteString": "ἤδη γεμίζεσθαι τὸ πλοῖον",
           "glQuote": "the boat was almost full of water",
           "occurrence": 1
         }
@@ -9063,6 +9280,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "εἰς τὴν πόλιν καὶ εἰς τοὺς ἀγρούς",
           "glQuote": "in the city and in the countryside",
           "occurrence": 1
         }
@@ -9092,6 +9310,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "πάντες ἐθαύμαζον",
           "glQuote": "everyone was amazed",
           "occurrence": 1
         }
@@ -9121,6 +9340,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τὸ πέραν",
           "glQuote": "the other side",
           "occurrence": 1
         }
@@ -9162,6 +9382,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "εἶπεν αὐτῷ πᾶσαν τὴν ἀλήθειαν",
           "glQuote": "told him the whole truth",
           "occurrence": 1
         }
@@ -9182,6 +9403,7 @@
           "tool": "translationNotes",
           "groupId": "figs-ellipsis",
           "quote": "ἐξελθόντες",
+          "quoteString": "ἐξελθόντες",
           "glQuote": "They went out",
           "occurrence": 1
         }
@@ -9215,6 +9437,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "δαιμόνια πολλὰ ἐξέβαλλον",
           "glQuote": "They cast out many demons",
           "occurrence": 1
         }
@@ -9248,6 +9471,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "εἰς τὸ πέραν",
           "glQuote": "to the other side",
           "occurrence": 1
         }
@@ -9268,6 +9492,7 @@
           "tool": "translationNotes",
           "groupId": "figs-ellipsis",
           "quote": "σύνετε",
+          "quoteString": "σύνετε",
           "glQuote": "understand",
           "occurrence": 1
         }
@@ -9297,6 +9522,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἔσωθεν ἐκπορεύεται",
           "glQuote": "come from within",
           "occurrence": 1
         }
@@ -9341,6 +9567,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὅσον … αὐτοῖς διεστέλλετο, αὐτοὶ",
           "glQuote": "the more he ordered them",
           "occurrence": 1
         }
@@ -9373,6 +9600,7 @@
               "occurrence": 2
             }
           ],
+          "quoteString": "ἄλλοι … ἄλλοι",
           "glQuote": "Others say ... others",
           "occurrence": 1
         }
@@ -9402,6 +9630,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οὐκ ἴσχυσαν",
           "glQuote": "they could not",
           "occurrence": 1
         }
@@ -9431,6 +9660,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐκ παιδιόθεν",
           "glQuote": "Since childhood",
           "occurrence": 1
         }
@@ -9464,6 +9694,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "εἰ δύνῃ?",
           "glQuote": "'If you are able'?",
           "occurrence": 1
         }
@@ -9493,6 +9724,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐκβαλεῖν αὐτό",
           "glQuote": "cast it out",
           "occurrence": 1
         }
@@ -9526,6 +9758,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τοῦτο τὸ γένος",
           "glQuote": "This kind",
           "occurrence": 1
         }
@@ -9559,6 +9792,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐφοβοῦντο αὐτὸν ἐπερωτῆσαι",
           "glQuote": "they were afraid to ask him",
           "occurrence": 1
         }
@@ -9616,6 +9850,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "παρὰ ἀνθρώποις ἀδύνατον, ἀλλ’ οὐ παρὰ Θεῷ",
           "glQuote": "With people it is impossible, but not with God",
           "occurrence": 1
         }
@@ -9636,6 +9871,7 @@
           "tool": "translationNotes",
           "groupId": "figs-ellipsis",
           "quote": "δυνάμεθα",
+          "quoteString": "δυνάμεθα",
           "glQuote": "We are able",
           "occurrence": 1
         }
@@ -9676,6 +9912,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἀκούσας ὅτι Ἰησοῦς … ἐστιν",
           "glQuote": "When he heard that it was Jesus",
           "occurrence": 1
         }
@@ -9721,6 +9958,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐὰν εἴπωμεν, ἐξ‘ οὐρανοῦ",
           "glQuote": "If we say, 'From heaven,'",
           "occurrence": 1
         }
@@ -9766,6 +10004,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἀλλὰ εἴπωμεν, ἐξ‘ ἀνθρώπων",
           "glQuote": "But if we say, 'From men,'",
           "occurrence": 1
         }
@@ -9795,6 +10034,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οὐκ οἴδαμεν",
           "glQuote": "We do not know",
           "occurrence": 1
         }
@@ -9831,6 +10071,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἄλλον … πολλοὺς ἄλλους",
           "glQuote": "yet another ... many others",
           "occurrence": 1
         }
@@ -9887,6 +10128,7 @@
               "occurrence": 4
             }
           ],
+          "quoteString": "οἱ … εἶπαν αὐτῷ, \"Καίσαρος.\"",
           "glQuote": "They said to him, \"Caesar's.\"",
           "occurrence": 1
         }
@@ -9923,6 +10165,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "καὶ … τῷ Θεῷ",
           "glQuote": "and to God",
           "occurrence": 1
         }
@@ -9963,6 +10206,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὁ δεύτερος … ὁ τρίτος",
           "glQuote": "the second ... the third",
           "occurrence": 1
         }
@@ -9992,6 +10236,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οἱ ἑπτὰ",
           "glQuote": "The seven",
           "occurrence": 1
         }
@@ -10025,6 +10270,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οὐκ ἔστιν ἄλλος",
           "glQuote": "that there is no other",
           "occurrence": 1
         }
@@ -10058,6 +10304,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "βασιλεία ἐπὶ βασιλείαν",
           "glQuote": "kingdom against kingdom",
           "occurrence": 1
         }
@@ -10099,6 +10346,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἀλλὰ τὸ Πνεῦμα τὸ Ἅγιον",
           "glQuote": "but the Holy Spirit",
           "occurrence": 1
         }
@@ -10128,6 +10376,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "πατὴρ τέκνον",
           "glQuote": "a father his child",
           "occurrence": 1
         }
@@ -10169,6 +10418,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "μὴ ἐπιστρεψάτω εἰς τὰ ὀπίσω",
           "glQuote": "let not go back",
           "occurrence": 1
         }
@@ -10218,6 +10468,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "πρὸς τὸ ἀποπλανᾶν εἰ δυνατὸν τοὺς ἐκλεκτούς",
           "glQuote": "so as to deceive, if possible, even the elect",
           "occurrence": 1
         }
@@ -10307,6 +10558,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οὐδεὶς οἶδεν; οὐδὲ οἱ ἄγγελοι ἐν οὐρανῷ, οὐδὲ ὁ Υἱός, εἰ μὴ ὁ Πατήρ",
           "glQuote": "no one knows, not even the angels in heaven, nor the Son, but the Father",
           "occurrence": 1
         }
@@ -10344,6 +10596,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "εἰ μὴ ὁ Πατήρ",
           "glQuote": "but only the Father",
           "occurrence": 1
         }
@@ -10381,6 +10634,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "μὴ ἐν τῇ ἑορτῇ",
           "glQuote": "Not during the feast",
           "occurrence": 1
         }
@@ -10414,6 +10668,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "δοθῆναι τοῖς πτωχοῖς",
           "glQuote": "given to the poor",
           "occurrence": 1
         }
@@ -10475,6 +10730,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "εἰ καὶ πάντες σκανδαλισθήσονται, ἀλλ’ οὐκ ἐγώ\\",
           "glQuote": "Even if all fall away, yet I will not",
           "occurrence": 1
         }
@@ -10536,6 +10792,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἀλλ’ οὐ τί ἐγὼ θέλω, ἀλλὰ τί σύ",
           "glQuote": "But not what I will, but what you will",
           "occurrence": 1
         }
@@ -10568,6 +10825,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἄλλον … οἰκοδομήσω",
           "glQuote": "will build another",
           "occurrence": 1
         }
@@ -10600,6 +10858,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "μᾶλλον … ἀπολύσῃ",
           "glQuote": "he would release ... instead",
           "occurrence": 1
         }
@@ -10655,6 +10914,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τί ἡμῖν καὶ σοί, Ἰησοῦ Ναζαρηνέ?",
           "glQuote": "What do we have to do with you, Jesus of Nazareth?",
           "occurrence": 1
         }
@@ -10688,6 +10948,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἦλθες ἀπολέσαι ἡμᾶς",
           "glQuote": "Have you come to destroy us?",
           "occurrence": 1
         }
@@ -10792,6 +11053,7 @@
               "occurrence": 2
             }
           ],
+          "quoteString": "συνζητεῖν πρὸς αὐτοὺς λέγοντας, “τί ἐστιν τοῦτο? διδαχὴ καινή κατ’ ἐξουσίαν! … ὑπακούουσιν αὐτῷ!”",
           "glQuote": "they asked each other, \"What is this? A new teaching with authority! ... and they obey him!\"",
           "occurrence": 1
         }
@@ -10833,6 +11095,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τί οὗτος οὕτως λαλεῖ?",
           "glQuote": "How can this man speak this way?",
           "occurrence": 1
         }
@@ -10894,6 +11157,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τίς δύναται ἀφιέναι ἁμαρτίας, εἰ μὴ εἷς ὁ Θεός",
           "glQuote": "Who can forgive sins but God alone?",
           "occurrence": 1
         }
@@ -10943,6 +11207,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τί ταῦτα διαλογίζεσθε ἐν ταῖς καρδίαις ὑμῶν",
           "glQuote": "Why are you thinking these things in your hearts?",
           "occurrence": 1
         }
@@ -11027,6 +11292,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τί ἐστιν εὐκοπώτερον, εἰπεῖν τῷ παραλυτικῷ … ἆρον τὸν κράβαττόν σου καὶ περιπάτει’?",
           "glQuote": "What is easier to say to the paralyzed man ... take up your bed, and walk'?",
           "occurrence": 1
         }
@@ -11076,6 +11342,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "μετὰ τῶν τελωνῶν καὶ ἁμαρτωλῶν ἐσθίει?",
           "glQuote": "Why does he eat with tax collectors and sinners?",
           "occurrence": 1
         }
@@ -11161,6 +11428,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "μὴ δύνανται οἱ υἱοὶ τοῦ νυμφῶνος ἐν ᾧ ὁ νυμφίος μετ’ αὐτῶν ἐστιν νηστεύειν?",
           "glQuote": "The wedding attendants cannot fast while the bridegroom is still with them, can they?",
           "occurrence": 1
         }
@@ -11222,6 +11490,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἴδε, τί ποιοῦσιν τοῖς Σάββασιν ὃ οὐκ ἔξεστιν?",
           "glQuote": "Look, why are they doing something that is not lawful on the Sabbath day?",
           "occurrence": 1
         }
@@ -11286,6 +11555,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οὐδέποτε ἀνέγνωτε τί ἐποίησεν Δαυεὶδ … οἱ μετ’ αὐτοῦ?",
           "glQuote": "Have you never read what David ... the men who were with him",
           "occurrence": 1
         }
@@ -11334,6 +11604,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οὐδέποτε ἀνέγνωτε τί ἐποίησεν Δαυεὶδ … αὐτὸς",
           "glQuote": "Have you never read what David did ... him",
           "occurrence": 1
         }
@@ -11406,6 +11677,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "πῶς εἰσῆλθεν εἰς τὸν οἶκον τοῦ Θεοῦ … τοῖς σὺν αὐτῷ οὖσιν?",
           "glQuote": "how he went into the house of God ... to those who were with him?",
           "occurrence": 1
         }
@@ -11458,6 +11730,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἔξεστιν τοῖς Σάββασιν ἀγαθοποιῆσαι … ἢ ἀποκτεῖναι?",
           "glQuote": "Is it lawful to do good on the Sabbath ... or to kill?",
           "occurrence": 1
         }
@@ -11503,6 +11776,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "πῶς δύναται Σατανᾶς Σατανᾶν ἐκβάλλειν?",
           "glQuote": "How can Satan cast out Satan?",
           "occurrence": 1
         }
@@ -11568,6 +11842,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τίς ἐστιν ἡ μήτηρ μου, καὶ οἱ ἀδελφοί μου?",
           "glQuote": "Who are my mother and my brothers?",
           "occurrence": 1
         }
@@ -11641,6 +11916,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οὐκ οἴδατε τὴν παραβολὴν ταύτην, καὶ πῶς πάσας τὰς παραβολὰς γνώσεσθε?",
           "glQuote": "Do you not understand this parable? How then will you understand all the other parables?",
           "occurrence": 1
         }
@@ -11722,6 +11998,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "μήτι ἔρχεται ὁ λύχνος ἵνα ὑπὸ τὸν μόδιον τεθῇ, ἢ ὑπὸ τὴν κλίνην?",
           "glQuote": "The lamp is not brought in order to put it under a basket, or under the bed, is it?",
           "occurrence": 1
         }
@@ -11799,6 +12076,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "πῶς ὁμοιώσωμεν τὴν Βασιλείαν τοῦ Θεοῦ, ἢ ἐν τίνι αὐτὴν παραβολῇ θῶμεν?",
           "glQuote": "To what can we compare the kingdom of God, or what parable can we use to explain it?",
           "occurrence": 1
         }
@@ -11844,6 +12122,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οὐ μέλει σοι ὅτι ἀπολλύμεθα?",
           "glQuote": "do you not care that we are perishing?",
           "occurrence": 1
         }
@@ -11893,6 +12172,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τί δειλοί ἐστε? οὔπω ἔχετε πίστιν",
           "glQuote": "Why are you afraid? Do you still not have faith?",
           "occurrence": 1
         }
@@ -11974,6 +12254,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τίς ἄρα οὗτός ἐστιν, ὅτι καὶ ὁ ἄνεμος καὶ ἡ θάλασσα ὑπακούει αὐτῷ?",
           "glQuote": "Who then is this, because even the wind and the sea obey him?",
           "occurrence": 1
         }
@@ -12043,6 +12324,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τί ἐμοὶ καὶ σοί Ἰησοῦ, Υἱὲ τοῦ Θεοῦ τοῦ Ὑψίστου?",
           "glQuote": "What do I have to do with you, Jesus, Son of the Most High God?",
           "occurrence": 1
         }
@@ -12088,6 +12370,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τί ἔτι σκύλλεις τὸν διδάσκαλον?",
           "glQuote": "Why trouble the teacher any longer?",
           "occurrence": 1
         }
@@ -12129,6 +12412,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τί θορυβεῖσθε καὶ κλαίετε?",
           "glQuote": "Why are you upset and why do you weep?",
           "occurrence": 1
         }
@@ -12286,6 +12570,7 @@
               "occurrence": 2
             }
           ],
+          "quoteString": "οὐχ οὗτός ἐστιν ὁ τέκτων, ὁ υἱὸς τῆς Μαρίας, καὶ ἀδελφὸς Ἰακώβου, καὶ Ἰωσῆτος, καὶ Ἰούδα, καὶ Σίμωνος? καὶ οὐκ εἰσὶν αἱ ἀδελφαὶ αὐτοῦ ὧδε πρὸς ἡμᾶς?",
           "glQuote": "Is this not the carpenter, the son of Mary and the brother of James and Joses and Judas and Simon? Are his sisters not here with us?",
           "occurrence": 1
         }
@@ -12355,6 +12640,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἀπελθόντες, ἀγοράσωμεν δηναρίων διακοσίων ἄρτους, καὶ δώσομεν αὐτοῖς φαγεῖν?",
           "glQuote": "Should we go and buy two hundred denarii worth of bread and give it to them to eat?",
           "occurrence": 1
         }
@@ -12456,6 +12742,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "διὰ τί οὐ περιπατοῦσιν οἱ μαθηταί σου κατὰ τὴν παράδοσιν τῶν πρεσβυτέρων, ἀλλὰ κοιναῖς χερσὶν ἐσθίουσιν τὸν ἄρτον?",
           "glQuote": "Why do your disciples not walk according to the tradition of the elders, for they eat their bread with unwashed hands?",
           "occurrence": 1
         }
@@ -12501,6 +12788,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οὕτως καὶ ὑμεῖς ἀσύνετοί ἐστε?",
           "glQuote": "Are you also still without understanding?",
           "occurrence": 1
         }
@@ -12549,6 +12837,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὅτι … εἰς τὸν ἀφεδρῶνα ἐκπορεύεται?",
           "glQuote": "because ... passes our into the latrine?",
           "occurrence": 1
         }
@@ -12614,6 +12903,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "πόθεν τούτους δυνήσεταί τις ὧδε χορτάσαι ἄρτων ἐπ’ ἐρημίας?",
           "glQuote": "Where can we get enough loaves of bread in such a deserted place to satisfy these people?",
           "occurrence": 1
         }
@@ -12663,6 +12953,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τί ἡ γενεὰ αὕτη ζητεῖ σημεῖον?",
           "glQuote": "Why does this generation seek for a sign?",
           "occurrence": 1
         }
@@ -12712,6 +13003,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τί διαλογίζεσθε ὅτι ἄρτους οὐκ ἔχετε?",
           "glQuote": "Why are you reasoning about not having bread?",
           "occurrence": 1
         }
@@ -12809,6 +13101,7 @@
               "occurrence": 3
             }
           ],
+          "quoteString": "ὀφθαλμοὺς‘ ἔχοντες, οὐ βλέπετε? καὶ ὦτα ἔχοντες, οὐκ ἀκούετε?’ καὶ οὐ μνημονεύετε?",
           "glQuote": "You have eyes, do you not see? You have ears, do you not hear? Do you not remember?",
           "occurrence": 1
         }
@@ -12846,6 +13139,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "πῶς οὔπω συνίετε?",
           "glQuote": "How do you not yet understand?",
           "occurrence": 1
         }
@@ -12927,6 +13221,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τί γὰρ ὠφελεῖ ἄνθρωπον, κερδήσῃ τὸν κόσμον ὅλον καὶ ζημιωθῆναι τὴν ψυχὴν αὐτοῦ?",
           "glQuote": "What does it profit a person to gain the whole world and then forfeit his soul?",
           "occurrence": 1
         }
@@ -12984,6 +13279,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τί γὰρ δοῖ ἄνθρωπος ἀντάλλαγμα τῆς ψυχῆς αὐτοῦ?",
           "glQuote": "What can a person give in exchange for his soul?",
           "occurrence": 1
         }
@@ -13024,6 +13320,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "πῶς γέγραπται … ἐξουδενηθῇ?",
           "glQuote": "Why then is it written ... be despised?",
           "occurrence": 1
         }
@@ -13084,6 +13381,7 @@
               "occurrence": 2
             }
           ],
+          "quoteString": "ἕως πότε πρὸς ὑμᾶς ἔσομαι? … ἀνέξομαι ὑμῶν?",
           "glQuote": "how long will I have to stay with you? ... bear with you?",
           "occurrence": 1
         }
@@ -13117,6 +13415,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "εἰ δύνῃ?",
           "glQuote": "'If you are able'?",
           "occurrence": 1
         }
@@ -13158,6 +13457,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐν τίνι αὐτὸ ἀρτύσετε?",
           "glQuote": "with what will you season it?",
           "occurrence": 1
         }
@@ -13199,6 +13499,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τί με λέγεις ἀγαθόν?",
           "glQuote": "Why do you call me good?",
           "occurrence": 1
         }
@@ -13240,6 +13541,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "καὶ τίς δύναται σωθῆναι?",
           "glQuote": "Then who can be saved?",
           "occurrence": 1
         }
@@ -13329,6 +13631,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οὐ γέγραπται, ὅτι ὁ‘ οἶκός μου, οἶκος προσευχῆς κληθήσεται πᾶσιν τοῖς ἔθνεσιν’?",
           "glQuote": "Is it not written, 'My house will be called ... the nations'?",
           "occurrence": 1
         }
@@ -13382,6 +13685,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τί οὖν ποιήσει ὁ κύριος τοῦ ἀμπελῶνος?",
           "glQuote": "Therefore, what will the owner of the vineyard do?",
           "occurrence": 1
         }
@@ -13427,6 +13731,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οὐδὲ τὴν Γραφὴν ταύτην ἀνέγνωτε?",
           "glQuote": "Have you not read this scripture?",
           "occurrence": 1
         }
@@ -13464,6 +13769,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τί με πειράζετε?",
           "glQuote": "Why do you test me?",
           "occurrence": 1
         }
@@ -13529,6 +13835,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐν τῇ ἀναστάσει, ὅταν ἀναστῶσιν, τίνος αὐτῶν ἔσται γυνή",
           "glQuote": "In the resurrection, when they rise again, whose wife will she be?",
           "occurrence": 1
         }
@@ -13589,6 +13896,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οὐ διὰ τοῦτο πλανᾶσθε … τὴν δύναμιν τοῦ Θεοῦ?",
           "glQuote": "Is this not the reason you are mistaken ... power of God?",
           "occurrence": 1
         }
@@ -13658,6 +13966,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "πῶς λέγουσιν οἱ γραμματεῖς ὅτι ὁ Χριστὸς, υἱὸς Δαυείδ ἐστιν?",
           "glQuote": "How is it that the scribes say the Christ is the son of David?",
           "occurrence": 1
         }
@@ -13703,6 +14012,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "καὶ πόθεν υἱός αὐτοῦ ἐστιν?",
           "glQuote": "so how can the Christ be David's son?",
           "occurrence": 1
         }
@@ -13763,6 +14073,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "βλέπεις ταύτας τὰς μεγάλας οἰκοδομάς? οὐ μὴ … λίθος",
           "glQuote": "Do you see these great buildings? Not one stone",
           "occurrence": 1
         }
@@ -13820,6 +14131,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "εἰς τί ἡ ἀπώλεια αὕτη τοῦ μύρου γέγονεν?",
           "glQuote": "Why has this waste of the anointing-oil happened?",
           "occurrence": 1
         }
@@ -13861,6 +14173,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τί αὐτῇ κόπους παρέχετε?",
           "glQuote": "Why are you troubling her?",
           "occurrence": 1
         }
@@ -13894,6 +14207,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "μήτι ἐγώ?",
           "glQuote": "Surely not I?",
           "occurrence": 1
         }
@@ -13955,6 +14269,7 @@
               "occurrence": 2
             }
           ],
+          "quoteString": "Σίμων, καθεύδεις? οὐκ ἴσχυσας μίαν ὥραν γρηγορῆσαι?",
           "glQuote": "Simon, are you asleep? Could you not watch for one hour?",
           "occurrence": 1
         }
@@ -14000,6 +14315,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "καθεύδετε τὸ λοιπὸν καὶ ἀναπαύεσθε.",
           "glQuote": "Are you still sleeping and taking your rest?",
           "occurrence": 1
         }
@@ -14065,6 +14381,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὡς ἐπὶ λῃστὴν ἐξήλθατε μετὰ μαχαιρῶν καὶ ξύλων συνλαβεῖν με?",
           "glQuote": "Do you come out, as against a robber, with swords and clubs to capture me?",
           "occurrence": 1
         }
@@ -14110,6 +14427,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τί ἔτι χρείαν ἔχομεν μαρτύρων?",
           "glQuote": "What need do we still have for witnesses?",
           "occurrence": 1
         }
@@ -14161,6 +14479,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "πάντας τοὺς κακῶς ἔχοντας καὶ τοὺς δαιμονιζομένους",
           "glQuote": "all who were sick or possessed by demons",
           "occurrence": 1
         }
@@ -14194,6 +14513,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "πάντες ζητοῦσίν σε",
           "glQuote": "Everyone is looking for you",
           "occurrence": 1
         }
@@ -14238,6 +14558,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἦλθεν … εἰς ὅλην τὴν Γαλιλαίαν",
           "glQuote": "He went throughout all of Galilee",
           "occurrence": 1
         }
@@ -14258,6 +14579,7 @@
           "tool": "translationNotes",
           "groupId": "figs-hyperbole",
           "quote": "πάντοθεν",
+          "quoteString": "πάντοθεν",
           "glQuote": "from everywhere",
           "occurrence": 1
         }
@@ -14290,6 +14612,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οὐκ … ῥίζαν",
           "glQuote": "no root",
           "occurrence": 1
         }
@@ -14319,6 +14642,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐπέλυεν πάντα",
           "glQuote": "he explained everything",
           "occurrence": 1
         }
@@ -14339,6 +14663,7 @@
           "tool": "translationNotes",
           "groupId": "figs-hyperbole",
           "quote": "ἐκλυθήσονται",
+          "quoteString": "ἐκλυθήσονται",
           "glQuote": "they may faint",
           "occurrence": 1
         }
@@ -14372,6 +14697,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἄρτους οὐκ ἔχουσιν",
           "glQuote": "we do not have bread",
           "occurrence": 1
         }
@@ -14409,6 +14735,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "κερδήσῃ τὸν κόσμον ὅλον",
           "glQuote": "to gain the whole world",
           "occurrence": 1
         }
@@ -14465,6 +14792,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "εὐκοπώτερόν ἐστιν … εἰς τὴν Βασιλείαν τοῦ Θεοῦ εἰσελθεῖν",
           "glQuote": "It is easier ... to enter into the kingdom of God",
           "occurrence": 1
         }
@@ -14494,6 +14822,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἕως θανάτου",
           "glQuote": "even to the point of death",
           "occurrence": 1
         }
@@ -14525,6 +14854,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "σεαυτὸν δεῖξον",
           "glQuote": "show yourself",
           "occurrence": 1
         }
@@ -14570,6 +14900,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "μὴ δύνασθαι αὐτοὺς μηδὲ ἄρτον φαγεῖν",
           "glQuote": "they could not even eat bread",
           "occurrence": 1
         }
@@ -14607,6 +14938,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐλάλει αὐτοῖς τὸν λόγον",
           "glQuote": "he spoke the word to them",
           "occurrence": 1
         }
@@ -14636,6 +14968,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "μὴ ἄρτον",
           "glQuote": "no bread",
           "occurrence": 1
         }
@@ -14656,6 +14989,7 @@
           "tool": "translationNotes",
           "groupId": "figs-synecdoche",
           "quote": "ἄρτον",
+          "quoteString": "ἄρτον",
           "glQuote": "bread",
           "occurrence": 1
         }
@@ -14676,6 +15010,7 @@
           "tool": "translationNotes",
           "groupId": "figs-synecdoche",
           "quote": "ἄρτον",
+          "quoteString": "ἄρτον",
           "glQuote": "bread",
           "occurrence": 1
         }
@@ -14705,6 +15040,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἡ κληρονομία",
           "glQuote": "the inheritance",
           "occurrence": 1
         }
@@ -14742,6 +15078,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τὰς οἰκίας τῶν χηρῶν",
           "glQuote": "widows' houses",
           "occurrence": 1
         }
@@ -14783,6 +15120,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οὐκ ἂν ἐσώθη πᾶσα σάρξ",
           "glQuote": "no flesh would be saved",
           "occurrence": 1
         }
@@ -14812,6 +15150,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "λαβὼν ποτήριον",
           "glQuote": "He took a cup",
           "occurrence": 1
         }
@@ -14849,6 +15188,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐστιν ἡ ψυχή μου",
           "glQuote": "My soul is",
           "occurrence": 1
         }
@@ -14878,6 +15218,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τὸν χειροποίητον",
           "glQuote": "made with hands",
           "occurrence": 1
         }
@@ -14929,6 +15270,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οὐκ ἦλθον καλέσαι δικαίους, ἀλλὰ ἁμαρτωλούς",
           "glQuote": "I did not come to call righteous people, but sinners",
           "occurrence": 1
         }
@@ -14993,6 +15335,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "καλῶς ἀθετεῖτε τὴν ἐντολὴν τοῦ Θεοῦ … τὴν παράδοσιν ὑμῶν τηρήσητε",
           "glQuote": "How well you reject the commandment ... keep your tradition",
           "occurrence": 1
         }
@@ -15034,6 +15377,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "Χαῖρε, Βασιλεῦ τῶν Ἰουδαίων",
           "glQuote": "Hail, King of the Jews",
           "occurrence": 1
         }
@@ -15083,6 +15427,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὁ Χριστὸς, ὁ Βασιλεὺς Ἰσραὴλ καταβάτω",
           "glQuote": "Let the Christ, the King of Israel, come down",
           "occurrence": 1
         }
@@ -15157,6 +15502,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οὐ γάρ ἐστιν κρυπτὸν, ἐὰν μὴ ἵνα φανερωθῇ … ἔλθῃ εἰς φανερόν",
           "glQuote": "For nothing is hidden except so that it will be revealed ... come to light",
           "occurrence": 1
         }
@@ -15194,6 +15540,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "εἰ μὴ ἕνα ἄρτον",
           "glQuote": "except for one loaf",
           "occurrence": 1
         }
@@ -15227,6 +15574,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οὐ μὴ ἀπολέσῃ",
           "glQuote": "he will not lose",
           "occurrence": 1
         }
@@ -15268,6 +15616,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οὐ μέλει σοι περὶ οὐδενός",
           "glQuote": "do not defer to anyone",
           "occurrence": 1
         }
@@ -15321,6 +15670,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οὐ μακρὰν εἶ ἀπὸ τῆς Βασιλείας τοῦ Θεοῦ",
           "glQuote": "You are not far from the kingdom of God",
           "occurrence": 1
         }
@@ -15353,6 +15703,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οὐδεὶς … ἐτόλμα",
           "glQuote": "no one dared",
           "occurrence": 1
         }
@@ -15388,6 +15739,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ποιεῖ κλάδους μεγάλους",
           "glQuote": "it forms large branches",
           "occurrence": 1
         }
@@ -15437,6 +15789,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἡ σελήνη οὐ δώσει τὸ φέγγος αὐτῆς",
           "glQuote": "the moon will not give its light",
           "occurrence": 1
         }
@@ -15470,6 +15823,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐκφύῃ τὰ φύλλα",
           "glQuote": "puts out its leaves",
           "occurrence": 1
         }
@@ -15505,6 +15859,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "σιώπα, πεφίμωσο",
           "glQuote": "Silence! Be still!",
           "occurrence": 1
         }
@@ -15546,6 +15901,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἀκούσατέ μου πάντες καὶ σύνετε",
           "glQuote": "Listen to me, all of you, and understand",
           "occurrence": 1
         }
@@ -15579,6 +15935,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὁρᾶτε, βλέπετε",
           "glQuote": "Keep watch and be on guard",
           "occurrence": 1
         }
@@ -15620,6 +15977,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τοὺς ἐκλεκτοὺς, οὓς ἐξελέξατο",
           "glQuote": "the elect whom he chose",
           "occurrence": 1
         }
@@ -15673,6 +16031,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οὔτε οἶδα, οὔτε ἐπίσταμαι σὺ τί λέγεις",
           "glQuote": "I neither know nor understand what you are saying",
           "occurrence": 1
         }
@@ -15716,6 +16075,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐν ῥύσει αἵματος δώδεκα ἔτη",
           "glQuote": "with a flow of blood for twelve years",
           "occurrence": 1
         }
@@ -15753,6 +16113,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ταῖς ἐν γαστρὶ ἐχούσαις",
           "glQuote": "to those who are pregnant",
           "occurrence": 1
         }
@@ -15786,6 +16147,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οὐ μὴ παρέλθῃ",
           "glQuote": "will not pass away",
           "occurrence": 1
         }
@@ -15837,6 +16199,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οὐκ ἔστιν προφήτης ἄτιμος, εἰ μὴ",
           "glQuote": "A prophet is not without honor, except",
           "occurrence": 1
         }
@@ -15914,6 +16277,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τοῦτο τὸ γένος ἐν οὐδενὶ δύναται ἐξελθεῖν, εἰ μὴ ἐν προσευχῇ καὶ νηστεία",
           "glQuote": "This kind cannot be cast out except by prayer",
           "occurrence": 1
         }
@@ -15943,6 +16307,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "μὴ κωλύετε",
           "glQuote": "do not forbid",
           "occurrence": 1
         }
@@ -15976,6 +16341,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐὰν μὴ λάβῃ",
           "glQuote": "who will not receive",
           "occurrence": 1
         }
@@ -16055,6 +16421,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "εἶπεν αὐτῇ, \"μηκέτι εἰς τὸν αἰῶνα, ἐκ σοῦ μηδεὶς καρπὸν φάγοι",
           "glQuote": "spoke to it, \"No one will ever eat fruit from you again",
           "occurrence": 1
         }
@@ -16106,6 +16473,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἀπ’ ἄκρου γῆς ἕως ἄκρου οὐρανοῦ",
           "glQuote": "from the ends of the earth to the ends of the sky",
           "occurrence": 1
         }
@@ -16147,6 +16515,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὁ οὐρανὸς καὶ ἡ γῆ",
           "glQuote": "Heaven and earth",
           "occurrence": 1
         }
@@ -16188,6 +16557,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἀμφιβάλλοντας ἐν τῇ θαλάσσῃ",
           "glQuote": "casting a net in the sea",
           "occurrence": 1
         }
@@ -16221,6 +16591,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐν τῷ πλοίῳ",
           "glQuote": "in the boat",
           "occurrence": 1
         }
@@ -16250,6 +16621,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐκάλεσεν αὐτούς",
           "glQuote": "called them",
           "occurrence": 1
         }
@@ -16287,6 +16659,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἀφῆκεν αὐτὴν ὁ πυρετός",
           "glQuote": "the fever left her",
           "occurrence": 1
         }
@@ -16316,6 +16689,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "διηκόνει αὐτοῖς",
           "glQuote": "she started serving them",
           "occurrence": 1
         }
@@ -16353,6 +16727,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "σεαυτὸν δεῖξον τῷ ἱερεῖ",
           "glQuote": "show yourself to the priest",
           "occurrence": 1
         }
@@ -16406,6 +16781,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὥστε μηκέτι αὐτὸν δύνασθαι φανερῶς εἰς πόλιν εἰσελθεῖν",
           "glQuote": "that Jesus could no longer enter a town openly",
           "occurrence": 1
         }
@@ -16439,6 +16815,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "καὶ συνήχθησαν πολλοὶ",
           "glQuote": "So many gathered there",
           "occurrence": 1
         }
@@ -16480,6 +16857,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "μηκέτι χωρεῖν, μηδὲ τὰ",
           "glQuote": "there was no more space",
           "occurrence": 1
         }
@@ -16520,6 +16898,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἰδὼν … τὴν πίστιν αὐτῶν",
           "glQuote": "Seeing their faith",
           "occurrence": 1
         }
@@ -16573,6 +16952,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οὐδεὶς ἐπίβλημα ῥάκους ἀγνάφου ἐπιράπτει ἐπὶ ἱμάτιον παλαιόν",
           "glQuote": "No one sews a piece of new cloth on an old garment",
           "occurrence": 1
         }
@@ -16606,6 +16986,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τίλλοντες τοὺς στάχυας",
           "glQuote": "picking heads of grain",
           "occurrence": 1
         }
@@ -16642,6 +17023,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἀνέγνωτε τί … Δαυεὶδ",
           "glQuote": "read what David",
           "occurrence": 1
         }
@@ -16675,6 +17057,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἵνα κατηγορήσωσιν αὐτοῦ",
           "glQuote": "so that they could accuse him",
           "occurrence": 1
         }
@@ -16732,6 +17115,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐπιπίπτειν αὐτῷ, ἵνα αὐτοῦ ἅψωνται ὅσοι εἶχον μάστιγας",
           "glQuote": "everyone who had afflictions eagerly approached him in order to touch him",
           "occurrence": 1
         }
@@ -16773,6 +17157,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "προσέπιπτον αὐτῷ καὶ ἔκραζον λέγοντα",
           "glQuote": "they fell down before him and cried out and said",
           "occurrence": 1
         }
@@ -16805,6 +17190,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "βλέποντες … ἀκούοντες",
           "glQuote": "when they look ... when they hear",
           "occurrence": 1
         }
@@ -16854,6 +17240,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "γενομένης θλίψεως ἢ διωγμοῦ διὰ τὸν λόγον",
           "glQuote": "tribulation or persecution comes because of the word",
           "occurrence": 1
         }
@@ -16891,6 +17278,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οὐδεὶς ἴσχυεν αὐτὸν δαμάσαι",
           "glQuote": "No one had the strength to subdue him",
           "occurrence": 1
         }
@@ -16936,6 +17324,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "καὶ ἰδὼν τὸν Ἰησοῦν ἀπὸ μακρόθεν",
           "glQuote": "When he saw Jesus from a distance",
           "occurrence": 1
         }
@@ -16965,6 +17354,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐπέτρεψεν αὐτοῖς",
           "glQuote": "he allowed them",
           "occurrence": 1
         }
@@ -17002,6 +17392,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "καὶ οὐκ ἀφῆκεν αὐτόν",
           "glQuote": "But Jesus did not permit him",
           "occurrence": 1
         }
@@ -17043,6 +17434,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "καὶ ἀπῆλθεν μετ’ αὐτοῦ",
           "glQuote": "So he went with him",
           "occurrence": 1
         }
@@ -17080,6 +17472,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τὰ περὶ τοῦ Ἰησοῦ",
           "glQuote": "the reports about Jesus",
           "occurrence": 1
         }
@@ -17117,6 +17510,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "μετ’ αὐτοῦ συνακολουθῆσαι",
           "glQuote": "to accompany him",
           "occurrence": 1
         }
@@ -17158,6 +17552,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "εἰσπορεύεται ὅπου ἦν τὸ παιδίον",
           "glQuote": "went in where the child was",
           "occurrence": 1
         }
@@ -17191,6 +17586,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "εἰς μαρτύριον αὐτοῖς",
           "glQuote": "as a testimony to them",
           "occurrence": 1
         }
@@ -17244,6 +17640,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἔλεγον, ὅτι\"Ἰωάννης ὁ βαπτίζων ἐγήγερται",
           "glQuote": "Some were saying, \"John the Baptist has been raised",
           "occurrence": 1
         }
@@ -17301,6 +17698,7 @@
               "occurrence": 2
             }
           ],
+          "quoteString": "ἄλλοι δὲ ἔλεγον, ὅτι \"Ἠλείας ἐστίν\"",
           "glQuote": "But oome others said, \"He is Elijah.\"",
           "occurrence": 1
         }
@@ -17346,6 +17744,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "διὰ τοὺς ὅρκους καὶ τοὺς συνανακειμένους",
           "glQuote": "because of the oath he had made and because of his dinner guests",
           "occurrence": 1
         }
@@ -17399,6 +17798,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἦσαν οἱ φαγόντες τοὺς ἄρτους, πεντακισχίλιοι ἄνδρες",
           "glQuote": "There were five thousand men who ate the loaves",
           "occurrence": 1
         }
@@ -17436,6 +17836,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "λείαν ἐν ἑαυτοῖς ἐξίσταντο",
           "glQuote": "They were completely amazed",
           "occurrence": 1
         }
@@ -17473,6 +17874,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "περιέδραμον ὅλην τὴν χώραν",
           "glQuote": "they ran throughout the whole region",
           "occurrence": 1
         }
@@ -17534,6 +17936,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οὐκέτι ἀφίετε αὐτὸν οὐδὲν ποιῆσαι τῷ πατρὶ ἢ τῇ μητρί",
           "glQuote": "then you no longer permit him to do anything for his father or his mother",
           "occurrence": 1
         }
@@ -17574,6 +17977,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οὐδέν … ἔξωθεν τοῦ ἀνθρώπου",
           "glQuote": " nothing from outside the man",
           "occurrence": 1
         }
@@ -17615,6 +18019,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τὰ ἐκ τοῦ ἀνθρώπου ἐκπορευόμενά",
           "glQuote": "the things that come out of the man",
           "occurrence": 1
         }
@@ -17656,6 +18061,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "(καθαρίζων πάντα τὰ βρώματα",
           "glQuote": "all foods clean",
           "occurrence": 1
         }
@@ -17676,6 +18082,7 @@
           "tool": "translationNotes",
           "groupId": "figs-explicit",
           "quote": "ὕπαγε",
+          "quoteString": "ὕπαγε",
           "glQuote": "go",
           "occurrence": 1
         }
@@ -17729,6 +18136,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐξελήλυθεν τὸ δαιμόνιον, ἐκ τῆς θυγατρός σου",
           "glQuote": "The demon has gone out of your daughter",
           "occurrence": 1
         }
@@ -17778,6 +18186,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "παρακαλοῦσιν αὐτὸν ἵνα ἐπιθῇ αὐτῷ τὴν χεῖρα",
           "glQuote": "they begged him to lay his hand on him",
           "occurrence": 1
         }
@@ -17798,6 +18207,7 @@
           "tool": "translationNotes",
           "groupId": "figs-explicit",
           "quote": "πτύσας",
+          "quoteString": "πτύσας",
           "glQuote": "after spitting",
           "occurrence": 1
         }
@@ -17835,6 +18245,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "περισσεύματα κλασμάτων ἑπτὰ σπυρίδας",
           "glQuote": "seven baskets of the remaining broken pieces",
           "occurrence": 1
         }
@@ -17868,6 +18279,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "καὶ ἀπέλυσεν αὐτούς",
           "glQuote": "Then he sent them away",
           "occurrence": 1
         }
@@ -17909,6 +18321,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἦλθεν εἰς τὰ μέρη Δαλμανουθά",
           "glQuote": "they went into the region of Dalmanutha",
           "occurrence": 1
         }
@@ -17938,6 +18351,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "πειράζοντες αὐτόν",
           "glQuote": "to test him",
           "occurrence": 1
         }
@@ -17971,6 +18385,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἡ γενεὰ αὕτη",
           "glQuote": "this generation",
           "occurrence": 1
         }
@@ -18012,6 +18427,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἀφεὶς αὐτοὺς, πάλιν ἐμβὰς",
           "glQuote": "he left them, got into a boat again",
           "occurrence": 1
         }
@@ -18045,6 +18461,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "εἰς τὸ πέραν",
           "glQuote": "to the other side",
           "occurrence": 1
         }
@@ -18082,6 +18499,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὅτι ἄρτους οὐκ ἔχουσιν",
           "glQuote": "It is because we do not have bread",
           "occurrence": 1
         }
@@ -18127,6 +18545,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "πόσους κοφίνους κλασμάτων πλήρεις ἤρατε?",
           "glQuote": "how many baskets full of broken pieces of bread did you take up",
           "occurrence": 1
         }
@@ -18172,6 +18591,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "πόσων σπυρίδων πληρώματα κλασμάτων ἤρατε?",
           "glQuote": "how many basketfuls of broken pieces did you take up?",
           "occurrence": 1
         }
@@ -18205,6 +18625,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἵνα αὐτοῦ ἅψηται",
           "glQuote": "he would touch him",
           "occurrence": 1
         }
@@ -18238,6 +18659,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "Ἰωάννην τὸν Βαπτιστήν",
           "glQuote": "John the Baptist",
           "occurrence": 1
         }
@@ -18287,6 +18709,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐπετίμησεν αὐτοῖς ἵνα μηδενὶ λέγωσιν περὶ αὐτοῦ",
           "glQuote": "Jesus warned them not to tell anyone about him",
           "occurrence": 1
         }
@@ -18320,6 +18743,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἤρξατο ἐπιτιμᾶν αὐτῷ",
           "glQuote": "began to rebuke him",
           "occurrence": 1
         }
@@ -18361,6 +18785,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἕνεκεν ἐμοῦ καὶ τοῦ εὐαγγελίου",
           "glQuote": "for my sake and for the gospel",
           "occurrence": 1
         }
@@ -18401,6 +18826,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὤφθη … Ἠλείας σὺν Μωϋσεῖ",
           "glQuote": "Elijah with Moses appeared",
           "occurrence": 1
         }
@@ -18481,6 +18907,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "διεστείλατο αὐτοῖς ἵνα μηδενὶ … εἰ μὴ ὅταν ὁ Υἱὸς τοῦ Ἀνθρώπου ἐκ νεκρῶν ἀναστῇ",
           "glQuote": "he commanded them to tell no one ... until the Son of Man had risen",
           "occurrence": 1
         }
@@ -18538,6 +18965,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "λέγουσιν οἱ γραμματεῖς ὅτι Ἠλείαν δεῖ ἐλθεῖν πρῶτον?",
           "glQuote": "Why do the scribes say that Elijah must come first?",
           "occurrence": 1
         }
@@ -18575,6 +19003,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐποίησαν αὐτῷ ὅσα ἤθελον",
           "glQuote": "they did whatever they wanted to him",
           "occurrence": 1
         }
@@ -18595,6 +19024,7 @@
           "tool": "translationNotes",
           "groupId": "figs-explicit",
           "quote": "ἐξεθαμβήθησαν",
+          "quoteString": "ἐξεθαμβήθησαν",
           "glQuote": "they were amazed",
           "occurrence": 1
         }
@@ -18631,6 +19061,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὁ … ἀποκριθεὶς αὐτοῖς",
           "glQuote": "he answered them",
           "occurrence": 1
         }
@@ -18651,6 +19082,7 @@
           "tool": "translationNotes",
           "groupId": "figs-explicit",
           "quote": "ἐξῆλθεν",
+          "quoteString": "ἐξῆλθεν",
           "glQuote": "came out",
           "occurrence": 1
         }
@@ -18692,6 +19124,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐδίδασκεν γὰρ τοὺς μαθητὰς αὐτοῦ",
           "glQuote": "for he was teaching his disciples",
           "occurrence": 1
         }
@@ -18724,6 +19157,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οἱ … ἐσιώπων",
           "glQuote": "they were silent",
           "occurrence": 1
         }
@@ -18753,6 +19187,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τίς μείζων",
           "glQuote": "about who was the greatest",
           "occurrence": 1
         }
@@ -18786,6 +19221,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τὸν ἀποστείλαντά με",
           "glQuote": "the one who sent me",
           "occurrence": 1
         }
@@ -18815,6 +19251,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐκβάλλοντα δαιμόνια",
           "glQuote": "driving out demons",
           "occurrence": 1
         }
@@ -18884,6 +19321,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "μονόφθαλμον εἰσελθεῖν εἰς τὴν Βασιλείαν τοῦ Θεοῦ, ἢ δύο ὀφθαλμοὺς ἔχοντα",
           "glQuote": "to enter into the kingdom of God with one eye than to have two eyes",
           "occurrence": 1
         }
@@ -18933,6 +19371,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὅπου ὁ‘ σκώληξ αὐτῶν οὐ τελευτᾷ",
           "glQuote": "where their worm does not die",
           "occurrence": 1
         }
@@ -18962,6 +19401,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐκεῖθεν ἀναστὰς",
           "glQuote": "Jesus left that place",
           "occurrence": 1
         }
@@ -19019,6 +19459,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὃ οὖν ὁ Θεὸς συνέζευξεν, ἄνθρωπος μὴ χωριζέτω",
           "glQuote": "Therefore what God has joined together, let man not separate",
           "occurrence": 1
         }
@@ -19052,6 +19493,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "εἰς τὴν οἰκίαν",
           "glQuote": "they were in the house",
           "occurrence": 1
         }
@@ -19072,6 +19514,7 @@
           "tool": "translationNotes",
           "groupId": "figs-explicit",
           "quote": "μοιχᾶται",
+          "quoteString": "μοιχᾶται",
           "glQuote": "she commits adultery",
           "occurrence": 1
         }
@@ -19101,6 +19544,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "αὐτῶν ἅψηται",
           "glQuote": "he might touch them",
           "occurrence": 1
         }
@@ -19142,6 +19586,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὁ Υἱὸς τοῦ Ἀνθρώπου παραδοθήσεται",
           "glQuote": "the Son of Man will be delivered",
           "occurrence": 1
         }
@@ -19162,6 +19607,7 @@
           "tool": "translationNotes",
           "groupId": "figs-explicit",
           "quote": "ἀναστήσεται",
+          "quoteString": "ἀναστήσεται",
           "glQuote": "he will rise",
           "occurrence": 1
         }
@@ -19207,6 +19653,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οὐχ οὕτως δέ ἐστιν ἐν ὑμῖν",
           "glQuote": "But it shall not be this way among you",
           "occurrence": 1
         }
@@ -19236,6 +19683,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "Υἱὲ Δαυεὶδ",
           "glQuote": "Son of David",
           "occurrence": 1
         }
@@ -19277,6 +19725,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἡ πίστις σου σέσωκέν σε",
           "glQuote": "Your faith has healed you",
           "occurrence": 1
         }
@@ -19318,6 +19767,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τί‘ ποιεῖτε τοῦτο?",
           "glQuote": "Why are you doing this",
           "occurrence": 1
         }
@@ -19359,6 +19809,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "εὐθὺς αὐτὸν ἀποστέλλει πάλιν ὧδε",
           "glQuote": "they will immediately send it back here",
           "occurrence": 1
         }
@@ -19412,6 +19863,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "πολλοὶ τὰ ἱμάτια αὐτῶν ἔστρωσαν εἰς τὴν ὁδόν",
           "glQuote": "Many people spread their garments on the road",
           "occurrence": 1
         }
@@ -19461,6 +19913,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἄλλοι δὲ στιβάδας κόψαντες ἐκ τῶν ἀγρῶν",
           "glQuote": "and others spread branches they had cut from the fields",
           "occurrence": 1
         }
@@ -19498,6 +19951,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "εὐλογημένος‘ ὁ ἐρχόμενος",
           "glQuote": "Blessed is the one who comes",
           "occurrence": 1
         }
@@ -19555,6 +20009,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "εὐλογημένη ἡ ἐρχομένη βασιλεία τοῦ πατρὸς ἡμῶν, Δαυείδ",
           "glQuote": "Blessed is the coming kingdom of our father David",
           "occurrence": 1
         }
@@ -19596,6 +20051,7 @@
               "occurrence": 2
             }
           ],
+          "quoteString": "οὐδὲν εὗρεν εἰ μὴ φύλλα",
           "glQuote": "he found nothing but leaves",
           "occurrence": 1
         }
@@ -19657,6 +20113,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἤρξατο ἐκβάλλειν τοὺς πωλοῦντας καὶ τοὺς ἀγοράζοντας ἐν τῷ ἱερῷ",
           "glQuote": "began to cast out those who were selling and those who were buying in the temple",
           "occurrence": 1
         }
@@ -19698,6 +20155,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τὴν συκῆν ἐξηραμμένην ἐκ ῥιζῶν",
           "glQuote": "the fig tree withered away to its roots",
           "occurrence": 1
         }
@@ -19731,6 +20189,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἀναμνησθεὶς ὁ Πέτρος",
           "glQuote": "Peter remembered",
           "occurrence": 1
         }
@@ -19760,6 +20219,7 @@
               "occurrence": 2
             }
           ],
+          "quoteString": "ἔσται ὑμῖν",
           "glQuote": "it will be yours",
           "occurrence": 1
         }
@@ -19789,6 +20249,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ταῦτα ποιεῖς",
           "glQuote": "you do these things",
           "occurrence": 1
         }
@@ -19845,6 +20306,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἀλλὰ εἴπωμεν, ἐξ‘ ἀνθρώπων … ἦν.",
           "glQuote": "But if we say, 'From men,' ... .",
           "occurrence": 1
         }
@@ -19878,6 +20340,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐφοβοῦντο τὸν ὄχλον",
           "glQuote": "They were afraid of the people",
           "occurrence": 1
         }
@@ -19911,6 +20374,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὤρυξεν‘ ὑπολήνιον",
           "glQuote": "dug a pit for a winepress",
           "occurrence": 1
         }
@@ -19940,6 +20404,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τῷ καιρῷ",
           "glQuote": "At the harvest time",
           "occurrence": 1
         }
@@ -19960,6 +20425,7 @@
           "tool": "translationNotes",
           "groupId": "figs-explicit",
           "quote": "κενόν",
+          "quoteString": "κενόν",
           "glQuote": "with nothing",
           "occurrence": 1
         }
@@ -19989,6 +20455,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "κἀκεῖνον ἐκεφαλίωσαν",
           "glQuote": "they wounded him in the head",
           "occurrence": 1
         }
@@ -20018,6 +20485,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "υἱὸν ἀγαπητόν",
           "glQuote": "a beloved son",
           "occurrence": 1
         }
@@ -20047,6 +20515,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὁ κληρονόμος",
           "glQuote": "the heir",
           "occurrence": 1
         }
@@ -20084,6 +20553,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "δώσει τὸν ἀμπελῶνα ἄλλοις",
           "glQuote": "will give the vineyard to others",
           "occurrence": 1
         }
@@ -20121,6 +20591,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "καὶ ἐφοβήθησαν τὸν ὄχλον",
           "glQuote": "but they feared the crowd",
           "occurrence": 1
         }
@@ -20165,6 +20636,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὁ … εἰδὼς αὐτῶν τὴν ὑπόκρισιν",
           "glQuote": "Jesus knew their hypocrisy",
           "occurrence": 1
         }
@@ -20202,6 +20674,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐξεθαύμαζον ἐπ’ αὐτῷ",
           "glQuote": "They marveled at him",
           "occurrence": 1
         }
@@ -20243,6 +20716,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οἵτινες λέγουσιν ἀνάστασιν μὴ εἶναι",
           "glQuote": "who say there is no resurrection",
           "occurrence": 1
         }
@@ -20284,6 +20758,7 @@
               "occurrence": 2
             }
           ],
+          "quoteString": "ἐξαναστήσῃ σπέρμα τῷ ἀδελφῷ αὐτοῦ",
           "glQuote": "raise up offspring for his brother",
           "occurrence": 1
         }
@@ -20317,6 +20792,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὁ τρίτος ὡσαύτως",
           "glQuote": "the third likewise",
           "occurrence": 1
         }
@@ -20358,6 +20834,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οἱ ἑπτὰ οὐκ ἀφῆκαν σπέρμα",
           "glQuote": "The seven did not leave offspring",
           "occurrence": 1
         }
@@ -20387,6 +20864,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τοῦ βάτου",
           "glQuote": "the account about the bush",
           "occurrence": 1
         }
@@ -20416,6 +20894,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "πολὺ πλανᾶσθε",
           "glQuote": "You are quite mistaken",
           "occurrence": 1
         }
@@ -20469,6 +20948,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἀποκριθεὶς ὁ Ἰησοῦς ἔλεγεν διδάσκων ἐν τῷ ἱερῷ",
           "glQuote": "While Jesus was teaching in the temple courts, he asked and said",
           "occurrence": 1
         }
@@ -20525,6 +21005,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "εἶπεν … εἶπεν‘ ὁ Κύριος τῷ Κυρίῳ μου",
           "glQuote": "said, 'The Lord said to my Lord",
           "occurrence": 1
         }
@@ -20558,6 +21039,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "λήμψονται περισσότερον κρίμα",
           "glQuote": "will receive greater condemnation",
           "occurrence": 1
         }
@@ -20599,6 +21081,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ποταποὶ λίθοι καὶ ποταπαὶ οἰκοδομαί",
           "glQuote": "What wonderful stones and wonderful buildings",
           "occurrence": 1
         }
@@ -20668,6 +21151,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οὐ μὴ ἀφεθῇ ὧδε λίθος ἐπὶ λίθον, ὃς οὐ μὴ καταλυθῇ",
           "glQuote": "Not one stone will be left on another which will not be torn down",
           "occurrence": 1
         }
@@ -20740,6 +21224,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "καὶ καθημένου αὐτοῦ εἰς τὸ Ὄρος τῶν Ἐλαιῶν κατέναντι τοῦ ἱεροῦ … Πέτρος",
           "glQuote": "Now as he was sitting on the Mount of Olives opposite the temple, Peter",
           "occurrence": 1
         }
@@ -20783,6 +21268,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ταῦτα ἔσται … μέλλῃ … συντελεῖσθαι",
           "glQuote": "these things will be ... are about to be fulfilled",
           "occurrence": 1
         }
@@ -20812,6 +21298,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τὸ τέλος",
           "glQuote": "the end",
           "occurrence": 1
         }
@@ -20845,6 +21332,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "εἰς μαρτύριον αὐτοῖς",
           "glQuote": "as a testimony to them",
           "occurrence": 1
         }
@@ -20906,6 +21394,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "καὶ εἰς πάντα τὰ ἔθνη πρῶτον δεῖ κηρυχθῆναι τὸ εὐαγγέλιον",
           "glQuote": "But the gospel must first be proclaimed to all the nations",
           "occurrence": 1
         }
@@ -20946,6 +21435,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὁ … ὑπομείνας εἰς τέλος",
           "glQuote": "the one who endures to the end",
           "occurrence": 1
         }
@@ -20983,6 +21473,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἑστηκότα ὅπου οὐ δεῖ",
           "glQuote": "standing where it should not be",
           "occurrence": 1
         }
@@ -21016,6 +21507,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὁ ἀναγινώσκων νοείτω",
           "glQuote": "let the reader understand",
           "occurrence": 1
         }
@@ -21052,6 +21544,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐκολόβωσεν … τὰς ἡμέρας",
           "glQuote": "had shortened the days",
           "occurrence": 1
         }
@@ -21085,6 +21578,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "προείρηκα ὑμῖν πάντα",
           "glQuote": "I have told you ev",
           "occurrence": 1
         }
@@ -21138,6 +21632,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οἱ ἀστέρες ἔσονται ἐκ τοῦ οὐρανοῦ πίπτοντες’",
           "glQuote": "the stars will be falling from the sky",
           "occurrence": 1
         }
@@ -21158,6 +21653,7 @@
           "tool": "translationNotes",
           "groupId": "figs-explicit",
           "quote": "ταῦτα",
+          "quoteString": "ταῦτα",
           "glQuote": "these things",
           "occurrence": 1
         }
@@ -21203,6 +21699,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τῆς ἡμέρας ἐκείνης ἢ τῆς ὥρας",
           "glQuote": "that day or that hour",
           "occurrence": 1
         }
@@ -21240,6 +21737,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "πότε ὁ καιρός ἐστιν",
           "glQuote": "what time it is",
           "occurrence": 1
         }
@@ -21277,6 +21775,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἵνα αὐτὸν παραδοῖ αὐτοῖς",
           "glQuote": "so that he might deliver him over to them",
           "occurrence": 1
         }
@@ -21310,6 +21809,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οἱ δὲ ἀκούσαντες",
           "glQuote": "When the chief priests heard it",
           "occurrence": 1
         }
@@ -21347,6 +21847,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὅτε τὸ Πάσχα ἔθυον",
           "glQuote": "when they sacrificed the Passover lamb",
           "occurrence": 1
         }
@@ -21380,6 +21881,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐκεῖ ἑτοιμάσατε ἡμῖν",
           "glQuote": "Make the preparations for us there",
           "occurrence": 1
         }
@@ -21417,6 +21919,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἔρχεται μετὰ τῶν δώδεκα",
           "glQuote": "he came with the twelve",
           "occurrence": 1
         }
@@ -21470,6 +21973,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "δι’ οὗ ὁ Υἱὸς τοῦ Ἀνθρώπου παραδίδοται",
           "glQuote": "through whom the Son of Man is betrayed",
           "occurrence": 1
         }
@@ -21490,6 +21994,7 @@
           "tool": "translationNotes",
           "groupId": "figs-explicit",
           "quote": "ἔκλασεν",
+          "quoteString": "ἔκλασεν",
           "glQuote": "broke it",
           "occurrence": 1
         }
@@ -21559,6 +22064,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τοῦτό ἐστιν τὸ αἷμά μου τῆς διαθήκης, τὸ ἐκχυννόμενον ὑπὲρ πολλῶν",
           "glQuote": "This is my blood of the covenant, the blood that is poured out for many",
           "occurrence": 1
         }
@@ -21592,6 +22098,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "εἰ δυνατόν ἐστιν",
           "glQuote": "if it were possible",
           "occurrence": 1
         }
@@ -21628,6 +22135,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "παρέλθῃ … ἡ ὥρα",
           "glQuote": "the hour might pass",
           "occurrence": 1
         }
@@ -21661,6 +22169,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἔρχεται τὸ τρίτον",
           "glQuote": "He came the third time",
           "occurrence": 1
         }
@@ -21690,6 +22199,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "αὐτός ἐστιν",
           "glQuote": "he is the one",
           "occurrence": 1
         }
@@ -21739,6 +22249,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἕως ἔσω εἰς τὴν αὐλὴν τοῦ ἀρχιερέως",
           "glQuote": "as far as the courtyard of the high priest",
           "occurrence": 1
         }
@@ -21780,6 +22291,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἦν συνκαθήμενος μετὰ τῶν ὑπηρετῶν",
           "glQuote": "He was sitting among the guards",
           "occurrence": 1
         }
@@ -21809,6 +22321,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οὐχ ηὕρισκον",
           "glQuote": "But they did not find any",
           "occurrence": 1
         }
@@ -21845,6 +22358,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἀναστὰς … εἰς μέσον",
           "glQuote": "stood up among them",
           "occurrence": 1
         }
@@ -21902,6 +22416,7 @@
               "occurrence": 2
             }
           ],
+          "quoteString": "οὐκ ἀποκρίνῃ οὐδέν? τί οὗτοί σου καταμαρτυροῦσιν?",
           "glQuote": "Do you not answer? What is it they testify against you?",
           "occurrence": 1
         }
@@ -21935,6 +22450,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἠκούσατε τῆς βλασφημίας",
           "glQuote": "You have heard the blasphemy",
           "occurrence": 1
         }
@@ -21972,6 +22488,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "περικαλύπτειν αὐτοῦ τὸ πρόσωπον",
           "glQuote": "to cover his face",
           "occurrence": 1
         }
@@ -21992,6 +22509,7 @@
           "tool": "translationNotes",
           "groupId": "figs-explicit",
           "quote": "προφήτευσον",
+          "quoteString": "προφήτευσον",
           "glQuote": "Prophesy",
           "occurrence": 1
         }
@@ -22033,6 +22551,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "μία τῶν παιδισκῶν τοῦ ἀρχιερέως",
           "glQuote": "one of the servant girls of the high priest",
           "occurrence": 1
         }
@@ -22062,6 +22581,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐξ αὐτῶν",
           "glQuote": "one of them",
           "occurrence": 1
         }
@@ -22091,6 +22611,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "σὺ λέγεις",
           "glQuote": "You say so",
           "occurrence": 1
         }
@@ -22128,6 +22649,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "αἰτεῖσθαι καθὼς ἐποίει αὐτοῖς",
           "glQuote": "to ask him to do what he usually did for them",
           "occurrence": 1
         }
@@ -22168,6 +22690,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "διὰ φθόνον … οἱ ἀρχιερεῖς",
           "glQuote": "the chief priests ... because of envy",
           "occurrence": 1
         }
@@ -22225,6 +22748,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τί οὖν ποιήσω λέγετε τὸν Βασιλέα τῶν Ἰουδαίων?",
           "glQuote": "What then should I do with the King of the Jews?",
           "occurrence": 1
         }
@@ -22254,6 +22778,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐσμυρνισμένον οἶνον",
           "glQuote": "wine mixed with myrrh",
           "occurrence": 1
         }
@@ -22307,6 +22832,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἕνα ἐκ δεξιῶν καὶ ἕνα ἐξ εὐωνύμων αὐτοῦ",
           "glQuote": "one on the right of him and one on his left",
           "occurrence": 1
         }
@@ -22364,6 +22890,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὁ καταλύων τὸν ναὸν καὶ οἰκοδομῶν ἐν τρισὶν ἡμέραις",
           "glQuote": "You who would destroy the temple and rebuild it in three days",
           "occurrence": 1
         }
@@ -22384,6 +22911,7 @@
           "tool": "translationNotes",
           "groupId": "figs-explicit",
           "quote": "πιστεύσωμεν",
+          "quoteString": "πιστεύσωμεν",
           "glQuote": "believe",
           "occurrence": 1
         }
@@ -22433,6 +22961,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "καί τινες τῶν παρεστηκότων, ἀκούσαντες ἔλεγον",
           "glQuote": "When some of those standing by heard him, they said",
           "occurrence": 1
         }
@@ -22462,6 +22991,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐπότιζεν αὐτόν",
           "glQuote": "gave it to him to drink",
           "occurrence": 1
         }
@@ -22503,6 +23033,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ᾐτήσατο τὸ σῶμα τοῦ Ἰησοῦ",
           "glQuote": "asked for the body of Jesus",
           "occurrence": 1
         }
@@ -22572,6 +23103,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὁ δὲ Πειλᾶτος ἐθαύμασεν εἰ ἤδη τέθνηκεν; καὶ προσκαλεσάμενος τὸν κεντυρίωνα",
           "glQuote": "Pilate was amazed that Jesus was already dead, so he called the centurion",
           "occurrence": 1
         }
@@ -22611,6 +23143,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "Λευεὶν τὸν τοῦ Ἁλφαίου",
           "glQuote": "Levi son of Alphaeus",
           "occurrence": 1
         }
@@ -22664,6 +23197,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὀνόματα Βοανηργές, ὅ ἐστιν\" υἱοὶ βροντῆς",
           "glQuote": "the name Boanerges, that is, sons of thunder",
           "occurrence": 1
         }
@@ -22684,6 +23218,7 @@
           "tool": "translationNotes",
           "groupId": "translate-names",
           "quote": "Θαδδαῖον",
+          "quoteString": "Θαδδαῖον",
           "glQuote": "Thaddaeus",
           "occurrence": 1
         }
@@ -22713,6 +23248,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τῶν Γερασηνῶν",
           "glQuote": "the Gerasenes",
           "occurrence": 1
         }
@@ -22742,6 +23278,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τῇ Δεκαπόλει",
           "glQuote": "the Decapolis",
           "occurrence": 1
         }
@@ -22762,6 +23299,7 @@
           "tool": "translationNotes",
           "groupId": "translate-names",
           "quote": "Ἰάειρος",
+          "quoteString": "Ἰάειρος",
           "glQuote": "Jairus",
           "occurrence": 1
         }
@@ -22811,6 +23349,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τὴν γυναῖκα Φιλίππου, τοῦ ἀδελφοῦ αὐτοῦ",
           "glQuote": "his brother Philip's wife",
           "occurrence": 1
         }
@@ -22831,6 +23370,7 @@
           "tool": "translationNotes",
           "groupId": "translate-names",
           "quote": "Βηθσαϊδάν",
+          "quoteString": "Βηθσαϊδάν",
           "glQuote": "Bethsaida",
           "occurrence": 1
         }
@@ -22851,6 +23391,7 @@
           "tool": "translationNotes",
           "groupId": "translate-names",
           "quote": "Γεννησαρὲτ",
+          "quoteString": "Γεννησαρὲτ",
           "glQuote": "Gennesaret",
           "occurrence": 1
         }
@@ -22871,6 +23412,7 @@
           "tool": "translationNotes",
           "groupId": "translate-names",
           "quote": "Συροφοινίκισσα",
+          "quoteString": "Συροφοινίκισσα",
           "glQuote": "Syrophoenician",
           "occurrence": 1
         }
@@ -22891,6 +23433,7 @@
           "tool": "translationNotes",
           "groupId": "translate-names",
           "quote": "Δεκαπόλεως",
+          "quoteString": "Δεκαπόλεως",
           "glQuote": "Decapolis",
           "occurrence": 1
         }
@@ -22911,6 +23454,7 @@
           "tool": "translationNotes",
           "groupId": "translate-names",
           "quote": "Δαλμανουθά",
+          "quoteString": "Δαλμανουθά",
           "glQuote": "Dalmanutha",
           "occurrence": 1
         }
@@ -22931,6 +23475,7 @@
           "tool": "translationNotes",
           "groupId": "translate-names",
           "quote": "Βηθσαϊδάν",
+          "quoteString": "Βηθσαϊδάν",
           "glQuote": "Bethsaida",
           "occurrence": 1
         }
@@ -22984,6 +23529,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὁ υἱὸς Τιμαίου, Βαρτιμαῖος, τυφλὸς προσαίτης",
           "glQuote": "the son of Timaeus, Bartimaeus, a blind beggar",
           "occurrence": 1
         }
@@ -23004,6 +23550,7 @@
           "tool": "translationNotes",
           "groupId": "translate-names",
           "quote": "Βηθφαγὴ",
+          "quoteString": "Βηθφαγὴ",
           "glQuote": "Bethphage",
           "occurrence": 1
         }
@@ -23037,6 +23584,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "Σίμωνος τοῦ λεπροῦ",
           "glQuote": "Simon the leper",
           "occurrence": 1
         }
@@ -23080,6 +23628,7 @@
               "occurrence": 2
             }
           ],
+          "quoteString": "Σίμωνα …,Ἀλεξάνδρου … Ῥούφου",
           "glQuote": "Simon ... Alexander ... Rufus",
           "occurrence": 1
         }
@@ -23100,6 +23649,7 @@
           "tool": "translationNotes",
           "groupId": "translate-names",
           "quote": "Κυρηναῖον",
+          "quoteString": "Κυρηναῖον",
           "glQuote": "Cyrene",
           "occurrence": 1
         }
@@ -23129,6 +23679,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "Κρανίου Τόπος",
           "glQuote": "Place of a Skull",
           "occurrence": 1
         }
@@ -23149,6 +23700,7 @@
           "tool": "translationNotes",
           "groupId": "translate-names",
           "quote": "Ἰωσῆ",
+          "quoteString": "Ἰωσῆ",
           "glQuote": "Joses",
           "occurrence": 1
         }
@@ -23169,6 +23721,7 @@
           "tool": "translationNotes",
           "groupId": "translate-names",
           "quote": "Σαλώμη",
+          "quoteString": "Σαλώμη",
           "glQuote": "Salome",
           "occurrence": 1
         }
@@ -23206,6 +23759,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "Ἰωσὴφ ὁ ἀπὸ Ἁριμαθαίας",
           "glQuote": "Joseph of Arimathea",
           "occurrence": 1
         }
@@ -23226,6 +23780,7 @@
           "tool": "translationNotes",
           "groupId": "translate-names",
           "quote": "Ἰωσῆτος",
+          "quoteString": "Ἰωσῆτος",
           "glQuote": "Joses",
           "occurrence": 1
         }
@@ -23257,6 +23812,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "δηναρίων διακοσίων",
           "glQuote": "two hundred denarii",
           "occurrence": 1
         }
@@ -23277,6 +23833,7 @@
           "tool": "translationNotes",
           "groupId": "translate-bmoney",
           "quote": "δηνάριον",
+          "quoteString": "δηνάριον",
           "glQuote": "a denarius",
           "occurrence": 1
         }
@@ -23306,6 +23863,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "λεπτὰ δύο",
           "glQuote": "two mites",
           "occurrence": 1
         }
@@ -23335,6 +23893,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "δηναρίων τριακοσίων",
           "glQuote": "three hundred denarii",
           "occurrence": 1
         }
@@ -23374,6 +23933,7 @@
               "occurrence": 2
             }
           ],
+          "quoteString": "κάθου ἐκ δεξιῶν μου",
           "glQuote": "Sit at my right hand",
           "occurrence": 1
         }
@@ -23396,6 +23956,7 @@
           "tool": "translationNotes",
           "groupId": "translate-unknown",
           "quote": "ἀλάβαστρον",
+          "quoteString": "ἀλάβαστρον",
           "glQuote": "an alabaster jar",
           "occurrence": 1
         }
@@ -23441,6 +24002,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἀλάβαστρον μύρου, νάρδου πιστικῆς πολυτελοῦς",
           "glQuote": "of very costly anointing-oil, which was pure nard",
           "occurrence": 1
         }
@@ -23492,6 +24054,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "λάβετε, τοῦτό ἐστιν τὸ σῶμά μου",
           "glQuote": "Take this. This is my body",
           "occurrence": 1
         }
@@ -23533,6 +24096,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τοῦτό ἐστιν τὸ αἷμά μου",
           "glQuote": "This is my blood",
           "occurrence": 1
         }
@@ -23581,6 +24145,7 @@
               "occurrence": 2
             }
           ],
+          "quoteString": "προσώπου σου … τὴν ὁδόν σου",
           "glQuote": "your face ... your way",
           "occurrence": 1
         }
@@ -23656,6 +24221,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐβαπτίζοντο ὑπ’ αὐτοῦ ἐν τῷ Ἰορδάνῃ ποταμῷ, ἐξομολογούμενοι τὰς ἁμαρτίας αὐτῶν",
           "glQuote": "They were baptized by him in the Jordan River, confessing their sins",
           "occurrence": 1
         }
@@ -23692,6 +24258,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐβαπτίσθη … ὑπὸ Ἰωάννου",
           "glQuote": "he was baptized by John",
           "occurrence": 1
         }
@@ -23736,6 +24303,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "μετὰ … τὸ παραδοθῆναι τὸν Ἰωάννην",
           "glQuote": "after John was arrested",
           "occurrence": 1
         }
@@ -23777,6 +24345,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἠκούσθη ὅτι ἐν οἴκῳ ἐστίν",
           "glQuote": "it was heard that he was at home",
           "occurrence": 1
         }
@@ -23813,6 +24382,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἀπαρθῇ … ὁ νυμφίος",
           "glQuote": "the bridegroom will be taken away",
           "occurrence": 1
         }
@@ -23858,6 +24428,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τὸ Σάββατον διὰ τὸν ἄνθρωπον ἐγένετο",
           "glQuote": "The Sabbath was made for mankind",
           "occurrence": 1
         }
@@ -23895,6 +24466,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἀπεκατεστάθη ἡ χεὶρ αὐτοῦ",
           "glQuote": "his hand was restored",
           "occurrence": 1
         }
@@ -23915,6 +24487,7 @@
           "tool": "translationNotes",
           "groupId": "figs-activepassive",
           "quote": "ἐκαυματίσθη",
+          "quoteString": "ἐκαυματίσθη",
           "glQuote": "the plants were scorched",
           "occurrence": 1
         }
@@ -23947,6 +24520,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὑμῖν … δέδοται",
           "glQuote": "To you is given",
           "occurrence": 1
         }
@@ -23992,6 +24566,7 @@
               "occurrence": 2
             }
           ],
+          "quoteString": "μετρηθήσεται ὑμῖν, καὶ προστεθήσεται ὑμῖν",
           "glQuote": "it will be measured to you, and more will be added to you.",
           "occurrence": 1
         }
@@ -24052,6 +24627,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "δοθήσεται αὐτῷ … καὶ ὃ ἔχει ἀρθήσεται ἀπ’ αὐτο",
           "glQuote": "to him will be given more ... even that which he has will be taken from him",
           "occurrence": 1
         }
@@ -24088,6 +24664,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "αὐτὸν πολλάκις … δεδέσθαι",
           "glQuote": "He had been bound many times",
           "occurrence": 1
         }
@@ -24121,6 +24698,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τὰς πέδας συντετρῖφθαι",
           "glQuote": "his shackles were shattered",
           "occurrence": 1
         }
@@ -24158,6 +24736,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἵνα σωθῇ καὶ ζήσῃ",
           "glQuote": "that she may be made well and live",
           "occurrence": 1
         }
@@ -24178,6 +24757,7 @@
           "tool": "translationNotes",
           "groupId": "figs-activepassive",
           "quote": "σωθήσομαι",
+          "quoteString": "σωθήσομαι",
           "glQuote": "I will be healed",
           "occurrence": 1
         }
@@ -24215,6 +24795,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἴαται ἀπὸ τῆς μάστιγος",
           "glQuote": "she was healed from her affliction",
           "occurrence": 1
         }
@@ -24252,6 +24833,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "Ἰωάννης ὁ βαπτίζων ἐγήγερται",
           "glQuote": "John the Baptist has been raised",
           "occurrence": 1
         }
@@ -24272,6 +24854,7 @@
           "tool": "translationNotes",
           "groupId": "figs-activepassive",
           "quote": "ἠγέρθη",
+          "quoteString": "ἠγέρθη",
           "glQuote": "has been raised",
           "occurrence": 1
         }
@@ -24345,6 +24928,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὁ Ἡρῴδης, ἀποστείλας ἐκράτησεν τὸν Ἰωάννην, καὶ ἔδησεν αὐτὸν ἐν φυλακῇ",
           "glQuote": "Herod sent to have John arrested and he had him bound in prison",
           "occurrence": 1
         }
@@ -24382,6 +24966,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τοῦτ’ ἔστιν ἀνίπτοις",
           "glQuote": "that is, unwashed",
           "occurrence": 1
         }
@@ -24435,6 +25020,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὁ‘ κακολογῶν πατέρα ἢ μητέρα θανάτῳ τελευτάτω",
           "glQuote": "He who speaks evil of his father or mother will surely die",
           "occurrence": 1
         }
@@ -24455,6 +25041,7 @@
           "tool": "translationNotes",
           "groupId": "figs-activepassive",
           "quote": "δῶρον",
+          "quoteString": "δῶρον",
           "glQuote": "Given to God",
           "occurrence": 1
         }
@@ -24496,6 +25083,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἄφες πρῶτον χορτασθῆναι τὰ τέκνα",
           "glQuote": "Let the children first be fed",
           "occurrence": 1
         }
@@ -24541,6 +25129,7 @@
               "occurrence": 2
             }
           ],
+          "quoteString": "ἐλύθη ὁ δεσμὸς τῆς γλώσσης αὐτοῦ",
           "glQuote": "the band of his tongue was released",
           "occurrence": 1
         }
@@ -24577,6 +25166,7 @@
               "occurrence": 2
             }
           ],
+          "quoteString": "εἰ δοθήσεται … σημεῖον",
           "glQuote": "no sign will be given",
           "occurrence": 1
         }
@@ -24614,6 +25204,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "καὶ διέβλεψεν καὶ ἀπεκατέστη",
           "glQuote": "and the man looked intently and was restored",
           "occurrence": 1
         }
@@ -24674,6 +25265,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἀποδοκιμασθῆναι ὑπὸ τῶν πρεσβυτέρων … καὶ μετὰ τρεῖς ἡμέρας ἀναστῆναι",
           "glQuote": "would be rejected by the elders ... and after three days rise up",
           "occurrence": 1
         }
@@ -24694,6 +25286,7 @@
           "tool": "translationNotes",
           "groupId": "figs-activepassive",
           "quote": "μετεμορφώθη",
+          "quoteString": "μετεμορφώθη",
           "glQuote": "he was transfigured",
           "occurrence": 1
         }
@@ -24714,6 +25307,7 @@
           "tool": "translationNotes",
           "groupId": "figs-activepassive",
           "quote": "ἐξουδενηθῇ",
+          "quoteString": "ἐξουδενηθῇ",
           "glQuote": "be despised",
           "occurrence": 1
         }
@@ -24755,6 +25349,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὁ Υἱὸς τοῦ Ἀνθρώπου παραδίδοται",
           "glQuote": "The Son of Man will be delivered",
           "occurrence": 1
         }
@@ -24800,6 +25395,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἀποκτανθεὶς, μετὰ τρεῖς ἡμέρας ἀναστήσεται",
           "glQuote": "When he has been killed, after three days he will rise again",
           "occurrence": 1
         }
@@ -24837,6 +25433,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "βληθῆναι εἰς τὴν Γέενναν",
           "glQuote": "be thrown into hell",
           "occurrence": 1
         }
@@ -24874,6 +25471,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "βληθῆναι εἰς τὴν Γέενναν",
           "glQuote": "to be thrown into hell",
           "occurrence": 1
         }
@@ -24910,6 +25508,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "πᾶς … πυρὶ ἁλισθήσεται",
           "glQuote": "everyone will be salted with fire",
           "occurrence": 1
         }
@@ -24955,6 +25554,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὁ Υἱὸς τοῦ Ἀνθρώπου παραδοθήσεται τοῖς",
           "glQuote": "the Son of Man will be delivered to the",
           "occurrence": 1
         }
@@ -24975,6 +25575,7 @@
           "tool": "translationNotes",
           "groupId": "figs-activepassive",
           "quote": "ἡτοίμασται",
+          "quoteString": "ἡτοίμασται",
           "glQuote": "it has been prepared",
           "occurrence": 1
         }
@@ -25016,6 +25617,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οἱ δοκοῦντες ἄρχειν τῶν ἐθνῶν",
           "glQuote": "those who are considered rulers of the Gentiles",
           "occurrence": 1
         }
@@ -25069,6 +25671,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "γὰρ ὁ Υἱὸς τοῦ Ἀνθρώπου οὐκ ἦλθεν διακονηθῆναι",
           "glQuote": "For the Son of Man did not come to be served",
           "occurrence": 1
         }
@@ -25110,6 +25713,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "εἶπεν,\" φωνήσατε αὐτόν",
           "glQuote": "commanded him to be called",
           "occurrence": 1
         }
@@ -25159,6 +25763,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐφ’ ὃν οὐδεὶς ἀνθρώπων οὔπω ἐκάθισεν",
           "glQuote": "on which no one has yet sat",
           "occurrence": 1
         }
@@ -25179,6 +25784,7 @@
           "tool": "translationNotes",
           "groupId": "figs-activepassive",
           "quote": "γαμίζονται",
+          "quoteString": "γαμίζονται",
           "glQuote": "are given in marriage",
           "occurrence": 1
         }
@@ -25208,6 +25814,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὅτι ἐγείρονται",
           "glQuote": "that are raised",
           "occurrence": 1
         }
@@ -25245,6 +25852,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οὗτοι λήμψονται περισσότερον κρίμα",
           "glQuote": "These men will receive greater condemnation",
           "occurrence": 1
         }
@@ -25265,6 +25873,7 @@
           "tool": "translationNotes",
           "groupId": "figs-activepassive",
           "quote": "δαρήσεσθε",
+          "quoteString": "δαρήσεσθε",
           "glQuote": "you will be beaten",
           "occurrence": 1
         }
@@ -25294,6 +25903,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "θανατώσουσιν αὐτούς",
           "glQuote": "cause them to be put to death",
           "occurrence": 1
         }
@@ -25331,6 +25941,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἔσεσθε μισούμενοι ὑπὸ πάντων",
           "glQuote": "You will be hated by everyone",
           "occurrence": 1
         }
@@ -25383,6 +25994,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὁ … ὑπομείνας εἰς τέλος, οὗτος σωθήσεται",
           "glQuote": "the one who endures to the end, that person will be saved",
           "occurrence": 1
         }
@@ -25420,6 +26032,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὁ‘ ἥλιος σκοτισθήσεται",
           "glQuote": "the sun will be darkened",
           "occurrence": 1
         }
@@ -25469,6 +26082,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "αἱ δυνάμεις αἱ ἐν τοῖς οὐρανοῖς σαλευθήσονται",
           "glQuote": "the powers that are in the heavens will be shaken",
           "occurrence": 1
         }
@@ -25513,6 +26127,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἠδύνατο … τοῦτο τὸ μύρον πραθῆναι",
           "glQuote": "This perfume could have been sold",
           "occurrence": 1
         }
@@ -25554,6 +26169,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὅπου ἐὰν κηρυχθῇ τὸ εὐαγγέλιον",
           "glQuote": "wherever the gospel is preached",
           "occurrence": 1
         }
@@ -25587,6 +26203,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τὰ πρόβατα διασκορπισθήσονται",
           "glQuote": "the sheep will be scattered",
           "occurrence": 1
         }
@@ -25628,6 +26245,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "παραδίδοται ὁ Υἱὸς τοῦ Ἀνθρώπου",
           "glQuote": "The Son of Man is being betrayed",
           "occurrence": 1
         }
@@ -25668,6 +26286,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "καὶ παρέδωκεν … ἵνα σταυρωθῇ",
           "glQuote": "then handed him over to be crucified",
           "occurrence": 1
         }
@@ -25717,6 +26336,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τὸ καταπέτασμα τοῦ ναοῦ ἐσχίσθη εἰς δύο",
           "glQuote": "The curtain of the temple was torn in two",
           "occurrence": 1
         }
@@ -25762,6 +26382,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "μνήματι ὃ ἦν λελατομημένον ἐκ πέτρας",
           "glQuote": "a tomb that had been cut out of a rock",
           "occurrence": 1
         }
@@ -25795,6 +26416,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἐθεώρουν ποῦ τέθειται",
           "glQuote": "the place where Jesus was buried",
           "occurrence": 1
         }
@@ -25828,6 +26450,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἀποκεκύλισται ὁ λίθος",
           "glQuote": "the stone had been rolled away",
           "occurrence": 1
         }
@@ -25848,6 +26471,7 @@
           "tool": "translationNotes",
           "groupId": "figs-activepassive",
           "quote": "ἠγέρθη",
+          "quoteString": "ἠγέρθη",
           "glQuote": "He is risen!",
           "occurrence": 1
         }
@@ -25899,6 +26523,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὅτι ἐξουσίαν ἔχει ὁ Υἱὸς τοῦ Ἀνθρώπου",
           "glQuote": "that the Son of Man has authority",
           "occurrence": 1
         }
@@ -25935,6 +26560,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὃς ἔχει … ἀκουέτω",
           "glQuote": "Whoever has ... let him",
           "occurrence": 1
         }
@@ -25971,6 +26597,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "εἴ τις … ἀκουέτω",
           "glQuote": "If anyone ... let him hear",
           "occurrence": 1
         }
@@ -26002,6 +26629,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τὸν ἄνθρωπον",
           "glQuote": "mankind",
           "occurrence": 1
         }
@@ -26035,6 +26663,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἀδελφὸς ἀδελφὸν\\",
           "glQuote": "Brother ... brother",
           "occurrence": 1
         }
@@ -26094,6 +26723,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "εἰ ὁ Σατανᾶς ἀνέστη ἐφ’ ἑαυτὸν καὶ ἐμερίσθη",
           "glQuote": "If Satan has risen up against himself and is divided",
           "occurrence": 1
         }
@@ -26123,6 +26753,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "αὐτοῦ Ἡρῳδιάδος",
           "glQuote": "Herodias herself",
           "occurrence": 1
         }
@@ -26148,8 +26779,8 @@
               "occurrence": 1
             },
             {
-              "occurrence": 1,
-              "word": "’"
+              "word": "’",
+              "occurrence": 1
             },
             {
               "word": "ἰδίαν",
@@ -26160,6 +26791,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "κατ’ ἰδίαν μόνους",
           "glQuote": "alone by themselves",
           "occurrence": 1
         }
@@ -26189,6 +26821,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "αὐτὸς Δαυεὶδ",
           "glQuote": "David himself",
           "occurrence": 1
         }
@@ -26211,6 +26844,7 @@
           "tool": "translationNotes",
           "groupId": "figs-inclusive",
           "quote": "ἀπολλύμεθα",
+          "quoteString": "ἀπολλύμεθα",
           "glQuote": "we are perishing",
           "occurrence": 1
         }
@@ -26246,6 +26880,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τοὺς κακῶς ἔχοντας",
           "glQuote": "those who were sick",
           "occurrence": 1
         }
@@ -26275,6 +26910,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τοὺς ἀσθενοῦντας",
           "glQuote": "the sick",
           "occurrence": 1
         }
@@ -26304,6 +26940,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τοῖς πτωχοῖς",
           "glQuote": "the poor",
           "occurrence": 1
         }
@@ -26333,6 +26970,7 @@
               "occurrence": 2
             }
           ],
+          "quoteString": "ἔσχατοι πρῶτοι",
           "glQuote": "the last first",
           "occurrence": 1
         }
@@ -26381,6 +27019,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "οὐκ … Θεὸς νεκρῶν, ἀλλὰ ζώντων",
           "glQuote": "not the God of the dead, but of the living",
           "occurrence": 1
         }
@@ -26410,6 +27049,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "πρώτη ἐστίν",
           "glQuote": "The first is",
           "occurrence": 1
         }
@@ -26439,6 +27079,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τοὺς πτωχοὺς",
           "glQuote": "the poor",
           "occurrence": 1
         }
@@ -26479,6 +27120,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὁ … Υἱὸς τοῦ Εὐλογητοῦ",
           "glQuote": "the Son of the Blessed One",
           "occurrence": 1
         }
@@ -26522,6 +27164,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "καλόν ἐστιν ἡμᾶς ὧδε εἶναι",
           "glQuote": "it is good for us to be here",
           "occurrence": 1
         }
@@ -26561,6 +27204,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "θέλομεν … αἰτήσωμέν … ἡμῖν",
           "glQuote": "we desire ... we ask ... for us",
           "occurrence": 1
         }
@@ -26598,6 +27242,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἡμεῖς ἠκούσαμεν αὐτοῦ λέγοντος",
           "glQuote": "We heard him say",
           "occurrence": 1
         }
@@ -26633,6 +27278,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "εὐκοπώτερόν ἐστιν κάμηλον",
           "glQuote": "It is easier for a camel",
           "occurrence": 1
         }
@@ -26666,6 +27312,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἑπτὰ ἀδελφοὶ ἦσαν",
           "glQuote": "There were seven brothers",
           "occurrence": 1
         }
@@ -26737,6 +27384,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "μετὰ διωγμῶν, καὶ ἐν τῷ αἰῶνι τῷ ἐρχομένῳ, ζωὴν αἰώνιον",
           "glQuote": "with persecutions, and in the age to come, eternal life",
           "occurrence": 1
         }
@@ -26774,6 +27422,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ἀσπασμοὺς ἐν ταῖς ἀγοραῖς",
           "glQuote": "greetings in the marketplaces",
           "occurrence": 1
         }
@@ -26807,6 +27456,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "Υἱοῦ Θεοῦ",
           "glQuote": "Son of God",
           "occurrence": 1
         }
@@ -26847,6 +27497,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὁ Υἱός … ὁ ἀγαπητός",
           "glQuote": "beloved Son",
           "occurrence": 1
         }
@@ -26884,6 +27535,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὁ Υἱὸς τοῦ Θεοῦ",
           "glQuote": "the Son of God",
           "occurrence": 1
         }
@@ -26925,6 +27577,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "Υἱὲ τοῦ Θεοῦ τοῦ Ὑψίστου",
           "glQuote": "Son of the Most High God",
           "occurrence": 1
         }
@@ -26962,6 +27615,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "τὸν Υἱὸν τοῦ Ἀνθρώπου",
           "glQuote": "The Son of Man",
           "occurrence": 1
         }
@@ -26999,6 +27653,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὁ Υἱὸς τοῦ Ἀνθρώπου",
           "glQuote": "The Son of Man",
           "occurrence": 1
         }
@@ -27039,6 +27694,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὁ Υἱός … ὁ ἀγαπητός",
           "glQuote": "beloved Son",
           "occurrence": 1
         }
@@ -27076,6 +27732,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὁ Υἱὸς τοῦ Ἀνθρώπου",
           "glQuote": "The Son of Man",
           "occurrence": 1
         }
@@ -27105,6 +27762,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ὁ Πατήρ",
           "glQuote": "Father",
           "occurrence": 1
         }
@@ -27134,6 +27792,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "Υἱὸς Θεοῦ",
           "glQuote": "the Son of God",
           "occurrence": 1
         }
@@ -27173,6 +27832,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "ταλιθὰ, κοῦμ!",
           "glQuote": "Talitha, koum!",
           "occurrence": 1
         }
@@ -27193,6 +27853,7 @@
           "tool": "translationNotes",
           "groupId": "translate-transliterate",
           "quote": "κορβᾶν",
+          "quoteString": "κορβᾶν",
           "glQuote": "is Corban",
           "occurrence": 1
         }
@@ -27213,6 +27874,7 @@
           "tool": "translationNotes",
           "groupId": "translate-transliterate",
           "quote": "ἐφφαθά",
+          "quoteString": "ἐφφαθά",
           "glQuote": "Ephphatha",
           "occurrence": 1
         }
@@ -27233,6 +27895,7 @@
           "tool": "translationNotes",
           "groupId": "translate-transliterate",
           "quote": "ὡσαννά",
+          "quoteString": "ὡσαννά",
           "glQuote": "Hosanna",
           "occurrence": 1
         }
@@ -27253,6 +27916,7 @@
           "tool": "translationNotes",
           "groupId": "translate-transliterate",
           "quote": "Ἀββά",
+          "quoteString": "Ἀββά",
           "glQuote": "Abba",
           "occurrence": 1
         }
@@ -27298,6 +27962,7 @@
               "occurrence": 1
             }
           ],
+          "quoteString": "Ἐλωῒ, Ἐλωῒ, λεμὰ σαβαχθάνει",
           "glQuote": "Eloi, Eloi, lama sabachthani",
           "occurrence": 1
         }
