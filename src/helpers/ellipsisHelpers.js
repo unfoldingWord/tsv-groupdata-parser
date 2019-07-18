@@ -96,9 +96,8 @@ function getQuoteChunkSubStrIndex(verseString, previousQuoteChunk, quoteChunk, n
 }
 
 export function getOmittedWordsInQuote(quote, verseString) {
-  // replace weird quotation marks with correct ones
+  // Clean quote string
   quote = cleanQuoteString(quote)
-  quote = quote.replace(/\.../gi, ELLIPSIS)
   const quoteChunks = quote.split(ELLIPSIS)
   const missingWordsIndices = []
 
