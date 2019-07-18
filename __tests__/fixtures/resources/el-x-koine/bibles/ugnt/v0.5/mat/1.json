@@ -57,14 +57,14 @@
           },
           {
             "type": "text",
-            "text": " "
+            "text": ", "
           }
         ],
         "endTag": "k-e\\*"
       },
       {
         "type": "text",
-        "text": ", "
+        "text": " "
       },
       {
         "text": "υἱοῦ",
@@ -3926,14 +3926,14 @@
           },
           {
             "type": "text",
-            "text": " "
+            "text": ". "
           }
         ],
         "endTag": "k-e\\*"
       },
       {
         "type": "text",
-        "text": ".\n\n"
+        "text": "\n\n"
       }
     ]
   },
@@ -4970,7 +4970,7 @@
     "verseObjects": [
       {
         "type": "text",
-        "text": "\n\""
+        "text": " "
       },
       {
         "text": "ἰδοὺ",
@@ -5157,7 +5157,7 @@
       },
       {
         "type": "text",
-        "text": "\", "
+        "text": ", "
       },
       {
         "text": "ὅ",
@@ -5194,7 +5194,7 @@
       },
       {
         "type": "text",
-        "text": ",\n\""
+        "text": ", "
       },
       {
         "text": "μεθ’",
@@ -5243,7 +5243,7 @@
       },
       {
         "type": "text",
-        "text": "\".\n\n"
+        "text": ".\n\n"
       }
     ]
   },
