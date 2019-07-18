@@ -1,3 +1,5 @@
+import { ELLIPSIS } from '../utils/constants'
+
 export function cleanQuoteString(quote) {
   return (
     quote
@@ -22,5 +24,8 @@ export function cleanQuoteString(quote) {
       // remove space before apostrophes
       .replace(/ ’./gi, '’.')
       .trim()
+      .replace(/\.../g, ELLIPSIS)
+      .replace(/\…/g, ' … ')
+      .replace(/\  …  /gi, ' … ')
   )
 }
