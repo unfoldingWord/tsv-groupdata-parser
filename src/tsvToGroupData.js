@@ -42,19 +42,14 @@ export const tsvToGroupData = async (filepath, toolName, params = {}, originalBi
 
 /**
  * Cleans an incorrectly formatted group id.
- * @param {string} groupId group id string that was posibly incorrectly formatted.
- * @returns correctly formatted group id.
+ * @param {string} groupId group id string that was possibly incorrectly formatted.
+ * @returns {string} correctly formatted group id.
  */
 export const cleanGroupId = groupId => {
-  const subStrings = groupId.replace(/translate:|translate\//gi, '').split(/[_\/:]/g)
-
-  if (subStrings.length === 1) {
-    return subStrings[0]
-  } else if (subStrings.length === 2) {
-    return subStrings.join('-')
-  } else {
-    return groupId
-  }
+  // Replace _ with - in groupId
+  // Ex: figs_activepassive => figs-activepassive
+  const cleanedId = groupId.replace('_', '-')
+  return cleanedId
 }
 
 /**
@@ -63,40 +58,32 @@ export const cleanGroupId = groupId => {
  * @returns {string} occurrenceNote with clean/fixed tA links.
  */
 export const cleanArticleLink = occurrenceNote => {
-  let noteWithFixedLink = ''
-  const linkSubstring = 'rc://en/ta/man/'
-  const cutEnd = occurrenceNote.search(linkSubstring)
-  const groupId = (occurrenceNote.substr(0, 0) + occurrenceNote.substr(cutEnd + 1)).replace('c://en/ta/man/', '').replace(']])', '')
-  const stringFirstPart = occurrenceNote.slice(0, cutEnd)
-
-  if (groupId.includes(linkSubstring)) {
-    // handle multiple links in the same note.
-    const joint = ' and '
-    const multipleLinksSubstrings = groupId.split(joint)
-    const lastItem = multipleLinksSubstrings.length - 1
-    let goodLinks = ''
-
-    multipleLinksSubstrings.forEach((substring, index) => {
-      const linkString = substring.replace('[[rc://en/ta/man/', '').replace(']]', '')
-      const cleanedGropId = cleanGroupId(linkString)
-
-      if (index === 0) {
-        goodLinks = goodLinks + `rc://en/ta/man/translate/${cleanedGropId}]]` + joint
-      } else if (index !== lastItem) {
-        goodLinks = goodLinks + `[[rc://en/ta/man/translate/${cleanedGropId}]]` + joint
-      } else if (index === lastItem) {
-        goodLinks = goodLinks + `[[rc://en/ta/man/translate/${cleanedGropId}]])`
-      }
-    })
-    noteWithFixedLink = stringFirstPart + goodLinks
-  } else {
-    // only one link in the note
-    const cleanedGropId = cleanGroupId(groupId)
-    const goodLink = `rc://en/ta/man/translate/${cleanedGropId}]])`
-    noteWithFixedLink = stringFirstPart + goodLink
-  }
-
-  return noteWithFixedLink
+  // Change colons in the path part of the link to a slash
+  // Ex: [[rc://en/man/ta:translate:figs-activepassive]] =>
+  //     [[rc://en/man/ta/translate/figs-activepassive]]
+  const colonInPathPattern = /(?<=\[\[rc:[^\]]+):(?=[^\]]+\]\])/g
+  let cleanNote = occurrenceNote.replace(colonInPathPattern, '/')
+  // Remove spaces between the link and right paren
+  // Ex: (See: [[rc://en/man/ta:translate:figs-activepassive]] ) =>
+  //     (See: [[rc://en/man/ta/translate/figs-activepassive]])
+  const spaceBetweenLinkAndParenPattern = /(?<=\[\[rc:[^\]]+]]) +\)/g
+  cleanNote = cleanNote.replace(spaceBetweenLinkAndParenPattern, ')')
+  // Remove invalid paren and spaces at end of the link
+  // Ex: [[rc://en/man/ta:translate:figs-activepassive )]]
+  //     [[rc://en/man/ta/translate/figs-activepassive]]
+  const invalidParenInLinkPattern = /(?<=\[\[rc:[^\] )]+)[ \)]+(?=]])/g
+  cleanNote = cleanNote.replace(invalidParenInLinkPattern, ')')
+  // Removes a right paren if it appears after one link and then there is another link
+  // Ex: (See: [[rc://en/ta/man/translate/figs-activepassive]]) and [[rc://en/ta/man/translate/figs-idiom)]]) =>
+  //     (See: [[rc://en/ta/man/translate/figs-activepassive]] and [[rc://en/ta/man/translate/figs-idiom)]])
+  const rightParenBetweenLinksPattern = /(?<=\[\[rc:[^\]]+]])\)(?=[^\(]+rc:)/g
+  cleanNote = cleanNote.replace(rightParenBetweenLinksPattern, '')
+  // Run cleanGroupId on the last item of the path, the groupId
+  // Ex: [[rc://en/man/ta/translate/figs_activepassive]] =>
+  //     [[rc://en/man/ta/translate/figs-activepassive]]
+  const groupIdPattern = /(?<=\[\[rc:[^\]]+\/)([^/]+)(?=\]\])/g
+  cleanNote = cleanNote.replace(groupIdPattern, cleanGroupId)
+  return cleanNote
 }
 
 /**

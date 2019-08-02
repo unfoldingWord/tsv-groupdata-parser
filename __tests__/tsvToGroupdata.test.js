@@ -52,11 +52,8 @@ describe('cleanGroupId()', () => {
     const testItems = {
       'writing-background': 'writing-background',
       writing_background: 'writing-background',
-      'translate:writing_background': 'writing-background',
-      'translate/translate_textvariants': 'translate-textvariants',
-      'translate:translate_textvariants': 'translate-textvariants',
-      'translate:translate_versebridge': 'translate-versebridge',
-      'translate:translate-symaction': 'translate-symaction',
+      translate_textvariants: 'translate-textvariants',
+      translate_versebridge: 'translate-versebridge',
     }
 
     Object.keys(testItems).forEach(badGroupId => {
@@ -70,19 +67,20 @@ describe('cleanGroupId()', () => {
 describe('cleanArticleLink()', () => {
   test('fixes tA broken links', () => {
     const testItems = {
-      'translate/writing-background': 'translate/writing-background',
-      'translate/writing_background': 'translate/writing-background',
-      'translate:writing_background': 'translate/writing-background',
-      'translate/translate_textvariants': 'translate/translate-textvariants',
-      'translate:translate_textvariants': 'translate/translate-textvariants',
-      'translate:translate_versebridge': 'translate/translate-versebridge',
-      'translate:translate-symaction': 'translate/translate-symaction',
+      '[[rc://en/man/ta/translate/writing-background]]': '[[rc://en/man/ta/translate/writing-background]]',
+      '[[rc://en/man/ta/translate/writing_background]]': '[[rc://en/man/ta/translate/writing-background]]',
+      '[[rc://en/man/ta/translate:writing_background]]': '[[rc://en/man/ta/translate/writing-background]]',
+      '[[rc://en/man/ta/translate/translate_textvariants]]': '[[rc://en/man/ta/translate/translate-textvariants]]',
+      '[[rc://en/man/ta/translate:translate_textvariants]]': '[[rc://en/man/ta/translate/translate-textvariants]]',
+      '[[rc://es-419/man/ta:translate:translate_versebridge]]': '[[rc://es-419/man/ta/translate/translate-versebridge]]',
+      '[[rc://hi/man/ta/translate:translate-symaction]]': '[[rc://hi/man/ta/translate/translate-symaction]]',
+      '(See: [[rc://en/ta/man/translate/figs-activepassive]] ) and [[rc://en/ta/man/translate/figs-idiom)]])': '(See: [[rc://en/ta/man/translate/figs-activepassive]] and [[rc://en/ta/man/translate/figs-idiom)]])'
     }
 
     Object.keys(testItems).forEach(badLink => {
       const goodLink = testItems[badLink]
-      const withBrokenLink = `This verse is background information for the description of the events that follow. (See: [[rc://en/ta/man/${badLink}]])`
-      const cleanedLink = `This verse is background information for the description of the events that follow. (See: [[rc://en/ta/man/${goodLink}]])`
+      const withBrokenLink = `This verse is background information for the description of the events that follow. (See: ${badLink})`
+      const cleanedLink = `This verse is background information for the description of the events that follow. (See: ${goodLink})`
 
       expect(cleanArticleLink(withBrokenLink)).toBe(cleanedLink)
     })
@@ -98,5 +96,11 @@ describe('cleanArticleLink()', () => {
     notes.forEach(note => {
       expect(cleanArticleLink(note)).toBe(note)
     })
+  })
+
+  test('Handles Hindi note with link', () => {
+    const note = 'पौलूस परमेश्वर के सन्देश की इस तरह बात करता है जैसे कि वह कोई वस्तु हो जिसे लोगों को दृश्य रूप में दिखाया जा सकता हो। वैकल्पिक अनुवाद: “उसने मुझे अपना सन्देश समझने के लिए प्रेरित किया” (देखें: [[rc://hi/ta/man/translate/figs-metaphor]] )'
+    const expectedNote = 'पौलूस परमेश्वर के सन्देश की इस तरह बात करता है जैसे कि वह कोई वस्तु हो जिसे लोगों को दृश्य रूप में दिखाया जा सकता हो। वैकल्पिक अनुवाद: “उसने मुझे अपना सन्देश समझने के लिए प्रेरित किया” (देखें: [[rc://hi/ta/man/translate/figs-metaphor]])'
+    expect(cleanArticleLink(note)).toBe(expectedNote)
   })
 })
