@@ -29,6 +29,13 @@ describe('tests groupsIndexParers.getArticleCategory()', () => {
     expect(getArticleCategory(occurrenceNote, groupId)).toBe(category)
   })
 
+  test('returns the category found in a Hindi occurrenceNote', async () => {
+    const groupId = 'figs-metaphor'
+    const category = 'translate'
+    const occurrenceNote = 'पौलूस परमेश्वर के सन्देश की इस तरह बात करता है जैसे कि वह कोई वस्तु हो जिसे लोगों को दृश्य रूप में दिखाया जा सकता हो। वैकल्पिक अनुवाद: “उसने मुझे अपना सन्देश समझने के लिए प्रेरित किया” (देखें: [[rc://hi/ta/man/' + category + '/' + groupId + ']])'
+    expect(getArticleCategory(occurrenceNote, groupId)).toBe(category)
+  })
+
   test('returns no categories for a note with no links', async () => {
     const groupId = 'some-group-id'
     const occurrenceNote = 'This is my note'
