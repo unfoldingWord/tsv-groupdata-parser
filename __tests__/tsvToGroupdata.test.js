@@ -53,7 +53,7 @@ describe('cleanGroupId()', () => {
       'writing-background': 'writing-background',
       writing_background: 'writing-background',
       translate_textvariants: 'translate-textvariants',
-      translate_versebridge: 'translate-versebridge',
+      translate_versebridge: 'translate-versebridge'
     }
 
     Object.keys(testItems).forEach(badGroupId => {
