@@ -69,7 +69,7 @@ export const cleanArticleLink = occurrenceNote => {
   const spaceBetweenLinkAndParenPattern = /(?<=\[\[rc:[^\]]+]]) +\)/g
   cleanNote = cleanNote.replace(spaceBetweenLinkAndParenPattern, ')')
   // Remove invalid paren and spaces at end of the link
-  // Ex: [[rc://en/man/ta:translate:figs-activepassive )]]
+  // Ex: [[rc://en/man/ta:translate:figs-activepassive )]] =>
   //     [[rc://en/man/ta/translate/figs-activepassive]]
   const invalidParenInLinkPattern = /(?<=\[\[rc:[^\] )]+)[ \)]+(?=]])/g
   cleanNote = cleanNote.replace(invalidParenInLinkPattern, ')')
