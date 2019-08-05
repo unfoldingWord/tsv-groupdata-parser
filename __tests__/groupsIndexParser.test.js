@@ -3,7 +3,7 @@ import { generateGroupsIndex, getArticleCategory } from '../src/groupsIndexParse
 // fixture files
 import categorizedGroupsIndex from './fixtures/categorizedGroupsIndex.json'
 
-describe('tests groupsIndexParers.generateGroupsIndex()', () => {
+describe('tests groupsIndexParser.generateGroupsIndex()', () => {
   test('returns an object with all the tn categories, each one with their groupsIndex', async () => {
     const tnCategoriesPath = '__tests__/fixtures/resources/en/translationHelps/translationNotes/v14'
     const taCategoriesPath = '__tests__/fixtures/resources/en/translationHelps/translationAcademy/v10'
@@ -14,7 +14,7 @@ describe('tests groupsIndexParers.generateGroupsIndex()', () => {
   })
 })
 
-describe('tests groupsIndexParers.getArticleCategory()', () => {
+describe('tests groupsIndexParser.getArticleCategory()', () => {
   test('returns the category found in an occurrenceNote', async () => {
     const groupId = 'figs-metaphor'
     const category = 'translate'

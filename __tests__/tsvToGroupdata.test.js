@@ -53,7 +53,11 @@ describe('cleanGroupId()', () => {
       'writing-background': 'writing-background',
       writing_background: 'writing-background',
       translate_textvariants: 'translate-textvariants',
-      translate_versebridge: 'translate-versebridge'
+      'translate:writing_background': 'writing-background',
+      'translate/translate_textvariants': 'translate-textvariants',
+      'translate:translate_textvariants': 'translate-textvariants',
+      'translate:translate_versebridge': 'translate-versebridge',
+      'translate:translate-symaction': 'translate-symaction',
     }
 
     Object.keys(testItems).forEach(badGroupId => {
@@ -74,7 +78,7 @@ describe('cleanArticleLink()', () => {
       '[[rc://en/man/ta/translate:translate_textvariants]]': '[[rc://en/man/ta/translate/translate-textvariants]]',
       '[[rc://es-419/man/ta:translate:translate_versebridge]]': '[[rc://es-419/man/ta/translate/translate-versebridge]]',
       '[[rc://hi/man/ta/translate:translate-symaction]]': '[[rc://hi/man/ta/translate/translate-symaction]]',
-      '(See: [[rc://en/ta/man/translate/figs-activepassive]] ) and [[rc://en/ta/man/translate/figs-idiom)]])': '(See: [[rc://en/ta/man/translate/figs-activepassive]] and [[rc://en/ta/man/translate/figs-idiom)]])'
+      '(See: [[rc://en/ta/man/translate/figs-activepassive]] ) and [[rc://en/ta/man/translate/figs-idiom)]])': '(See: [[rc://en/ta/man/translate/figs-activepassive]] and [[rc://en/ta/man/translate/figs-idiom)]])',
     }
 
     Object.keys(testItems).forEach(badLink => {

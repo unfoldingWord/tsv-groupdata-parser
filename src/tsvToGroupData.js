@@ -46,9 +46,13 @@ export const tsvToGroupData = async (filepath, toolName, params = {}, originalBi
  * @returns {string} correctly formatted group id.
  */
 export const cleanGroupId = groupId => {
+  // Make sure we only have the element at the very end of a path of /'s or :'s
+  // Ex: translate:writing_background => writing_background
+  const elements = groupId.split(/[/:]/)
+  let cleanedId = elements[elements.length - 1]
   // Replace _ with - in groupId
-  // Ex: figs_activepassive => figs-activepassive
-  const cleanedId = groupId.replace('_', '-')
+  // Ex: writing_background => writing-background
+  cleanedId = cleanedId.replace('_', '-')
   return cleanedId
 }
 
