@@ -1,0 +1,298 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests groupsIndexParser.generateGroupsIndex() returns an object with all the tn categories, each one with their groupsIndex 1`] = `
+Object {
+  "culture": Array [
+    Object {
+      "id": "figs-explicit",
+      "name": "Assumed Knowledge and Implicit Information",
+    },
+    Object {
+      "id": "translate-bdistance",
+      "name": "Biblical Distance",
+    },
+    Object {
+      "id": "translate-bmoney",
+      "name": "Biblical Money",
+    },
+    Object {
+      "id": "translate-hebrewmonths",
+      "name": "Hebrew Months",
+    },
+    Object {
+      "id": "translate-names",
+      "name": "How to Translate Names",
+    },
+    Object {
+      "id": "translate-symaction",
+      "name": "Symbolic Action",
+    },
+    Object {
+      "id": "translate-unknown",
+      "name": "Translate Unknowns",
+    },
+    Object {
+      "id": "writing-symlanguage",
+      "name": "Symbolic Language",
+    },
+    Object {
+      "id": "translate-bvolume",
+      "name": "Biblical Volume",
+    },
+    Object {
+      "id": "translate-bweight",
+      "name": "Biblical Weight",
+    },
+    Object {
+      "id": "figs-go",
+      "name": "Go and Come",
+    },
+  ],
+  "discourse": Array [
+    Object {
+      "id": "figs-exclamations",
+      "name": "Exclamations",
+    },
+    Object {
+      "id": "figs-quotesinquotes",
+      "name": "Quotes Within Quotes",
+    },
+    Object {
+      "id": "translate-versebridge",
+      "name": "Verse Bridges",
+    },
+    Object {
+      "id": "writing-background",
+      "name": "Background Information",
+    },
+    Object {
+      "id": "writing-newevent",
+      "name": "Introduction of a New Event",
+    },
+    Object {
+      "id": "writing-poetry",
+      "name": "Poetry",
+    },
+    Object {
+      "id": "figs-quotations",
+      "name": "Direct and Indirect Quotations",
+    },
+    Object {
+      "id": "writing-proverbs",
+      "name": "Proverbs",
+    },
+    Object {
+      "id": "figs-events",
+      "name": "Order of Events",
+    },
+    Object {
+      "id": "writing-connectingwords",
+      "name": "Connecting Words",
+    },
+    Object {
+      "id": "figs-parables",
+      "name": "Parables",
+    },
+    Object {
+      "id": "writing-endofstory",
+      "name": "End of Story",
+    },
+    Object {
+      "id": "writing-participants",
+      "name": "Introduction of New and Old Participants",
+    },
+    Object {
+      "id": "figs-pastforfuture",
+      "name": "Predictive Past",
+    },
+    Object {
+      "id": "writing-quotations",
+      "name": "Quotations and Quote Margins",
+    },
+    Object {
+      "id": "figs-imperative",
+      "name": "Imperatives - Other Uses",
+    },
+    Object {
+      "id": "figs-sentences",
+      "name": "Sentence Structure",
+    },
+    Object {
+      "id": "figs-declarative",
+      "name": "Statements - Other Uses",
+    },
+    Object {
+      "id": "writing-intro",
+      "name": "Types of Writing",
+    },
+    Object {
+      "id": "figs-exmetaphor",
+      "name": "Extended Metaphor",
+    },
+  ],
+  "figures": Array [
+    Object {
+      "id": "figs-doublet",
+      "name": "Doublet",
+    },
+    Object {
+      "id": "figs-ellipsis",
+      "name": "Ellipsis",
+    },
+    Object {
+      "id": "figs-euphemism",
+      "name": "Euphemism",
+    },
+    Object {
+      "id": "figs-hyperbole",
+      "name": "Hyperbole and Generalization",
+    },
+    Object {
+      "id": "figs-idiom",
+      "name": "Idiom",
+    },
+    Object {
+      "id": "figs-merism",
+      "name": "Merism",
+    },
+    Object {
+      "id": "figs-metaphor",
+      "name": "Metaphor",
+    },
+    Object {
+      "id": "figs-metonymy",
+      "name": "Metonymy",
+    },
+    Object {
+      "id": "figs-parallelism",
+      "name": "Parallelism",
+    },
+    Object {
+      "id": "figs-personification",
+      "name": "Personification",
+    },
+    Object {
+      "id": "figs-rquestion",
+      "name": "Rhetorical Question",
+    },
+    Object {
+      "id": "figs-simile",
+      "name": "Simile",
+    },
+    Object {
+      "id": "figs-synecdoche",
+      "name": "Synecdoche",
+    },
+    Object {
+      "id": "figs-apostrophe",
+      "name": "Apostrophe",
+    },
+    Object {
+      "id": "figs-doublenegatives",
+      "name": "Double Negatives",
+    },
+    Object {
+      "id": "figs-hendiadys",
+      "name": "Hendiadys",
+    },
+    Object {
+      "id": "figs-irony",
+      "name": "Irony",
+    },
+    Object {
+      "id": "figs-litotes",
+      "name": "Litotes",
+    },
+  ],
+  "grammar": Array [
+    Object {
+      "id": "figs-123person",
+      "name": "First, Second, or Third Person",
+    },
+    Object {
+      "id": "figs-abstractnouns",
+      "name": "Abstract Nouns",
+    },
+    Object {
+      "id": "figs-activepassive",
+      "name": "Active or Passive",
+    },
+    Object {
+      "id": "figs-exclusive",
+      "name": "Exclusive and Inclusive \\"We\\"",
+    },
+    Object {
+      "id": "figs-nominaladj",
+      "name": "Nominal Adjectives",
+    },
+    Object {
+      "id": "figs-rpronouns",
+      "name": "Reflexive Pronouns",
+    },
+    Object {
+      "id": "figs-you",
+      "name": "Forms of You",
+    },
+    Object {
+      "id": "figs-hypo",
+      "name": "Hypothetical Situations",
+    },
+    Object {
+      "id": "figs-inclusive",
+      "name": "Inclusive \\"We\\"",
+    },
+    Object {
+      "id": "figs-possession",
+      "name": "Possession",
+    },
+    Object {
+      "id": "figs-distinguish",
+      "name": "Distinguishing versus Informing or Reminding",
+    },
+    Object {
+      "id": "figs-genericnoun",
+      "name": "Generic Noun Phrases",
+    },
+    Object {
+      "id": "figs-pronouns",
+      "name": "Pronouns",
+    },
+    Object {
+      "id": "figs-gendernotations",
+      "name": "When Masculine Words Include Women",
+    },
+  ],
+  "numbers": Array [
+    Object {
+      "id": "translate-numbers",
+      "name": "Numbers",
+    },
+    Object {
+      "id": "translate-ordinal",
+      "name": "Ordinal Numbers",
+    },
+    Object {
+      "id": "translate-fraction",
+      "name": "Fractions",
+    },
+  ],
+  "other": Array [
+    Object {
+      "id": "translate-textvariants",
+      "name": "Textual Variants",
+    },
+    Object {
+      "id": "guidelines-sonofgodprinciples",
+      "name": "Translating Son and Father",
+    },
+    Object {
+      "id": "translate-manuscripts",
+      "name": "Original Manuscripts",
+    },
+    Object {
+      "id": "translate-transliterate",
+      "name": "Copy or Borrow Words",
+    },
+  ],
+}
+`;

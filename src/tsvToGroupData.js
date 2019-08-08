@@ -5,7 +5,7 @@ import { categorizeGroupData } from './tNoteGroupIdCategorization'
 import ManageResource from './helpers/ManageResourceAPI'
 import { getWordOccurrencesForQuote } from './helpers/wordOccurrenceHelpers'
 import { ELLIPSIS } from './utils/constants'
-import { translationHelps, getLatestVersionInPath, getGroupName } from './helpers/transationHelpsHelpers'
+import { translationHelps, getLatestVersionInPath, getGroupName, getBibleIdForLanguage } from './helpers/resourcesHelpers'
 
 /**
  * Parses a book tN TSVs and returns an object holding the lists of group ids.
@@ -15,11 +15,12 @@ import { translationHelps, getLatestVersionInPath, getGroupName } from './helper
  * then it returns the object organized by tn article category.
  * @param {string} originalBiblePath path to original bible.
  * e.g. /resources/el-x-koine/bibles/ugnt/v0.5
- * @param {string} translationHelpsPath path to the translationHelps dir
- * e.g. /resources/en/translationHelps
+ * @param {string} resourcesPath path to the resources dir
+ * e.g. /User/john/translationCore/resources
+ * @param {string} langId
  * @returns an object with the lists of group ids which each includes an array of groupsdata.
  */
-export const tsvToGroupData = async (filepath, toolName, params = {}, originalBiblePath, translationHelpsPath) => {
+export const tsvToGroupData = async (filepath, toolName, params = {}, originalBiblePath, resourcesPath, langId) => {
   const groupData = {}
   const tsvObjects = await tsvtojson(filepath)
   const { Book: bookId } = tsvObjects[0] || {}
@@ -28,7 +29,7 @@ export const tsvToGroupData = async (filepath, toolName, params = {}, originalBi
   tsvObjects.forEach(tsvItem => {
     if (tsvItem.SupportReference && tsvItem.OrigQuote) {
       tsvItem.SupportReference = cleanGroupId(tsvItem.SupportReference)
-      tsvItem.OccurrenceNote = cleanOccurrenceNoteLinks(tsvItem.OccurrenceNote, bookId, translationHelpsPath)
+      tsvItem.OccurrenceNote = cleanOccurrenceNoteLinks(tsvItem.OccurrenceNote, resourcesPath, langId, bookId.toLowerCase())
       const chapter = parseInt(tsvItem.Chapter, 10)
       const verse = parseInt(tsvItem.Verse, 10)
       const verseString = resourceApi.getVerseString(chapter, verse)
@@ -63,14 +64,15 @@ export const cleanGroupId = groupId => {
 /**
  * Converts [[rc://lang/(ta|tw)/...]] links to a markdown link if we can find their article file locally to get the title
  * @param {string} tHelpsLink
- * @param {string} tHelpsPath
+ * @param {string} langResourcesPath
  */
-export const convertLinkToMarkdownLink = (tHelpsLink, tHelpsPath) => {
+export const convertLinkToMarkdownLink = (tHelpsLink, langResourcesPath) => {
   const tHelpsPattern = /\[\[(rc:\/\/[\w-]+\/(ta|tn|tw)\/[^\/]+\/([^\]]+)\/([^\]]+))\]\]/g
   const parts = tHelpsPattern.exec(tHelpsLink)
   parts.shift()
   const [rcLink, resource, category, file] = parts
-  const resourcePath = getLatestVersionInPath(path.join(tHelpsPath, translationHelps[resource]))
+  let resourcePath = path.join(langResourcesPath, 'translationHelps', translationHelps[resource])
+  resourcePath = getLatestVersionInPath(resourcePath)
   let articlePath
   if (resource === 'ta') {
     articlePath = path.join(resourcePath, category, file) + '.md'
@@ -87,7 +89,19 @@ export const convertLinkToMarkdownLink = (tHelpsLink, tHelpsPath) => {
   return tHelpsLink
 }
 
-export const fixBibleLink = (link, langId, bookId) => {
+/**
+ * Fixes Bible links by putting in a rc:// link for the given language, book, chapter and verse
+ * @param link
+ * @param resourcesPath
+ * @param langId
+ * @param bookId
+ * @returns {string|*}
+ */
+export const fixBibleLink = (link, resourcesPath, langId, bookId) => {
+  const bibleId = getBibleIdForLanguage(path.join(resourcesPath, langId, 'bibles'))
+  if (! bibleId) {
+    return link
+  }
   // bibleLinkPattern can match the following:
   // [Titus 2:1](../02/01.md)
   // [John 4:2](../../jhn/04/02.md] (parts[4] will be "jhn")
@@ -98,21 +112,24 @@ export const fixBibleLink = (link, langId, bookId) => {
   if (!parts) {
     return link
   }
-  let myBookId = bookId
+  // If the bible link is in the form (../../<bookId>/<chapter>/<verse>) we use the bookId in the link instead of the
+  // one passed to this function
+  let linkBookId = bookId
   if (parts[4]) {
-    myBookId = parts[4]
+    linkBookId = parts[4]
   }
-  return parts[1] + '(rc://' + [langId, 'ult', 'book', myBookId, parts[5], parts[6]].join('/') + ')'
+  return parts[1] + '(rc://' + [langId, 'ult', 'book', linkBookId, parts[5], parts[6]].join('/') + ')'
 }
 
 /**
  * Cleans up all the links in an occurrenceNote
  * @param {string} occurrenceNote occurrence Note.
- * @param {string} tHelpsPath path to the translationHelps directory that contains tA and tW article dirs
+ * @param {string} resourcesPath path to the translationHelps directory that contains tA and tW article dirs
+ * @param {string} langId
  * @param {string} bookId id of the book being processed
  * @returns {string} occurrenceNote with clean/fixed tA links.
  */
-export const cleanOccurrenceNoteLinks = (occurrenceNote, tHelpsPath, bookId) => {
+export const cleanOccurrenceNoteLinks = (occurrenceNote, resourcesPath, langId, bookId) => {
   // Change colons in the path part of the link to a slash
   // Ex: [[rc://en/man/ta:translate:figs-activepassive]] =>
   //     [[rc://en/man/ta/translate/figs-activepassive]]
@@ -141,27 +158,16 @@ export const cleanOccurrenceNoteLinks = (occurrenceNote, tHelpsPath, bookId) => 
   // Run convertLinkToMarkdownLink on each link to get their (title)[rc://...] representation
   // Ex: [[rc://en/ta/man/translate/figs_activepassive]] =>
   //     [Active or Passive](rc://en/man/ta/translate/figs_activepassive)
-  if (tHelpsPath) {
+  if (resourcesPath && langId) {
     const tHelpsPattern = /(\[\[rc:\/\/[\w-]+\/(ta|tw)\/[^\/]+\/[^\]]+\]\])/g
-    cleanNote = cleanNote.replace(tHelpsPattern, link => {
-      return convertLinkToMarkdownLink(link, tHelpsPath)
-    })
+    cleanNote = cleanNote.replace(tHelpsPattern, link => convertLinkToMarkdownLink(link, path.join(resourcesPath, langId)))
   }
   // Run fixBibleLink on each link to get a proper Bible rc link with Markdown syntax
   // Ex: [Titus 2:1](../02/01.md) =>
   //     [Titus 2:1](rc://lang/ult/book/tit/02/01)
-  if (bookId && tHelpsPath) {
-    let lang = 'en'
-    if (tHelpsPath) {
-      const parts = tHelpsPath.split('/')
-      if (parts.length >= 2) {
-        lang = parts[parts.length - 2]
-      }
-    }
+  if (bookId && langId && resourcesPath) {
     const bibleLinkPattern = /\[[^[\]]+\]\s*\((\.\.\/)*(([\w-]+)\/){0,1}(\d+)\/(\d+)(\.md)*\)/g
-    cleanNote = cleanNote.replace(bibleLinkPattern, link => {
-      return fixBibleLink(link, lang, bookId)
-    })
+    cleanNote = cleanNote.replace(bibleLinkPattern, link => fixBibleLink(link, resourcesPath, langId, bookId))
   }
   return cleanNote
 }

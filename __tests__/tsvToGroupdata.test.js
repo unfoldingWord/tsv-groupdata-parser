@@ -2,46 +2,45 @@ jest.unmock('fs-extra')
 import path from 'path-extra'
 // helpers
 import { tsvToGroupData, cleanGroupId, cleanOccurrenceNoteLinks } from '../src/tsvToGroupData'
-// fixture files
-import titGroupData from './fixtures/tit_groupData.json'
-import titCategorizedGroupData from './fixtures/tit_categorizedGroupData.json'
-import mrkCategorizedGroupData from './fixtures/mrk_categorizedGroupData.json'
-import matCategorizedGroupData from './fixtures/mat_categorizedGroupData.json'
 // constants
 const RESOURCES_PATH = path.join(__dirname, 'fixtures', 'resources')
 const ORIGINAL_BIBLE_PATH = path.join(RESOURCES_PATH, 'el-x-koine', 'bibles', 'ugnt', 'v0.5')
-const EN_TRANSLATIONHELPS_PATH = path.join(RESOURCES_PATH, 'en', 'translationHelps')
-const HI_TRANSLATIONHELPS_PATH = path.join(RESOURCES_PATH, 'hi', 'translationHelps')
 
 describe('tsvToGroupData():', () => {
   test('Parses a book tN TSVs to an object with a lists of group ids', async () => {
     const filepath = '__tests__/fixtures/tsv/en_tn_57-TIT.tsv'
-    const result = await tsvToGroupData(filepath, 'translationNotes', null, ORIGINAL_BIBLE_PATH, EN_TRANSLATIONHELPS_PATH)
-    expect(result).toEqual(titGroupData)
+    const result = await tsvToGroupData(filepath, 'translationNotes', null, ORIGINAL_BIBLE_PATH, RESOURCES_PATH, 'en')
+    expect(result).toMatchSnapshot()
   })
 
   test('It returns the categorized group data if the param categorized is true { categorized: true }', async () => {
     const filepath = '__tests__/fixtures/tsv/en_tn_57-TIT.tsv'
-    const categorizedGroupData = await tsvToGroupData(filepath, 'translationNotes', { categorized: true }, ORIGINAL_BIBLE_PATH, EN_TRANSLATIONHELPS_PATH)
-    expect(categorizedGroupData).toEqual(titCategorizedGroupData)
+    const result = await tsvToGroupData(filepath, 'translationNotes', { categorized: true }, ORIGINAL_BIBLE_PATH, RESOURCES_PATH, 'en')
+    expect(result).toMatchSnapshot()
   })
 
   test('It returns the uncategorized group data if the param categorized is false { categorized: false }', async () => {
     const filepath = '__tests__/fixtures/tsv/en_tn_57-TIT.tsv'
-    const categorizedGroupData = await tsvToGroupData(filepath, 'translationNotes', { categorized: false }, ORIGINAL_BIBLE_PATH, EN_TRANSLATIONHELPS_PATH)
-    expect(categorizedGroupData).toEqual(titGroupData)
+    const result = await tsvToGroupData(filepath, 'translationNotes', { categorized: false }, ORIGINAL_BIBLE_PATH, RESOURCES_PATH, 'en')
+    expect(result).toMatchSnapshot()
   })
 
   test('It returns the categorized group data for MRK.tsv', async () => {
     const filepath = '__tests__/fixtures/tsv/en_tn_42-MRK.tsv'
-    const result = await tsvToGroupData(filepath, 'translationNotes', { categorized: true }, ORIGINAL_BIBLE_PATH, EN_TRANSLATIONHELPS_PATH)
-    expect(result).toEqual(mrkCategorizedGroupData)
+    const result = await tsvToGroupData(filepath, 'translationNotes', { categorized: true }, ORIGINAL_BIBLE_PATH, RESOURCES_PATH, 'en')
+    expect(result).toMatchSnapshot()
   })
 
-  test('It returns the uncategorized group data if the param categorized is false { categorized: false }', async () => {
+  test('It returns the categorized group data for MAT.tsv', async () => {
     const filepath = '__tests__/fixtures/tsv/en_tn_41-MAT.tsv'
-    const result = await tsvToGroupData(filepath, 'translationNotes', { categorized: true }, ORIGINAL_BIBLE_PATH, EN_TRANSLATIONHELPS_PATH)
-    expect(result).toEqual(matCategorizedGroupData)
+    const result = await tsvToGroupData(filepath, 'translationNotes', { categorized: true }, ORIGINAL_BIBLE_PATH, RESOURCES_PATH, 'en')
+    expect(result).toMatchSnapshot()
+  })
+
+  test('It returns the categorized group data for Hindi TIT.tsv', async () => {
+    const filepath = '__tests__/fixtures/tsv/hi_tn_57-TIT.tsv'
+    const result = await tsvToGroupData(filepath, 'translationNotes', { categorized: true }, ORIGINAL_BIBLE_PATH, RESOURCES_PATH, 'hi')
+    expect(result).toMatchSnapshot()
   })
 })
 
@@ -82,17 +81,12 @@ describe('cleanOccurrenceNoteLinks()', () => {
       const goodLink = testItems[badLink]
       const withBrokenLink = `This verse is background information for the description of the events that follow. (See: ${badLink})`
       const expectedCleanedNotes = `This verse is background information for the description of the events that follow. (See: ${goodLink})`
-      const cleanedNotes = cleanOccurrenceNoteLinks(withBrokenLink, EN_TRANSLATIONHELPS_PATH, '');
+      const cleanedNotes = cleanOccurrenceNoteLinks(withBrokenLink, RESOURCES_PATH, 'en', 'tit');
       expect(cleanedNotes).toBe(expectedCleanedNotes)
     })
   })
 
   test('tests various tN occurrenceNotes', () => {
-    const tHelpsPaths = {
-      en: EN_TRANSLATIONHELPS_PATH,
-      hi: HI_TRANSLATIONHELPS_PATH,
-    }
-
     const testItems = [
       {
         bookId: 'mat',
@@ -136,7 +130,7 @@ describe('cleanOccurrenceNoteLinks()', () => {
     ]
 
     testItems.forEach(testItem => {
-      const cleanedOccurrenceNote = cleanOccurrenceNoteLinks(testItem.occurrenceNotes, tHelpsPaths[testItem.lang], testItem.bookId)
+      const cleanedOccurrenceNote = cleanOccurrenceNoteLinks(testItem.occurrenceNotes, RESOURCES_PATH, testItem.lang, testItem.bookId)
       expect(cleanedOccurrenceNote).toBe(testItem.expectedCleanNotes)
     })
   })

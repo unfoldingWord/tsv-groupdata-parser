@@ -62,3 +62,22 @@ export function getLatestVersionInPath(resourcePath) {
   }
   return null // return illegal path
 }
+
+/**
+ * Finds the BibleID for a language in the resources directory
+ * @param {string} biblesPath
+ * @returns {string}
+ */
+export function getBibleIdForLanguage(biblesPath) {
+  const biblePrecedence = ['irv', 'ult', 'ulb', 'ust', 'udb'] // Used to determine which may be the more dominate Bible version
+  const bibleList = fs.readdirSync(biblesPath).sort()
+  if (bibleList.length === 0) {
+    return 'ult'
+  }
+  biblePrecedence.forEach(bibleId => {
+    if (bibleList.indexOf(bibleId) >= 0) {
+      return bibleId
+    }
+  })
+  return bibleList[0]
+}

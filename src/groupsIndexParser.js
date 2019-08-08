@@ -1,6 +1,6 @@
 import fs from 'fs-extra'
 import path from 'path-extra'
-import { getGroupName } from './helpers/transationHelpsHelpers'
+import { getGroupName } from './helpers/resourcesHelpers'
 
 export const generateGroupsIndex = (tnCategoriesPath, taCategoriesPath) => {
   const categorizedGroupsIndex = {
