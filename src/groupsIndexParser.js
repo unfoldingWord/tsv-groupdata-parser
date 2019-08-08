@@ -1,5 +1,6 @@
 import fs from 'fs-extra'
 import path from 'path-extra'
+import { getGroupName } from './helpers/transationHelpsHelpers'
 
 export const generateGroupsIndex = (tnCategoriesPath, taCategoriesPath) => {
   const categorizedGroupsIndex = {
@@ -62,12 +63,6 @@ export const getArticleCategory = (occurrenceNote, groupId) => {
     }
   }
   return null
-}
-
-const getGroupName = articlePath => {
-  const articleFile = fs.readFileSync(articlePath, 'utf8')
-  // get the article's first line and remove #'s and spaces from beginning/end
-  return articleFile.split('\n')[0].replace(/(^\s*#\s*|\s*#\s*$)/gi, '')
 }
 
 const getGroupIndex = (groupId, groupName) => ({
