@@ -55,7 +55,7 @@ export const generateGroupsIndex = (tnCategoriesPath, taCategoriesPath) => {
  */
 export const getArticleCategory = (occurrenceNote, groupId) => {
   if (occurrenceNote && groupId) {
-    const pattern = '(?<=\\[\\[rc:\\/\\/[^\\/]+\\/ta\\/man\\/)[^\\/]+?(?=\\/' + groupId + '\\]\\])'
+    const pattern = '(?<=rc:\\/\\/[^\\/]+\\/ta\\/man\\/)[^\\/]+?(?=\\/' + groupId + ')'
     const categoryRE = new RegExp(pattern)
     const match = occurrenceNote.match(categoryRE)
     if (match) {

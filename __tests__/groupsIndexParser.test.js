@@ -14,14 +14,14 @@ describe('tests groupsIndexParser.getArticleCategory()', () => {
   test('returns the category found in an occurrenceNote', async () => {
     const groupId = 'figs-metaphor'
     const category = 'translate'
-    const occurrenceNote = 'This is my note (See: [[rc://en/ta/man/' + category + '/' + groupId + ']])'
+    const occurrenceNote = 'This is my note (See: [Metaphor](rc://en/ta/man/' + category + '/' + groupId + '))'
     expect(getArticleCategory(occurrenceNote, groupId)).toBe(category)
   })
 
   test('returns the category found in an occurrenceNote as the second link', async () => {
     const groupId = 'figs-metaphor'
     const category = 'translate'
-    const occurrenceNote = 'This is my note (See: [[rc://en/ta/man/checking/spelling]] and [[rc://en/ta/man/' + category + '/' + groupId + ']])'
+    const occurrenceNote = 'This is my note (See: [Spelling](rc://en/ta/man/checking/spelling) and [Metaphor](rc://en/ta/man/' + category + '/' + groupId + '))'
     expect(getArticleCategory(occurrenceNote, groupId)).toBe(category)
   })
 
