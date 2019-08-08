@@ -67,14 +67,14 @@ describe('cleanGroupId()', () => {
 describe('cleanOccurrenceNoteLinks()', () => {
   test('fixes occurrenceNote links', () => {
     const testItems = {
-      '[[rc://en/man/ta/translate/writing-background]]': '[[rc://en/man/ta/translate/writing-background]]',
-      '[[rc://en/man/ta/translate/writing_background]]': '[[rc://en/man/ta/translate/writing-background]]',
-      '[[rc://en/man/ta/translate:writing_background]]': '[[rc://en/man/ta/translate/writing-background]]',
-      '[[rc://en/man/ta/translate/translate_textvariants]]': '[[rc://en/man/ta/translate/translate-textvariants]]',
-      '[[rc://en/man/ta/translate:translate_textvariants]]': '[[rc://en/man/ta/translate/translate-textvariants]]',
-      '[[rc://es-419/man/ta:translate:translate_versebridge]]': '[[rc://es-419/man/ta/translate/translate-versebridge]]',
-      '[[rc://hi/man/ta/translate:translate-symaction]]': '[[rc://hi/man/ta/translate/translate-symaction]]',
-      '(See: [[rc://en/ta/man/translate/figs-activepassive]] ) and [[rc://en/ta/man/translate/figs-idiom)]])': '(See: [[rc://en/ta/man/translate/figs-activepassive]] and [[rc://en/ta/man/translate/figs-idiom)]])',
+      '[[rc://en/ta/man/translate/writing-background]]': '[Background Information](rc://en/ta/man/translate/writing-background)',
+      '[[rc://en/ta/man/translate/writing_background]]': '[Background Information](rc://en/ta/man/translate/writing-background)',
+      '[[rc://en/ta/man/translate:writing_background]]': '[Background Information](rc://en/ta/man/translate/writing-background)',
+      '[[rc://en/ta/man/translate/translate_textvariants]]': '[Textual Variants](rc://en/ta/man/translate/translate-textvariants)',
+      '[[rc://en/ta/man/translate:translate_textvariants]]': '[Textual Variants](rc://en/ta/man/translate/translate-textvariants)',
+      '[[rc://en/ta/man:translate:translate_versebridge]]': '[Verse Bridges](rc://en/ta/man/translate/translate-versebridge)',
+      '[[rc://en/ta/man/translate:translate-symaction]]': '[Symbolic Action](rc://en/ta/man/translate/translate-symaction)',
+      '(See: [[rc://en/ta/man/translate/figs-activepassive]] ) and [[rc://en/ta/man/translate/figs-idiom]])': '(See: [Active or Passive](rc://en/ta/man/translate/figs-activepassive) and [Idiom](rc://en/ta/man/translate/figs-idiom))',
     }
 
     Object.keys(testItems).forEach(badLink => {

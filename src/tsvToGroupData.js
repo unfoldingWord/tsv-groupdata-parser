@@ -64,14 +64,15 @@ export const cleanGroupId = groupId => {
 /**
  * Converts [[rc://lang/(ta|tw)/...]] links to a markdown link if we can find their article file locally to get the title
  * @param {string} tHelpsLink
- * @param {string} langResourcesPath
+ * @param {string} resourcesPath
+ * @param {string} langId
  */
-export const convertLinkToMarkdownLink = (tHelpsLink, langResourcesPath) => {
+export const convertLinkToMarkdownLink = (tHelpsLink, resourcesPath, langId) => {
   const tHelpsPattern = /\[\[(rc:\/\/[\w-]+\/(ta|tn|tw)\/[^\/]+\/([^\]]+)\/([^\]]+))\]\]/g
   const parts = tHelpsPattern.exec(tHelpsLink)
   parts.shift()
   const [rcLink, resource, category, file] = parts
-  let resourcePath = path.join(langResourcesPath, 'translationHelps', translationHelps[resource])
+  let resourcePath = path.join(resourcesPath, langId, 'translationHelps', translationHelps[resource])
   resourcePath = getLatestVersionInPath(resourcePath)
   let articlePath
   if (resource === 'ta') {
@@ -153,14 +154,14 @@ export const cleanOccurrenceNoteLinks = (occurrenceNote, resourcesPath, langId, 
   // Run cleanGroupId on the last item of the path, the groupId
   // Ex: [[rc://en/man/ta/translate/figs_activepassive]] =>
   //     [[rc://en/man/ta/translate/figs-activepassive]]
-  const groupIdPattern = /(?<=\[\[rc:\/\/[^\]]+\/([\w-]+)(?=\]\]))/g
+  const groupIdPattern = /(?<=\[\[rc:\/\/[^\]]+\/)[\w-]+(?=\]\])/g
   cleanNote = cleanNote.replace(groupIdPattern, cleanGroupId)
   // Run convertLinkToMarkdownLink on each link to get their (title)[rc://...] representation
   // Ex: [[rc://en/ta/man/translate/figs_activepassive]] =>
   //     [Active or Passive](rc://en/man/ta/translate/figs_activepassive)
   if (resourcesPath && langId) {
     const tHelpsPattern = /(\[\[rc:\/\/[\w-]+\/(ta|tw)\/[^\/]+\/[^\]]+\]\])/g
-    cleanNote = cleanNote.replace(tHelpsPattern, link => convertLinkToMarkdownLink(link, path.join(resourcesPath, langId)))
+    cleanNote = cleanNote.replace(tHelpsPattern, link => convertLinkToMarkdownLink(link, resourcesPath, langId))
   }
   // Run fixBibleLink on each link to get a proper Bible rc link with Markdown syntax
   // Ex: [Titus 2:1](../02/01.md) =>
