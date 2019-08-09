@@ -1,5 +1,6 @@
 import fs from 'fs-extra'
 import path from 'path-extra'
+import { getGroupName } from './helpers/resourcesHelpers'
 
 export const generateGroupsIndex = (tnCategoriesPath, taCategoriesPath) => {
   const categorizedGroupsIndex = {
@@ -26,15 +27,17 @@ export const generateGroupsIndex = (tnCategoriesPath, taCategoriesPath) => {
         const groupData = fs.readJsonSync(filePath)
 
         if (groupData.length > 0) {
-          const taArticleCategory = getArticleCategory(groupData[0].contextId.occurrenceNote)
-          const fileName = groupId + '.md'
-          const articlePath = path.join(taCategoriesPath, taArticleCategory, fileName)
-          const groupName = getGroupName(articlePath)
-          const groupIndexItem = getGroupIndex(groupId, groupName)
+          const taArticleCategory = getArticleCategory(groupData[0].contextId.occurrenceNote, groupId)
+          if (taArticleCategory) {
+            const fileName = groupId + '.md'
+            const articlePath = path.join(taCategoriesPath, taArticleCategory, fileName)
+            const groupName = getGroupName(articlePath)
+            const groupIndexItem = getGroupIndex(groupId, groupName)
 
-          // Only add the groupIndexItem if it isnt already in the category's groups index.
-          if (!categorizedGroupsIndex[categoryName].some(e => e.id === groupIndexItem.id)) {
-            categorizedGroupsIndex[categoryName].push(groupIndexItem) // adding group Index Item
+            // Only add the groupIndexItem if it isn't already in the category's groups index.
+            if (!categorizedGroupsIndex[categoryName].some(e => e.id === groupIndexItem.id)) {
+              categorizedGroupsIndex[categoryName].push(groupIndexItem) // adding group Index Item
+            }
           }
         }
       })
@@ -44,19 +47,22 @@ export const generateGroupsIndex = (tnCategoriesPath, taCategoriesPath) => {
   return categorizedGroupsIndex
 }
 
-const getArticleCategory = occurrenceNote => {
-  const cutEnd = occurrenceNote.search('rc://en/ta/man/')
-  const taArticleCategory = (occurrenceNote.substr(0, 0) + occurrenceNote.substr(cutEnd + 1))
-    .replace('c://en/ta/man/', '')
-    .split('/')[0]
-
-  return taArticleCategory
-}
-
-const getGroupName = articlePath => {
-  const articleFile = fs.readFileSync(articlePath, 'utf8')
-  // get the article's first line and remove #'s and spaces from beginning/end
-  return articleFile.split('\n')[0].replace(/(^\s*#\s*|\s*#\s*$)/gi, '')
+/**
+ * Gets the category of the given groupId from the links in the occurrenceNote
+ * @param {string} occurrenceNote
+ * @param {string} groupId
+ * @returns {string} the matched category
+ */
+export const getArticleCategory = (occurrenceNote, groupId) => {
+  if (occurrenceNote && groupId) {
+    const pattern = '(?<=rc:\\/\\/[^\\/]+\\/ta\\/man\\/)[^\\/]+?(?=\\/' + groupId + ')'
+    const categoryRE = new RegExp(pattern)
+    const match = occurrenceNote.match(categoryRE)
+    if (match) {
+      return match[0]
+    }
+  }
+  return null
 }
 
 const getGroupIndex = (groupId, groupName) => ({

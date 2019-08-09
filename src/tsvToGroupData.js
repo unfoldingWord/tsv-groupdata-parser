@@ -1,8 +1,11 @@
+import path from 'path-extra'
+import fs from 'fs-extra'
 import tsvtojson from 'tsvtojson'
 import { categorizeGroupData } from './tNoteGroupIdCategorization'
 import ManageResource from './helpers/ManageResourceAPI'
 import { getWordOccurrencesForQuote } from './helpers/wordOccurrenceHelpers'
 import { ELLIPSIS } from './utils/constants'
+import { translationHelps, getLatestVersionInPath, getGroupName, getBibleIdForLanguage } from './helpers/resourcesHelpers'
 
 /**
  * Parses a book tN TSVs and returns an object holding the lists of group ids.
@@ -12,10 +15,12 @@ import { ELLIPSIS } from './utils/constants'
  * then it returns the object organized by tn article category.
  * @param {string} originalBiblePath path to original bible.
  * e.g. /resources/el-x-koine/bibles/ugnt/v0.5
- * @returns an object with the lists of group ids which each
- * includes an array of groupsdata.
+ * @param {string} resourcesPath path to the resources dir
+ * e.g. /User/john/translationCore/resources
+ * @param {string} langId
+ * @returns an object with the lists of group ids which each includes an array of groupsdata.
  */
-export const tsvToGroupData = async (filepath, toolName, params = {}, originalBiblePath) => {
+export const tsvToGroupData = async (filepath, toolName, params = {}, originalBiblePath, resourcesPath, langId) => {
   const groupData = {}
   const tsvObjects = await tsvtojson(filepath)
   const { Book: bookId } = tsvObjects[0] || {}
@@ -24,7 +29,7 @@ export const tsvToGroupData = async (filepath, toolName, params = {}, originalBi
   tsvObjects.forEach(tsvItem => {
     if (tsvItem.SupportReference && tsvItem.OrigQuote) {
       tsvItem.SupportReference = cleanGroupId(tsvItem.SupportReference)
-      tsvItem.OccurrenceNote = cleanArticleLink(tsvItem.OccurrenceNote)
+      tsvItem.OccurrenceNote = cleanOccurrenceNoteLinks(tsvItem.OccurrenceNote, resourcesPath, langId, bookId.toLowerCase())
       const chapter = parseInt(tsvItem.Chapter, 10)
       const verse = parseInt(tsvItem.Verse, 10)
       const verseString = resourceApi.getVerseString(chapter, verse)
@@ -42,61 +47,130 @@ export const tsvToGroupData = async (filepath, toolName, params = {}, originalBi
 
 /**
  * Cleans an incorrectly formatted group id.
- * @param {string} groupId group id string that was posibly incorrectly formatted.
- * @returns correctly formatted group id.
+ * @param {string} groupId group id string that was possibly incorrectly formatted.
+ * @returns {string} correctly formatted group id.
  */
 export const cleanGroupId = groupId => {
-  const subStrings = groupId.replace(/translate:|translate\//gi, '').split(/[_\/:]/g)
-
-  if (subStrings.length === 1) {
-    return subStrings[0]
-  } else if (subStrings.length === 2) {
-    return subStrings.join('-')
-  } else {
-    return groupId
-  }
+  // Make sure we only have the element at the very end of a path of /'s or :'s
+  // Ex: translate:writing_background => writing_background
+  const elements = groupId.split(/[/:]/)
+  let cleanedId = elements[elements.length - 1]
+  // Replace _ with - in groupId
+  // Ex: writing_background => writing-background
+  cleanedId = cleanedId.replace('_', '-')
+  return cleanedId
 }
 
 /**
- * Finds incorrectly formatted tA links and fixes them.
+ * Converts [[rc://lang/(ta|tw)/...]] links to a markdown link if we can find their article file locally to get the title
+ * @param {string} tHelpsLink
+ * @param {string} resourcesPath
+ * @param {string} langId
+ */
+export const convertLinkToMarkdownLink = (tHelpsLink, resourcesPath, langId) => {
+  const tHelpsPattern = /\[\[(rc:\/\/[\w-]+\/(ta|tn|tw)\/[^\/]+\/([^\]]+)\/([^\]]+))\]\]/g
+  const parts = tHelpsPattern.exec(tHelpsLink)
+  parts.shift()
+  const [rcLink, resource, category, file] = parts
+  let resourcePath = path.join(resourcesPath, langId, 'translationHelps', translationHelps[resource])
+  resourcePath = getLatestVersionInPath(resourcePath)
+  let articlePath
+  if (resource === 'ta') {
+    articlePath = path.join(resourcePath, category, file) + '.md'
+  }
+  if (resource === 'tw') {
+    articlePath = path.join(resourcePath, category.split('/')[1], 'articles', file) + '.md'
+  }
+  if (articlePath && fs.existsSync(articlePath)) {
+    const groupName = getGroupName(articlePath)
+    if (groupName) {
+      return '[' + groupName + '](' + rcLink + ')'
+    }
+  }
+  return tHelpsLink
+}
+
+/**
+ * Fixes Bible links by putting in a rc:// link for the given language, book, chapter and verse
+ * @param link
+ * @param resourcesPath
+ * @param langId
+ * @param bookId
+ * @returns {string|*}
+ */
+export const fixBibleLink = (link, resourcesPath, langId, bookId) => {
+  const bibleId = getBibleIdForLanguage(path.join(resourcesPath, langId, 'bibles'))
+  if (! bibleId) {
+    return link
+  }
+  // bibleLinkPattern can match the following:
+  // [Titus 2:1](../02/01.md)
+  // [John 4:2](../../jhn/04/02.md] (parts[4] will be "jhn")
+  // [Revelation 10:10](../10/10)
+  // [Ephesians 4:1](04/01.md)
+  const bibleLinkPattern = /(\[[^[\]]+\])\s*\((\.\.\/)*(([\w-]+)\/){0,1}(\d+)\/(\d+)(\.md)*\)/g
+  const parts = bibleLinkPattern.exec(link)
+  if (!parts) {
+    return link
+  }
+  // If the bible link is in the form (../../<bookId>/<chapter>/<verse>) we use the bookId in the link instead of the
+  // one passed to this function
+  let linkBookId = bookId
+  if (parts[4]) {
+    linkBookId = parts[4]
+  }
+  return parts[1] + '(rc://' + [langId, 'ult', 'book', linkBookId, parts[5], parts[6]].join('/') + ')'
+}
+
+/**
+ * Cleans up all the links in an occurrenceNote
  * @param {string} occurrenceNote occurrence Note.
+ * @param {string} resourcesPath path to the translationHelps directory that contains tA and tW article dirs
+ * @param {string} langId
+ * @param {string} bookId id of the book being processed
  * @returns {string} occurrenceNote with clean/fixed tA links.
  */
-export const cleanArticleLink = occurrenceNote => {
-  let noteWithFixedLink = ''
-  const linkSubstring = 'rc://en/ta/man/'
-  const cutEnd = occurrenceNote.search(linkSubstring)
-  const groupId = (occurrenceNote.substr(0, 0) + occurrenceNote.substr(cutEnd + 1)).replace('c://en/ta/man/', '').replace(']])', '')
-  const stringFirstPart = occurrenceNote.slice(0, cutEnd)
-
-  if (groupId.includes(linkSubstring)) {
-    // handle multiple links in the same note.
-    const joint = ' and '
-    const multipleLinksSubstrings = groupId.split(joint)
-    const lastItem = multipleLinksSubstrings.length - 1
-    let goodLinks = ''
-
-    multipleLinksSubstrings.forEach((substring, index) => {
-      const linkString = substring.replace('[[rc://en/ta/man/', '').replace(']]', '')
-      const cleanedGropId = cleanGroupId(linkString)
-
-      if (index === 0) {
-        goodLinks = goodLinks + `rc://en/ta/man/translate/${cleanedGropId}]]` + joint
-      } else if (index !== lastItem) {
-        goodLinks = goodLinks + `[[rc://en/ta/man/translate/${cleanedGropId}]]` + joint
-      } else if (index === lastItem) {
-        goodLinks = goodLinks + `[[rc://en/ta/man/translate/${cleanedGropId}]])`
-      }
-    })
-    noteWithFixedLink = stringFirstPart + goodLinks
-  } else {
-    // only one link in the note
-    const cleanedGropId = cleanGroupId(groupId)
-    const goodLink = `rc://en/ta/man/translate/${cleanedGropId}]])`
-    noteWithFixedLink = stringFirstPart + goodLink
+export const cleanOccurrenceNoteLinks = (occurrenceNote, resourcesPath, langId, bookId) => {
+  // Change colons in the path part of the link to a slash
+  // Ex: [[rc://en/man/ta:translate:figs-activepassive]] =>
+  //     [[rc://en/man/ta/translate/figs-activepassive]]
+  const colonInPathPattern = /(?<=\[\[rc:[^\]]+):(?=[^\]]+\]\])/g
+  let cleanNote = occurrenceNote.replace(colonInPathPattern, '/')
+  // Remove spaces between the link and right paren
+  // Ex: (See: [[rc://en/man/ta:translate:figs-activepassive]] ) =>
+  //     (See: [[rc://en/man/ta/translate/figs-activepassive]])
+  const spaceBetweenLinkAndParenPattern = /(?<=\[\[rc:[^\]]+]]) +\)/g
+  cleanNote = cleanNote.replace(spaceBetweenLinkAndParenPattern, ')')
+  // Remove invalid paren and spaces at end of the link
+  // Ex: [[rc://en/man/ta:translate:figs-activepassive )]] =>
+  //     [[rc://en/man/ta/translate/figs-activepassive]]
+  const invalidParenInLinkPattern = /(?<=\[\[rc:[^\] )]+)[ \)]+(?=]])/g
+  cleanNote = cleanNote.replace(invalidParenInLinkPattern, ')')
+  // Removes a right paren if it appears after one link and then there is another link
+  // Ex: (See: [[rc://en/ta/man/translate/figs-activepassive]]) and [[rc://en/ta/man/translate/figs-idiom)]]) =>
+  //     (See: [[rc://en/ta/man/translate/figs-activepassive]] and [[rc://en/ta/man/translate/figs-idiom)]])
+  const rightParenBetweenLinksPattern = /(?<=\[\[rc:\/\/[^\]]+]])\)(?=[^\(]+rc:)/g
+  cleanNote = cleanNote.replace(rightParenBetweenLinksPattern, '')
+  // Run cleanGroupId on the last item of the path, the groupId
+  // Ex: [[rc://en/man/ta/translate/figs_activepassive]] =>
+  //     [[rc://en/man/ta/translate/figs-activepassive]]
+  const groupIdPattern = /(?<=\[\[rc:\/\/[^\]]+\/)[\w-]+(?=\]\])/g
+  cleanNote = cleanNote.replace(groupIdPattern, cleanGroupId)
+  // Run convertLinkToMarkdownLink on each link to get their (title)[rc://...] representation
+  // Ex: [[rc://en/ta/man/translate/figs_activepassive]] =>
+  //     [Active or Passive](rc://en/man/ta/translate/figs_activepassive)
+  if (resourcesPath && langId) {
+    const tHelpsPattern = /(\[\[rc:\/\/[\w-]+\/(ta|tw)\/[^\/]+\/[^\]]+\]\])/g
+    cleanNote = cleanNote.replace(tHelpsPattern, link => convertLinkToMarkdownLink(link, resourcesPath, langId))
   }
-
-  return noteWithFixedLink
+  // Run fixBibleLink on each link to get a proper Bible rc link with Markdown syntax
+  // Ex: [Titus 2:1](../02/01.md) =>
+  //     [Titus 2:1](rc://lang/ult/book/tit/02/01)
+  if (bookId && langId && resourcesPath) {
+    const bibleLinkPattern = /\[[^[\]]+\]\s*\((\.\.\/)*(([\w-]+)\/){0,1}(\d+)\/(\d+)(\.md)*\)/g
+    cleanNote = cleanNote.replace(bibleLinkPattern, link => fixBibleLink(link, resourcesPath, langId, bookId))
+  }
+  return cleanNote
 }
 
 /**

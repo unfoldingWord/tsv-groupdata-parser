@@ -1,49 +1,46 @@
 jest.unmock('fs-extra')
 import path from 'path-extra'
 // helpers
-import { tsvToGroupData, cleanGroupId, cleanArticleLink } from '../src/tsvToGroupData'
-// fixture files
-import titGroupData from './fixtures/tit_groupData.json'
-import titCategorizedGroupData from './fixtures/tit_categorizedGroupData.json'
-import mrkCategorizedGroupData from './fixtures/mrk_categorizedGroupData.json'
-import matCategorizedGroupData from './fixtures/mat_categorizedGroupData.json'
+import { tsvToGroupData, cleanGroupId, cleanOccurrenceNoteLinks } from '../src/tsvToGroupData'
 // constants
-const ORIGINAL_BIBLE_PATH = path.join('__tests__', 'fixtures', 'resources', 'el-x-koine', 'bibles', 'ugnt', 'v0.5')
+const RESOURCES_PATH = path.join(__dirname, 'fixtures', 'resources')
+const ORIGINAL_BIBLE_PATH = path.join(RESOURCES_PATH, 'el-x-koine', 'bibles', 'ugnt', 'v0.5')
 
 describe('tsvToGroupData():', () => {
   test('Parses a book tN TSVs to an object with a lists of group ids', async () => {
     const filepath = '__tests__/fixtures/tsv/en_tn_57-TIT.tsv'
-    const result = await tsvToGroupData(filepath, 'translationNotes', null, ORIGINAL_BIBLE_PATH)
-
-    expect(result).toEqual(titGroupData)
+    const result = await tsvToGroupData(filepath, 'translationNotes', null, ORIGINAL_BIBLE_PATH, RESOURCES_PATH, 'en')
+    expect(result).toMatchSnapshot()
   })
 
   test('It returns the categorized group data if the param categorized is true { categorized: true }', async () => {
     const filepath = '__tests__/fixtures/tsv/en_tn_57-TIT.tsv'
-    const categorizedGroupData = await tsvToGroupData(filepath, 'translationNotes', { categorized: true }, ORIGINAL_BIBLE_PATH)
-
-    expect(categorizedGroupData).toEqual(titCategorizedGroupData)
+    const result = await tsvToGroupData(filepath, 'translationNotes', { categorized: true }, ORIGINAL_BIBLE_PATH, RESOURCES_PATH, 'en')
+    expect(result).toMatchSnapshot()
   })
 
   test('It returns the uncategorized group data if the param categorized is false { categorized: false }', async () => {
     const filepath = '__tests__/fixtures/tsv/en_tn_57-TIT.tsv'
-    const categorizedGroupData = await tsvToGroupData(filepath, 'translationNotes', { categorized: false }, ORIGINAL_BIBLE_PATH)
-
-    expect(categorizedGroupData).toEqual(titGroupData)
+    const result = await tsvToGroupData(filepath, 'translationNotes', { categorized: false }, ORIGINAL_BIBLE_PATH, RESOURCES_PATH, 'en')
+    expect(result).toMatchSnapshot()
   })
 
   test('It returns the categorized group data for MRK.tsv', async () => {
     const filepath = '__tests__/fixtures/tsv/en_tn_42-MRK.tsv'
-    const result = await tsvToGroupData(filepath, 'translationNotes', { categorized: true }, ORIGINAL_BIBLE_PATH)
-
-    expect(result).toEqual(mrkCategorizedGroupData)
+    const result = await tsvToGroupData(filepath, 'translationNotes', { categorized: true }, ORIGINAL_BIBLE_PATH, RESOURCES_PATH, 'en')
+    expect(result).toMatchSnapshot()
   })
 
-  test('It returns the uncategorized group data if the param categorized is false { categorized: false }', async () => {
+  test('It returns the categorized group data for MAT.tsv', async () => {
     const filepath = '__tests__/fixtures/tsv/en_tn_41-MAT.tsv'
-    const result = await tsvToGroupData(filepath, 'translationNotes', { categorized: true }, ORIGINAL_BIBLE_PATH)
+    const result = await tsvToGroupData(filepath, 'translationNotes', { categorized: true }, ORIGINAL_BIBLE_PATH, RESOURCES_PATH, 'en')
+    expect(result).toMatchSnapshot()
+  })
 
-    expect(result).toEqual(matCategorizedGroupData)
+  test('It returns the categorized group data for Hindi TIT.tsv', async () => {
+    const filepath = '__tests__/fixtures/tsv/hi_tn_57-TIT.tsv'
+    const result = await tsvToGroupData(filepath, 'translationNotes', { categorized: true }, ORIGINAL_BIBLE_PATH, RESOURCES_PATH, 'hi')
+    expect(result).toMatchSnapshot()
   })
 })
 
@@ -52,6 +49,7 @@ describe('cleanGroupId()', () => {
     const testItems = {
       'writing-background': 'writing-background',
       writing_background: 'writing-background',
+      translate_textvariants: 'translate-textvariants',
       'translate:writing_background': 'writing-background',
       'translate/translate_textvariants': 'translate-textvariants',
       'translate:translate_textvariants': 'translate-textvariants',
@@ -61,42 +59,79 @@ describe('cleanGroupId()', () => {
 
     Object.keys(testItems).forEach(badGroupId => {
       const cleaned = cleanGroupId(badGroupId)
-
       expect(cleaned).toBe(testItems[badGroupId])
     })
   })
 })
 
-describe('cleanArticleLink()', () => {
-  test('fixes tA broken links', () => {
+describe('cleanOccurrenceNoteLinks()', () => {
+  test('fixes occurrenceNote links', () => {
     const testItems = {
-      'translate/writing-background': 'translate/writing-background',
-      'translate/writing_background': 'translate/writing-background',
-      'translate:writing_background': 'translate/writing-background',
-      'translate/translate_textvariants': 'translate/translate-textvariants',
-      'translate:translate_textvariants': 'translate/translate-textvariants',
-      'translate:translate_versebridge': 'translate/translate-versebridge',
-      'translate:translate-symaction': 'translate/translate-symaction',
+      '[[rc://en/ta/man/translate/writing-background]]': '[Background Information](rc://en/ta/man/translate/writing-background)',
+      '[[rc://en/ta/man/translate/writing_background]]': '[Background Information](rc://en/ta/man/translate/writing-background)',
+      '[[rc://en/ta/man/translate:writing_background]]': '[Background Information](rc://en/ta/man/translate/writing-background)',
+      '[[rc://en/ta/man/translate/translate_textvariants]]': '[Textual Variants](rc://en/ta/man/translate/translate-textvariants)',
+      '[[rc://en/ta/man/translate:translate_textvariants]]': '[Textual Variants](rc://en/ta/man/translate/translate-textvariants)',
+      '[[rc://en/ta/man:translate:translate_versebridge]]': '[Verse Bridges](rc://en/ta/man/translate/translate-versebridge)',
+      '[[rc://en/ta/man/translate:translate-symaction]]': '[Symbolic Action](rc://en/ta/man/translate/translate-symaction)',
+      '(See: [[rc://en/ta/man/translate/figs-activepassive]] ) and [[rc://en/ta/man/translate/figs-idiom]])': '(See: [Active or Passive](rc://en/ta/man/translate/figs-activepassive) and [Idiom](rc://en/ta/man/translate/figs-idiom))',
     }
 
     Object.keys(testItems).forEach(badLink => {
       const goodLink = testItems[badLink]
-      const withBrokenLink = `This verse is background information for the description of the events that follow. (See: [[rc://en/ta/man/${badLink}]])`
-      const cleanedLink = `This verse is background information for the description of the events that follow. (See: [[rc://en/ta/man/${goodLink}]])`
-
-      expect(cleanArticleLink(withBrokenLink)).toBe(cleanedLink)
+      const withBrokenLink = `This verse is background information for the description of the events that follow. (See: ${badLink})`
+      const expectedCleanedNotes = `This verse is background information for the description of the events that follow. (See: ${goodLink})`
+      const cleanedNotes = cleanOccurrenceNoteLinks(withBrokenLink, RESOURCES_PATH, 'en', 'tit');
+      expect(cleanedNotes).toBe(expectedCleanedNotes)
     })
   })
 
-  test('Handles multiple tA links in a note.', () => {
-    const notes = [
-      'A person who cannot control themselves and drinks too much wine is spoken of as if the person were a slave to the wine. This can be stated in active form. Alternate translation: "and not drinking too much wine" or "and not addicted to wine" (See: [[rc://en/ta/man/translate/figs-metaphor]] and [[rc://en/ta/man/translate/figs-activepassive]])',
-      '"Word" here is a metonym for "message," which in turn is a metonym for God himself. This can be stated in active form. Alternate translation: "so that no one insults God\'s word" or "so that no one insults God by saying bad things about his message" (See: [[rc://en/ta/man/translate/figs-activepassive]] and [[rc://en/ta/man/translate/figs-metonymy]])',
-      'Passion and pleasure are spoken of as if they were masters over people and had made those people into slaves by lying to them. This can be translated in active form. Alternate translation: "Various passions and pleasures had lied to us and so led us astray" or "We had allowed ourselves to believe the lie that various passions and pleasures could make us happy, and then we were unable to control our feelings or stop doing things we thought would give us pleasure" (See: [[rc://en/ta/man/translate/figs-personification]] and [[rc://en/ta/man/translate/figs-activepassive]])',
+  test('tests various tN occurrenceNotes', () => {
+    const testItems = [
+      {
+        bookId: 'mat',
+        lang: 'en',
+        occurrenceNotes: 'Supported scripture (See: [John 2:17](../../jhn/02/17.md))',
+        expectedCleanNotes: 'Supported scripture (See: [John 2:17](rc://en/ult/book/jhn/02/17))',
+      },
+      {
+        lang: 'en',
+        occurrenceNotes: 'A person who cannot control themselves and drinks too much wine (See: [[rc://en/ta/man/translate/figs-metaphor]] and [[rc://en/ta/man/translate/figs-activepassive]])',
+        expectedCleanNotes: 'A person who cannot control themselves and drinks too much wine (See: [Metaphor](rc://en/ta/man/translate/figs-metaphor) and [Active or Passive](rc://en/ta/man/translate/figs-activepassive))',
+      },
+      {
+        lang: 'en',
+        occurrenceNotes: '"Word" here is a metonym for "message," which in turn is a metonym for God himself. (See: [[rc://en/ta/man/translate/figs-activepassive]] and [[rc://en/ta/man/translate/figs-metonymy]])',
+        expectedCleanNotes: '"Word" here is a metonym for "message," which in turn is a metonym for God himself. (See: [Active or Passive](rc://en/ta/man/translate/figs-activepassive) and [Metonymy](rc://en/ta/man/translate/figs-metonymy))',
+      },
+      {
+        lang: 'en',
+        occurrenceNotes: 'Passion and pleasure are spoken of as if they were masters over people and had made those people into slaves by lying to them. (See: [[rc://en/ta/man/translate/figs-personification]] and [[rc://en/ta/man/translate/figs-activepassive]])',
+        expectedCleanNotes: 'Passion and pleasure are spoken of as if they were masters over people and had made those people into slaves by lying to them. (See: [Personification](rc://en/ta/man/translate/figs-personification) and [Active or Passive](rc://en/ta/man/translate/figs-activepassive))',
+      },
+      {
+        bookId: 'rev',
+        lang: 'en',
+        occurrenceNotes: 'Here "words" refers to the message that they formed. See how you translated this in [Revelation 22:7](../22/07.md). Alternate translation: "This prophetic message of this book" (See: [[rc://en/ta/man/translate/figs-metonymy]])',
+        expectedCleanNotes: 'Here "words" refers to the message that they formed. See how you translated this in [Revelation 22:7](rc://en/ult/book/rev/22/07). Alternate translation: "This prophetic message of this book" (See: [Metonymy](rc://en/ta/man/translate/figs-metonymy))',
+      },
+      {
+        bookId: 'rev',
+        lang: 'en',
+        occurrenceNotes: "This will result in God's ultimate and final victory over sin and evil. (See: [[rc://en/tw/dict/bible/kt/sin]] and [[rc://en/tw/dict/bible/kt/evil]] and [[rc://en/tw/dict/bible/kt/eternity]])",
+        expectedCleanNotes: "This will result in God's ultimate and final victory over sin and evil. (See: [sin, sinful, sinner, sinning](rc://en/tw/dict/bible/kt/sin) and [evil, wicked, wickedness, wickedly](rc://en/tw/dict/bible/kt/evil) and [eternity, everlasting, eternal, forever](rc://en/tw/dict/bible/kt/eternity))",
+      },
+      {
+        bookId: '1jn',
+        lang: 'hi',
+        occurrenceNotes: 'का अगुवा था। उसने इस अभिव्यक्ति का प्रयोग उनको अपना प्रेम दिखाने के लिए किया। देखें आपने किस प्रकार इसका [1 यूहन्ना 2:1](../02/01.md) में अनुवाद किया। वैकल्पिक अनुवाद: “मसीह में मेरे प्रिय बच्चों” और “तुम जो मेरे लिए मेरे अपने बच्चों के सामान प्रिय हो” (देखें: [[rc://hi/ta/man/translate/figs-metaphor]] )',
+        expectedCleanNotes: 'का अगुवा था। उसने इस अभिव्यक्ति का प्रयोग उनको अपना प्रेम दिखाने के लिए किया। देखें आपने किस प्रकार इसका [1 यूहन्ना 2:1](rc://hi/ult/book/1jn/02/01) में अनुवाद किया। वैकल्पिक अनुवाद: “मसीह में मेरे प्रिय बच्चों” और “तुम जो मेरे लिए मेरे अपने बच्चों के सामान प्रिय हो” (देखें: [रूपक](rc://hi/ta/man/translate/figs-metaphor))',
+      },
     ]
 
-    notes.forEach(note => {
-      expect(cleanArticleLink(note)).toBe(note)
+    testItems.forEach(testItem => {
+      const cleanedOccurrenceNote = cleanOccurrenceNoteLinks(testItem.occurrenceNotes, RESOURCES_PATH, testItem.lang, testItem.bookId)
+      expect(cleanedOccurrenceNote).toBe(testItem.expectedCleanNotes)
     })
   })
 })
