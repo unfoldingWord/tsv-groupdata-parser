@@ -29,7 +29,7 @@ export const tsvToGroupData = async (filepath, toolName, params = {}, originalBi
   tsvObjects.forEach(tsvItem => {
     if (tsvItem.SupportReference && tsvItem.OrigQuote) {
       tsvItem.SupportReference = cleanGroupId(tsvItem.SupportReference)
-      tsvItem.OccurrenceNote = cleanOccurrenceNoteLinks(tsvItem.OccurrenceNote, resourcesPath, langId, bookId.toLowerCase())
+      tsvItem.OccurrenceNote = cleanOccurrenceNoteLinks(tsvItem.OccurrenceNote, resourcesPath, langId, bookId.toLowerCase(), tsvItem.Chapter)
       const chapter = parseInt(tsvItem.Chapter, 10)
       const verse = parseInt(tsvItem.Verse, 10)
       const verseString = resourceApi.getVerseString(chapter, verse)
@@ -92,13 +92,14 @@ export const convertLinkToMarkdownLink = (tHelpsLink, resourcesPath, langId) => 
 
 /**
  * Fixes Bible links by putting in a rc:// link for the given language, book, chapter and verse
- * @param link
- * @param resourcesPath
- * @param langId
- * @param bookId
- * @returns {string|*}
+ * @param {string} link
+ * @param {string} resourcesPath
+ * @param {string} langId
+ * @param {string} bookId
+ * @param {string|int} chapter
+ * @returns {string}
  */
-export const fixBibleLink = (link, resourcesPath, langId, bookId) => {
+export const fixBibleLink = (link, resourcesPath, langId, bookId, chapter) => {
   const bibleId = getBibleIdForLanguage(path.join(resourcesPath, langId, 'bibles'))
   if (! bibleId) {
     return link
@@ -107,19 +108,38 @@ export const fixBibleLink = (link, resourcesPath, langId, bookId) => {
   // [Titus 2:1](../02/01.md)
   // [John 4:2](../../jhn/04/02.md] (parts[4] will be "jhn")
   // [Revelation 10:10](../10/10)
-  // [Ephesians 4:1](04/01.md)
-  const bibleLinkPattern = /(\[[^[\]]+\])\s*\((\.\.\/)*(([\w-]+)\/){0,1}(\d+)\/(\d+)(\.md)*\)/g
+  // [Ephesians 4:1](04/01)
+  // [1 Corinthians 15:12](./12.md)
+  const bibleLinkPattern = /(\[[^[\]]+\])\s*\((\.+\/)*(([\w-]+)\/){0,1}?((\d+)\/)?(\d+)(\.md)*\)/g
   const parts = bibleLinkPattern.exec(link)
   if (!parts) {
     return link
   }
+  // Example of parts indexes if the link was [1 John 2:1](../../1jn/02/01.md):
+  // 0: "[1 John 2:1](../../1jn/02/01.md)"
+  // 1: "[1 John 2:1]"
+  // 2: "../"
+  // 3: "1jn/""
+  // 4: "1jn"
+  // 5: "02/"
+  // 6: "02"
+  // 7: "01"
+  // 8: ".md"
+
   // If the bible link is in the form (../../<bookId>/<chapter>/<verse>) we use the bookId in the link instead of the
   // one passed to this function
   let linkBookId = bookId
   if (parts[4]) {
     linkBookId = parts[4]
   }
-  return parts[1] + '(rc://' + [langId, 'ult', 'book', linkBookId, parts[5], parts[6]].join('/') + ')'
+  // If the bible link is in the form (../<chapter>/<verse>) we use the chapter in the link instead of the one passed
+  // to this function
+  let linkChapter = '' + chapter // make sure it is a string
+  if (parts[6]) {
+    linkChapter = parts[6]
+  }
+  linkChapter = linkChapter.padStart(linkBookId === 'psa' ? 3 : 2, '0') // left pad with zeros, 2 if not Psalms, 3 if so
+  return parts[1] + '(rc://' + [langId, 'ult', 'book', linkBookId, linkChapter, parts[7]].join('/') + ')'
 }
 
 /**
@@ -128,9 +148,10 @@ export const fixBibleLink = (link, resourcesPath, langId, bookId) => {
  * @param {string} resourcesPath path to the translationHelps directory that contains tA and tW article dirs
  * @param {string} langId
  * @param {string} bookId id of the book being processed
+ * @param {string|int} chapter chapter of the note
  * @returns {string} occurrenceNote with clean/fixed tA links.
  */
-export const cleanOccurrenceNoteLinks = (occurrenceNote, resourcesPath, langId, bookId) => {
+export const cleanOccurrenceNoteLinks = (occurrenceNote, resourcesPath, langId, bookId, chapter) => {
   // Change colons in the path part of the link to a slash
   // Ex: [[rc://en/man/ta:translate:figs-activepassive]] =>
   //     [[rc://en/man/ta/translate/figs-activepassive]]
@@ -164,11 +185,12 @@ export const cleanOccurrenceNoteLinks = (occurrenceNote, resourcesPath, langId, 
     cleanNote = cleanNote.replace(tHelpsPattern, link => convertLinkToMarkdownLink(link, resourcesPath, langId))
   }
   // Run fixBibleLink on each link to get a proper Bible rc link with Markdown syntax
-  // Ex: [Titus 2:1](../02/01.md) =>
-  //     [Titus 2:1](rc://lang/ult/book/tit/02/01)
+  // Ex: [Titus 2:1](../02/01.md) => [Titus 2:1](rc://lang/ult/book/tit/02/01)
+  //     [Romans 1:1](./01.md) => [Romans 1:1](rc://lang/ult/book/rom/01/01)
+  //     [1 Corinthians 15:12](../../../1co/15/12) => [1 Corinthians 15:12](rc://lang/ult/book/1co/15/12)
   if (bookId && langId && resourcesPath) {
-    const bibleLinkPattern = /\[[^[\]]+\]\s*\((\.\.\/)*(([\w-]+)\/){0,1}(\d+)\/(\d+)(\.md)*\)/g
-    cleanNote = cleanNote.replace(bibleLinkPattern, link => fixBibleLink(link, resourcesPath, langId, bookId))
+    const bibleLinkPattern = /(\[[^[\]]+\])\s*\((\.+\/)*(([\w-]+)\/){0,1}?((\d+)\/)?(\d+)(\.md)*\)/g
+    cleanNote = cleanNote.replace(bibleLinkPattern, link => fixBibleLink(link, resourcesPath, langId, bookId, chapter))
   }
   return cleanNote
 }

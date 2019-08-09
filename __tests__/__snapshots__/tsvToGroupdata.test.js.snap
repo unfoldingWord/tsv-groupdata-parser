@@ -1107,7 +1107,7 @@ Object {
           "glQuote": "trains us",
           "groupId": "figs-personification",
           "occurrence": 1,
-          "occurrenceNote": "पौलूस परमेश्वर के अनुग्रह के बारे में ऐसे बताता है ([तीतुस 2:11] (./11.md)) जैसे कि वह कोई व्यक्ति हो जो दुसरे लोगों के पास जाकर उन्हें पवित्र जीवन जीने का प्रशिक्षण देता हो। (देखें: [[rc://hi/ta/man/translate/figs-personification]])",
+          "occurrenceNote": "पौलूस परमेश्वर के अनुग्रह के बारे में ऐसे बताता है ([तीतुस 2:11](rc://hi/ult/book/tit/02/11)) जैसे कि वह कोई व्यक्ति हो जो दुसरे लोगों के पास जाकर उन्हें पवित्र जीवन जीने का प्रशिक्षण देता हो। (देखें: [[rc://hi/ta/man/translate/figs-personification]])",
           "quote": Array [
             Object {
               "occurrence": 1,
@@ -54913,7 +54913,7 @@ Object {
           "glQuote": "a second time",
           "groupId": "translate-ordinal",
           "occurrence": 1,
-          "occurrenceNote": "The first time is described in [Matthew 26:39](./39.md). (See: [Ordinal Numbers](rc://en/ta/man/translate/translate-ordinal))",
+          "occurrenceNote": "The first time is described in [Matthew 26:39](rc://en/ult/book/mat/26/39). (See: [Ordinal Numbers](rc://en/ta/man/translate/translate-ordinal))",
           "quote": Array [
             Object {
               "occurrence": 1,
@@ -54943,7 +54943,7 @@ Object {
           "glQuote": "a third time",
           "groupId": "translate-ordinal",
           "occurrence": 1,
-          "occurrenceNote": "The first time is described in [Matthew 26:39](./39.md). (See: [Ordinal Numbers](rc://en/ta/man/translate/translate-ordinal))",
+          "occurrenceNote": "The first time is described in [Matthew 26:39](rc://en/ult/book/mat/26/39). (See: [Ordinal Numbers](rc://en/ta/man/translate/translate-ordinal))",
           "quote": Array [
             Object {
               "occurrence": 1,
@@ -85654,7 +85654,7 @@ Object {
           "glQuote": "trains us",
           "groupId": "figs-personification",
           "occurrence": 1,
-          "occurrenceNote": "Paul speaks of the grace of God ([Titus 2:11] (./11.md)) as if it were a person who goes to other people and trains them to live holy lives. (See: [Personification](rc://en/ta/man/translate/figs-personification))",
+          "occurrenceNote": "Paul speaks of the grace of God ([Titus 2:11](rc://en/ult/book/tit/02/11)) as if it were a person who goes to other people and trains them to live holy lives. (See: [Personification](rc://en/ta/man/translate/figs-personification))",
           "quote": Array [
             Object {
               "occurrence": 1,
@@ -87211,7 +87211,7 @@ Object {
         "glQuote": "trains us",
         "groupId": "figs-personification",
         "occurrence": 1,
-        "occurrenceNote": "Paul speaks of the grace of God ([Titus 2:11] (./11.md)) as if it were a person who goes to other people and trains them to live holy lives. (See: [Personification](rc://en/ta/man/translate/figs-personification))",
+        "occurrenceNote": "Paul speaks of the grace of God ([Titus 2:11](rc://en/ult/book/tit/02/11)) as if it were a person who goes to other people and trains them to live holy lives. (See: [Personification](rc://en/ta/man/translate/figs-personification))",
         "quote": Array [
           Object {
             "occurrence": 1,
@@ -88642,7 +88642,7 @@ Object {
         "glQuote": "trains us",
         "groupId": "figs-personification",
         "occurrence": 1,
-        "occurrenceNote": "Paul speaks of the grace of God ([Titus 2:11] (./11.md)) as if it were a person who goes to other people and trains them to live holy lives. (See: [Personification](rc://en/ta/man/translate/figs-personification))",
+        "occurrenceNote": "Paul speaks of the grace of God ([Titus 2:11](rc://en/ult/book/tit/02/11)) as if it were a person who goes to other people and trains them to live holy lives. (See: [Personification](rc://en/ta/man/translate/figs-personification))",
         "quote": Array [
           Object {
             "occurrence": 1,
