@@ -139,7 +139,7 @@ export const fixBibleLink = (link, resourcesPath, langId, bookId, chapter) => {
     linkChapter = parts[6]
   }
   linkChapter = linkChapter.padStart(linkBookId === 'psa' ? 3 : 2, '0') // left pad with zeros, 2 if not Psalms, 3 if so
-  return parts[1] + '(rc://' + [langId, 'ult', 'book', linkBookId, linkChapter, parts[7]].join('/') + ')'
+  return parts[1] + '(rc://' + [langId, bibleId, 'book', linkBookId, linkChapter, parts[7]].join('/') + ')'
 }
 
 /**
