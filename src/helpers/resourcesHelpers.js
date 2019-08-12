@@ -74,10 +74,11 @@ export function getBibleIdForLanguage(biblesPath) {
   if (bibleList.length === 0) {
     return 'ult'
   }
-  biblePrecedence.forEach(bibleId => {
+  for (let i = 0; i < biblePrecedence.length; ++i) {
+    const bibleId = biblePrecedence[i]
     if (bibleList.indexOf(bibleId) >= 0) {
       return bibleId
     }
-  })
+  }
   return bibleList[0]
 }
