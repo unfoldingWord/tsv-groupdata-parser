@@ -86,7 +86,7 @@ export const tNotesCategories = {
     'translate-textvariants': 'Textual Variants',
     'translate-transliterate': 'Copy or Borrow Words',
   },
-}
+};
 
 /**
  * Gets the category name of a groupId. Returns other as a categpory name
@@ -96,14 +96,16 @@ export const tNotesCategories = {
  * numbers, figures, culture, grammar or other.
  */
 export const getCategoryForGroupId = groupId => {
-  let result = 'other'
+  let result = 'other';
 
   Object.keys(tNotesCategories).forEach(category => {
-    if (tNotesCategories[category][groupId]) result = category
-  })
+    if (tNotesCategories[category][groupId]) {
+      result = category;
+    }
+  });
 
-  return result
-}
+  return result;
+};
 
 /**
  * Categorizes the group data into five categories: discourse,
@@ -121,12 +123,12 @@ export const categorizeGroupData = groupData => {
     culture: {},
     grammar: {},
     other: {},
-  }
+  };
 
   Object.keys(groupData).forEach(groupId => {
-    const category = getCategoryForGroupId(groupId)
-    categorizedGroupData[category][groupId] = groupData[groupId]
-  })
+    const category = getCategoryForGroupId(groupId);
+    categorizedGroupData[category][groupId] = groupData[groupId];
+  });
 
-  return categorizedGroupData
-}
+  return categorizedGroupData;
+};

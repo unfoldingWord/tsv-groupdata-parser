@@ -1,18 +1,18 @@
-import fs from 'fs-extra'
-import path from 'path-extra'
+import fs from 'fs-extra';
+import path from 'path-extra';
 
 export const translationHelps = {
   ta: 'translationAcademy',
   tn: 'translationNotes',
   tw: 'translationWords',
   tq: 'translationQuestions',
-}
+};
 
 export const getGroupName = articlePath => {
-  const articleFile = fs.readFileSync(articlePath, 'utf8')
+  const articleFile = fs.readFileSync(articlePath, 'utf8');
   // get the article's first line and remove #'s and spaces from beginning/end
-  return articleFile.split('\n')[0].replace(/(^\s*#\s*|\s*#\s*$)/gi, '')
-}
+  return articleFile.split('\n')[0].replace(/(^\s*#\s*|\s*#\s*$)/gi, '');
+};
 
 /**
  * Returns an array of versions found in the path that start with [vV]\d
@@ -21,13 +21,14 @@ export const getGroupName = articlePath => {
  */
 export function getVersionsInPath(resourcePath) {
   if (!resourcePath || !fs.pathExistsSync(resourcePath)) {
-    return null
+    return null;
   }
+
   const isVersionDirectory = name => {
-    const fullPath = path.join(resourcePath, name)
-    return fs.lstatSync(fullPath).isDirectory() && name.match(/^v\d/i)
-  }
-  return sortVersions(fs.readdirSync(resourcePath).filter(isVersionDirectory))
+    const fullPath = path.join(resourcePath, name);
+    return fs.lstatSync(fullPath).isDirectory() && name.match(/^v\d/i);
+  };
+  return sortVersions(fs.readdirSync(resourcePath).filter(isVersionDirectory));
 }
 
 /**
@@ -38,16 +39,17 @@ export function getVersionsInPath(resourcePath) {
 export function sortVersions(versions) {
   // Don't sort if null, empty or not an array
   if (!versions || !Array.isArray(versions)) {
-    return versions
+    return versions;
   }
+
   // Only sort of all items are strings
   for (let i = 0; i < versions.length; ++i) {
     if (typeof versions[i] !== 'string') {
-      return versions
+      return versions;
     }
   }
-  versions.sort((a, b) => String(a).localeCompare(b, undefined, { numeric: true }))
-  return versions
+  versions.sort((a, b) => String(a).localeCompare(b, undefined, { numeric: true }));
+  return versions;
 }
 
 /**
@@ -56,11 +58,12 @@ export function sortVersions(versions) {
  * @return {String} - path to highest version
  */
 export function getLatestVersionInPath(resourcePath) {
-  const versions = sortVersions(getVersionsInPath(resourcePath))
+  const versions = sortVersions(getVersionsInPath(resourcePath));
+
   if (versions && versions.length) {
-    return path.join(resourcePath, versions[versions.length - 1])
+    return path.join(resourcePath, versions[versions.length - 1]);
   }
-  return null // return illegal path
+  return null; // return illegal path
 }
 
 /**
@@ -69,16 +72,19 @@ export function getLatestVersionInPath(resourcePath) {
  * @returns {string}
  */
 export function getBibleIdForLanguage(biblesPath) {
-  const biblePrecedence = ['irv', 'ult', 'ulb', 'ust', 'udb'] // Used to determine which may be the more dominate Bible version
-  const bibleList = fs.readdirSync(biblesPath).sort()
+  const biblePrecedence = ['irv', 'ult', 'ulb', 'ust', 'udb']; // Used to determine which may be the more dominate Bible version
+  const bibleList = fs.readdirSync(biblesPath).sort();
+
   if (bibleList.length === 0) {
-    return 'ult'
+    return 'ult';
   }
+
   for (let i = 0; i < biblePrecedence.length; ++i) {
-    const bibleId = biblePrecedence[i]
+    const bibleId = biblePrecedence[i];
+
     if (bibleList.indexOf(bibleId) >= 0) {
-      return bibleId
+      return bibleId;
     }
   }
-  return bibleList[0]
+  return bibleList[0];
 }

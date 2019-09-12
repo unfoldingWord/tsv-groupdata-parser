@@ -1,5 +1,5 @@
-import fs from 'fs-extra'
-import path from 'path-extra'
+import fs from 'fs-extra';
+import path from 'path-extra';
 
 /**
  * Formats and saves the groupData into the 5 tN categories in the desired
@@ -13,25 +13,29 @@ import path from 'path-extra'
 export const formatAndSaveGroupData = (categorizedGroupData, rootDestinationPath, bookId) =>
   new Promise((resolve, reject) => {
     try {
-      const categories = Object.keys(categorizedGroupData)
+      const categories = Object.keys(categorizedGroupData);
+
       categories.forEach(categoryName => {
-        const categoryData = categorizedGroupData[categoryName]
-        const groupIds = Object.keys(categoryData)
-        if (groupIds.length === 0) fs.ensureDirSync(path.join(rootDestinationPath, categoryName, 'groups', bookId))
+        const categoryData = categorizedGroupData[categoryName];
+        const groupIds = Object.keys(categoryData);
+
+        if (groupIds.length === 0) {
+          fs.ensureDirSync(path.join(rootDestinationPath, categoryName, 'groups', bookId));
+        }
 
         groupIds.forEach(groupId => {
-          const filename = groupId + '.json'
-          const groupData = categoryData[groupId]
-          const savePath = path.join(rootDestinationPath, categoryName, 'groups', bookId, filename)
+          const filename = groupId + '.json';
+          const groupData = categoryData[groupId];
+          const savePath = path.join(rootDestinationPath, categoryName, 'groups', bookId, filename);
 
-          fs.outputJsonSync(savePath, groupData, { spaces: 2 })
-        })
-      })
-      resolve()
+          fs.outputJsonSync(savePath, groupData, { spaces: 2 });
+        });
+      });
+      resolve();
     } catch (error) {
-      reject(error)
+      reject(error);
     }
-  })
+  });
 
 /**
  * Persists the groupsIndex for each of the tN group category.
@@ -41,7 +45,7 @@ export const formatAndSaveGroupData = (categorizedGroupData, rootDestinationPath
  */
 export const saveGroupsIndex = (categorizedGroupsIndex, outputPath) => {
   Object.keys(categorizedGroupsIndex).forEach(categoryName => {
-    const categoryGroupsIndex = categorizedGroupsIndex[categoryName]
-    fs.outputJsonSync(path.join(outputPath, categoryName, 'index.json'), categoryGroupsIndex, { spaces: 2 })
-  })
-}
+    const categoryGroupsIndex = categorizedGroupsIndex[categoryName];
+    fs.outputJsonSync(path.join(outputPath, categoryName, 'index.json'), categoryGroupsIndex, { spaces: 2 });
+  });
+};

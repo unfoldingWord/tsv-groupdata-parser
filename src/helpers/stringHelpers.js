@@ -1,4 +1,5 @@
-import { ELLIPSIS } from '../utils/constants'
+/* eslint-disable no-useless-escape */
+import { ELLIPSIS } from '../utils/constants';
 
 export function cleanQuoteString(quote) {
   return (
@@ -16,7 +17,7 @@ export function cleanQuoteString(quote) {
       // remove spaces before question marks
       .replace(/\s+([?])/gi, '$1')
       // remove double spaces
-      .replace(/  /gi, ' ')
+      .replace(/ {2}/gi, ' ')
       // remove spaces before commas
       .replace(/ , /gi, ', ')
       // remove spaces before periods
@@ -26,6 +27,6 @@ export function cleanQuoteString(quote) {
       .trim()
       .replace(/\.../g, ELLIPSIS)
       .replace(/\…/g, ' … ')
-      .replace(/\  …  /gi, ' … ')
-  )
+      .replace(/\ {2}… {2}/gi, ' … ')
+  );
 }
