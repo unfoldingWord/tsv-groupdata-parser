@@ -1,43 +1,46 @@
 /* eslint-disable no-param-reassign */
-import stringTokenizer from 'string-punctuation-tokenizer'
-import { ELLIPSIS, THREE_DOTS } from '../utils/constants'
-import { getOmittedWordsInQuote } from './ellipsisHelpers'
-import { cleanQuoteString } from './stringHelpers'
+import stringTokenizer from 'string-punctuation-tokenizer';
+import { ELLIPSIS, THREE_DOTS } from '../utils/constants';
+import { getOmittedWordsInQuote } from './ellipsisHelpers';
+import { cleanQuoteString } from './stringHelpers';
 
 function countStringInArray(array, string) {
-  return array.filter(item => item == string).length
+  return array.filter(item => item == string).length;
 }
 
 export function cleanRegex(str) {
-  if (str) return str.replace(/([.?*+^$[\]\\(){}|-])/g, '\\$1')
-  return str
+  if (str) {
+    return str.replace(/([.?*+^$[\]\\(){}|-])/g, '\\$1');
+  }
+  return str;
 }
 
 function tokenizeQuote(quote) {
-  return stringTokenizer.tokenizeWithPunctuation(quote)
+  return stringTokenizer.tokenizeWithPunctuation(quote);
 }
 
 function substrOccurrencesInQuote(quote, substr, substrIndex, ellipsisCount, quoteOmittedStrings) {
-  const quoteSubstrings = tokenizeQuote(quote)
-  let precedingSubstrs = quoteSubstrings.slice(0, substrIndex)
-  let localEllipsisCount = 0
+  const quoteSubstrings = tokenizeQuote(quote);
+  let precedingSubstrs = quoteSubstrings.slice(0, substrIndex);
+  let localEllipsisCount = 0;
 
   precedingSubstrs.forEach((precedingSubstr, index) => {
     if (precedingSubstr === ELLIPSIS) {
-      ++localEllipsisCount
-      const untokenizedString = quoteOmittedStrings[localEllipsisCount - 1]
-      const missingPrecedingSubstrs = tokenizeQuote(untokenizedString).reverse()
+      ++localEllipsisCount;
+      const untokenizedString = quoteOmittedStrings[localEllipsisCount - 1];
+      const missingPrecedingSubstrs = tokenizeQuote(untokenizedString).reverse();
+
       // Add tokenized missing strings to precedingSubstrs for accurate occurrence number search
       missingPrecedingSubstrs.forEach(missingPrecedingSubstr => {
-        precedingSubstrs.splice(index, 0, missingPrecedingSubstr)
-      })
+        precedingSubstrs.splice(index, 0, missingPrecedingSubstr);
+      });
     }
-  })
+  });
 
   // filter out ellipsis
-  precedingSubstrs = precedingSubstrs.filter(item => item !== ELLIPSIS)
+  precedingSubstrs = precedingSubstrs.filter(item => item !== ELLIPSIS);
 
-  return countStringInArray(precedingSubstrs, substr)
+  return countStringInArray(precedingSubstrs, substr);
 }
 
 /**
@@ -53,64 +56,65 @@ function substrOccurrencesInQuote(quote, substr, substrIndex, ellipsisCount, quo
  * pass in the loop
  */
 function getWordOccurrence(verseString, substr, quote, substrIndex, wholeQuote, ellipsisCount, quoteOmittedStrings) {
-  const goodQuote = quote.includes(ELLIPSIS) ? wholeQuote : quote
-  const quoteSubStrIndex = verseString.indexOf(goodQuote)
-  const precedingStr = verseString.substring(0, quoteSubStrIndex)
-  const precedingStrs = tokenizeQuote(precedingStr)
-  let precedingOccurrences = 0
+  const goodQuote = quote.includes(ELLIPSIS) ? wholeQuote : quote;
+  const quoteSubStrIndex = verseString.indexOf(goodQuote);
+  const precedingStr = verseString.substring(0, quoteSubStrIndex);
+  const precedingStrs = tokenizeQuote(precedingStr);
+  let precedingOccurrences = 0;
 
   for (let i = 0; i <= precedingStrs.length; i++) {
-    const stringItem = precedingStrs[i]
+    const stringItem = precedingStrs[i];
+
     if (stringItem === substr) {
-      precedingOccurrences++
+      precedingOccurrences++;
     }
   }
 
-  let occurrence = ++precedingOccurrences
+  let occurrence = ++precedingOccurrences;
 
   // if substr is found in quote more than once
   if (goodQuote.split(new RegExp(cleanRegex(substr), 'gi')).length - 1 > 1) {
-    const precedingSubstrOccurrences = substrOccurrencesInQuote(quote, substr, substrIndex, ellipsisCount, quoteOmittedStrings)
-    occurrence += precedingSubstrOccurrences
+    const precedingSubstrOccurrences = substrOccurrencesInQuote(quote, substr, substrIndex, ellipsisCount, quoteOmittedStrings);
+    occurrence += precedingSubstrOccurrences;
   }
 
-  return occurrence
+  return occurrence;
 }
 
 export function getWordOccurrencesForQuote(quote, verseString) {
-  const words = []
-  let wholeQuote = ''
-  let quoteOmittedStrings
+  const words = [];
+  let wholeQuote = '';
+  let quoteOmittedStrings;
   // clean quote string
-  quote = cleanQuoteString(quote)
+  quote = cleanQuoteString(quote);
 
   if (quote.includes(THREE_DOTS) || quote.includes(ELLIPSIS)) {
-    const quoteOmittedWords = getOmittedWordsInQuote(quote, verseString)
-    wholeQuote = quoteOmittedWords.wholeQuote
-    quoteOmittedStrings = quoteOmittedWords.omittedStrings
+    const quoteOmittedWords = getOmittedWordsInQuote(quote, verseString);
+    wholeQuote = quoteOmittedWords.wholeQuote;
+    quoteOmittedStrings = quoteOmittedWords.omittedStrings;
   }
 
-  const substrings = tokenizeQuote(quote)
+  const substrings = tokenizeQuote(quote);
 
-  let ellipsisCount = 0
+  let ellipsisCount = 0;
+
   substrings.forEach((substring, index) => {
-    let word = {}
+    let word = {};
 
     if (substring === ELLIPSIS) {
-      ++ellipsisCount
-      word = {
-        word: substring,
-      }
+      ++ellipsisCount;
+      word = { word: substring };
     } else {
-      const occurrence = getWordOccurrence(verseString, substring, quote, index, wholeQuote, ellipsisCount, quoteOmittedStrings)
+      const occurrence = getWordOccurrence(verseString, substring, quote, index, wholeQuote, ellipsisCount, quoteOmittedStrings);
+
       word = {
         word: substring,
         occurrence,
-      }
+      };
     }
 
-    words.push(word)
-  })
+    words.push(word);
+  });
 
-  return words
+  return words;
 }

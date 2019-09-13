@@ -4,8 +4,10 @@
   "description": "Parses the translationNotes TSVs files to generate the GroupIndex and GroupData for the translationCore Desktop app.",
   "main": "lib/index.js",
   "scripts": {
-    "test": "jest",
     "validate-quotes": "babel-node scripts/validateQuotes.js",
+    "lint": "eslint ./src",
+    "lint:fix": "eslint ./src --fix",
+    "test": "eslint ./src && jest",
     "prebuild": "rm -rf ./lib",
     "build": "babel src -d lib",
     "prepare": "npm run build",
@@ -33,13 +35,15 @@
     "@babel/node": "^7.4.5",
     "@babel/plugin-transform-async-to-generator": "^7.2.0",
     "@babel/preset-env": "^7.4.5",
-    "babel-eslint": "^10.0.1",
-    "babel-jest": "^24.1.0",
-    "eslint": "^5.16.0",
-    "eslint-config-prettier": "^4.3.0",
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.3.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.17.0",
     "eslint-plugin-prettier": "^3.1.0",
-    "jest": "^24.1.0",
-    "prettier": "1.17.1"
+    "jest": "^24.9.0",
+    "prettier": "^1.18.2"
   },
   "dependencies": {
     "fs-extra": "^7.0.1",
