@@ -217,7 +217,13 @@ export const cleanOccurrenceNoteLinks = (occurrenceNote, resourcesPath, langId, 
     //     [Active or Passive](rc://en/man/ta/translate/figs_activepassive)
     if (resourcesPath && langId) {
       const tHelpsPattern = /(\[\[rc:\/\/[\w-]+\/(ta|tw)\/[^\/]+\/[^\]]+\]\])/g;
-      cleanNote = cleanNote.replace(tHelpsPattern, link => convertLinkToMarkdownLink(link, resourcesPath, langId));
+      cleanNote = cleanNote.replace(tHelpsPattern, link => {
+        let convertedLink = convertLinkToMarkdownLink(link, resourcesPath, langId);
+        if (!convertedLink) {
+          throw new Error('cleanOccurrenceNoteLinks() - error converting link: ${link}');
+        }
+        return convertedLink;
+      });
     }
 
     // Run fixBibleLink on each link to get a proper Bible rc link with Markdown syntax
