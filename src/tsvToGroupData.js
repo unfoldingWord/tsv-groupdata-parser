@@ -34,11 +34,13 @@ export const tsvToGroupData = async (filepath, toolName, params = {}, originalBi
     if (tsvItem.SupportReference && tsvItem.OrigQuote) {
       tsvItem.SupportReference = cleanGroupId(tsvItem.SupportReference);
       tsvItem.OccurrenceNote = cleanOccurrenceNoteLinks(tsvItem.OccurrenceNote, resourcesPath, langId, bookId.toLowerCase(), tsvItem.Chapter);
+
       if (!tsvItem.OccurrenceNote) {
         console.error('tsvToGroupData() - error processing item:', JSON.stringify(tsvItem));
         error = true;
         return;
       }
+
       const chapter = parseInt(tsvItem.Chapter, 10);
       const verse = parseInt(tsvItem.Verse, 10);
       const verseString = resourceApi.getVerseString(chapter, verse);
@@ -217,8 +219,10 @@ export const cleanOccurrenceNoteLinks = (occurrenceNote, resourcesPath, langId, 
     //     [Active or Passive](rc://en/man/ta/translate/figs_activepassive)
     if (resourcesPath && langId) {
       const tHelpsPattern = /(\[\[rc:\/\/[\w-]+\/(ta|tw)\/[^\/]+\/[^\]]+\]\])/g;
+
       cleanNote = cleanNote.replace(tHelpsPattern, link => {
         let convertedLink = convertLinkToMarkdownLink(link, resourcesPath, langId);
+
         if (!convertedLink) {
           throw new Error('cleanOccurrenceNoteLinks() - error converting link: ${link}');
         }
