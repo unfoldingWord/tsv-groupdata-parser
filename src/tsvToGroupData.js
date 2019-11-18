@@ -52,6 +52,7 @@ export const tsvToGroupData = async (filepath, toolName, params = {}, originalBi
   });
 
   if (error) {
+    console.error(`tsvToGroupData() - error processing file: ${filepath}`);
     throw new Error('Invalid TSV group data');
   }
   return params && params.categorized ? categorizeGroupData(groupData) : groupData;
