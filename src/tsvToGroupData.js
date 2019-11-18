@@ -28,11 +28,17 @@ export const tsvToGroupData = async (filepath, toolName, params = {}, originalBi
   const tsvObjects = await tsvtojson(filepath);
   const { Book: bookId } = tsvObjects[0] || {};
   const resourceApi = new ManageResource(originalBiblePath, bookId.toLowerCase());
+  let error = false;
 
   tsvObjects.forEach(tsvItem => {
     if (tsvItem.SupportReference && tsvItem.OrigQuote) {
       tsvItem.SupportReference = cleanGroupId(tsvItem.SupportReference);
       tsvItem.OccurrenceNote = cleanOccurrenceNoteLinks(tsvItem.OccurrenceNote, resourcesPath, langId, bookId.toLowerCase(), tsvItem.Chapter);
+      if (!tsvItem.OccurrenceNote) {
+        console.error('tsvToGroupData() - error processing item:', JSON.stringify(tsvItem));
+        error = true;
+        return;
+      }
       const chapter = parseInt(tsvItem.Chapter, 10);
       const verse = parseInt(tsvItem.Verse, 10);
       const verseString = resourceApi.getVerseString(chapter, verse);
@@ -45,6 +51,9 @@ export const tsvToGroupData = async (filepath, toolName, params = {}, originalBi
     }
   });
 
+  if (error) {
+    throw new Error('Invalid TSV group data');
+  }
   return params && params.categorized ? categorizeGroupData(groupData) : groupData;
 };
 
@@ -54,14 +63,19 @@ export const tsvToGroupData = async (filepath, toolName, params = {}, originalBi
  * @returns {string} correctly formatted group id.
  */
 export const cleanGroupId = groupId => {
-  // Make sure we only have the element at the very end of a path of /'s or :'s
-  // Ex: translate:writing_background => writing_background
-  const elements = groupId.split(/[/:]/);
-  let cleanedId = elements[elements.length - 1];
-  // Replace _ with - in groupId
-  // Ex: writing_background => writing-background
-  cleanedId = cleanedId.replace('_', '-');
-  return cleanedId;
+  try {
+    // Make sure we only have the element at the very end of a path of /'s or :'s
+    // Ex: translate:writing_background => writing_background
+    const elements = groupId.split(/[/:]/);
+    let cleanedId = elements[elements.length - 1];
+    // Replace _ with - in groupId
+    // Ex: writing_background => writing-background
+    cleanedId = cleanedId.replace('_', '-');
+    return cleanedId;
+  } catch (e) {
+    console.error(`cleanGroupId() - groupId: ${groupId}`, e);
+    return null;
+  }
 };
 
 /**
@@ -71,30 +85,35 @@ export const cleanGroupId = groupId => {
  * @param {string} langId
  */
 export const convertLinkToMarkdownLink = (tHelpsLink, resourcesPath, langId) => {
-  const tHelpsPattern = /\[\[(rc:\/\/[\w-]+\/(ta|tn|tw)\/[^\/]+\/([^\]]+)\/([^\]]+))\]\]/g;
-  const parts = tHelpsPattern.exec(tHelpsLink);
-  parts.shift();
-  const [rcLink, resource, category, file] = parts;
-  let resourcePath = path.join(resourcesPath, langId, 'translationHelps', translationHelps[resource]);
-  resourcePath = getLatestVersionInPath(resourcePath);
-  let articlePath;
+  try {
+    const tHelpsPattern = /\[\[(rc:\/\/[\w-]+\/(ta|tn|tw)\/[^\/]+\/([^\]]+)\/([^\]]+))\]\]/g;
+    const parts = tHelpsPattern.exec(tHelpsLink);
+    parts.shift();
+    const [rcLink, resource, category, file] = parts;
+    let resourcePath = path.join(resourcesPath, langId, 'translationHelps', translationHelps[resource]);
+    resourcePath = getLatestVersionInPath(resourcePath);
+    let articlePath;
 
-  if (resource === 'ta') {
-    articlePath = path.join(resourcePath, category, file) + '.md';
-  }
-
-  if (resource === 'tw') {
-    articlePath = path.join(resourcePath, category.split('/')[1], 'articles', file) + '.md';
-  }
-
-  if (articlePath && fs.existsSync(articlePath)) {
-    const groupName = getGroupName(articlePath);
-
-    if (groupName) {
-      return '[' + groupName + '](' + rcLink + ')';
+    if (resource === 'ta') {
+      articlePath = path.join(resourcePath, category, file) + '.md';
     }
+
+    if (resource === 'tw') {
+      articlePath = path.join(resourcePath, category.split('/')[1], 'articles', file) + '.md';
+    }
+
+    if (articlePath && fs.existsSync(articlePath)) {
+      const groupName = getGroupName(articlePath);
+
+      if (groupName) {
+        return '[' + groupName + '](' + rcLink + ')';
+      }
+    }
+    return tHelpsLink;
+  } catch (e) {
+    console.error(`convertLinkToMarkdownLink() - invalid link: ${tHelpsLink}, resourcesPath: ${resourcesPath}, langId: ${langId}`, e);
+    return null;
   }
-  return tHelpsLink;
 };
 
 /**
@@ -165,49 +184,54 @@ export const fixBibleLink = (link, resourcesPath, langId, bookId, chapter) => {
  * @returns {string} occurrenceNote with clean/fixed tA links.
  */
 export const cleanOccurrenceNoteLinks = (occurrenceNote, resourcesPath, langId, bookId, chapter) => {
-  // Change colons in the path part of the link to a slash
-  // Ex: [[rc://en/man/ta:translate:figs-activepassive]] =>
-  //     [[rc://en/man/ta/translate/figs-activepassive]]
-  const colonInPathPattern = /(?<=\[\[rc:[^\]]+):(?=[^\]]+\]\])/g;
-  let cleanNote = occurrenceNote.replace(colonInPathPattern, '/');
-  // Remove spaces between the link and right paren
-  // Ex: (See: [[rc://en/man/ta:translate:figs-activepassive]] ) =>
-  //     (See: [[rc://en/man/ta/translate/figs-activepassive]])
-  const spaceBetweenLinkAndParenPattern = /(?<=\[\[rc:[^\]]+]]) +\)/g;
-  cleanNote = cleanNote.replace(spaceBetweenLinkAndParenPattern, ')');
-  // Remove invalid paren and spaces at end of the link
-  // Ex: [[rc://en/man/ta:translate:figs-activepassive )]] =>
-  //     [[rc://en/man/ta/translate/figs-activepassive]]
-  const invalidParenInLinkPattern = /(?<=\[\[rc:[^\] )]+)[ \)]+(?=]])/g;
-  cleanNote = cleanNote.replace(invalidParenInLinkPattern, ')');
-  // Removes a right paren if it appears after one link and then there is another link
-  // Ex: (See: [[rc://en/ta/man/translate/figs-activepassive]]) and [[rc://en/ta/man/translate/figs-idiom)]]) =>
-  //     (See: [[rc://en/ta/man/translate/figs-activepassive]] and [[rc://en/ta/man/translate/figs-idiom)]])
-  const rightParenBetweenLinksPattern = /(?<=\[\[rc:\/\/[^\]]+]])\)(?=[^\(]+rc:)/g;
-  cleanNote = cleanNote.replace(rightParenBetweenLinksPattern, '');
-  // Run cleanGroupId on the last item of the path, the groupId
-  // Ex: [[rc://en/man/ta/translate/figs_activepassive]] =>
-  //     [[rc://en/man/ta/translate/figs-activepassive]]
-  const groupIdPattern = /(?<=\[\[rc:\/\/[^\]]+\/)[\w-]+(?=\]\])/g;
-  cleanNote = cleanNote.replace(groupIdPattern, cleanGroupId);
+  try {
+    // Change colons in the path part of the link to a slash
+    // Ex: [[rc://en/man/ta:translate:figs-activepassive]] =>
+    //     [[rc://en/man/ta/translate/figs-activepassive]]
+    const colonInPathPattern = /(?<=\[\[rc:[^\]]+):(?=[^\]]+\]\])/g;
+    let cleanNote = occurrenceNote.replace(colonInPathPattern, '/');
+    // Remove spaces between the link and right paren
+    // Ex: (See: [[rc://en/man/ta:translate:figs-activepassive]] ) =>
+    //     (See: [[rc://en/man/ta/translate/figs-activepassive]])
+    const spaceBetweenLinkAndParenPattern = /(?<=\[\[rc:[^\]]+]]) +\)/g;
+    cleanNote = cleanNote.replace(spaceBetweenLinkAndParenPattern, ')');
+    // Remove invalid paren and spaces at end of the link
+    // Ex: [[rc://en/man/ta:translate:figs-activepassive )]] =>
+    //     [[rc://en/man/ta/translate/figs-activepassive]]
+    const invalidParenInLinkPattern = /(?<=\[\[rc:[^\] )]+)[ \)]+(?=]])/g;
+    cleanNote = cleanNote.replace(invalidParenInLinkPattern, ')');
+    // Removes a right paren if it appears after one link and then there is another link
+    // Ex: (See: [[rc://en/ta/man/translate/figs-activepassive]]) and [[rc://en/ta/man/translate/figs-idiom)]]) =>
+    //     (See: [[rc://en/ta/man/translate/figs-activepassive]] and [[rc://en/ta/man/translate/figs-idiom)]])
+    const rightParenBetweenLinksPattern = /(?<=\[\[rc:\/\/[^\]]+]])\)(?=[^\(]+rc:)/g;
+    cleanNote = cleanNote.replace(rightParenBetweenLinksPattern, '');
+    // Run cleanGroupId on the last item of the path, the groupId
+    // Ex: [[rc://en/man/ta/translate/figs_activepassive]] =>
+    //     [[rc://en/man/ta/translate/figs-activepassive]]
+    const groupIdPattern = /(?<=\[\[rc:\/\/[^\]]+\/)[\w-]+(?=\]\])/g;
+    cleanNote = cleanNote.replace(groupIdPattern, cleanGroupId);
 
-  // Run convertLinkToMarkdownLink on each link to get their (title)[rc://...] representation
-  // Ex: [[rc://en/ta/man/translate/figs_activepassive]] =>
-  //     [Active or Passive](rc://en/man/ta/translate/figs_activepassive)
-  if (resourcesPath && langId) {
-    const tHelpsPattern = /(\[\[rc:\/\/[\w-]+\/(ta|tw)\/[^\/]+\/[^\]]+\]\])/g;
-    cleanNote = cleanNote.replace(tHelpsPattern, link => convertLinkToMarkdownLink(link, resourcesPath, langId));
-  }
+    // Run convertLinkToMarkdownLink on each link to get their (title)[rc://...] representation
+    // Ex: [[rc://en/ta/man/translate/figs_activepassive]] =>
+    //     [Active or Passive](rc://en/man/ta/translate/figs_activepassive)
+    if (resourcesPath && langId) {
+      const tHelpsPattern = /(\[\[rc:\/\/[\w-]+\/(ta|tw)\/[^\/]+\/[^\]]+\]\])/g;
+      cleanNote = cleanNote.replace(tHelpsPattern, link => convertLinkToMarkdownLink(link, resourcesPath, langId));
+    }
 
-  // Run fixBibleLink on each link to get a proper Bible rc link with Markdown syntax
-  // Ex: [Titus 2:1](../02/01.md) => [Titus 2:1](rc://lang/ult/book/tit/02/01)
-  //     [Romans 1:1](./01.md) => [Romans 1:1](rc://lang/ult/book/rom/01/01)
-  //     [1 Corinthians 15:12](../../../1co/15/12) => [1 Corinthians 15:12](rc://lang/ult/book/1co/15/12)
-  if (bookId && langId && resourcesPath) {
-    const bibleLinkPattern = /(\[[^[\]]+\])\s*\((\.+\/)*(([\w-]+)\/){0,1}?((\d+)\/)?(\d+)(\.md)*\)/g;
-    cleanNote = cleanNote.replace(bibleLinkPattern, link => fixBibleLink(link, resourcesPath, langId, bookId, chapter));
+    // Run fixBibleLink on each link to get a proper Bible rc link with Markdown syntax
+    // Ex: [Titus 2:1](../02/01.md) => [Titus 2:1](rc://lang/ult/book/tit/02/01)
+    //     [Romans 1:1](./01.md) => [Romans 1:1](rc://lang/ult/book/rom/01/01)
+    //     [1 Corinthians 15:12](../../../1co/15/12) => [1 Corinthians 15:12](rc://lang/ult/book/1co/15/12)
+    if (bookId && langId && resourcesPath) {
+      const bibleLinkPattern = /(\[[^[\]]+\])\s*\((\.+\/)*(([\w-]+)\/){0,1}?((\d+)\/)?(\d+)(\.md)*\)/g;
+      cleanNote = cleanNote.replace(bibleLinkPattern, link => fixBibleLink(link, resourcesPath, langId, bookId, chapter));
+    }
+    return cleanNote;
+  } catch (e) {
+    console.error(`cleanOccurrenceNoteLinks() - occurrenceNote: ${occurrenceNote}, resourcesPath: ${resourcesPath}, langId: ${langId}, bookId: ${bookId}, chapter: ${chapter}`, e);
+    return null;
   }
-  return cleanNote;
 };
 
 /**
