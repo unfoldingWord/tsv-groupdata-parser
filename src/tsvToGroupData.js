@@ -224,7 +224,8 @@ export const cleanOccurrenceNoteLinks = (occurrenceNote, resourcesPath, langId, 
         let convertedLink = convertLinkToMarkdownLink(link, resourcesPath, langId);
 
         if (!convertedLink) {
-          throw new Error('cleanOccurrenceNoteLinks() - error converting link: ${link}');
+          console.error('cleanOccurrenceNoteLinks() - error converting link: ${link}');
+          convertedLink = link; // we just leave the broken link
         }
         return convertedLink;
       });
