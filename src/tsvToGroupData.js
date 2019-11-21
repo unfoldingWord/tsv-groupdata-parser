@@ -27,37 +27,42 @@ export const tsvToGroupData = async (filepath, toolName, params = {}, originalBi
   const groupData = {};
   const tsvObjects = await tsvtojson(filepath);
   const { Book: bookId } = tsvObjects[0] || {};
-  const resourceApi = new ManageResource(originalBiblePath, bookId.toLowerCase());
-  let error = false;
 
-  tsvObjects.forEach(tsvItem => {
-    if (tsvItem.SupportReference && tsvItem.OrigQuote) {
-      tsvItem.SupportReference = cleanGroupId(tsvItem.SupportReference);
-      tsvItem.OccurrenceNote = cleanOccurrenceNoteLinks(tsvItem.OccurrenceNote, resourcesPath, langId, bookId.toLowerCase(), tsvItem.Chapter);
+  try {
+    const resourceApi = new ManageResource(originalBiblePath, bookId.toLowerCase());
+    let error = false;
 
-      if (!tsvItem.OccurrenceNote) {
-        console.error('tsvToGroupData() - error processing item:', JSON.stringify(tsvItem));
-        error = true;
-        return;
+    tsvObjects.forEach(tsvItem => {
+      if (tsvItem.SupportReference && tsvItem.OrigQuote) {
+        tsvItem.SupportReference = cleanGroupId(tsvItem.SupportReference);
+        tsvItem.OccurrenceNote = cleanOccurrenceNoteLinks(tsvItem.OccurrenceNote, resourcesPath, langId, bookId.toLowerCase(), tsvItem.Chapter);
+
+        if (!tsvItem.OccurrenceNote) {
+          console.error('tsvToGroupData() - error processing item:', JSON.stringify(tsvItem));
+          error = true;
+          return;
+        }
+
+        const chapter = parseInt(tsvItem.Chapter, 10);
+        const verse = parseInt(tsvItem.Verse, 10);
+        const verseString = resourceApi.getVerseString(chapter, verse);
+
+        if (groupData[tsvItem.SupportReference]) {
+          groupData[tsvItem.SupportReference].push(generateGroupDataItem(tsvItem, toolName, verseString));
+        } else {
+          groupData[tsvItem.SupportReference] = [generateGroupDataItem(tsvItem, toolName, verseString)];
+        }
       }
+    });
 
-      const chapter = parseInt(tsvItem.Chapter, 10);
-      const verse = parseInt(tsvItem.Verse, 10);
-      const verseString = resourceApi.getVerseString(chapter, verse);
-
-      if (groupData[tsvItem.SupportReference]) {
-        groupData[tsvItem.SupportReference].push(generateGroupDataItem(tsvItem, toolName, verseString));
-      } else {
-        groupData[tsvItem.SupportReference] = [generateGroupDataItem(tsvItem, toolName, verseString)];
-      }
+    if (error) {
+      throw new Error('Invalid TSV group data');
     }
-  });
-
-  if (error) {
-    console.error(`tsvToGroupData() - error processing file: ${filepath}`);
-    throw new Error('Invalid TSV group data');
+    return params && params.categorized ? categorizeGroupData(groupData) : groupData;
+  } catch (e) {
+    console.error(`tsvToGroupData() - error processing filepath: ${filepath}`, e);
+    throw e;
   }
-  return params && params.categorized ? categorizeGroupData(groupData) : groupData;
 };
 
 /**
@@ -224,7 +229,7 @@ export const cleanOccurrenceNoteLinks = (occurrenceNote, resourcesPath, langId, 
         let convertedLink = convertLinkToMarkdownLink(link, resourcesPath, langId);
 
         if (!convertedLink) {
-          throw new Error('cleanOccurrenceNoteLinks() - error converting link: ${link}');
+          throw new Error(`cleanOccurrenceNoteLinks() - error converting link: ${link}`);
         }
         return convertedLink;
       });
