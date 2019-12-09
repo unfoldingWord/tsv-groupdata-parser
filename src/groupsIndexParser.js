@@ -50,7 +50,7 @@ export const generateGroupsIndex = (tnCategoriesPath, taCategoriesPath) => {
             }
           }
         } catch (e) {
-          console.error(`generateGroupsIndex() - error processing entry: bookid: ${bookid}, groupDataFile: ${groupDataFile}, taArticleCategory: ${taArticleCategory}, groupName: ${groupName}`);
+          console.error(`generateGroupsIndex() - error processing entry: bookid: ${bookid}, groupDataFile: ${groupDataFile}, taArticleCategory: ${taArticleCategory}, groupName: ${groupName}`, e);
           error = true;
         }
       });
