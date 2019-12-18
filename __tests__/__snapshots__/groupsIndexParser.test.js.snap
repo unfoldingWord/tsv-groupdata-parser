@@ -298,6 +298,7 @@ Object {
 `;
 
 exports[`tests groupsIndexParser.generateGroupsIndex() test error handling 1`] = `
-[Error: generateGroupsIndex() - error processing index: error processing entry: bookid: gal, groupDataFile: translate-numbers.json, taArticleCategory: translate, groupName: null: Error: ENOENT: no such file or directory, open 'translate/translate-numbers.md'
+[Error: generateGroupsIndex() - error processing index:
+error processing entry: bookid: gal, groupDataFile: translate-numbers.json, taArticleCategory: translate, groupName: null: Error: ENOENT: no such file or directory, open 'translate/translate-numbers.md'
 error processing entry: bookid: tit, groupDataFile: figs-hypo.json, taArticleCategory: translate, groupName: null: Error: ENOENT: no such file or directory, open 'translate/figs-hypo.md']
 `;

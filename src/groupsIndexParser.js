@@ -11,7 +11,7 @@ export const generateGroupsIndex = (tnCategoriesPath, taCategoriesPath) => {
     grammar: [],
     other: [],
   };
-  let errors = [];
+  const errors = [];
 
   const isDirectory = item => fs.lstatSync(path.join(tnCategoriesPath, item)).isDirectory();
   const categories = fs.readdirSync(tnCategoriesPath).filter(isDirectory);
@@ -59,7 +59,7 @@ export const generateGroupsIndex = (tnCategoriesPath, taCategoriesPath) => {
   });
 
   if (errors.length) {
-    throw new Error(`generateGroupsIndex() - error processing index: ${errors.join('\n')}`);
+    throw new Error(`generateGroupsIndex() - error processing index:\n${errors.join('\n')}`);
   }
 
   return categorizedGroupsIndex;
