@@ -11,7 +11,7 @@ export const generateGroupsIndex = (tnCategoriesPath, taCategoriesPath) => {
     grammar: [],
     other: [],
   };
-  let error = false;
+  const errors = [];
 
   const isDirectory = item => fs.lstatSync(path.join(tnCategoriesPath, item)).isDirectory();
   const categories = fs.readdirSync(tnCategoriesPath).filter(isDirectory);
@@ -50,15 +50,16 @@ export const generateGroupsIndex = (tnCategoriesPath, taCategoriesPath) => {
             }
           }
         } catch (e) {
-          console.error(`generateGroupsIndex() - error processing entry: bookid: ${bookid}, groupDataFile: ${groupDataFile}, taArticleCategory: ${taArticleCategory}, groupName: ${groupName}`);
-          error = true;
+          let message = `error processing entry: bookid: ${bookid}, groupDataFile: ${groupDataFile}, taArticleCategory: ${taArticleCategory}, groupName: ${groupName}: `;
+          console.error('generateGroupsIndex() - ' + message, e);
+          errors.push(message + e.toString());
         }
       });
     });
   });
 
-  if (error) {
-    throw new Error(`generateGroupsIndex() - error processing index`);
+  if (errors.length) {
+    throw new Error(`generateGroupsIndex() - error processing index:\n${errors.join('\n')}`);
   }
 
   return categorizedGroupsIndex;
