@@ -220,3 +220,11 @@ export function getOmittedWordsInQuote(quote, verseString) {
     omittedStrings,
   };
 }
+
+/**
+ * Returns whether a string includes ellipsis or not.
+ * @param {string} origQuote - Original language quote.
+ */
+export function hasEllipsis(origQuote = '') {
+  return origQuote.includes(ELLIPSIS);
+}

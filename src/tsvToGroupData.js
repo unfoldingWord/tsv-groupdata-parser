@@ -9,6 +9,7 @@ import { ELLIPSIS } from './utils/constants';
 import {
   translationHelps, getLatestVersionInPath, getGroupName, getBibleIdForLanguage,
 } from './helpers/resourcesHelpers';
+import { hasEllipsis } from './helpers/ellipsisHelpers';
 
 /**
  * Parses a book tN TSVs and returns an object holding the lists of group ids.
@@ -259,7 +260,7 @@ export const cleanOccurrenceNoteLinks = (occurrenceNote, resourcesPath, langId, 
 const generateGroupDataItem = (tsvItem, toolName, verseString) => {
   const { OrigQuote = '' } = tsvItem;
   // if quote has more than one word get word occurrences
-  const quote = OrigQuote.trim().split(' ').length > 1 || OrigQuote.includes(ELLIPSIS) ? getWordOccurrencesForQuote(OrigQuote, verseString) : OrigQuote;
+  const quote = OrigQuote.trim().split(' ').length > 1 || hasEllipsis(OrigQuote) ? getWordOccurrencesForQuote(OrigQuote, verseString) : OrigQuote;
   const quoteString = OrigQuote.trim().replace(/\.../gi, ELLIPSIS);
 
   return {
