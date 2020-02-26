@@ -1,16 +1,16 @@
-jest.unmock('fs-extra')
-import path from 'path-extra'
+import path from 'path-extra';
 // helpers
-import ManageResource from '../src/helpers/ManageResourceAPI'
-import { getWordOccurrencesForQuote } from '../src/helpers/wordOccurrenceHelpers'
+import ManageResource from '../src/helpers/ManageResourceAPI';
+import { getWordOccurrencesForQuote } from '../src/helpers/wordOccurrenceHelpers';
+jest.unmock('fs-extra');
 
 function getTestResult(bookId, chapter, verse, quote) {
-  const originalBiblePath = path.join('__tests__', 'fixtures', 'resources', 'el-x-koine', 'bibles', 'ugnt', 'v0.5')
-  const resourceApi = new ManageResource(originalBiblePath, bookId)
-  const verseString = resourceApi.getVerseString(chapter, verse)
-  const words = getWordOccurrencesForQuote(quote, verseString)
+  const originalBiblePath = path.join('__tests__', 'fixtures', 'resources', 'el-x-koine', 'bibles', 'ugnt', 'v0.11');
+  const resourceApi = new ManageResource(originalBiblePath, bookId);
+  const verseString = resourceApi.getVerseString(chapter, verse);
+  const words = getWordOccurrencesForQuote(quote, verseString);
 
-  return words
+  return words;
 }
 
 describe('getWordOccurrencesForQuote():', () => {
@@ -26,9 +26,7 @@ describe('getWordOccurrencesForQuote():', () => {
             word: 'τοῖς',
             occurrence: 2,
           },
-          {
-            word: '\u2026',
-          },
+          { word: '\u2026' },
           {
             word: 'μεμιαμμένοις',
             occurrence: 1,
@@ -73,9 +71,7 @@ describe('getWordOccurrencesForQuote():', () => {
             word: 'ἡμέρας',
             occurrence: 1,
           },
-          {
-            word: '\u2026',
-          },
+          { word: '\u2026' },
           {
             word: 'ἀνελήμφθη',
             occurrence: 1,
@@ -92,9 +88,7 @@ describe('getWordOccurrencesForQuote():', () => {
             word: 'ἐντειλάμενος',
             occurrence: 1,
           },
-          {
-            word: '\u2026',
-          },
+          { word: '\u2026' },
           {
             word: 'διὰ',
             occurrence: 1,
@@ -119,9 +113,7 @@ describe('getWordOccurrencesForQuote():', () => {
             word: 'ἀτενίζοντες',
             occurrence: 1,
           },
-          {
-            word: '\u2026',
-          },
+          { word: '\u2026' },
           {
             word: 'εἰς',
             occurrence: 1,
@@ -154,9 +146,7 @@ describe('getWordOccurrencesForQuote():', () => {
             word: 'ἁγίων',
             occurrence: 1,
           },
-          {
-            word: '\u2026',
-          },
+          { word: '\u2026' },
           {
             word: 'αὐτοῦ',
             occurrence: 1,
@@ -193,9 +183,7 @@ describe('getWordOccurrencesForQuote():', () => {
             word: 'ὀλίγης',
             occurrence: 1,
           },
-          {
-            word: '\u2026',
-          },
+          { word: '\u2026' },
           {
             word: 'πρὸς',
             occurrence: 1,
@@ -216,9 +204,7 @@ describe('getWordOccurrencesForQuote():', () => {
             word: 'Σαλμὼν',
             occurrence: 1,
           },
-          {
-            word: '\u2026',
-          },
+          { word: '\u2026' },
           {
             word: 'ἐγέννησεν',
             occurrence: 1,
@@ -267,9 +253,7 @@ describe('getWordOccurrencesForQuote():', () => {
             word: 'Σαλαθιὴλ',
             occurrence: 1,
           },
-          {
-            word: '\u2026',
-          },
+          { word: '\u2026' },
           {
             word: 'ἐγέννησεν',
             occurrence: 2,
@@ -294,9 +278,7 @@ describe('getWordOccurrencesForQuote():', () => {
             word: 'πρὶν',
             occurrence: 1,
           },
-          {
-            word: '\u2026',
-          },
+          { word: '\u2026' },
           {
             word: 'συνελθεῖν',
             occurrence: 1,
@@ -321,9 +303,7 @@ describe('getWordOccurrencesForQuote():', () => {
             word: 'προσέταξεν',
             occurrence: 1,
           },
-          {
-            word: '\u2026',
-          },
+          { word: '\u2026' },
           {
             word: 'ὁ',
             occurrence: 2,
@@ -348,9 +328,7 @@ describe('getWordOccurrencesForQuote():', () => {
             word: 'ἕως',
             occurrence: 1,
           },
-          {
-            word: '\u2026',
-          },
+          { word: '\u2026' },
           {
             word: 'εἴπω',
             occurrence: 1,
@@ -375,9 +353,7 @@ describe('getWordOccurrencesForQuote():', () => {
             word: 'ἀλήθειαν',
             occurrence: 1,
           },
-          {
-            word: '\u2026',
-          },
+          { word: '\u2026' },
           {
             word: 'κατεχόντων',
             occurrence: 1,
@@ -394,9 +370,7 @@ describe('getWordOccurrencesForQuote():', () => {
             word: 'καὶ',
             occurrence: 1,
           },
-          {
-            word: '\u2026',
-          },
+          { word: '\u2026' },
           {
             word: 'ἄρσενες',
             occurrence: 1,
@@ -438,16 +412,12 @@ describe('getWordOccurrencesForQuote():', () => {
             word: 'τότε',
             occurrence: 1,
           },
-          {
-            word: '\u2026',
-          },
+          { word: '\u2026' },
           {
             word: 'Ἱεροσόλυμα',
             occurrence: 1,
           },
-          {
-            word: '\u2026',
-          },
+          { word: '\u2026' },
           {
             word: 'πᾶσα',
             occurrence: 1,
@@ -501,9 +471,7 @@ describe('getWordOccurrencesForQuote():', () => {
             word: 'Ῥοβοὰμ',
             occurrence: 1,
           },
-          {
-            word: '\u2026',
-          },
+          { word: '\u2026' },
           {
             word: 'ἐγέννησεν',
             occurrence: 2,
@@ -524,9 +492,7 @@ describe('getWordOccurrencesForQuote():', () => {
             word: 'Ἀβιὰ',
             occurrence: 1,
           },
-          {
-            word: '\u2026',
-          },
+          { word: '\u2026' },
           {
             word: 'ἐγέννησεν',
             occurrence: 3,
@@ -552,16 +518,12 @@ describe('getWordOccurrencesForQuote():', () => {
             word: 'τότε',
             occurrence: 1,
           },
-          {
-            word: '\u2026',
-          },
+          { word: '\u2026' },
           {
             word: 'Ἱεροσόλυμα',
             occurrence: 1,
           },
-          {
-            word: '\u2026',
-          },
+          { word: '\u2026' },
           {
             word: 'πᾶσα',
             occurrence: 1,
@@ -619,23 +581,17 @@ describe('getWordOccurrencesForQuote():', () => {
             word: 'ταλαίπωρος',
             occurrence: 1,
           },
-          {
-            word: '\u2026',
-          },
+          { word: '\u2026' },
           {
             word: 'ἐλεεινὸς',
             occurrence: 1,
           },
-          {
-            word: '\u2026',
-          },
+          { word: '\u2026' },
           {
             word: 'πτωχὸς',
             occurrence: 1,
           },
-          {
-            word: '\u2026',
-          },
+          { word: '\u2026' },
           {
             word: 'τυφλὸς',
             occurrence: 1,
@@ -659,7 +615,7 @@ describe('getWordOccurrencesForQuote():', () => {
         bookId: 'mrk',
         chapter: 6,
         verse: 14,
-        quote: 'ἔλεγον, ὅτι "Ἰωάννης ὁ βαπτίζων ἐγήγερται',
+        quote: 'ἔλεγον, ὅτι Ἰωάννης ὁ βαπτίζων ἐγήγερται',
         expected: [
           {
             word: 'ἔλεγον',
@@ -671,10 +627,6 @@ describe('getWordOccurrencesForQuote():', () => {
           },
           {
             word: 'ὅτι',
-            occurrence: 1,
-          },
-          {
-            word: '"',
             occurrence: 1,
           },
           {
@@ -718,9 +670,7 @@ describe('getWordOccurrencesForQuote():', () => {
             word: 'μηδενὶ',
             occurrence: 1,
           },
-          {
-            word: '\u2026',
-          },
+          { word: '\u2026' },
           {
             word: 'εἰ',
             occurrence: 1,
@@ -819,9 +769,7 @@ describe('getWordOccurrencesForQuote():', () => {
             word: 'δοθήσεται',
             occurrence: 1,
           },
-          {
-            word: '\u2026',
-          },
+          { word: '\u2026' },
           {
             word: 'σημεῖον',
             occurrence: 2,
@@ -833,7 +781,8 @@ describe('getWordOccurrencesForQuote():', () => {
         bookId: 'mrk',
         chapter: 12,
         verse: 33,
-        quote: 'τὸ ἀγαπᾶν‘ τὸν πλησίον ὡς ἑαυτὸν',
+        // καὶ, τὸ ἀγαπᾶν αὐτὸν ἐξ ὅλης τῆς καρδίας, καὶ ἐξ ὅλης τῆς συνέσεως, καὶ ἐξ ὅλης τῆς ἰσχύος, καὶ, τὸ ἀγαπᾶν τὸν πλησίον ὡς ἑαυτὸν, περισσότερόν ἐστιν πάντων τῶν ὁλοκαυτωμάτων καὶ θυσιῶν.
+        quote: 'τὸ ἀγαπᾶν τὸν πλησίον ὡς ἑαυτὸν',
         expected: [
           {
             word: 'τὸ',
@@ -841,10 +790,6 @@ describe('getWordOccurrencesForQuote():', () => {
           },
           {
             word: 'ἀγαπᾶν',
-            occurrence: 2,
-          },
-          {
-            word: '‘',
             occurrence: 2,
           },
           {
@@ -870,7 +815,8 @@ describe('getWordOccurrencesForQuote():', () => {
         bookId: 'mrk',
         chapter: 5,
         verse: 9,
-        quote: 'λέγει αὐτῷ, "Λεγιὼν ὄνομά μοι, ὅτι πολλοί ἐσμεν."',
+        // καὶ ἐπηρώτα αὐτόν, τί ὄνομά σοι? καὶ λέγει αὐτῷ, Λεγιὼν ὄνομά μοι, ὅτι πολλοί ἐσμεν.
+        quote: 'λέγει αὐτῷ, Λεγιὼν ὄνομά μοι, ὅτι πολλοί ἐσμεν.',
         expected: [
           {
             word: 'λέγει',
@@ -883,10 +829,6 @@ describe('getWordOccurrencesForQuote():', () => {
           {
             word: ',',
             occurrence: 2,
-          },
-          {
-            word: '"',
-            occurrence: 3,
           },
           {
             word: 'Λεγιὼν',
@@ -919,10 +861,6 @@ describe('getWordOccurrencesForQuote():', () => {
           {
             word: '.',
             occurrence: 1,
-          },
-          {
-            word: '"',
-            occurrence: 4,
           },
         ],
       },
@@ -982,9 +920,7 @@ describe('getWordOccurrencesForQuote():', () => {
             word: 'εὐαγγελισαμένου',
             occurrence: 1,
           },
-          {
-            word: '…',
-          },
+          { word: '…' },
           {
             word: 'τὴν',
             occurrence: 1,
@@ -993,26 +929,26 @@ describe('getWordOccurrencesForQuote():', () => {
             word: 'πίστιν',
             occurrence: 1,
           },
-          {
-            word: '…',
-          },
+          { word: '…' },
           {
             word: 'ὑμῶν',
             occurrence: 2,
           },
         ],
       },
-    ]
+    ];
 
-    checks.forEach(({ bookId, chapter, verse, quote, expected }) => {
-      const result = getTestResult(bookId, chapter, verse, quote)
-      expect(result).toEqual(expected)
-    })
-  })
+    checks.forEach(({
+      bookId, chapter, verse, quote, expected,
+    }) => {
+      const result = getTestResult(bookId, chapter, verse, quote);
+      expect(result).toEqual(expected);
+    });
+  });
 
   test('should tokenize opening single quotation', () => {
-    const quote = 'οὔτε‘ ἐνκατελείφθη εἰς ᾍδην'
-    const words = getTestResult('act', 2, 31, quote)
+    const quote = 'οὔτε‘ ἐνκατελείφθη εἰς ᾍδην';
+    const words = getTestResult('act', 2, 31, quote);
     const expected = [
       {
         word: 'οὔτε',
@@ -1034,13 +970,13 @@ describe('getWordOccurrencesForQuote():', () => {
         word: 'ᾍδην',
         occurrence: 1,
       },
-    ]
-    expect(words).toEqual(expected)
-  })
+    ];
+    expect(words).toEqual(expected);
+  });
 
   test('should generate an array of objects for an original language quote', () => {
-    const quote = 'Κρῆτες ἀεὶ ψεῦσται'
-    const result = getTestResult('tit', 1, 12, quote)
+    const quote = 'Κρῆτες ἀεὶ ψεῦσται';
+    const result = getTestResult('tit', 1, 12, quote);
     const expected = [
       {
         word: 'Κρῆτες',
@@ -1054,13 +990,13 @@ describe('getWordOccurrencesForQuote():', () => {
         word: 'ψεῦσται',
         occurrence: 1,
       },
-    ]
-    expect(result).toEqual(expected)
-  })
+    ];
+    expect(result).toEqual(expected);
+  });
 
   test('', () => {
-    const quote = 'ἐν κακίᾳ καὶ φθόνῳ διάγοντες'
-    const result = getTestResult('tit', 3, 3, quote)
+    const quote = 'ἐν κακίᾳ καὶ φθόνῳ διάγοντες';
+    const result = getTestResult('tit', 3, 3, quote);
     const expected = [
       {
         word: 'ἐν',
@@ -1082,12 +1018,12 @@ describe('getWordOccurrencesForQuote():', () => {
         word: 'διάγοντες',
         occurrence: 1,
       },
-    ]
-    expect(result).toEqual(expected)
-  })
+    ];
+    expect(result).toEqual(expected);
+  });
   test('', () => {
-    const quote = 'ματαιολόγοι, καὶ φρεναπάται'
-    const words = getTestResult('tit', 1, 10, quote)
+    const quote = 'ματαιολόγοι, καὶ φρεναπάται';
+    const words = getTestResult('tit', 1, 10, quote);
     const expected = [
       {
         word: 'ματαιολόγοι',
@@ -1105,12 +1041,12 @@ describe('getWordOccurrencesForQuote():', () => {
         word: 'φρεναπάται',
         occurrence: 1,
       },
-    ]
-    expect(words).toEqual(expected)
-  })
+    ];
+    expect(words).toEqual(expected);
+  });
   test('', () => {
-    const quote = 'Κλαύδιος Λυσίας, τῷ κρατίστῳ ἡγεμόνι Φήλικι, χαίρειν'
-    const words = getTestResult('act', 23, 26, quote)
+    const quote = 'Κλαύδιος Λυσίας, τῷ κρατίστῳ ἡγεμόνι Φήλικι, χαίρειν';
+    const words = getTestResult('act', 23, 26, quote);
     const expected = [
       {
         word: 'Κλαύδιος',
@@ -1148,12 +1084,12 @@ describe('getWordOccurrencesForQuote():', () => {
         word: 'χαίρειν',
         occurrence: 1,
       },
-    ]
-    expect(words).toEqual(expected)
-  })
+    ];
+    expect(words).toEqual(expected);
+  });
   test('', () => {
-    const quote = 'τοῦ δοῦναι μετάνοιαν τῷ Ἰσραὴλ καὶ ἄφεσιν ἁμαρτιῶν'
-    const words = getTestResult('act', 5, 31, quote)
+    const quote = 'τοῦ δοῦναι μετάνοιαν τῷ Ἰσραὴλ καὶ ἄφεσιν ἁμαρτιῶν';
+    const words = getTestResult('act', 5, 31, quote);
     const expected = [
       {
         word: 'τοῦ',
@@ -1187,12 +1123,12 @@ describe('getWordOccurrencesForQuote():', () => {
         word: 'ἁμαρτιῶν',
         occurrence: 1,
       },
-    ]
-    expect(words).toEqual(expected)
-  })
+    ];
+    expect(words).toEqual(expected);
+  });
   test('', () => {
-    const quote = 'καὶ ἐτελεύτησεν καὶ ἐτάφη'
-    const words = getTestResult('act', 2, 29, quote)
+    const quote = 'καὶ ἐτελεύτησεν καὶ ἐτάφη';
+    const words = getTestResult('act', 2, 29, quote);
     const expected = [
       {
         word: 'καὶ',
@@ -1210,12 +1146,12 @@ describe('getWordOccurrencesForQuote():', () => {
         word: 'ἐτάφη',
         occurrence: 1,
       },
-    ]
-    expect(words).toEqual(expected)
-  })
+    ];
+    expect(words).toEqual(expected);
+  });
   test('', () => {
-    const quote = 'τίμιος παντὶ τῷ λαῷ'
-    const result = getTestResult('act', 5, 34, quote)
+    const quote = 'τίμιος παντὶ τῷ λαῷ';
+    const result = getTestResult('act', 5, 34, quote);
     const expected = [
       {
         word: 'τίμιος',
@@ -1233,12 +1169,12 @@ describe('getWordOccurrencesForQuote():', () => {
         word: 'λαῷ',
         occurrence: 1,
       },
-    ]
-    expect(result).toEqual(expected)
-  })
+    ];
+    expect(result).toEqual(expected);
+  });
   test('', () => {
-    const quote = 'πάντες ὅσοι ἐπείθοντο αὐτῷ διελύθησαν'
-    const result = getTestResult('act', 5, 36, quote)
+    const quote = 'πάντες ὅσοι ἐπείθοντο αὐτῷ διελύθησαν';
+    const result = getTestResult('act', 5, 36, quote);
     const expected = [
       {
         word: 'πάντες',
@@ -1260,12 +1196,12 @@ describe('getWordOccurrencesForQuote():', () => {
         word: 'διελύθησαν',
         occurrence: 1,
       },
-    ]
-    expect(result).toEqual(expected)
-  })
+    ];
+    expect(result).toEqual(expected);
+  });
   test('', () => {
-    const quote = 'ἐὰν μὴ οὗτοι μείνωσιν ἐν τῷ πλοίῳ, ὑμεῖς σωθῆναι οὐ δύνασθε'
-    const result = getTestResult('act', 27, 31, quote)
+    const quote = 'ἐὰν μὴ οὗτοι μείνωσιν ἐν τῷ πλοίῳ, ὑμεῖς σωθῆναι οὐ δύνασθε';
+    const result = getTestResult('act', 27, 31, quote);
     const expected = [
       {
         word: 'ἐὰν',
@@ -1315,7 +1251,24 @@ describe('getWordOccurrencesForQuote():', () => {
         word: 'δύνασθε',
         occurrence: 1,
       },
-    ]
-    expect(result).toEqual(expected)
-  })
-})
+    ];
+    expect(result).toEqual(expected);
+  });
+
+  test('', () => {
+    const quote = 'πρεσβύτας…εἶναι';
+    const result = getTestResult('tit', 2, 2, quote);
+    const expected = [
+      {
+        word: 'πρεσβύτας',
+        occurrence: 1,
+      },
+      { word: '…' },
+      {
+        word: 'εἶναι',
+        occurrence: 1,
+      },
+    ];
+    expect(result).toEqual(expected);
+  });
+});

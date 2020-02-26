@@ -2,11 +2,23 @@ jest.unmock('fs-extra')
 import { generateGroupsIndex, getArticleCategory } from '../src/groupsIndexParser'
 
 describe('tests groupsIndexParser.generateGroupsIndex()', () => {
-  test('returns an object with all the tn categories, each one with their groupsIndex', async () => {
+  test('returns an object with all the tn categories, each one with their groupsIndex', () => {
     const tnCategoriesPath = '__tests__/fixtures/resources/en/translationHelps/translationNotes/v14'
     const taCategoriesPath = '__tests__/fixtures/resources/en/translationHelps/translationAcademy/v10'
     const result = generateGroupsIndex(tnCategoriesPath, taCategoriesPath)
     expect(result).toMatchSnapshot()
+  })
+
+  test('test error handling', () => {
+    const tnCategoriesPath = '__tests__/fixtures/shortTn/translationNotes/v14'
+    const taCategoriesPath = ''
+    let error = null
+    try {
+      generateGroupsIndex(tnCategoriesPath, taCategoriesPath)
+    } catch (e) {
+      error = e;
+    }
+    expect(error).toMatchSnapshot()
   })
 })
 

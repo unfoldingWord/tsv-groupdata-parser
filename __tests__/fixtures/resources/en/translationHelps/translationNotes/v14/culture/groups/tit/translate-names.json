@@ -4,8 +4,9 @@
     "reminders": false,
     "selections": false,
     "verseEdits": false,
+    "nothingToSelect": false,
     "contextId": {
-      "occurrenceNote": "These are men's names. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "occurrenceNote": "These are men’s names. (See: [How to Translate Names](rc://en/ta/man/translate/translate-names))",
       "reference": {
         "bookId": "tit",
         "chapter": 3,
@@ -13,8 +14,9 @@
       },
       "tool": "translationNotes",
       "groupId": "translate-names",
-      "quote": "Ἀρτεμᾶν ... Τυχικόν",
-      "glQuote": "Artemas ... Tychicus",
+      "quote": "Ἀρτεμᾶν…Τυχικόν",
+      "quoteString": "Ἀρτεμᾶν…Τυχικόν",
+      "glQuote": "Artemas…Tychicus",
       "occurrence": 1
     }
   },
@@ -23,8 +25,9 @@
     "reminders": false,
     "selections": false,
     "verseEdits": false,
+    "nothingToSelect": false,
     "contextId": {
-      "occurrenceNote": "This is a man's name. (See: [[rc://en/ta/man/translate/translate-names]])",
+      "occurrenceNote": "These are men’s names. (See: [How to Translate Names](rc://en/ta/man/translate/translate-names))",
       "reference": {
         "bookId": "tit",
         "chapter": 3,
@@ -32,8 +35,9 @@
       },
       "tool": "translationNotes",
       "groupId": "translate-names",
-      "quote": "Ζηνᾶν",
-      "glQuote": "Zenas",
+      "quote": "Ζηνᾶν…Ἀπολλῶν",
+      "quoteString": "Ζηνᾶν…Ἀπολλῶν",
+      "glQuote": "Zenas…Appollos",
       "occurrence": 1
     }
   }
