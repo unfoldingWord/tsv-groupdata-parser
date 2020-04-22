@@ -260,7 +260,8 @@ export const cleanOccurrenceNoteLinks = (occurrenceNote, resourcesPath, langId, 
 const generateGroupDataItem = (tsvItem, toolName, verseString) => {
   const { OrigQuote = '' } = tsvItem;
   // if quote has more than one word get word occurrences
-  const quote = OrigQuote.trim().split(' ').length > 1 || hasEllipsis(OrigQuote) ? getWordOccurrencesForQuote(OrigQuote, verseString) : OrigQuote;
+  const wordOccurrencesForQuote = getWordOccurrencesForQuote(OrigQuote, verseString); // uses tokenizer to get list of words handle various punctuation and spacing chars
+  const quote = wordOccurrencesForQuote.length > 1 || hasEllipsis(OrigQuote) ? wordOccurrencesForQuote : OrigQuote; // only use array if more than one word found
   const quoteString = OrigQuote.trim().replace(/\.../gi, ELLIPSIS);
 
   return {
