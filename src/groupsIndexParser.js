@@ -62,22 +62,22 @@ export const generateGroupsIndex = (tnCategoriesPath, taCategoriesPath) => {
 
               try {
                 if (!taArticleCategory) {
-                  throw new Error(`Link in Occurrence Note ${contextId.occurrenceNote} does not have category for check at index: ${i}`);
+                  throw new Error(`Link in Occurrence Note '${contextId.occurrenceNote}' does not have category for check at index: ${i}`);
                 }
 
                 addCategoryToGroup(groupId, categorizedGroupsIndex, categoryName, taCategoriesPath, taArticleCategory);
                 categoryFound = true;
                 break; // we got the category, so don't need to search anymore
               } catch (e) {
-                let message = `error finding group name: groupId: ${groupId}, index: ${i} in bookId ${bookid} `;
+                let message = `error finding group name: groupId: '${groupId}', index: '${i}' in bookId '${bookid}' `;
                 console.error('generateGroupsIndex() - ' + message, e);
                 errors.push(message + e.toString());
               }
             }
 
             if (!categoryFound) {
-              addCategoryToGroup('other', categorizedGroupsIndex, categoryName, taCategoriesPath, taArticleCategory); // add entry even though we could not find localized description
-              throw new Error(`Could not find category for ${groupId}`);
+              addCategoryToGroup(groupId, categorizedGroupsIndex, categoryName, taCategoriesPath, 'other'); // add entry even though we could not find localized description
+              throw new Error(`Could not find category for '${groupId}'`);
             }
           }
         } catch (e) {
