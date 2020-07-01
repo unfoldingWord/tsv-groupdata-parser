@@ -2,6 +2,12 @@ jest.unmock('fs-extra')
 import { generateGroupsIndex, getArticleCategory } from '../src/groupsIndexParser'
 
 describe('tests groupsIndexParser.generateGroupsIndex()', () => {
+  let save_console = null;
+
+  beforeEach(() => {
+    save_console = global.console;
+  })
+
   test('returns an object with all the tn categories, each one with their groupsIndex', () => {
     const tnCategoriesPath = '__tests__/fixtures/resources/en/translationHelps/translationNotes/v14'
     const taCategoriesPath = '__tests__/fixtures/resources/en/translationHelps/translationAcademy/v10'
@@ -10,6 +16,8 @@ describe('tests groupsIndexParser.generateGroupsIndex()', () => {
   })
 
   test('test error handling', () => {
+    const errorLog = []
+    global.console = { error: jest.fn(e => errorLog.push(e)), log: jest.fn() } // mock console
     const tnCategoriesPath = '__tests__/fixtures/shortTn/translationNotes/v14'
     const taCategoriesPath = ''
     let error = null
@@ -18,8 +26,15 @@ describe('tests groupsIndexParser.generateGroupsIndex()', () => {
     } catch (e) {
       error = e;
     }
-    expect(error).toMatchSnapshot()
+    expect(error).toBeNull() // no unrecoverable errors
+    expect(errorLog).toMatchSnapshot() // verify recoverable errors
   })
+
+  afterEach(() => {
+    if (save_console) {
+      global.console = save_console; // restore unmocked
+    }
+  });
 })
 
 describe('tests groupsIndexParser.getArticleCategory()', () => {
