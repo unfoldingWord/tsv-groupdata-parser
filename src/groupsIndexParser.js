@@ -49,7 +49,7 @@ export const generateGroupsIndex = (tnCategoriesPath, taCategoriesPath) => {
           const groupData = fs.readJsonSync(filePath);
           taArticleCategory = null;
           groupName = null;
-          let categoryFound = false;
+          let foundLocalization = false;
 
           if (groupData.length > 0) {
             for (let i = 0; i < groupData.length; i++ ) {
@@ -65,18 +65,17 @@ export const generateGroupsIndex = (tnCategoriesPath, taCategoriesPath) => {
                 const articlePath = path.join(taCategoriesPath, taArticleCategory, fileName);
                 groupName = getGroupName(articlePath);
                 addGroupToCategory(groupId, groupName, categorizedGroupsIndex, categoryName);
-                categoryFound = true;
+                foundLocalization = true;
                 break; // we got the category, so don't need to search anymore
               } catch (e) {
-                let message = `error finding group name: groupId: '${groupId}', index: '${i}' in bookId '${bookid}' `;
+                let message = `error finding group name: groupId: '${groupId}', index: '${i}' in bookId '${bookid}, taArticleCategory: ${taArticleCategory}' `;
                 console.error('generateGroupsIndex() - ' + message, e);
-                errors.push(message + e.toString());
               }
             }
 
-            if (!categoryFound) {
+            if (!foundLocalization) {
               addGroupToCategory(groupId, groupId, categorizedGroupsIndex, categoryName); // add entry even though we could not find localized description
-              throw `Could not find category for ${groupId}`;
+              console.error(`Could not find category for ${groupId}, setting to default`);
             }
           }
         } catch (e) {
