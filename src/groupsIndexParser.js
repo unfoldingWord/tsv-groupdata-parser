@@ -5,9 +5,9 @@ import { getGroupName } from './helpers/resourcesHelpers';
 /**
  * make sure this groupId is in a category
  * @param {String} groupId
- * @param {String} groupName
+ * @param {String} groupName - localized group name
  * @param {Object} categorizedGroupsIndex
- * @param {String} categoryName
+ * @param {String} categoryName - category that should contain this groupId
  */
 const addGroupToCategory = (groupId, groupName, categorizedGroupsIndex, categoryName) => {
   const groupIndexItem = getGroupIndex(groupId, groupName);
