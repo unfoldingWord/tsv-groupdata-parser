@@ -300,8 +300,8 @@ Object {
 exports[`tests groupsIndexParser.generateGroupsIndex() test error handling 1`] = `
 Array [
   "generateGroupsIndex() - error finding group name: groupId: 'translate-numbers', index: '0' in bookId 'gal, taArticleCategory: translate' ",
-  "Could not find localization for translate-numbers, adding stub entry",
+  "Could not find localization for 'translate-numbers' in 'numbers', adding stub entry",
   "generateGroupsIndex() - error finding group name: groupId: 'figs-hypo', index: '0' in bookId 'tit, taArticleCategory: translate' ",
-  "Could not find localization for figs-hypo, adding stub entry",
+  "Could not find localization for 'figs-hypo' in 'numbers', adding stub entry",
 ]
 `;

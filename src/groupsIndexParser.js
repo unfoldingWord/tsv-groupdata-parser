@@ -3,7 +3,7 @@ import path from 'path-extra';
 import { getGroupName } from './helpers/resourcesHelpers';
 
 /**
- * take this category and make sure it is in a group
+ * make sure this groupId is in a category
  * @param {String} groupId
  * @param {String} groupName
  * @param {Object} categorizedGroupsIndex
@@ -75,7 +75,7 @@ export const generateGroupsIndex = (tnCategoriesPath, taCategoriesPath) => {
 
             if (!foundLocalization) {
               addGroupToCategory(groupId, groupId, categorizedGroupsIndex, categoryName); // add entry even though we could not find localized description
-              console.error(`Could not find localization for ${groupId}, adding stub entry`);
+              console.error(`Could not find localization for '${groupId}' in '${categoryName}', adding stub entry`);
             }
           }
         } catch (e) {

@@ -6,7 +6,8 @@ describe('tests groupsIndexParser.generateGroupsIndex()', () => {
 
   beforeEach(() => {
     save_console = global.console;
-  });
+  })
+
   test('returns an object with all the tn categories, each one with their groupsIndex', () => {
     const tnCategoriesPath = '__tests__/fixtures/resources/en/translationHelps/translationNotes/v14'
     const taCategoriesPath = '__tests__/fixtures/resources/en/translationHelps/translationAcademy/v10'
