@@ -5,15 +5,11 @@ import { getGroupName } from './helpers/resourcesHelpers';
 /**
  * take this category and make sure it is in a group
  * @param {String} groupId
+ * @param {String} groupName
  * @param {Object} categorizedGroupsIndex
  * @param {String} categoryName
- * @param {String} taCategoriesPath
- * @param {String} taArticleCategory
  */
-const addCategoryToGroup = (groupId, categorizedGroupsIndex, categoryName,taCategoriesPath, taArticleCategory) => {
-  const fileName = groupId + '.md';
-  const articlePath = path.join(taCategoriesPath, taArticleCategory, fileName);
-  const groupName = getGroupName(articlePath);
+const addGroupToCategory = (groupId, groupName, categorizedGroupsIndex, categoryName) => {
   const groupIndexItem = getGroupIndex(groupId, groupName);
 
   // Only add the groupIndexItem if it isn't already in the category's groups index.
@@ -65,7 +61,10 @@ export const generateGroupsIndex = (tnCategoriesPath, taCategoriesPath) => {
                   throw new Error(`Link in Occurrence Note '${contextId.occurrenceNote}' does not have category for check at index: ${i}`);
                 }
 
-                addCategoryToGroup(groupId, categorizedGroupsIndex, categoryName, taCategoriesPath, taArticleCategory);
+                const fileName = groupId + '.md';
+                const articlePath = path.join(taCategoriesPath, taArticleCategory, fileName);
+                groupName = getGroupName(articlePath);
+                addGroupToCategory(groupId, groupName, categorizedGroupsIndex, categoryName);
                 categoryFound = true;
                 break; // we got the category, so don't need to search anymore
               } catch (e) {
@@ -76,8 +75,8 @@ export const generateGroupsIndex = (tnCategoriesPath, taCategoriesPath) => {
             }
 
             if (!categoryFound) {
-              addCategoryToGroup(groupId, categorizedGroupsIndex, categoryName, taCategoriesPath, 'other'); // add entry even though we could not find localized description
-              throw new Error(`Could not find category for '${groupId}'`);
+              addGroupToCategory('other', 'Other', categorizedGroupsIndex, categoryName); // add entry even though we could not find localized description
+              throw `Could not find category for ${groupId}`;
             }
           }
         } catch (e) {
