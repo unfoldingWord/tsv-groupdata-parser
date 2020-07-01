@@ -75,7 +75,7 @@ export const generateGroupsIndex = (tnCategoriesPath, taCategoriesPath) => {
             }
 
             if (!categoryFound) {
-              addGroupToCategory('other', 'Other', categorizedGroupsIndex, categoryName); // add entry even though we could not find localized description
+              addGroupToCategory(groupId, groupId, categorizedGroupsIndex, categoryName); // add entry even though we could not find localized description
               throw `Could not find category for ${groupId}`;
             }
           }
