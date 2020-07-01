@@ -2,6 +2,15 @@ import fs from 'fs-extra';
 import path from 'path-extra';
 import { getGroupName } from './helpers/resourcesHelpers';
 
+const addGroupToCategory = (groupId, groupName, categorizedGroupsIndex, categoryName) => {
+  const groupIndexItem = getGroupIndex(groupId, groupName);
+
+  // Only add the groupIndexItem if it isn't already in the category's groups index.
+  if (!categorizedGroupsIndex[categoryName].some(e => e.id === groupIndexItem.id)) {
+    categorizedGroupsIndex[categoryName].push(groupIndexItem); // adding group Index Item
+  }
+};
+
 export const generateGroupsIndex = (tnCategoriesPath, taCategoriesPath) => {
   const categorizedGroupsIndex = {
     discourse: [],
@@ -33,20 +42,33 @@ export const generateGroupsIndex = (tnCategoriesPath, taCategoriesPath) => {
           const groupData = fs.readJsonSync(filePath);
           taArticleCategory = null;
           groupName = null;
+          let categoryFound = false;
 
           if (groupData.length > 0) {
-            taArticleCategory = getArticleCategory(groupData[0].contextId.occurrenceNote, groupId);
+            for (let i = 0; i < groupData.length; i++ ) {
+              taArticleCategory = getArticleCategory(groupData[0].contextId.occurrenceNote, groupId);
 
-            if (taArticleCategory) {
-              const fileName = groupId + '.md';
-              const articlePath = path.join(taCategoriesPath, taArticleCategory, fileName);
-              groupName = getGroupName(articlePath);
-              const groupIndexItem = getGroupIndex(groupId, groupName);
+              try {
+                if (taArticleCategory !== groupId) {
+                  throw `Link in Occurrence Note ${taArticleCategory} does not match GroupID ${groupId} for check at index: ${i}`;
+                }
 
-              // Only add the groupIndexItem if it isn't already in the category's groups index.
-              if (!categorizedGroupsIndex[categoryName].some(e => e.id === groupIndexItem.id)) {
-                categorizedGroupsIndex[categoryName].push(groupIndexItem); // adding group Index Item
+                const fileName = groupId + '.md';
+                const articlePath = path.join(taCategoriesPath, taArticleCategory, fileName);
+                groupName = getGroupName(articlePath);
+                addGroupToCategory(groupId, groupName, categorizedGroupsIndex, categoryName);
+                categoryFound = true;
+                break; // we got the category, so don't need to search anymore
+              } catch (e) {
+                let message = `error finding group name: groupId: ${groupId}, index: ${i} `;
+                console.error('generateGroupsIndex() - ' + message, e);
+                errors.push(message + e.toString());
               }
+            }
+
+            if (!categoryFound) {
+              addGroupToCategory(groupId, groupId, categorizedGroupsIndex, categoryName); // add entry even though we could not find localized description
+              throw `Could not find category for ${groupId}`;
             }
           }
         } catch (e) {
