@@ -2,7 +2,18 @@ import fs from 'fs-extra';
 import path from 'path-extra';
 import { getGroupName } from './helpers/resourcesHelpers';
 
-const addGroupToCategory = (groupId, groupName, categorizedGroupsIndex, categoryName) => {
+/**
+ * take this category and make sure it is in a group
+ * @param {String} groupId
+ * @param {Object} categorizedGroupsIndex
+ * @param {String} categoryName
+ * @param {String} taCategoriesPath
+ * @param {String} taArticleCategory
+ */
+const addCategoryToGroup = (groupId, categorizedGroupsIndex, categoryName,taCategoriesPath, taArticleCategory) => {
+  const fileName = groupId + '.md';
+  const articlePath = path.join(taCategoriesPath, taArticleCategory, fileName);
+  const groupName = getGroupName(articlePath);
   const groupIndexItem = getGroupIndex(groupId, groupName);
 
   // Only add the groupIndexItem if it isn't already in the category's groups index.
@@ -51,25 +62,22 @@ export const generateGroupsIndex = (tnCategoriesPath, taCategoriesPath) => {
 
               try {
                 if (!taArticleCategory) {
-                  throw `Link in Occurrence Note ${contextId.occurrenceNote} does not have category for check at index: ${i}`;
+                  throw new Error(`Link in Occurrence Note ${contextId.occurrenceNote} does not have category for check at index: ${i}`);
                 }
 
-                const fileName = groupId + '.md';
-                const articlePath = path.join(taCategoriesPath, taArticleCategory, fileName);
-                groupName = getGroupName(articlePath);
-                addGroupToCategory(groupId, groupName, categorizedGroupsIndex, categoryName);
+                addCategoryToGroup(groupId, categorizedGroupsIndex, categoryName, taCategoriesPath, taArticleCategory);
                 categoryFound = true;
                 break; // we got the category, so don't need to search anymore
               } catch (e) {
-                let message = `error finding group name: groupId: ${groupId}, index: ${i} `;
+                let message = `error finding group name: groupId: ${groupId}, index: ${i} in bookId ${bookid} `;
                 console.error('generateGroupsIndex() - ' + message, e);
                 errors.push(message + e.toString());
               }
             }
 
             if (!categoryFound) {
-              addGroupToCategory('other', 'other', categorizedGroupsIndex, categoryName); // add entry even though we could not find localized description
-              throw `Could not find category for ${groupId}`;
+              addCategoryToGroup('other', categorizedGroupsIndex, categoryName, taCategoriesPath, taArticleCategory); // add entry even though we could not find localized description
+              throw new Error(`Could not find category for ${groupId}`);
             }
           }
         } catch (e) {
