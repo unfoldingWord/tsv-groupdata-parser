@@ -46,11 +46,12 @@ export const generateGroupsIndex = (tnCategoriesPath, taCategoriesPath) => {
 
           if (groupData.length > 0) {
             for (let i = 0; i < groupData.length; i++ ) {
-              taArticleCategory = getArticleCategory(groupData[0].contextId.occurrenceNote, groupId);
+              const contextId = groupData[i].contextId;
+              taArticleCategory = getArticleCategory(contextId.occurrenceNote, groupId);
 
               try {
-                if (taArticleCategory !== groupId) {
-                  throw `Link in Occurrence Note ${taArticleCategory} does not match GroupID ${groupId} for check at index: ${i}`;
+                if (!taArticleCategory) {
+                  throw `Link in Occurrence Note ${contextId.occurrenceNote} does not have category for check at index: ${i}`;
                 }
 
                 const fileName = groupId + '.md';
@@ -67,7 +68,7 @@ export const generateGroupsIndex = (tnCategoriesPath, taCategoriesPath) => {
             }
 
             if (!categoryFound) {
-              addGroupToCategory(groupId, groupId, categorizedGroupsIndex, categoryName); // add entry even though we could not find localized description
+              addGroupToCategory('other', 'other', categorizedGroupsIndex, categoryName); // add entry even though we could not find localized description
               throw `Could not find category for ${groupId}`;
             }
           }
