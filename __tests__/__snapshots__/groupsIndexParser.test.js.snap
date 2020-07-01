@@ -298,7 +298,10 @@ Object {
 `;
 
 exports[`tests groupsIndexParser.generateGroupsIndex() test error handling 1`] = `
-[Error: generateGroupsIndex() - error processing index:
-error processing entry: bookid: gal, groupDataFile: translate-numbers.json, taArticleCategory: translate, groupName: null: Error: ENOENT: no such file or directory, open 'translate/translate-numbers.md'
-error processing entry: bookid: tit, groupDataFile: figs-hypo.json, taArticleCategory: translate, groupName: null: Error: ENOENT: no such file or directory, open 'translate/figs-hypo.md']
+Array [
+  "generateGroupsIndex() - error finding group name: groupId: 'translate-numbers', index: '0' in bookId 'gal, taArticleCategory: translate' ",
+  "Could not find localization for translate-numbers, adding stub entry",
+  "generateGroupsIndex() - error finding group name: groupId: 'figs-hypo', index: '0' in bookId 'tit, taArticleCategory: translate' ",
+  "Could not find localization for figs-hypo, adding stub entry",
+]
 `;

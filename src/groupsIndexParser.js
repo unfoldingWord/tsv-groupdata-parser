@@ -50,7 +50,6 @@ export const generateGroupsIndex = (tnCategoriesPath, taCategoriesPath) => {
           taArticleCategory = null;
           groupName = null;
           let foundLocalization = false;
-          let lastError = null;
 
           if (groupData.length > 0) {
             for (let i = 0; i < groupData.length; i++ ) {
@@ -71,17 +70,12 @@ export const generateGroupsIndex = (tnCategoriesPath, taCategoriesPath) => {
               } catch (e) {
                 let message = `error finding group name: groupId: '${groupId}', index: '${i}' in bookId '${bookid}, taArticleCategory: ${taArticleCategory}' `;
                 console.error('generateGroupsIndex() - ' + message, e);
-                lastError = e;
               }
             }
 
             if (!foundLocalization) {
               addGroupToCategory(groupId, groupId, categorizedGroupsIndex, categoryName); // add entry even though we could not find localized description
               console.error(`Could not find localization for ${groupId}, adding stub entry`);
-
-              if (lastError) { // throw last error to keep track of failures
-                throw lastError;
-              }
             }
           }
         } catch (e) {
