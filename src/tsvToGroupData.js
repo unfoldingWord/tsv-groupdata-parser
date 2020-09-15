@@ -279,6 +279,7 @@ const generateGroupDataItem = (tsvItem, toolName, verseString) => {
       },
       tool: toolName || '',
       groupId: tsvItem.SupportReference || '',
+      checkId: tsvItem.ID || '',
       quote,
       quoteString,
       glQuote: tsvItem.GLQuote || '',
