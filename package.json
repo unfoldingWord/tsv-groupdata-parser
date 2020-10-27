@@ -1,6 +1,6 @@
 {
   "name": "tsv-groupdata-parser",
-  "version": "0.9.16",
+  "version": "0.9.18",
   "description": "Parses the translationNotes TSVs files to generate the GroupIndex and GroupData for the translationCore Desktop app.",
   "main": "lib/index.js",
   "scripts": {
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/translationCoreApps/tsv-groupdata-parser.git"
+    "url": "git+https://github.com/unfoldingWord/tsv-groupdata-parser.git"
   },
   "keywords": [
     "tsv",
@@ -26,9 +26,9 @@
   "author": "@unfoldingword",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/translationCoreApps/tsv-groupdata-parser/issues"
+    "url": "https://github.com/unfoldingWord/tsv-groupdata-parser/issues"
   },
-  "homepage": "https://github.com/translationCoreApps/tsv-groupdata-parser#readme",
+  "homepage": "https://github.com/unfoldingWord/tsv-groupdata-parser#readme",
   "devDependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.5",
@@ -43,14 +43,17 @@
     "eslint-plugin-jest": "^22.17.0",
     "eslint-plugin-prettier": "^3.1.0",
     "jest": "^24.9.0",
-    "prettier": "^1.18.2"
+    "prettier": "^1.18.2",
+    "string-punctuation-tokenizer": "2.0.0"
   },
   "dependencies": {
     "fs-extra": "^7.0.1",
     "ospath": "^1.2.2",
     "path-extra": "^4.2.1",
     "semver": "^6.1.1",
-    "string-punctuation-tokenizer": "^0.9.4",
     "tsvtojson": "^1.0.1"
+  },
+  "peerDependencies": {
+    "string-punctuation-tokenizer": "^2.0.0"
   }
 }

@@ -2,6 +2,22 @@ import fs from 'fs-extra';
 import path from 'path-extra';
 import { getGroupName } from './helpers/resourcesHelpers';
 
+/**
+ * make sure this groupId is in a category
+ * @param {String} groupId
+ * @param {String} groupName - localized group name
+ * @param {Object} categorizedGroupsIndex
+ * @param {String} categoryName - category that should contain this groupId
+ */
+const addGroupToCategory = (groupId, groupName, categorizedGroupsIndex, categoryName) => {
+  const groupIndexItem = getGroupIndex(groupId, groupName);
+
+  // Only add the groupIndexItem if it isn't already in the category's groups index.
+  if (!categorizedGroupsIndex[categoryName].some(e => e.id === groupIndexItem.id)) {
+    categorizedGroupsIndex[categoryName].push(groupIndexItem); // adding group Index Item
+  }
+};
+
 export const generateGroupsIndex = (tnCategoriesPath, taCategoriesPath) => {
   const categorizedGroupsIndex = {
     discourse: [],
@@ -33,20 +49,33 @@ export const generateGroupsIndex = (tnCategoriesPath, taCategoriesPath) => {
           const groupData = fs.readJsonSync(filePath);
           taArticleCategory = null;
           groupName = null;
+          let foundLocalization = false;
 
           if (groupData.length > 0) {
-            taArticleCategory = getArticleCategory(groupData[0].contextId.occurrenceNote, groupId);
+            for (let i = 0; i < groupData.length; i++ ) {
+              const contextId = groupData[i].contextId;
+              taArticleCategory = getArticleCategory(contextId.occurrenceNote, groupId);
 
-            if (taArticleCategory) {
-              const fileName = groupId + '.md';
-              const articlePath = path.join(taCategoriesPath, taArticleCategory, fileName);
-              groupName = getGroupName(articlePath);
-              const groupIndexItem = getGroupIndex(groupId, groupName);
+              try {
+                if (!taArticleCategory) {
+                  throw new Error(`Link in Occurrence Note '${contextId.occurrenceNote}' does not have category for check at index: ${i}`);
+                }
 
-              // Only add the groupIndexItem if it isn't already in the category's groups index.
-              if (!categorizedGroupsIndex[categoryName].some(e => e.id === groupIndexItem.id)) {
-                categorizedGroupsIndex[categoryName].push(groupIndexItem); // adding group Index Item
+                const fileName = groupId + '.md';
+                const articlePath = path.join(taCategoriesPath, taArticleCategory, fileName);
+                groupName = getGroupName(articlePath);
+                addGroupToCategory(groupId, groupName, categorizedGroupsIndex, categoryName);
+                foundLocalization = true;
+                break; // we got the category, so don't need to search anymore
+              } catch (e) {
+                let message = `error finding group name: groupId: '${groupId}', index: '${i}' in bookId '${bookid}, taArticleCategory: ${taArticleCategory}' `;
+                console.error('generateGroupsIndex() - ' + message, e);
               }
+            }
+
+            if (!foundLocalization) {
+              addGroupToCategory(groupId, groupId, categorizedGroupsIndex, categoryName); // add entry even though we could not find localized description
+              console.error(`Could not find localization for '${groupId}' in '${categoryName}', adding stub entry`);
             }
           }
         } catch (e) {

@@ -1,5 +1,5 @@
 /* eslint-disable no-param-reassign */
-import stringTokenizer from 'string-punctuation-tokenizer';
+import { tokenize } from 'string-punctuation-tokenizer';
 import { ELLIPSIS, THREE_DOTS } from '../utils/constants';
 import { getOmittedWordsInQuote } from './ellipsisHelpers';
 import { cleanQuoteString } from './stringHelpers';
@@ -16,7 +16,7 @@ export function cleanRegex(str) {
 }
 
 function tokenizeQuote(quote) {
-  return stringTokenizer.tokenizeWithPunctuation(quote);
+  return tokenize({ text: quote, includePunctuation: true });
 }
 
 function substrOccurrencesInQuote(quote, substr, substrIndex, ellipsisCount, quoteOmittedStrings) {

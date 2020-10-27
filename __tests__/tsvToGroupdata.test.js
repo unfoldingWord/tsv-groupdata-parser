@@ -44,6 +44,13 @@ describe('tsvToGroupData():', () => {
     const result = await tsvToGroupData(filepath, 'translationNotes', { categorized: true }, ORIGINAL_BIBLE_PATH, RESOURCES_PATH, 'hi');
     expect(result).toMatchSnapshot();
   });
+
+  test('It returns the categorized group data for RUT.tsv', async () => {
+    const ORIGINAL_BIBLE_PATH = path.join(RESOURCES_PATH, 'hbo', 'bibles', 'uhb', 'v2.1.12');
+    const filepath = '__tests__/fixtures/tsv/en_tn_08-RUT.tsv';
+    const result = await tsvToGroupData(filepath, 'translationNotes', { categorized: true }, ORIGINAL_BIBLE_PATH, RESOURCES_PATH, 'hi');
+    expect(result).toMatchSnapshot();
+  });
 });
 
 describe('cleanGroupId()', () => {
