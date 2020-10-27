@@ -270,6 +270,7 @@ const generateGroupDataItem = (tsvItem, toolName, verseString) => {
     verseEdits: false,
     nothingToSelect: false,
     contextId: {
+      noteId: tsvItem.ID,
       occurrenceNote: tsvItem.OccurrenceNote || '',
       reference: {
         bookId: tsvItem.Book.toLowerCase() || '',
