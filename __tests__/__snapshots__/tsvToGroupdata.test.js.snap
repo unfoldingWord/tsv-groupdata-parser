@@ -94350,6 +94350,39 @@ Object {
         "verseEdits": false,
       },
     ],
+    "grammar-connect-logic-goal": Array [
+      Object {
+        "comments": false,
+        "contextId": Object {
+          "checkId": "ew8h",
+          "glQuote": "For this purpose",
+          "groupId": "grammar-connect-logic-goal",
+          "occurrence": 1,
+          "occurrenceNote": "The connecting phrase **For this purpose** introduces the goal that Paul wanted to accomplish when he left Titus in Crete (to ordain elders in the church). Alternate translation: “This is the reason” (See: [[rc://en/ta/man/translate/grammar-connect-logic-goal]])",
+          "quote": Array [
+            Object {
+              "occurrence": 1,
+              "word": "τούτου",
+            },
+            Object {
+              "occurrence": 1,
+              "word": "χάριν",
+            },
+          ],
+          "quoteString": "τούτου χάριν",
+          "reference": Object {
+            "bookId": "tit",
+            "chapter": 1,
+            "verse": 5,
+          },
+          "tool": "translationNotes",
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false,
+      },
+    ],
   },
   "numbers": Object {},
   "other": Object {
@@ -94458,39 +94491,6 @@ Object {
             "bookId": "tit",
             "chapter": 3,
             "verse": 4,
-          },
-          "tool": "translationNotes",
-        },
-        "nothingToSelect": false,
-        "reminders": false,
-        "selections": false,
-        "verseEdits": false,
-      },
-    ],
-    "grammar-connect-logic-goal": Array [
-      Object {
-        "comments": false,
-        "contextId": Object {
-          "checkId": "ew8h",
-          "glQuote": "For this purpose",
-          "groupId": "grammar-connect-logic-goal",
-          "occurrence": 1,
-          "occurrenceNote": "The connecting phrase **For this purpose** introduces the goal that Paul wanted to accomplish when he left Titus in Crete (to ordain elders in the church). Alternate translation: “This is the reason” (See: [[rc://en/ta/man/translate/grammar-connect-logic-goal]])",
-          "quote": Array [
-            Object {
-              "occurrence": 1,
-              "word": "τούτου",
-            },
-            Object {
-              "occurrence": 1,
-              "word": "χάριν",
-            },
-          ],
-          "quoteString": "τούτου χάριν",
-          "reference": Object {
-            "bookId": "tit",
-            "chapter": 1,
-            "verse": 5,
           },
           "tool": "translationNotes",
         },
