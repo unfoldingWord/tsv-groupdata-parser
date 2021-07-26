@@ -48,6 +48,7 @@ export const tNotesCategories = {
     'figs-rquestion': 'Rhetorical Question',
     'figs-simile': 'Simile',
     'figs-synecdoche': 'Synecdoche',
+    'figs-quotemarks': 'Quote Markings',
   },
   culture: {
     'figs-explicit': 'Assumed Knowledge and Implicit Information',
@@ -79,6 +80,7 @@ export const tNotesCategories = {
     'figs-pronouns': 'Pronouns',
     'figs-rpronouns': 'Reflexive Pronouns',
     'figs-gendernotations': 'When Masculine Words Include Women',
+    'grammar-connect-logic-goal': 'Connect - Goal (Purpose) Relationship',
   },
   other: {
     'guidelines-sonofgodprinciples': 'Translating Son and Father',
