@@ -81,6 +81,9 @@ export const tNotesCategories = {
     'figs-rpronouns': 'Reflexive Pronouns',
     'figs-gendernotations': 'When Masculine Words Include Women',
     'grammar-connect-logic-goal': 'Connect - Goal (Purpose) Relationship',
+    'grammar-connect-exceptions': 'Connect - Exception Clauses',
+    'grammar-connect-logic-contrast': 'Connect - Contrast Relationship',
+    'grammar-connect-logic-result': 'Connect - Reason-and-Result Relationship',
   },
   other: {
     'guidelines-sonofgodprinciples': 'Translating Son and Father',
