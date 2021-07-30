@@ -91247,77 +91247,6 @@ Object {
         "verseEdits": false,
       },
     ],
-  },
-  "numbers": Object {},
-  "other": Object {
-    "figs-informremind": Array [
-      Object {
-        "comments": false,
-        "contextId": Object {
-          "checkId": "vys2",
-          "glQuote": "Then behold,",
-          "groupId": "figs-informremind",
-          "occurrence": 1,
-          "occurrenceNote": "The word **behold** alerts us to the important event of Boaz arriving at the field and seeing Ruth for the first time. Your language may also have a specific way of alerting someone to pay careful attention to what happens next in the story. (See: [[rc://en/ta/man/translate/figs-informremind]])",
-          "quote": "וְ⁠הִנֵּה",
-          "quoteString": "וְ⁠הִנֵּה",
-          "reference": Object {
-            "bookId": "rut",
-            "chapter": 2,
-            "verse": 4,
-          },
-          "tool": "translationNotes",
-        },
-        "nothingToSelect": false,
-        "reminders": false,
-        "selections": false,
-        "verseEdits": false,
-      },
-      Object {
-        "comments": false,
-        "contextId": Object {
-          "checkId": "nd8v",
-          "glQuote": "Look",
-          "groupId": "figs-informremind",
-          "occurrence": 1,
-          "occurrenceNote": "The word **Look** indicates that the following statement is very important.  (See: [[rc://en/ta/man/translate/figs-informremind]])",
-          "quote": "הִנֵּה",
-          "quoteString": "הִנֵּה",
-          "reference": Object {
-            "bookId": "rut",
-            "chapter": 3,
-            "verse": 2,
-          },
-          "tool": "translationNotes",
-        },
-        "nothingToSelect": false,
-        "reminders": false,
-        "selections": false,
-        "verseEdits": false,
-      },
-      Object {
-        "comments": false,
-        "contextId": Object {
-          "checkId": "jdr9",
-          "glQuote": "And behold,",
-          "groupId": "figs-informremind",
-          "occurrence": 1,
-          "occurrenceNote": "The word **behold** alerts us to the important event of Boaz seeing the exact person whom he wanted to see walking by. Your language may also have a specific way of alerting someone to pay careful attention to what happens next in the story. (See: [[rc://en/ta/man/translate/figs-informremind]])",
-          "quote": "וְ⁠הִנֵּ֨ה",
-          "quoteString": "וְ⁠הִנֵּ֨ה",
-          "reference": Object {
-            "bookId": "rut",
-            "chapter": 4,
-            "verse": 1,
-          },
-          "tool": "translationNotes",
-        },
-        "nothingToSelect": false,
-        "reminders": false,
-        "selections": false,
-        "verseEdits": false,
-      },
-    ],
     "grammar-connect-exceptions": Array [
       Object {
         "comments": false,
@@ -91537,6 +91466,77 @@ Object {
             "bookId": "rut",
             "chapter": 4,
             "verse": 15,
+          },
+          "tool": "translationNotes",
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false,
+      },
+    ],
+  },
+  "numbers": Object {},
+  "other": Object {
+    "figs-informremind": Array [
+      Object {
+        "comments": false,
+        "contextId": Object {
+          "checkId": "vys2",
+          "glQuote": "Then behold,",
+          "groupId": "figs-informremind",
+          "occurrence": 1,
+          "occurrenceNote": "The word **behold** alerts us to the important event of Boaz arriving at the field and seeing Ruth for the first time. Your language may also have a specific way of alerting someone to pay careful attention to what happens next in the story. (See: [[rc://en/ta/man/translate/figs-informremind]])",
+          "quote": "וְ⁠הִנֵּה",
+          "quoteString": "וְ⁠הִנֵּה",
+          "reference": Object {
+            "bookId": "rut",
+            "chapter": 2,
+            "verse": 4,
+          },
+          "tool": "translationNotes",
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false,
+      },
+      Object {
+        "comments": false,
+        "contextId": Object {
+          "checkId": "nd8v",
+          "glQuote": "Look",
+          "groupId": "figs-informremind",
+          "occurrence": 1,
+          "occurrenceNote": "The word **Look** indicates that the following statement is very important.  (See: [[rc://en/ta/man/translate/figs-informremind]])",
+          "quote": "הִנֵּה",
+          "quoteString": "הִנֵּה",
+          "reference": Object {
+            "bookId": "rut",
+            "chapter": 3,
+            "verse": 2,
+          },
+          "tool": "translationNotes",
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false,
+      },
+      Object {
+        "comments": false,
+        "contextId": Object {
+          "checkId": "jdr9",
+          "glQuote": "And behold,",
+          "groupId": "figs-informremind",
+          "occurrence": 1,
+          "occurrenceNote": "The word **behold** alerts us to the important event of Boaz seeing the exact person whom he wanted to see walking by. Your language may also have a specific way of alerting someone to pay careful attention to what happens next in the story. (See: [[rc://en/ta/man/translate/figs-informremind]])",
+          "quote": "וְ⁠הִנֵּ֨ה",
+          "quoteString": "וְ⁠הִנֵּ֨ה",
+          "reference": Object {
+            "bookId": "rut",
+            "chapter": 4,
+            "verse": 1,
           },
           "tool": "translationNotes",
         },
@@ -94350,42 +94350,6 @@ Object {
         "verseEdits": false,
       },
     ],
-    "grammar-connect-logic-goal": Array [
-      Object {
-        "comments": false,
-        "contextId": Object {
-          "checkId": "ew8h",
-          "glQuote": "For this purpose",
-          "groupId": "grammar-connect-logic-goal",
-          "occurrence": 1,
-          "occurrenceNote": "The connecting phrase **For this purpose** introduces the goal that Paul wanted to accomplish when he left Titus in Crete (to ordain elders in the church). Alternate translation: “This is the reason” (See: [[rc://en/ta/man/translate/grammar-connect-logic-goal]])",
-          "quote": Array [
-            Object {
-              "occurrence": 1,
-              "word": "τούτου",
-            },
-            Object {
-              "occurrence": 1,
-              "word": "χάριν",
-            },
-          ],
-          "quoteString": "τούτου χάριν",
-          "reference": Object {
-            "bookId": "tit",
-            "chapter": 1,
-            "verse": 5,
-          },
-          "tool": "translationNotes",
-        },
-        "nothingToSelect": false,
-        "reminders": false,
-        "selections": false,
-        "verseEdits": false,
-      },
-    ],
-  },
-  "numbers": Object {},
-  "other": Object {
     "grammar-connect-exceptions": Array [
       Object {
         "comments": false,
@@ -94500,6 +94464,39 @@ Object {
         "verseEdits": false,
       },
     ],
+    "grammar-connect-logic-goal": Array [
+      Object {
+        "comments": false,
+        "contextId": Object {
+          "checkId": "ew8h",
+          "glQuote": "For this purpose",
+          "groupId": "grammar-connect-logic-goal",
+          "occurrence": 1,
+          "occurrenceNote": "The connecting phrase **For this purpose** introduces the goal that Paul wanted to accomplish when he left Titus in Crete (to ordain elders in the church). Alternate translation: “This is the reason” (See: [[rc://en/ta/man/translate/grammar-connect-logic-goal]])",
+          "quote": Array [
+            Object {
+              "occurrence": 1,
+              "word": "τούτου",
+            },
+            Object {
+              "occurrence": 1,
+              "word": "χάριν",
+            },
+          ],
+          "quoteString": "τούτου χάριν",
+          "reference": Object {
+            "bookId": "tit",
+            "chapter": 1,
+            "verse": 5,
+          },
+          "tool": "translationNotes",
+        },
+        "nothingToSelect": false,
+        "reminders": false,
+        "selections": false,
+        "verseEdits": false,
+      },
+    ],
     "grammar-connect-logic-result": Array [
       Object {
         "comments": false,
@@ -94586,6 +94583,8 @@ Object {
       },
     ],
   },
+  "numbers": Object {},
+  "other": Object {},
 }
 `;
 
