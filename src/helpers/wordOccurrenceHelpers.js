@@ -1,11 +1,11 @@
 /* eslint-disable no-param-reassign */
-import { tokenize } from 'string-punctuation-tokenizer';
+import { tokenize, tokenizeOrigLang } from 'string-punctuation-tokenizer';
 import { ELLIPSIS, THREE_DOTS } from '../utils/constants';
 import { getOmittedWordsInQuote } from './ellipsisHelpers';
 import { cleanQuoteString } from './stringHelpers';
 
 function countStringInArray(array, string) {
-  return array.filter(item => item == string).length;
+  return array.filter(item => item === string).length;
 }
 
 export function cleanRegex(str) {
@@ -15,12 +15,16 @@ export function cleanRegex(str) {
   return str;
 }
 
-function tokenizeQuote(quote) {
-  return tokenize({ text: quote, includePunctuation: true });
+function tokenizeQuote(quote, isOrigLang = false) {
+  if (isOrigLang) {
+    return tokenizeOrigLang({ text: quote, includePunctuation: true });
+  } else {
+    return tokenize({ text: quote, includePunctuation: true });
+  }
 }
 
-function substrOccurrencesInQuote(quote, substr, substrIndex, ellipsisCount, quoteOmittedStrings) {
-  const quoteSubstrings = tokenizeQuote(quote);
+function substrOccurrencesInQuote(quote, substr, substrIndex, ellipsisCount, quoteOmittedStrings, isOrigLang = false) {
+  const quoteSubstrings = tokenizeQuote(quote, isOrigLang);
   let precedingSubstrs = quoteSubstrings.slice(0, substrIndex);
   let localEllipsisCount = 0;
 
@@ -28,7 +32,7 @@ function substrOccurrencesInQuote(quote, substr, substrIndex, ellipsisCount, quo
     if (precedingSubstr === ELLIPSIS) {
       ++localEllipsisCount;
       const untokenizedString = quoteOmittedStrings[localEllipsisCount - 1];
-      const missingPrecedingSubstrs = tokenizeQuote(untokenizedString).reverse();
+      const missingPrecedingSubstrs = tokenizeQuote(untokenizedString, isOrigLang).reverse();
 
       // Add tokenized missing strings to precedingSubstrs for accurate occurrence number search
       missingPrecedingSubstrs.forEach(missingPrecedingSubstr => {
@@ -55,11 +59,11 @@ function substrOccurrencesInQuote(quote, substr, substrIndex, ellipsisCount, quo
  * @param {string} quoteOmittedStrings - list of omitted strings in the quote.
  * pass in the loop
  */
-function getWordOccurrence(verseString, substr, quote, substrIndex, wholeQuote, ellipsisCount, quoteOmittedStrings) {
+function getWordOccurrence(verseString, substr, quote, substrIndex, wholeQuote, ellipsisCount, quoteOmittedStrings, isOrigLang = false) {
   const goodQuote = quote.includes(ELLIPSIS) ? wholeQuote : quote;
   const quoteSubStrIndex = verseString.indexOf(goodQuote);
   const precedingStr = verseString.substring(0, quoteSubStrIndex);
-  const precedingStrs = tokenizeQuote(precedingStr);
+  const precedingStrs = tokenizeQuote(precedingStr, isOrigLang);
   let precedingOccurrences = 0;
 
   for (let i = 0; i <= precedingStrs.length; i++) {
@@ -74,14 +78,14 @@ function getWordOccurrence(verseString, substr, quote, substrIndex, wholeQuote, 
 
   // if substr is found in quote more than once
   if (goodQuote.split(new RegExp(cleanRegex(substr), 'gi')).length - 1 > 1) {
-    const precedingSubstrOccurrences = substrOccurrencesInQuote(quote, substr, substrIndex, ellipsisCount, quoteOmittedStrings);
+    const precedingSubstrOccurrences = substrOccurrencesInQuote(quote, substr, substrIndex, ellipsisCount, quoteOmittedStrings, isOrigLang);
     occurrence += precedingSubstrOccurrences;
   }
 
   return occurrence;
 }
 
-export function getWordOccurrencesForQuote(quote, verseString) {
+export function getWordOccurrencesForQuote(quote, verseString, isOrigLang = false) {
   const words = [];
   let wholeQuote = '';
   let quoteOmittedStrings;
@@ -94,7 +98,7 @@ export function getWordOccurrencesForQuote(quote, verseString) {
     quoteOmittedStrings = quoteOmittedWords.omittedStrings;
   }
 
-  const substrings = tokenizeQuote(quote);
+  const substrings = tokenizeQuote(quote, isOrigLang);
 
   let ellipsisCount = 0;
 
@@ -105,7 +109,7 @@ export function getWordOccurrencesForQuote(quote, verseString) {
       ++ellipsisCount;
       word = { word: substring };
     } else {
-      const occurrence = getWordOccurrence(verseString, substring, quote, index, wholeQuote, ellipsisCount, quoteOmittedStrings);
+      const occurrence = getWordOccurrence(verseString, substring, quote, index, wholeQuote, ellipsisCount, quoteOmittedStrings, isOrigLang);
 
       word = {
         word: substring,
