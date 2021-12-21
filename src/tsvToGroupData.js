@@ -31,16 +31,14 @@ export const tsvToGroupData = async (filepath, toolName, params = {}, originalBi
 
   try {
     const resourceApi = new ManageResource(originalBiblePath, bookId.toLowerCase());
-    let error = false;
 
     tsvObjects.forEach(tsvItem => {
       if (tsvItem.SupportReference && tsvItem.OrigQuote) {
         tsvItem.SupportReference = cleanGroupId(tsvItem.SupportReference);
-        tsvItem.OccurrenceNote = cleanOccurrenceNoteLinks(tsvItem.OccurrenceNote, resourcesPath, langId, bookId.toLowerCase(), tsvItem.Chapter);
+        tsvItem.OccurrenceNote = cleanOccurrenceNoteLinks(tsvItem.OccurrenceNote || '', resourcesPath, langId, bookId.toLowerCase(), tsvItem.Chapter);
 
         if (!tsvItem.OccurrenceNote) {
-          console.error('tsvToGroupData() - error processing item:', JSON.stringify(tsvItem));
-          error = true;
+          console.warn('tsvToGroupData() - error processing item:', JSON.stringify(tsvItem));
           return;
         }
 
@@ -56,9 +54,6 @@ export const tsvToGroupData = async (filepath, toolName, params = {}, originalBi
       }
     });
 
-    if (error) {
-      throw new Error('Invalid TSV group data');
-    }
     return params && params.categorized ? categorizeGroupData(groupData) : groupData;
   } catch (e) {
     console.error(`tsvToGroupData() - error processing filepath: ${filepath}`, e);
@@ -79,7 +74,8 @@ export const cleanGroupId = groupId => {
     let cleanedId = elements[elements.length - 1];
     // Replace _ with - in groupId
     // Ex: writing_background => writing-background
-    cleanedId = cleanedId.replace('_', '-');
+    cleanedId = cleanedId.replaceAll('_', '-');
+    cleanedId = cleanedId.replaceAll('<br>', '').trim(); // remove white space including html new lines
     return cleanedId;
   } catch (e) {
     console.error(`cleanGroupId() - groupId: ${groupId}`, e);

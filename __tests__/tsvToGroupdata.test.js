@@ -51,6 +51,12 @@ describe('tsvToGroupData():', () => {
     const result = await tsvToGroupData(filepath, 'translationNotes', { categorized: true }, ORIGINAL_BIBLE_PATH, RESOURCES_PATH, 'hi');
     expect(result).toMatchSnapshot();
   });
+
+  test('It should not crash on missing occurrence notes', async () => {
+    const filepath = '__tests__/fixtures/tsv/en_tn_57-TIT-missing-occurrence-note.tsv';
+    const result = await tsvToGroupData(filepath, 'translationNotes', null, ORIGINAL_BIBLE_PATH, RESOURCES_PATH, 'en');
+    expect(result).toMatchSnapshot();
+  });
 });
 
 describe('cleanGroupId()', () => {
@@ -64,6 +70,8 @@ describe('cleanGroupId()', () => {
       'translate:translate_textvariants': 'translate-textvariants',
       'translate:translate_versebridge': 'translate-versebridge',
       'translate:translate-symaction': 'translate-symaction',
+      'figs-explicit<br><br><br>': 'figs-explicit',
+      ' figs-explicit ': 'figs-explicit',
     };
 
     Object.keys(testItems).forEach(badGroupId => {
