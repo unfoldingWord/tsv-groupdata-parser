@@ -64,6 +64,8 @@ describe('cleanGroupId()', () => {
       'translate:translate_textvariants': 'translate-textvariants',
       'translate:translate_versebridge': 'translate-versebridge',
       'translate:translate-symaction': 'translate-symaction',
+      'figs-explicit<br><br><br>': 'figs-explicit',
+      ' figs-explicit ': 'figs-explicit',
     };
 
     Object.keys(testItems).forEach(badGroupId => {
