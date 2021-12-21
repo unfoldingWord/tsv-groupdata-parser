@@ -75,7 +75,7 @@ export const cleanGroupId = groupId => {
     // Replace _ with - in groupId
     // Ex: writing_background => writing-background
     cleanedId = cleanedId.replaceAll('_', '-');
-    cleanedId = cleanedId.replaceAll('<br>', '').trim(); // remove white space
+    cleanedId = cleanedId.replaceAll('<br>', '').trim(); // remove white space including html new lines
     return cleanedId;
   } catch (e) {
     console.error(`cleanGroupId() - groupId: ${groupId}`, e);
