@@ -32,27 +32,39 @@ export const tsvToGroupData = async (filepath, toolName, params = {}, originalBi
   try {
     const resourceApi = new ManageResource(originalBiblePath, bookId.toLowerCase());
 
-    tsvObjects.forEach(tsvItem => {
+    for (const tsvItem of tsvObjects) {
       if (tsvItem.SupportReference && tsvItem.OrigQuote) {
-        tsvItem.SupportReference = cleanGroupId(tsvItem.SupportReference);
+        const supportReference = cleanGroupId(tsvItem.SupportReference);
+
+        if (!supportReference) {
+          continue; // skip over if cleaned support reference is empty
+        }
         tsvItem.OccurrenceNote = cleanOccurrenceNoteLinks(tsvItem.OccurrenceNote || '', resourcesPath, langId, bookId.toLowerCase(), tsvItem.Chapter);
 
         if (!tsvItem.OccurrenceNote) {
           console.warn('tsvToGroupData() - error processing item:', JSON.stringify(tsvItem));
-          return;
+          continue;
         }
 
         const chapter = parseInt(tsvItem.Chapter, 10);
         const verse = parseInt(tsvItem.Verse, 10);
-        const verseString = resourceApi.getVerseString(chapter, verse);
+        let verseString = null;
 
-        if (groupData[tsvItem.SupportReference]) {
-          groupData[tsvItem.SupportReference].push(generateGroupDataItem(tsvItem, toolName, verseString));
-        } else {
-          groupData[tsvItem.SupportReference] = [generateGroupDataItem(tsvItem, toolName, verseString)];
+        try {
+          verseString = resourceApi.getVerseString(chapter, verse);
+        } catch (e) {
+          console.warn(`tsvToGroupData() - error getting verse string: chapter ${chapter}, verse ${verse}`, e);
+        }
+
+        if (verseString) {
+          if (groupData[supportReference]) {
+            groupData[supportReference].push(generateGroupDataItem(tsvItem, toolName, verseString));
+          } else {
+            groupData[supportReference] = [generateGroupDataItem(tsvItem, toolName, verseString)];
+          }
         }
       }
-    });
+    }
 
     return params && params.categorized ? categorizeGroupData(groupData) : groupData;
   } catch (e) {
