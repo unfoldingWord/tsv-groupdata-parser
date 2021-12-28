@@ -97201,7 +97201,5655 @@ Object {
 }
 `;
 
+exports[`tsvToGroupData(): It should not crash invalid ref 1`] = `
+Object {
+  "figs-abstractnouns": Array [
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xyz2",
+        "glQuote": "in the faith",
+        "groupId": "figs-abstractnouns",
+        "occurrence": 1,
+        "occurrenceNote": "Here the abstract noun **faith** represents the things that the people believe about God. Alternate translation: “in what they believe about God” (See: [Abstract Nouns](rc://en/ta/man/translate/figs-abstractnouns))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "ἐν",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "τῇ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "πίστει",
+          },
+        ],
+        "quoteString": "ἐν τῇ πίστει",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 13,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "m14y",
+        "glQuote": "sound in faith, in love, and in perseverance",
+        "groupId": "figs-abstractnouns",
+        "occurrence": 1,
+        "occurrenceNote": "Here the word **sound** means to be firm and unwavering. The abstract nouns **faith**, **love**, and **perseverance** can be stated as verbs. Alternate translation: “and they must firmly believe the true teachings about God, truly love others, and continually serve God even when things are difficult” (See: [Abstract Nouns](rc://en/ta/man/translate/figs-abstractnouns))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "ὑγιαίνοντας",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "τῇ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "πίστει",
+          },
+          Object {
+            "occurrence": 4,
+            "word": ",",
+          },
+          Object {
+            "occurrence": 2,
+            "word": "τῇ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἀγάπῃ",
+          },
+          Object {
+            "occurrence": 5,
+            "word": ",",
+          },
+          Object {
+            "occurrence": 3,
+            "word": "τῇ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ὑπομονῇ",
+          },
+        ],
+        "quoteString": "ὑγιαίνοντας τῇ πίστει, τῇ ἀγάπῃ, τῇ ὑπομονῇ",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 2,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "abc1",
+        "glQuote": "sound in faith",
+        "groupId": "figs-abstractnouns",
+        "occurrence": 1,
+        "occurrenceNote": "See note about **sound in faith** on [Titus 1:13](../01/13/je3r).",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "ὑγιαίνοντας",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "τῇ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "πίστει",
+          },
+        ],
+        "quoteString": "ὑγιαίνοντας τῇ πίστει",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 2,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "abcg",
+        "glQuote": "when the kindness of God our Savior and his love for mankind appeared",
+        "groupId": "figs-abstractnouns",
+        "occurrence": 1,
+        "occurrenceNote": "The abstract nouns **kindness** and **love** can be stated as adjectives. Alternate translation: “when God, who saves us, showed how kind and loving he would be to mankind” (See: [Abstract Nouns](rc://en/ta/man/translate/figs-abstractnouns))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "ὅτε",
+          },
+          Object {
+            "word": "…",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἡ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "χρηστότης",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "καὶ",
+          },
+          Object {
+            "occurrence": 2,
+            "word": "ἡ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "φιλανθρωπία",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἐπεφάνη",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "τοῦ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "Σωτῆρος",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἡμῶν",
+          },
+          Object {
+            "occurrence": 1,
+            "word": ",",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "Θεοῦ",
+          },
+        ],
+        "quoteString": "ὅτε…ἡ χρηστότης καὶ ἡ φιλανθρωπία ἐπεφάνη τοῦ Σωτῆρος ἡμῶν, Θεοῦ",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 4,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+  ],
+  "figs-activepassive": Array [
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "m41u",
+        "glQuote": "that I was entrusted with",
+        "groupId": "figs-activepassive",
+        "occurrence": 1,
+        "occurrenceNote": "This can be stated in active form. Alternate translation: “he entrusted to me” or “he gave me the responsibility to preach” (See: [Active or Passive](rc://en/ta/man/translate/figs-activepassive))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "ὃ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἐπιστεύθην",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἐγὼ",
+          },
+        ],
+        "quoteString": "ὃ ἐπιστεύθην ἐγὼ",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 3,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xyz4",
+        "glQuote": "or being slaves to much wine",
+        "groupId": "figs-activepassive",
+        "occurrence": 1,
+        "occurrenceNote": "This can be stated in active form. Alternate translation: “or drinking too much wine” or “or addicted to wine” (See: [Active or Passive](rc://en/ta/man/translate/figs-activepassive))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "οἴνῳ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "πολλῷ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "δεδουλωμένας",
+          },
+        ],
+        "quoteString": "οἴνῳ πολλῷ δεδουλωμένας",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 3,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "t5v6",
+        "glQuote": "so that the word of God may not be insulted",
+        "groupId": "figs-activepassive",
+        "occurrence": 1,
+        "occurrenceNote": "**Word** here is a metonym for **_message_**, which in turn is a metonym for God himself. This can be stated in active form. Alternate translation: “so that no one insults the word of God” or “so that no one insults God by saying bad things about his message” (See: [Active or Passive](rc://en/ta/man/translate/figs-activepassive) and [Metonymy](rc://en/ta/man/translate/figs-metonymy))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "ἵνα",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "μὴ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ὁ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "λόγος",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "τοῦ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "Θεοῦ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "βλασφημῆται",
+          },
+        ],
+        "quoteString": "ἵνα μὴ ὁ λόγος τοῦ Θεοῦ βλασφημῆται",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 5,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xy27",
+        "glQuote": "We were led astray and enslaved by various passions and pleasures",
+        "groupId": "figs-activepassive",
+        "occurrence": 1,
+        "occurrenceNote": "This can be translated in active form. Alternate translation: “Various passions and pleasures had lied to us and so led us astray” (See: [Active or Passive](rc://en/ta/man/translate/figs-activepassive))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "πλανώμενοι",
+          },
+          Object {
+            "occurrence": 3,
+            "word": ",",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "δουλεύοντες",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἐπιθυμίαις",
+          },
+          Object {
+            "occurrence": 2,
+            "word": "καὶ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἡδοναῖς",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ποικίλαις",
+          },
+        ],
+        "quoteString": "πλανώμενοι, δουλεύοντες ἐπιθυμίαις καὶ ἡδοναῖς ποικίλαις",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 3,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "di3g",
+        "glQuote": "having been justified",
+        "groupId": "figs-activepassive",
+        "occurrence": 1,
+        "occurrenceNote": "This can be stated in active form. Alternate translation: “since God has declared us to be without sin” (See: [Active or Passive](rc://en/ta/man/translate/figs-activepassive))",
+        "quote": "δικαιωθέντες",
+        "quoteString": "δικαιωθέντες",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 7,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+  ],
+  "figs-doublenegatives": Array [
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xy22",
+        "glQuote": "Let no one disregard you",
+        "groupId": "figs-doublenegatives",
+        "occurrence": 1,
+        "occurrenceNote": "This can be stated positively: “Make sure that everyone listens to you” (See: [Double Negatives](rc://en/ta/man/translate/figs-doublenegatives))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "μηδείς",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "σου",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "περιφρονείτω",
+          },
+        ],
+        "quoteString": "μηδείς σου περιφρονείτω",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 15,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "abc8",
+        "glQuote": "to avoid quarreling",
+        "groupId": "figs-doublenegatives",
+        "occurrence": 1,
+        "occurrenceNote": "This can be stated positively: “to be peaceful” (See: [Double Negatives](rc://en/ta/man/translate/figs-doublenegatives))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "ἀμάχους",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "εἶναι",
+          },
+        ],
+        "quoteString": "ἀμάχους εἶναι",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 2,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xy31",
+        "glQuote": "so that they lack nothing",
+        "groupId": "figs-doublenegatives",
+        "occurrence": 1,
+        "occurrenceNote": "This can be stated positively: “so that they have everything that they need” (See: [Double Negatives](rc://en/ta/man/translate/figs-doublenegatives))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "ἵνα",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "μηδὲν",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "αὐτοῖς",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "λείπῃ",
+          },
+        ],
+        "quoteString": "ἵνα μηδὲν αὐτοῖς λείπῃ",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 13,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xy32",
+        "glQuote": "in order not to be unfruitful",
+        "groupId": "figs-doublenegatives",
+        "occurrence": 1,
+        "occurrenceNote": "This can be stated positively: “in this way they will be fruitful” or “in this way they will be productive” (See: [Double Negatives](rc://en/ta/man/translate/figs-doublenegatives))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "ἵνα",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "μὴ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ὦσιν",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἄκαρποι",
+          },
+        ],
+        "quoteString": "ἵνα μὴ ὦσιν ἄκαρποι",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 14,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+  ],
+  "figs-doublet": Array [
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xy11",
+        "glQuote": "sensible…self-controlled",
+        "groupId": "figs-doublet",
+        "occurrence": 1,
+        "occurrenceNote": "These two terms are very similar in meaning and may be translated by one term if the target language does not have two similar terms. (See: [Doublet](rc://en/ta/man/translate/figs-doublet))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "σώφρονα",
+          },
+          Object {
+            "word": "…",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἐγκρατῆ",
+          },
+        ],
+        "quoteString": "σώφρονα…ἐγκρατῆ",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 8,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xy12",
+        "glQuote": "righteous, holy",
+        "groupId": "figs-doublet",
+        "occurrence": 1,
+        "occurrenceNote": "These two terms are very similar in meaning and may be translated by one term if the target language does not have two similar terms. (See: [Doublet](rc://en/ta/man/translate/figs-doublet))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "δίκαιον",
+          },
+          Object {
+            "occurrence": 4,
+            "word": ",",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ὅσιον",
+          },
+        ],
+        "quoteString": "δίκαιον, ὅσιον",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 8,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xy13",
+        "glQuote": "temperate, dignified, sensible",
+        "groupId": "figs-doublet",
+        "occurrence": 1,
+        "occurrenceNote": "These three words are very close in meaning and may be combined into one or two terms if the target language does not have three separate terms. (See: [Doublet](rc://en/ta/man/translate/figs-doublet))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "νηφαλίους",
+          },
+          Object {
+            "word": "…",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "σεμνούς",
+          },
+          Object {
+            "occurrence": 2,
+            "word": ",",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "σώφρονας",
+          },
+        ],
+        "quoteString": "νηφαλίους…σεμνούς, σώφρονας",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 2,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xy14",
+        "glQuote": "uncorrupted…sound",
+        "groupId": "figs-doublet",
+        "occurrence": 1,
+        "occurrenceNote": "This word has the same basic meaning as **uncorrupted** in 2:7. In 2:7, Paul states the meaning negatively: **uncorrupted**, meaning, **without error**, and in 2:8 he states the meaning positively: **sound, whole**, meaning **correct**. Both terms refer to Titus’s teaching. Use either positive or negative terms in the target language, or use one term with this meaning if it is difficult to use two terms (See: [Doublet](rc://en/ta/man/translate/figs-doublet))",
+        "quote": "ὑγιῆ",
+        "quoteString": "ὑγιῆ",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 8,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "wa9x",
+        "glQuote": "rulers and authorities",
+        "groupId": "figs-doublet",
+        "occurrence": 1,
+        "occurrenceNote": "These words have similar meanings and both refer to anyone who holds authority in the government. If the target language has only one term for this, then just use that term (See: [Doublet](rc://en/ta/man/translate/figs-doublet))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "ἀρχαῖς",
+          },
+          Object {
+            "occurrence": 1,
+            "word": ",",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἐξουσίαις",
+          },
+        ],
+        "quoteString": "ἀρχαῖς, ἐξουσίαις",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 1,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xy25",
+        "glQuote": "to submit…to obey",
+        "groupId": "figs-doublet",
+        "occurrence": 1,
+        "occurrenceNote": "These words have similar meanings and both refer to doing what someone tells you to do. If the target language has only one term for this, then just use that term (See: [Doublet](rc://en/ta/man/translate/figs-doublet))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "ὑποτάσσεσθαι",
+          },
+          Object {
+            "occurrence": 3,
+            "word": ",",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "πειθαρχεῖν",
+          },
+        ],
+        "quoteString": "ὑποτάσσεσθαι, πειθαρχεῖν",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 1,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+  ],
+  "figs-ellipsis": Array [
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "h93t",
+        "glQuote": "Grace and peace",
+        "groupId": "figs-ellipsis",
+        "occurrence": 1,
+        "occurrenceNote": "This was a common greeting Paul used. You can state clearly the understood information. Alternate translation: “May you experience kindness and inner peace” (See: [Ellipsis](rc://en/ta/man/translate/figs-ellipsis))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "χάρις",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "καὶ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "εἰρήνη",
+          },
+        ],
+        "quoteString": "χάρις καὶ εἰρήνη",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 4,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xyz3",
+        "glQuote": "Older men are to be",
+        "groupId": "figs-ellipsis",
+        "occurrence": 1,
+        "occurrenceNote": "The Greek does not have **are**, but only **older men to be**. We need to supply a verb here, drawing from the idea of **speak** in the previous verse, such as **teach** or **exhort**. Alternate translation: “Teach older men to be” (See: [Ellipsis](rc://en/ta/man/translate/figs-ellipsis))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "πρεσβύτας",
+          },
+          Object {
+            "word": "…",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "εἶναι",
+          },
+        ],
+        "quoteString": "πρεσβύτας…εἶναι",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 2,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "gl8e",
+        "glQuote": "Older women likewise are to be",
+        "groupId": "figs-ellipsis",
+        "occurrence": 1,
+        "occurrenceNote": "The Greek does not have **are to be**, but only **older women likewise**. We need to continue the verbal idea from the previous two verses and apply that here, as well, such as **teach** or **exhort**. Alternate translation: “In the same way, teach older women” or “Also teach older women” (See: [Ellipsis](rc://en/ta/man/translate/figs-ellipsis))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "πρεσβύτιδας",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ὡσαύτως",
+          },
+        ],
+        "quoteString": "πρεσβύτιδας ὡσαύτως",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 3,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xyz5",
+        "glQuote": "Slaves are to be subject to their masters",
+        "groupId": "figs-ellipsis",
+        "occurrence": 1,
+        "occurrenceNote": "The Greek does not have **are**, but only **slaves to be subject to their masters**. We need to apply the verbal idea from verse 6 to here, which is **urge** or **exhort**. Alternate translation: “Exhort slaves to be subject to their masters” (See: [Ellipsis](rc://en/ta/man/translate/figs-ellipsis))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "δούλους",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἰδίοις",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "δεσπόταις",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ὑποτάσσεσθαι",
+          },
+        ],
+        "quoteString": "δούλους ἰδίοις δεσπόταις ὑποτάσσεσθαι",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 9,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+  ],
+  "figs-explicit": Array [
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "q6uy",
+        "glQuote": "the husband of one wife",
+        "groupId": "figs-explicit",
+        "occurrence": 1,
+        "occurrenceNote": "This means that he has only one wife, that is, he does not have any other wives or concubines. This also means that he does not commit adultery and may also mean that he has not divorced a previous wife. Alternate translation: “a man who has only one woman” or “a man who is faithful to his wife” (See: [Assumed Knowledge and Implicit Information](rc://en/ta/man/translate/figs-explicit))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "μιᾶς",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "γυναικὸς",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἀνήρ",
+          },
+        ],
+        "quoteString": "μιᾶς γυναικὸς ἀνήρ",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 6,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "tpi2",
+        "glQuote": "But you, speak what fits",
+        "groupId": "figs-explicit",
+        "occurrence": 1,
+        "occurrenceNote": "Paul speaks of the grace of God as if it were a person who has arrived. Alternate translation: “God is now offering his grace” (See: UST, [Personification](rc://en/ta/man/translate/figs-personification))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "σὺ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "δὲ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "λάλει",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἃ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "πρέπει",
+          },
+        ],
+        "quoteString": "σὺ δὲ λάλει ἃ πρέπει",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 1,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "niu4",
+        "glQuote": "gave himself for us",
+        "groupId": "figs-explicit",
+        "occurrence": 1,
+        "occurrenceNote": "This refers to Jesus dying willingly. Alternate translation: “gave himself to die for us” (See: [Assumed Knowledge and Implicit Information](rc://en/ta/man/translate/figs-explicit))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "ἔδωκεν",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἑαυτὸν",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ὑπὲρ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἡμῶν",
+          },
+        ],
+        "quoteString": "ἔδωκεν ἑαυτὸν ὑπὲρ ἡμῶν",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 14,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "b94z",
+        "glQuote": "rebuke with all authority",
+        "groupId": "figs-explicit",
+        "occurrence": 1,
+        "occurrenceNote": "This statement can be made explicit. Alternate translation: “Correct with all authority those people who do not do these things” (See: [Assumed Knowledge and Implicit Information](rc://en/ta/man/translate/figs-explicit))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "ἔλεγχε",
+          },
+          Object {
+            "occurrence": 3,
+            "word": ",",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "μετὰ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "πάσης",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἐπιταγῆς",
+          },
+        ],
+        "quoteString": "ἔλεγχε, μετὰ πάσης ἐπιταγῆς",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 15,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "jbu1",
+        "glQuote": "disregard you",
+        "groupId": "figs-explicit",
+        "occurrence": 1,
+        "occurrenceNote": "This statement can be made explicit. Alternate translation: “refuse to listen to your words” or “refuse to respect you” (See: [Assumed Knowledge and Implicit Information](rc://en/ta/man/translate/figs-explicit))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "σου",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "περιφρονείτω",
+          },
+        ],
+        "quoteString": "σου περιφρονείτω",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 15,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+  ],
+  "figs-hendiadys": Array [
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "abcd",
+        "glQuote": "empty talkers and deceivers",
+        "groupId": "figs-hendiadys",
+        "occurrence": 1,
+        "occurrenceNote": "both **empty talkers** and **deceivers** refer to the same people. They taught false, worthless things and wanted people to believe them. (See: [Hendiadys](rc://en/ta/man/translate/figs-hendiadys))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "ματαιολόγοι",
+          },
+          Object {
+            "occurrence": 2,
+            "word": ",",
+          },
+          Object {
+            "occurrence": 2,
+            "word": "καὶ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "φρεναπάται",
+          },
+        ],
+        "quoteString": "ματαιολόγοι, καὶ φρεναπάται",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 10,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "abcf",
+        "glQuote": "the blessed hope and appearing of the glory",
+        "groupId": "figs-hendiadys",
+        "occurrence": 1,
+        "occurrenceNote": "Both **blessed hope** and **appearing of the glory** refer to the same event. This can be shown clearly. Alternate translation: “what we are longing for, the blessed and glorious appearing” (See: [Hendiadys](rc://en/ta/man/translate/figs-hendiadys))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "τὴν",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "μακαρίαν",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἐλπίδα",
+          },
+          Object {
+            "occurrence": 1,
+            "word": ",",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "καὶ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἐπιφάνειαν",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "τῆς",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "δόξης",
+          },
+        ],
+        "quoteString": "τὴν μακαρίαν ἐλπίδα, καὶ ἐπιφάνειαν τῆς δόξης",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 13,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xyz7",
+        "glQuote": "our great God and Savior Jesus Christ",
+        "groupId": "figs-hendiadys",
+        "occurrence": 1,
+        "occurrenceNote": "Both **our great God** and **Savior** refer to the one person, Jesus Christ. Alternate translation: “Jesus Christ, our great God and Savior” (See: [Hendiadys](rc://en/ta/man/translate/figs-hendiadys))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "τοῦ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "μεγάλου",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "Θεοῦ",
+          },
+          Object {
+            "occurrence": 2,
+            "word": "καὶ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "Σωτῆρος",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἡμῶν",
+          },
+          Object {
+            "occurrence": 2,
+            "word": ",",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "Ἰησοῦ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "Χριστοῦ",
+          },
+        ],
+        "quoteString": "τοῦ μεγάλου Θεοῦ καὶ Σωτῆρος ἡμῶν, Ἰησοῦ Χριστοῦ",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 13,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "dec4",
+        "glQuote": "We lived in evil and envy",
+        "groupId": "figs-hendiadys",
+        "occurrence": 1,
+        "occurrenceNote": "Here **evil** and **envy** describe sin. **Evil** is general and **envy** is a specific kind of sin. Alternate translation: “We were always doing evil things and wanting what others have” (See: [Hendiadys](rc://en/ta/man/translate/figs-hendiadys))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "ἐν",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "κακίᾳ",
+          },
+          Object {
+            "occurrence": 3,
+            "word": "καὶ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "φθόνῳ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "διάγοντες",
+          },
+        ],
+        "quoteString": "ἐν κακίᾳ καὶ φθόνῳ διάγοντες",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 3,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+  ],
+  "figs-hyperbole": Array [
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "y3zb",
+        "glQuote": "Cretans are always liars",
+        "groupId": "figs-hyperbole",
+        "occurrence": 1,
+        "occurrenceNote": "**_Cretans lie all the time_**. This is an exaggeration that means that Cretans had a reputation to be liars. (See: [Hyperbole and Generalization](rc://en/ta/man/translate/figs-hyperbole))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "Κρῆτες",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἀεὶ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ψεῦσται",
+          },
+        ],
+        "quoteString": "Κρῆτες ἀεὶ ψεῦσται",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 12,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+  ],
+  "figs-hypo": Array [
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xt6v",
+        "glQuote": "so that the opponent may be ashamed",
+        "groupId": "figs-hypo",
+        "occurrence": 1,
+        "occurrenceNote": "This presents a hypothetical situation in which someone opposes Titus and then becomes ashamed for having done so. Alternate translation: “so that if anyone opposes you, he may be ashamed” or “so that when people oppose you, they may be ashamed” (See: [Hypothetical Situations](rc://en/ta/man/translate/figs-hypo))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "ἵνα",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ὁ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἐξ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἐναντίας",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἐντραπῇ",
+          },
+        ],
+        "quoteString": "ἵνα ὁ ἐξ ἐναντίας ἐντραπῇ",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 8,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+  ],
+  "figs-inclusive": Array [
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xy18",
+        "glQuote": "our",
+        "groupId": "figs-inclusive",
+        "occurrence": 1,
+        "occurrenceNote": "This includes Paul, Titus, and all Christians. (See: [Inclusive \\"We\\"](rc://en/ta/man/translate/figs-inclusive))",
+        "quote": "ἡμῶν",
+        "quoteString": "ἡμῶν",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 3,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xy17",
+        "glQuote": "our",
+        "groupId": "figs-inclusive",
+        "occurrence": 1,
+        "occurrenceNote": "This includes Paul, Titus, and all Christians. (See: [Inclusive \\"We\\"](rc://en/ta/man/translate/figs-inclusive))",
+        "quote": "ἡμῶν",
+        "quoteString": "ἡμῶν",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 4,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xy15",
+        "glQuote": "us",
+        "groupId": "figs-inclusive",
+        "occurrence": 1,
+        "occurrenceNote": "This includes Paul, Titus, and all Christians. (See: [Inclusive \\"We\\"](rc://en/ta/man/translate/figs-inclusive))",
+        "quote": "ἡμῶν",
+        "quoteString": "ἡμῶν",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 8,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xy16",
+        "glQuote": "our",
+        "groupId": "figs-inclusive",
+        "occurrence": 1,
+        "occurrenceNote": "Here **our** is inclusive of Paul, Titus, and all Christians (See: [Inclusive \\"We\\"](rc://en/ta/man/translate/figs-inclusive))",
+        "quote": "ἡμῶν",
+        "quoteString": "ἡμῶν",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 10,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "abce",
+        "glQuote": "us",
+        "groupId": "figs-inclusive",
+        "occurrence": 1,
+        "occurrenceNote": "This includes Paul, Titus, and all Christians. (See: [Inclusive \\"We\\"](rc://en/ta/man/translate/figs-inclusive))",
+        "quote": "ἡμᾶς",
+        "quoteString": "ἡμᾶς",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 12,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xy20",
+        "glQuote": "us",
+        "groupId": "figs-inclusive",
+        "occurrence": 1,
+        "occurrenceNote": "This includes Paul, Titus, and all Christians. (See: [Inclusive \\"We\\"](rc://en/ta/man/translate/figs-inclusive))",
+        "quote": "ἡμῶν",
+        "quoteString": "ἡμῶν",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 14,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xy21",
+        "glQuote": "us",
+        "groupId": "figs-inclusive",
+        "occurrence": 1,
+        "occurrenceNote": "This includes Paul, Titus, and all Christians. (See: [Inclusive \\"We\\"](rc://en/ta/man/translate/figs-inclusive))",
+        "quote": "ἡμᾶς",
+        "quoteString": "ἡμᾶς",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 14,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "bl8e",
+        "glQuote": "we",
+        "groupId": "figs-inclusive",
+        "occurrence": 1,
+        "occurrenceNote": "**_even we_** or **_we ourselves_**. This includes Paul, Titus, and all Christians, referring to the time before they trusted in Christ. (See: [Inclusive \\"We\\"](rc://en/ta/man/translate/figs-inclusive))",
+        "quote": "ἡμεῖς",
+        "quoteString": "ἡμεῖς",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 3,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "abch",
+        "glQuote": "our",
+        "groupId": "figs-inclusive",
+        "occurrence": 1,
+        "occurrenceNote": "This includes Paul, Titus, and all Christians. (See: [Inclusive \\"We\\"](rc://en/ta/man/translate/figs-inclusive))",
+        "quote": "ἡμῶν",
+        "quoteString": "ἡμῶν",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 4,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xy24",
+        "glQuote": "us",
+        "groupId": "figs-inclusive",
+        "occurrence": 1,
+        "occurrenceNote": "This includes Paul, Titus, and all Christians. (See: [Inclusive \\"We\\"](rc://en/ta/man/translate/figs-inclusive))",
+        "quote": "ἡμᾶς",
+        "quoteString": "ἡμᾶς",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 6,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xy23",
+        "glQuote": "our",
+        "groupId": "figs-inclusive",
+        "occurrence": 1,
+        "occurrenceNote": "This includes Paul, Titus, and all Christians. (See: [Inclusive \\"We\\"](rc://en/ta/man/translate/figs-inclusive))",
+        "quote": "ἡμῶν",
+        "quoteString": "ἡμῶν",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 6,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xy33",
+        "glQuote": "our own",
+        "groupId": "figs-inclusive",
+        "occurrence": 1,
+        "occurrenceNote": "Here **our** includes Paul and Titus. The form should be either dual or inclusive.",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "οἱ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἡμέτεροι",
+          },
+        ],
+        "quoteString": "οἱ ἡμέτεροι",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 14,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xy35",
+        "glQuote": "us",
+        "groupId": "figs-inclusive",
+        "occurrence": 1,
+        "occurrenceNote": "Here **us** is probably exclusive and refers to Paul and the group of Christians with him. Paul is sending greetings from this group to the group of Christians that is with Titus on Crete.",
+        "quote": "ἡμᾶς ",
+        "quoteString": "ἡμᾶς",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 15,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+  ],
+  "figs-metaphor": Array [
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "gu55",
+        "glQuote": "a true son",
+        "groupId": "figs-metaphor",
+        "occurrence": 1,
+        "occurrenceNote": "Though Titus was not Paul’s biological **son**, they share a common faith in Christ. Paul considers relationship to Christ through faith to be more important than biological relationship. Thus, because of their relative ages and shared faith in Christ, Paul considers Titus as his own son. It may also be that Paul led Titus to faith in Christ, and so Titus is like a son in this spiritual sense. Alternate translation: “you are like a son to me” (See: [Metaphor](rc://en/ta/man/translate/figs-metaphor))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "γνησίῳ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "τέκνῳ",
+          },
+        ],
+        "quoteString": "γνησίῳ τέκνῳ",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 4,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "g2zf",
+        "glQuote": "The household manager of God",
+        "groupId": "figs-metaphor",
+        "occurrence": 1,
+        "occurrenceNote": "Paul speaks of the church as if it were God’s household, and the overseer as if he were a servant in charge of managing that household. (See: [Metaphor](rc://en/ta/man/translate/figs-metaphor))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "Θεοῦ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "οἰκονόμον",
+          },
+        ],
+        "quoteString": "Θεοῦ οἰκονόμον",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 7,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xwy6",
+        "glQuote": "He should hold tightly to",
+        "groupId": "figs-metaphor",
+        "occurrence": 1,
+        "occurrenceNote": "Paul speaks of devotion to the Christian faith as if it were grasping the faith with one’s hands. Alternate translation: “He should be devoted to” or “He should know well” (See: [Metaphor](rc://en/ta/man/translate/figs-metaphor))",
+        "quote": "ἀντεχόμενον",
+        "quoteString": "ἀντεχόμενον",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 9,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "h3jb",
+        "glQuote": "evil beasts",
+        "groupId": "figs-metaphor",
+        "occurrence": 1,
+        "occurrenceNote": "This metaphor compares the Cretans to dangerous wild animals. (See: [Metaphor](rc://en/ta/man/translate/figs-metaphor))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "κακὰ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "θηρία",
+          },
+        ],
+        "quoteString": "κακὰ θηρία",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 12,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "m4a5",
+        "glQuote": "turn away from the truth",
+        "groupId": "figs-metaphor",
+        "occurrence": 1,
+        "occurrenceNote": "Paul speaks of the truth as if it were an object that one could turn away from or avoid. Alternate translation: “reject the truth” (See: [Metaphor](rc://en/ta/man/translate/figs-metaphor))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "ἀποστρεφομένων",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "τὴν",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἀλήθειαν",
+          },
+        ],
+        "quoteString": "ἀποστρεφομένων τὴν ἀλήθειαν",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 14,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "n3wk",
+        "glQuote": "to those who are corrupt and unbelieving, nothing is pure",
+        "groupId": "figs-metaphor",
+        "occurrence": 1,
+        "occurrenceNote": "Paul speaks of sinners as if they were physically dirty. Alternate translation: “if people are morally defiled and do not believe, they cannot do anything pure” or “when people are full of sin and unbelief, nothing that they do is acceptable to God” (See: [Metaphor](rc://en/ta/man/translate/figs-metaphor))",
+        "quote": Array [
+          Object {
+            "occurrence": 2,
+            "word": "τοῖς",
+          },
+          Object {
+            "word": "…",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "μεμιαμμένοις",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "καὶ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἀπίστοις",
+          },
+          Object {
+            "occurrence": 1,
+            "word": ",",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "οὐδὲν",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "καθαρόν",
+          },
+        ],
+        "quoteString": "τοῖς…μεμιαμμένοις καὶ ἀπίστοις, οὐδὲν καθαρόν",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 15,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "g9re",
+        "glQuote": "or being slaves to much wine",
+        "groupId": "figs-metaphor",
+        "occurrence": 1,
+        "occurrenceNote": "People who cannot control themselves and drink too much wine are spoken of as if they were a slave to the wine. Alternate translation: “or controlled by their desire for wine” or “or addicted to wine” (See: [Metaphor](rc://en/ta/man/translate/figs-metaphor))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "οἴνῳ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "πολλῷ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "δεδουλωμένας",
+          },
+        ],
+        "quoteString": "οἴνῳ πολλῷ δεδουλωμένας",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 3,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "gxe7",
+        "glQuote": "to redeem us from all lawlessness",
+        "groupId": "figs-metaphor",
+        "occurrence": 1,
+        "occurrenceNote": "Paul speaks of Jesus as if he were setting slaves free from their evil master. (See: [Metaphor](rc://en/ta/man/translate/figs-metaphor))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "λυτρώσηται",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἡμᾶς",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἀπὸ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "πάσης",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἀνομίας",
+          },
+        ],
+        "quoteString": "λυτρώσηται ἡμᾶς ἀπὸ πάσης ἀνομίας",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 14,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "k1a6",
+        "glQuote": "the washing of new birth",
+        "groupId": "figs-metaphor",
+        "occurrence": 1,
+        "occurrenceNote": "Paul combines two metaphors here. He is speaking of God’s forgiveness for sinners as if he were physically washing them clean from their sin. He is also speaking of sinners who become responsive to God as if they had been born again. (See: [Metaphor](rc://en/ta/man/translate/figs-metaphor))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "λουτροῦ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "παλινγενεσίας",
+          },
+        ],
+        "quoteString": "λουτροῦ παλινγενεσίας",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 5,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "fby9",
+        "glQuote": "whom God richly poured on us",
+        "groupId": "figs-metaphor",
+        "occurrence": 1,
+        "occurrenceNote": "It is common for New Testament writers to speak of the Holy Spirit as a liquid that God can pour out in large amounts. Alternate translation: “whom God gave to us generously” (See: [Metaphor](rc://en/ta/man/translate/figs-metaphor))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "οὗ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἐξέχεεν",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἐφ’",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἡμᾶς",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "πλουσίως",
+          },
+        ],
+        "quoteString": "οὗ ἐξέχεεν ἐφ’ ἡμᾶς πλουσίως",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 6,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "q1cm",
+        "glQuote": "we might become heirs according to the certain hope of eternal life",
+        "groupId": "figs-metaphor",
+        "occurrence": 1,
+        "occurrenceNote": "The people to whom God has made promises are spoken of as if they were to inherit the things promised, just as a person inherits property or possessions from a family member. Alternate translation: “we might expect to receive the eternal life that God hs promised us” (See: [Metaphor](rc://en/ta/man/translate/figs-metaphor))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "κληρονόμοι",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "γενηθῶμεν",
+          },
+          Object {
+            "occurrence": 2,
+            "word": ",",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "κατ’",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἐλπίδα",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ζωῆς",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "αἰωνίου",
+          },
+        ],
+        "quoteString": "κληρονόμοι γενηθῶμεν, κατ’ ἐλπίδα ζωῆς αἰωνίου",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 7,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "inh5",
+        "glQuote": "has turned from the right way",
+        "groupId": "figs-metaphor",
+        "occurrence": 1,
+        "occurrenceNote": "Paul speaks of someone who chooses to do wrong things as if he were leaving the right path to walk in the wrong direction. (See: [Metaphor](rc://en/ta/man/translate/figs-metaphor))",
+        "quote": "ἐξέστραπται",
+        "quoteString": "ἐξέστραπται",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 11,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "mji4",
+        "glQuote": "in order not to be unfruitful",
+        "groupId": "figs-metaphor",
+        "occurrence": 1,
+        "occurrenceNote": "Paul speaks of people doing good work as if they were trees bearing good fruit. Alternate translation: “so that they will not lead useless lives” (See: [Metaphor](rc://en/ta/man/translate/figs-metaphor))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "ἵνα",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "μὴ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ὦσιν",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἄκαρποι",
+          },
+        ],
+        "quoteString": "ἵνα μὴ ὦσιν ἄκαρποι",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 14,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+  ],
+  "figs-metonymy": Array [
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "pu74",
+        "glQuote": "those of the circumcision",
+        "groupId": "figs-metonymy",
+        "occurrence": 1,
+        "occurrenceNote": "This refers to the Jewish Christians who taught that men must be circumcised in order to follow Christ. This teaching is false. (See: [Metonymy](rc://en/ta/man/translate/figs-metonymy))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "οἱ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἐκ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "τῆς",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "περιτομῆς",
+          },
+        ],
+        "quoteString": "οἱ ἐκ τῆς περιτομῆς",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 10,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xyz6",
+        "glQuote": "the blessed hope",
+        "groupId": "figs-metonymy",
+        "occurrence": 1,
+        "occurrenceNote": "Here, what is **blessed** is that for which we hope, which is the return of Jesus Christ. Alternate translation: “the wonderful thing for which we hope” (See: [Metonymy](rc://en/ta/man/translate/figs-metonymy))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "τὴν",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "μακαρίαν",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἐλπίδα",
+          },
+        ],
+        "quoteString": "τὴν μακαρίαν ἐλπίδα",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 13,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "pss7",
+        "glQuote": "and appearing of the glory of our great God and Savior Jesus Christ",
+        "groupId": "figs-metonymy",
+        "occurrence": 1,
+        "occurrenceNote": "Here **glory** represents Jesus himself who will appear gloriously. Alternate translation: “that is, the glorious appearance of our great God and Savior Jesus Christ” (See: [Metonymy](rc://en/ta/man/translate/figs-metonymy))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "καὶ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἐπιφάνειαν",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "τῆς",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "δόξης",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "τοῦ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "μεγάλου",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "Θεοῦ",
+          },
+          Object {
+            "occurrence": 2,
+            "word": "καὶ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "Σωτῆρος",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἡμῶν",
+          },
+          Object {
+            "occurrence": 2,
+            "word": ",",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "Ἰησοῦ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "Χριστοῦ",
+          },
+        ],
+        "quoteString": "καὶ ἐπιφάνειαν τῆς δόξης τοῦ μεγάλου Θεοῦ καὶ Σωτῆρος ἡμῶν, Ἰησοῦ Χριστοῦ",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 13,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+  ],
+  "figs-personification": Array [
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "gp2z",
+        "glQuote": "the grace of God has appeared",
+        "groupId": "figs-personification",
+        "occurrence": 1,
+        "occurrenceNote": "Paul speaks of the grace of God as if it were a person who has arrived. Alternate translation: “God is now offering his grace” (See: UST, [Personification](rc://en/ta/man/translate/figs-personification))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "ἐπεφάνη",
+          },
+          Object {
+            "word": "…",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἡ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "χάρις",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "τοῦ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "Θεοῦ",
+          },
+        ],
+        "quoteString": "ἐπεφάνη…ἡ χάρις τοῦ Θεοῦ",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 11,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "qy8k",
+        "glQuote": "training us",
+        "groupId": "figs-personification",
+        "occurrence": 1,
+        "occurrenceNote": "Paul speaks of the grace of God (2:11) as if it were a person who trains other people how to live holy lives. Alternate translation: “by which God trains us” (See: [Personification](rc://en/ta/man/translate/figs-personification))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "παιδεύουσα",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἡμᾶς",
+          },
+        ],
+        "quoteString": "παιδεύουσα ἡμᾶς",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 12,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "qt8f",
+        "glQuote": "We were led astray and enslaved by various passions and pleasures",
+        "groupId": "figs-personification",
+        "occurrence": 1,
+        "occurrenceNote": "Passion and pleasure are spoken of as if they were masters over people and had made those people into slaves by lying to them. Alternate translation: “We had allowed ourselves to believe the lie that various passions and pleasures could make us happy, and then we were unable to control our feelings or stop doing things we thought would give us pleasure” (See: [Personification](rc://en/ta/man/translate/figs-personification))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "πλανώμενοι",
+          },
+          Object {
+            "occurrence": 3,
+            "word": ",",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "δουλεύοντες",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἐπιθυμίαις",
+          },
+          Object {
+            "occurrence": 2,
+            "word": "καὶ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἡδοναῖς",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ποικίλαις",
+          },
+        ],
+        "quoteString": "πλανώμενοι, δουλεύοντες ἐπιθυμίαις καὶ ἡδοναῖς ποικίλαις",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 3,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "ba5a",
+        "glQuote": "when the kindness of God our Savior and his love for mankind appeared",
+        "groupId": "figs-personification",
+        "occurrence": 1,
+        "occurrenceNote": "Paul speaks of God’s kindness and love as if they were people that came into our sight. Alternate translation: “When God our Savior showed us his kindness and love for people” (See: [Personification](rc://en/ta/man/translate/figs-personification))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "ὅτε",
+          },
+          Object {
+            "word": "…",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἡ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "χρηστότης",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "καὶ",
+          },
+          Object {
+            "occurrence": 2,
+            "word": "ἡ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "φιλανθρωπία",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἐπεφάνη",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "τοῦ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "Σωτῆρος",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἡμῶν",
+          },
+          Object {
+            "occurrence": 1,
+            "word": ",",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "Θεοῦ",
+          },
+        ],
+        "quoteString": "ὅτε…ἡ χρηστότης καὶ ἡ φιλανθρωπία ἐπεφάνη τοῦ Σωτῆρος ἡμῶν, Θεοῦ",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 4,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+  ],
+  "figs-synecdoche": Array [
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xyz1",
+        "glQuote": "lazy bellies",
+        "groupId": "figs-synecdoche",
+        "occurrence": 1,
+        "occurrenceNote": "The part of the body that stores food is used to represent the person who eats all the time. Alternate translation: “lazy gluttons” (See: [Synecdoche](rc://en/ta/man/translate/figs-synecdoche))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "γαστέρες",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἀργαί",
+          },
+        ],
+        "quoteString": "γαστέρες ἀργαί",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 12,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+  ],
+  "grammar-connect-exceptions": Array [
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "abcm",
+        "glQuote": "not",
+        "groupId": "grammar-connect-exceptions",
+        "occurrence": 1,
+        "occurrenceNote": "The connecting word **not** introduce an exception clause. Titus must not pay any attention to the Jewish myths or the commands of people who do not follow the truth. (See: [[rc://en/ta/man/translate/grammar-connect-exceptions]])",
+        "quote": "μὴ",
+        "quoteString": "μὴ",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 14,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+  ],
+  "grammar-connect-logic-contrast": Array [
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "i549",
+        "glQuote": "Instead",
+        "groupId": "grammar-connect-logic-contrast",
+        "occurrence": 1,
+        "occurrenceNote": "The connecting word **Instead** introduces a contrast between the things an elder is not to be (that Paul already stated), and the things an elder is to be (which Paul is about to state). (See: [[rc://en/ta/man/translate/grammar-connect-logic-contrast]])",
+        "quote": "ἀλλὰ",
+        "quoteString": "ἀλλὰ",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 8,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "abcn",
+        "glQuote": "But",
+        "groupId": "grammar-connect-logic-contrast",
+        "occurrence": 1,
+        "occurrenceNote": "The connecting word **But** introduces a contrast between people who are pure and people who are corrupt and unbelieving. (See: [[rc://en/ta/man/translate/grammar-connect-logic-contrast]])",
+        "quote": "δὲ",
+        "quoteString": "δὲ",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 15,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "abco",
+        "glQuote": "but",
+        "groupId": "grammar-connect-logic-contrast",
+        "occurrence": 1,
+        "occurrenceNote": "The connecting word **but** introduces a contrast between what these corrupt people say (they know God) and what their actions show (they do not know God). (See: [[rc://en/ta/man/translate/grammar-connect-logic-contrast]])",
+        "quote": "δὲ",
+        "quoteString": "δὲ",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 16,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xy28",
+        "glQuote": "But",
+        "groupId": "grammar-connect-logic-contrast",
+        "occurrence": 1,
+        "occurrenceNote": "It is important to mark the contrast here between the evil way that people are (verses 1-3) and the goodness of God (verses 4-7) (See: [[rc://en/ta/man/translate/grammar-connect-logic-contrast]])",
+        "quote": "δὲ ",
+        "quoteString": "δὲ",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 4,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+  ],
+  "grammar-connect-logic-goal": Array [
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "ew8h",
+        "glQuote": "For this purpose",
+        "groupId": "grammar-connect-logic-goal",
+        "occurrence": 1,
+        "occurrenceNote": "The connecting phrase **For this purpose** introduces the goal that Paul wanted to accomplish when he left Titus in Crete (to ordain elders in the church). Alternate translation: “This is the reason” (See: [[rc://en/ta/man/translate/grammar-connect-logic-goal]])",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "τούτου",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "χάριν",
+          },
+        ],
+        "quoteString": "τούτου χάριν",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 5,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+  ],
+  "grammar-connect-logic-result": Array [
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "abcj",
+        "glQuote": "so that",
+        "groupId": "grammar-connect-logic-result",
+        "occurrence": 1,
+        "occurrenceNote": "The connecting words **so that** introduce a reason-result relationship. The reason is the elder holding tightly to the trustworthy message, and the result is the elder is not able to encourage others and rebuke those who oppose him. (See: [[rc://en/ta/man/translate/grammar-connect-logic-result]])",
+        "quote": "ἵνα",
+        "quoteString": "ἵνα",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 9,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "abck",
+        "glQuote": "For this reason",
+        "groupId": "grammar-connect-logic-result",
+        "occurrence": 1,
+        "occurrenceNote": "The connecting words **For this reason** introduce a reason-result relationship. The reason is that what the Cretan prophet said about his peope is true (they are liars, evil, and lazy), and the result is that Titus should rebuke them severely. (See: [[rc://en/ta/man/translate/grammar-connect-logic-result]])",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "δι’",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἣν",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "αἰτίαν",
+          },
+        ],
+        "quoteString": "δι’ ἣν αἰτίαν",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 13,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "abcl",
+        "glQuote": "so that",
+        "groupId": "grammar-connect-logic-result",
+        "occurrence": 1,
+        "occurrenceNote": "The connecting words **so that** introduce a reason-result relationship. The reason is the elder rebukes the Cretans severely, and the result is the Cretans become sound in the faith. (See: [[rc://en/ta/man/translate/grammar-connect-logic-result]])",
+        "quote": "ἵνα",
+        "quoteString": "ἵνα",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 13,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+  ],
+  "translate-names": Array [
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "c32w",
+        "glQuote": "Artemas…Tychicus",
+        "groupId": "translate-names",
+        "occurrence": 1,
+        "occurrenceNote": "These are men’s names. (See: [How to Translate Names](rc://en/ta/man/translate/translate-names))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "Ἀρτεμᾶν",
+          },
+          Object {
+            "word": "…",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "Τυχικόν",
+          },
+        ],
+        "quoteString": "Ἀρτεμᾶν…Τυχικόν",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 12,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "a46f",
+        "glQuote": "Zenas…Appollos",
+        "groupId": "translate-names",
+        "occurrence": 1,
+        "occurrenceNote": "These are men’s names. (See: [How to Translate Names](rc://en/ta/man/translate/translate-names))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "Ζηνᾶν",
+          },
+          Object {
+            "word": "…",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "Ἀπολλῶν",
+          },
+        ],
+        "quoteString": "Ζηνᾶν…Ἀπολλῶν",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 13,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+  ],
+}
+`;
+
 exports[`tsvToGroupData(): It should not crash on missing occurrence notes 1`] = `
+Object {
+  "figs-abstractnouns": Array [
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xyz2",
+        "glQuote": "in the faith",
+        "groupId": "figs-abstractnouns",
+        "occurrence": 1,
+        "occurrenceNote": "Here the abstract noun **faith** represents the things that the people believe about God. Alternate translation: “in what they believe about God” (See: [Abstract Nouns](rc://en/ta/man/translate/figs-abstractnouns))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "ἐν",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "τῇ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "πίστει",
+          },
+        ],
+        "quoteString": "ἐν τῇ πίστει",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 13,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "m14y",
+        "glQuote": "sound in faith, in love, and in perseverance",
+        "groupId": "figs-abstractnouns",
+        "occurrence": 1,
+        "occurrenceNote": "Here the word **sound** means to be firm and unwavering. The abstract nouns **faith**, **love**, and **perseverance** can be stated as verbs. Alternate translation: “and they must firmly believe the true teachings about God, truly love others, and continually serve God even when things are difficult” (See: [Abstract Nouns](rc://en/ta/man/translate/figs-abstractnouns))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "ὑγιαίνοντας",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "τῇ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "πίστει",
+          },
+          Object {
+            "occurrence": 4,
+            "word": ",",
+          },
+          Object {
+            "occurrence": 2,
+            "word": "τῇ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἀγάπῃ",
+          },
+          Object {
+            "occurrence": 5,
+            "word": ",",
+          },
+          Object {
+            "occurrence": 3,
+            "word": "τῇ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ὑπομονῇ",
+          },
+        ],
+        "quoteString": "ὑγιαίνοντας τῇ πίστει, τῇ ἀγάπῃ, τῇ ὑπομονῇ",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 2,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "abc1",
+        "glQuote": "sound in faith",
+        "groupId": "figs-abstractnouns",
+        "occurrence": 1,
+        "occurrenceNote": "See note about **sound in faith** on [Titus 1:13](../01/13/je3r).",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "ὑγιαίνοντας",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "τῇ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "πίστει",
+          },
+        ],
+        "quoteString": "ὑγιαίνοντας τῇ πίστει",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 2,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "abcg",
+        "glQuote": "when the kindness of God our Savior and his love for mankind appeared",
+        "groupId": "figs-abstractnouns",
+        "occurrence": 1,
+        "occurrenceNote": "The abstract nouns **kindness** and **love** can be stated as adjectives. Alternate translation: “when God, who saves us, showed how kind and loving he would be to mankind” (See: [Abstract Nouns](rc://en/ta/man/translate/figs-abstractnouns))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "ὅτε",
+          },
+          Object {
+            "word": "…",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἡ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "χρηστότης",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "καὶ",
+          },
+          Object {
+            "occurrence": 2,
+            "word": "ἡ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "φιλανθρωπία",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἐπεφάνη",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "τοῦ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "Σωτῆρος",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἡμῶν",
+          },
+          Object {
+            "occurrence": 1,
+            "word": ",",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "Θεοῦ",
+          },
+        ],
+        "quoteString": "ὅτε…ἡ χρηστότης καὶ ἡ φιλανθρωπία ἐπεφάνη τοῦ Σωτῆρος ἡμῶν, Θεοῦ",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 4,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+  ],
+  "figs-activepassive": Array [
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "m41u",
+        "glQuote": "that I was entrusted with",
+        "groupId": "figs-activepassive",
+        "occurrence": 1,
+        "occurrenceNote": "This can be stated in active form. Alternate translation: “he entrusted to me” or “he gave me the responsibility to preach” (See: [Active or Passive](rc://en/ta/man/translate/figs-activepassive))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "ὃ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἐπιστεύθην",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἐγὼ",
+          },
+        ],
+        "quoteString": "ὃ ἐπιστεύθην ἐγὼ",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 3,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xyz4",
+        "glQuote": "or being slaves to much wine",
+        "groupId": "figs-activepassive",
+        "occurrence": 1,
+        "occurrenceNote": "This can be stated in active form. Alternate translation: “or drinking too much wine” or “or addicted to wine” (See: [Active or Passive](rc://en/ta/man/translate/figs-activepassive))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "οἴνῳ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "πολλῷ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "δεδουλωμένας",
+          },
+        ],
+        "quoteString": "οἴνῳ πολλῷ δεδουλωμένας",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 3,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "t5v6",
+        "glQuote": "so that the word of God may not be insulted",
+        "groupId": "figs-activepassive",
+        "occurrence": 1,
+        "occurrenceNote": "**Word** here is a metonym for **_message_**, which in turn is a metonym for God himself. This can be stated in active form. Alternate translation: “so that no one insults the word of God” or “so that no one insults God by saying bad things about his message” (See: [Active or Passive](rc://en/ta/man/translate/figs-activepassive) and [Metonymy](rc://en/ta/man/translate/figs-metonymy))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "ἵνα",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "μὴ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ὁ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "λόγος",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "τοῦ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "Θεοῦ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "βλασφημῆται",
+          },
+        ],
+        "quoteString": "ἵνα μὴ ὁ λόγος τοῦ Θεοῦ βλασφημῆται",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 5,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xy27",
+        "glQuote": "We were led astray and enslaved by various passions and pleasures",
+        "groupId": "figs-activepassive",
+        "occurrence": 1,
+        "occurrenceNote": "This can be translated in active form. Alternate translation: “Various passions and pleasures had lied to us and so led us astray” (See: [Active or Passive](rc://en/ta/man/translate/figs-activepassive))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "πλανώμενοι",
+          },
+          Object {
+            "occurrence": 3,
+            "word": ",",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "δουλεύοντες",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἐπιθυμίαις",
+          },
+          Object {
+            "occurrence": 2,
+            "word": "καὶ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἡδοναῖς",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ποικίλαις",
+          },
+        ],
+        "quoteString": "πλανώμενοι, δουλεύοντες ἐπιθυμίαις καὶ ἡδοναῖς ποικίλαις",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 3,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "di3g",
+        "glQuote": "having been justified",
+        "groupId": "figs-activepassive",
+        "occurrence": 1,
+        "occurrenceNote": "This can be stated in active form. Alternate translation: “since God has declared us to be without sin” (See: [Active or Passive](rc://en/ta/man/translate/figs-activepassive))",
+        "quote": "δικαιωθέντες",
+        "quoteString": "δικαιωθέντες",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 7,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+  ],
+  "figs-doublenegatives": Array [
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xy22",
+        "glQuote": "Let no one disregard you",
+        "groupId": "figs-doublenegatives",
+        "occurrence": 1,
+        "occurrenceNote": "This can be stated positively: “Make sure that everyone listens to you” (See: [Double Negatives](rc://en/ta/man/translate/figs-doublenegatives))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "μηδείς",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "σου",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "περιφρονείτω",
+          },
+        ],
+        "quoteString": "μηδείς σου περιφρονείτω",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 15,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "abc8",
+        "glQuote": "to avoid quarreling",
+        "groupId": "figs-doublenegatives",
+        "occurrence": 1,
+        "occurrenceNote": "This can be stated positively: “to be peaceful” (See: [Double Negatives](rc://en/ta/man/translate/figs-doublenegatives))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "ἀμάχους",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "εἶναι",
+          },
+        ],
+        "quoteString": "ἀμάχους εἶναι",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 2,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xy31",
+        "glQuote": "so that they lack nothing",
+        "groupId": "figs-doublenegatives",
+        "occurrence": 1,
+        "occurrenceNote": "This can be stated positively: “so that they have everything that they need” (See: [Double Negatives](rc://en/ta/man/translate/figs-doublenegatives))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "ἵνα",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "μηδὲν",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "αὐτοῖς",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "λείπῃ",
+          },
+        ],
+        "quoteString": "ἵνα μηδὲν αὐτοῖς λείπῃ",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 13,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xy32",
+        "glQuote": "in order not to be unfruitful",
+        "groupId": "figs-doublenegatives",
+        "occurrence": 1,
+        "occurrenceNote": "This can be stated positively: “in this way they will be fruitful” or “in this way they will be productive” (See: [Double Negatives](rc://en/ta/man/translate/figs-doublenegatives))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "ἵνα",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "μὴ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ὦσιν",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἄκαρποι",
+          },
+        ],
+        "quoteString": "ἵνα μὴ ὦσιν ἄκαρποι",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 14,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+  ],
+  "figs-doublet": Array [
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xy11",
+        "glQuote": "sensible…self-controlled",
+        "groupId": "figs-doublet",
+        "occurrence": 1,
+        "occurrenceNote": "These two terms are very similar in meaning and may be translated by one term if the target language does not have two similar terms. (See: [Doublet](rc://en/ta/man/translate/figs-doublet))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "σώφρονα",
+          },
+          Object {
+            "word": "…",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἐγκρατῆ",
+          },
+        ],
+        "quoteString": "σώφρονα…ἐγκρατῆ",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 8,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xy12",
+        "glQuote": "righteous, holy",
+        "groupId": "figs-doublet",
+        "occurrence": 1,
+        "occurrenceNote": "These two terms are very similar in meaning and may be translated by one term if the target language does not have two similar terms. (See: [Doublet](rc://en/ta/man/translate/figs-doublet))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "δίκαιον",
+          },
+          Object {
+            "occurrence": 4,
+            "word": ",",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ὅσιον",
+          },
+        ],
+        "quoteString": "δίκαιον, ὅσιον",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 8,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xy13",
+        "glQuote": "temperate, dignified, sensible",
+        "groupId": "figs-doublet",
+        "occurrence": 1,
+        "occurrenceNote": "These three words are very close in meaning and may be combined into one or two terms if the target language does not have three separate terms. (See: [Doublet](rc://en/ta/man/translate/figs-doublet))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "νηφαλίους",
+          },
+          Object {
+            "word": "…",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "σεμνούς",
+          },
+          Object {
+            "occurrence": 2,
+            "word": ",",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "σώφρονας",
+          },
+        ],
+        "quoteString": "νηφαλίους…σεμνούς, σώφρονας",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 2,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xy14",
+        "glQuote": "uncorrupted…sound",
+        "groupId": "figs-doublet",
+        "occurrence": 1,
+        "occurrenceNote": "This word has the same basic meaning as **uncorrupted** in 2:7. In 2:7, Paul states the meaning negatively: **uncorrupted**, meaning, **without error**, and in 2:8 he states the meaning positively: **sound, whole**, meaning **correct**. Both terms refer to Titus’s teaching. Use either positive or negative terms in the target language, or use one term with this meaning if it is difficult to use two terms (See: [Doublet](rc://en/ta/man/translate/figs-doublet))",
+        "quote": "ὑγιῆ",
+        "quoteString": "ὑγιῆ",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 8,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "wa9x",
+        "glQuote": "rulers and authorities",
+        "groupId": "figs-doublet",
+        "occurrence": 1,
+        "occurrenceNote": "These words have similar meanings and both refer to anyone who holds authority in the government. If the target language has only one term for this, then just use that term (See: [Doublet](rc://en/ta/man/translate/figs-doublet))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "ἀρχαῖς",
+          },
+          Object {
+            "occurrence": 1,
+            "word": ",",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἐξουσίαις",
+          },
+        ],
+        "quoteString": "ἀρχαῖς, ἐξουσίαις",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 1,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xy25",
+        "glQuote": "to submit…to obey",
+        "groupId": "figs-doublet",
+        "occurrence": 1,
+        "occurrenceNote": "These words have similar meanings and both refer to doing what someone tells you to do. If the target language has only one term for this, then just use that term (See: [Doublet](rc://en/ta/man/translate/figs-doublet))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "ὑποτάσσεσθαι",
+          },
+          Object {
+            "occurrence": 3,
+            "word": ",",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "πειθαρχεῖν",
+          },
+        ],
+        "quoteString": "ὑποτάσσεσθαι, πειθαρχεῖν",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 1,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+  ],
+  "figs-ellipsis": Array [
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "h93t",
+        "glQuote": "Grace and peace",
+        "groupId": "figs-ellipsis",
+        "occurrence": 1,
+        "occurrenceNote": "This was a common greeting Paul used. You can state clearly the understood information. Alternate translation: “May you experience kindness and inner peace” (See: [Ellipsis](rc://en/ta/man/translate/figs-ellipsis))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "χάρις",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "καὶ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "εἰρήνη",
+          },
+        ],
+        "quoteString": "χάρις καὶ εἰρήνη",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 4,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xyz3",
+        "glQuote": "Older men are to be",
+        "groupId": "figs-ellipsis",
+        "occurrence": 1,
+        "occurrenceNote": "The Greek does not have **are**, but only **older men to be**. We need to supply a verb here, drawing from the idea of **speak** in the previous verse, such as **teach** or **exhort**. Alternate translation: “Teach older men to be” (See: [Ellipsis](rc://en/ta/man/translate/figs-ellipsis))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "πρεσβύτας",
+          },
+          Object {
+            "word": "…",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "εἶναι",
+          },
+        ],
+        "quoteString": "πρεσβύτας…εἶναι",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 2,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "gl8e",
+        "glQuote": "Older women likewise are to be",
+        "groupId": "figs-ellipsis",
+        "occurrence": 1,
+        "occurrenceNote": "The Greek does not have **are to be**, but only **older women likewise**. We need to continue the verbal idea from the previous two verses and apply that here, as well, such as **teach** or **exhort**. Alternate translation: “In the same way, teach older women” or “Also teach older women” (See: [Ellipsis](rc://en/ta/man/translate/figs-ellipsis))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "πρεσβύτιδας",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ὡσαύτως",
+          },
+        ],
+        "quoteString": "πρεσβύτιδας ὡσαύτως",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 3,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xyz5",
+        "glQuote": "Slaves are to be subject to their masters",
+        "groupId": "figs-ellipsis",
+        "occurrence": 1,
+        "occurrenceNote": "The Greek does not have **are**, but only **slaves to be subject to their masters**. We need to apply the verbal idea from verse 6 to here, which is **urge** or **exhort**. Alternate translation: “Exhort slaves to be subject to their masters” (See: [Ellipsis](rc://en/ta/man/translate/figs-ellipsis))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "δούλους",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἰδίοις",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "δεσπόταις",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ὑποτάσσεσθαι",
+          },
+        ],
+        "quoteString": "δούλους ἰδίοις δεσπόταις ὑποτάσσεσθαι",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 9,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+  ],
+  "figs-explicit": Array [
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "q6uy",
+        "glQuote": "the husband of one wife",
+        "groupId": "figs-explicit",
+        "occurrence": 1,
+        "occurrenceNote": "This means that he has only one wife, that is, he does not have any other wives or concubines. This also means that he does not commit adultery and may also mean that he has not divorced a previous wife. Alternate translation: “a man who has only one woman” or “a man who is faithful to his wife” (See: [Assumed Knowledge and Implicit Information](rc://en/ta/man/translate/figs-explicit))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "μιᾶς",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "γυναικὸς",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἀνήρ",
+          },
+        ],
+        "quoteString": "μιᾶς γυναικὸς ἀνήρ",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 6,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "tpi2",
+        "glQuote": "But you, speak what fits",
+        "groupId": "figs-explicit",
+        "occurrence": 1,
+        "occurrenceNote": "Paul speaks of the grace of God as if it were a person who has arrived. Alternate translation: “God is now offering his grace” (See: UST, [Personification](rc://en/ta/man/translate/figs-personification))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "σὺ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "δὲ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "λάλει",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἃ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "πρέπει",
+          },
+        ],
+        "quoteString": "σὺ δὲ λάλει ἃ πρέπει",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 1,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "niu4",
+        "glQuote": "gave himself for us",
+        "groupId": "figs-explicit",
+        "occurrence": 1,
+        "occurrenceNote": "This refers to Jesus dying willingly. Alternate translation: “gave himself to die for us” (See: [Assumed Knowledge and Implicit Information](rc://en/ta/man/translate/figs-explicit))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "ἔδωκεν",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἑαυτὸν",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ὑπὲρ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἡμῶν",
+          },
+        ],
+        "quoteString": "ἔδωκεν ἑαυτὸν ὑπὲρ ἡμῶν",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 14,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "b94z",
+        "glQuote": "rebuke with all authority",
+        "groupId": "figs-explicit",
+        "occurrence": 1,
+        "occurrenceNote": "This statement can be made explicit. Alternate translation: “Correct with all authority those people who do not do these things” (See: [Assumed Knowledge and Implicit Information](rc://en/ta/man/translate/figs-explicit))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "ἔλεγχε",
+          },
+          Object {
+            "occurrence": 3,
+            "word": ",",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "μετὰ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "πάσης",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἐπιταγῆς",
+          },
+        ],
+        "quoteString": "ἔλεγχε, μετὰ πάσης ἐπιταγῆς",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 15,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "jbu1",
+        "glQuote": "disregard you",
+        "groupId": "figs-explicit",
+        "occurrence": 1,
+        "occurrenceNote": "This statement can be made explicit. Alternate translation: “refuse to listen to your words” or “refuse to respect you” (See: [Assumed Knowledge and Implicit Information](rc://en/ta/man/translate/figs-explicit))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "σου",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "περιφρονείτω",
+          },
+        ],
+        "quoteString": "σου περιφρονείτω",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 15,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+  ],
+  "figs-hendiadys": Array [
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "abcd",
+        "glQuote": "empty talkers and deceivers",
+        "groupId": "figs-hendiadys",
+        "occurrence": 1,
+        "occurrenceNote": "both **empty talkers** and **deceivers** refer to the same people. They taught false, worthless things and wanted people to believe them. (See: [Hendiadys](rc://en/ta/man/translate/figs-hendiadys))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "ματαιολόγοι",
+          },
+          Object {
+            "occurrence": 2,
+            "word": ",",
+          },
+          Object {
+            "occurrence": 2,
+            "word": "καὶ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "φρεναπάται",
+          },
+        ],
+        "quoteString": "ματαιολόγοι, καὶ φρεναπάται",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 10,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "abcf",
+        "glQuote": "the blessed hope and appearing of the glory",
+        "groupId": "figs-hendiadys",
+        "occurrence": 1,
+        "occurrenceNote": "Both **blessed hope** and **appearing of the glory** refer to the same event. This can be shown clearly. Alternate translation: “what we are longing for, the blessed and glorious appearing” (See: [Hendiadys](rc://en/ta/man/translate/figs-hendiadys))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "τὴν",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "μακαρίαν",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἐλπίδα",
+          },
+          Object {
+            "occurrence": 1,
+            "word": ",",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "καὶ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἐπιφάνειαν",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "τῆς",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "δόξης",
+          },
+        ],
+        "quoteString": "τὴν μακαρίαν ἐλπίδα, καὶ ἐπιφάνειαν τῆς δόξης",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 13,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xyz7",
+        "glQuote": "our great God and Savior Jesus Christ",
+        "groupId": "figs-hendiadys",
+        "occurrence": 1,
+        "occurrenceNote": "Both **our great God** and **Savior** refer to the one person, Jesus Christ. Alternate translation: “Jesus Christ, our great God and Savior” (See: [Hendiadys](rc://en/ta/man/translate/figs-hendiadys))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "τοῦ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "μεγάλου",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "Θεοῦ",
+          },
+          Object {
+            "occurrence": 2,
+            "word": "καὶ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "Σωτῆρος",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἡμῶν",
+          },
+          Object {
+            "occurrence": 2,
+            "word": ",",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "Ἰησοῦ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "Χριστοῦ",
+          },
+        ],
+        "quoteString": "τοῦ μεγάλου Θεοῦ καὶ Σωτῆρος ἡμῶν, Ἰησοῦ Χριστοῦ",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 13,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "dec4",
+        "glQuote": "We lived in evil and envy",
+        "groupId": "figs-hendiadys",
+        "occurrence": 1,
+        "occurrenceNote": "Here **evil** and **envy** describe sin. **Evil** is general and **envy** is a specific kind of sin. Alternate translation: “We were always doing evil things and wanting what others have” (See: [Hendiadys](rc://en/ta/man/translate/figs-hendiadys))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "ἐν",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "κακίᾳ",
+          },
+          Object {
+            "occurrence": 3,
+            "word": "καὶ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "φθόνῳ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "διάγοντες",
+          },
+        ],
+        "quoteString": "ἐν κακίᾳ καὶ φθόνῳ διάγοντες",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 3,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+  ],
+  "figs-hyperbole": Array [
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "y3zb",
+        "glQuote": "Cretans are always liars",
+        "groupId": "figs-hyperbole",
+        "occurrence": 1,
+        "occurrenceNote": "**_Cretans lie all the time_**. This is an exaggeration that means that Cretans had a reputation to be liars. (See: [Hyperbole and Generalization](rc://en/ta/man/translate/figs-hyperbole))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "Κρῆτες",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἀεὶ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ψεῦσται",
+          },
+        ],
+        "quoteString": "Κρῆτες ἀεὶ ψεῦσται",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 12,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+  ],
+  "figs-hypo": Array [
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xt6v",
+        "glQuote": "so that the opponent may be ashamed",
+        "groupId": "figs-hypo",
+        "occurrence": 1,
+        "occurrenceNote": "This presents a hypothetical situation in which someone opposes Titus and then becomes ashamed for having done so. Alternate translation: “so that if anyone opposes you, he may be ashamed” or “so that when people oppose you, they may be ashamed” (See: [Hypothetical Situations](rc://en/ta/man/translate/figs-hypo))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "ἵνα",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ὁ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἐξ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἐναντίας",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἐντραπῇ",
+          },
+        ],
+        "quoteString": "ἵνα ὁ ἐξ ἐναντίας ἐντραπῇ",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 8,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+  ],
+  "figs-inclusive": Array [
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xy18",
+        "glQuote": "our",
+        "groupId": "figs-inclusive",
+        "occurrence": 1,
+        "occurrenceNote": "This includes Paul, Titus, and all Christians. (See: [Inclusive \\"We\\"](rc://en/ta/man/translate/figs-inclusive))",
+        "quote": "ἡμῶν",
+        "quoteString": "ἡμῶν",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 3,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xy17",
+        "glQuote": "our",
+        "groupId": "figs-inclusive",
+        "occurrence": 1,
+        "occurrenceNote": "This includes Paul, Titus, and all Christians. (See: [Inclusive \\"We\\"](rc://en/ta/man/translate/figs-inclusive))",
+        "quote": "ἡμῶν",
+        "quoteString": "ἡμῶν",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 4,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xy15",
+        "glQuote": "us",
+        "groupId": "figs-inclusive",
+        "occurrence": 1,
+        "occurrenceNote": "This includes Paul, Titus, and all Christians. (See: [Inclusive \\"We\\"](rc://en/ta/man/translate/figs-inclusive))",
+        "quote": "ἡμῶν",
+        "quoteString": "ἡμῶν",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 8,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xy16",
+        "glQuote": "our",
+        "groupId": "figs-inclusive",
+        "occurrence": 1,
+        "occurrenceNote": "Here **our** is inclusive of Paul, Titus, and all Christians (See: [Inclusive \\"We\\"](rc://en/ta/man/translate/figs-inclusive))",
+        "quote": "ἡμῶν",
+        "quoteString": "ἡμῶν",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 10,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "abce",
+        "glQuote": "us",
+        "groupId": "figs-inclusive",
+        "occurrence": 1,
+        "occurrenceNote": "This includes Paul, Titus, and all Christians. (See: [Inclusive \\"We\\"](rc://en/ta/man/translate/figs-inclusive))",
+        "quote": "ἡμᾶς",
+        "quoteString": "ἡμᾶς",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 12,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xy20",
+        "glQuote": "us",
+        "groupId": "figs-inclusive",
+        "occurrence": 1,
+        "occurrenceNote": "This includes Paul, Titus, and all Christians. (See: [Inclusive \\"We\\"](rc://en/ta/man/translate/figs-inclusive))",
+        "quote": "ἡμῶν",
+        "quoteString": "ἡμῶν",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 14,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xy21",
+        "glQuote": "us",
+        "groupId": "figs-inclusive",
+        "occurrence": 1,
+        "occurrenceNote": "This includes Paul, Titus, and all Christians. (See: [Inclusive \\"We\\"](rc://en/ta/man/translate/figs-inclusive))",
+        "quote": "ἡμᾶς",
+        "quoteString": "ἡμᾶς",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 14,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "bl8e",
+        "glQuote": "we",
+        "groupId": "figs-inclusive",
+        "occurrence": 1,
+        "occurrenceNote": "**_even we_** or **_we ourselves_**. This includes Paul, Titus, and all Christians, referring to the time before they trusted in Christ. (See: [Inclusive \\"We\\"](rc://en/ta/man/translate/figs-inclusive))",
+        "quote": "ἡμεῖς",
+        "quoteString": "ἡμεῖς",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 3,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "abch",
+        "glQuote": "our",
+        "groupId": "figs-inclusive",
+        "occurrence": 1,
+        "occurrenceNote": "This includes Paul, Titus, and all Christians. (See: [Inclusive \\"We\\"](rc://en/ta/man/translate/figs-inclusive))",
+        "quote": "ἡμῶν",
+        "quoteString": "ἡμῶν",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 4,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xy24",
+        "glQuote": "us",
+        "groupId": "figs-inclusive",
+        "occurrence": 1,
+        "occurrenceNote": "This includes Paul, Titus, and all Christians. (See: [Inclusive \\"We\\"](rc://en/ta/man/translate/figs-inclusive))",
+        "quote": "ἡμᾶς",
+        "quoteString": "ἡμᾶς",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 6,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xy23",
+        "glQuote": "our",
+        "groupId": "figs-inclusive",
+        "occurrence": 1,
+        "occurrenceNote": "This includes Paul, Titus, and all Christians. (See: [Inclusive \\"We\\"](rc://en/ta/man/translate/figs-inclusive))",
+        "quote": "ἡμῶν",
+        "quoteString": "ἡμῶν",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 6,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xy33",
+        "glQuote": "our own",
+        "groupId": "figs-inclusive",
+        "occurrence": 1,
+        "occurrenceNote": "Here **our** includes Paul and Titus. The form should be either dual or inclusive.",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "οἱ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἡμέτεροι",
+          },
+        ],
+        "quoteString": "οἱ ἡμέτεροι",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 14,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xy35",
+        "glQuote": "us",
+        "groupId": "figs-inclusive",
+        "occurrence": 1,
+        "occurrenceNote": "Here **us** is probably exclusive and refers to Paul and the group of Christians with him. Paul is sending greetings from this group to the group of Christians that is with Titus on Crete.",
+        "quote": "ἡμᾶς ",
+        "quoteString": "ἡμᾶς",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 15,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+  ],
+  "figs-metaphor": Array [
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "gu55",
+        "glQuote": "a true son",
+        "groupId": "figs-metaphor",
+        "occurrence": 1,
+        "occurrenceNote": "Though Titus was not Paul’s biological **son**, they share a common faith in Christ. Paul considers relationship to Christ through faith to be more important than biological relationship. Thus, because of their relative ages and shared faith in Christ, Paul considers Titus as his own son. It may also be that Paul led Titus to faith in Christ, and so Titus is like a son in this spiritual sense. Alternate translation: “you are like a son to me” (See: [Metaphor](rc://en/ta/man/translate/figs-metaphor))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "γνησίῳ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "τέκνῳ",
+          },
+        ],
+        "quoteString": "γνησίῳ τέκνῳ",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 4,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "g2zf",
+        "glQuote": "The household manager of God",
+        "groupId": "figs-metaphor",
+        "occurrence": 1,
+        "occurrenceNote": "Paul speaks of the church as if it were God’s household, and the overseer as if he were a servant in charge of managing that household. (See: [Metaphor](rc://en/ta/man/translate/figs-metaphor))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "Θεοῦ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "οἰκονόμον",
+          },
+        ],
+        "quoteString": "Θεοῦ οἰκονόμον",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 7,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xwy6",
+        "glQuote": "He should hold tightly to",
+        "groupId": "figs-metaphor",
+        "occurrence": 1,
+        "occurrenceNote": "Paul speaks of devotion to the Christian faith as if it were grasping the faith with one’s hands. Alternate translation: “He should be devoted to” or “He should know well” (See: [Metaphor](rc://en/ta/man/translate/figs-metaphor))",
+        "quote": "ἀντεχόμενον",
+        "quoteString": "ἀντεχόμενον",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 9,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "h3jb",
+        "glQuote": "evil beasts",
+        "groupId": "figs-metaphor",
+        "occurrence": 1,
+        "occurrenceNote": "This metaphor compares the Cretans to dangerous wild animals. (See: [Metaphor](rc://en/ta/man/translate/figs-metaphor))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "κακὰ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "θηρία",
+          },
+        ],
+        "quoteString": "κακὰ θηρία",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 12,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "m4a5",
+        "glQuote": "turn away from the truth",
+        "groupId": "figs-metaphor",
+        "occurrence": 1,
+        "occurrenceNote": "Paul speaks of the truth as if it were an object that one could turn away from or avoid. Alternate translation: “reject the truth” (See: [Metaphor](rc://en/ta/man/translate/figs-metaphor))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "ἀποστρεφομένων",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "τὴν",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἀλήθειαν",
+          },
+        ],
+        "quoteString": "ἀποστρεφομένων τὴν ἀλήθειαν",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 14,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "n3wk",
+        "glQuote": "to those who are corrupt and unbelieving, nothing is pure",
+        "groupId": "figs-metaphor",
+        "occurrence": 1,
+        "occurrenceNote": "Paul speaks of sinners as if they were physically dirty. Alternate translation: “if people are morally defiled and do not believe, they cannot do anything pure” or “when people are full of sin and unbelief, nothing that they do is acceptable to God” (See: [Metaphor](rc://en/ta/man/translate/figs-metaphor))",
+        "quote": Array [
+          Object {
+            "occurrence": 2,
+            "word": "τοῖς",
+          },
+          Object {
+            "word": "…",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "μεμιαμμένοις",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "καὶ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἀπίστοις",
+          },
+          Object {
+            "occurrence": 1,
+            "word": ",",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "οὐδὲν",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "καθαρόν",
+          },
+        ],
+        "quoteString": "τοῖς…μεμιαμμένοις καὶ ἀπίστοις, οὐδὲν καθαρόν",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 15,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "g9re",
+        "glQuote": "or being slaves to much wine",
+        "groupId": "figs-metaphor",
+        "occurrence": 1,
+        "occurrenceNote": "People who cannot control themselves and drink too much wine are spoken of as if they were a slave to the wine. Alternate translation: “or controlled by their desire for wine” or “or addicted to wine” (See: [Metaphor](rc://en/ta/man/translate/figs-metaphor))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "οἴνῳ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "πολλῷ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "δεδουλωμένας",
+          },
+        ],
+        "quoteString": "οἴνῳ πολλῷ δεδουλωμένας",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 3,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "gxe7",
+        "glQuote": "to redeem us from all lawlessness",
+        "groupId": "figs-metaphor",
+        "occurrence": 1,
+        "occurrenceNote": "Paul speaks of Jesus as if he were setting slaves free from their evil master. (See: [Metaphor](rc://en/ta/man/translate/figs-metaphor))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "λυτρώσηται",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἡμᾶς",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἀπὸ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "πάσης",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἀνομίας",
+          },
+        ],
+        "quoteString": "λυτρώσηται ἡμᾶς ἀπὸ πάσης ἀνομίας",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 14,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "k1a6",
+        "glQuote": "the washing of new birth",
+        "groupId": "figs-metaphor",
+        "occurrence": 1,
+        "occurrenceNote": "Paul combines two metaphors here. He is speaking of God’s forgiveness for sinners as if he were physically washing them clean from their sin. He is also speaking of sinners who become responsive to God as if they had been born again. (See: [Metaphor](rc://en/ta/man/translate/figs-metaphor))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "λουτροῦ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "παλινγενεσίας",
+          },
+        ],
+        "quoteString": "λουτροῦ παλινγενεσίας",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 5,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "fby9",
+        "glQuote": "whom God richly poured on us",
+        "groupId": "figs-metaphor",
+        "occurrence": 1,
+        "occurrenceNote": "It is common for New Testament writers to speak of the Holy Spirit as a liquid that God can pour out in large amounts. Alternate translation: “whom God gave to us generously” (See: [Metaphor](rc://en/ta/man/translate/figs-metaphor))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "οὗ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἐξέχεεν",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἐφ’",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἡμᾶς",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "πλουσίως",
+          },
+        ],
+        "quoteString": "οὗ ἐξέχεεν ἐφ’ ἡμᾶς πλουσίως",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 6,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "q1cm",
+        "glQuote": "we might become heirs according to the certain hope of eternal life",
+        "groupId": "figs-metaphor",
+        "occurrence": 1,
+        "occurrenceNote": "The people to whom God has made promises are spoken of as if they were to inherit the things promised, just as a person inherits property or possessions from a family member. Alternate translation: “we might expect to receive the eternal life that God hs promised us” (See: [Metaphor](rc://en/ta/man/translate/figs-metaphor))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "κληρονόμοι",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "γενηθῶμεν",
+          },
+          Object {
+            "occurrence": 2,
+            "word": ",",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "κατ’",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἐλπίδα",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ζωῆς",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "αἰωνίου",
+          },
+        ],
+        "quoteString": "κληρονόμοι γενηθῶμεν, κατ’ ἐλπίδα ζωῆς αἰωνίου",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 7,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "inh5",
+        "glQuote": "has turned from the right way",
+        "groupId": "figs-metaphor",
+        "occurrence": 1,
+        "occurrenceNote": "Paul speaks of someone who chooses to do wrong things as if he were leaving the right path to walk in the wrong direction. (See: [Metaphor](rc://en/ta/man/translate/figs-metaphor))",
+        "quote": "ἐξέστραπται",
+        "quoteString": "ἐξέστραπται",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 11,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "mji4",
+        "glQuote": "in order not to be unfruitful",
+        "groupId": "figs-metaphor",
+        "occurrence": 1,
+        "occurrenceNote": "Paul speaks of people doing good work as if they were trees bearing good fruit. Alternate translation: “so that they will not lead useless lives” (See: [Metaphor](rc://en/ta/man/translate/figs-metaphor))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "ἵνα",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "μὴ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ὦσιν",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἄκαρποι",
+          },
+        ],
+        "quoteString": "ἵνα μὴ ὦσιν ἄκαρποι",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 14,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+  ],
+  "figs-metonymy": Array [
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "pu74",
+        "glQuote": "those of the circumcision",
+        "groupId": "figs-metonymy",
+        "occurrence": 1,
+        "occurrenceNote": "This refers to the Jewish Christians who taught that men must be circumcised in order to follow Christ. This teaching is false. (See: [Metonymy](rc://en/ta/man/translate/figs-metonymy))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "οἱ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἐκ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "τῆς",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "περιτομῆς",
+          },
+        ],
+        "quoteString": "οἱ ἐκ τῆς περιτομῆς",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 10,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xyz6",
+        "glQuote": "the blessed hope",
+        "groupId": "figs-metonymy",
+        "occurrence": 1,
+        "occurrenceNote": "Here, what is **blessed** is that for which we hope, which is the return of Jesus Christ. Alternate translation: “the wonderful thing for which we hope” (See: [Metonymy](rc://en/ta/man/translate/figs-metonymy))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "τὴν",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "μακαρίαν",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἐλπίδα",
+          },
+        ],
+        "quoteString": "τὴν μακαρίαν ἐλπίδα",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 13,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "pss7",
+        "glQuote": "and appearing of the glory of our great God and Savior Jesus Christ",
+        "groupId": "figs-metonymy",
+        "occurrence": 1,
+        "occurrenceNote": "Here **glory** represents Jesus himself who will appear gloriously. Alternate translation: “that is, the glorious appearance of our great God and Savior Jesus Christ” (See: [Metonymy](rc://en/ta/man/translate/figs-metonymy))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "καὶ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἐπιφάνειαν",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "τῆς",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "δόξης",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "τοῦ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "μεγάλου",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "Θεοῦ",
+          },
+          Object {
+            "occurrence": 2,
+            "word": "καὶ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "Σωτῆρος",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἡμῶν",
+          },
+          Object {
+            "occurrence": 2,
+            "word": ",",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "Ἰησοῦ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "Χριστοῦ",
+          },
+        ],
+        "quoteString": "καὶ ἐπιφάνειαν τῆς δόξης τοῦ μεγάλου Θεοῦ καὶ Σωτῆρος ἡμῶν, Ἰησοῦ Χριστοῦ",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 13,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+  ],
+  "figs-personification": Array [
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "gp2z",
+        "glQuote": "the grace of God has appeared",
+        "groupId": "figs-personification",
+        "occurrence": 1,
+        "occurrenceNote": "Paul speaks of the grace of God as if it were a person who has arrived. Alternate translation: “God is now offering his grace” (See: UST, [Personification](rc://en/ta/man/translate/figs-personification))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "ἐπεφάνη",
+          },
+          Object {
+            "word": "…",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἡ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "χάρις",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "τοῦ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "Θεοῦ",
+          },
+        ],
+        "quoteString": "ἐπεφάνη…ἡ χάρις τοῦ Θεοῦ",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 11,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "qy8k",
+        "glQuote": "training us",
+        "groupId": "figs-personification",
+        "occurrence": 1,
+        "occurrenceNote": "Paul speaks of the grace of God (2:11) as if it were a person who trains other people how to live holy lives. Alternate translation: “by which God trains us” (See: [Personification](rc://en/ta/man/translate/figs-personification))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "παιδεύουσα",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἡμᾶς",
+          },
+        ],
+        "quoteString": "παιδεύουσα ἡμᾶς",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 2,
+          "verse": 12,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "qt8f",
+        "glQuote": "We were led astray and enslaved by various passions and pleasures",
+        "groupId": "figs-personification",
+        "occurrence": 1,
+        "occurrenceNote": "Passion and pleasure are spoken of as if they were masters over people and had made those people into slaves by lying to them. Alternate translation: “We had allowed ourselves to believe the lie that various passions and pleasures could make us happy, and then we were unable to control our feelings or stop doing things we thought would give us pleasure” (See: [Personification](rc://en/ta/man/translate/figs-personification))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "πλανώμενοι",
+          },
+          Object {
+            "occurrence": 3,
+            "word": ",",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "δουλεύοντες",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἐπιθυμίαις",
+          },
+          Object {
+            "occurrence": 2,
+            "word": "καὶ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἡδοναῖς",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ποικίλαις",
+          },
+        ],
+        "quoteString": "πλανώμενοι, δουλεύοντες ἐπιθυμίαις καὶ ἡδοναῖς ποικίλαις",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 3,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "ba5a",
+        "glQuote": "when the kindness of God our Savior and his love for mankind appeared",
+        "groupId": "figs-personification",
+        "occurrence": 1,
+        "occurrenceNote": "Paul speaks of God’s kindness and love as if they were people that came into our sight. Alternate translation: “When God our Savior showed us his kindness and love for people” (See: [Personification](rc://en/ta/man/translate/figs-personification))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "ὅτε",
+          },
+          Object {
+            "word": "…",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἡ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "χρηστότης",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "καὶ",
+          },
+          Object {
+            "occurrence": 2,
+            "word": "ἡ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "φιλανθρωπία",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἐπεφάνη",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "τοῦ",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "Σωτῆρος",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἡμῶν",
+          },
+          Object {
+            "occurrence": 1,
+            "word": ",",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "Θεοῦ",
+          },
+        ],
+        "quoteString": "ὅτε…ἡ χρηστότης καὶ ἡ φιλανθρωπία ἐπεφάνη τοῦ Σωτῆρος ἡμῶν, Θεοῦ",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 4,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+  ],
+  "figs-synecdoche": Array [
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xyz1",
+        "glQuote": "lazy bellies",
+        "groupId": "figs-synecdoche",
+        "occurrence": 1,
+        "occurrenceNote": "The part of the body that stores food is used to represent the person who eats all the time. Alternate translation: “lazy gluttons” (See: [Synecdoche](rc://en/ta/man/translate/figs-synecdoche))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "γαστέρες",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἀργαί",
+          },
+        ],
+        "quoteString": "γαστέρες ἀργαί",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 12,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+  ],
+  "grammar-connect-exceptions": Array [
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "abcm",
+        "glQuote": "not",
+        "groupId": "grammar-connect-exceptions",
+        "occurrence": 1,
+        "occurrenceNote": "The connecting word **not** introduce an exception clause. Titus must not pay any attention to the Jewish myths or the commands of people who do not follow the truth. (See: [[rc://en/ta/man/translate/grammar-connect-exceptions]])",
+        "quote": "μὴ",
+        "quoteString": "μὴ",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 14,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+  ],
+  "grammar-connect-logic-contrast": Array [
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "i549",
+        "glQuote": "Instead",
+        "groupId": "grammar-connect-logic-contrast",
+        "occurrence": 1,
+        "occurrenceNote": "The connecting word **Instead** introduces a contrast between the things an elder is not to be (that Paul already stated), and the things an elder is to be (which Paul is about to state). (See: [[rc://en/ta/man/translate/grammar-connect-logic-contrast]])",
+        "quote": "ἀλλὰ",
+        "quoteString": "ἀλλὰ",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 8,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "abcn",
+        "glQuote": "But",
+        "groupId": "grammar-connect-logic-contrast",
+        "occurrence": 1,
+        "occurrenceNote": "The connecting word **But** introduces a contrast between people who are pure and people who are corrupt and unbelieving. (See: [[rc://en/ta/man/translate/grammar-connect-logic-contrast]])",
+        "quote": "δὲ",
+        "quoteString": "δὲ",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 15,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "abco",
+        "glQuote": "but",
+        "groupId": "grammar-connect-logic-contrast",
+        "occurrence": 1,
+        "occurrenceNote": "The connecting word **but** introduces a contrast between what these corrupt people say (they know God) and what their actions show (they do not know God). (See: [[rc://en/ta/man/translate/grammar-connect-logic-contrast]])",
+        "quote": "δὲ",
+        "quoteString": "δὲ",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 16,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "xy28",
+        "glQuote": "But",
+        "groupId": "grammar-connect-logic-contrast",
+        "occurrence": 1,
+        "occurrenceNote": "It is important to mark the contrast here between the evil way that people are (verses 1-3) and the goodness of God (verses 4-7) (See: [[rc://en/ta/man/translate/grammar-connect-logic-contrast]])",
+        "quote": "δὲ ",
+        "quoteString": "δὲ",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 4,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+  ],
+  "grammar-connect-logic-goal": Array [
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "ew8h",
+        "glQuote": "For this purpose",
+        "groupId": "grammar-connect-logic-goal",
+        "occurrence": 1,
+        "occurrenceNote": "The connecting phrase **For this purpose** introduces the goal that Paul wanted to accomplish when he left Titus in Crete (to ordain elders in the church). Alternate translation: “This is the reason” (See: [[rc://en/ta/man/translate/grammar-connect-logic-goal]])",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "τούτου",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "χάριν",
+          },
+        ],
+        "quoteString": "τούτου χάριν",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 5,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+  ],
+  "grammar-connect-logic-result": Array [
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "abcj",
+        "glQuote": "so that",
+        "groupId": "grammar-connect-logic-result",
+        "occurrence": 1,
+        "occurrenceNote": "The connecting words **so that** introduce a reason-result relationship. The reason is the elder holding tightly to the trustworthy message, and the result is the elder is not able to encourage others and rebuke those who oppose him. (See: [[rc://en/ta/man/translate/grammar-connect-logic-result]])",
+        "quote": "ἵνα",
+        "quoteString": "ἵνα",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 9,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "abck",
+        "glQuote": "For this reason",
+        "groupId": "grammar-connect-logic-result",
+        "occurrence": 1,
+        "occurrenceNote": "The connecting words **For this reason** introduce a reason-result relationship. The reason is that what the Cretan prophet said about his peope is true (they are liars, evil, and lazy), and the result is that Titus should rebuke them severely. (See: [[rc://en/ta/man/translate/grammar-connect-logic-result]])",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "δι’",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "ἣν",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "αἰτίαν",
+          },
+        ],
+        "quoteString": "δι’ ἣν αἰτίαν",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 13,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "abcl",
+        "glQuote": "so that",
+        "groupId": "grammar-connect-logic-result",
+        "occurrence": 1,
+        "occurrenceNote": "The connecting words **so that** introduce a reason-result relationship. The reason is the elder rebukes the Cretans severely, and the result is the Cretans become sound in the faith. (See: [[rc://en/ta/man/translate/grammar-connect-logic-result]])",
+        "quote": "ἵνα",
+        "quoteString": "ἵνα",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 1,
+          "verse": 13,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+  ],
+  "translate-names": Array [
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "c32w",
+        "glQuote": "Artemas…Tychicus",
+        "groupId": "translate-names",
+        "occurrence": 1,
+        "occurrenceNote": "These are men’s names. (See: [How to Translate Names](rc://en/ta/man/translate/translate-names))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "Ἀρτεμᾶν",
+          },
+          Object {
+            "word": "…",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "Τυχικόν",
+          },
+        ],
+        "quoteString": "Ἀρτεμᾶν…Τυχικόν",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 12,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+    Object {
+      "comments": false,
+      "contextId": Object {
+        "checkId": "a46f",
+        "glQuote": "Zenas…Appollos",
+        "groupId": "translate-names",
+        "occurrence": 1,
+        "occurrenceNote": "These are men’s names. (See: [How to Translate Names](rc://en/ta/man/translate/translate-names))",
+        "quote": Array [
+          Object {
+            "occurrence": 1,
+            "word": "Ζηνᾶν",
+          },
+          Object {
+            "word": "…",
+          },
+          Object {
+            "occurrence": 1,
+            "word": "Ἀπολλῶν",
+          },
+        ],
+        "quoteString": "Ζηνᾶν…Ἀπολλῶν",
+        "reference": Object {
+          "bookId": "tit",
+          "chapter": 3,
+          "verse": 13,
+        },
+        "tool": "translationNotes",
+      },
+      "nothingToSelect": false,
+      "reminders": false,
+      "selections": false,
+      "verseEdits": false,
+    },
+  ],
+}
+`;
+
+exports[`tsvToGroupData(): It should not crash on space for support ref 1`] = `
 Object {
   "figs-abstractnouns": Array [
     Object {
