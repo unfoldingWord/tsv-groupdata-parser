@@ -59,12 +59,14 @@ describe('tsvToGroupData():', () => {
   });
 
   test('It should not crash on space for support ref', async () => {
+    // see line with checkID fyf8
     const filepath = '__tests__/fixtures/tsv/en_tn_57-TIT-white-space-as-support-ref.tsv';
     const result = await tsvToGroupData(filepath, 'translationNotes', null, ORIGINAL_BIBLE_PATH, RESOURCES_PATH, 'en');
     expect(result).toMatchSnapshot();
   });
 
   test('It should not crash invalid ref', async () => {
+    // see line with checkID xyz8
     const filepath = '__tests__/fixtures/tsv/en_tn_57-TIT-invalid-ref.tsv';
     const result = await tsvToGroupData(filepath, 'translationNotes', null, ORIGINAL_BIBLE_PATH, RESOURCES_PATH, 'en');
     expect(result).toMatchSnapshot();
