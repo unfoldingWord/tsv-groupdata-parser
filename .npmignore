@@ -2,3 +2,5 @@ node_modules
 __tests__
 __mocks__
 scripts
+.github
+src
