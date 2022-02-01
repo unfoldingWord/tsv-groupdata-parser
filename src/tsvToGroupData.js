@@ -7,7 +7,10 @@ import ManageResource from './helpers/ManageResourceAPI';
 import { getWordOccurrencesForQuote } from './helpers/wordOccurrenceHelpers';
 import { ELLIPSIS } from './utils/constants';
 import {
-  translationHelps, getLatestVersionInPath, getGroupName, getBibleIdForLanguage,
+  getBibleIdForLanguage,
+  getGroupName,
+  getLatestVersionInPath,
+  translationHelps,
 } from './helpers/resourcesHelpers';
 import { hasEllipsis } from './helpers/ellipsisHelpers';
 
@@ -263,9 +266,10 @@ export const cleanOccurrenceNoteLinks = (occurrenceNote, resourcesPath, langId, 
  * Returns the formatted groupData item for a given tsv item.
  * @param {object} tsvItem tsv item.
  * @param {string} toolName tool name.
+ * @param {string} verseString
  * @returns {object} groupData item.
  */
-const generateGroupDataItem = (tsvItem, toolName, verseString) => {
+export const generateGroupDataItem = (tsvItem, toolName, verseString) => {
   const { OrigQuote = '' } = tsvItem;
   // if quote has more than one word get word occurrences
   const wordOccurrencesForQuote = getWordOccurrencesForQuote(OrigQuote, verseString, true); // uses tokenizer to get list of words handle various punctuation and spacing chars
