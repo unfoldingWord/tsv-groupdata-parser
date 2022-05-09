@@ -17,6 +17,50 @@ describe('getWordOccurrencesForQuote():', () => {
   test('should generate an array of objects for an original language quote with ellipsis', () => {
     const checks = [
       {
+        // multiple ellipsis check
+        bookId: 'php',
+        chapter: 2,
+        verse: 1,
+        quote: 'εἴ τις…εἴ τι…εἴ τις…εἴ τις',
+        expected: [
+          {
+            'word': 'εἴ',
+            'occurrence': 1,
+          },
+          {
+            'word': 'τις',
+            'occurrence': 1,
+          },
+          { 'word': '…' },
+          {
+            'word': 'εἴ',
+            'occurrence': 2,
+          },
+          {
+            'word': 'τι',
+            'occurrence': 1,
+          },
+          { 'word': '…' },
+          {
+            'word': 'εἴ',
+            'occurrence': 3,
+          },
+          {
+            'word': 'τις',
+            'occurrence': 2,
+          },
+          { 'word': '…' },
+          {
+            'word': 'εἴ',
+            'occurrence': 4,
+          },
+          {
+            'word': 'τις',
+            'occurrence': 3,
+          },
+        ],
+      },
+      {
         bookId: 'tit',
         chapter: 1,
         verse: 15,
