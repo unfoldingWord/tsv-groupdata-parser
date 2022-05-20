@@ -10,7 +10,7 @@ There are several resources available for finding answers to questions:
   * [Translation Manual](../../translate/translate-manual/01.md) - explains the basics of translation theory and practical translation helps
   * [Checking Manual](../../checking/intro-check/01.md) - explains the basics of checking theory and best practices
 * **Slack Chatroom** - Join the Team43 community, post your questions to the "#helpdesk" channel, and get real-time answers to your questions (sign up at http://ufw.io/team43)
-* **CCBT Discussion Forum** - A place to ask questions and get answers to technical, strategic, translation, and checking issues, https://forum.ccbt.bible/
+* **CCBT Discussion Forum** - A place to ask questions and get answers to technical, strategic, translation, and checking issues, https://forum.door43.org/
 * **Helpdesk** - email <help@door43.org> with your questions
 
 
