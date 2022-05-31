@@ -2,6 +2,7 @@ import ManageResource from './helpers/ManageResourceAPI';
 export { ManageResource };
 export {
   tsvToGroupData,
+  tnJsonToGroupData,
   generateGroupDataItem,
   cleanGroupId,
 } from './tsvToGroupData';

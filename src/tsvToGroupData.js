@@ -17,6 +17,8 @@ import { hasEllipsis } from './helpers/ellipsisHelpers';
 /**
  * Parses a book tN TSVs and returns an object holding the lists of group ids.
  * @param {string} filepath path to tsv file.
+ * @param {string} bookId
+ * @param {array} tsvObjects
  * @param {string} toolName tC tool name.
  * @param {object} params When it includes { categorized: true }
  * then it returns the object organized by tn article category.
@@ -27,10 +29,8 @@ import { hasEllipsis } from './helpers/ellipsisHelpers';
  * @param {string} langId
  * @returns an object with the lists of group ids which each includes an array of groupsdata.
  */
-export const tsvToGroupData = async (filepath, toolName, params = {}, originalBiblePath, resourcesPath, langId) => {
+export function tnJsonToGroupData(originalBiblePath, bookId, tsvObjects, resourcesPath, langId, toolName, params, filepath) {
   const groupData = {};
-  const tsvObjects = await tsvtojson(filepath);
-  const { Book: bookId } = tsvObjects[0] || {};
 
   try {
     const resourceApi = new ManageResource(originalBiblePath, bookId.toLowerCase());
@@ -74,6 +74,25 @@ export const tsvToGroupData = async (filepath, toolName, params = {}, originalBi
     console.error(`tsvToGroupData() - error processing filepath: ${filepath}`, e);
     throw e;
   }
+}
+
+/**
+ * Parses a book tN TSVs and returns an object holding the lists of group ids.
+ * @param {string} filepath path to tsv file.
+ * @param {string} toolName tC tool name.
+ * @param {object} params When it includes { categorized: true }
+ * then it returns the object organized by tn article category.
+ * @param {string} originalBiblePath path to original bible.
+ * e.g. /resources/el-x-koine/bibles/ugnt/v0.11
+ * @param {string} resourcesPath path to the resources dir
+ * e.g. /User/john/translationCore/resources
+ * @param {string} langId
+ * @returns an object with the lists of group ids which each includes an array of groupsdata.
+ */
+export const tsvToGroupData = async (filepath, toolName, params = {}, originalBiblePath, resourcesPath, langId) => {
+  const tsvObjects = await tsvtojson(filepath);
+  const { Book: bookId } = tsvObjects[0] || {};
+  return tnJsonToGroupData(originalBiblePath, bookId, tsvObjects, resourcesPath, langId, toolName, params, filepath);
 };
 
 /**
