@@ -14,6 +14,93 @@ import {
 } from './helpers/resourcesHelpers';
 import { hasEllipsis } from './helpers/ellipsisHelpers';
 
+// list of possible hyphen and dash characters used for range separator
+const RANGE_SEPARATORS = [
+  '-', // HYPHEN-MINUS
+  '\u00AD', // SOFT HYPHEN
+  '\u2010', // HYPHEN
+  '\u2011', // NON-BREAKING HYPHEN
+  '\u2012', // FIGURE DASH
+  '\u2013', // EN DASH
+  '\u2014', // EM DASH
+];
+
+/**
+ * look for possible dash and hyphen character to see if versePart is a verse range
+ * @param {string} versePart
+ * @return {number} position of dash or hyphen found, or -1 if not found
+ */
+function getRangeSeparator(versePart) {
+  for (const separator of RANGE_SEPARATORS) {
+    const pos = versePart.indexOf(separator);
+
+    if (pos >= 0) {
+      return pos;
+    }
+  }
+  return -1;
+}
+
+/**
+ * takes a reference and splits into individual verses or verse spans.
+ * @param {string} ref - reference in format such as:
+ *   “2:4-5”, “2:3a”, “2-3b-4a”, “2:7,12”, “7:11-8:2”, "6:15-16;7:2"
+ * @return {array}
+ */
+export function parseReference(ref) {
+  const verseChunks = [];
+  const refChunks = ref.split(';');
+
+  for (const refChunk of refChunks) {
+    if (!refChunk) {
+      continue;
+    }
+
+    const [chapter_, verse_] = refChunk.split(':');
+
+    if (chapter_ && verse_) {
+      let verse = verse_;
+      let chapter = chapter_;
+      const chapterInt = parseInt(chapter_, 10);
+      let verseInt = parseInt(verse_, 10);
+
+      if (isNaN(chapterInt) || isNaN(verseInt)) {
+        verseChunks.push({ chapter, verse });
+        continue;
+      }
+      chapter = '' + chapterInt;
+      const verseParts = verse_.split(',');
+
+      for (const versePart of verseParts) {
+        if (!versePart) {
+          continue;
+        }
+        verseInt = parseInt(versePart, 10);
+
+        if (isNaN(verseInt)) {
+          verseChunks.push({ chapter, verse: versePart });
+          continue;
+        }
+
+        const pos = (versePart != verseInt) ? getRangeSeparator(versePart) : -2;
+        verse = '' + verseInt;
+        let isRange = pos >= 0;
+
+        if (isRange) {
+          let verseEnd = versePart.substring(pos + 1);
+          const verseEndInt = parseInt(verseEnd, 10);
+
+          if (!isNaN(verseEndInt)) {
+            verse += '-' + verseEndInt;
+          }
+        }
+        verseChunks.push({ chapter, verse });
+      }
+    }
+  }
+  return verseChunks;
+}
+
 /**
  * Parses a book tN TSVs and returns an object holding the lists of group ids.
  * @param {string} filepath path to tsv file.
