@@ -49,14 +49,12 @@ export function tnJsonToGroupData(originalBiblePath, bookId, tsvObjects, resourc
           continue;
         }
 
-        const chapter = parseInt(tsvItem.Chapter, 10);
-        const verse = parseInt(tsvItem.Verse, 10);
         let verseString = null;
 
         try {
-          verseString = resourceApi.getVerseString(chapter, verse);
+          verseString = resourceApi.getVerseString(tsvItem.Chapter, tsvItem.Verse);
         } catch (e) {
-          console.warn(`tsvToGroupData() - error getting verse string: chapter ${chapter}, verse ${verse} from ${JSON.stringify(tsvItem)}`, e);
+          console.warn(`tsvToGroupData() - error getting verse string: chapter ${tsvItem.Chapter}, verse ${tsvItem.Verse} from ${JSON.stringify(tsvItem)}`, e);
         }
 
         if (verseString) {

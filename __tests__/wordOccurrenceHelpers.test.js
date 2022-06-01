@@ -980,6 +980,33 @@ describe('getWordOccurrencesForQuote():', () => {
           },
         ],
       },
+      {
+        // figs-explicit	εὐαγγελισαμένου ... τὴν πίστιν ... ὑμῶν - with verse span
+        bookId: '1th',
+        chapter: 3,
+        verse: '6-7',
+        quote: 'εὐαγγελισαμένου ... τὴν πίστιν ... ὑμῶν',
+        expected: [
+          {
+            word: 'εὐαγγελισαμένου',
+            occurrence: 1,
+          },
+          { word: '…' },
+          {
+            word: 'τὴν',
+            occurrence: 1,
+          },
+          {
+            word: 'πίστιν',
+            occurrence: 1,
+          },
+          { word: '…' },
+          {
+            word: 'ὑμῶν',
+            occurrence: 3,
+          },
+        ],
+      },
     ];
 
     checks.forEach(({
