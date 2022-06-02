@@ -131,6 +131,8 @@ export function tnJsonToGroupData(originalBiblePath, bookId, tsvObjects, resourc
         if (!supportReference) {
           continue; // skip over if cleaned support reference is empty
         }
+
+        tsvItem.SupportReference = supportReference; // save cleaned up value
         tsvItem.OccurrenceNote = cleanOccurrenceNoteLinks(tsvItem.OccurrenceNote || '', resourcesPath, langId, bookId.toLowerCase(), tsvItem.Chapter);
 
         if (!tsvItem.OccurrenceNote) {
