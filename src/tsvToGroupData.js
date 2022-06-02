@@ -65,10 +65,12 @@ export function parseReference(ref) {
       let verseInt = parseInt(verse_, 10);
 
       if (isNaN(chapterInt) || isNaN(verseInt)) {
+        chapter = toIntIfValid(chapter);
+        verse = toIntIfValid(verse);
         verseChunks.push({ chapter, verse });
         continue;
       }
-      chapter = '' + chapterInt;
+      chapter = chapterInt;
       const verseParts = verse_.split(',');
 
       for (const versePart of verseParts) {
@@ -83,15 +85,15 @@ export function parseReference(ref) {
         }
 
         const pos = (versePart != verseInt) ? getRangeSeparator(versePart) : -2;
-        verse = '' + verseInt;
-        let isRange = pos >= 0;
+        const isRange = pos >= 0;
+        verse = verseInt;
 
         if (isRange) {
           let verseEnd = versePart.substring(pos + 1);
           const verseEndInt = parseInt(verseEnd, 10);
 
           if (!isNaN(verseEndInt)) {
-            verse += '-' + verseEndInt;
+            verse = verse + '-' + verseEndInt;
           }
         }
         verseChunks.push({ chapter, verse });
@@ -369,6 +371,51 @@ export const cleanOccurrenceNoteLinks = (occurrenceNote, resourcesPath, langId, 
 };
 
 /**
+ * convert value to int if string, otherwise just return value
+ * @param {string|int} value
+ * @returns {int}
+ */
+export function toInt(value) {
+  return (typeof value === 'string') ? parseInt(value, 10) : value;
+}
+
+/**
+ * return int of value (string or int) if valid, otherwise just return value
+ * @param {string|int} value
+ * @returns {int|int}
+ */
+export function toIntIfValid(value) {
+  const intValue = toInt(value);
+
+  if (!isNaN(intValue)) {
+    return intValue;
+  }
+  return value;
+}
+
+/**
+ * find best representation of chapter and verse.  If they can be represented by numbers, then use numbers.  Otherwise leave as strings
+ * @param {object} item
+ * @returns {{chapter: (*|int), verse: (*|int)}}
+ */
+export function convertReference(item) {
+  const itemChapter = item.Chapter;
+  const chapterInt = toInt(itemChapter);
+  const chapter = isNaN(chapterInt) ? itemChapter : chapterInt; // convert to number if valid
+
+  const itemVerse = item.Verse;
+  const verseInt = toInt(itemVerse);
+  let verse = isNaN(verseInt) ? itemVerse : verseInt;
+  const isVerseRange = (typeof itemVerse === 'string') && (itemVerse.indexOf('-') >= 0);
+
+  if (isVerseRange) {
+    verse = itemVerse; // if original string was verse range, leave as string
+  }
+
+  return { chapter, verse };
+}
+
+/**
  * Returns the formatted groupData item for a given tsv item.
  * @param {object} tsvItem tsv item.
  * @param {string} toolName tool name.
@@ -381,7 +428,7 @@ export const generateGroupDataItem = (tsvItem, toolName, verseString) => {
   const wordOccurrencesForQuote = getWordOccurrencesForQuote(OrigQuote, verseString, true); // uses tokenizer to get list of words handle various punctuation and spacing chars
   const quote = wordOccurrencesForQuote.length > 1 || hasEllipsis(OrigQuote) ? wordOccurrencesForQuote : OrigQuote; // only use array if more than one word found
   const quoteString = OrigQuote.trim().replace(/\.../gi, ELLIPSIS);
-
+  const { chapter, verse } = convertReference(tsvItem);
   return {
     comments: false,
     reminders: false,
@@ -393,8 +440,8 @@ export const generateGroupDataItem = (tsvItem, toolName, verseString) => {
       occurrenceNote: tsvItem.OccurrenceNote || '',
       reference: {
         bookId: tsvItem.Book.toLowerCase() || '',
-        chapter: parseInt(tsvItem.Chapter, 10) || '',
-        verse: parseInt(tsvItem.Verse, 10) || '',
+        chapter: chapter || '',
+        verse: verse || '',
       },
       tool: toolName || '',
       groupId: tsvItem.SupportReference || '',
