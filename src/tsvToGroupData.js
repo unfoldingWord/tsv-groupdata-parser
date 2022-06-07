@@ -181,7 +181,21 @@ export function tnJsonToGroupData(originalBiblePath, bookId, tsvObjects, resourc
  * @returns an object with the lists of group ids which each includes an array of groupsdata.
  */
 export const tsvToGroupData = async (filepath, toolName, params = {}, originalBiblePath, resourcesPath, langId) => {
-  const tsvObjects = await tsvtojson(filepath);
+  let filePath_ = filepath;
+  const tsv = fs.readFileSync(filepath, 'utf8');
+  const HARD_NL = `\\n`;
+
+  if (tsv.indexOf(HARD_NL) >= 0) { // see if we need to clean up file before calling library
+    const folder = path.dirname(filepath);
+    const tempFolder = path.join(folder, 'temp');
+    fs.ensureDirSync(tempFolder);
+    const baseName = path.base(filepath, true);
+    filePath_ = path.join(tempFolder, baseName );
+    const cleanedTsv = tsv.replaceAll(HARD_NL, '\n');
+    fs.outputFileSync(filePath_, cleanedTsv, 'utf8'); // save cleaned data before calling library
+  }
+
+  const tsvObjects = await tsvtojson(filePath_);
   const { Book: bookId } = tsvObjects[0] || {};
   return tnJsonToGroupData(originalBiblePath, bookId, tsvObjects, resourcesPath, langId, toolName, params, filepath);
 };
