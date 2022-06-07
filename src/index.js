@@ -1,9 +1,11 @@
 import ManageResource from './helpers/ManageResourceAPI';
 export { ManageResource };
 export {
-  tsvToGroupData,
-  generateGroupDataItem,
   cleanGroupId,
+  generateGroupDataItem,
+  parseReference,
+  tsvToGroupData,
+  tnJsonToGroupData,
 } from './tsvToGroupData';
 export { generateGroupsIndex } from './groupsIndexParser';
 export {

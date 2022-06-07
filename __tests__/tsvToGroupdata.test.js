@@ -1,12 +1,81 @@
 import path from 'path-extra';
+import deepEqual from 'deep-equal';
 // helpers
 import {
-  tsvToGroupData, cleanGroupId, cleanOccurrenceNoteLinks,
+  tsvToGroupData,
+  cleanGroupId,
+  cleanOccurrenceNoteLinks,
+  parseReference,
+  convertReference,
 } from '../src/tsvToGroupData';
+
 jest.unmock('fs-extra');
+
 // constants
 const RESOURCES_PATH = path.join(__dirname, 'fixtures', 'resources');
 const ORIGINAL_BIBLE_PATH = path.join(RESOURCES_PATH, 'el-x-koine', 'bibles', 'ugnt', 'v0.11');
+
+describe('Tests parseReference', function () {
+  it('Test parseReference for test cases', async () => {
+    const tests = [
+      { ref: 'front:intro', expect: [{ chapter: 'front', verse: 'intro' }] },
+      { ref: '1:intro', expect: [{ chapter: 1, verse: 'intro' }] },
+      { ref: '1:1', expect: [{ chapter: 1, verse: 1 }] },
+      { ref: '1:1-2', expect: [{ chapter: 1, verse: '1-2' }] },
+      { ref: '1:1\u20142', expect: [{ chapter: 1, verse: '1-2' }] }, // try with EM DASH
+      { ref: '1:1\u20132', expect: [{ chapter: 1, verse: '1-2' }] }, // try with EN DASH
+      { ref: '1:1\u20102', expect: [{ chapter: 1, verse: '1-2' }] }, // try with HYPHEN
+      { ref: '1:1\u00AD2', expect: [{ chapter: 1, verse: '1-2' }] }, // try with SOFT HYPHEN
+      { ref: '1:1\u20112', expect: [{ chapter: 1, verse: '1-2' }] }, // try with NON-BREAKING HYPHEN
+      { ref: '1:1,3', expect: [{ chapter: 1, verse: 1 }, { chapter: 1, verse: 3 }] },
+      { ref: '1:1-2,4', expect: [{ chapter: 1, verse: '1-2' }, { chapter: 1, verse: 4 }] },
+      { ref: '1:1-2a,4', expect: [{ chapter: 1, verse: '1-2' }, { chapter: 1, verse: 4 }] },
+      { ref: '1:1b-2a,4', expect: [{ chapter: 1, verse: '1-2' }, { chapter: 1, verse: 4 }] },
+      { ref: '1:1-2,4b', expect: [{ chapter: 1, verse: '1-2' }, { chapter: 1, verse: 4 }] },
+      { ref: '1:1-2,4b,5-7a', expect: [{ chapter: 1, verse: '1-2' }, { chapter: 1, verse: 4 }, { chapter: 1, verse: '5-7' }] },
+      { ref: '1:1-2;2:4', expect: [{ chapter: 1, verse: '1-2' }, { chapter: 2, verse: 4 }] },
+      { ref: '1:1c-2b;2:4-5', expect: [{ chapter: 1, verse: '1-2' }, { chapter: 2, verse: '4-5' }] },
+    ];
+
+    for (const test of tests) {
+      const ref = test.ref;
+      const expect_ = test.expect;
+      const result = parseReference(ref);
+
+      if (!deepEqual(result, expect_, { strict: true })) {
+        console.log(`expect ${ref} to parse to ${JSON.stringify(expect_)}`);
+        console.log(`  but got ${JSON.stringify(result)}`);
+        expect(result).toEqual(expect_);
+      }
+    }
+  });
+});
+
+describe('Tests convertReference', function () {
+  it('Test convertReference for test cases', async () => {
+    const tests = [
+      { ref: { Chapter: 'front', Verse: 'intro' }, expect: { chapter: 'front', verse: 'intro' } },
+      { ref: { Chapter: 1, Verse: 'intro' }, expect: { chapter: 1, verse: 'intro' } },
+      { ref: { Chapter: '1', Verse: 'intro' }, expect: { chapter: 1, verse: 'intro' } },
+      { ref: { Chapter: 1, Verse: '1' }, expect: { chapter: 1, verse: 1 } },
+      { ref: { Chapter: 1, Verse: 1 }, expect: { chapter: 1, verse: 1 } },
+      { ref: { Chapter: 1, Verse: '1-2' }, expect: { chapter: 1, verse: '1-2' } },
+      { ref: { Chapter: '1', Verse: '1-2' }, expect: { chapter: 1, verse: '1-2' } },
+    ];
+
+    for (const test of tests) {
+      const ref = test.ref;
+      const expect_ = test.expect;
+      const result = convertReference(ref);
+
+      if (!deepEqual(result, expect_, { strict: true })) {
+        console.log(`expect ${ref} to parse to ${JSON.stringify(expect_)}`);
+        console.log(`  but got ${JSON.stringify(result)}`);
+        expect(result).toEqual(expect_);
+      }
+    }
+  });
+});
 
 describe('tsvToGroupData():', () => {
   test('Parses a book tN TSVs to an object with a lists of group ids', async () => {

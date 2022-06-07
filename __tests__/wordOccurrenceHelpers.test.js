@@ -17,6 +17,50 @@ describe('getWordOccurrencesForQuote():', () => {
   test('should generate an array of objects for an original language quote with ellipsis', () => {
     const checks = [
       {
+        // multiple ellipsis check
+        bookId: 'php',
+        chapter: 2,
+        verse: 1,
+        quote: 'εἴ τις…εἴ τι…εἴ τις…εἴ τις',
+        expected: [
+          {
+            'word': 'εἴ',
+            'occurrence': 1,
+          },
+          {
+            'word': 'τις',
+            'occurrence': 1,
+          },
+          { 'word': '…' },
+          {
+            'word': 'εἴ',
+            'occurrence': 2,
+          },
+          {
+            'word': 'τι',
+            'occurrence': 1,
+          },
+          { 'word': '…' },
+          {
+            'word': 'εἴ',
+            'occurrence': 3,
+          },
+          {
+            'word': 'τις',
+            'occurrence': 2,
+          },
+          { 'word': '…' },
+          {
+            'word': 'εἴ',
+            'occurrence': 4,
+          },
+          {
+            'word': 'τις',
+            'occurrence': 3,
+          },
+        ],
+      },
+      {
         bookId: 'tit',
         chapter: 1,
         verse: 15,
@@ -933,6 +977,33 @@ describe('getWordOccurrencesForQuote():', () => {
           {
             word: 'ὑμῶν',
             occurrence: 2,
+          },
+        ],
+      },
+      {
+        // figs-explicit	εὐαγγελισαμένου ... τὴν πίστιν ... ὑμῶν - with verse span
+        bookId: '1th',
+        chapter: 3,
+        verse: '6-7',
+        quote: 'εὐαγγελισαμένου ... τὴν πίστιν ... ὑμῶν',
+        expected: [
+          {
+            word: 'εὐαγγελισαμένου',
+            occurrence: 1,
+          },
+          { word: '…' },
+          {
+            word: 'τὴν',
+            occurrence: 1,
+          },
+          {
+            word: 'πίστιν',
+            occurrence: 1,
+          },
+          { word: '…' },
+          {
+            word: 'ὑμῶν',
+            occurrence: 3,
           },
         ],
       },

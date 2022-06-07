@@ -14,9 +14,100 @@ import {
 } from './helpers/resourcesHelpers';
 import { hasEllipsis } from './helpers/ellipsisHelpers';
 
+// list of possible hyphen and dash characters used for range separator
+const RANGE_SEPARATORS = [
+  '-', // HYPHEN-MINUS
+  '\u00AD', // SOFT HYPHEN
+  '\u2010', // HYPHEN
+  '\u2011', // NON-BREAKING HYPHEN
+  '\u2012', // FIGURE DASH
+  '\u2013', // EN DASH
+  '\u2014', // EM DASH
+];
+
+/**
+ * look for possible dash and hyphen character to see if versePart is a verse range
+ * @param {string} versePart
+ * @return {number} position of dash or hyphen found, or -1 if not found
+ */
+function getRangeSeparator(versePart) {
+  for (const separator of RANGE_SEPARATORS) {
+    const pos = versePart.indexOf(separator);
+
+    if (pos >= 0) {
+      return pos;
+    }
+  }
+  return -1;
+}
+
+/**
+ * takes a reference and splits into individual verses or verse spans.
+ * @param {string} ref - reference in format such as:
+ *   “2:4-5”, “2:3a”, “2-3b-4a”, “2:7,12”, “7:11-8:2”, "6:15-16;7:2"
+ * @return {array}
+ */
+export function parseReference(ref) {
+  const verseChunks = [];
+  const refChunks = ref.split(';');
+
+  for (const refChunk of refChunks) {
+    if (!refChunk) {
+      continue;
+    }
+
+    const [chapter_, verse_] = refChunk.split(':');
+
+    if (chapter_ && verse_) {
+      let verse = verse_;
+      let chapter = chapter_;
+      const chapterInt = parseInt(chapter_, 10);
+      let verseInt = parseInt(verse_, 10);
+
+      if (isNaN(chapterInt) || isNaN(verseInt)) {
+        chapter = toIntIfValid(chapter);
+        verse = toIntIfValid(verse);
+        verseChunks.push({ chapter, verse });
+        continue;
+      }
+      chapter = chapterInt;
+      const verseParts = verse_.split(',');
+
+      for (const versePart of verseParts) {
+        if (!versePart) {
+          continue;
+        }
+        verseInt = parseInt(versePart, 10);
+
+        if (isNaN(verseInt)) {
+          verseChunks.push({ chapter, verse: versePart });
+          continue;
+        }
+
+        const pos = (versePart != verseInt) ? getRangeSeparator(versePart) : -2;
+        const isRange = pos >= 0;
+        verse = verseInt;
+
+        if (isRange) {
+          let verseEnd = versePart.substring(pos + 1);
+          const verseEndInt = parseInt(verseEnd, 10);
+
+          if (!isNaN(verseEndInt)) {
+            verse = verse + '-' + verseEndInt;
+          }
+        }
+        verseChunks.push({ chapter, verse });
+      }
+    }
+  }
+  return verseChunks;
+}
+
 /**
  * Parses a book tN TSVs and returns an object holding the lists of group ids.
  * @param {string} filepath path to tsv file.
+ * @param {string} bookId
+ * @param {array} tsvObjects
  * @param {string} toolName tC tool name.
  * @param {object} params When it includes { categorized: true }
  * then it returns the object organized by tn article category.
@@ -27,10 +118,8 @@ import { hasEllipsis } from './helpers/ellipsisHelpers';
  * @param {string} langId
  * @returns an object with the lists of group ids which each includes an array of groupsdata.
  */
-export const tsvToGroupData = async (filepath, toolName, params = {}, originalBiblePath, resourcesPath, langId) => {
+export function tnJsonToGroupData(originalBiblePath, bookId, tsvObjects, resourcesPath, langId, toolName, params, filepath) {
   const groupData = {};
-  const tsvObjects = await tsvtojson(filepath);
-  const { Book: bookId } = tsvObjects[0] || {};
 
   try {
     const resourceApi = new ManageResource(originalBiblePath, bookId.toLowerCase());
@@ -42,6 +131,8 @@ export const tsvToGroupData = async (filepath, toolName, params = {}, originalBi
         if (!supportReference) {
           continue; // skip over if cleaned support reference is empty
         }
+
+        tsvItem.SupportReference = supportReference; // save cleaned up value
         tsvItem.OccurrenceNote = cleanOccurrenceNoteLinks(tsvItem.OccurrenceNote || '', resourcesPath, langId, bookId.toLowerCase(), tsvItem.Chapter);
 
         if (!tsvItem.OccurrenceNote) {
@@ -49,14 +140,14 @@ export const tsvToGroupData = async (filepath, toolName, params = {}, originalBi
           continue;
         }
 
-        const chapter = parseInt(tsvItem.Chapter, 10);
-        const verse = parseInt(tsvItem.Verse, 10);
         let verseString = null;
 
         try {
-          verseString = resourceApi.getVerseString(chapter, verse);
+          verseString = resourceApi.getVerseString(tsvItem.Chapter, tsvItem.Verse);
         } catch (e) {
-          console.warn(`tsvToGroupData() - error getting verse string: chapter ${chapter}, verse ${verse} from ${JSON.stringify(tsvItem)}`, e);
+          if (parseInt(tsvItem.Chapter, 10) && parseInt(tsvItem.Verse, 10)) { // only if chapter and verse are valid do we expect verse text
+            console.warn(`tsvToGroupData() - error getting verse string: chapter ${tsvItem.Chapter}, verse ${tsvItem.Verse} from ${JSON.stringify(tsvItem)}`, e);
+          }
         }
 
         if (verseString) {
@@ -74,6 +165,25 @@ export const tsvToGroupData = async (filepath, toolName, params = {}, originalBi
     console.error(`tsvToGroupData() - error processing filepath: ${filepath}`, e);
     throw e;
   }
+}
+
+/**
+ * Parses a book tN TSVs and returns an object holding the lists of group ids.
+ * @param {string} filepath path to tsv file.
+ * @param {string} toolName tC tool name.
+ * @param {object} params When it includes { categorized: true }
+ * then it returns the object organized by tn article category.
+ * @param {string} originalBiblePath path to original bible.
+ * e.g. /resources/el-x-koine/bibles/ugnt/v0.11
+ * @param {string} resourcesPath path to the resources dir
+ * e.g. /User/john/translationCore/resources
+ * @param {string} langId
+ * @returns an object with the lists of group ids which each includes an array of groupsdata.
+ */
+export const tsvToGroupData = async (filepath, toolName, params = {}, originalBiblePath, resourcesPath, langId) => {
+  const tsvObjects = await tsvtojson(filepath);
+  const { Book: bookId } = tsvObjects[0] || {};
+  return tnJsonToGroupData(originalBiblePath, bookId, tsvObjects, resourcesPath, langId, toolName, params, filepath);
 };
 
 /**
@@ -263,6 +373,51 @@ export const cleanOccurrenceNoteLinks = (occurrenceNote, resourcesPath, langId, 
 };
 
 /**
+ * convert value to int if string, otherwise just return value
+ * @param {string|int} value
+ * @returns {int}
+ */
+export function toInt(value) {
+  return (typeof value === 'string') ? parseInt(value, 10) : value;
+}
+
+/**
+ * return int of value (string or int) if valid, otherwise just return value
+ * @param {string|int} value
+ * @returns {int|int}
+ */
+export function toIntIfValid(value) {
+  const intValue = toInt(value);
+
+  if (!isNaN(intValue)) {
+    return intValue;
+  }
+  return value;
+}
+
+/**
+ * find best representation of chapter and verse.  If they can be represented by numbers, then use numbers.  Otherwise leave as strings
+ * @param {object} item
+ * @returns {{chapter: (*|int), verse: (*|int)}}
+ */
+export function convertReference(item) {
+  const itemChapter = item.Chapter;
+  const chapterInt = toInt(itemChapter);
+  const chapter = isNaN(chapterInt) ? itemChapter : chapterInt; // convert to number if valid
+
+  const itemVerse = item.Verse;
+  const verseInt = toInt(itemVerse);
+  let verse = isNaN(verseInt) ? itemVerse : verseInt;
+  const isVerseRange = (typeof itemVerse === 'string') && (itemVerse.indexOf('-') >= 0);
+
+  if (isVerseRange) {
+    verse = itemVerse; // if original string was verse range, leave as string
+  }
+
+  return { chapter, verse };
+}
+
+/**
  * Returns the formatted groupData item for a given tsv item.
  * @param {object} tsvItem tsv item.
  * @param {string} toolName tool name.
@@ -275,7 +430,7 @@ export const generateGroupDataItem = (tsvItem, toolName, verseString) => {
   const wordOccurrencesForQuote = getWordOccurrencesForQuote(OrigQuote, verseString, true); // uses tokenizer to get list of words handle various punctuation and spacing chars
   const quote = wordOccurrencesForQuote.length > 1 || hasEllipsis(OrigQuote) ? wordOccurrencesForQuote : OrigQuote; // only use array if more than one word found
   const quoteString = OrigQuote.trim().replace(/\.../gi, ELLIPSIS);
-
+  const { chapter, verse } = convertReference(tsvItem);
   return {
     comments: false,
     reminders: false,
@@ -287,8 +442,8 @@ export const generateGroupDataItem = (tsvItem, toolName, verseString) => {
       occurrenceNote: tsvItem.OccurrenceNote || '',
       reference: {
         bookId: tsvItem.Book.toLowerCase() || '',
-        chapter: parseInt(tsvItem.Chapter, 10) || '',
-        verse: parseInt(tsvItem.Verse, 10) || '',
+        chapter: chapter || '',
+        verse: verse || '',
       },
       tool: toolName || '',
       groupId: tsvItem.SupportReference || '',

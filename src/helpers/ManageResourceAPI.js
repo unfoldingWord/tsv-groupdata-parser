@@ -46,8 +46,39 @@ class ManageResource {
   }
 
   getVerseString(chapter, verse) {
-    const { verseObjects } = this.resource[chapter][verse];
-    return verseObjectsToString(verseObjects);
+    let verseObjects_ = [];
+    let isString = typeof verse === 'string';
+    let [start, end] = isString ? verse.split('-') : [verse];
+    let isRange = !!end;
+    let startInt = isString ? parseInt(start, 10) : verse;
+
+    if (isRange) {
+      let endInt = parseInt(end, 10);
+
+      if (!isNaN(startInt) && !isNaN(endInt)) {
+        start = startInt;
+        end = (endInt > startInt) ? endInt : startInt;
+      } else {
+        isRange = false;
+      }
+    } else {
+      if (!isNaN(startInt)) {
+        start = startInt;
+      }
+    }
+
+    const chapterData = this.resource[chapter];
+    const { verseObjects } = chapterData[start];
+    verseObjects_ = verseObjects;
+
+    if (isRange) {
+      for (let i = start + 1; i <= end; i++) {
+        const { verseObjects } = chapterData[i];
+        verseObjects_ = verseObjects_.concat(verseObjects);
+      }
+    }
+
+    return verseObjectsToString(verseObjects_);
   }
 }
 
