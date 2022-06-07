@@ -54,11 +54,19 @@ export const generateGroupsIndex = (tnCategoriesPath, taCategoriesPath) => {
           if (groupData.length > 0) {
             for (let i = 0; i < groupData.length; i++ ) {
               const contextId = groupData[i].contextId;
-              taArticleCategory = getArticleCategory(contextId.occurrenceNote, groupId);
+              taArticleCategory = null;
+
+              try {
+                taArticleCategory = getArticleCategory(contextId.occurrenceNote, groupId);
+              } catch (e) {
+                // invalid occurrence note
+                console.warn(`generateGroupsIndex() - Error parsing Link in Occurrence Note '${contextId.occurrenceNote}'`);
+              }
 
               try {
                 if (!taArticleCategory) {
-                  throw new Error(`Link in Occurrence Note '${contextId.occurrenceNote}' does not have category for check at index: ${i}`);
+                  console.log(`generateGroupsIndex() - Link in Occurrence Note '${contextId.occurrenceNote}' does not have category for check at index: ${i}, will try translate`);
+                  taArticleCategory = 'translate';
                 }
 
                 const fileName = groupId + '.md';

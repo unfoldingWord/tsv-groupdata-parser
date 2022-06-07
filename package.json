@@ -1,6 +1,6 @@
 {
   "name": "tsv-groupdata-parser",
-  "version": "0.11.0",
+  "version": "0.11.1-alpha.6",
   "description": "Parses the translationNotes TSVs files to generate the GroupIndex and GroupData for the translationCore Desktop app.",
   "main": "lib/index.js",
   "scripts": {
@@ -50,7 +50,7 @@
   "dependencies": {
     "fs-extra": "^7.0.1",
     "ospath": "^1.2.2",
-    "path-extra": "^4.2.1",
+    "path-extra": "^4.3.0",
     "semver": "^6.1.1",
     "tsvtojson": "^1.0.1"
   },
