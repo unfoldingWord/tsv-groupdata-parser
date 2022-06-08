@@ -13,6 +13,7 @@ import {
   translationHelps,
 } from './helpers/resourcesHelpers';
 import { hasEllipsis } from './helpers/ellipsisHelpers';
+import { isVerseSet } from './helpers/verseHelpers';
 
 // list of possible hyphen and dash characters used for range separator
 const RANGE_SEPARATORS = [
@@ -432,9 +433,9 @@ export function convertReference(item) {
   const itemVerse = item.Verse;
   const verseInt = toInt(itemVerse);
   let verse = isNaN(verseInt) ? itemVerse : verseInt;
-  const isVerseRange = (typeof itemVerse === 'string') && (itemVerse.indexOf('-') >= 0);
+  const isSet = isVerseSet(itemVerse); // if list or range
 
-  if (isVerseRange) {
+  if (isSet) {
     verse = itemVerse; // if original string was verse range, leave as string
   }
 
