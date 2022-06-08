@@ -16,7 +16,7 @@ const RESOURCES_PATH = path.join(__dirname, 'fixtures', 'resources');
 const ORIGINAL_BIBLE_PATH = path.join(RESOURCES_PATH, 'el-x-koine', 'bibles', 'ugnt', 'v0.11');
 
 describe('Tests parseReference', function () {
-  it('Test parseReference for test cases', async () => {
+  it('Test parseReference for test cases, no merge', () => {
     const tests = [
       { ref: 'front:intro', expect: [{ chapter: 'front', verse: 'intro' }] },
       { ref: '1:intro', expect: [{ chapter: 1, verse: 'intro' }] },
@@ -36,11 +36,47 @@ describe('Tests parseReference', function () {
       { ref: '1:1-2;2:4', expect: [{ chapter: 1, verse: '1-2' }, { chapter: 2, verse: 4 }] },
       { ref: '1:1c-2b;2:4-5', expect: [{ chapter: 1, verse: '1-2' }, { chapter: 2, verse: '4-5' }] },
     ];
+    const mergeMultiRefs = false;
 
     for (const test of tests) {
       const ref = test.ref;
       const expect_ = test.expect;
-      const result = parseReference(ref);
+      const result = parseReference(ref, mergeMultiRefs);
+
+      if (!deepEqual(result, expect_, { strict: true })) {
+        console.log(`expect ${ref} to parse to ${JSON.stringify(expect_)}`);
+        console.log(`  but got ${JSON.stringify(result)}`);
+        expect(result).toEqual(expect_);
+      }
+    }
+  });
+
+  it('Test parseReference for test cases, verse merge', () => {
+    const tests = [
+      { ref: 'front:intro', expect: [{ chapter: 'front', verse: 'intro' }] },
+      { ref: '1:intro', expect: [{ chapter: 1, verse: 'intro' }] },
+      { ref: '1:1', expect: [{ chapter: 1, verse: 1 }] },
+      { ref: '1:1-2', expect: [{ chapter: 1, verse: '1-2' }] },
+      { ref: '1:1\u20142', expect: [{ chapter: 1, verse: '1-2' }] }, // try with EM DASH
+      { ref: '1:1\u20132', expect: [{ chapter: 1, verse: '1-2' }] }, // try with EN DASH
+      { ref: '1:1\u20102', expect: [{ chapter: 1, verse: '1-2' }] }, // try with HYPHEN
+      { ref: '1:1\u00AD2', expect: [{ chapter: 1, verse: '1-2' }] }, // try with SOFT HYPHEN
+      { ref: '1:1\u20112', expect: [{ chapter: 1, verse: '1-2' }] }, // try with NON-BREAKING HYPHEN
+      { ref: '1:1,3', expect: [{ chapter: 1, verse: '1,3' }] },
+      { ref: '1:1-2,4', expect: [{ chapter: 1, verse: '1-2,4' }] },
+      { ref: '1:1-2a,4', expect: [{ chapter: 1, verse: '1-2,4' }] },
+      { ref: '1:1b-2a,4', expect: [{ chapter: 1, verse: '1-2,4' }] },
+      { ref: '1:1-2,4b', expect: [{ chapter: 1, verse: '1-2,4' }] },
+      { ref: '1:1-2,4b,5-7a', expect: [{ chapter: 1, verse: '1-2,4,5-7' }] },
+      { ref: '1:1-2;2:4', expect: [{ chapter: 1, verse: '1-2' }, { chapter: 2, verse: 4 }] },
+      { ref: '1:1c-2b;2:4-5', expect: [{ chapter: 1, verse: '1-2' }, { chapter: 2, verse: '4-5' }] },
+    ];
+    const mergeMultiRefs = true;
+
+    for (const test of tests) {
+      const ref = test.ref;
+      const expect_ = test.expect;
+      const result = parseReference(ref, mergeMultiRefs);
 
       if (!deepEqual(result, expect_, { strict: true })) {
         console.log(`expect ${ref} to parse to ${JSON.stringify(expect_)}`);
@@ -52,7 +88,7 @@ describe('Tests parseReference', function () {
 });
 
 describe('Tests convertReference', function () {
-  it('Test convertReference for test cases', async () => {
+  it('Test convertReference for test cases', () => {
     const tests = [
       { ref: { Chapter: 'front', Verse: 'intro' }, expect: { chapter: 'front', verse: 'intro' } },
       { ref: { Chapter: 1, Verse: 'intro' }, expect: { chapter: 1, verse: 'intro' } },

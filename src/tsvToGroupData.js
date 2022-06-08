@@ -45,10 +45,11 @@ function getRangeSeparator(versePart) {
  * takes a reference and splits into individual verses or verse spans.
  * @param {string} ref - reference in format such as:
  *   “2:4-5”, “2:3a”, “2-3b-4a”, “2:7,12”, “7:11-8:2”, "6:15-16;7:2"
+ * @param {boolean} mergeMultiRefs - if true then 2:7,12 will be returned as single ref, the default would be to return as two references 2:7 and 2:12
  * @return {array}
  */
-export function parseReference(ref) {
-  const verseChunks = [];
+export function parseReference(ref, mergeMultiRefs) {
+  let verseChunks = [];
   const refChunks = ref.split(';');
 
   for (const refChunk of refChunks) {
@@ -72,6 +73,7 @@ export function parseReference(ref) {
       }
       chapter = chapterInt;
       const verseParts = verse_.split(',');
+      const chunks = [];
 
       for (const versePart of verseParts) {
         if (!versePart) {
@@ -80,7 +82,7 @@ export function parseReference(ref) {
         verseInt = parseInt(versePart, 10);
 
         if (isNaN(verseInt)) {
-          verseChunks.push({ chapter, verse: versePart });
+          chunks.push({ chapter, verse: versePart });
           continue;
         }
 
@@ -96,7 +98,15 @@ export function parseReference(ref) {
             verse = verse + '-' + verseEndInt;
           }
         }
-        verseChunks.push({ chapter, verse });
+        chunks.push({ chapter, verse });
+      }
+
+      if (mergeMultiRefs && (chunks.length > 1)) {
+        const verses = chunks.map(item => ('' + item.verse)); // get verses as strings
+        const versesStr = verses.join(',');
+        verseChunks.push({ chapter, verse: versesStr });
+      } else {
+        verseChunks = verseChunks.concat(chunks);
       }
     }
   }
