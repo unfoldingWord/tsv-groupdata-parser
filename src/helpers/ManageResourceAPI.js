@@ -1,6 +1,11 @@
 import fs from 'fs-extra';
 import path from 'path-extra';
 import { verseObjectsToString } from './verseObjecsHelper';
+import {
+  getVerseList,
+  getVerseSpanRange,
+  isVerseSpan,
+} from './verseHelpers';
 
 class ManageResource {
   constructor(originalBiblePath, bookId) {
@@ -45,36 +50,27 @@ class ManageResource {
     return this.resource[chapter][verse];
   }
 
-  getVerseString(chapter, verse) {
-    let verseObjects_ = [];
-    let isString = typeof verse === 'string';
-    let [start, end] = isString ? verse.split('-') : [verse];
-    let isRange = !!end;
-    let startInt = isString ? parseInt(start, 10) : verse;
-
-    if (isRange) {
-      let endInt = parseInt(end, 10);
-
-      if (!isNaN(startInt) && !isNaN(endInt)) {
-        start = startInt;
-        end = (endInt > startInt) ? endInt : startInt;
-      } else {
-        isRange = false;
-      }
-    } else {
-      if (!isNaN(startInt)) {
-        start = startInt;
-      }
-    }
-
+  getVerseString(chapter, verseStr) {
     const chapterData = this.resource[chapter];
-    const { verseObjects } = chapterData[start];
-    verseObjects_ = verseObjects;
+    let verseObjects_ = [];
+    const verses = getVerseList(verseStr);
 
-    if (isRange) {
-      for (let i = start + 1; i <= end; i++) {
-        const { verseObjects } = chapterData[i];
-        verseObjects_ = verseObjects_.concat(verseObjects);
+    for (const verse of verses) {
+      if (isVerseSpan(verse)) {
+        const { low, high } = getVerseSpanRange(verse);
+
+        if (low && high) {
+          for (let i = low; i <= high; i++) {
+            const { verseObjects = null } = chapterData[i];
+            verseObjects_ = verseObjects_.concat(verseObjects);
+          }
+        }
+      } else {
+        const { verseObjects = null } = chapterData[verse];
+
+        if (verseObjects) {
+          verseObjects_ = verseObjects_.concat(verseObjects);
+        }
       }
     }
 

@@ -1,4 +1,5 @@
 import path from 'path-extra';
+import deepEqual from 'deep-equal';
 // helpers
 import ManageResource from '../src/helpers/ManageResourceAPI';
 import { getWordOccurrencesForQuote } from '../src/helpers/wordOccurrenceHelpers';
@@ -1013,6 +1014,10 @@ describe('getWordOccurrencesForQuote():', () => {
       bookId, chapter, verse, quote, expected,
     }) => {
       const result = getTestResult(bookId, chapter, verse, quote);
+
+      if (!deepEqual(result, expected)) {
+        console.log(`Failing test ${bookId} ${chapter}:${verse} - ${JSON.stringify(quote)}`);
+      }
       expect(result).toEqual(expected);
     });
   });
