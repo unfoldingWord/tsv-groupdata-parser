@@ -191,6 +191,23 @@ describe('cleanGroupId()', () => {
       'translate:translate-symaction': 'translate-symaction',
       'figs-explicit<br><br><br>': 'figs-explicit',
       ' figs-explicit ': 'figs-explicit',
+      '\tfigs-explicit\t': 'figs-explicit',
+      ' \tfigs-explicit\t ': 'figs-explicit',
+      '\t figs-explicit \t': 'figs-explicit',
+      '\u200Bfigs-explicit\u200B': 'figs-explicit',
+      ' \u200Bfigs-explicit\u200B ': 'figs-explicit',
+      '\u200B figs-explicit \u200B': 'figs-explicit',
+      ' \u200B figs-explicit \u200B ': 'figs-explicit',
+      '\u00A0figs-explicit\u00A0': 'figs-explicit',
+      ' \u00A0figs-explicit\u00A0 ': 'figs-explicit',
+      '\u00A0 figs-explicit \u00A0': 'figs-explicit',
+      ' \u00A0 figs-explicit \u00A0 ': 'figs-explicit',
+      '\uFEFFfigs-explicit\uFEFF': 'figs-explicit',
+      ' \uFEFFfigs-explicit\uFEFF ': 'figs-explicit',
+      '\uFEFF figs-explicit \uFEFF': 'figs-explicit',
+      ' \uFEFF figs-explicit \uFEFF ': 'figs-explicit',
+      ' \u00A0\u200B\uFEFF figs-explicit \u00A0\u200B\uFEFF ': 'figs-explicit',
+      ' \u00A0\u200B\uFEFF  \u00A0\u200B\uFEFF ': '',
     };
 
     Object.keys(testItems).forEach(badGroupId => {
