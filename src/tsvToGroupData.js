@@ -46,75 +46,211 @@ function getRangeSeparator(versePart) {
 }
 
 /**
- * takes a reference and splits into individual verses or verse spans.
- * @param {string} ref - reference in format such as:
- *   “2:4-5”, “2:3a”, “2-3b-4a”, “2:7,12”, “7:11-8:2”, "6:15-16;7:2"
- * @param {boolean} mergeMultiRefs - if true then 2:7,12 will be returned as single ref, the default would be to return as two references 2:7 and 2:12
- * @return {array}
+ * check if verse range
+ * @param ref
+ * @returns {{verse}}
  */
-export function parseReference(ref, mergeMultiRefs) {
-  let verseChunks = [];
-  const refChunks = ref.split(';');
+function getRange(ref) {
+  const refType = typeof(ref);
+  const isNumber = refType === 'number';
 
-  for (const refChunk of refChunks) {
-    if (!refChunk) {
-      continue;
-    }
+  if (!isNumber) {
+    const pos = getRangeSeparator(ref);
+    const foundRange = pos >= 0;
 
-    const [chapter_, verse_] = refChunk.split(':');
+    if (foundRange) {
+      const start = toIntIfValid(ref.substring(0, pos));
+      const endStr = ref.substring(pos + 1);
 
-    if (chapter_ && verse_) {
-      let verse = verse_;
-      let chapter = chapter_;
-      const chapterInt = parseInt(chapter_, 10);
-      let verseInt = parseInt(verse_, 10);
+      let {
+        chapter,
+        verse,
+        foundChapterVerse,
+      } = getChapterVerse(endStr);
 
-      if (isNaN(chapterInt) || isNaN(verseInt)) {
-        chapter = toIntIfValid(chapter);
-        verse = toIntIfValid(verse);
-        verseChunks.push({ chapter, verse });
-        continue;
-      }
-      chapter = chapterInt;
-      const verseParts = verse_.split(',');
-      const chunks = [];
-
-      for (const versePart of verseParts) {
-        if (!versePart) {
-          continue;
-        }
-        verseInt = parseInt(versePart, 10);
-
-        if (isNaN(verseInt)) {
-          chunks.push({ chapter, verse: versePart });
-          continue;
-        }
-
-        const pos = (versePart != verseInt) ? getRangeSeparator(versePart) : -2;
-        const isRange = pos >= 0;
-        verse = verseInt;
-
-        if (isRange) {
-          let verseEnd = versePart.substring(pos + 1);
-          const verseEndInt = parseInt(verseEnd, 10);
-
-          if (!isNaN(verseEndInt)) {
-            verse = verse + '-' + verseEndInt;
-          }
-        }
-        chunks.push({ chapter, verse });
-      }
-
-      if (mergeMultiRefs && (chunks.length > 1)) {
-        const verses = chunks.map(item => ('' + item.verse)); // get verses as strings
-        const versesStr = verses.join(',');
-        verseChunks.push({ chapter, verse: versesStr });
+      if (foundChapterVerse) {
+        return {
+          verse: start,
+          endChapter: chapter,
+          endVerse: verse,
+        };
       } else {
-        verseChunks = verseChunks.concat(chunks);
+        return {
+          verse: start,
+          endVerse: toIntIfValid(endStr),
+        };
       }
     }
   }
-  return verseChunks;
+
+  return { verse: ref };
+}
+
+/**
+ * parse ref to see if chapter:verse
+ * @param ref
+ * @returns {{chapter: string, foundChapterVerse: boolean, verse: string}}
+ */
+function getChapterVerse(ref) {
+  if (typeof ref !== 'string') {
+    return { verse: ref };
+  }
+
+  const pos = (ref || '').indexOf(':');
+  const foundChapterVerse = pos >= 0;
+  let chapter, verse;
+
+  if (foundChapterVerse) {
+    chapter = toIntIfValid(ref.substring(0, pos));
+    verse = toIntIfValid(ref.substring(pos + 1));
+  } else {
+    verse = toIntIfValid(ref);
+  }
+  return {
+    chapter,
+    verse,
+    foundChapterVerse,
+  };
+}
+
+/**
+ * takes a reference and splits into individual verses or verse spans.
+ * @param {string} ref - reference in format such as:
+ *   “2:4-5”, “2:3a”, “2-3b-4a”, “2:7,12”, “7:11-8:2”, "6:15-16;7:2"
+ * @return {array}
+ */
+export function parseReference(ref) {
+  try {
+    let verseChunks = [];
+    const refChunks = ref.split(';');
+    let lastChapter = 1;
+
+    for (const refChunk of refChunks) {
+      if (!refChunk) {
+        continue;
+      }
+
+      const verseParts = refChunk.split(',');
+      let {
+        chapter,
+        verse,
+        foundChapterVerse,
+      } = getChapterVerse(verseParts[0]);
+
+      if (!foundChapterVerse) {
+        chapter = verse;
+        verse = null;
+      }
+
+      lastChapter = chapter;
+
+      const range = getRange(verse);
+
+      verseChunks.push({
+        ...range,
+        chapter,
+      });
+
+      if (range.endChapter) {
+        lastChapter = range.endChapter;
+      }
+
+      for (let i = 1; i < verseParts.length; i++) {
+        const versePart = verseParts[i];
+
+        if (!versePart) {
+          continue;
+        }
+
+        let {
+          chapter: chapter_,
+          verse: verse_,
+          foundChapterVerse,
+        } = getChapterVerse(versePart);
+
+        if (foundChapterVerse) {
+          chapter = chapter_;
+          verse = verse_;
+          lastChapter = chapter;
+        } else {
+          chapter = lastChapter;
+          verse = verse_;
+        }
+
+        const range = getRange(verse);
+
+        if (range.endVerse) {
+          verseChunks.push({
+            ...range,
+            chapter,
+          });
+
+          if (range.endChapter) {
+            lastChapter = range.endChapter;
+          }
+        } else { // not range
+          verseChunks.push({
+            verse: range.verse,
+            chapter,
+          });
+        }
+      }
+    }
+    return verseChunks;
+  } catch (e) {
+    console.warn(`parseReference() - invalid ref: "${ref}"`);
+  }
+  return null;
+}
+
+/**
+ * takes a reference and splits into individual verses or verse spans for cleanup.  Then recombines the cleaned up references to a string.
+ * @param {string} ref - reference in format such as:
+ *   “2:4-5”, “2:3a”, “2-3b-4a”, “2:7,12”, “7:11-8:2”, "6:15-16;7:2"
+ * @return {array|string}
+ */
+export function cleanupReference(ref) {
+  try {
+    let result = '';
+    const chunks = parseReference(ref);
+    let lastChapter = null;
+    let lastChunk = null;
+
+    if (Array.isArray(chunks)) {
+      for (const chunk of chunks) {
+        if (chunk.endChapter) {
+          if (result) {
+            result += ';';
+          }
+          result += `${chunk.chapter}:${chunk.verse}-${chunk.endChapter}:${chunk.endVerse}`;
+          lastChapter = chunk.endChapter;
+        } else {
+          if ((lastChapter !== chunk.chapter) || (lastChunk && lastChunk.endChapter)) {
+            if (result) {
+              result += ';';
+            }
+            result += `${chunk.chapter}:`;
+            lastChapter = chunk.chapter;
+          } else { // same chapter
+            if (result) {
+              result += ',';
+            }
+          }
+          result += `${chunk.verse}`;
+
+          if (chunk.endVerse) {
+            result += `-${chunk.endVerse}`;
+          }
+        }
+        lastChunk = chunk;
+      }
+    }
+
+    return result;
+  } catch (e) {
+    console.warn(`parseReference() - invalid ref: "${ref}"`);
+  }
+  return '';
 }
 
 /**
@@ -470,11 +606,20 @@ export function toInt(value) {
  * @returns {int|int}
  */
 export function toIntIfValid(value) {
-  const intValue = toInt(value);
+  if (typeof value === 'string') {
+    const pos = getRangeSeparator(value);
 
-  if (!isNaN(intValue)) {
-    return intValue;
+    if (pos >= 0) {
+      return value;
+    }
+
+    const intValue = toInt(value);
+
+    if (!isNaN(intValue)) {
+      return intValue;
+    }
   }
+
   return value;
 }
 
