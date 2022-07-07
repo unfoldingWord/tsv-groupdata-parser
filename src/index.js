@@ -4,7 +4,7 @@ export { ManageResource, verseHelpers };
 export {
   cleanGroupId,
   generateGroupDataItem,
-  cleanupReference,
+  parseReference,
   tsvToGroupData,
   tnJsonToGroupData,
 } from './tsvToGroupData';
