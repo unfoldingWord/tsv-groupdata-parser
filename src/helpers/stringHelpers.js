@@ -4,8 +4,6 @@ import { ELLIPSIS } from '../utils/constants';
 export function cleanQuoteString(quote) {
   return (
     quote
-      // treat new break character same as ellipsis
-      .replace(/ \& /g, ' … ')
       // replace smart closing quotation mark with correct one
       .replace(/\”/gi, '"')
       // remove space before smart opening quotation mark

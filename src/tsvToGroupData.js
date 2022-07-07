@@ -14,7 +14,6 @@ import {
 } from './helpers/resourcesHelpers';
 import { hasEllipsis } from './helpers/ellipsisHelpers';
 import { isVerseSet } from './helpers/verseHelpers';
-import { cleanQuoteString } from './helpers/stringHelpers';
 
 // list of possible hyphen and dash characters used for range separator
 const RANGE_SEPARATORS = [
@@ -511,7 +510,7 @@ export function convertReference(item) {
 export const generateGroupDataItem = (tsvItem, toolName, verseString) => {
   let { OrigQuote = '' } = tsvItem;
   // clean quote string
-  OrigQuote = cleanQuoteString(OrigQuote);
+  OrigQuote = OrigQuote.replace(/ \& /g, ' … '); // treat new break character same as ellipsis
   // if quote has more than one word get word occurrences
   const wordOccurrencesForQuote = getWordOccurrencesForQuote(OrigQuote, verseString, true); // uses tokenizer to get list of words handle various punctuation and spacing chars
   const quote = wordOccurrencesForQuote.length > 1 || hasEllipsis(OrigQuote) ? wordOccurrencesForQuote : OrigQuote; // only use array if more than one word found

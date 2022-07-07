@@ -2,6 +2,7 @@
 import { tokenize, tokenizeOrigLang } from 'string-punctuation-tokenizer';
 import { ELLIPSIS, THREE_DOTS } from '../utils/constants';
 import { getOmittedWordsInQuote } from './ellipsisHelpers';
+import { cleanQuoteString } from './stringHelpers';
 
 function countStringInArray(array, string) {
   return array.filter(item => item === string).length;
@@ -88,6 +89,8 @@ export function getWordOccurrencesForQuote(quote, verseString, isOrigLang = fals
   const words = [];
   let wholeQuote = '';
   let quoteOmittedStrings;
+  // clean quote string
+  quote = cleanQuoteString(quote);
 
   if (quote.includes(THREE_DOTS) || quote.includes(ELLIPSIS)) {
     const quoteOmittedWords = getOmittedWordsInQuote(quote, verseString);
