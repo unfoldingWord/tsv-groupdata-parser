@@ -5,8 +5,8 @@ import {
   tsvToGroupData,
   cleanGroupId,
   cleanOccurrenceNoteLinks,
-  parseReference,
   convertReference,
+  parseReference,
 } from '../src/tsvToGroupData';
 
 jest.unmock('fs-extra');

@@ -508,7 +508,9 @@ export function convertReference(item) {
  * @returns {object} groupData item.
  */
 export const generateGroupDataItem = (tsvItem, toolName, verseString) => {
-  const { OrigQuote = '' } = tsvItem;
+  let { OrigQuote = '' } = tsvItem;
+  // clean quote string
+  OrigQuote = OrigQuote.replace(/ \& /g, ' … '); // treat new break character same as ellipsis
   // if quote has more than one word get word occurrences
   const wordOccurrencesForQuote = getWordOccurrencesForQuote(OrigQuote, verseString, true); // uses tokenizer to get list of words handle various punctuation and spacing chars
   const quote = wordOccurrencesForQuote.length > 1 || hasEllipsis(OrigQuote) ? wordOccurrencesForQuote : OrigQuote; // only use array if more than one word found
