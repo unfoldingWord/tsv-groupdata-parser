@@ -2,7 +2,6 @@
 import { tokenize, tokenizeOrigLang } from 'string-punctuation-tokenizer';
 import { ELLIPSIS, THREE_DOTS } from '../utils/constants';
 import { getOmittedWordsInQuote } from './ellipsisHelpers';
-import { cleanQuoteString } from './stringHelpers';
 
 function countStringInArray(array, string) {
   return array.filter(item => item === string).length;
