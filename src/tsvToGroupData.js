@@ -119,7 +119,7 @@ function getChapterVerse(ref) {
  *   “2:4-5”, “2:3a”, “2-3b-4a”, “2:7,12”, “7:11-8:2”, "6:15-16;7:2"
  * @return {array}
  */
-export function parseReference(ref) {
+export function parseReferenceToList(ref) {
   try {
     let verseChunks = [];
     const refChunks = ref.split(';');
@@ -212,7 +212,7 @@ export function parseReference(ref) {
 export function cleanupReference(ref) {
   try {
     let result = '';
-    const chunks = parseReference(ref);
+    const chunks = parseReferenceToList(ref);
     let lastChapter = null;
     let lastChunk = null;
 

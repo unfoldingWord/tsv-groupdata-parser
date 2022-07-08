@@ -5,7 +5,7 @@ export {
   cleanGroupId,
   cleanupReference,
   generateGroupDataItem,
-  parseReference,
+  parseReferenceToList,
   tsvToGroupData,
   tnJsonToGroupData,
 } from './tsvToGroupData';

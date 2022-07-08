@@ -7,7 +7,7 @@ import {
   cleanOccurrenceNoteLinks,
   cleanupReference,
   convertReference,
-  parseReference,
+  parseReferenceToList,
 } from '../src/tsvToGroupData';
 
 jest.unmock('fs-extra');
@@ -47,7 +47,7 @@ describe('Tests parseReference', function () {
     for (const test of tests) {
       const ref = test.ref;
       const expect_ = test.expect;
-      const result = parseReference(ref);
+      const result = parseReferenceToList(ref);
 
       if (!deepEqual(result, expect_, { strict: true })) {
         console.log(`expect ${ref} to parse to ${JSON.stringify(expect_)}`);
