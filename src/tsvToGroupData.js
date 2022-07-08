@@ -198,21 +198,20 @@ export function parseReferenceToList(ref) {
     }
     return verseChunks;
   } catch (e) {
-    console.warn(`parseReference() - invalid ref: "${ref}"`);
+    console.warn(`parseReferenceToList() - invalid ref: "${ref}"`);
   }
   return null;
 }
 
 /**
- * takes a reference and splits into individual verses or verse spans for cleanup.  Then recombines the cleaned up references to a string.
- * @param {string} ref - reference in format such as:
- *   “2:4-5”, “2:3a”, “2-3b-4a”, “2:7,12”, “7:11-8:2”, "6:15-16;7:2"
- * @return {array|string}
+ * conver array of Reference chunks to reference string
+ * @param {array} chunks
+ * @return {string}
  */
-export function cleanupReference(ref) {
+export function convertReferenceChunksToString(chunks) {
+  let result = '';
+
   try {
-    let result = '';
-    const chunks = parseReferenceToList(ref);
     let lastChapter = null;
     let lastChunk = null;
 
@@ -245,12 +244,59 @@ export function cleanupReference(ref) {
         lastChunk = chunk;
       }
     }
-
-    return result;
   } catch (e) {
-    console.warn(`parseReference() - invalid ref: "${ref}"`);
+    console.warn(`convertReferenceChunksToString() - invalid chunks: "${JSON.stringify(chunks)}"`);
   }
-  return '';
+  return result;
+}
+
+/**
+ * check to see if single reference
+ * @param {array} chunks
+ * @param {string} refStr
+ * @return {{chapter, verse, verseStr}}
+ */
+export function characterizeReference(chunks, refStr) {
+  const results = {};
+
+  if (chunks && chunks.length && refStr) {
+    let multiverse = false;
+    let verseStr = null;
+    results.chapter = chunks[0].chapter;
+    results.verse = chunks[0].verse;
+    const pos = refStr.indexOf(':');
+
+    if (pos >= 0) {
+      verseStr = refStr.substring(pos + 1);
+    }
+
+    if (chunks.length > 1) {
+      multiverse = true;
+    } else if (chunks[0].endVerse) {
+      multiverse = true;
+    }
+
+    if (multiverse) {
+      results.verseStr = verseStr;
+      results.verse = verseStr;
+    }
+  }
+  return results;
+}
+
+/**
+ * takes a reference and splits into individual verses or verse spans for cleanup.  Then recombines the cleaned up references to a string.
+ * @param {string} ref - reference in format such as:
+ *   “2:4-5”, “2:3a”, “2-3b-4a”, “2:7,12”, “7:11-8:2”, "6:15-16;7:2"
+ * @return {array|string}
+ */
+export function cleanupReference(ref) {
+  const chunks = parseReferenceToList(ref);
+  const cleanedRef = convertReferenceChunksToString(chunks);
+
+  let results = characterizeReference(chunks, cleanedRef);
+  results.cleanedRef = cleanedRef;
+  return results;
 }
 
 /**
@@ -301,10 +347,12 @@ export function tnJsonToGroupData(originalBiblePath, bookId, tsvObjects, resourc
         }
 
         if (verseString) {
+          const groupDataItem = generateGroupDataItem(tsvItem, toolName, verseString);
+
           if (groupData[supportReference]) {
-            groupData[supportReference].push(generateGroupDataItem(tsvItem, toolName, verseString));
+            groupData[supportReference].push(groupDataItem);
           } else {
-            groupData[supportReference] = [generateGroupDataItem(tsvItem, toolName, verseString)];
+            groupData[supportReference] = [groupDataItem];
           }
         }
       }
