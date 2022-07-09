@@ -3,8 +3,9 @@ import verseHelpers from './helpers/verseHelpers';
 export { ManageResource, verseHelpers };
 export {
   cleanGroupId,
+  cleanupReference,
   generateGroupDataItem,
-  parseReference,
+  parseReferenceToList,
   tsvToGroupData,
   tnJsonToGroupData,
 } from './tsvToGroupData';
