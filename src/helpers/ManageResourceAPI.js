@@ -94,6 +94,8 @@ class ManageResource {
         }
       }
     }
+
+    return verseObjectsToString(verseObjects_);
   }
 
   getVerseString(chapter, verseStr) {
