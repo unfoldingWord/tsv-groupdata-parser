@@ -91,6 +91,7 @@ class ManageResource {
 
           const { verseObjects = null } = verseData;
           verseObjects_ = verseObjects_.concat(verseObjects);
+          verse += 1;
         }
       }
     }
