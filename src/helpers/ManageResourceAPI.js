@@ -81,11 +81,6 @@ class ManageResource {
 
         while (this.isVerseInRange(chapter, verse, endChapter, endVerse)) {
           const chapterData = this.resource[chapter];
-
-          if (!chapterData) { // invalid chapter
-            break;
-          }
-
           const verseData = chapterData[verse];
 
           if (!verseData) { // if past end of chapter
