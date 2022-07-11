@@ -1,5 +1,6 @@
 import fs from 'fs-extra';
 import path from 'path-extra';
+import { parseReferenceToList } from '../tsvToGroupData';
 import { verseObjectsToString } from './verseObjecsHelper';
 import {
   getVerseList,
@@ -48,6 +49,56 @@ class ManageResource {
 
   getVerseObjects(chapter, verse) {
     return this.resource[chapter][verse];
+  }
+
+  isVerseInRange(chapter, verse, endChapter, endVerse) {
+    if (chapter < endChapter) {
+      return true;
+    }
+
+    if (chapter === endChapter) {
+      if (verse <= endVerse) {
+        return true;
+      }
+    }
+    return false;
+  }
+
+  getVerseStringFromRef(ref) {
+    let verseObjects_ = [];
+    const chunks = parseReferenceToList(ref);
+
+    for (const chunk of chunks) {
+      if (!chunk.endVerse) {
+        const chapterData = this.resource[chunk.chapter];
+        const { verseObjects = null } = chapterData[chunk.verse];
+        verseObjects_ = verseObjects_.concat(verseObjects);
+      } else { // handle range
+        let chapter = chunk.chapter;
+        let verse = chunk.verse;
+        const endVerse = chunk.endVerse;
+        const endChapter = chunk.endChapter || chapter;
+
+        while (this.isVerseInRange(chapter, verse, endChapter, endVerse)) {
+          const chapterData = this.resource[chapter];
+
+          if (!chapterData) { // invalid chapter
+            break;
+          }
+
+          const verseData = chapterData[verse];
+
+          if (!verseData) { // if past end of chapter
+            chapter += 1;
+            verse = 1;
+            continue;
+          }
+
+          const { verseObjects = null } = verseData;
+          verseObjects_ = verseObjects_.concat(verseObjects);
+        }
+      }
+    }
   }
 
   getVerseString(chapter, verseStr) {
