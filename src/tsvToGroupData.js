@@ -339,7 +339,7 @@ export function tnJsonToGroupData(originalBiblePath, bookId, tsvObjects, resourc
         let verseString = null;
 
         try {
-          verseString = resourceApi.getVerseString(tsvItem.Chapter, tsvItem.Verse);
+          verseString = resourceApi.getVerseStringFromRef(tsvItem.Reference || `${tsvItem.Chapter}:${tsvItem.Verse}`);
         } catch (e) {
           if (parseInt(tsvItem.Chapter, 10) && parseInt(tsvItem.Verse, 10)) { // only if chapter and verse are valid do we expect verse text
             console.warn(`tsvToGroupData() - error getting verse string: chapter ${tsvItem.Chapter}, verse ${tsvItem.Verse} from ${JSON.stringify(tsvItem)}`, e);
