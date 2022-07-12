@@ -1,5 +1,5 @@
 import deepEqual from 'deep-equal';
-import {getVerses, getVerseString} from '../src/helpers/verseHelpers';
+import { getVerses, getVerseString } from '../src/helpers/verseHelpers';
 
 const bookData = {
   '1': {

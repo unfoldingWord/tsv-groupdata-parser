@@ -117,7 +117,7 @@ function getChapterVerse(ref) {
  * takes a reference and splits into individual verses or verse spans.
  * @param {string} ref - reference in format such as:
  *   “2:4-5”, “2:3a”, “2-3b-4a”, “2:7,12”, “7:11-8:2”, "6:15-16;7:2"
- * @return {array}
+ * @return {[{chapter, verse, endChapter, endVerse}]}
  */
 export function parseReferenceToList(ref) {
   try {
