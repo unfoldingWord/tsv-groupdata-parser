@@ -83,8 +83,8 @@ export function isVerseInRange(chapter, verse, endChapter, endVerse) {
 
 /**
  * find all verses in ref and return as long string
- * @param {object} bookData
- * @param {string} ref
+ * @param {object} bookData - indexed by chapter and then verse ref
+ * @param {string} ref - formats such as “2:4-5”, “2:3a”, “2-3b-4a”, “2:7,12”, “7:11-8:2”, "6:15-16;7:2"
  * @param {boolean} failOnMissingVerse
  * @returns {string}
  */
@@ -99,9 +99,16 @@ export function getVerseString(bookData, ref, failOnMissingVerse = true) {
 
     const chapterData = bookData[verseRef.chapter];
     const verseData = chapterData && chapterData[verseRef.verse];
-    const verseObjects = (verseData && verseData.verseObjects);
+    let verseObjects; // (verseData && verseData.verseObjects);
 
-    if (verseObjects) {
+    if (verseData) {
+      if (typeof verseData === 'string') {
+        verseObjects = [{ text: verseData }];
+      } else if (Array.isArray(verseData)) {
+        verseObjects = verseData;
+      } else if (verseData.verseObjects) {
+        verseObjects = verseData.verseObjects;
+      }
       Array.prototype.push.apply(verseObjects_, verseObjects);
     }
   }
@@ -111,8 +118,8 @@ export function getVerseString(bookData, ref, failOnMissingVerse = true) {
 
 /**
  * find all verses contained in ref, returns array of references
- * @param {object} bookData
- * @param {string} ref
+ * @param {object} bookData - indexed by chapter and then verse ref
+ * @param {string} ref - formats such as “2:4-5”, “2:3a”, “2-3b-4a”, “2:7,12”, “7:11-8:2”, "6:15-16;7:2"
  * @returns {[{chapter, verse, found}]}
  */
 export function getVerses(bookData, ref) {
@@ -129,7 +136,7 @@ export function getVerses(bookData, ref) {
       verses.push({
         chapter,
         verse,
-        found,
+        found: !!found,
       });
     } else { // handle range
       let chapter = chunk.chapter;
@@ -142,10 +149,10 @@ export function getVerses(bookData, ref) {
         let verseData = chapterData && chapterData[verse];
 
         if (!verseData && chapterData ) { // if verse doesn't exist, check for verse spans in chapter data
-          const verses = Object.keys(chapterData);
+          const verseKeys = Object.keys(chapterData);
           let foundSpan = false;
 
-          for (const verseKey of verses) {
+          for (const verseKey of verseKeys) {
             if (isVerseSpan(verseKey)) {
               const { low, high } = getVerseSpanRange(verseKey);
 
@@ -155,7 +162,7 @@ export function getVerses(bookData, ref) {
                 verses.push({
                   chapter,
                   verse: verseKey,
-                  found,
+                  found: !!found,
                 });
                 verse = high + 1; // move to verse after range
                 foundSpan = true;
@@ -180,7 +187,7 @@ export function getVerses(bookData, ref) {
         verses.push({
           chapter,
           verse,
-          found,
+          found: !!found,
         });
         verse += 1;
       }
