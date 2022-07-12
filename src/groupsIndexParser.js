@@ -83,7 +83,7 @@ export const generateGroupsIndex = (tnCategoriesPath, taCategoriesPath) => {
         } catch (e) {
           let message = `error processing entry: bookid: ${bookid}, groupDataFile: ${groupDataFile}, taArticleCategory: ${taArticleCategory}, groupName: ${groupName}, contextID: ${JSON.stringify(contextId)}: `;
           console.error('generateGroupsIndex() - ' + message, e);
-          errors.push(message + e.toString());
+          // errors.push(message + e.toString());
         }
       });
     });
