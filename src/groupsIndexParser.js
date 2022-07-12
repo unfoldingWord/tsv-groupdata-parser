@@ -55,7 +55,7 @@ export const generateGroupsIndex = (tnCategoriesPath, taCategoriesPath) => {
 
           if (groupData.length > 0) {
             for (let i = 0; i < groupData.length; i++ ) {
-              const contextId = groupData[i].contextId;
+              contextId = groupData[i].contextId;
               taArticleCategory = getArticleCategory(contextId.occurrenceNote, groupId);
 
               try {
