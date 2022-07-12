@@ -82,20 +82,55 @@ export function isVerseInRange(chapter, verse, endChapter, endVerse) {
 }
 
 /**
- * find all verses in ref
+ * find all verses in ref and return as long string
  * @param {object} bookData
  * @param {string} ref
+ * @param {boolean} failOnMissingVerse
  * @returns {string}
  */
-export function getVerseString(bookData, ref) {
+export function getVerseString(bookData, ref, failOnMissingVerse = true) {
   let verseObjects_ = [];
+  const verseRefs = getVerses(bookData, ref);
+
+  for (const verseRef of verseRefs) {
+    if (!verseRef.found && failOnMissingVerse) {
+      return null;
+    }
+
+    const chapterData = bookData[verseRef.chapter];
+    const verseData = chapterData && chapterData[verseRef.verse];
+    const verseObjects = (verseData && verseData.verseObjects);
+
+    if (verseObjects) {
+      Array.prototype.push.apply(verseObjects_, verseObjects);
+    }
+  }
+
+  return verseObjectsToString(verseObjects_);
+}
+
+/**
+ * find all verses contained in ref, returns array of references
+ * @param {object} bookData
+ * @param {string} ref
+ * @returns {[{chapter, verse, found}]}
+ */
+export function getVerses(bookData, ref) {
+  const verses = [];
   const chunks = parseReferenceToList(ref);
 
   for (const chunk of chunks) {
     if (!chunk.endVerse) {
-      const chapterData = bookData[chunk.chapter];
-      const { verseObjects = null } = chapterData[chunk.verse];
-      verseObjects_ = verseObjects_.concat(verseObjects);
+      const chapter = chunk.chapter;
+      const chapterData = bookData[chapter];
+      const verse = chunk.verse;
+      const found = chapterData && chapterData[verse];
+
+      verses.push({
+        chapter,
+        verse,
+        found,
+      });
     } else { // handle range
       let chapter = chunk.chapter;
       let verse = chunk.verse;
@@ -104,9 +139,9 @@ export function getVerseString(bookData, ref) {
 
       while (isVerseInRange(chapter, verse, endChapter, endVerse)) {
         const chapterData = bookData[chapter];
-        let verseData = chapterData[verse];
+        let verseData = chapterData && chapterData[verse];
 
-        if (!verseData) { // check for verse spans in chapter data
+        if (!verseData && chapterData ) { // if verse doesn't exist, check for verse spans in chapter data
           const verses = Object.keys(chapterData);
           let foundSpan = false;
 
@@ -115,9 +150,14 @@ export function getVerseString(bookData, ref) {
               const { low, high } = getVerseSpanRange(verseKey);
 
               if ((verse >= low) && (verse <= high)) {
-                const { verseObjects = null } = chapterData[verseKey];
-                verseObjects_ = verseObjects_.concat(verseObjects);
-                verse = high + 1;
+                const found = chapterData[verseKey];
+
+                verses.push({
+                  chapter,
+                  verse: verseKey,
+                  found,
+                });
+                verse = high + 1; // move to verse after range
                 foundSpan = true;
                 break;
               }
@@ -129,18 +169,23 @@ export function getVerseString(bookData, ref) {
           }
         }
 
-        if (!verseData) { // if past end of chapter
+        if (!verseData) { // if past end of chapter, skip to next
           chapter += 1;
           verse = 1;
           continue;
         }
 
-        const { verseObjects = null } = verseData;
-        verseObjects_ = verseObjects_.concat(verseObjects);
+        const found = verseData;
+
+        verses.push({
+          chapter,
+          verse,
+          found,
+        });
         verse += 1;
       }
     }
   }
 
-  return verseObjectsToString(verseObjects_);
+  return verses;
 }

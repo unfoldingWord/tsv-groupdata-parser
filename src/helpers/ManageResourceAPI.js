@@ -58,7 +58,13 @@ class ManageResource {
    */
   getVerseStringFromRef(ref) {
     const bookData = this.resource;
-    return getVerseString(bookData, ref);
+    const verseString = getVerseString(bookData, ref);
+
+    if (!verseString) {
+      // eslint-disable-next-line no-throw-literal
+      throw `Reference not found: ${ref}`;
+    }
+    return verseString;
   }
 
   getVerseString(chapter, verseStr) {
