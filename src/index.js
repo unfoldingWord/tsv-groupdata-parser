@@ -1,6 +1,6 @@
 import ManageResource from './helpers/ManageResourceAPI';
-export * from './helpers/verseHelpers';
-export { ManageResource };
+import * as verseHelpers from './helpers/verseHelpers';
+export { ManageResource, verseHelpers };
 export {
   cleanGroupId,
   cleanupReference,
