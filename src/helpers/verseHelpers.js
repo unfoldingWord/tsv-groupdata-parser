@@ -115,6 +115,35 @@ export function getVerseString(bookData, ref, failOnMissingVerse = true) {
   return verseObjectsToString(verseObjects_);
 }
 
+function findVerseInVerseRange(chapterData, verse, verseData, verses, chapter) {
+  const verseKeys = Object.keys(chapterData);
+  let foundVerseKey;
+
+  for (const verseKey of verseKeys) {
+    if (isVerseSpan(verseKey)) {
+      const { low, high } = getVerseSpanRange(verseKey);
+
+      if ((verse >= low) && (verse <= high)) {
+        verseData = chapterData[verseKey];
+
+        verses.push({
+          chapter,
+          verse: verseKey,
+          verseData,
+        });
+        foundVerseKey = verse;
+        verse = high + 1; // move to verse after range
+        break;
+      }
+    }
+  }
+  return {
+    foundVerseKey,
+    verse,
+    verseData,
+  };
+}
+
 /**
  * find all verses contained in ref, returns array of references
  * @param {object} bookData - indexed by chapter and then verse ref
@@ -130,8 +159,18 @@ export function getVerses(bookData, ref) {
     if (!chunk.endVerse) {
       const chapter = chunk.chapter;
       chapterData = bookData[chapter];
-      const verse = chunk.verse;
+      let verse = chunk.verse;
       verseData = chapterData && chapterData[verse];
+
+      if (!verseData && chapterData ) { // if verse doesn't exist, check for verse spans in chapter data
+        const __ret = findVerseInVerseRange(chapterData, verse, verseData, verses, chapter);
+        verse = __ret.verse;
+        verseData = __ret.verseData;
+
+        if (__ret.foundVerseKey) {
+          continue;
+        }
+      }
 
       verses.push({
         chapter,
@@ -149,29 +188,11 @@ export function getVerses(bookData, ref) {
         verseData = chapterData && chapterData[verse];
 
         if (!verseData && chapterData ) { // if verse doesn't exist, check for verse spans in chapter data
-          const verseKeys = Object.keys(chapterData);
-          let foundSpan = false;
+          const __ret = findVerseInVerseRange(chapterData, verse, verseData, verses, chapter);
+          verse = __ret.verse;
+          verseData = __ret.verseData;
 
-          for (const verseKey of verseKeys) {
-            if (isVerseSpan(verseKey)) {
-              const { low, high } = getVerseSpanRange(verseKey);
-
-              if ((verse >= low) && (verse <= high)) {
-                verseData = chapterData[verseKey];
-
-                verses.push({
-                  chapter,
-                  verse: verseKey,
-                  verseData,
-                });
-                verse = high + 1; // move to verse after range
-                foundSpan = true;
-                break;
-              }
-            }
-          }
-
-          if (foundSpan) {
+          if (__ret.foundVerseKey) {
             continue;
           }
         }
