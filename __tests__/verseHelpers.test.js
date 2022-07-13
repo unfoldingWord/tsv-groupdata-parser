@@ -23,21 +23,21 @@ const bookData = {
 };
 
 const checks = [
-  { ref: '1:1', expectedVerses: [{ chapter: 1, verse: 1, found: true }], expectedStr: '1:1;' },
-  { ref: '1:front', expectedVerses: [{ chapter: 1, verse: 'front', found: true }], expectedStr: '1:Front;' },
-  { ref: '1:intro', expectedVerses: [{ chapter: 1, verse: 'intro', found: false }], expectedStr: null },
-  { ref: 'intro:intro', expectedVerses: [{ chapter: 'intro', verse: 'intro', found: false }], expectedStr: null },
-  { ref: '1:1-2', expectedVerses: [{ chapter: 1, verse: 1, found: true }, { chapter: 1, verse: 2, found: true }], expectedStr: '1:1;1:2;' },
-  { ref: '1:1,2', expectedVerses: [{ chapter: 1, verse: 1, found: true }, { chapter: 1, verse: 2, found: true }], expectedStr: '1:1;1:2;' },
-  { ref: '1:12', expectedVerses: [{ chapter: 1, verse: 12, found: false }], expectedStr: null },
-  { ref: '3:1', expectedVerses: [{ chapter: 3, verse: 1, found: false }], expectedStr: null },
-  { ref: '1:7-2:1', expectedVerses: [{ chapter: 1, verse: 7, found: true }, { chapter: 2, verse: 1, found: true }], expectedStr: '1:7;2:1;' },
-  { ref: '1:2-3', expectedVerses: [{ chapter: 1, verse: 2, found: true }, { chapter: 1, verse: '3-4', found: true }], expectedStr: '1:2;1:3-4;' },
-  { ref: '1:2-5', expectedVerses: [{ chapter: 1, verse: 2, found: true }, { chapter: 1, verse: '3-4', found: true }, { chapter: 1, verse: 5, found: true }], expectedStr: '1:2;1:3-4;1:5;' },
-  { ref: '1:3-4', expectedVerses: [{ chapter: 1, verse: '3-4', found: true }], expectedStr: '1:3-4;' },
-  { ref: '2:4-5', expectedVerses: [{ chapter: 2, verse: '3-4', found: true }, { chapter: 2, verse: 5, found: true } ], expectedStr: '2:3-4;2:5;' },
-  { ref: '2:7-3:1', expectedVerses: [{ chapter: 2, verse: 7, found: true }], expectedStr: '2:7;' },
-  { ref: '2:7;3:1', expectedVerses: [{ chapter: 2, verse: 7, found: true }, { chapter: 3, verse: 1, found: false }], expectedStr: null },
+  { ref: '1:1', expectedVerses: [{ chapter: 1, verse: 1, verseData: '1:1;' }], expectedStr: '1:1;' },
+  { ref: '1:front', expectedVerses: [{ chapter: 1, verse: 'front', verseData: '1:Front;' }], expectedStr: '1:Front;' },
+  { ref: '1:intro', expectedVerses: [{ chapter: 1, verse: 'intro', verseData: undefined }], expectedStr: null },
+  { ref: 'intro:intro', expectedVerses: [{ chapter: 'intro', verse: 'intro', verseData: undefined }], expectedStr: null },
+  { ref: '1:1-2', expectedVerses: [{ chapter: 1, verse: 1, verseData: '1:1;' }, { chapter: 1, verse: 2, verseData: '1:2;' }], expectedStr: '1:1;1:2;' },
+  { ref: '1:1,2', expectedVerses: [{ chapter: 1, verse: 1, verseData: '1:1;' }, { chapter: 1, verse: 2, verseData: '1:2;' }], expectedStr: '1:1;1:2;' },
+  { ref: '1:12', expectedVerses: [{ chapter: 1, verse: 12, verseData: undefined }], expectedStr: null },
+  { ref: '3:1', expectedVerses: [{ chapter: 3, verse: 1, verseData: undefined }], expectedStr: null },
+  { ref: '1:7-2:1', expectedVerses: [{ chapter: 1, verse: 7, verseData: '1:7;' }, { chapter: 2, verse: 1, verseData: '2:1;' }], expectedStr: '1:7;2:1;' },
+  { ref: '1:2-3', expectedVerses: [{ chapter: 1, verse: 2, verseData: '1:2;' }, { chapter: 1, verse: '3-4', verseData: '1:3-4;' }], expectedStr: '1:2;1:3-4;' },
+  { ref: '1:2-5', expectedVerses: [{ chapter: 1, verse: 2, verseData: '1:2;' }, { chapter: 1, verse: '3-4', verseData: '1:3-4;' }, { chapter: 1, verse: 5, verseData: '1:5;' }], expectedStr: '1:2;1:3-4;1:5;' },
+  { ref: '1:3-4', expectedVerses: [{ chapter: 1, verse: '3-4', verseData: '1:3-4;' }], expectedStr: '1:3-4;' },
+  { ref: '2:4-5', expectedVerses: [{ chapter: 2, verse: '3-4', verseData: '2:3-4;' }, { chapter: 2, verse: 5, verseData: '2:5;' } ], expectedStr: '2:3-4;2:5;' },
+  { ref: '2:7-3:1', expectedVerses: [{ chapter: 2, verse: 7, verseData: '2:7;' }], expectedStr: '2:7;' },
+  { ref: '2:7;3:1', expectedVerses: [{ chapter: 2, verse: 7, verseData: '2:7;' }, { chapter: 3, verse: 1, verseData: undefined }], expectedStr: null },
 ];
 
 describe('test references', () => {
