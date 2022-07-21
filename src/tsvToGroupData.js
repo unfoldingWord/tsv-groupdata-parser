@@ -198,7 +198,7 @@ export function parseReferenceToList(ref) {
     }
     return verseChunks;
   } catch (e) {
-    console.warn(`parseReferenceToList() - invalid ref: "${ref}"`);
+    console.warn(`parseReferenceToList() - invalid ref: "${ref}"`, e);
   }
   return null;
 }
@@ -245,7 +245,7 @@ export function convertReferenceChunksToString(chunks) {
       }
     }
   } catch (e) {
-    console.warn(`convertReferenceChunksToString() - invalid chunks: "${JSON.stringify(chunks)}"`);
+    console.warn(`convertReferenceChunksToString() - invalid chunks: "${JSON.stringify(chunks)}"`, e);
   }
   return result;
 }
