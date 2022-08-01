@@ -1,4 +1,4 @@
-import { parseReferenceToList } from '../tsvToGroupData';
+import { parseReferenceToList } from 'bible-reference-range';
 import { verseObjectsToString } from './verseObjecsHelper';
 
 /**
