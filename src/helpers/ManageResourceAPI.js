@@ -4,6 +4,7 @@ import { verseObjectsToString } from './verseObjecsHelper';
 import {
   getVerseList,
   getVerseSpanRange,
+  getVerseString,
   isVerseSpan,
 } from './verseHelpers';
 
@@ -48,6 +49,22 @@ class ManageResource {
 
   getVerseObjects(chapter, verse) {
     return this.resource[chapter][verse];
+  }
+
+  /**
+   * find all verses in ref
+   * @param {string} ref
+   * @returns {string}
+   */
+  getVerseStringFromRef(ref) {
+    const bookData = this.resource;
+    const verseString = getVerseString(bookData, ref);
+
+    if (!verseString) {
+      // eslint-disable-next-line no-throw-literal
+      throw `Reference not found: ${ref}`;
+    }
+    return verseString;
   }
 
   getVerseString(chapter, verseStr) {

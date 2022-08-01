@@ -41,6 +41,7 @@ export const generateGroupsIndex = (tnCategoriesPath, taCategoriesPath) => {
       const groupDataFiles = fs.readdirSync(groupDataPath).filter(filename => path.extname(filename) === '.json');
       let taArticleCategory;
       let groupName;
+      let contextId;
 
       groupDataFiles.forEach(groupDataFile => {
         try {
@@ -50,22 +51,23 @@ export const generateGroupsIndex = (tnCategoriesPath, taCategoriesPath) => {
           taArticleCategory = null;
           groupName = null;
           let foundLocalization = false;
+          contextId = null;
 
           if (groupData.length > 0) {
             for (let i = 0; i < groupData.length; i++ ) {
-              const contextId = groupData[i].contextId;
+              contextId = groupData[i].contextId;
               taArticleCategory = null;
 
               try {
                 taArticleCategory = getArticleCategory(contextId.occurrenceNote, groupId);
               } catch (e) {
                 // invalid occurrence note
-                console.warn(`generateGroupsIndex() - Error parsing Link in Occurrence Note '${contextId.occurrenceNote}'`);
+                console.warn(`generateGroupsIndex() - Error parsing Link in Occurrence Note '${contextId.occurrenceNote}' at contextID: ${JSON.stringify(contextId)}`);
               }
 
               try {
                 if (!taArticleCategory) {
-                  console.log(`generateGroupsIndex() - Link in Occurrence Note '${contextId.occurrenceNote}' does not have category for check at index: ${i}, will try translate`);
+                  console.log(`generateGroupsIndex() - Link in Occurrence Note '${contextId.occurrenceNote}' does not have category for check at contextID: ${JSON.stringify(contextId)}`);
                   taArticleCategory = 'translate';
                 }
 
@@ -76,7 +78,7 @@ export const generateGroupsIndex = (tnCategoriesPath, taCategoriesPath) => {
                 foundLocalization = true;
                 break; // we got the category, so don't need to search anymore
               } catch (e) {
-                let message = `error finding group name: groupId: '${groupId}', index: '${i}' in bookId '${bookid}, taArticleCategory: ${taArticleCategory}' `;
+                let message = `error finding group name: groupId: '${groupId}', index: '${i}' in bookId '${bookid}, taArticleCategory: ${taArticleCategory}, contextID: ${JSON.stringify(contextId)}' `;
                 console.error('generateGroupsIndex() - ' + message, e);
               }
             }
@@ -87,7 +89,7 @@ export const generateGroupsIndex = (tnCategoriesPath, taCategoriesPath) => {
             }
           }
         } catch (e) {
-          let message = `error processing entry: bookid: ${bookid}, groupDataFile: ${groupDataFile}, taArticleCategory: ${taArticleCategory}, groupName: ${groupName}: `;
+          let message = `error processing entry: bookid: ${bookid}, groupDataFile: ${groupDataFile}, taArticleCategory: ${taArticleCategory}, groupName: ${groupName}, contextID: ${JSON.stringify(contextId)}: `;
           console.error('generateGroupsIndex() - ' + message, e);
           errors.push(message + e.toString());
         }
