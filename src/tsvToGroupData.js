@@ -16,34 +16,9 @@ import { hasEllipsis } from './helpers/ellipsisHelpers';
 import { isVerseSet } from './helpers/verseHelpers';
 
 // list of possible hyphen and dash characters used for range separator
-const RANGE_SEPARATORS = [
-  '-', // HYPHEN-MINUS
-  '\u00AD', // SOFT HYPHEN
-  '\u2010', // HYPHEN
-  '\u2011', // NON-BREAKING HYPHEN
-  '\u2012', // FIGURE DASH
-  '\u2013', // EN DASH
-  '\u2014', // EM DASH
-];
 const ZERO_WIDTH_SPACE = '\u200B';
 const NO_BREAK_SPACE = '\u00A0';
 const ZERO_WIDTH_NO_BREAK_SPACE = '\uFEFF';
-
-/**
- * look for possible dash and hyphen character to see if versePart is a verse range
- * @param {string} versePart
- * @return {number} position of dash or hyphen found, or -1 if not found
- */
-function getRangeSeparator(versePart) {
-  for (const separator of RANGE_SEPARATORS) {
-    const pos = versePart.indexOf(separator);
-
-    if (pos >= 0) {
-      return pos;
-    }
-  }
-  return -1;
-}
 
 /**
  * conver array of Reference chunks to reference string
@@ -473,29 +448,6 @@ export const cleanOccurrenceNoteLinks = (occurrenceNote, resourcesPath, langId, 
  */
 export function toInt(value) {
   return (typeof value === 'string') ? parseInt(value, 10) : value;
-}
-
-/**
- * return integer of value (string or int) if valid, otherwise just return value
- * @param {string|int} value
- * @returns {int|int}
- */
-export function toIntIfValid(value) {
-  if (typeof value === 'string') {
-    const pos = getRangeSeparator(value);
-
-    if (pos >= 0) {
-      return value;
-    }
-
-    const intValue = toInt(value);
-
-    if (!isNaN(intValue)) {
-      return intValue;
-    }
-  }
-
-  return value;
 }
 
 /**

@@ -8,7 +8,7 @@ jest.unmock('fs-extra');
 function getTestResult(bookId, chapter, verse, quote) {
   const originalBiblePath = path.join('__tests__', 'fixtures', 'resources', 'el-x-koine', 'bibles', 'ugnt', 'v0.11');
   const resourceApi = new ManageResource(originalBiblePath, bookId);
-  const verseString = resourceApi.getVerseString(chapter, verse);
+  const verseString = resourceApi.getVerseStringFromRef(`${chapter}:${verse}`);
   const words = getWordOccurrencesForQuote(quote, verseString);
 
   return words;
