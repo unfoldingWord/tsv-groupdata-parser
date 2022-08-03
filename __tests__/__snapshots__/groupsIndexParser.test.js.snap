@@ -299,9 +299,9 @@ Object {
 
 exports[`tests groupsIndexParser.generateGroupsIndex() test error handling 1`] = `
 Array [
-  "generateGroupsIndex() - error finding group name: groupId: 'translate-numbers', index: '0' in bookId 'gal, taArticleCategory: translate' ",
+  "generateGroupsIndex() - error finding group name: groupId: 'translate-numbers', index: '0' in bookId 'gal, taArticleCategory: translate, contextID: {\\"occurrenceNote\\":\\"\\\\\\"four hundred and thirty years\\\\\\" (See: [[rc://en/ta/man/translate/translate-numbers]])\\",\\"reference\\":{\\"bookId\\":\\"gal\\",\\"chapter\\":3,\\"verse\\":17},\\"tool\\":\\"translationNotes\\",\\"groupId\\":\\"translate-numbers\\",\\"quote\\":\\"ὁ μετὰ τετρακόσια καὶ τριάκοντα ἔτη\\",\\"glQuote\\":\\"430 years\\",\\"occurrence\\":1}' ",
   "Could not find localization for 'translate-numbers' in 'numbers', adding stub entry",
-  "generateGroupsIndex() - error finding group name: groupId: 'figs-hypo', index: '0' in bookId 'tit, taArticleCategory: translate' ",
+  "generateGroupsIndex() - error finding group name: groupId: 'figs-hypo', index: '0' in bookId 'tit, taArticleCategory: translate, contextID: {\\"occurrenceNote\\":\\"This presents an imaginary situation where someone opposes Titus and then becomes ashamed for having done so. Alternate translation: \\\\\\"so that if anyone opposes you, he may be ashamed\\\\\\" or \\\\\\"so that if people oppose you, they may be ashamed\\\\\\" (See: [[rc://en/ta/man/translate/figs-hypo]])\\",\\"reference\\":{\\"bookId\\":\\"tit\\",\\"chapter\\":2,\\"verse\\":8},\\"tool\\":\\"translationNotes\\",\\"groupId\\":\\"figs-hypo\\",\\"quote\\":\\"ἵνα ὁ ἐξ ἐναντίας ἐντραπῇ\\",\\"glQuote\\":\\"so that anyone who opposes you may be ashamed\\",\\"occurrence\\":1}' ",
   "Could not find localization for 'figs-hypo' in 'numbers', adding stub entry",
 ]
 `;

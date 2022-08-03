@@ -1,13 +1,12 @@
 import path from 'path-extra';
 import deepEqual from 'deep-equal';
+import { cleanupReference, parseReferenceToList } from 'bible-reference-range';
 // helpers
 import {
   cleanGroupId,
   cleanOccurrenceNoteLinks,
-  cleanupReference,
   convertReference,
   convertReferenceChunksToString,
-  parseReferenceToList,
   tsvToGroupData,
 } from '../src/tsvToGroupData';
 

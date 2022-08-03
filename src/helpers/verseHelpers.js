@@ -1,12 +1,5 @@
-/**
- * splits verse list into individual verses
- * @param {string} verseStr
- * @return {[number]}
- */
-export function getVerseList(verseStr) {
-  const verses = verseStr.toString().split(',');
-  return verses;
-}
+import { getVerses } from 'bible-reference-range';
+import { verseObjectsToString } from './verseObjecsHelper';
 
 /**
  * test if verse is valid verse span string
@@ -38,21 +31,39 @@ export function isVerseSet(verse) {
   return isSet;
 }
 
+
+
 /**
- * get verse range from span
- * @param {string} verseSpan
- * @return {{high: number, low: number}}
+ * find all verses in ref and return as long string
+ * @param {object} bookData - indexed by chapter and then verse ref
+ * @param {string} ref - formats such as “2:4-5”, “2:3a”, “2-3b-4a”, “2:7,12”, “7:11-8:2”, "6:15-16;7:2"
+ * @param {boolean} failOnMissingVerse
+ * @returns {string}
  */
-export function getVerseSpanRange(verseSpan) {
-  let [low, high] = verseSpan.split('-');
+export function getVerseString(bookData, ref, failOnMissingVerse = true) {
+  let verseObjects_ = [];
+  const verseRefs = getVerses(bookData, ref);
 
-  if (low && high) {
-    low = parseInt(low, 10);
-    high = parseInt(high, 10);
+  for (const verseRef of verseRefs) {
+    if (!verseRef.verseData && failOnMissingVerse) {
+      return null;
+    }
 
-    if ((low > 0) && (high >= low)) {
-      return { low, high };
+    const verseData = verseRef.verseData;
+    let verseObjects; // (verseData && verseData.verseObjects);
+
+    if (verseData) {
+      if (typeof verseData === 'string') {
+        verseObjects = [{ text: verseData }];
+      } else if (Array.isArray(verseData)) {
+        verseObjects = verseData;
+      } else if (verseData.verseObjects) {
+        verseObjects = verseData.verseObjects;
+      }
+      Array.prototype.push.apply(verseObjects_, verseObjects);
     }
   }
-  return {};
+
+  return verseObjectsToString(verseObjects_);
 }
+

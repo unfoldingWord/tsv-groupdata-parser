@@ -16,192 +16,9 @@ import { hasEllipsis } from './helpers/ellipsisHelpers';
 import { isVerseSet } from './helpers/verseHelpers';
 
 // list of possible hyphen and dash characters used for range separator
-const RANGE_SEPARATORS = [
-  '-', // HYPHEN-MINUS
-  '\u00AD', // SOFT HYPHEN
-  '\u2010', // HYPHEN
-  '\u2011', // NON-BREAKING HYPHEN
-  '\u2012', // FIGURE DASH
-  '\u2013', // EN DASH
-  '\u2014', // EM DASH
-];
 const ZERO_WIDTH_SPACE = '\u200B';
 const NO_BREAK_SPACE = '\u00A0';
 const ZERO_WIDTH_NO_BREAK_SPACE = '\uFEFF';
-
-/**
- * look for possible dash and hyphen character to see if versePart is a verse range
- * @param {string} versePart
- * @return {number} position of dash or hyphen found, or -1 if not found
- */
-function getRangeSeparator(versePart) {
-  for (const separator of RANGE_SEPARATORS) {
-    const pos = versePart.indexOf(separator);
-
-    if (pos >= 0) {
-      return pos;
-    }
-  }
-  return -1;
-}
-
-/**
- * check if verse range
- * @param ref
- * @returns {{verse}}
- */
-function getRange(ref) {
-  const refType = typeof(ref);
-  const isNumber = refType === 'number';
-
-  if (!isNumber) {
-    const pos = getRangeSeparator(ref);
-    const foundRange = pos >= 0;
-
-    if (foundRange) {
-      const start = toIntIfValid(ref.substring(0, pos));
-      const endStr = ref.substring(pos + 1);
-
-      let {
-        chapter,
-        verse,
-        foundChapterVerse,
-      } = getChapterVerse(endStr);
-
-      if (foundChapterVerse) {
-        return {
-          verse: start,
-          endChapter: chapter,
-          endVerse: verse,
-        };
-      } else {
-        return {
-          verse: start,
-          endVerse: toIntIfValid(endStr),
-        };
-      }
-    }
-  }
-
-  return { verse: ref };
-}
-
-/**
- * parse ref to see if chapter:verse
- * @param ref
- * @returns {{chapter: string, foundChapterVerse: boolean, verse: string}}
- */
-function getChapterVerse(ref) {
-  if (typeof ref !== 'string') {
-    return { verse: ref };
-  }
-
-  const pos = (ref || '').indexOf(':');
-  const foundChapterVerse = pos >= 0;
-  let chapter, verse;
-
-  if (foundChapterVerse) {
-    chapter = toIntIfValid(ref.substring(0, pos));
-    verse = toIntIfValid(ref.substring(pos + 1));
-  } else {
-    verse = toIntIfValid(ref);
-  }
-  return {
-    chapter,
-    verse,
-    foundChapterVerse,
-  };
-}
-
-/**
- * takes a reference and splits into individual verses or verse spans.
- * @param {string} ref - reference in format such as:
- *   “2:4-5”, “2:3a”, “2-3b-4a”, “2:7,12”, “7:11-8:2”, "6:15-16;7:2"
- * @return {array}
- */
-export function parseReferenceToList(ref) {
-  try {
-    let verseChunks = [];
-    const refChunks = ref.split(';');
-    let lastChapter = 1;
-
-    for (const refChunk of refChunks) {
-      if (!refChunk) {
-        continue;
-      }
-
-      const verseParts = refChunk.split(',');
-      let {
-        chapter,
-        verse,
-        foundChapterVerse,
-      } = getChapterVerse(verseParts[0]);
-
-      if (!foundChapterVerse) {
-        chapter = verse;
-        verse = null;
-      }
-
-      lastChapter = chapter;
-
-      const range = getRange(verse);
-
-      verseChunks.push({
-        ...range,
-        chapter,
-      });
-
-      if (range.endChapter) {
-        lastChapter = range.endChapter;
-      }
-
-      for (let i = 1; i < verseParts.length; i++) {
-        const versePart = verseParts[i];
-
-        if (!versePart) {
-          continue;
-        }
-
-        let {
-          chapter: chapter_,
-          verse: verse_,
-          foundChapterVerse,
-        } = getChapterVerse(versePart);
-
-        if (foundChapterVerse) {
-          chapter = chapter_;
-          verse = verse_;
-          lastChapter = chapter;
-        } else {
-          chapter = lastChapter;
-          verse = verse_;
-        }
-
-        const range = getRange(verse);
-
-        if (range.endVerse) {
-          verseChunks.push({
-            ...range,
-            chapter,
-          });
-
-          if (range.endChapter) {
-            lastChapter = range.endChapter;
-          }
-        } else { // not range
-          verseChunks.push({
-            verse: range.verse,
-            chapter,
-          });
-        }
-      }
-    }
-    return verseChunks;
-  } catch (e) {
-    console.warn(`parseReferenceToList() - invalid ref: "${ref}"`);
-  }
-  return null;
-}
 
 /**
  * conver array of Reference chunks to reference string
@@ -245,7 +62,7 @@ export function convertReferenceChunksToString(chunks) {
       }
     }
   } catch (e) {
-    console.warn(`convertReferenceChunksToString() - invalid chunks: "${JSON.stringify(chunks)}"`);
+    console.warn(`convertReferenceChunksToString() - invalid chunks: "${JSON.stringify(chunks)}"`, e);
   }
   return result;
 }
@@ -281,21 +98,6 @@ export function characterizeReference(chunks, refStr) {
       results.verse = verseStr;
     }
   }
-  return results;
-}
-
-/**
- * takes a reference and splits into individual verses or verse spans for cleanup.  Then recombines the cleaned up references to a string.
- * @param {string} ref - reference in format such as:
- *   “2:4-5”, “2:3a”, “2-3b-4a”, “2:7,12”, “7:11-8:2”, "6:15-16;7:2"
- * @return {array|string}
- */
-export function cleanupReference(ref) {
-  const chunks = parseReferenceToList(ref);
-  const cleanedRef = convertReferenceChunksToString(chunks);
-
-  let results = characterizeReference(chunks, cleanedRef);
-  results.cleanedRef = cleanedRef;
   return results;
 }
 
@@ -339,7 +141,7 @@ export function tnJsonToGroupData(originalBiblePath, bookId, tsvObjects, resourc
         let verseString = null;
 
         try {
-          verseString = resourceApi.getVerseString(tsvItem.Chapter, tsvItem.Verse);
+          verseString = resourceApi.getVerseStringFromRef(tsvItem.Reference || `${tsvItem.Chapter}:${tsvItem.Verse}`);
         } catch (e) {
           if (parseInt(tsvItem.Chapter, 10) && parseInt(tsvItem.Verse, 10)) { // only if chapter and verse are valid do we expect verse text
             console.warn(`tsvToGroupData() - error getting verse string: chapter ${tsvItem.Chapter}, verse ${tsvItem.Verse} from ${JSON.stringify(tsvItem)}`, e);
@@ -646,29 +448,6 @@ export const cleanOccurrenceNoteLinks = (occurrenceNote, resourcesPath, langId, 
  */
 export function toInt(value) {
   return (typeof value === 'string') ? parseInt(value, 10) : value;
-}
-
-/**
- * return integer of value (string or int) if valid, otherwise just return value
- * @param {string|int} value
- * @returns {int|int}
- */
-export function toIntIfValid(value) {
-  if (typeof value === 'string') {
-    const pos = getRangeSeparator(value);
-
-    if (pos >= 0) {
-      return value;
-    }
-
-    const intValue = toInt(value);
-
-    if (!isNaN(intValue)) {
-      return intValue;
-    }
-  }
-
-  return value;
 }
 
 /**

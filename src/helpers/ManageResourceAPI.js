@@ -1,11 +1,6 @@
 import fs from 'fs-extra';
 import path from 'path-extra';
-import { verseObjectsToString } from './verseObjecsHelper';
-import {
-  getVerseList,
-  getVerseSpanRange,
-  isVerseSpan,
-} from './verseHelpers';
+import { getVerseString } from './verseHelpers';
 
 class ManageResource {
   constructor(originalBiblePath, bookId) {
@@ -50,31 +45,20 @@ class ManageResource {
     return this.resource[chapter][verse];
   }
 
-  getVerseString(chapter, verseStr) {
-    const chapterData = this.resource[chapter];
-    let verseObjects_ = [];
-    const verses = getVerseList(verseStr);
+  /**
+   * find all verses in ref
+   * @param {string} ref
+   * @returns {string}
+   */
+  getVerseStringFromRef(ref) {
+    const bookData = this.resource;
+    const verseString = getVerseString(bookData, ref);
 
-    for (const verse of verses) {
-      if (isVerseSpan(verse)) {
-        const { low, high } = getVerseSpanRange(verse);
-
-        if (low && high) {
-          for (let i = low; i <= high; i++) {
-            const { verseObjects = null } = chapterData[i];
-            verseObjects_ = verseObjects_.concat(verseObjects);
-          }
-        }
-      } else {
-        const { verseObjects = null } = chapterData[verse];
-
-        if (verseObjects) {
-          verseObjects_ = verseObjects_.concat(verseObjects);
-        }
-      }
+    if (!verseString) {
+      // eslint-disable-next-line no-throw-literal
+      throw `Reference not found: ${ref}`;
     }
-
-    return verseObjectsToString(verseObjects_);
+    return verseString;
   }
 }
 

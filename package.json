@@ -1,6 +1,6 @@
 {
   "name": "tsv-groupdata-parser",
-  "version": "0.12.4",
+  "version": "0.13.0",
   "description": "Parses the translationNotes TSVs files to generate the GroupIndex and GroupData for the translationCore Desktop app.",
   "main": "lib/index.js",
   "scripts": {
@@ -37,6 +37,7 @@
     "@babel/preset-env": "^7.4.5",
     "babel-eslint": "^10.0.3",
     "babel-jest": "^24.9.0",
+    "bible-reference-range": "^1.0.1",
     "deep-equal": "1.0.1",
     "eslint": "^6.3.0",
     "eslint-config-prettier": "^6.3.0",
