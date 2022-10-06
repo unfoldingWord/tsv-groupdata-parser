@@ -20,6 +20,8 @@ const ZERO_WIDTH_SPACE = '\u200B';
 const NO_BREAK_SPACE = '\u00A0';
 const ZERO_WIDTH_NO_BREAK_SPACE = '\uFEFF';
 export const HARD_NL = `\\n`;
+export const HTML_BREAK = `<br>`;
+export const HTML_BREAK2 = `<br/>`;
 
 /**
  * conver array of Reference chunks to reference string
@@ -262,7 +264,7 @@ export const cleanGroupId = groupId => {
     // Replace _ with - in groupId
     // Ex: writing_background => writing-background
     cleanedId = cleanedId.replaceAll('_', '-');
-    cleanedId = cleanedId.replaceAll('<br>', ''); // remove html new lines
+    cleanedId = cleanedId.replaceAll(HTML_BREAK, ''); // remove html new lines
     cleanedId = trimWhiteSpace(cleanedId);
     return cleanedId;
   } catch (e) {
