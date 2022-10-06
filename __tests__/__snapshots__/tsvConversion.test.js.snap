@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests convertTsv9to7 en_tn_08-RUT.tsv should pass 1`] = `""`;
+
+exports[`Tests convertTsv9to7 en_tn_41-MAT.tsv should pass 1`] = `"Expected occurrence=='0' for MAT 13:13 rc://*/ta/man/translate/figs-parallelism '' 1 'Though they are seeing, they do not see; and though they are hearing, they do not hear, or understand.', in line 1318: MAT	13	13	uk7j	figs-parallelism		1	Though they are seeing, they do not see; and though they are hearing, they do not hear, or understand.	Jesus uses this parallelism to tell and emphasize to the disciples that the crowd refuses to understand God’s truth. (See: [[rc://en/ta/man/translate/figs-parallelism]])"`;
+
+exports[`Tests convertTsv9to7 en_tn_42-MRK.tsv should pass 1`] = `
+"Expected no OrigQuote for occurrence=='0' for MRK 2:19 rc://*/ta/man/translate/figs-rquestion 'μὴ δύνανται οἱ υἱοὶ τοῦ νυμφῶνος ἐν ᾧ ὁ νυμφίος μετ’ αὐτῶν ἐστιν νηστεύειν?' 0 'The wedding attendants cannot fast while the bridegroom is still with them, can they?', in line 130: MRK	2	19	eke3	figs-rquestion	μὴ δύνανται οἱ υἱοὶ τοῦ νυμφῶνος ἐν ᾧ ὁ νυμφίος μετ’ αὐτῶν ἐστιν νηστεύειν?	0	The wedding attendants cannot fast while the bridegroom is still with them, can they?	Jesus uses this question to remind the people of something they already know and to encourage them to apply it to him and his disciples. Alternate translation: “Wedding attendants do not fast while the bridegroom is with them. Rather they celebrate and feast.” (See: [[rc://en/ta/man/translate/figs-rquestion]])
+Expected no OrigQuote for occurrence=='0' for MRK 8:14 rc://*/ta/man/translate/figs-litotes 'εἰ μὴ ἕνα ἄρτον' 0 'except for one loaf', in line 603: MRK	8	14	gtg6	figs-litotes	εἰ μὴ ἕνα ἄρτον	0	except for one loaf	The negative phrase “no more” is used to emphasize how small an amount of bread they had. Alternate translation: “only one loaf” (See: [[rc://en/ta/man/translate/figs-litotes]])
+Expected no OrigQuote for occurrence=='0' for MRK 8:33 rc://*/ta/man/translate/figs-metaphor 'ὕπαγε ὀπίσω μου, Σατανᾶ, ὅτι οὐ φρονεῖς' 0 'Get behind me, Satan! For you are not setting your mind', in line 636: MRK	8	33	nu32	figs-metaphor	ὕπαγε ὀπίσω μου, Σατανᾶ, ὅτι οὐ φρονεῖς	0	Get behind me, Satan! For you are not setting your mind	Jesus means that Peter is acting like Satan because Peter is trying to prevent Jesus from accomplishing what God sent him to do. Alternate translation: “Get behind me, because you are acting like Satan! You are not setting” (See: [[rc://en/ta/man/translate/figs-metaphor]])"
+`;
+
+exports[`Tests convertTsv9to7 en_tn_57-TIT.tsv should pass 1`] = `""`;
+
+exports[`Tests convertTsv9to7 hi_tn_57-TIT.tsv should pass 1`] = `""`;

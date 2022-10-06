@@ -2,11 +2,20 @@ import {
   HARD_NL,
   HTML_BREAK,
   HTML_BREAK2,
+  NO_BREAK_SPACE,
+  ZERO_WIDTH_SPACE,
   trimWhiteSpace,
 } from './tsvToGroupData';
+import {
+  ELLIPSIS,
+  THREE_DOTS,
+} from './utils/constants';
+
+const ID_FIRST = 'abcdefghijklmnopqrstuvwxyz';
+const ID_NEXT = 'abcdefghijklmnopqrstuvwxyz0123456789';
 
 /**
- *
+ * add error to list
  * @param {array} errors
  * @param {string} message
  * @param {string} line
@@ -58,27 +67,53 @@ function trimKeys(obj, keys) {
 }
 
 /**
- * convert array of Reference chunks to reference string
- * @param {string} tsv - data in 9 column format
+ * pick random character from string
+ * @param {string} str
+ * @returns {string}
+ */
+function getRandomCharacter(str) {
+  const len = str.length;
+  const pos = Math.floor(Math.random() * len);
+  return str[pos];
+}
+
+/**
+ * replace character at index with newChar
+ * @param {string} str
+ * @param {number} index
+ * @param {string} newChar
+ * @returns {string}
+ */
+function replaceCharAt(str, index, newChar) {
+  const s = str.substring(0, index) + newChar + str.substring(index + 1);
+  return s;
+}
+/**
+ * convert tsv_ data from 9 column to 7 column - on major error tsvObjects will be null.
+ *        errors is a string that contains all the errors detected
+ *
+ * @param {string} tsv_ - data in 9 column format
  * @returns {{tsvObjects: *[], errors: (string|null)}}
  */
-export function convertTsv9to7(tsv) {
+export function convertTsv9to7(tsv_) {
   let tsvObjects;
   const errors = [];
   let line;
   let lineNum;
+  let msg;
+  let tsv = null;
 
   try {
-    tsvObjects = tsvtojson_(tsv);
+    tsvObjects = tsvtojson_(tsv_);
   } catch (e) {
-    const msg = `convertTsv9to7() - could not convert TSV data to json: "` + e.toString();
+    msg = `convertTsv9to7() - could not convert TSV data to json: "` + e.toString();
     appendErrors(errors, msg);
-    tsvObjects = null;
+    tsv = null;
   }
 
   try {
     if (tsvObjects && Array.isArray(tsvObjects) && tsvObjects.length) {
-      const lines = tsv.split('\n');
+      const lines = tsv_.split('\n');
       const line0 = lines[0];
       const fields = line0.split('\t');
 
@@ -88,16 +123,16 @@ export function convertTsv9to7(tsv) {
 
       for (const expected of expectedFields) {
         if (!fields.includes(expected)) {
-          const msg = `missing field '${expected}' in header`;
-          appendErrors(errors, msg);
+          msg = `missing field '${expected}' in header`;
+          appendErrors(errors, msg, line, lineNum);
           missingFields = true;
         }
       }
 
       for (const field of fields) {
         if (!expectedFields.includes(field)) {
-          const msg = `extra field '${field}' in header`;
-          appendErrors(errors, msg);
+          msg = `extra field '${field}' in header`;
+          appendErrors(errors, msg, line, lineNum);
           extraFields = true;
         }
       }
@@ -121,18 +156,164 @@ export function convertTsv9to7(tsv) {
 
         const tsvObject = tsvObjects[i];
         trimKeys(tsvObject, expectedFields);
-        // console.log(i, tsvObject, tsv[i + 1]);
+
+        let {
+          Book,
+          Chapter,
+          Verse,
+          ID,
+          SupportReference,
+          OrigQuote,
+          Occurrence,
+          GLQuote,
+          OccurrenceNote,
+        } = tsvObject;
+
+        let Reference = `${Chapter}:${Verse}`;
+        const BCV = `${Book} ${Chapter}:${Verse}`;
+
+        if (ID.length !== 4) {
+          msg = `Expected ${BCV} row ID to be 4 characters (not ${ID.length} characters with '${ID}')`;
+          appendErrors(errors, msg, line, lineNum);
+          ID = getRandomCharacter(ID_FIRST) + getRandomCharacter(ID_NEXT) + getRandomCharacter(ID_NEXT) + getRandomCharacter(ID_NEXT);
+        }
+
+        if (!ID_FIRST.includes(ID[0])) {
+          msg = `${BCV} row ID has invalid first character ${ID[0]}`;
+          appendErrors(errors, msg, line, lineNum);
+          ID = replaceCharAt(ID, 0, getRandomCharacter(ID_FIRST));
+        }
+
+        for (let pos = 1; pos < 4; pos++) {
+          if (!ID_NEXT.includes(ID[pos])) {
+            msg = `${BCV} row ID has invalid ${pos} character ${ID[pos]}`;
+            appendErrors(errors, msg, line, lineNum);
+            ID = replaceCharAt(ID, pos, getRandomCharacter(ID_NEXT));
+          }
+        }
+
+        const Tags = '';
+        SupportReference = SupportReference && `rc://*/ta/man/translate/${SupportReference}`;
+
+        OrigQuote = OrigQuote.replaceAll(ZERO_WIDTH_SPACE, ' '); // Replace non-break spaces
+        OrigQuote = OrigQuote.replaceAll(NO_BREAK_SPACE, ''); // Delete zero-width spaces
+        OrigQuote = OrigQuote.replaceAll(THREE_DOTS, ELLIPSIS);
+        OrigQuote = OrigQuote.replaceAll(' ' + ELLIPSIS, ELLIPSIS).replaceAll(ELLIPSIS + ' ', ELLIPSIS);
+
+        // ELLIPSIS Should only be BETWEEN words
+        if (OrigQuote[0] === ELLIPSIS) {
+          OrigQuote = OrigQuote.substring(1);
+        }
+
+        if (OrigQuote[OrigQuote.length - 1] === ELLIPSIS) {
+          OrigQuote = OrigQuote.substring(0, OrigQuote.length - 1);
+        }
+
+        OrigQuote = OrigQuote.replaceAll(ELLIPSIS, ' & ');
+        OrigQuote = trimValue(OrigQuote);
+
+        if (!OrigQuote && (Occurrence !== '0')) {
+          msg = `Expected occurrence=='0' for ${BCV} ${SupportReference} '${OrigQuote}' ${Occurrence} '${GLQuote}'`;
+          appendErrors(errors, msg, line, lineNum);
+          Occurrence = '0';
+        }
+
+        if (OrigQuote && (Occurrence === '0')) {
+          msg = `Expected no OrigQuote for occurrence=='0' for ${BCV} ${SupportReference} '${OrigQuote}' ${Occurrence} '${GLQuote}'`;
+          appendErrors(errors, msg, line, lineNum);
+          Occurrence = '0';
+        }
+
+        // console.log(i, tsvObject, tsv_[i + 1]);
+        OccurrenceNote = OccurrenceNote.replaceAll('<BR>', '<br>');
+        let start = OccurrenceNote.substring(0,4);
+
+        if ( start === '<br>' ) {
+          OccurrenceNote = OccurrenceNote.substring(4);
+        }
+
+        let end = OccurrenceNote.substring(OccurrenceNote.length-4);
+
+        if ( end === '<br>' ) {
+          OccurrenceNote = OccurrenceNote.substring(0, OccurrenceNote.length-4);
+        }
+
+        OccurrenceNote = OccurrenceNote.replaceAll('<br>', '\\n');
+        OccurrenceNote = OccurrenceNote.replaceAll('rc://en/', 'rc://*/');
+        OccurrenceNote = OccurrenceNote.replaceAll('…', ' … ').replaceAll('  …', ' …').replaceAll('…  ', '… ');
+
+        while (OccurrenceNote.includes('*  ')) {
+          OccurrenceNote = OccurrenceNote.replaceAll('*  ', '* ');
+        }
+        OccurrenceNote = OccurrenceNote.replaceAll('\\n   ', '\\n@@@').replaceAll('\\n  ', '\\n@@');
+        OccurrenceNote = OccurrenceNote.replaceAll('  ', ' '); //Might mess up markdown indents ???
+        OccurrenceNote = OccurrenceNote.replaceAll('\\n@@@', '\\n   ').replaceAll('\\n@@', '\\n  ');
+        OccurrenceNote = trimValue(OccurrenceNote);
+
+        if (OccurrenceNote.includes('  ') && (!OccurrenceNote.includes('  *'))) { // used in markdown for indenting
+          msg = `NOTE: ${BCV} ${lineNum} OccurrenceNote has unexpected double-spaces: '${OccurrenceNote}`;
+          appendErrors(errors, msg, line, lineNum);
+        }
+
+        // Normally GL Quote is a Bible quote
+        if ((GLQuote === 'Connecting Statement:') ||
+          (GLQuote === 'General Information:') ||
+          (GLQuote === 'A Bible story from:')) {
+          OccurrenceNote = `# ${GLQuote}\\n\\n${OccurrenceNote}`;
+          GLQuote = '';
+        }
+
+        const newTsvObject = {
+          Reference,
+          ID,
+          Tags,
+          SupportReference,
+          Quote: OrigQuote,
+          Occurrence,
+          Note: OccurrenceNote,
+        };
+        tsvObjects[i] = newTsvObject;
+        // output_line = f'{reference}\t{ID}\t{tags}\t{support_reference}\t{orig_quote}\t{occurrence}\t{occurrence_note}'
       }
+
+      const output = [];
+      const headers = [
+        'Reference',
+        'ID',
+        'Tags',
+        'SupportReference',
+        'Quote',
+        'Occurrence',
+        'Note',
+      ];
+      output.push(headers.join('\t'));
+
+      for (const tsvObject of tsvObjects) {
+        const fields = [];
+
+        for (const columnName of headers) {
+          const value = tsvObject[columnName] || '';
+          fields.push(value);
+        }
+
+        let line = fields.join('\t');
+
+        if (line.includes('\n')) {
+          line = line.replaceAll('\n', '\\n');
+        }
+        output.push(line);
+      }
+      tsv = output.join('\n') + '\n';
     } else {
       throw `convertTsv9to7() - invalid tsv data, could not parse`;
     }
   } catch (e) {
     const msg = e.toString();
     appendErrors(errors, msg, line, lineNum);
-    tsvObjects = null;
+    tsv = null;
   }
   return {
-    tsvObjects,
+    tsv,
     errors: errors ? errors.join('\n') : null,
   };
 }
