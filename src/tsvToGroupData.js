@@ -16,9 +16,9 @@ import { isVerseSet } from './helpers/verseHelpers';
 import { tsvtojson_ } from './tsvConversion';
 
 // list of possible hyphen and dash characters used for range separator
-const ZERO_WIDTH_SPACE = '\u200B';
-const NO_BREAK_SPACE = '\u00A0';
-const ZERO_WIDTH_NO_BREAK_SPACE = '\uFEFF';
+export const ZERO_WIDTH_SPACE = '\u200B';
+export const NO_BREAK_SPACE = '\u00A0';
+export const ZERO_WIDTH_NO_BREAK_SPACE = '\uFEFF';
 export const HARD_NL = `\\n`;
 export const HTML_BREAK = `<br>`;
 export const HTML_BREAK2 = `<br/>`;

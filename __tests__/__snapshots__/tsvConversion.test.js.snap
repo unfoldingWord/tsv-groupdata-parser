@@ -1,5 +1,21 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Tests convertTsv9to7 ID tests should catch invalid chars in ID 1`] = `"TIT 1:1 row ID has invalid 1 character R, in line 2: TIT	1	1	xRpz	figs-abstractnouns	ἐπίγνωσιν ἀληθείας	1	knowledge of the truth	**knowledge** and **truth** are abstract nouns. See the UST for other ways to express these. Paul wants people to know the true message about God and Christ so that they can live in a way that pleases God. (See: [[rc://en/ta/man/translate/figs-abstractnouns]])"`;
+
+exports[`Tests convertTsv9to7 ID tests should catch invalid first char in ID 1`] = `"TIT 1:1 row ID has invalid first character 0, in line 2: TIT	1	1	0xyz	figs-abstractnouns	ἐπίγνωσιν ἀληθείας	1	knowledge of the truth	**knowledge** and **truth** are abstract nouns. See the UST for other ways to express these. Paul wants people to know the true message about God and Christ so that they can live in a way that pleases God. (See: [[rc://en/ta/man/translate/figs-abstractnouns]])"`;
+
+exports[`Tests convertTsv9to7 ID tests should catch short ID 1`] = `"Expected TIT 1:1 row ID to be 4 characters (not 3 characters with 'xyz'), in line 2: TIT	1	1	xyz	figs-abstractnouns	ἐπίγνωσιν ἀληθείας	1	knowledge of the truth	**knowledge** and **truth** are abstract nouns. See the UST for other ways to express these. Paul wants people to know the true message about God and Christ so that they can live in a way that pleases God. (See: [[rc://en/ta/man/translate/figs-abstractnouns]])"`;
+
+exports[`Tests convertTsv9to7 OrigQuote tests should correct spaces in OrigQuote 1`] = `""`;
+
+exports[`Tests convertTsv9to7 OrigQuote tests should replace ... with & 1`] = `""`;
+
+exports[`Tests convertTsv9to7 OrigQuote tests should replace ellipsis with & 1`] = `""`;
+
+exports[`Tests convertTsv9to7 Test OrigQuote replace html break 1`] = `""`;
+
+exports[`Tests convertTsv9to7 empty support ref 1`] = `"Expected no OrigQuote for occurrence=='0' for TIT 1:1  'ἐπίγνωσιν ἀληθείας' 0 'knowledge of the truth', in line 2: TIT	1	1	wxyz		ἐπίγνωσιν ἀληθείας	0	knowledge of the truth	**knowledge** and **truth** are abstract nouns. See the UST for other ways to express these. Paul wants people to know the true message about God and Christ so that they can live in a way that pleases God. (See: [[rc://en/ta/man/translate/figs-abstractnouns]])"`;
+
 exports[`Tests convertTsv9to7 en_tn_08-RUT.tsv should pass 1`] = `""`;
 
 exports[`Tests convertTsv9to7 en_tn_41-MAT.tsv should pass 1`] = `"Expected occurrence=='0' for MAT 13:13 rc://*/ta/man/translate/figs-parallelism '' 1 'Though they are seeing, they do not see; and though they are hearing, they do not hear, or understand.', in line 1318: MAT	13	13	uk7j	figs-parallelism		1	Though they are seeing, they do not see; and though they are hearing, they do not hear, or understand.	Jesus uses this parallelism to tell and emphasize to the disciples that the crowd refuses to understand God’s truth. (See: [[rc://en/ta/man/translate/figs-parallelism]])"`;
@@ -12,7 +28,10 @@ Expected no OrigQuote for occurrence=='0' for MRK 8:33 rc://*/ta/man/translate/f
 
 exports[`Tests convertTsv9to7 en_tn_57-TIT.tsv should pass 1`] = `""`;
 
-exports[`Tests convertTsv9to7 en_tn_57-TIT-invalid-ref.tsv should pass 1`] = `""`;
+exports[`Tests convertTsv9to7 en_tn_57-TIT-invalid-ref.tsv should pass 1`] = `
+"NOTE: TIT 1:1 4 OccurrenceNote is empty: ', in line 4: TIT	1	1	rtc9		κατὰ πίστιν	1	for the faith
+NOTE: TIT 1:3 10 OccurrenceNote is empty: ', in line 10: TIT	1	3	swi9	figs-metaphor	ἐφανέρωσεν…τὸν λόγον αὐτοῦ	1	he revealed his word"
+`;
 
 exports[`Tests convertTsv9to7 en_tn_57-TIT-missing-occurrence-note.tsv should pass 1`] = `
 "NOTE: TIT 1:1 4 OccurrenceNote is empty: ', in line 4: TIT	1	1	rtc9		κατὰ πίστιν	1	for the faith
@@ -27,3 +46,24 @@ NOTE: TIT 1:3 10 OccurrenceNote is empty: ', in line 10: TIT	1	3	swi9	figs-metap
 `;
 
 exports[`Tests convertTsv9to7 hi_tn_57-TIT.tsv should pass 1`] = `""`;
+
+exports[`Tests convertTsv9to7 should catch invalid chars in ID 1`] = `"TIT 1:1 row ID has invalid 1 character R, in line 2: TIT	1	1	xRpz	figs-abstractnouns	ἐπίγνωσιν ἀληθείας	1	knowledge of the truth	**knowledge** and **truth** are abstract nouns. See the UST for other ways to express these. Paul wants people to know the true message about God and Christ so that they can live in a way that pleases God. (See: [[rc://en/ta/man/translate/figs-abstractnouns]])"`;
+
+exports[`Tests convertTsv9to7 should catch invalid first char in ID 1`] = `"TIT 1:1 row ID has invalid first character 0, in line 2: TIT	1	1	0xyz	figs-abstractnouns	ἐπίγνωσιν ἀληθείας	1	knowledge of the truth	**knowledge** and **truth** are abstract nouns. See the UST for other ways to express these. Paul wants people to know the true message about God and Christ so that they can live in a way that pleases God. (See: [[rc://en/ta/man/translate/figs-abstractnouns]])"`;
+
+exports[`Tests convertTsv9to7 should catch short ID 1`] = `"Expected TIT 1:1 row ID to be 4 characters (not 3 characters with 'xyz'), in line 2: TIT	1	1	xyz	figs-abstractnouns	ἐπίγνωσιν ἀληθείας	1	knowledge of the truth	**knowledge** and **truth** are abstract nouns. See the UST for other ways to express these. Paul wants people to know the true message about God and Christ so that they can live in a way that pleases God. (See: [[rc://en/ta/man/translate/figs-abstractnouns]])"`;
+
+exports[`Tests convertTsv9to7 should correct spaces in OrigQuote 1`] = `""`;
+
+exports[`Tests convertTsv9to7 should fail insufficient columns 1`] = `
+"missing field 'OccurrenceNote' in header
+Number of columns should be 9, but 8 columns found, in line 1: Book	Chapter	Verse	ID	SupportReference	OrigQuote	Occurrence	GLQuote"
+`;
+
+exports[`Tests convertTsv9to7 should replace ... with & 1`] = `""`;
+
+exports[`Tests convertTsv9to7 should replace ellipsis with & 1`] = `""`;
+
+exports[`Tests convertTsv9to7 should warn on not zero occurrence but don't have original quote 1`] = `"Expected occurrence=='0' for TIT 1:1 rc://*/ta/man/translate/figs-abstractnouns '' 1 'knowledge of the truth', in line 2: TIT	1	1	wxyz	figs-abstractnouns		1	knowledge of the truth	**knowledge** and **truth** are abstract nouns. See the UST for other ways to express these. Paul wants people to know the true message about God and Christ so that they can live in a way that pleases God. (See: [[rc://en/ta/man/translate/figs-abstractnouns]])"`;
+
+exports[`Tests convertTsv9to7 should warn on zero occurrence but have original quote 1`] = `"Expected no OrigQuote for occurrence=='0' for TIT 1:1 rc://*/ta/man/translate/figs-abstractnouns 'ἐπίγνωσιν ἀληθείας' 0 'knowledge of the truth', in line 2: TIT	1	1	wxyz	figs-abstractnouns	ἐπίγνωσιν ἀληθείας	0	knowledge of the truth	**knowledge** and **truth** are abstract nouns. See the UST for other ways to express these. Paul wants people to know the true message about God and Christ so that they can live in a way that pleases God. (See: [[rc://en/ta/man/translate/figs-abstractnouns]])"`;

@@ -11,7 +11,7 @@ import {
   THREE_DOTS,
 } from './utils/constants';
 
-const ID_FIRST = 'abcdefghijklmnopqrstuvwxyz';
+const ID_FIRST = 'abcdefghijklmnopqrstuvwxyz'; // We don't start ID with numbers
 const ID_NEXT = 'abcdefghijklmnopqrstuvwxyz0123456789';
 
 /**
@@ -88,6 +88,7 @@ function replaceCharAt(str, index, newChar) {
   const s = str.substring(0, index) + newChar + str.substring(index + 1);
   return s;
 }
+
 /**
  * convert tsv_ data from 9 column to 7 column - on major error tsvObjects will be null.
  *        errors is a string that contains all the errors detected
@@ -195,8 +196,8 @@ export function convertTsv9to7(tsv_) {
         const Tags = '';
         SupportReference = SupportReference && `rc://*/ta/man/translate/${SupportReference}`;
 
-        OrigQuote = OrigQuote.replaceAll(ZERO_WIDTH_SPACE, ' '); // Replace non-break spaces
-        OrigQuote = OrigQuote.replaceAll(NO_BREAK_SPACE, ''); // Delete zero-width spaces
+        OrigQuote = OrigQuote.replaceAll(NO_BREAK_SPACE, ' '); // Replace non-break spaces
+        OrigQuote = OrigQuote.replaceAll(ZERO_WIDTH_SPACE, ''); // Delete zero-width spaces
         OrigQuote = OrigQuote.replaceAll(THREE_DOTS, ELLIPSIS);
         OrigQuote = OrigQuote.replaceAll(' ' + ELLIPSIS, ELLIPSIS).replaceAll(ELLIPSIS + ' ', ELLIPSIS);
 
@@ -221,7 +222,6 @@ export function convertTsv9to7(tsv_) {
         if (OrigQuote && (Occurrence === '0')) {
           msg = `Expected no OrigQuote for occurrence=='0' for ${BCV} ${SupportReference} '${OrigQuote}' ${Occurrence} '${GLQuote}'`;
           appendErrors(errors, msg, line, lineNum);
-          Occurrence = '0';
         }
 
         // console.log(i, tsvObject, tsv_[i + 1]);
