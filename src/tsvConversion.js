@@ -1,7 +1,5 @@
 import {
   HARD_NL,
-  HTML_BREAK,
-  HTML_BREAK2,
   NO_BREAK_SPACE,
   ZERO_WIDTH_SPACE,
   trimWhiteSpace,
@@ -258,7 +256,7 @@ export function convertTsv9to7(tsv_) {
         if (!OccurrenceNote) {
           msg = `NOTE: ${BCV} ${lineNum} OccurrenceNote is empty: '${OccurrenceNote}`;
           appendErrors(errors, msg, line, lineNum);
-          OccurrenceNote = ''
+          OccurrenceNote = '';
         }
 
         // Normally GL Quote is a Bible quote

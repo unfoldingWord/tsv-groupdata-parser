@@ -198,7 +198,7 @@ describe('Tests convertTsv9to7', function () {
     it(`replace html break`, () => {
       // given
       const tsv = 'Book\tChapter\tVerse\tID\tSupportReference\tOrigQuote\tOccurrence\tGLQuote\tOccurrenceNote\n' +
-        'TIT\t1\t1\twxyz\tfigs-abstractnouns\tἐπίγνωσιν ἀληθείας\t-1\tknowledge of the truth\t**knowledge** and **truth** are abstract nouns.<BR>See the UST for other ways to express these.<br>Paul wants people to know the true message about God and Christ so that they can live in a way that pleases God. (See: [[rc://en/ta/man/translate/figs-abstractnouns]])\n';
+        'TIT\t1\t1\twxyz\tfigs-abstractnouns\tἐπίγνωσιν ἀληθείας\t-1\tknowledge of the truth\t<br>**knowledge** and **truth** are abstract nouns.<BR>See the UST for other ways to express these.<br>Paul wants people to know the true message about God and Christ so that they can live in a way that pleases God. (See: [[rc://en/ta/man/translate/figs-abstractnouns]])\n';
       const expected_tsv = 'Reference\tID\tTags\tSupportReference\tQuote\tOccurrence\tNote\n' +
         '1:1\twxyz\t\trc://*/ta/man/translate/figs-abstractnouns\tἐπίγνωσιν ἀληθείας\t-1\t**knowledge** and **truth** are abstract nouns.\\nSee the UST for other ways to express these.\\nPaul wants people to know the true message about God and Christ so that they can live in a way that pleases God. (See: [[rc://*/ta/man/translate/figs-abstractnouns]])\n';
 
@@ -209,6 +209,36 @@ describe('Tests convertTsv9to7', function () {
       expect(results.tsv).toEqual(expected_tsv);
       expect(results.errors).toMatchSnapshot();
     });
+  });
+
+  it(`replace double spaces`, () => {
+    // given
+    const tsv = 'Book\tChapter\tVerse\tID\tSupportReference\tOrigQuote\tOccurrence\tGLQuote\tOccurrenceNote\n' +
+      'TIT\t1\t1\twxyz\tfigs-abstractnouns\tἐπίγνωσιν ἀληθείας\t-1\tknowledge of the truth\t*  Nuts.<br>**knowledge** and **truth** are abstract nouns.  See the UST for other ways to express these.<br>  Paul wants people to know the true message about God and Christ so that they can live in a way that pleases God. (See: [[rc://en/ta/man/translate/figs-abstractnouns]])\n';
+    const expected_tsv = 'Reference\tID\tTags\tSupportReference\tQuote\tOccurrence\tNote\n' +
+      '1:1\twxyz\t\trc://*/ta/man/translate/figs-abstractnouns\tἐπίγνωσιν ἀληθείας\t-1\t* Nuts.\\n**knowledge** and **truth** are abstract nouns. See the UST for other ways to express these.\\n  Paul wants people to know the true message about God and Christ so that they can live in a way that pleases God. (See: [[rc://*/ta/man/translate/figs-abstractnouns]])\n';
+
+    // when
+    const results = convertTsv9to7(tsv);
+
+    //then
+    expect(results.tsv).toEqual(expected_tsv);
+    expect(results.errors).toMatchSnapshot();
+  });
+
+  it(`warn on empty OccurrenceNote`, () => {
+    // given
+    const tsv = 'Book\tChapter\tVerse\tID\tSupportReference\tOrigQuote\tOccurrence\tGLQuote\tOccurrenceNote\n' +
+      'TIT\t1\t1\twxyz\tfigs-abstractnouns\tἐπίγνωσιν ἀληθείας\t-1\tknowledge of the truth\t\n';
+    const expected_tsv = 'Reference\tID\tTags\tSupportReference\tQuote\tOccurrence\tNote\n' +
+      '1:1\twxyz\t\trc://*/ta/man/translate/figs-abstractnouns\tἐπίγνωσιν ἀληθείας\t-1\t\n';
+
+    // when
+    const results = convertTsv9to7(tsv);
+
+    //then
+    expect(results.tsv).toEqual(expected_tsv);
+    expect(results.errors).toMatchSnapshot();
   });
 });
 

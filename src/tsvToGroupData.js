@@ -183,6 +183,7 @@ export function tnJsonToGroupData(originalBiblePath, bookId, tsvObjects, resourc
  * @param {string} langId
  * @returns an object with the lists of group ids which each includes an array of groupsdata.
  */
+// eslint-disable-next-line require-await
 export const tsvToGroupData = async (filepath, toolName, params = {}, originalBiblePath, resourcesPath, langId) => {
   let tsv = fs.readFileSync(filepath, 'utf8');
 
