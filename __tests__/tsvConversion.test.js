@@ -9,7 +9,16 @@ jest.unmock('fs-extra');
 const TSV_PATH = path.join(__dirname, 'fixtures/tsv');
 
 describe('Tests convertTsv9to7', function () {
-  const fileNames = ['en_tn_08-RUT.tsv', 'en_tn_41-MAT.tsv', 'en_tn_42-MRK.tsv', 'en_tn_57-TIT.tsv', 'hi_tn_57-TIT.tsv'];
+  const fileNames = [
+    'en_tn_08-RUT.tsv',
+    'en_tn_41-MAT.tsv',
+    'en_tn_42-MRK.tsv',
+    'en_tn_57-TIT.tsv',
+    'hi_tn_57-TIT.tsv',
+    'en_tn_57-TIT-invalid-ref.tsv',
+    'en_tn_57-TIT-missing-occurrence-note.tsv',
+    'en_tn_57-TIT-white-space-as-support-ref.tsv'
+  ];
 
   for (const fileName of fileNames) {
     it(`${fileName} should pass`, () => {

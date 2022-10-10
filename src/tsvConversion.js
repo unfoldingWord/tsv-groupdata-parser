@@ -255,6 +255,12 @@ export function convertTsv9to7(tsv_) {
           appendErrors(errors, msg, line, lineNum);
         }
 
+        if (!OccurrenceNote) {
+          msg = `NOTE: ${BCV} ${lineNum} OccurrenceNote is empty: '${OccurrenceNote}`;
+          appendErrors(errors, msg, line, lineNum);
+          OccurrenceNote = ''
+        }
+
         // Normally GL Quote is a Bible quote
         if ((GLQuote === 'Connecting Statement:') ||
           (GLQuote === 'General Information:') ||

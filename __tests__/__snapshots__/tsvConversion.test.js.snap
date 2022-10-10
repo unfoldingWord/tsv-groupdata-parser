@@ -12,4 +12,18 @@ Expected no OrigQuote for occurrence=='0' for MRK 8:33 rc://*/ta/man/translate/f
 
 exports[`Tests convertTsv9to7 en_tn_57-TIT.tsv should pass 1`] = `""`;
 
+exports[`Tests convertTsv9to7 en_tn_57-TIT-invalid-ref.tsv should pass 1`] = `""`;
+
+exports[`Tests convertTsv9to7 en_tn_57-TIT-missing-occurrence-note.tsv should pass 1`] = `
+"NOTE: TIT 1:1 4 OccurrenceNote is empty: ', in line 4: TIT	1	1	rtc9		κατὰ πίστιν	1	for the faith
+NOTE: TIT 1:1 5 OccurrenceNote is empty: ', in line 5: TIT	1	1	xyz8	figs-abstractnouns	ἐπίγνωσιν ἀληθείας	1	knowledge of the truth
+NOTE: TIT 1:3 10 OccurrenceNote is empty: ', in line 10: TIT	1	3	swi9	figs-metaphor	ἐφανέρωσεν…τὸν λόγον αὐτοῦ	1	he revealed his word"
+`;
+
+exports[`Tests convertTsv9to7 en_tn_57-TIT-white-space-as-support-ref.tsv should pass 1`] = `
+"NOTE: TIT 1:1 4 OccurrenceNote is empty: ', in line 4: TIT	1	1	rtc9		κατὰ πίστιν	1	for the faith
+NOTE: TIT 1:1 5 OccurrenceNote is empty: ', in line 5: TIT	1	1	xyz8	figs-abstractnouns	ἐπίγνωσιν ἀληθείας	1	knowledge of the truth
+NOTE: TIT 1:3 10 OccurrenceNote is empty: ', in line 10: TIT	1	3	swi9	figs-metaphor	ἐφανέρωσεν…τὸν λόγον αὐτοῦ	1	he revealed his word"
+`;
+
 exports[`Tests convertTsv9to7 hi_tn_57-TIT.tsv should pass 1`] = `""`;
