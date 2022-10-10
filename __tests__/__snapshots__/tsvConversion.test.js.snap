@@ -53,13 +53,15 @@ exports[`Tests convertTsv9to7 replace double spaces 1`] = `
   Paul wants people to know the true message about God and Christ so that they can live in a way that pleases God. (See: [[rc://*/ta/man/translate/figs-abstractnouns]]), in line 2: TIT	1	1	wxyz	figs-abstractnouns	ἐπίγνωσιν ἀληθείας	-1	knowledge of the truth	*  Nuts.<br>**knowledge** and **truth** are abstract nouns.  See the UST for other ways to express these.<br>  Paul wants people to know the true message about God and Christ so that they can live in a way that pleases God. (See: [[rc://en/ta/man/translate/figs-abstractnouns]])"
 `;
 
-exports[`Tests convertTsv9to7 should fail insufficient columns 1`] = `
-"missing field 'OccurrenceNote' in header
-Number of columns should be 9, but 8 columns found, in line 1: Book	Chapter	Verse	ID	SupportReference	OrigQuote	Occurrence	GLQuote"
-`;
-
 exports[`Tests convertTsv9to7 should warn on not zero occurrence but don't have original quote 1`] = `"Expected occurrence=='0' for TIT 1:1 rc://*/ta/man/translate/figs-abstractnouns '' 1 'knowledge of the truth', in line 2: TIT	1	1	wxyz	figs-abstractnouns		1	knowledge of the truth	**knowledge** and **truth** are abstract nouns. See the UST for other ways to express these. Paul wants people to know the true message about God and Christ so that they can live in a way that pleases God. (See: [[rc://en/ta/man/translate/figs-abstractnouns]])"`;
 
 exports[`Tests convertTsv9to7 should warn on zero occurrence but have original quote 1`] = `"Expected no OrigQuote for occurrence=='0' for TIT 1:1 rc://*/ta/man/translate/figs-abstractnouns 'ἐπίγνωσιν ἀληθείας' 0 'knowledge of the truth', in line 2: TIT	1	1	wxyz	figs-abstractnouns	ἐπίγνωσιν ἀληθείας	0	knowledge of the truth	**knowledge** and **truth** are abstract nouns. See the UST for other ways to express these. Paul wants people to know the true message about God and Christ so that they can live in a way that pleases God. (See: [[rc://en/ta/man/translate/figs-abstractnouns]])"`;
+
+exports[`Tests convertTsv9to7 test invalid tsv's should fail should fail if no header 1`] = `"convertTsv9to7() - invalid tsv data, could not parse"`;
+
+exports[`Tests convertTsv9to7 test invalid tsv's should fail should fail insufficient columns 1`] = `
+"missing field 'OccurrenceNote' in header
+Number of columns should be 9, but 8 columns found, in line 1: Book	Chapter	Verse	ID	SupportReference	OrigQuote	Occurrence	GLQuote"
+`;
 
 exports[`Tests convertTsv9to7 warn on empty OccurrenceNote 1`] = `"NOTE: TIT 1:1 2 OccurrenceNote is empty: ', in line 2: TIT	1	1	wxyz	figs-abstractnouns	ἐπίγνωσιν ἀληθείας	-1	knowledge of the truth	"`;

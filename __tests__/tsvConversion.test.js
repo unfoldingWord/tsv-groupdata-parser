@@ -38,18 +38,31 @@ describe('Tests convertTsv9to7', function () {
     });
   }
 
-  it(`should fail insufficient columns`, () => {
-    // given
-    const tsv = 'Book\tChapter\tVerse\tID\tSupportReference\tOrigQuote\tOccurrence\tGLQuote\n' +
-      'TIT\t1\t1\txyz8\tfigs-abstractnouns\tἐπίγνωσιν ἀληθείας\t1\tknowledge of the truth\t**knowledge** and **truth** are abstract nouns. See the UST for other ways to express these. Paul wants people to know the true message about God and Christ so that they can live in a way that pleases God. (See: [[rc://en/ta/man/translate/figs-abstractnouns]])\n'
-    const expectedLines = getLineCount(tsv);
+  describe('test invalid tsv\'s should fail', function () {
+    it(`should fail insufficient columns`, () => {
+      // given
+      const tsv = 'Book\tChapter\tVerse\tID\tSupportReference\tOrigQuote\tOccurrence\tGLQuote\n' +
+        'TIT\t1\t1\txyz8\tfigs-abstractnouns\tἐπίγνωσιν ἀληθείας\t1\tknowledge of the truth\t**knowledge** and **truth** are abstract nouns. See the UST for other ways to express these. Paul wants people to know the true message about God and Christ so that they can live in a way that pleases God. (See: [[rc://en/ta/man/translate/figs-abstractnouns]])\n'
 
-    // when
-    const results = convertTsv9to7(tsv);
+      // when
+      const results = convertTsv9to7(tsv);
 
-    //then
-    expect(results.tsv).toEqual(null);
-    expect(results.errors).toMatchSnapshot();
+      //then
+      expect(results.tsv).toEqual(null);
+      expect(results.errors).toMatchSnapshot();
+    });
+
+    it(`should fail if no header`, () => {
+      // given
+      const tsv = 'e in a way that pleases God. (See: [[rc://en/ta/man/translate/figs-abstractnouns]])\n';
+
+      // when
+      const results = convertTsv9to7(tsv);
+
+      //then
+      expect(results.tsv).toEqual(null);
+      expect(results.errors).toMatchSnapshot();
+    });
   });
 
   describe('ID tests', function () {
