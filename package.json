@@ -1,13 +1,13 @@
 {
   "name": "tsv-groupdata-parser",
-  "version": "0.13.1-alpha.2",
+  "version": "1.0.1",
   "description": "Parses the translationNotes TSVs files to generate the GroupIndex and GroupData for the translationCore Desktop app.",
   "main": "lib/index.js",
   "scripts": {
     "validate-quotes": "babel-node scripts/validateQuotes.js",
     "lint": "eslint ./src",
     "lint:fix": "eslint ./src --fix",
-    "test": "eslint ./src && jest",
+    "test": "bash -c \"eslint ./src && jest\"",
     "prebuild": "rm -rf ./lib",
     "build": "babel src -d lib",
     "prepare": "npm run build",
@@ -38,7 +38,6 @@
     "@babel/preset-env": "^7.4.5",
     "babel-eslint": "^10.0.3",
     "babel-jest": "^24.9.0",
-    "bible-reference-range": "^1.0.1",
     "deep-equal": "1.0.1",
     "eslint": "^6.3.0",
     "eslint-config-prettier": "^6.3.0",
@@ -50,6 +49,7 @@
     "string-punctuation-tokenizer": "^2.2.0"
   },
   "dependencies": {
+    "bible-reference-range": "^1.0.1",
     "fs-extra": "^7.0.1",
     "ospath": "^1.2.2",
     "path-extra": "^4.3.0",
