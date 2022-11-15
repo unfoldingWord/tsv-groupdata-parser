@@ -7,7 +7,7 @@
     "validate-quotes": "babel-node scripts/validateQuotes.js",
     "lint": "eslint ./src",
     "lint:fix": "eslint ./src --fix",
-    "test": "eslint ./src && jest",
+    "test": "bash -c \"eslint ./src && jest\"",
     "prebuild": "rm -rf ./lib",
     "build": "babel src -d lib",
     "prepare": "npm run build",
