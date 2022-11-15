@@ -1,6 +1,6 @@
 {
   "name": "tsv-groupdata-parser",
-  "version": "0.13.0",
+  "version": "0.13.1-alpha.2",
   "description": "Parses the translationNotes TSVs files to generate the GroupIndex and GroupData for the translationCore Desktop app.",
   "main": "lib/index.js",
   "scripts": {
@@ -12,6 +12,7 @@
     "build": "babel src -d lib",
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run build",
+    "doPack": "npm test && npm run build && npm run pack",
     "postpublish": "git tag v$npm_package_version && git push origin v$npm_package_version"
   },
   "repository": {

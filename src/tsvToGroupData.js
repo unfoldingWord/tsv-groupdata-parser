@@ -1,7 +1,6 @@
 /* eslint-disable no-useless-escape */
 import path from 'path-extra';
 import fs from 'fs-extra';
-import tsvtojson from 'tsvtojson';
 import { categorizeGroupData } from './tNoteGroupIdCategorization';
 import ManageResource from './helpers/ManageResourceAPI';
 import { getWordOccurrencesForQuote } from './helpers/wordOccurrenceHelpers';
@@ -14,11 +13,15 @@ import {
 } from './helpers/resourcesHelpers';
 import { hasEllipsis } from './helpers/ellipsisHelpers';
 import { isVerseSet } from './helpers/verseHelpers';
+import { tsvtojson_ } from './tsvConversion';
 
 // list of possible hyphen and dash characters used for range separator
-const ZERO_WIDTH_SPACE = '\u200B';
-const NO_BREAK_SPACE = '\u00A0';
-const ZERO_WIDTH_NO_BREAK_SPACE = '\uFEFF';
+export const ZERO_WIDTH_SPACE = '\u200B';
+export const NO_BREAK_SPACE = '\u00A0';
+export const ZERO_WIDTH_NO_BREAK_SPACE = '\uFEFF';
+export const HARD_NL = `\\n`;
+export const HTML_BREAK = `<br>`;
+export const HTML_BREAK2 = `<br/>`;
 
 /**
  * conver array of Reference chunks to reference string
@@ -180,22 +183,16 @@ export function tnJsonToGroupData(originalBiblePath, bookId, tsvObjects, resourc
  * @param {string} langId
  * @returns an object with the lists of group ids which each includes an array of groupsdata.
  */
+// eslint-disable-next-line require-await
 export const tsvToGroupData = async (filepath, toolName, params = {}, originalBiblePath, resourcesPath, langId) => {
-  let filePath_ = filepath;
-  const tsv = fs.readFileSync(filepath, 'utf8');
-  const HARD_NL = `\\n`;
+  let tsv = fs.readFileSync(filepath, 'utf8');
 
   if (tsv.indexOf(HARD_NL) >= 0) { // see if we need to clean up file before calling library
-    const folder = path.dirname(filepath);
-    const tempFolder = path.join(folder, 'temp');
-    fs.ensureDirSync(tempFolder);
-    const baseName = path.base(filepath, true);
-    filePath_ = path.join(tempFolder, baseName );
     const cleanedTsv = tsv.replaceAll(HARD_NL, '\n');
-    fs.outputFileSync(filePath_, cleanedTsv, 'utf8'); // save cleaned data before calling library
+    tsv = cleanedTsv;
   }
 
-  const tsvObjects = await tsvtojson(filePath_);
+  const tsvObjects = tsvtojson_(tsv);
   const { Book: bookId } = tsvObjects[0] || {};
   return tnJsonToGroupData(originalBiblePath, bookId, tsvObjects, resourcesPath, langId, toolName, params, filepath);
 };
@@ -268,7 +265,7 @@ export const cleanGroupId = groupId => {
     // Replace _ with - in groupId
     // Ex: writing_background => writing-background
     cleanedId = cleanedId.replaceAll('_', '-');
-    cleanedId = cleanedId.replaceAll('<br>', ''); // remove html new lines
+    cleanedId = cleanedId.replaceAll(HTML_BREAK, ''); // remove html new lines
     cleanedId = trimWhiteSpace(cleanedId);
     return cleanedId;
   } catch (e) {
