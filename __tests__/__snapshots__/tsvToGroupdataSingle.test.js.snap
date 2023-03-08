@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tsvToGroupData() - testing quotes Test all occurrences 1`] = `"καὶ"`;
+
+exports[`tsvToGroupData() - testing quotes Test fifth occurrence 1`] = `"καὶ"`;
+
+exports[`tsvToGroupData() - testing quotes Test multiple ellipsis 1`] = `
+Array [
+  Object {
+    "occurrence": 1,
+    "word": "τοῖς",
+  },
+  Object {
+    "word": "…",
+  },
+  Object {
+    "occurrence": 1,
+    "word": "καὶ",
+  },
+  Object {
+    "word": "…",
+  },
+  Object {
+    "occurrence": 2,
+    "word": "τοῖς",
+  },
+  Object {
+    "word": "…",
+  },
+  Object {
+    "occurrence": 2,
+    "word": "καὶ",
+  },
+]
+`;
+
+exports[`tsvToGroupData() - testing quotes Test multiple ellipsis 2 1`] = `
+Array [
+  Object {
+    "occurrence": 1,
+    "word": "τοῖς",
+  },
+  Object {
+    "word": "…",
+  },
+  Object {
+    "occurrence": 1,
+    "word": "καὶ",
+  },
+  Object {
+    "word": "…",
+  },
+  Object {
+    "occurrence": 2,
+    "word": "τοῖς",
+  },
+  Object {
+    "word": "…",
+  },
+  Object {
+    "occurrence": 2,
+    "word": "καὶ",
+  },
+  Object {
+    "word": "…",
+  },
+  Object {
+    "occurrence": 3,
+    "word": "τοῖς",
+  },
+  Object {
+    "word": "…",
+  },
+  Object {
+    "occurrence": 3,
+    "word": "καὶ",
+  },
+]
+`;
+
+exports[`tsvToGroupData() - testing quotes Test multiple ellipsis 3 1`] = `
+Array [
+  Object {
+    "occurrence": 1,
+    "word": "τοῖς",
+  },
+  Object {
+    "word": "…",
+  },
+  Object {
+    "occurrence": 1,
+    "word": "καὶ",
+  },
+  Object {
+    "word": "…",
+  },
+  Object {
+    "occurrence": 2,
+    "word": "τοῖς",
+  },
+  Object {
+    "word": "…",
+  },
+  Object {
+    "occurrence": 2,
+    "word": "καὶ",
+  },
+  Object {
+    "word": "…",
+  },
+  Object {
+    "occurrence": 3,
+    "word": "τοῖς",
+  },
+  Object {
+    "word": "…",
+  },
+  Object {
+    "occurrence": 3,
+    "word": "καὶ",
+  },
+  Object {
+    "word": "…",
+  },
+  Object {
+    "occurrence": 4,
+    "word": "τοῖς",
+  },
+  Object {
+    "word": "…",
+  },
+  Object {
+    "occurrence": 4,
+    "word": "καὶ",
+  },
+]
+`;
+
+exports[`tsvToGroupData() - testing quotes Test multiple ellipsis and phrases 1`] = `
+Array [
+  Object {
+    "occurrence": 1,
+    "word": "τοῖς",
+  },
+  Object {
+    "occurrence": 1,
+    "word": "καθαροῖς",
+  },
+  Object {
+    "word": "…",
+  },
+  Object {
+    "occurrence": 1,
+    "word": "καὶ",
+  },
+  Object {
+    "occurrence": 1,
+    "word": "ἀπίστοις",
+  },
+  Object {
+    "word": "…",
+  },
+  Object {
+    "occurrence": 3,
+    "word": "τοῖς",
+  },
+  Object {
+    "occurrence": 2,
+    "word": "καθαροῖς",
+  },
+  Object {
+    "word": "…",
+  },
+  Object {
+    "occurrence": 2,
+    "word": "καὶ",
+  },
+  Object {
+    "occurrence": 2,
+    "word": "ἀπίστοις",
+  },
+]
+`;
+
+exports[`tsvToGroupData() - testing quotes Test second occurrence 1`] = `"καὶ"`;
+
+exports[`tsvToGroupData() - testing quotes Test simple ellipsis 1`] = `
+Array [
+  Object {
+    "occurrence": 2,
+    "word": "τοῖς",
+  },
+  Object {
+    "word": "…",
+  },
+  Object {
+    "occurrence": 1,
+    "word": "καὶ",
+  },
+]
+`;
