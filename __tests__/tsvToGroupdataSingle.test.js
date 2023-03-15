@@ -64,6 +64,7 @@ const PHP_TEST = {
 };
 
 const tests = [
+  { name: 'three dot with verse range', data: { Reference: '1:1-2,2:5', OrigQuote: 'ἡμῶν...Χριστοῦ' }, config: PHP_TEST, expect: 'quote' },
   { name: 'simple ampersand with verse range 4', data: { Reference: '1:1-2,2:5', OrigQuote: 'ἡμῶν & Χριστοῦ' }, config: PHP_TEST, expect: 'quote' },
   { name: 'simple ampersand with verse range 3', data: { Reference: '1:1-2,2:5', OrigQuote: 'Χριστῷ & Ἰησοῦ' }, config: PHP_TEST, expect: 'quote' },
   { name: 'simple ampersand with verse range 2', data: { Reference: '1:1-2,2:5', OrigQuote: 'δοῦλοι & Ἰησοῦ' }, config: PHP_TEST, expect: 'quote' },

@@ -9,7 +9,10 @@ export {
 export {
   cleanGroupId,
   generateGroupDataItem,
+  parseReference,
   tsvToGroupData,
+  tsvToGroupData7Cols,
+  tsvToObjects,
   tnJsonToGroupData,
 } from './tsvToGroupData';
 export { convertTsv9to7 } from './tsvConversion';

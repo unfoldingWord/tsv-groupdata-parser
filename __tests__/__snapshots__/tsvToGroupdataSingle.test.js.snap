@@ -311,3 +311,19 @@ Array [
   },
 ]
 `;
+
+exports[`tsvToGroupData() - testing quotes Test three dot with verse range 1`] = `
+Array [
+  Object {
+    "occurrence": 1,
+    "word": "ἡμῶν",
+  },
+  Object {
+    "word": "…",
+  },
+  Object {
+    "occurrence": 2,
+    "word": "Χριστοῦ",
+  },
+]
+`;

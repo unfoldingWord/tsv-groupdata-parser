@@ -4,10 +4,6 @@ import { ELLIPSIS } from '../utils/constants';
 import { cleanRegex } from './wordOccurrenceHelpers';
 import { cleanQuoteString } from './stringHelpers';
 
-function indexPlusOneIsOdd(n) {
-  return !((n + 1) % 2 == 0);
-}
-
 function validateChunk(verseString, chunk) {
   if (chunk && verseString && !verseString.includes(chunk)) {
     return chunk.trim();
