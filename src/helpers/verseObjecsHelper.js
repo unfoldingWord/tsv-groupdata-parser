@@ -27,7 +27,7 @@ export function verseObjectsToString(verseObjects) {
         }
         return text;
       } else if (verseObject.children) {
-        return verseObjectsToString(verseObject.children);
+        return ' ' + verseObjectsToString(verseObject.children);
       }
     })
       // join strings

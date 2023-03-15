@@ -184,6 +184,118 @@ Array [
 
 exports[`tsvToGroupData() - testing quotes Test second occurrence 1`] = `"καὶ"`;
 
+exports[`tsvToGroupData() - testing quotes Test simple ampersand 1`] = `
+Array [
+  Object {
+    "occurrence": 1,
+    "word": "καθαροῖς",
+  },
+  Object {
+    "word": "…",
+  },
+  Object {
+    "occurrence": 2,
+    "word": "τοῖς",
+  },
+]
+`;
+
+exports[`tsvToGroupData() - testing quotes Test simple ampersand 2 1`] = `
+Array [
+  Object {
+    "occurrence": 2,
+    "word": "τοῖς",
+  },
+  Object {
+    "word": "…",
+  },
+  Object {
+    "occurrence": 1,
+    "word": "καὶ",
+  },
+]
+`;
+
+exports[`tsvToGroupData() - testing quotes Test simple ampersand 3 1`] = `
+Array [
+  Object {
+    "occurrence": 1,
+    "word": "καὶ",
+  },
+  Object {
+    "word": "…",
+  },
+  Object {
+    "occurrence": 1,
+    "word": "ἐν",
+  },
+]
+`;
+
+exports[`tsvToGroupData() - testing quotes Test simple ampersand with verse range 1`] = `
+Array [
+  Object {
+    "occurrence": 1,
+    "word": "καὶ",
+  },
+  Object {
+    "word": "…",
+  },
+  Object {
+    "occurrence": 3,
+    "word": "ἐν",
+  },
+]
+`;
+
+exports[`tsvToGroupData() - testing quotes Test simple ampersand with verse range 2 1`] = `
+Array [
+  Object {
+    "occurrence": 1,
+    "word": "δοῦλοι",
+  },
+  Object {
+    "word": "…",
+  },
+  Object {
+    "occurrence": 1,
+    "word": "Ἰησοῦ",
+  },
+]
+`;
+
+exports[`tsvToGroupData() - testing quotes Test simple ampersand with verse range 3 1`] = `
+Array [
+  Object {
+    "occurrence": 1,
+    "word": "Χριστῷ",
+  },
+  Object {
+    "word": "…",
+  },
+  Object {
+    "occurrence": 2,
+    "word": "Ἰησοῦ",
+  },
+]
+`;
+
+exports[`tsvToGroupData() - testing quotes Test simple ampersand with verse range 4 1`] = `
+Array [
+  Object {
+    "occurrence": 1,
+    "word": "ἡμῶν",
+  },
+  Object {
+    "word": "…",
+  },
+  Object {
+    "occurrence": 2,
+    "word": "Χριστοῦ",
+  },
+]
+`;
+
 exports[`tsvToGroupData() - testing quotes Test simple ellipsis 1`] = `
 Array [
   Object {

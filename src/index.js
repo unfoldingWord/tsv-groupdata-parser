@@ -1,6 +1,11 @@
 import ManageResource from './helpers/ManageResourceAPI';
 import * as verseHelpers from './helpers/verseHelpers';
-export { ManageResource, verseHelpers };
+import * as wordOccurrenceHelpers from './helpers/wordOccurrenceHelpers';
+export {
+  ManageResource,
+  verseHelpers,
+  wordOccurrenceHelpers,
+};
 export {
   cleanGroupId,
   generateGroupDataItem,
