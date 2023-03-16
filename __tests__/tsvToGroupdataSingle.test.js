@@ -64,6 +64,9 @@ const PHP_TEST = {
 };
 
 const tests = [
+  { name: '-1 occurrence', data: { Reference: '1:1-2,2:5', OrigQuote: 'καὶ', Occurrence: '-1' }, config: PHP_TEST, expect: 'quote' },
+  { name: 'simple ampersand with verse range and tWord tag', data: { Reference: '1:1-2,2:5', OrigQuote: 'καὶ & ἐν Χριστῷ' }, config: PHP_TEST, expect: 'quote' },
+  { name: 'simple ampersand with tWord tag', data: { Reference: '2:5', OrigQuote: 'καὶ & ἐν' }, config: PHP_TEST, expect: 'quote' },
   { name: 'three dot with verse range', data: { Reference: '1:1-2,2:5', OrigQuote: 'ἡμῶν...Χριστοῦ' }, config: PHP_TEST, expect: 'quote' },
   { name: 'simple ampersand with verse range 4', data: { Reference: '1:1-2,2:5', OrigQuote: 'ἡμῶν & Χριστοῦ' }, config: PHP_TEST, expect: 'quote' },
   { name: 'simple ampersand with verse range 3', data: { Reference: '1:1-2,2:5', OrigQuote: 'Χριστῷ & Ἰησοῦ' }, config: PHP_TEST, expect: 'quote' },
