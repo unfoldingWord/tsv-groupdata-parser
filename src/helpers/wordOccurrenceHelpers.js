@@ -93,6 +93,7 @@ export function getWordOccurrencesForQuote(quote, verseString, isOrigLang = fals
   quote = cleanQuoteString(quote);
 
   if (quote.includes(THREE_DOTS) || quote.includes(ELLIPSIS)) {
+    quote = quote.replace(/\.../g, ELLIPSIS);
     const quoteOmittedWords = getOmittedWordsInQuote(quote, verseString);
     wholeQuote = quoteOmittedWords.wholeQuote;
     quoteOmittedStrings = quoteOmittedWords.omittedStrings;

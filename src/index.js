@@ -1,10 +1,18 @@
 import ManageResource from './helpers/ManageResourceAPI';
 import * as verseHelpers from './helpers/verseHelpers';
-export { ManageResource, verseHelpers };
+import * as wordOccurrenceHelpers from './helpers/wordOccurrenceHelpers';
+export {
+  ManageResource,
+  verseHelpers,
+  wordOccurrenceHelpers,
+};
 export {
   cleanGroupId,
   generateGroupDataItem,
+  parseReference,
   tsvToGroupData,
+  tsvToGroupData7Cols,
+  tsvToObjects,
   tnJsonToGroupData,
 } from './tsvToGroupData';
 export { convertTsv9to7 } from './tsvConversion';

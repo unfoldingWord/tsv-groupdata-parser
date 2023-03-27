@@ -1,6 +1,6 @@
 {
   "name": "tsv-groupdata-parser",
-  "version": "1.0.1",
+  "version": "1.1.0-beta.5",
   "description": "Parses the translationNotes TSVs files to generate the GroupIndex and GroupData for the translationCore Desktop app.",
   "main": "lib/index.js",
   "scripts": {
@@ -19,6 +19,9 @@
     "type": "git",
     "url": "git+https://github.com/unfoldingWord/tsv-groupdata-parser.git"
   },
+  "files":[
+    "lib/*"
+  ],
   "keywords": [
     "tsv",
     "translationNotes",
@@ -54,7 +57,8 @@
     "ospath": "^1.2.2",
     "path-extra": "^4.3.0",
     "semver": "^6.1.1",
-    "tsvtojson": "^1.0.1"
+    "tsvtojson": "^1.0.1",
+    "uw-tsv-parser": "1.0.3"
   },
   "peerDependencies": {
     "string-punctuation-tokenizer": "^2.0.0"

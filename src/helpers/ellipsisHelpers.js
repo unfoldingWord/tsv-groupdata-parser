@@ -4,10 +4,6 @@ import { ELLIPSIS } from '../utils/constants';
 import { cleanRegex } from './wordOccurrenceHelpers';
 import { cleanQuoteString } from './stringHelpers';
 
-function indexPlusOneIsOdd(n) {
-  return !((n + 1) % 2 == 0);
-}
-
 function validateChunk(verseString, chunk) {
   if (chunk && verseString && !verseString.includes(chunk)) {
     return chunk.trim();
@@ -111,15 +107,15 @@ export function getOmittedWordsInQuote(quote, verseString) {
     const previousQuoteChunk = validateChunk(verseString, quoteChunks[index - 1]);
     let nextQuoteChunk = validateChunk(verseString, quoteChunks[index + 1]);
 
-    // if index plus one is odd & is not the last item in the array
-    if (indexPlusOneIsOdd(index) && index < quoteChunks.length - 1 && index !== 2 && index !== 4 && index !== 6) {
+    // if first chunk & is not the last item in the array
+    if ((index === 0) && (index < quoteChunks.length - 1)) {
       if (!verseString.includes(nextQuoteChunk)) {
         nextQuoteChunk = nextQuoteChunk.trim();
       }
 
       const strBeforeNextQuote = getStrPrecedingPreviousChunk(verseString, previousQuoteChunk, quoteChunk, nextQuoteChunk) || '';
 
-      // TRICKY: in some cases the chunck isnt found in the preceding string because of extra space in the string.
+      // TRICKY: in some cases the chunk isn't found in the preceding string because of extra space in the string.
       if (!strBeforeNextQuote.includes(quoteChunk)) {
         quoteChunk = quoteChunk.trim();
         quoteChunks[index] = quoteChunk;

@@ -1,6 +1,8 @@
 /* eslint-disable no-useless-escape */
 import path from 'path-extra';
 import fs from 'fs-extra';
+import * as tsvparser from 'uw-tsv-parser';
+import { cleanupReference } from 'bible-reference-range';
 import { categorizeGroupData } from './tNoteGroupIdCategorization';
 import ManageResource from './helpers/ManageResourceAPI';
 import { getWordOccurrencesForQuote } from './helpers/wordOccurrenceHelpers';
@@ -195,6 +197,134 @@ export const tsvToGroupData = async (filepath, toolName, params = {}, originalBi
   const tsvObjects = tsvtojson_(tsv);
   const { Book: bookId } = tsvObjects[0] || {};
   return tnJsonToGroupData(originalBiblePath, bookId, tsvObjects, resourcesPath, langId, toolName, params, filepath);
+};
+
+/**
+ * process the TSV file into index files
+ * @param {string} tsvPath
+ */
+// eslint-disable-next-line require-await
+export async function tsvToObjects(tsvPath) {
+  const tsvLines = fs.readFileSync(tsvPath).toString();
+  // console.log(tsvLines);
+  let tsvItems;
+  let parseErrorMsg;
+  let error;
+  let expectedColumns = 0;
+  const tableObject = tsvparser.tsvStringToTable(tsvLines);
+
+  if ( tableObject.errors.length > 0 ) {
+    parseErrorMsg = '';
+    expectedColumns = tableObject.header.length;
+
+    for (let i=0; i<tableObject.errors.length; i++) {
+      let msg;
+      const rownum = tableObject.errors[i][0] - 1; // adjust for data table without header row
+      const colsfound = tableObject.errors[i][1];
+
+      if ( colsfound > expectedColumns ) {
+        msg = 'Row is too long';
+      } else {
+        msg = 'Row is too short';
+      }
+      parseErrorMsg += `\n\n${msg}:`;
+      parseErrorMsg += '\n' + tableObject.data[rownum].join(',');
+    }
+    console.warn(`twArticleHelpers.twlTsvToGroupData() - table parse errors found: ${parseErrorMsg}`);
+  }
+
+  try {
+    tsvItems = tableObject.data.map(line => {
+      const tsvItem = {};
+      const l = tableObject.header.length;
+
+      for (let i = 0; i < l; i++) {
+        const key = tableObject.header[i];
+        const value = line[i] || '';
+        tsvItem[key] = value.trim();
+      }
+      return tsvItem;
+    });
+  } catch (e) {
+    console.error(`twArticleHelpers.twlTsvToGroupData() - error processing filepath: ${tsvPath}`, e);
+    error = e;
+  }
+  return {
+    tsvItems,
+    parseErrorMsg,
+    error,
+    expectedColumns,
+  };
+}
+
+/**
+ * separate a reference string such as "1:1" into chapter and verse and add a verseStr for references that have multiple verses
+ * @param {string} ref - reference string
+ * @return {{Chapter, Verse}}
+ */
+export function parseReference(ref) {
+  const cleanedRef = cleanupReference(ref);
+  const ref_ = {
+    Chapter: cleanedRef.chapter,
+    Verse: cleanedRef.verse + '',
+  };
+
+  if (cleanedRef.verseStr) {
+    ref_.verseStr = cleanedRef.verseStr;
+  }
+  return ref_;
+}
+
+/**
+ * process the 7 column tsv into group data
+ * @param {string} filepath path to tsv file.
+ * @param {string} bookId
+ * @param {string} resourcesPath path to the resources dir
+ * e.g. /User/john/translationCore/resources
+ * @param {string} langId
+ * @param {string} toolName tC tool name.
+ * @param {string} originalBiblePath path to original bible.
+ * e.g. /resources/el-x-koine/bibles/ugnt/v0.11
+ * @param {object} params When it includes { categorized: true }
+ * then it returns the object organized by tn article category.
+ * @return {Promise<{tsvItems, groupData: string}>}
+ */
+export const tsvToGroupData7Cols = async (filepath, bookId, resourcesPath, langId, toolName, originalBiblePath, params) => {
+  const {
+    tsvItems,
+    error,
+  } = await tsvToObjects(filepath, {});
+
+  if (error) {
+    throw error;
+  }
+
+  // convert 7 column TSV format to tsvObject format
+  const tsvObjects = [];
+
+  for (const tsvItem of tsvItems) {
+    const reference = tsvItem && tsvItem.Reference;
+
+    if (reference) {
+      tsvItem.OrigQuote = tsvItem.Quote;
+      tsvItem.OccurrenceNote = tsvItem.Note;
+      tsvItem.Book = bookId;
+      const cleanedRef = parseReference(reference);
+      const tsvObject = {
+        ...tsvItem,
+        ...cleanedRef,
+      };
+      tsvObjects.push(tsvObject);
+    }
+  }
+
+  try {
+    const groupData = tnJsonToGroupData(originalBiblePath, bookId, tsvObjects, resourcesPath, langId, toolName, params, filepath);
+    return groupData;
+  } catch (e) {
+    console.error(`tsvToGroupData7Cols() - error processing filepath: ${filepath}`, e);
+    throw e;
+  }
 };
 
 /**
