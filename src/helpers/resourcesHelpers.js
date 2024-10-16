@@ -72,7 +72,7 @@ export function getLatestVersionInPath(resourcePath) {
  * @returns {string}
  */
 export function getBibleIdForLanguage(biblesPath) {
-  const biblePrecedence = ['irv', 'ult', 'ulb', 'ust', 'udb']; // Used to determine which may be the more dominate Bible version
+  const biblePrecedence = ['irv', 'ult', 'ulb', 'ust', 'udb', 'glt', 'gst']; // Used to determine which may be the more dominate Bible version
   const bibleList = fs.readdirSync(biblesPath).sort();
 
   if (bibleList.length === 0) {
