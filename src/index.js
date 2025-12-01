@@ -1,7 +1,9 @@
+import * as ellipsisHelpers from './helpers/ellipsisHelpers';
 import ManageResource from './helpers/ManageResourceAPI';
 import * as verseHelpers from './helpers/verseHelpers';
 import * as wordOccurrenceHelpers from './helpers/wordOccurrenceHelpers';
 export {
+  ellipsisHelpers,
   ManageResource,
   verseHelpers,
   wordOccurrenceHelpers,
